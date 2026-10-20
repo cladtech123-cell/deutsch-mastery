@@ -20,15 +20,34 @@
   --color-rot: #c8102e;
 
   --shadow-card: 0 1px 0 rgb(28 27 25 / 0.05), 0 2px 6px -2px rgb(28 27 25 / 0.08);
-  --shadow-glass: inset 0 1px 0 rgb(255 255 255 / 0.85), 0 12px 32px -14px rgb(28 27 25 / 0.35);
+  /* paper cut-out laid on the page: hard pencil-black offset, no blur */
+  --shadow-cutout: 3px 3px 0 var(--color-ink);
+
+  /* motion tokens: arrive decelerating, leave faster */
+  --ease-out-paper: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --animate-page-in: page-in 240ms var(--ease-out-paper) both;
+  --animate-pop-in: pop-in 200ms var(--ease-out-paper) both;
+  --animate-sheet-up: sheet-up 220ms var(--ease-out-paper) both;
+
+  @keyframes page-in {
+    from { opacity: 0; transform: translateY(6px); }
+  }
+  @keyframes pop-in {
+    from { opacity: 0; transform: scale(0.97); }
+  }
+  @keyframes sheet-up {
+    from { opacity: 0; transform: translateY(12px); }
+  }
+  @keyframes mark-swipe {
+    from { transform: scaleX(0); }
+  }
 }
 
 html {
   color-scheme: light;
 }
 
-/* Squared notebook paper (5 mm grid) as an SVG tile — a texture, not a gradient. It is also what the
-   glass navigation blurs, so the material is visible. */
+/* Squared notebook paper (5 mm grid) as an SVG tile — a texture, not a gradient. */
 body {
   @apply bg-paper text-ink antialiased;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Cpath d='M24 .5H.5V24' fill='none' stroke='%23dcd8cd' stroke-width='1'/%3E%3C/svg%3E");
@@ -69,7 +88,7 @@ a.underline:hover {
     @apply rounded-xl border border-stone-300/70 bg-sheet p-4 shadow-card sm:p-5;
   }
   .btn {
-    @apply inline-flex min-h-11 cursor-pointer items-center justify-center gap-2 rounded-lg border-2 border-ink/80 bg-sheet px-4 py-2 text-sm font-semibold text-ink transition-colors duration-150 hover:bg-marker-soft active:bg-marker disabled:cursor-not-allowed disabled:opacity-50;
+    @apply inline-flex min-h-11 cursor-pointer items-center justify-center gap-2 rounded-lg border-2 border-ink/80 bg-sheet px-4 py-2 text-sm font-semibold text-ink transition-[background-color,border-color,translate] duration-150 hover:bg-marker-soft active:translate-y-px active:bg-marker disabled:cursor-not-allowed disabled:opacity-50;
   }
   .btn-primary {
     @apply border-ink bg-ink text-sheet hover:border-ink-soft hover:bg-ink-soft active:bg-black;
@@ -103,23 +122,20 @@ a.underline:hover {
   .eyebrow {
     @apply font-mono text-[11px] font-semibold tracking-[0.12em] text-stone-600 uppercase;
   }
-  /* Liquid-glass material for navigation chrome only (header, tab bar, menus, sidebar), never for
-     reading surfaces: translucent fill + blur over the squared paper, bright top edge, soft lift. */
-  .glass {
-    @apply border border-white/80 bg-white/55 backdrop-blur-xl backdrop-saturate-150;
-    box-shadow: var(--shadow-glass);
+  /* Navigation chrome (sidebar, tab bar, menus): a paper cut-out on the squared page — opaque sheet,
+     pencil outline, hard offset shadow. Same material as the buttons, so chrome and page match. */
+  .cutout {
+    @apply border-2 border-ink bg-sheet;
+    box-shadow: var(--shadow-cutout);
   }
-}
-
-/* Without backdrop-filter or with "reduce transparency" the glass becomes a plain opaque sheet. */
-@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
-  .glass {
-    background-color: rgb(255 254 251 / 0.97);
+  /* Active nav item: the yellow marker swipes in left to right behind the text. */
+  .marked {
+    @apply relative isolate font-semibold text-ink;
   }
-}
-@media (prefers-reduced-transparency: reduce) {
-  .glass {
-    background-color: var(--color-sheet);
-    backdrop-filter: none;
+  .marked::before {
+    content: "";
+    @apply absolute inset-0 -z-10 rounded-[inherit] bg-marker;
+    transform-origin: left;
+    animation: mark-swipe 260ms var(--ease-out-paper) both;
   }
 }

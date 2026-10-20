@@ -41,7 +41,7 @@ const MORE = NAV.filter((n) => !TABS.some((t) => t.to === n.to))
 
 const linkClass = ({ isActive }: { isActive: boolean }) =>
   `flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium transition-colors duration-150 ${
-    isActive ? 'bg-marker font-semibold text-ink' : 'text-stone-700 hover:bg-marker-soft hover:text-ink'
+    isActive ? 'marked' : 'text-stone-700 hover:bg-marker-soft hover:text-ink'
   }`
 
 export function Brand({ subtitle = false }: { subtitle?: boolean }) {
@@ -67,13 +67,14 @@ export function Layout() {
   const me = useMe()
   const logout = useLogout()
   const [moreOpen, setMoreOpen] = useState(false)
+  const { pathname } = useLocation()
 
   return (
     <div className="min-h-dvh lg:flex">
       <a href="#main" className="sr-only z-50 rounded bg-white p-2 focus:not-sr-only focus:fixed focus:top-2 focus:left-2">
         Asosiy kontentga o'tish
       </a>
-      <aside className="glass sticky top-3 m-3 hidden self-start h-[calc(100dvh-1.5rem)] w-64 shrink-0 rounded-3xl lg:flex lg:flex-col">
+      <aside className="cutout sticky top-3 m-3 mr-4 hidden self-start h-[calc(100dvh-1.75rem)] w-64 shrink-0 rounded-2xl lg:flex lg:flex-col">
         <div className="px-5 py-5">
           <Brand subtitle />
         </div>
@@ -89,7 +90,7 @@ export function Layout() {
             ))}
           </ul>
         </nav>
-        <div className="border-t border-stone-300/60 p-3">
+        <div className="border-t-2 border-dashed border-stone-300 p-3">
           <p className="truncate px-3 text-sm text-stone-700">{me.data?.display_name}</p>
           <button type="button" className="btn mt-2 w-full" onClick={() => logout.mutate()}>
             <LogOut aria-hidden className="size-4" /> Chiqish
@@ -97,17 +98,20 @@ export function Layout() {
         </div>
       </aside>
 
-      <header className="glass sticky top-0 z-20 flex items-center justify-between border-x-0 border-t-0 px-4 py-3 lg:hidden">
+      <header className="sticky top-0 z-20 flex items-center justify-between border-b-2 border-ink bg-sheet px-4 py-3 lg:hidden">
         <Brand />
       </header>
 
       <main id="main" className="mx-auto w-full max-w-4xl flex-1 px-4 pt-5 pb-28 sm:px-6 lg:pb-10">
-        <Outlet />
+        {/* keyed by route: each page settles in instead of snapping */}
+        <div key={pathname} className="animate-page-in">
+          <Outlet />
+        </div>
       </main>
 
       <nav
         aria-label="Pastki navigatsiya"
-        className="glass fixed inset-x-3 bottom-[calc(0.75rem+env(safe-area-inset-bottom))] z-30 rounded-full p-1.5 lg:hidden"
+        className="cutout fixed inset-x-3 bottom-[calc(0.75rem+env(safe-area-inset-bottom))] z-30 rounded-2xl p-1.5 lg:hidden"
       >
         <ul className="grid grid-cols-5 gap-1">
           {TABS.map(({ to, label, icon: Icon }) => (
@@ -116,8 +120,8 @@ export function Layout() {
                 to={to}
                 end={to === '/'}
                 className={({ isActive }) =>
-                  `flex flex-col items-center gap-0.5 rounded-full py-1.5 text-[11px] font-semibold transition-colors duration-150 active:bg-stone-900/5 ${
-                    isActive ? 'bg-marker text-ink' : 'text-stone-700 hover:text-ink'
+                  `flex flex-col items-center gap-0.5 rounded-xl py-1.5 text-[11px] font-semibold transition-colors duration-150 active:bg-stone-900/5 ${
+                    isActive ? 'marked' : 'text-stone-700 hover:text-ink'
                   }`
                 }
               >
@@ -132,8 +136,8 @@ export function Layout() {
               aria-expanded={moreOpen}
               aria-controls="more-menu"
               onClick={() => setMoreOpen((v) => !v)}
-              className={`flex w-full flex-col items-center gap-0.5 rounded-full py-1.5 text-[11px] font-semibold transition-colors duration-150 active:bg-stone-900/5 ${
-                moreOpen ? 'bg-marker text-ink' : 'text-stone-700 hover:text-ink'
+              className={`flex w-full flex-col items-center gap-0.5 rounded-xl py-1.5 text-[11px] font-semibold transition-colors duration-150 active:bg-stone-900/5 ${
+                moreOpen ? 'bg-marker-soft text-ink' : 'text-stone-700 hover:text-ink'
               }`}
             >
               {moreOpen ? <X aria-hidden className="size-5" /> : <Menu aria-hidden className="size-5" />}
@@ -145,7 +149,7 @@ export function Layout() {
       {moreOpen && (
         <div
           id="more-menu"
-          className="glass fixed inset-x-3 bottom-[calc(5.25rem+env(safe-area-inset-bottom))] z-30 max-h-[65dvh] overflow-y-auto rounded-3xl p-3 lg:hidden"
+          className="cutout fixed inset-x-3 bottom-[calc(5.5rem+env(safe-area-inset-bottom))] z-30 max-h-[65dvh] origin-bottom animate-sheet-up overflow-y-auto rounded-2xl p-3 lg:hidden"
         >
           <ul className="grid grid-cols-2 gap-1">
             {MORE.map(({ to, label, icon: Icon }) => (

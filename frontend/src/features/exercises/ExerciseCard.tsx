@@ -14,7 +14,7 @@ export function Feedback({ result }: { result: CheckResult }) {
   return (
     <div
       role="status"
-      className={`space-y-2 rounded-lg border p-3 text-sm ${result.correct ? 'border-green-300 bg-green-50' : 'border-red-300 bg-red-50'}`}
+      className={`animate-pop-in space-y-2 rounded-lg border p-3 text-sm ${result.correct ? 'border-green-300 bg-green-50' : 'border-red-300 bg-red-50'}`}
     >
       <p className={`flex items-center gap-2 text-base font-semibold ${result.correct ? 'text-green-800' : 'text-red-800'}`}>
         {result.correct ? <CheckCircle2 aria-hidden className="size-5" /> : <XCircle aria-hidden className="size-5" />}

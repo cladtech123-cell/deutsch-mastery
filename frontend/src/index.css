@@ -1,7 +1,13 @@
 @import "tailwindcss";
 
+/* Learning indigo for actions, green for progress. Nunito (rounded, friendly) for headings, Noto Sans for reading:
+   both cover German umlauts/ß and Uzbek Latin. Fonts load from index.html; the system stack is the fallback. */
 @theme {
-  --font-sans: system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-sans: "Noto Sans", system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-display: "Nunito", "Noto Sans", system-ui, "Segoe UI", sans-serif;
+  --color-canvas: #f5f6fb;
+  --shadow-card: 0 1px 2px rgb(15 23 42 / 0.04), 0 6px 16px -8px rgb(15 23 42 / 0.1);
+  --shadow-raised: 0 1px 2px rgb(67 56 202 / 0.2), 0 8px 20px -8px rgb(67 56 202 / 0.45);
 }
 
 html {
@@ -9,7 +15,7 @@ html {
 }
 
 body {
-  @apply bg-slate-50 text-slate-900 antialiased;
+  @apply bg-canvas text-slate-900 antialiased;
 }
 
 :focus-visible {
@@ -17,38 +23,47 @@ body {
   outline-offset: 2px;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
+
 @layer components {
   .card {
-    @apply rounded-xl border border-slate-200 bg-white p-4 sm:p-5;
+    @apply rounded-2xl border border-slate-200/80 bg-white p-4 shadow-card sm:p-5;
   }
   .btn {
-    @apply inline-flex min-h-10 items-center justify-center gap-2 rounded-lg border border-slate-300 bg-white px-4 py-2 text-sm font-medium text-slate-800 hover:bg-slate-100 disabled:cursor-not-allowed disabled:opacity-50;
+    @apply inline-flex min-h-11 cursor-pointer items-center justify-center gap-2 rounded-xl border border-slate-300 bg-white px-4 py-2 text-sm font-semibold text-slate-800 transition-colors duration-150 hover:border-slate-400 hover:bg-slate-50 active:bg-slate-100 disabled:cursor-not-allowed disabled:opacity-50;
   }
   .btn-primary {
-    @apply border-indigo-700 bg-indigo-700 text-white hover:bg-indigo-800;
+    @apply border-indigo-600 bg-indigo-600 text-white shadow-raised hover:border-indigo-700 hover:bg-indigo-700 active:bg-indigo-800;
   }
   .btn-danger {
-    @apply border-red-700 bg-red-700 text-white hover:bg-red-800;
+    @apply border-red-700 bg-red-700 text-white hover:border-red-800 hover:bg-red-800 active:bg-red-900;
   }
   .btn-sm {
-    @apply min-h-8 px-2.5 py-1 text-xs;
+    @apply min-h-9 rounded-lg px-3 py-1 text-xs;
   }
   .input {
-    @apply block w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-base text-slate-900 placeholder:text-slate-500 disabled:bg-slate-100;
+    @apply block w-full rounded-xl border border-slate-300 bg-white px-3.5 py-2.5 text-base text-slate-900 transition-colors duration-150 placeholder:text-slate-500 hover:border-slate-400 focus:border-indigo-600 disabled:bg-slate-100;
   }
   .label {
-    @apply mb-1 block text-sm font-medium text-slate-700;
+    @apply mb-1.5 block text-sm font-semibold text-slate-700;
   }
   .muted {
     @apply text-sm text-slate-600;
   }
   .h1 {
-    @apply text-2xl font-semibold tracking-tight text-slate-900;
+    @apply font-display text-[1.75rem] leading-tight font-extrabold tracking-tight text-balance text-slate-900;
   }
   .h2 {
-    @apply text-lg font-semibold text-slate-900;
+    @apply font-display text-lg font-bold text-slate-900;
   }
   .chip {
-    @apply inline-flex items-center rounded-full bg-slate-100 px-2.5 py-0.5 text-xs font-medium text-slate-700;
+    @apply inline-flex items-center rounded-full border border-slate-200 bg-white px-2.5 py-0.5 text-xs font-semibold text-slate-700;
   }
 }

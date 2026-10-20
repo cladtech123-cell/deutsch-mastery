@@ -21,7 +21,7 @@ export function PathPage() {
             {c.levels.map((level) => (
               <section key={level.code} aria-labelledby={`lvl-${level.code}`}>
                 <h2 id={`lvl-${level.code}`} className="h2 mb-3">
-                  {level.code} — {level.title}
+                  {level.title}
                 </h2>
                 <ol className="space-y-3">
                   {level.modules.map((m) => (

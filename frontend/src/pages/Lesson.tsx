@@ -89,11 +89,11 @@ function LessonView({ lesson }: { lesson: LessonOut }) {
         title={lesson.title}
         subtitle={
           <>
-            <span lang="de">{lesson.title_de}</span> В· {lesson.level}, {lesson.module}-modul, {lesson.order}-dars
+            <span lang="de">{lesson.title_de}</span> · {lesson.level}, {lesson.module}-modul, {lesson.order}-dars
             {lesson.progress && (
               <>
                 {' '}
-                В· {lesson.progress.status === 'completed' ? 'tugallangan' : 'boshlangan'}
+                · {lesson.progress.status === 'completed' ? 'tugallangan' : 'boshlangan'}
                 {lesson.progress.best_score != null && `, eng yaxshi natija ${Math.round(lesson.progress.best_score)}%`}
               </>
             )}
@@ -101,11 +101,14 @@ function LessonView({ lesson }: { lesson: LessonOut }) {
         }
       />
 
-      <nav aria-label="Dars bo'limlari" className="-mx-4 overflow-x-auto px-4">
+      <nav aria-label="Dars bo'limlari" className="-mx-4 overflow-x-auto px-4 pb-2">
         <ol className="flex gap-2 whitespace-nowrap">
           {SECTIONS.map(([sid, label], i) => (
             <li key={sid}>
-              <a href={`#${sid}`} className="chip hover:bg-slate-200">
+              <a
+                href={`#${sid}`}
+                className="inline-flex min-h-9 items-center rounded-full border border-slate-200 bg-white px-3.5 text-xs font-semibold text-slate-700 shadow-card transition-colors duration-150 hover:border-indigo-300 hover:text-indigo-700"
+              >
                 {i + 1}. {label}
               </a>
             </li>

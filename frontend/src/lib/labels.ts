@@ -70,9 +70,18 @@ export function formatAnswer(a: Answer | null | undefined): string {
     .join('; ')
 }
 
+// Uzbek names by hand: browsers often ship no uz-UZ locale data and silently fall back to English.
+const MONTHS = ['yanvar', 'fevral', 'mart', 'aprel', 'may', 'iyun', 'iyul', 'avgust', 'sentabr', 'oktabr', 'noyabr', 'dekabr']
+const WEEKDAYS = ['Ya', 'Du', 'Se', 'Ch', 'Pa', 'Ju', 'Sh']
+
 export function formatDate(iso: string): string {
   const d = new Date(iso)
-  return Number.isNaN(d.getTime()) ? iso : d.toLocaleDateString('uz-UZ', { day: 'numeric', month: 'short', year: 'numeric' })
+  return Number.isNaN(d.getTime()) ? iso : `${d.getDate()}-${MONTHS[d.getMonth()]}, ${d.getFullYear()}`
+}
+
+export function weekdayShort(iso: string): string {
+  const d = new Date(iso)
+  return Number.isNaN(d.getTime()) ? '' : WEEKDAYS[d.getDay()]
 }
 
 export const wordCount = (s: string) => s.trim().split(/\s+/).filter(Boolean).length

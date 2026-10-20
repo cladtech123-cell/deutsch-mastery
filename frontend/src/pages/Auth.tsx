@@ -5,12 +5,15 @@ import { errorMessage, ME_KEY, queryClient } from '../api/client'
 import { api } from '../api/endpoints'
 import { useMe } from '../api/queries'
 import type { UserOut } from '../api/types'
+import { Brand } from '../components/Layout'
 
 function AuthShell({ title, children }: { title: string; children: ReactNode }) {
   return (
     <main className="flex min-h-dvh items-center justify-center px-4 py-10">
       <div className="w-full max-w-sm">
-        <p className="mb-1 text-center text-lg font-bold text-indigo-800">Deutsch Mastery</p>
+        <div className="mb-2 flex justify-center">
+          <Brand />
+        </div>
         <p className="muted mb-6 text-center">Nemis tili: noldan A2 gacha, o'zbek tilida</p>
         <div className="card">
           <h1 className="h1 mb-4">{title}</h1>

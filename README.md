@@ -131,6 +131,9 @@ docker compose logs tunnel | grep trycloudflare
 - To'xtatish: `docker compose stop tunnel`.
 
 ## 11. Production'ga joylashtirish
+Bepul server (Oracle Cloud Always Free) uchun tayyor skript va qadamma-qadam qo'llanma:
+[deploy/oracle/README.md](deploy/oracle/README.md).
+
 - `.env`: `ENV=production` (cookie `Secure` bo'ladi), kuchli `JWT_SECRET` va DB paroli, `ALLOWED_ORIGINS` = haqiqiy domen,
   `DEMO_PASSWORD` bo'sh.
 - Frontend'ni HTTPS orqali (reverse proxy yoki load balancer) bering; backend porti va PostgreSQL tashqariga ochilmasin.

@@ -47,7 +47,8 @@ services:
     build: ./frontend
     restart: unless-stopped
     ports:
-      - "${FRONTEND_HOST_PORT:-8080}:80"
+      # FRONTEND_BIND=127.0.0.1 on a public server: the app is then reachable only through the HTTPS tunnel
+      - "${FRONTEND_BIND:-0.0.0.0}:${FRONTEND_HOST_PORT:-8080}:80"
     depends_on:
       backend:
         condition: service_healthy
@@ -62,6 +63,19 @@ services:
     depends_on:
       - frontend
     profiles: ["tunnel"]
+
+  # Permanent HTTPS address on your own domain (Cloudflare Zero Trust tunnel). Opt-in, needs
+  # CLOUDFLARE_TUNNEL_TOKEN in .env; route the public hostname to http://frontend:80 in the Cloudflare dashboard.
+  #   docker compose --profile named-tunnel up -d
+  tunnel-named:
+    image: cloudflare/cloudflared:2025.10.1
+    command: tunnel --no-autoupdate run
+    environment:
+      TUNNEL_TOKEN: ${CLOUDFLARE_TUNNEL_TOKEN:-}
+    restart: unless-stopped
+    depends_on:
+      - frontend
+    profiles: ["named-tunnel"]
 
 volumes:
   pgdata:

@@ -118,6 +118,18 @@ AI tutor sahifasi "AI sozlanmagan" xabarini ko'rsatadi (`/api/ai/tutor` → 503)
   (seed noto'g'ri kontent faylida to'xtaydi va qaysi fayl ekanini yozadi).
 - **Kontent xatosi:** `python backend/scripts/validate_content.py` — 0 error bo'lishi kerak.
 
+## Boshqa qurilma va boshqa tarmoqdan ochish (Cloudflare tunnel)
+Hisob va o'rnatish kerak emas: tunnel Docker konteynerida ishlaydi va `https://...trycloudflare.com` manzil beradi.
+```bash
+docker compose --profile tunnel up -d
+docker compose logs tunnel | grep trycloudflare
+```
+- Manzil har safar tunnel konteyneri qayta ishga tushganda o'zgaradi; kompyuter va Docker yoniq turishi kerak.
+- Havolani bilgan har kim ilovani ochishi mumkin (har kim o'z akkauntini ochadi).
+- Tunnel orqali barcha foydalanuvchilar backend'ga bitta IP'dan keladi, shuning uchun login rate limit (daqiqasiga 10)
+  hammaga umumiy.
+- To'xtatish: `docker compose stop tunnel`.
+
 ## 11. Production'ga joylashtirish
 - `.env`: `ENV=production` (cookie `Secure` bo'ladi), kuchli `JWT_SECRET` va DB paroli, `ALLOWED_ORIGINS` = haqiqiy domen,
   `DEMO_PASSWORD` bo'sh.

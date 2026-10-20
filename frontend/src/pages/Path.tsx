@@ -6,8 +6,8 @@ import { PageHeader, ProgressBar, QueryView } from '../components/States'
 
 function StatusIcon({ status }: { status: CurriculumLesson['status'] }) {
   if (status === 'completed') return <CheckCircle2 aria-label="tugallangan" className="size-5 shrink-0 text-green-700" />
-  if (status === 'started') return <PlayCircle aria-label="boshlangan" className="size-5 shrink-0 text-indigo-700" />
-  return <Circle aria-label="boshlanmagan" className="size-5 shrink-0 text-slate-400" />
+  if (status === 'started') return <PlayCircle aria-label="boshlangan" className="size-5 shrink-0 text-ink" />
+  return <Circle aria-label="boshlanmagan" className="size-5 shrink-0 text-stone-500" />
 }
 
 export function PathPage() {
@@ -29,33 +29,33 @@ export function PathPage() {
                       <div className="mb-2 flex flex-wrap items-baseline justify-between gap-2">
                         <h3 className="font-semibold">
                           {m.number}-modul. {m.title}{' '}
-                          <span lang="de" className="font-normal text-slate-500">
+                          <span lang="de" className="font-normal text-stone-600">
                             ({m.title_de})
                           </span>
                         </h3>
-                        <span className="text-sm text-slate-600">{Math.round(m.percent)}%</span>
+                        <span className="text-sm text-stone-600">{Math.round(m.percent)}%</span>
                       </div>
                       <ProgressBar value={m.percent} label={`${m.number}-modul bajarilishi`} />
                       {m.goals.length > 0 && (
                         <details className="mt-2 text-sm">
-                          <summary className="cursor-pointer text-slate-700">Modul maqsadlari</summary>
-                          <ul className="mt-1 list-disc pl-5 text-slate-700">
+                          <summary className="cursor-pointer text-stone-700">Modul maqsadlari</summary>
+                          <ul className="mt-1 list-disc pl-5 text-stone-700">
                             {m.goals.map((g) => (
                               <li key={g}>{g}</li>
                             ))}
                           </ul>
                         </details>
                       )}
-                      <ul className="mt-3 divide-y divide-slate-100">
+                      <ul className="mt-3 divide-y divide-stone-100">
                         {m.lessons.map((l) => (
                           <li key={l.id}>
-                            <Link to={`/lessons/${l.id}`} className="flex items-center gap-3 rounded py-2 hover:bg-slate-50">
+                            <Link to={`/lessons/${l.id}`} className="flex items-center gap-3 rounded py-2 hover:bg-stone-50">
                               <StatusIcon status={l.status} />
                               <span className="flex-1">
                                 {l.order}. {l.title}
                               </span>
                               {l.best_score != null && (
-                                <span className="text-sm text-slate-600">{Math.round(l.best_score)}%</span>
+                                <span className="text-sm text-stone-600">{Math.round(l.best_score)}%</span>
                               )}
                             </Link>
                           </li>

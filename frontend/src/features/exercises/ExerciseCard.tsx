@@ -70,8 +70,8 @@ export function Feedback({ result }: { result: CheckResult }) {
 
 function Meta({ exercise, index }: { exercise: ExerciseOut; index?: number }) {
   return (
-    <p className="mb-2 flex flex-wrap items-center gap-1.5 text-xs text-slate-500">
-      {index != null && <span className="font-semibold text-slate-700">{index}.</span>}
+    <p className="mb-2 flex flex-wrap items-center gap-1.5 text-xs text-stone-600">
+      {index != null && <span className="font-semibold text-stone-700">{index}.</span>}
       <span className="chip">{skillLabel[exercise.skill] ?? exercise.skill}</span>
       <span>{exercise.points} ball</span>
     </p>
@@ -122,7 +122,7 @@ export function ExerciseCard({
           )}
         </div>
       )}
-      {showHint && !result && exercise.hint && <p className="rounded-lg bg-slate-100 p-2 text-sm">{exercise.hint}</p>}
+      {showHint && !result && exercise.hint && <p className="rounded-lg bg-stone-100 p-2 text-sm">{exercise.hint}</p>}
       {check.isError && (
         <p role="alert" className="text-sm text-red-700">
           {errorMessage(check.error)}
@@ -136,8 +136,8 @@ export function ExerciseCard({
 
 export function RetryExercise({ exercise }: { exercise: ExerciseOut }) {
   return (
-    <section className="space-y-2 border-l-4 border-indigo-300 pl-3">
-      <h4 className="flex items-center gap-2 text-sm font-semibold text-indigo-900">
+    <section className="space-y-2 border-l-4 border-stone-400 pl-3">
+      <h4 className="flex items-center gap-2 text-sm font-semibold text-ink">
         <RotateCcw aria-hidden className="size-4" /> Shu bilimni boshqa misolda tekshiring
       </h4>
       <ExerciseCard exercise={exercise} />
@@ -187,8 +187,8 @@ export function ExamForm({
           ))}
         </section>
       ))}
-      <div className="sticky bottom-20 z-10 flex flex-wrap items-center gap-3 rounded-xl border border-slate-200 bg-white/95 p-3 lg:bottom-4">
-        <span className="text-sm text-slate-700">
+      <div className="sticky bottom-20 z-10 flex flex-wrap items-center gap-3 rounded-xl border border-stone-200 bg-white/95 p-3 lg:bottom-4">
+        <span className="text-sm text-stone-700">
           Javob berilgan: {done} / {all.length}
         </span>
         <button type="submit" className="btn btn-primary" disabled={pending || done === 0}>

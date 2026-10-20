@@ -29,10 +29,10 @@ function AiFeedback({ value }: { value: unknown }) {
     )
   }
   return (
-    <section className="rounded-lg border border-indigo-200 bg-indigo-50 p-3 text-sm whitespace-pre-wrap">
+    <section className="rounded-lg border border-stone-400 bg-marker-soft p-3 text-sm whitespace-pre-wrap">
       <h3 className="mb-1 font-semibold">AI tavsiyalari</h3>
       {render(value)}
-      <p className="mt-2 text-xs text-slate-600">AI izohlari xato bo'lishi mumkin — kurs qoidalari bilan solishtiring.</p>
+      <p className="mt-2 text-xs text-stone-600">AI izohlari xato bo'lishi mumkin — kurs qoidalari bilan solishtiring.</p>
     </section>
   )
 }
@@ -40,10 +40,10 @@ function AiFeedback({ value }: { value: unknown }) {
 function SubmissionResult({ s, task }: { s: WritingSubmission; task: WritingTask }) {
   return (
     <div className="space-y-3" role="status">
-      <p className="text-sm text-slate-600">
+      <p className="text-sm text-stone-600">
         {formatDate(s.created_at)} · {s.word_count} so'z
       </p>
-      <blockquote lang="de" className="rounded-lg bg-slate-100 p-3 whitespace-pre-wrap">
+      <blockquote lang="de" className="rounded-lg bg-stone-100 p-3 whitespace-pre-wrap">
         {s.text}
       </blockquote>
       <ul className="space-y-1 text-sm">
@@ -88,7 +88,7 @@ function TaskView({ task }: { task: WritingTask }) {
       <section className="card space-y-2">
         <h2 className="h2">{task.title}</h2>
         <p>{task.task_uz}</p>
-        <p className="text-sm text-slate-700">
+        <p className="text-sm text-stone-700">
           Daraja: {task.level} · Uzunlik: {task.min_words}–{task.max_words} so'z
         </p>
         {task.required_words.length > 0 && (
@@ -118,7 +118,7 @@ function TaskView({ task }: { task: WritingTask }) {
         }}
       >
         <UmlautField label="Matningiz (nemischa)" value={text} onChange={setText} multiline disabled={submit.isPending} />
-        <p className={`text-sm ${n < task.min_words || n > task.max_words ? 'text-slate-600' : 'text-green-800'}`}>
+        <p className={`text-sm ${n < task.min_words || n > task.max_words ? 'text-stone-600' : 'text-green-800'}`}>
           {n} so'z (tavsiya: {task.min_words}–{task.max_words})
         </p>
         {submit.isError && (

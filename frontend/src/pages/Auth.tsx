@@ -84,7 +84,7 @@ export function LoginPage() {
       </form>
       <p className="muted mt-4 text-center">
         Hisobingiz yo'qmi?{' '}
-        <Link to="/register" className="font-medium text-indigo-700 underline">
+        <Link to="/register" className="font-medium text-ink underline">
           Ro'yxatdan o'ting
         </Link>
       </p>
@@ -136,7 +136,7 @@ export function RegisterPage() {
       </form>
       <p className="muted mt-4 text-center">
         Hisobingiz bormi?{' '}
-        <Link to="/login" className="font-medium text-indigo-700 underline">
+        <Link to="/login" className="font-medium text-ink underline">
           Kirish
         </Link>
       </p>

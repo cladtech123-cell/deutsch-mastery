@@ -33,7 +33,7 @@ export function OnboardingPage() {
   const settings = useSettings()
   return (
     <main className="mx-auto max-w-2xl px-4 py-8">
-      <p className="mb-1 font-bold text-indigo-800">Deutsch Mastery</p>
+      <p className="mb-1 font-bold text-ink">Deutsch Mastery</p>
       <QueryView query={settings}>{(s) => <Wizard initial={s} />}</QueryView>
     </main>
   )
@@ -81,8 +81,8 @@ function Wizard({ initial }: { initial: Settings }) {
           <legend className="label">Nemis tilini bilish darajangiz</legend>
           <div className="grid gap-2 sm:grid-cols-2">
             {KNOWN.map((k) => (
-              <label key={k.value} className="flex items-center gap-2 rounded-lg border border-slate-300 p-2.5 has-checked:border-indigo-600 has-checked:bg-indigo-50">
-                <input type="radio" name="known" checked={known === k.value} onChange={() => setKnown(k.value)} className="accent-indigo-700" />
+              <label key={k.value} className="flex items-center gap-2 rounded-lg border border-stone-300 p-2.5 has-checked:border-ink has-checked:bg-marker-soft">
+                <input type="radio" name="known" checked={known === k.value} onChange={() => setKnown(k.value)} className="accent-ink" />
                 {k.label}
               </label>
             ))}
@@ -92,8 +92,8 @@ function Wizard({ initial }: { initial: Settings }) {
           <legend className="label">Kuniga qancha vaqt ajratasiz?</legend>
           <div className="flex flex-wrap gap-2">
             {MINUTES.map((m) => (
-              <label key={m} className="flex items-center gap-2 rounded-lg border border-slate-300 px-3 py-2 has-checked:border-indigo-600 has-checked:bg-indigo-50">
-                <input type="radio" name="minutes" checked={form.daily_minutes === m} onChange={() => setForm({ ...form, daily_minutes: m })} className="accent-indigo-700" />
+              <label key={m} className="flex items-center gap-2 rounded-lg border border-stone-300 px-3 py-2 has-checked:border-ink has-checked:bg-marker-soft">
+                <input type="radio" name="minutes" checked={form.daily_minutes === m} onChange={() => setForm({ ...form, daily_minutes: m })} className="accent-ink" />
                 {m} daqiqa
               </label>
             ))}
@@ -124,7 +124,7 @@ function Wizard({ initial }: { initial: Settings }) {
           </select>
         </div>
         <label className="flex items-center gap-2">
-          <input type="checkbox" checked={form.reminders_enabled} onChange={(e) => setForm({ ...form, reminders_enabled: e.target.checked })} className="size-4 accent-indigo-700" />
+          <input type="checkbox" checked={form.reminders_enabled} onChange={(e) => setForm({ ...form, reminders_enabled: e.target.checked })} className="size-4 accent-ink" />
           Dars va takrorlash eslatmalarini yoqish
         </label>
         {error}

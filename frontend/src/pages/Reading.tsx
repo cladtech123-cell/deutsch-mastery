@@ -17,7 +17,7 @@ export function ReadingListPage() {
           <ul className="grid gap-3 sm:grid-cols-2">
             {list.map((t) => (
               <li key={t.id}>
-                <Link to={`/reading/${t.id}`} className="card flex items-center justify-between gap-2 hover:border-indigo-300">
+                <Link to={`/reading/${t.id}`} className="card flex items-center justify-between gap-2 hover:border-stone-400">
                   <span>
                     <span className="chip mr-2">{t.level}</span>
                     <span lang="de" className="font-semibold">
@@ -43,7 +43,7 @@ function GlossText({ text }: { text: ReadingOut }) {
   const [picked, setPicked] = useState<{ word: string; tr: string } | null>(null)
   return (
     <div className="space-y-3">
-      <div aria-live="polite" className="min-h-12 rounded-lg bg-indigo-50 p-3 text-indigo-950">
+      <div aria-live="polite" className="min-h-12 rounded-lg bg-marker-soft p-3 text-ink">
         {picked ? (
           <span className="flex items-center gap-2">
             <SpeakButton text={picked.word} />
@@ -64,7 +64,7 @@ function GlossText({ text }: { text: ReadingOut }) {
                 <button
                   key={i}
                   type="button"
-                  className="cursor-pointer underline decoration-indigo-400 decoration-dotted underline-offset-4 hover:bg-indigo-50"
+                  className="cursor-pointer underline decoration-marker-deep decoration-dotted underline-offset-4 hover:bg-marker-soft"
                   onClick={() => setPicked({ word: w, tr })}
                 >
                   {tok}

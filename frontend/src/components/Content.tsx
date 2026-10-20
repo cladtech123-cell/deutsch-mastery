@@ -19,7 +19,7 @@ export function Blocks({ blocks }: { blocks: Block[] }) {
                 <thead>
                   <tr>
                     {b.headers.map((h) => (
-                      <th key={h} scope="col" className="border-b-2 border-slate-300 px-3 py-2 text-left font-semibold">
+                      <th key={h} scope="col" className="border-b-2 border-stone-300 px-3 py-2 text-left font-semibold">
                         {h}
                       </th>
                     ))}
@@ -27,9 +27,9 @@ export function Blocks({ blocks }: { blocks: Block[] }) {
                 </thead>
                 <tbody>
                   {b.rows.map((r, ri) => (
-                    <tr key={ri} className="odd:bg-slate-50">
+                    <tr key={ri} className="odd:bg-stone-50">
                       {r.map((c, ci) => (
-                        <td key={ci} className="border-b border-slate-200 px-3 py-2">
+                        <td key={ci} className="border-b border-stone-200 px-3 py-2">
                           {c}
                         </td>
                       ))}
@@ -42,7 +42,7 @@ export function Blocks({ blocks }: { blocks: Block[] }) {
         }
         if (b.type === 'tip') {
           return (
-            <p key={i} className="flex gap-2 rounded-lg bg-indigo-50 p-3 text-indigo-950">
+            <p key={i} className="flex gap-2 rounded-lg bg-marker-soft p-3 text-ink">
               <Lightbulb aria-hidden className="mt-0.5 size-5 shrink-0" />
               <span>
                 <strong>Maslahat: </strong>
@@ -83,7 +83,7 @@ export function Mistakes({ mistakes }: { mistakes: Mistake[] }) {
   return (
     <ul className="space-y-2">
       {mistakes.map((m, i) => (
-        <li key={i} className="rounded-lg border border-slate-200 p-3 text-sm">
+        <li key={i} className="rounded-lg border border-stone-200 p-3 text-sm">
           <p>
             <span className="font-medium text-red-800">Xato: </span>
             <s lang="de">{m.wrong}</s>
@@ -133,36 +133,36 @@ export function VocabCard({ vocab, showUserStats = false }: { vocab: VocabOut; s
           <h3 lang="de" className="text-lg font-semibold break-words">
             {word}
           </h3>
-          <p className="text-slate-800">{vocab.uz}</p>
+          <p className="text-stone-800">{vocab.uz}</p>
         </div>
         <SpeakButton text={word} />
       </div>
       <dl className="grid grid-cols-[auto_1fr] gap-x-3 gap-y-0.5 text-sm">
-        <dt className="text-slate-500">Turkum</dt>
+        <dt className="text-stone-600">Turkum</dt>
         <dd>{posLabel[vocab.pos] ?? vocab.pos}</dd>
         {vocab.pos === 'noun' && vocab.plural && (
           <>
-            <dt className="text-slate-500">Ko'plik</dt>
+            <dt className="text-stone-600">Ko'plik</dt>
             <dd lang="de">{vocab.plural === '-' ? "ko'plik shakli yo'q" : vocab.plural}</dd>
           </>
         )}
         {vocab.forms &&
           Object.entries(vocab.forms).map(([k, v]) => (
             <div key={k} className="contents">
-              <dt className="text-slate-500">{formLabel[k] ?? k}</dt>
+              <dt className="text-stone-600">{formLabel[k] ?? k}</dt>
               <dd lang="de">{v}</dd>
             </div>
           ))}
       </dl>
-      <div className="flex items-start gap-2 rounded-lg bg-slate-50 p-2 text-sm">
+      <div className="flex items-start gap-2 rounded-lg bg-stone-50 p-2 text-sm">
         <SpeakButton text={vocab.example_de} label={`Misolni tinglash: ${vocab.example_de}`} />
         <div>
           <p lang="de">{vocab.example_de}</p>
-          <p className="text-slate-600">{vocab.example_uz}</p>
+          <p className="text-stone-600">{vocab.example_uz}</p>
         </div>
       </div>
       {showUserStats && u && (
-        <p className="text-xs text-slate-600">
+        <p className="text-xs text-stone-600">
           Holat: {cardStateLabel[u.state]} · to'g'ri {u.correct_count} / xato {u.wrong_count}
           {u.due_at && <> · keyingi takrorlash: {formatDate(u.due_at)}</>}
         </p>

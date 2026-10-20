@@ -28,7 +28,7 @@ export function ReviewPage() {
         empty={
           <>
             Bugun takrorlanadigan so'z yo'q. Yangi so'zlar dars yakuniy testidan o'tganda qo'shiladi.{' '}
-            <Link to="/lessons" className="text-indigo-700 underline">
+            <Link to="/lessons" className="text-ink underline">
               Darsga o'tish
             </Link>
           </>
@@ -78,7 +78,7 @@ function Session({ queue, onRestart }: { queue: ReviewQueue; onRestart: () => vo
   const deFront = card.direction === 'de_uz'
   return (
     <div className="space-y-4">
-      <div className="flex flex-wrap items-center justify-between gap-2 text-sm text-slate-600">
+      <div className="flex flex-wrap items-center justify-between gap-2 text-sm text-stone-600">
         <span>
           {i + 1} / {queue.cards.length} · jami muddati kelgan: {queue.due_total} · bugun yangi: {queue.new_today_left}
         </span>
@@ -86,7 +86,7 @@ function Session({ queue, onRestart }: { queue: ReviewQueue; onRestart: () => vo
       </div>
       <ProgressBar value={(i / queue.cards.length) * 100} label="Seans jarayoni" />
       <section className="card space-y-4 text-center" aria-live="polite">
-        <p className="text-xs uppercase tracking-wide text-slate-500">
+        <p className="text-xs uppercase tracking-wide text-stone-600">
           {deFront ? "Nemischa → o'zbekcha" : "O'zbekcha → nemischa"} · {cardStateLabel[card.state]}
         </p>
         <div className="flex items-center justify-center gap-2">
@@ -96,9 +96,9 @@ function Session({ queue, onRestart }: { queue: ReviewQueue; onRestart: () => vo
           {deFront && <SpeakButton text={word(card)} />}
         </div>
         {revealed ? (
-          <div className="space-y-2 border-t border-slate-200 pt-4">
+          <div className="space-y-2 border-t border-stone-200 pt-4">
             <div className="flex items-center justify-center gap-2">
-              <p lang={deFront ? undefined : 'de'} className="text-2xl font-medium text-indigo-800">
+              <p lang={deFront ? undefined : 'de'} className="text-2xl font-medium text-ink">
                 {deFront ? v.uz : word(card)}
               </p>
               {!deFront && <SpeakButton text={word(card)} />}
@@ -131,7 +131,7 @@ function Session({ queue, onRestart }: { queue: ReviewQueue; onRestart: () => vo
               onClick={() => answer.mutate({ card, quality: b.quality })}
             >
               <span className="text-base">{b.label}</span>
-              <span className="text-xs font-normal text-slate-600">{b.hint}</span>
+              <span className="text-xs font-normal text-stone-600">{b.hint}</span>
             </button>
           ))}
         </div>

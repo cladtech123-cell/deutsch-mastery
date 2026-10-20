@@ -64,7 +64,7 @@ function Recorder() {
       )}
       {url && (
         <div>
-          <p className="text-sm text-slate-700">Yozuvingiz (faqat shu brauzerda):</p>
+          <p className="text-sm text-stone-700">Yozuvingiz (faqat shu brauzerda):</p>
           <audio controls src={url} className="w-full" />
         </div>
       )}
@@ -81,7 +81,7 @@ function SimilarityResult({ r }: { r: SpeakingAttemptOut }) {
   // Backend may report 0..1 or 0..100.
   const pct = r.similarity == null ? null : Math.round(r.similarity <= 1 ? r.similarity * 100 : r.similarity)
   return (
-    <div role="status" className="space-y-2 rounded-lg border border-slate-200 bg-slate-50 p-3">
+    <div role="status" className="space-y-2 rounded-lg border border-stone-200 bg-stone-50 p-3">
       {pct != null && (
         <p>
           Matn o'xshashligi: <strong>{pct}%</strong>
@@ -100,7 +100,7 @@ function SimilarityResult({ r }: { r: SpeakingAttemptOut }) {
           ))}
         </p>
       )}
-      <p className="text-xs text-slate-600">
+      <p className="text-xs text-stone-600">
         Bu faqat tanilgan matnni asl matn bilan taqqoslash, talaffuzning fonetik bahosi emas. Qizil so'zlarni sekin
         tinglab, qayta ayting.
       </p>
@@ -135,7 +135,7 @@ function Shadowing({ target }: { target: string }) {
           {target}
         </p>
       </div>
-      <ol className="list-decimal space-y-1 pl-5 text-sm text-slate-700">
+      <ol className="list-decimal space-y-1 pl-5 text-sm text-stone-700">
         <li>Gapni tinglang (yoki o'qing).</li>
         <li>Diktor bilan birga yoki ortidan takrorlang (shadowing).</li>
         <li>Ovozingizni yozib, qayta tinglang va taqqoslang.</li>
@@ -146,7 +146,7 @@ function Shadowing({ target }: { target: string }) {
           <button type="button" className="btn" disabled={listening} onClick={() => void listen()}>
             <Mic aria-hidden className="size-4" /> {listening ? 'Tinglanmoqda…' : 'Aytib, matnni tanitish'}
           </button>
-          <p className="text-xs text-slate-600">{RECOGNITION_PRIVACY_NOTE}</p>
+          <p className="text-xs text-stone-600">{RECOGNITION_PRIVACY_NOTE}</p>
           {recognized && (
             <p>
               Tanilgan matn: <span lang="de" className="font-medium">{recognized}</span>

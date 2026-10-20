@@ -84,7 +84,7 @@ function SettingsForm({ initial }: { initial: Settings }) {
         <input id="s-new" type="number" min={1} max={100} className="input" value={s.new_per_day} onChange={(e) => setS({ ...s, new_per_day: Number(e.target.value) })} />
       </div>
       <label className="flex items-center gap-2 sm:col-span-2">
-        <input type="checkbox" className="size-4 accent-indigo-700" checked={s.reminders_enabled} onChange={(e) => setS({ ...s, reminders_enabled: e.target.checked })} />
+        <input type="checkbox" className="size-4 accent-ink" checked={s.reminders_enabled} onChange={(e) => setS({ ...s, reminders_enabled: e.target.checked })} />
         Dars va takrorlash eslatmalari (bosh sahifada ko'rsatiladi)
       </label>
       <div className="flex flex-wrap items-center gap-3 sm:col-span-2">

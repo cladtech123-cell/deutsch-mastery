@@ -28,7 +28,7 @@ export function RateControl() {
   const ttsRate = useUi((s) => s.ttsRate)
   const setTtsRate = useUi((s) => s.setTtsRate)
   return (
-    <label className="flex items-center gap-2 text-sm text-slate-700">
+    <label className="flex items-center gap-2 text-sm text-stone-700">
       Tezlik
       <select className="input w-auto py-1" value={ttsRate} onChange={(e) => setTtsRate(Number(e.target.value))}>
         <option value={0.6}>Juda sekin</option>
@@ -110,7 +110,7 @@ export function DialoguePlayer({ lines, hideTextByDefault = false }: { lines: Li
         {lines.map((l, i) => (
           <li
             key={i}
-            className={`flex items-start gap-3 rounded-lg border p-3 ${current === i ? 'border-indigo-400 bg-indigo-50' : 'border-slate-200 bg-white'}`}
+            className={`flex items-start gap-3 rounded-lg border p-3 ${current === i ? 'border-stone-400 bg-marker-soft' : 'border-stone-200 bg-white'}`}
           >
             {tts.available && (
               <button
@@ -123,13 +123,13 @@ export function DialoguePlayer({ lines, hideTextByDefault = false }: { lines: Li
               </button>
             )}
             <div className="min-w-0">
-              <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">{l.speaker}</p>
+              <p className="text-xs font-semibold uppercase tracking-wide text-stone-600">{l.speaker}</p>
               {textVisible ? (
                 <p lang="de" className="text-base">
                   {l.de}
                 </p>
               ) : (
-                <p className="text-slate-500 italic">(matn yashirilgan — tinglang)</p>
+                <p className="text-stone-600 italic">(matn yashirilgan — tinglang)</p>
               )}
               {showUz && <p className="muted">{l.uz}</p>}
             </div>

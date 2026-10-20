@@ -51,7 +51,7 @@ function Chat() {
         {messages.map((m, i) => (
           <li
             key={i}
-            className={`max-w-[90%] rounded-xl px-3 py-2 whitespace-pre-wrap ${m.role === 'user' ? 'ml-auto bg-indigo-700 text-white' : 'border border-slate-200 bg-white'}`}
+            className={`max-w-[90%] rounded-xl px-3 py-2 whitespace-pre-wrap ${m.role === 'user' ? 'ml-auto bg-ink text-white' : 'border border-stone-200 bg-white'}`}
           >
             <span className="sr-only">{m.role === 'user' ? 'Siz: ' : 'Tutor: '}</span>
             {/* Plain text only — model output is never rendered as HTML. */}
@@ -94,7 +94,7 @@ function Chat() {
           <Send aria-hidden className="size-4" />
         </button>
       </form>
-      <p className="text-xs text-slate-600">
+      <p className="text-xs text-stone-600">
         AI javoblari xato bo'lishi mumkin. Grammatika qoidalarini kurs materiallari bilan solishtiring.
       </p>
     </div>

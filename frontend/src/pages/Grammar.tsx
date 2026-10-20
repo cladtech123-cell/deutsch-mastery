@@ -11,11 +11,11 @@ function TopicLinks({ ids, titles, label }: { ids: string[]; titles: Map<string,
   if (ids.length === 0) return null
   return (
     <p className="text-sm">
-      <span className="text-slate-600">{label}: </span>
+      <span className="text-stone-600">{label}: </span>
       {ids.map((id, i) => (
         <span key={id}>
           {i > 0 && ', '}
-          <Link to={`/grammar/${id}`} className="text-indigo-700 underline">
+          <Link to={`/grammar/${id}`} className="text-ink underline">
             {titles.get(id) ?? id}
           </Link>
         </span>
@@ -99,7 +99,7 @@ export function GrammarTopicPage() {
             </div>
             <div>
               <h2 className="font-semibold">Gap tuzilishi</h2>
-              <p lang="de" className="rounded bg-slate-100 px-2 py-1 font-mono text-sm">
+              <p lang="de" className="rounded bg-stone-100 px-2 py-1 font-mono text-sm">
                 {t.structure}
               </p>
             </div>

@@ -37,7 +37,7 @@ export function ListeningPage() {
                 {item.questions.map((e, i) => (
                   <ExerciseCard key={e.id} exercise={e} index={i + 1} />
                 ))}
-                <Link to={`/lessons/${item.lesson_id}`} className="text-sm text-indigo-700 underline">
+                <Link to={`/lessons/${item.lesson_id}`} className="text-sm text-ink underline">
                   Darsni ochish
                 </Link>
               </section>

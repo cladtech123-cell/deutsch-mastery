@@ -6,7 +6,7 @@ import { errorMessage } from '../api/client'
 
 export function Loading({ label = 'Yuklanmoqda…' }: { label?: string }) {
   return (
-    <div role="status" className="flex items-center gap-2 py-8 text-slate-600">
+    <div role="status" className="flex items-center gap-2 py-8 text-stone-600">
       <Loader2 aria-hidden className="size-5 animate-spin" />
       <span>{label}</span>
     </div>
@@ -31,7 +31,7 @@ export function ErrorState({ error, onRetry }: { error: unknown; onRetry?: () =>
 
 export function Empty({ children }: { children: ReactNode }) {
   return (
-    <div className="card flex items-center gap-3 text-slate-600">
+    <div className="card flex items-center gap-3 text-stone-600">
       <Inbox aria-hidden className="size-5 shrink-0" />
       <div>{children}</div>
     </div>
@@ -77,9 +77,9 @@ export function ProgressBar({ value, label }: { value: number; label: string }) 
       aria-valuenow={v}
       aria-valuemin={0}
       aria-valuemax={100}
-      className="h-2.5 w-full overflow-hidden rounded-full bg-slate-200/80"
+      className="h-2.5 w-full overflow-hidden rounded-full bg-stone-200/80"
     >
-      <div className="h-full rounded-full bg-emerald-500 transition-[width] duration-500 ease-out" style={{ width: `${v}%` }} />
+      <div className="h-full rounded-full bg-ink transition-[width] duration-500 ease-out" style={{ width: `${v}%` }} />
     </div>
   )
 }
@@ -88,7 +88,7 @@ export function NotFound() {
   return (
     <Empty>
       Sahifa topilmadi.{' '}
-      <Link to="/" className="text-indigo-700 underline">
+      <Link to="/" className="text-ink underline">
         Bosh sahifaga qaytish
       </Link>
     </Empty>

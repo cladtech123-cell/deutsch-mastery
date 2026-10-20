@@ -26,7 +26,7 @@ const SECTIONS = [
 function Section({ id, title, children }: { id: string; title: string; children: ReactNode }) {
   return (
     <section id={id} aria-labelledby={`${id}-h`} className="scroll-mt-20 space-y-3">
-      <h2 id={`${id}-h`} className="h2 border-b border-slate-200 pb-1">
+      <h2 id={`${id}-h`} className="h2 border-b border-stone-200 pb-1">
         {title}
       </h2>
       {children}
@@ -107,7 +107,7 @@ function LessonView({ lesson }: { lesson: LessonOut }) {
             <li key={sid}>
               <a
                 href={`#${sid}`}
-                className="inline-flex min-h-9 items-center rounded-full border border-slate-200 bg-white px-3.5 text-xs font-semibold text-slate-700 shadow-card transition-colors duration-150 hover:border-indigo-300 hover:text-indigo-700"
+                className="inline-flex min-h-9 items-center rounded-md border border-stone-300 bg-sheet px-3 font-mono text-[11px] font-semibold text-stone-700 transition-colors duration-150 hover:border-ink hover:bg-marker-soft hover:text-ink"
               >
                 {i + 1}. {label}
               </a>
@@ -172,7 +172,7 @@ function LessonView({ lesson }: { lesson: LessonOut }) {
               </div>
               <div>
                 <h3 className="font-semibold">Gap tuzilishi</h3>
-                <p lang="de" className="rounded bg-slate-100 px-2 py-1 font-mono text-sm">
+                <p lang="de" className="rounded bg-stone-100 px-2 py-1 font-mono text-sm">
                   {g.structure}
                 </p>
               </div>
@@ -184,7 +184,7 @@ function LessonView({ lesson }: { lesson: LessonOut }) {
                 <h3 className="mb-1 font-semibold">Ko'p uchraydigan xatolar</h3>
                 <Mistakes mistakes={g.common_mistakes} />
               </div>
-              <Link to={`/grammar/${g.topic_id}`} className="text-sm text-indigo-700 underline">
+              <Link to={`/grammar/${g.topic_id}`} className="text-sm text-ink underline">
                 Grammatika markazida batafsil
               </Link>
             </div>
@@ -206,7 +206,7 @@ function LessonView({ lesson }: { lesson: LessonOut }) {
       <Section id="vaziyat" title={`Real vaziyat: ${lesson.situation.title}`}>
         <p className="card">{lesson.situation.context_uz}</p>
         <DialoguePlayer lines={lesson.situation.lines} />
-        <p className="rounded-lg bg-indigo-50 p-3 text-indigo-950">
+        <p className="rounded-lg bg-marker-soft p-3 text-ink">
           <strong>Topshiriq: </strong>
           {lesson.situation.task_uz}
         </p>

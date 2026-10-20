@@ -25,8 +25,8 @@ export function SkillScores({ scores }: { scores: Record<string, SkillScore> }) 
   return (
     <dl className="grid grid-cols-2 gap-2 sm:grid-cols-3">
       {entries.map(([k, v]) => (
-        <div key={k} className="rounded-lg bg-slate-100 p-2">
-          <dt className="text-xs text-slate-600">{skillLabel[k] ?? k}</dt>
+        <div key={k} className="rounded-lg bg-stone-100 p-2">
+          <dt className="text-xs text-stone-600">{skillLabel[k] ?? k}</dt>
           <dd className="font-semibold">{fmtScore(v)}</dd>
         </div>
       ))}
@@ -74,7 +74,7 @@ export function TestsPage() {
                   <ul className="grid gap-2 sm:grid-cols-2">
                     {items.map((e) => (
                       <li key={e.id}>
-                        <Link to={`/tests/${e.id}`} className="card flex items-center justify-between gap-2 hover:border-indigo-300">
+                        <Link to={`/tests/${e.id}`} className="card flex items-center justify-between gap-2 hover:border-stone-400">
                           <span>
                             <span className="chip mr-2">{e.level}</span>
                             {e.title}

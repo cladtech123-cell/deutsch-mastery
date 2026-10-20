@@ -28,7 +28,7 @@ export function StatsPage() {
                       <li key={k}>
                         <div className="flex justify-between text-sm">
                           <span>{skillLabel[k] ?? k}</span>
-                          <span className="text-slate-600">
+                          <span className="text-stone-600">
                             {p == null ? "ma'lumot yetarli emas" : `${Math.round(p)}%`}
                             {v != null && typeof v === 'object' && ` · ${v.attempts} urinish`}
                           </span>
@@ -44,7 +44,7 @@ export function StatsPage() {
                   Mavzular
                 </h2>
                 {(s.topics ?? []).length === 0 ? (
-                  <p className="text-slate-700">Hali urinishlar yo'q.</p>
+                  <p className="text-stone-700">Hali urinishlar yo'q.</p>
                 ) : (
                   <table className="w-full text-sm">
                     <thead>
@@ -59,12 +59,12 @@ export function StatsPage() {
                       {[...(s.topics ?? [])]
                         .sort((a, b) => a.accuracy - b.accuracy)
                         .map((t) => (
-                          <tr key={t.topic} className="border-t border-slate-100">
+                          <tr key={t.topic} className="border-t border-stone-100">
                             <td className="py-1.5">{t.topic}</td>
                             <td className={t.accuracy < 60 ? 'font-medium text-red-800' : ''}>{Math.round(t.accuracy)}%</td>
                             <td>{t.attempts}</td>
                             <td>
-                              <Link to={`/practice?mode=topic&topic=${encodeURIComponent(t.topic)}`} className="text-indigo-700 underline">
+                              <Link to={`/practice?mode=topic&topic=${encodeURIComponent(t.topic)}`} className="text-ink underline">
                                 Mashq
                               </Link>
                             </td>
@@ -97,7 +97,7 @@ export function StatsPage() {
                 </thead>
                 <tbody>
                   {d.weekly_activity.map((w) => (
-                    <tr key={w.day} className="border-t border-slate-100">
+                    <tr key={w.day} className="border-t border-stone-100">
                       <td className="py-1.5">{formatDate(w.day)}</td>
                       <td>{w.exercises}</td>
                       <td>{w.correct}</td>

@@ -41,7 +41,7 @@ const MORE = NAV.filter((n) => !TABS.some((t) => t.to === n.to))
 
 const linkClass = ({ isActive }: { isActive: boolean }) =>
   `flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium transition-colors duration-150 ${
-    isActive ? 'bg-indigo-50 font-semibold text-indigo-700' : 'text-slate-700 hover:bg-slate-100 hover:text-slate-900'
+    isActive ? 'bg-marker font-semibold text-ink' : 'text-stone-700 hover:bg-marker-soft hover:text-ink'
   }`
 
 export function Brand({ subtitle = false }: { subtitle?: boolean }) {
@@ -49,13 +49,15 @@ export function Brand({ subtitle = false }: { subtitle?: boolean }) {
     <div className="flex items-center gap-2.5">
       <span
         aria-hidden
-        className="grid size-9 place-items-center rounded-xl bg-gradient-to-br from-indigo-500 to-indigo-700 font-display text-sm font-extrabold text-white shadow-raised"
+        className="grid size-9 -rotate-3 place-items-center rounded-md border-2 border-ink bg-marker font-display text-sm font-black text-ink"
       >
         DM
       </span>
       <span className="leading-tight">
-        <span className="block font-display text-lg font-extrabold text-slate-900">Deutsch Mastery</span>
-        {subtitle && <span className="block text-xs font-medium text-slate-500">Nemis tili · A1 → A2</span>}
+        <span className="block font-display text-[15px] font-extrabold tracking-tight whitespace-nowrap text-ink">
+          Deutsch Mastery
+        </span>
+        {subtitle && <span className="eyebrow block normal-case tracking-normal">Nemis tili · A1 → A2</span>}
       </span>
     </div>
   )
@@ -71,7 +73,7 @@ export function Layout() {
       <a href="#main" className="sr-only z-50 rounded bg-white p-2 focus:not-sr-only focus:fixed focus:top-2 focus:left-2">
         Asosiy kontentga o'tish
       </a>
-      <aside className="hidden w-64 shrink-0 border-r border-slate-200 bg-white lg:flex lg:flex-col">
+      <aside className="glass sticky top-3 m-3 hidden self-start h-[calc(100dvh-1.5rem)] w-64 shrink-0 rounded-3xl lg:flex lg:flex-col">
         <div className="px-5 py-5">
           <Brand subtitle />
         </div>
@@ -87,15 +89,15 @@ export function Layout() {
             ))}
           </ul>
         </nav>
-        <div className="border-t border-slate-200 p-3">
-          <p className="truncate px-3 text-sm text-slate-700">{me.data?.display_name}</p>
+        <div className="border-t border-stone-300/60 p-3">
+          <p className="truncate px-3 text-sm text-stone-700">{me.data?.display_name}</p>
           <button type="button" className="btn mt-2 w-full" onClick={() => logout.mutate()}>
             <LogOut aria-hidden className="size-4" /> Chiqish
           </button>
         </div>
       </aside>
 
-      <header className="sticky top-0 z-20 flex items-center justify-between border-b border-slate-200 bg-white px-4 py-3 lg:hidden">
+      <header className="glass sticky top-0 z-20 flex items-center justify-between border-x-0 border-t-0 px-4 py-3 lg:hidden">
         <Brand />
       </header>
 
@@ -105,16 +107,18 @@ export function Layout() {
 
       <nav
         aria-label="Pastki navigatsiya"
-        className="fixed inset-x-0 bottom-0 z-30 border-t border-slate-200 bg-white pb-[env(safe-area-inset-bottom)] lg:hidden"
+        className="glass fixed inset-x-3 bottom-[calc(0.75rem+env(safe-area-inset-bottom))] z-30 rounded-full p-1.5 lg:hidden"
       >
-        <ul className="grid grid-cols-5">
+        <ul className="grid grid-cols-5 gap-1">
           {TABS.map(({ to, label, icon: Icon }) => (
             <li key={to}>
               <NavLink
                 to={to}
                 end={to === '/'}
                 className={({ isActive }) =>
-                  `flex flex-col items-center gap-0.5 py-2 text-[11px] font-semibold transition-colors duration-150 ${isActive ? 'text-indigo-700' : 'text-slate-600'}`
+                  `flex flex-col items-center gap-0.5 rounded-full py-1.5 text-[11px] font-semibold transition-colors duration-150 active:bg-stone-900/5 ${
+                    isActive ? 'bg-marker text-ink' : 'text-stone-700 hover:text-ink'
+                  }`
                 }
               >
                 <Icon aria-hidden className="size-5" />
@@ -128,7 +132,9 @@ export function Layout() {
               aria-expanded={moreOpen}
               aria-controls="more-menu"
               onClick={() => setMoreOpen((v) => !v)}
-              className="flex w-full flex-col items-center gap-0.5 py-2 text-[11px] font-medium text-slate-600"
+              className={`flex w-full flex-col items-center gap-0.5 rounded-full py-1.5 text-[11px] font-semibold transition-colors duration-150 active:bg-stone-900/5 ${
+                moreOpen ? 'bg-marker text-ink' : 'text-stone-700 hover:text-ink'
+              }`}
             >
               {moreOpen ? <X aria-hidden className="size-5" /> : <Menu aria-hidden className="size-5" />}
               Ko'proq
@@ -137,7 +143,10 @@ export function Layout() {
         </ul>
       </nav>
       {moreOpen && (
-        <div id="more-menu" className="fixed inset-x-0 bottom-14 z-30 max-h-[70dvh] overflow-y-auto border-t border-slate-200 bg-white p-3 shadow-lg lg:hidden">
+        <div
+          id="more-menu"
+          className="glass fixed inset-x-3 bottom-[calc(5.25rem+env(safe-area-inset-bottom))] z-30 max-h-[65dvh] overflow-y-auto rounded-3xl p-3 lg:hidden"
+        >
           <ul className="grid grid-cols-2 gap-1">
             {MORE.map(({ to, label, icon: Icon }) => (
               <li key={to}>

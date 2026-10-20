@@ -1,26 +1,58 @@
 @import "tailwindcss";
 
-/* Learning indigo for actions, green for progress. Nunito (rounded, friendly) for headings, Noto Sans for reading:
-   both cover German umlauts/ß and Uzbek Latin. Fonts load from index.html; the system stack is the fallback. */
+/* "Daftar" — a German school notebook (Karoheft): squared paper, graphite pencil for text and actions,
+   a yellow Textmarker for what matters now, the teacher's red pen (Rotstift) for mistakes.
+   No gradients, no blue/violet. Unbounded (wide poster display) for headings, Golos Text for reading
+   (both cover umlauts/ß and Uzbek Latin), IBM Plex Mono for labels and numbers. */
 @theme {
-  --font-sans: "Noto Sans", system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  --font-display: "Nunito", "Noto Sans", system-ui, "Segoe UI", sans-serif;
-  --color-canvas: #f5f6fb;
-  --shadow-card: 0 1px 2px rgb(15 23 42 / 0.04), 0 6px 16px -8px rgb(15 23 42 / 0.1);
-  --shadow-raised: 0 1px 2px rgb(67 56 202 / 0.2), 0 8px 20px -8px rgb(67 56 202 / 0.45);
+  --font-sans: "Golos Text", system-ui, "Segoe UI", Roboto, Arial, sans-serif;
+  --font-display: "Unbounded", "Golos Text", system-ui, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "Cascadia Mono", Consolas, monospace;
+
+  --color-paper: #f2f0ea;
+  --color-sheet: #fffefb;
+  --color-grid: #dcd8cd;
+  --color-ink: #1c1b19;
+  --color-ink-soft: #3a3833;
+  --color-marker: #fadc2b;
+  --color-marker-soft: #fdf2a6;
+  --color-marker-deep: #9c8000; /* >= 3:1 on paper, sheet and the marker wash */
+  --color-rot: #c8102e;
+
+  --shadow-card: 0 1px 0 rgb(28 27 25 / 0.05), 0 2px 6px -2px rgb(28 27 25 / 0.08);
+  --shadow-glass: inset 0 1px 0 rgb(255 255 255 / 0.85), 0 12px 32px -14px rgb(28 27 25 / 0.35);
 }
 
 html {
   color-scheme: light;
 }
 
+/* Squared notebook paper (5 mm grid) as an SVG tile — a texture, not a gradient. It is also what the
+   glass navigation blurs, so the material is visible. */
 body {
-  @apply bg-canvas text-slate-900 antialiased;
+  @apply bg-paper text-ink antialiased;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Cpath d='M24 .5H.5V24' fill='none' stroke='%23dcd8cd' stroke-width='1'/%3E%3C/svg%3E");
 }
 
 :focus-visible {
-  outline: 3px solid var(--color-indigo-600);
+  outline: 3px solid var(--color-ink);
   outline-offset: 2px;
+}
+
+::selection {
+  background: var(--color-marker);
+  color: var(--color-ink);
+}
+
+/* Links read like a word highlighted in the notebook. */
+a.underline {
+  text-decoration-color: var(--color-marker-deep);
+  text-decoration-thickness: 3px;
+  text-decoration-skip-ink: none; /* one unbroken marker stroke */
+  text-underline-offset: 3px;
+}
+a.underline:hover {
+  background: var(--color-marker-soft);
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -34,36 +66,60 @@ body {
 
 @layer components {
   .card {
-    @apply rounded-2xl border border-slate-200/80 bg-white p-4 shadow-card sm:p-5;
+    @apply rounded-xl border border-stone-300/70 bg-sheet p-4 shadow-card sm:p-5;
   }
   .btn {
-    @apply inline-flex min-h-11 cursor-pointer items-center justify-center gap-2 rounded-xl border border-slate-300 bg-white px-4 py-2 text-sm font-semibold text-slate-800 transition-colors duration-150 hover:border-slate-400 hover:bg-slate-50 active:bg-slate-100 disabled:cursor-not-allowed disabled:opacity-50;
+    @apply inline-flex min-h-11 cursor-pointer items-center justify-center gap-2 rounded-lg border-2 border-ink/80 bg-sheet px-4 py-2 text-sm font-semibold text-ink transition-colors duration-150 hover:bg-marker-soft active:bg-marker disabled:cursor-not-allowed disabled:opacity-50;
   }
   .btn-primary {
-    @apply border-indigo-600 bg-indigo-600 text-white shadow-raised hover:border-indigo-700 hover:bg-indigo-700 active:bg-indigo-800;
+    @apply border-ink bg-ink text-sheet hover:border-ink-soft hover:bg-ink-soft active:bg-black;
   }
   .btn-danger {
-    @apply border-red-700 bg-red-700 text-white hover:border-red-800 hover:bg-red-800 active:bg-red-900;
+    @apply border-rot bg-rot text-white hover:bg-red-800 active:bg-red-900;
   }
   .btn-sm {
-    @apply min-h-9 rounded-lg px-3 py-1 text-xs;
+    @apply min-h-9 rounded-md border px-3 py-1 text-xs;
   }
   .input {
-    @apply block w-full rounded-xl border border-slate-300 bg-white px-3.5 py-2.5 text-base text-slate-900 transition-colors duration-150 placeholder:text-slate-500 hover:border-slate-400 focus:border-indigo-600 disabled:bg-slate-100;
+    @apply block w-full rounded-lg border-2 border-stone-300 bg-sheet px-3.5 py-2.5 text-base text-ink transition-colors duration-150 placeholder:text-stone-500 hover:border-stone-400 focus:border-ink disabled:bg-stone-100;
   }
   .label {
-    @apply mb-1.5 block text-sm font-semibold text-slate-700;
+    @apply mb-1.5 block text-sm font-semibold text-stone-800;
   }
   .muted {
-    @apply text-sm text-slate-600;
+    @apply text-sm text-stone-600;
   }
   .h1 {
-    @apply font-display text-[1.75rem] leading-tight font-extrabold tracking-tight text-balance text-slate-900;
+    /* Unbounded is very wide: smaller size, and long Uzbek words may break instead of overflowing a phone */
+    @apply font-display text-[1.6rem] leading-[1.15] font-extrabold tracking-tight text-balance break-words text-ink;
   }
   .h2 {
-    @apply font-display text-lg font-bold text-slate-900;
+    @apply font-display text-base font-bold text-ink;
   }
   .chip {
-    @apply inline-flex items-center rounded-full border border-slate-200 bg-white px-2.5 py-0.5 text-xs font-semibold text-slate-700;
+    @apply inline-flex items-center rounded-md border border-stone-300 bg-sheet px-2 py-0.5 font-mono text-[11px] font-medium text-stone-700;
+  }
+  /* Small notebook-form label: what a tile or field is about. */
+  .eyebrow {
+    @apply font-mono text-[11px] font-semibold tracking-[0.12em] text-stone-600 uppercase;
+  }
+  /* Liquid-glass material for navigation chrome only (header, tab bar, menus, sidebar), never for
+     reading surfaces: translucent fill + blur over the squared paper, bright top edge, soft lift. */
+  .glass {
+    @apply border border-white/80 bg-white/55 backdrop-blur-xl backdrop-saturate-150;
+    box-shadow: var(--shadow-glass);
+  }
+}
+
+/* Without backdrop-filter or with "reduce transparency" the glass becomes a plain opaque sheet. */
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .glass {
+    background-color: rgb(255 254 251 / 0.97);
+  }
+}
+@media (prefers-reduced-transparency: reduce) {
+  .glass {
+    background-color: var(--color-sheet);
+    backdrop-filter: none;
   }
 }

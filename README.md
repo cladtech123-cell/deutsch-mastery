@@ -138,9 +138,10 @@ docker compose logs tunnel | grep trycloudflare
 - Rate limiter va AI kunlik limiti xotirada saqlanadi: bir nechta backend nusxasida ular har nusxa uchun alohida ishlaydi.
 
 ## Ma'lum cheklovlar
-- TTS va nutqni tanish brauzerning Web Speech API'siga bog'liq: nemis ovozi bo'lmasa, interfeys "audio mavjud emas" deydi.
-  Chrome'da SpeechRecognition ovozni Google serveriga yuborishi mumkin (gapirish sahifasida aytilgan). Platformaning o'zi
-  ovoz yozuvini serverga yubormaydi.
+- Nemischa audio: brauzerda de-DE ovoz bo'lsa o'sha ishlatiladi; bo'lmasa server ovozi — Piper TTS, "thorsten"
+  ovozi (CC0) Docker image ichida, internetsiz ishlaydi (`GET /api/tts`, natija diskda keshlanadi). `piper-tts`
+  paketi GPL-3.0 litsenziyali. Nutqni tanish (gapirish bo'limi) hamon brauzerning SpeechRecognition'iga bog'liq;
+  Chrome'da u ovozni Google serveriga yuborishi mumkin. Platformaning o'zi ovoz yozuvini serverga yubormaydi.
 - Talaffuz aniq baholanmaydi: faqat tanilgan matn bilan maqsad matn so'zma-so'z taqqoslanadi.
 - Haqiqiy OpenAI/Gemini API'si testlarda chaqirilmagan (faqat so'rov shakli tekshirilgan).
 - Diagnostik test qat'iy (adaptiv emas); tavsiya foiz oraliqlari bo'yicha beriladi.

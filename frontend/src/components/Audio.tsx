@@ -5,7 +5,7 @@ import { useTts } from '../lib/tts'
 import { useUi } from '../store/ui'
 
 export const NO_AUDIO_TEXT =
-  "Audio mavjud emas: brauzeringizda nemischa (de-DE) ovoz topilmadi. Matnni o'qib mashq qiling yoki nemischa ovozi bor brauzerdan foydalaning."
+  "Audio mavjud emas: brauzeringizda nemischa ovoz yo'q va server ovozi ham hozir ishlamayapti. Matnni o'qib mashq qiling."
 
 /** Renders nothing when TTS is unavailable — never a fake audio button. Pair with <TtsStatus/>. */
 export function SpeakButton({ text, label }: { text: string; label?: string }) {

@@ -143,6 +143,41 @@ describe('audio exercises without TTS', () => {
   })
 })
 
+describe('audio exercises with server TTS', () => {
+  it('plays server-generated audio when the browser has no German voice', async () => {
+    mockApi({ 'GET /tts/status': { available: true } })
+    const played: string[] = []
+    vi.stubGlobal(
+      'Audio',
+      class {
+        src: string
+        onended: (() => void) | null = null
+        onerror: (() => void) | null = null
+        constructor(src: string) {
+          this.src = src
+        }
+        play() {
+          played.push(this.src)
+          return Promise.resolve()
+        }
+        pause() {}
+      },
+    )
+    try {
+      const e = ex({ id: 'l3', type: 'dictation', audio_text: 'Auf Wiedersehen!' })
+      const { user } = renderWithClient(<ExerciseCard exercise={e} />)
+      await user.click(await screen.findByRole('button', { name: /Audioni tinglash/ }))
+      expect(screen.queryByText(/Audio mavjud emas/)).not.toBeInTheDocument()
+      expect(played).toHaveLength(1)
+      const url = new URL(played[0], 'http://x')
+      expect(url.pathname).toBe('/api/tts')
+      expect(url.searchParams.get('text')).toBe('Auf Wiedersehen!')
+    } finally {
+      vi.unstubAllGlobals()
+    }
+  })
+})
+
 describe('ExamForm', () => {
   it('submits only answered questions as {id: answer}', async () => {
     const onSubmit = vi.fn()

@@ -26,6 +26,10 @@ class Settings(BaseSettings):
     AI_RATE_PER_MINUTE: int = 10
     CONTENT_DIR: Path = ROOT / "content"
     DEMO_PASSWORD: str = ""
+    # Piper voice for server-side German TTS (baked into the Docker image; absent on a bare host = disabled)
+    TTS_MODEL: Path = ROOT / "tts" / "de_DE-thorsten-medium.onnx"
+    TTS_CACHE_DIR: Path = ROOT / ".tts-cache"
+    TTS_RATE_PER_MINUTE: int = 120
 
     @property
     def origins(self) -> set[str]:

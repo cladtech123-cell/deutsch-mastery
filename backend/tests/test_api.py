@@ -396,6 +396,17 @@ async def test_writing_counts_as_activity(client, user):
     assert dash["weekly_activity"][-1]["exercises"] == 1 and dash["streak"] == 1
 
 
+async def test_tts_without_voice_model(client, user):
+    # no Piper model on the test host: status says so, synthesis answers a clear 503, inputs are still validated
+    assert (await client.get("/api/tts/status")).json() == {"available": False}
+    r = await client.get("/api/tts", params={"text": "Guten Morgen!"})
+    assert r.status_code == 503 and "ovoz" in r.json()["detail"]
+    assert (await client.get("/api/tts", params={"text": "x" * 401})).status_code == 422
+    assert (await client.get("/api/tts", params={"text": "Hallo", "rate": 3})).status_code == 422
+    client.cookies.clear()
+    assert (await client.get("/api/tts", params={"text": "Hallo"})).status_code == 401
+
+
 async def test_ai_is_503_without_provider(client, user):
     assert (await client.get("/api/ai/status")).json() == {"configured": False, "provider": "none"}
     r = await client.post("/api/ai/tutor", json={"message": "Was ist der Artikel von Haus?"})

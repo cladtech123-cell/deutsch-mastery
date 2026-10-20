@@ -19,3 +19,7 @@ test-results/
 # local tooling state
 .claude/
 *.sqlite3
+
+# server TTS (the voice model is downloaded in the Docker build)
+.tts-cache/
+/tts/

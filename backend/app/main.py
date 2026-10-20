@@ -6,7 +6,7 @@ from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
 from sqlalchemy import text
 
-from app.api import auth, catalog, lessons, progress, vocabulary
+from app.api import auth, catalog, lessons, progress, tts, vocabulary
 from app.core.config import settings
 from app.core.db import SessionLocal
 
@@ -59,7 +59,7 @@ def create_app() -> FastAPI:
             db = "error"
         return {"status": "ok", "db": db}
 
-    for r in (auth.router, lessons.router, vocabulary.router, catalog.router, progress.router):
+    for r in (auth.router, lessons.router, vocabulary.router, catalog.router, progress.router, tts.router):
         api.include_router(r)
     app.include_router(api)
     return app

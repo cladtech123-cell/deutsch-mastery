@@ -106,6 +106,31 @@ docker compose stop tunnel   # vaqtinchalik tunnel endi kerak emas
 
 Sayt `https://deutsch.sizningdomen.uz` da ochiladi va manzil o'zgarmaydi.
 
+### 6b. Serverda nginx bor bo'lsa — subdomen (masalan `deutsch.lavo.uz`)
+
+Server boshqa saytga (masalan `lavo.uz`) xizmat qilayotgan bo'lsa, Cloudflare kerak emas: mavjud nginx'ga
+**bitta yangi fayl** qo'shiladi, boshqa saytlarning sozlamalariga tegilmaydi. HTTPS — bepul Let's Encrypt.
+
+1. Domen DNS panelida **A yozuv**: nomi `deutsch`, qiymati — server IP. Cloudflare DNS bo'lsa, "DNS only" (kulrang bulut).
+   Tekshirish: `nslookup deutsch.lavo.uz` server IP'ni ko'rsatishi kerak.
+2. Ilovani tunnelsiz ishga tushiring (port band bo'lsa, avval `.env` da `FRONTEND_HOST_PORT`, `BACKEND_HOST_PORT`,
+   `POSTGRES_HOST_PORT` ni bo'sh portlarga o'zgartiring):
+
+```bash
+cd ~/deutsch-mastery && git pull
+TUNNEL=none bash deploy/oracle/setup.sh
+docker compose stop tunnel
+```
+
+3. Subdomen va sertifikat:
+
+```bash
+sudo DOMAIN=deutsch.lavo.uz EMAIL=siz@example.com bash deploy/oracle/nginx-subdomain.sh
+```
+
+Skript `nginx -t` o'tmasa o'zgarishni qaytaradi; domen boshqa faylda band bo'lsa to'xtaydi. Sertifikat certbot
+tomonidan avtomatik yangilanadi.
+
 ## 7-qadam. Zaxira nusxa (backup)
 
 Bir martalik:

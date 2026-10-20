@@ -1,0 +1,855 @@
+{
+  "id": "a2-m22-l1",
+  "version": 1,
+  "level": "A2",
+  "module": 22,
+  "order": 1,
+  "title": "Ilovalar va onlayn xizmatlar",
+  "title_de": "Apps und Online-Dienste",
+  "goal": "Dars oxirida ilovani yuklab olish, ro'yxatdan o'tish va tizimga kirish bosqichlarini tushuntira olasiz; sich anmelden, sich registrieren kabi qaytishli fe'llarni to'g'ri olmosh bilan ishlatasiz.",
+  "skill_focus": [
+    "grammar",
+    "vocabulary",
+    "listening"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Ko'p raqamli xizmatlarda (bank, poyezd chiptasi, til kursi) avval ro'yxatdan o'tish va tizimga kirish kerak: sich registrieren, sich anmelden. Bu fe'llar qaytishli: harakat egasining o'ziga qaytadi — o'zbekchadagi \"o'zini ro'yxatdan o'tkazmoq\" ga o'xshaydi."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Shaxs",
+        "Qaytish olmoshi",
+        "Misol"
+      ],
+      "rows": [
+        [
+          "ich",
+          "mich",
+          "Ich melde mich an."
+        ],
+        [
+          "du",
+          "dich",
+          "Meldest du dich an?"
+        ],
+        [
+          "er / sie / es",
+          "sich",
+          "Sie registriert sich."
+        ],
+        [
+          "wir",
+          "uns",
+          "Wir melden uns an."
+        ],
+        [
+          "ihr",
+          "euch",
+          "Meldet ihr euch an?"
+        ],
+        [
+          "sie / Sie",
+          "sich",
+          "Melden Sie sich bitte an."
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Faqat er/sie/es va sie/Sie shaklida \"sich\". Qolganlari Akkusativ olmoshlari bilan bir xil: mich, dich, uns, euch."
+    },
+    {
+      "type": "tip",
+      "text": "Ilova so'zlari: herunterladen — yuklab olmoq, installieren — o'rnatmoq, speichern — saqlamoq, das Passwort eingeben — parolni kiritmoq."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-die-app",
+      "de": "App",
+      "uz": "ilova (dastur)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Apps",
+      "forms": null,
+      "example_de": "Mit dieser App kann ich Tickets kaufen.",
+      "example_uz": "Bu ilova bilan chipta sotib olsam bo'ladi.",
+      "topic": "technology"
+    },
+    {
+      "id": "v-das-passwort",
+      "de": "Passwort",
+      "uz": "parol",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Passwörter",
+      "forms": null,
+      "example_de": "Mein Passwort ist sehr lang.",
+      "example_uz": "Parolim juda uzun.",
+      "topic": "technology"
+    },
+    {
+      "id": "v-das-konto",
+      "de": "Konto",
+      "uz": "hisob (akkaunt; bank hisobi)",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Konten",
+      "forms": null,
+      "example_de": "Ich habe ein neues Konto erstellt.",
+      "example_uz": "Yangi akkaunt ochdim.",
+      "topic": "technology"
+    },
+    {
+      "id": "v-der-benutzername",
+      "de": "Benutzername",
+      "uz": "foydalanuvchi nomi (login)",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Benutzernamen",
+      "forms": null,
+      "example_de": "Wie ist dein Benutzername?",
+      "example_uz": "Foydalanuvchi noming qanday?",
+      "topic": "technology"
+    },
+    {
+      "id": "v-der-bildschirm",
+      "de": "Bildschirm",
+      "uz": "ekran",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Bildschirme",
+      "forms": null,
+      "example_de": "Der Bildschirm ist zu dunkel.",
+      "example_uz": "Ekran juda qorong'i.",
+      "topic": "technology"
+    },
+    {
+      "id": "v-das-gerät",
+      "de": "Gerät",
+      "uz": "qurilma, asbob",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Geräte",
+      "forms": null,
+      "example_de": "Das Gerät ist neu.",
+      "example_uz": "Qurilma yangi.",
+      "topic": "technology"
+    },
+    {
+      "id": "v-herunterladen",
+      "de": "herunterladen",
+      "uz": "yuklab olmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "heruntergeladen",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "lädt herunter",
+        "praeteritum": "lud herunter"
+      },
+      "example_de": "Ich lade die App herunter.",
+      "example_uz": "Ilovani yuklab olaman.",
+      "topic": "technology"
+    },
+    {
+      "id": "v-installieren",
+      "de": "installieren",
+      "uz": "o'rnatmoq (dastur)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "installiert",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "installiert"
+      },
+      "example_de": "Hast du das Programm installiert?",
+      "example_uz": "Dasturni o'rnatdingmi?",
+      "topic": "technology"
+    },
+    {
+      "id": "v-speichern",
+      "de": "speichern",
+      "uz": "saqlamoq (faylni)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "gespeichert",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "speichert"
+      },
+      "example_de": "Ich habe das Foto gespeichert.",
+      "example_uz": "Suratni saqladim.",
+      "topic": "technology"
+    },
+    {
+      "id": "v-sich-anmelden",
+      "de": "sich anmelden",
+      "uz": "tizimga kirmoq; ro'yxatga yozilmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "angemeldet",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "meldet sich an"
+      },
+      "example_de": "Ich melde mich mit meinem Passwort an.",
+      "example_uz": "Parolim bilan tizimga kiraman.",
+      "topic": "technology"
+    },
+    {
+      "id": "v-sich-registrieren",
+      "de": "sich registrieren",
+      "uz": "ro'yxatdan o'tmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "registriert",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "registriert sich"
+      },
+      "example_de": "Sie müssen sich zuerst registrieren.",
+      "example_uz": "Avval ro'yxatdan o'tishingiz kerak.",
+      "topic": "technology"
+    },
+    {
+      "id": "v-online",
+      "de": "online",
+      "uz": "onlayn, internet orqali",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Ich bezahle meistens online.",
+      "example_uz": "Ko'pincha onlayn to'layman.",
+      "topic": "technology"
+    },
+    {
+      "id": "v-digital",
+      "de": "digital",
+      "uz": "raqamli",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Viele Formulare sind heute digital.",
+      "example_uz": "Bugun ko'p blankalar raqamli.",
+      "topic": "technology"
+    }
+  ],
+  "review_vocabulary": [],
+  "grammar": [
+    {
+      "topic_id": "g-reflexive",
+      "rule": "Qaytishli fe'llar \"sich\" bilan keladi: sich anmelden, sich registrieren. Olmosh egaga mos o'zgaradi: ich → mich, du → dich, er/sie/es → sich, wir → uns, ihr → euch, sie/Sie → sich. Darak gapda olmosh tuslangan fe'ldan keyin turadi.",
+      "when": "Ro'yxatdan o'tish, tizimga kirish va harakat egasining o'ziga qaytganda.",
+      "structure": "Ega + fe'l + qaytish olmoshi + ... (+ ajraladigan qism).   Ich melde mich an.",
+      "examples": [
+        {
+          "de": "Ich melde mich mit meinem Passwort an.",
+          "uz": "Parolim bilan tizimga kiraman."
+        },
+        {
+          "de": "Hast du dich schon registriert?",
+          "uz": "Ro'yxatdan o'tdingmi?"
+        },
+        {
+          "de": "Wir müssen uns für den Kurs online anmelden.",
+          "uz": "Kursga onlayn yozilishimiz kerak."
+        },
+        {
+          "de": "Melden Sie sich bitte mit Ihrem Benutzernamen an.",
+          "uz": "Iltimos, foydalanuvchi nomingiz bilan kiring."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Ich melde an.",
+          "right": "Ich melde mich an.",
+          "why": "Qaytish olmoshi tushib qolmaydi."
+        },
+        {
+          "wrong": "Ich melde sich an.",
+          "right": "Ich melde mich an.",
+          "why": "\"sich\" faqat er/sie/es va sie/Sie uchun. ich bilan — mich."
+        },
+        {
+          "wrong": "Wir registrieren sich.",
+          "right": "Wir registrieren uns.",
+          "why": "wir bilan — uns."
+        }
+      ],
+      "check": [
+        "a2-m22-l1-e03",
+        "a2-m22-l1-e04",
+        "a2-m22-l1-e05",
+        "a2-m22-l1-e08"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Bank ilovasi",
+    "lines": [
+      {
+        "speaker": "Herr Schulz",
+        "de": "Azamat, kannst du mir helfen? Ich möchte die Bank-App benutzen.",
+        "uz": "Azamat, menga yordam bera olasanmi? Bank ilovasidan foydalanmoqchiman."
+      },
+      {
+        "speaker": "Azamat",
+        "de": "Klar. Zuerst müssen Sie die App herunterladen und installieren.",
+        "uz": "Albatta. Avval ilovani yuklab olib o'rnatishingiz kerak."
+      },
+      {
+        "speaker": "Herr Schulz",
+        "de": "Gut, das habe ich gemacht. Und jetzt?",
+        "uz": "Yaxshi, buni qildim. Endi-chi?"
+      },
+      {
+        "speaker": "Azamat",
+        "de": "Jetzt müssen Sie sich registrieren. Geben Sie Ihre E-Mail-Adresse ein und wählen Sie ein Passwort.",
+        "uz": "Endi ro'yxatdan o'tishingiz kerak. Email manzilingizni kiriting va parol tanlang."
+      },
+      {
+        "speaker": "Herr Schulz",
+        "de": "Ein Passwort? Ich vergesse meine Passwörter immer!",
+        "uz": "Parol? Men parollarimni doim unutaman!"
+      },
+      {
+        "speaker": "Azamat",
+        "de": "Dann schreiben Sie es auf und legen Sie den Zettel an einen sicheren Ort. Aber nicht neben das Handy!",
+        "uz": "Unda uni yozib qo'ying va qog'ozni xavfsiz joyga qo'ying. Lekin telefon yoniga emas!"
+      },
+      {
+        "speaker": "Herr Schulz",
+        "de": "Gute Idee. So, jetzt melde ich mich an ... Es funktioniert!",
+        "uz": "Yaxshi fikr. Xo'sh, endi kiraman ... Ishlayapti!"
+      }
+    ],
+    "questions": [
+      "a2-m22-l1-e06",
+      "a2-m22-l1-e07"
+    ]
+  },
+  "situation": {
+    "title": "Kutubxonada internet",
+    "context_uz": "Siz kutubxonada internetdan foydalanmoqchisiz. Xodimdan qanday ulanishni so'raysiz.",
+    "lines": [
+      {
+        "speaker": "Siz",
+        "de": "Entschuldigung, kann ich hier das Internet benutzen?",
+        "uz": "Kechirasiz, bu yerda internetdan foydalansam bo'ladimi?"
+      },
+      {
+        "speaker": "Mitarbeiter",
+        "de": "Ja, natürlich. Sie müssen sich aber zuerst registrieren.",
+        "uz": "Ha, albatta. Lekin avval ro'yxatdan o'tishingiz kerak."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Wie mache ich das?",
+        "uz": "Buni qanday qilaman?"
+      },
+      {
+        "speaker": "Mitarbeiter",
+        "de": "Sie brauchen Ihren Bibliotheksausweis. Der Benutzername ist die Nummer auf dem Ausweis.",
+        "uz": "Sizga kutubxona guvohnomangiz kerak. Foydalanuvchi nomi — guvohnomadagi raqam."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Und das Passwort?",
+        "uz": "Parol-chi?"
+      },
+      {
+        "speaker": "Mitarbeiter",
+        "de": "Das ist Ihr Geburtsdatum. Dann melden Sie sich einfach an.",
+        "uz": "Bu tug'ilgan sanangiz. Keyin shunchaki tizimga kirasiz."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Super, vielen Dank!",
+        "uz": "Zo'r, katta rahmat!"
+      }
+    ],
+    "task_uz": "Dialogni o'qing. Keyin do'stingizga ilovada qanday ro'yxatdan o'tishni 3–4 qadamda tushuntiring: Zuerst ..., dann ..., danach ... Qaytishli fe'llarni to'g'ri olmosh bilan ishlating."
+  },
+  "exercises": [
+    {
+      "id": "a2-m22-l1-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "technology",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemischa so'zni o'zbekcha ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "die App",
+          "ilova"
+        ],
+        [
+          "das Passwort",
+          "parol"
+        ],
+        [
+          "der Bildschirm",
+          "ekran"
+        ],
+        [
+          "das Konto",
+          "akkaunt"
+        ],
+        [
+          "speichern",
+          "saqlamoq"
+        ]
+      ],
+      "correct_answer": {
+        "die App": "ilova",
+        "das Passwort": "parol",
+        "der Bildschirm": "ekran",
+        "das Konto": "akkaunt",
+        "speichern": "saqlamoq"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "App — ilova, Passwort — parol, Bildschirm — ekran, Konto — akkaunt, speichern — saqlamoq.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m22-l1-e02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "technology",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "\"yuklab olmoq\" qaysi fe'l?",
+      "prompt_de": null,
+      "options": [
+        "herunterladen",
+        "installieren",
+        "speichern"
+      ],
+      "pairs": null,
+      "correct_answer": "herunterladen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "herunter — pastga, laden — yuklamoq: herunterladen. installieren — o'rnatmoq, speichern — saqlamoq.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m22-l1-e03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "technology",
+      "grammar_topic": "g-reflexive",
+      "difficulty": 1,
+      "question": "Qaytish olmoshini yozing: \"Ich melde ___ mit meinem Passwort an.\"",
+      "prompt_de": "Ich melde ___ mit meinem Passwort an.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "mich",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "ich bilan qaytish olmoshi — mich.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m22-l1-e04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "education",
+      "grammar_topic": "g-reflexive",
+      "difficulty": 1,
+      "question": "To'g'ri olmoshni tanlang: \"Wir müssen ___ für den Kurs anmelden.\"",
+      "prompt_de": "Wir müssen ___ für den Kurs anmelden.",
+      "options": [
+        "uns",
+        "sich",
+        "euch"
+      ],
+      "pairs": null,
+      "correct_answer": "uns",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "wir bilan — uns. sich faqat er/sie/es va sie/Sie uchun.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m22-l1-e05",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "sports",
+      "grammar_topic": "g-reflexive",
+      "difficulty": 1,
+      "question": "Fe'lni tuslang (sich anmelden): Meine Schwester ___ sich im Fitnessstudio an.",
+      "prompt_de": "Meine Schwester ___ sich im Fitnessstudio an.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "meldet",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "sie (birlik) bilan: sie meldet sich an. Ajraladigan \"an\" oxirda.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m22-l1-e06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "technology",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Birinchi qadam nima?",
+      "prompt_de": null,
+      "options": [
+        "Ilovani yuklab olib o'rnatish",
+        "Parol tanlash",
+        "Bankka borish"
+      ],
+      "pairs": null,
+      "correct_answer": "Ilovani yuklab olib o'rnatish",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Zuerst müssen Sie die App herunterladen und installieren.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Zuerst müssen Sie die App herunterladen und installieren."
+    },
+    {
+      "id": "a2-m22-l1-e07",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "technology",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang. Azamat parol haqida qanday maslahat beradi?",
+      "prompt_de": null,
+      "options": [
+        "Yozib, xavfsiz joyga qo'yish (telefon yoniga emas)",
+        "Qog'ozni telefon yoniga qo'yish",
+        "Parolsiz ishlatish"
+      ],
+      "pairs": null,
+      "correct_answer": "Yozib, xavfsiz joyga qo'yish (telefon yoniga emas)",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"schreiben Sie es auf und legen Sie den Zettel an einen sicheren Ort. Aber nicht neben das Handy!\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Dann schreiben Sie es auf und legen Sie den Zettel an einen sicheren Ort. Aber nicht neben das Handy!"
+    },
+    {
+      "id": "a2-m22-l1-e08",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "technology",
+      "grammar_topic": "g-reflexive",
+      "difficulty": 2,
+      "question": "So'zlarni tartiblang: \"Iltimos, foydalanuvchi nomingiz bilan kiring.\"",
+      "prompt_de": null,
+      "options": [
+        "Benutzernamen",
+        "Melden",
+        "Ihrem",
+        "bitte",
+        "mit",
+        "Sie",
+        "an",
+        "sich"
+      ],
+      "pairs": null,
+      "correct_answer": "Melden Sie sich bitte mit Ihrem Benutzernamen an.",
+      "accepted_answers": [
+        "Bitte melden Sie sich mit Ihrem Benutzernamen an."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Imperativ (Sie): fe'l birinchi, keyin Sie, keyin sich; \"an\" oxirda.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m22-l1-e09",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "technology",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "To'g'ri artiklni tanlang: ___ Passwort",
+      "prompt_de": null,
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "das",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "das Wort → das Passwort (qo'shma otda oxirgi qism).",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m22-l1-e10",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "technology",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Men suratni saqladim.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich habe das Foto gespeichert.",
+      "accepted_answers": [
+        "Ich habe das Bild gespeichert."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Perfekt: habe + gespeichert (oxirda).",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m22-l1-e11",
+      "version": 1,
+      "type": "plural",
+      "skill": "vocabulary",
+      "topic": "technology",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Ko'plik shaklini yozing: das Passwort → die ___",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Passwörter",
+      "accepted_answers": [
+        "die Passwörter"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "das Wort → die Wörter, shuning uchun: die Passwörter.",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a2-m22-l1-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "technology",
+      "grammar_topic": "g-reflexive",
+      "difficulty": 1,
+      "question": "To'g'ri olmoshni tanlang: \"Hast du ___ schon registriert?\"",
+      "prompt_de": null,
+      "options": [
+        "dich",
+        "sich",
+        "mich"
+      ],
+      "pairs": null,
+      "correct_answer": "dich",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "du bilan — dich.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m22-l1-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "technology",
+      "grammar_topic": "g-reflexive",
+      "difficulty": 1,
+      "question": "Qaytish olmoshini yozing: \"Herr Schulz meldet ___ an.\"",
+      "prompt_de": "Herr Schulz meldet ___ an.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "sich",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "er bilan — sich.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m22-l1-t03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "technology",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Mos so'zni tanlang: \"Der ___ von meinem Handy ist kaputt. Ich sehe nichts.\"",
+      "prompt_de": null,
+      "options": [
+        "Bildschirm",
+        "Benutzername",
+        "Passwort"
+      ],
+      "pairs": null,
+      "correct_answer": "Bildschirm",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Hech narsa ko'rinmasa — ekran (Bildschirm) buzilgan.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m22-l1-t04",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "technology",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Ro'yxatdan o'tish uchun nima kerak?",
+      "prompt_de": null,
+      "options": [
+        "Email manzil va parol",
+        "Pasport",
+        "Bank kartasi"
+      ],
+      "pairs": null,
+      "correct_answer": "Email manzil va parol",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Geben Sie Ihre E-Mail-Adresse ein und wählen Sie ein Passwort.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Jetzt müssen Sie sich registrieren. Geben Sie Ihre E-Mail-Adresse ein und wählen Sie ein Passwort."
+    },
+    {
+      "id": "a2-m22-l1-t05",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "technology",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Ich lade die App herunter.\"",
+      "prompt_de": "Ich lade die App herunter.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Men ilovani yuklab olaman.",
+      "accepted_answers": [
+        "Ilovani yuklab olaman.",
+        "Men ilovani yuklab olyapman.",
+        "Ilovani yuklab olyapman.",
+        "Men dasturni yuklab olaman."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "herunterladen — yuklab olmoq.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m22-l1-t06",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "technology",
+      "grammar_topic": "g-reflexive",
+      "difficulty": 1,
+      "question": "Xato so'zni toping: \"Wir melden sich online an.\"",
+      "prompt_de": "Wir melden sich online an.",
+      "options": [
+        "Wir",
+        "melden",
+        "sich",
+        "online",
+        "an"
+      ],
+      "pairs": null,
+      "correct_answer": "sich",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: \"Wir melden uns online an.\" wir bilan — uns.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m22-l1-t07",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "technology",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Saytga kira olmayapsiz, chunki parolni bilmaysiz. Do'stingizga nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Ich kann mich nicht anmelden. Ich weiß mein Passwort nicht.",
+        "Ich kann nicht anmelden mich.",
+        "Ich melde dich nicht an."
+      ],
+      "pairs": null,
+      "correct_answer": "Ich kann mich nicht anmelden. Ich weiß mein Passwort nicht.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "können + mich + ... + anmelden (infinitiv oxirda).",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

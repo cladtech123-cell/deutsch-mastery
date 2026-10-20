@@ -1,0 +1,318 @@
+{
+  "id": "g-adjectives",
+  "version": 1,
+  "level": "A2",
+  "order": 22,
+  "title": "Sifatlar va ularning asosiy qo'shimchalari",
+  "prerequisites": [
+    "g-articles",
+    "g-akkusativ",
+    "g-dativ"
+  ],
+  "next": [
+    "g-comparison"
+  ],
+  "rule": "Sifat fe'ldan keyin kelsa o'zgarmaydi (Das Auto ist neu). Ot oldida kelsa qo'shimcha oladi (das neue Auto, ein neues Auto).",
+  "when": "Odam, narsa, uy, kiyim va ob-havoni tasvirlaganda.",
+  "structure": "ot + sein + sifat (o'zgarmaydi) | artikl + sifat + qo'shimcha + ot",
+  "explanation": [
+    {
+      "type": "table",
+      "headers": [
+        "Jins",
+        "Nominativ",
+        "Akkusativ",
+        "Dativ"
+      ],
+      "rows": [
+        [
+          "erkak",
+          "der neue Tisch",
+          "den neuen Tisch",
+          "dem neuen Tisch"
+        ],
+        [
+          "ayol",
+          "die neue Lampe",
+          "die neue Lampe",
+          "der neuen Lampe"
+        ],
+        [
+          "o'rta",
+          "das neue Bett",
+          "das neue Bett",
+          "dem neuen Bett"
+        ],
+        [
+          "ko'plik",
+          "die neuen Stühle",
+          "die neuen Stühle",
+          "den neuen Stühlen"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Jins",
+        "Nominativ",
+        "Akkusativ",
+        "Dativ"
+      ],
+      "rows": [
+        [
+          "erkak",
+          "ein neuer Tisch",
+          "einen neuen Tisch",
+          "einem neuen Tisch"
+        ],
+        [
+          "ayol",
+          "eine neue Lampe",
+          "eine neue Lampe",
+          "einer neuen Lampe"
+        ],
+        [
+          "o'rta",
+          "ein neues Bett",
+          "ein neues Bett",
+          "einem neuen Bett"
+        ],
+        [
+          "ko'plik",
+          "neue Stühle",
+          "neue Stühle",
+          "neuen Stühlen"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Aniq artikldan keyin: Nominativda (va ayol/o'rta Akkusativda) -e, qolgan hamma joyda -en. ein dan keyin erkak Nominativda -er, o'rta Nominativ/Akkusativda -es: artikl jinsni ko'rsatmasa, sifat ko'rsatadi."
+    },
+    {
+      "type": "tip",
+      "text": "Sifatdan keyin ot bo'lmasa, qo'shimcha yo'q: Die Wohnung ist groß. Lekin: eine große Wohnung."
+    }
+  ],
+  "examples": [
+    {
+      "de": "Das Zimmer ist klein.",
+      "uz": "Xona kichkina."
+    },
+    {
+      "de": "Ich habe ein kleines Zimmer.",
+      "uz": "Mening kichkina xonam bor."
+    },
+    {
+      "de": "Der neue Kollege ist nett.",
+      "uz": "Yangi hamkasb yoqimli."
+    },
+    {
+      "de": "Ich suche eine billige Wohnung.",
+      "uz": "Arzon kvartira qidiryapman."
+    },
+    {
+      "de": "Wir wohnen in einem alten Haus.",
+      "uz": "Biz eski uyda yashaymiz."
+    },
+    {
+      "de": "Ich trinke gern schwarzen Tee.",
+      "uz": "Men qora choyni yaxshi ko'raman."
+    }
+  ],
+  "common_mistakes": [
+    {
+      "wrong": "Das Auto ist neues.",
+      "right": "Das Auto ist neu.",
+      "why": "Fe'ldan keyin sifat o'zgarmaydi."
+    },
+    {
+      "wrong": "ein neu Auto",
+      "right": "ein neues Auto",
+      "why": "Ot oldida sifat qo'shimcha oladi; das Auto, ein bilan → -es."
+    },
+    {
+      "wrong": "Ich habe einen neue Job.",
+      "right": "Ich habe einen neuen Job.",
+      "why": "Akkusativ erkak jinsi: einen neuen."
+    },
+    {
+      "wrong": "in einem große Haus",
+      "right": "in einem großen Haus",
+      "why": "Dativda sifat -en oladi."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "g-adjectives-e01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-adjectives",
+      "difficulty": 1,
+      "question": "To'g'ri shaklni tanlang: \"Die Wohnung ist ___.\"",
+      "prompt_de": "Die Wohnung ist ___.",
+      "options": [
+        "groß",
+        "große",
+        "großen"
+      ],
+      "pairs": null,
+      "correct_answer": "groß",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Fe'ldan (ist) keyin sifat o'zgarmaydi.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-adjectives-e02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "transport",
+      "grammar_topic": "g-adjectives",
+      "difficulty": 1,
+      "question": "Sifatni to'g'ri shaklda yozing (neu): \"Das ist ein ___ Auto.\"",
+      "prompt_de": "Das ist ein ___ Auto.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "neues",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "das Auto + ein → sifat -es oladi: ein neues Auto.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-adjectives-e03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-adjectives",
+      "difficulty": 1,
+      "question": "Sifatni to'g'ri shaklda yozing (billig): \"Ich suche eine ___ Wohnung.\"",
+      "prompt_de": "Ich suche eine ___ Wohnung.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "billige",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Wohnung, Akkusativ, eine → -e: eine billige Wohnung.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-adjectives-e04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "clothes",
+      "grammar_topic": "g-adjectives",
+      "difficulty": 2,
+      "question": "To'g'ri shaklni tanlang: \"Ich kaufe einen ___ Pullover.\"",
+      "prompt_de": "Ich kaufe einen ___ Pullover.",
+      "options": [
+        "warmen",
+        "warme",
+        "warmer"
+      ],
+      "pairs": null,
+      "correct_answer": "warmen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Akkusativ erkak jinsi: einen warmen Pullover.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-adjectives-e05",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "education",
+      "grammar_topic": "g-adjectives",
+      "difficulty": 2,
+      "question": "To'g'ri shaklni tanlang: \"Der ___ Lehrer ist sehr nett.\"",
+      "prompt_de": "Der ___ Lehrer ist sehr nett.",
+      "options": [
+        "neue",
+        "neuen",
+        "neuer"
+      ],
+      "pairs": null,
+      "correct_answer": "neue",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der + sifat, Nominativ → -e: der neue Lehrer.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-adjectives-e06",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-adjectives",
+      "difficulty": 3,
+      "question": "Xato so'zni toping: \"Wir wohnen in einem große Haus.\"",
+      "prompt_de": "Wir wohnen in einem große Haus.",
+      "options": [
+        "Wir",
+        "wohnen",
+        "in",
+        "einem",
+        "große",
+        "Haus"
+      ],
+      "pairs": null,
+      "correct_answer": "große",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Dativ (in einem) → -en: in einem großen Haus.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-adjectives-e07",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "grammar",
+      "topic": "technology",
+      "grammar_topic": "g-adjectives",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Bu yangi telefon.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Das ist ein neues Handy.",
+      "accepted_answers": [
+        "Das ist ein neues Telefon.",
+        "Das ist das neue Handy.",
+        "Das ist das neue Telefon."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "das Handy + ein → neues.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

@@ -1,0 +1,693 @@
+{
+  "id": "exam-a2",
+  "version": 1,
+  "kind": "level_exam",
+  "level": "A2",
+  "title": "A2 sinov imtihoni",
+  "pass_percent": 60,
+  "sections": [
+    {
+      "skill": "reading",
+      "title": "Lesen — o'qish",
+      "exercises": [
+        {
+          "id": "exam-a2-01",
+          "version": 1,
+          "type": "reading",
+          "skill": "reading",
+          "topic": "services",
+          "grammar_topic": null,
+          "difficulty": 1,
+          "question": "E'lonni o'qing. 1-martdan nima o'zgaradi?",
+          "prompt_de": "Stadtbibliothek — Wichtige Information: Ab 1. März ist die Bibliothek auch am Samstag von 10 bis 16 Uhr geöffnet. Bücher können Sie jetzt auch online verlängern. Wer ein Buch zu spät zurückbringt, muss pro Tag 50 Cent bezahlen. Der Leseraum bleibt wegen Renovierung bis Ende April geschlossen.",
+          "options": [
+            "Kutubxona shanba kunlari ham ishlaydi",
+            "Kutubxona yopiladi",
+            "Kitoblar pullik bo'ladi"
+          ],
+          "pairs": null,
+          "correct_answer": "Kutubxona shanba kunlari ham ishlaydi",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "E'londa: \"Ab 1. März ist die Bibliothek auch am Samstag von 10 bis 16 Uhr geöffnet.\"",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "exam-a2-02",
+          "version": 1,
+          "type": "reading",
+          "skill": "reading",
+          "topic": "services",
+          "grammar_topic": null,
+          "difficulty": 2,
+          "question": "E'lonni o'qing. Kitobni kech qaytarsangiz nima bo'ladi?",
+          "prompt_de": "Stadtbibliothek — Wichtige Information: Ab 1. März ist die Bibliothek auch am Samstag von 10 bis 16 Uhr geöffnet. Bücher können Sie jetzt auch online verlängern. Wer ein Buch zu spät zurückbringt, muss pro Tag 50 Cent bezahlen. Der Leseraum bleibt wegen Renovierung bis Ende April geschlossen.",
+          "options": [
+            "Har kun uchun 50 sent to'laysiz",
+            "Kitob olish taqiqlanadi",
+            "Hech narsa bo'lmaydi"
+          ],
+          "pairs": null,
+          "correct_answer": "Har kun uchun 50 sent to'laysiz",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "E'londa: \"Wer ein Buch zu spät zurückbringt, muss pro Tag 50 Cent bezahlen.\"",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "exam-a2-03",
+          "version": 1,
+          "type": "reading",
+          "skill": "reading",
+          "topic": "services",
+          "grammar_topic": null,
+          "difficulty": 2,
+          "question": "E'lonni o'qing. O'qish zali (Leseraum) haqida qaysi gap to'g'ri?",
+          "prompt_de": "Stadtbibliothek — Wichtige Information: Ab 1. März ist die Bibliothek auch am Samstag von 10 bis 16 Uhr geöffnet. Bücher können Sie jetzt auch online verlängern. Wer ein Buch zu spät zurückbringt, muss pro Tag 50 Cent bezahlen. Der Leseraum bleibt wegen Renovierung bis Ende April geschlossen.",
+          "options": [
+            "Aprel oxirigacha yopiq",
+            "Faqat shanba kuni ochiq",
+            "Martdan boshlab yangi"
+          ],
+          "pairs": null,
+          "correct_answer": "Aprel oxirigacha yopiq",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "E'londa: \"Der Leseraum bleibt wegen Renovierung bis Ende April geschlossen.\"",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "exam-a2-04",
+          "version": 1,
+          "type": "reading",
+          "skill": "reading",
+          "topic": "language-learning",
+          "grammar_topic": null,
+          "difficulty": 2,
+          "question": "Matnni o'qing. Boshida Dilshodga nima qiyin edi?",
+          "prompt_de": "Als Dilshod nach Deutschland kam, konnte er nur wenig Deutsch. Am Anfang war alles schwer: Er verstand die Durchsagen am Bahnhof nicht und hatte Angst, am Telefon zu sprechen. Deshalb hat er sich für einen Abendkurs angemeldet. Dort hat er nette Leute kennengelernt. Heute arbeitet er in einer IT-Firma. Er sagt, dass die Kollegen am wichtigsten waren, weil sie jeden Tag mit ihm Deutsch gesprochen haben. Nächstes Jahr will er die B1-Prüfung machen.",
+          "options": [
+            "Vokzaldagi e'lonlarni tushunish",
+            "Ish topish",
+            "Kvartira topish"
+          ],
+          "pairs": null,
+          "correct_answer": "Vokzaldagi e'lonlarni tushunish",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "Matnda: \"Er verstand die Durchsagen am Bahnhof nicht und hatte Angst, am Telefon zu sprechen.\"",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "exam-a2-05",
+          "version": 1,
+          "type": "reading",
+          "skill": "reading",
+          "topic": "language-learning",
+          "grammar_topic": null,
+          "difficulty": 3,
+          "question": "Matnni o'qing. Dilshodning fikricha, eng ko'p kim yordam berdi?",
+          "prompt_de": "Als Dilshod nach Deutschland kam, konnte er nur wenig Deutsch. Am Anfang war alles schwer: Er verstand die Durchsagen am Bahnhof nicht und hatte Angst, am Telefon zu sprechen. Deshalb hat er sich für einen Abendkurs angemeldet. Dort hat er nette Leute kennengelernt. Heute arbeitet er in einer IT-Firma. Er sagt, dass die Kollegen am wichtigsten waren, weil sie jeden Tag mit ihm Deutsch gesprochen haben. Nächstes Jahr will er die B1-Prüfung machen.",
+          "options": [
+            "Hamkasblari",
+            "Kursdagi o'qituvchi",
+            "Qo'shnilari"
+          ],
+          "pairs": null,
+          "correct_answer": "Hamkasblari",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "Matnda: \"Er sagt, dass die Kollegen am wichtigsten waren, weil sie jeden Tag mit ihm Deutsch gesprochen haben.\"",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "exam-a2-06",
+          "version": 1,
+          "type": "reading",
+          "skill": "reading",
+          "topic": "future-plans",
+          "grammar_topic": null,
+          "difficulty": 2,
+          "question": "Matnni o'qing. Dilshodning kelgusi yilgi rejasi qanday?",
+          "prompt_de": "Als Dilshod nach Deutschland kam, konnte er nur wenig Deutsch. Am Anfang war alles schwer: Er verstand die Durchsagen am Bahnhof nicht und hatte Angst, am Telefon zu sprechen. Deshalb hat er sich für einen Abendkurs angemeldet. Dort hat er nette Leute kennengelernt. Heute arbeitet er in einer IT-Firma. Er sagt, dass die Kollegen am wichtigsten waren, weil sie jeden Tag mit ihm Deutsch gesprochen haben. Nächstes Jahr will er die B1-Prüfung machen.",
+          "options": [
+            "B1 imtihonini topshirish",
+            "IT firmasini ochish",
+            "Kechki kursga yozilish"
+          ],
+          "pairs": null,
+          "correct_answer": "B1 imtihonini topshirish",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "Matnda: \"Nächstes Jahr will er die B1-Prüfung machen.\" Kursga u allaqachon yozilgan.",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": null
+        }
+      ]
+    },
+    {
+      "skill": "listening",
+      "title": "Hören — tinglash",
+      "exercises": [
+        {
+          "id": "exam-a2-07",
+          "version": 1,
+          "type": "listen_choice",
+          "skill": "listening",
+          "topic": "technology",
+          "grammar_topic": null,
+          "difficulty": 1,
+          "question": "Tinglang. Gapiruvchining fikri qanday?",
+          "prompt_de": null,
+          "options": [
+            "Yangi telefon yaxshiroq, lekin ancha qimmatroq",
+            "Eski telefon yaxshiroq va arzonroq",
+            "Ikkalasi bir xil"
+          ],
+          "pairs": null,
+          "correct_answer": "Yangi telefon yaxshiroq, lekin ancha qimmatroq",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "\"besser als das alte, aber ... viel teurer\" — yaxshiroq, lekin qimmatroq.",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": "Ich finde das neue Handy besser als das alte, aber es ist auch viel teurer."
+        },
+        {
+          "id": "exam-a2-08",
+          "version": 1,
+          "type": "listen_choice",
+          "skill": "listening",
+          "topic": "shopping",
+          "grammar_topic": null,
+          "difficulty": 2,
+          "question": "Tinglang. Xaridor nimani xohlaydi?",
+          "prompt_de": null,
+          "options": [
+            "Shimni kattaroq o'lchamga almashtirishni",
+            "Pulini qaytarib olishni",
+            "Kichikroq shim olishni"
+          ],
+          "pairs": null,
+          "correct_answer": "Shimni kattaroq o'lchamga almashtirishni",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "\"umtauschen\" — almashtirish; \"zu klein ... eine Nummer größer\" — bir o'lcham katta.",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": "Entschuldigung, ich möchte diese Hose umtauschen. Sie ist mir leider zu klein. Haben Sie sie eine Nummer größer?"
+        },
+        {
+          "id": "exam-a2-09",
+          "version": 1,
+          "type": "listen_choice",
+          "skill": "listening",
+          "topic": "education",
+          "grammar_topic": null,
+          "difficulty": 2,
+          "question": "Tinglang. Nega u charchagan edi?",
+          "prompt_de": null,
+          "options": [
+            "Kechasi soat ikkigacha imtihonga tayyorlangan",
+            "Kechasi ikkigacha ishlagan",
+            "Ikki soat sport qilgan"
+          ],
+          "pairs": null,
+          "correct_answer": "Kechasi soat ikkigacha imtihonga tayyorlangan",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "\"weil ich bis zwei Uhr nachts für die Prüfung gelernt habe\".",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": "Gestern war ich sehr müde, weil ich bis zwei Uhr nachts für die Prüfung gelernt habe."
+        },
+        {
+          "id": "exam-a2-10",
+          "version": 1,
+          "type": "listen_choice",
+          "skill": "listening",
+          "topic": "transport",
+          "grammar_topic": null,
+          "difficulty": 2,
+          "question": "Tinglang. 7-yo'nalish payshanbadan qanday yuradi?",
+          "prompt_de": null,
+          "options": [
+            "Odatdagidek",
+            "Faqat markaziy vokzalgacha",
+            "Umuman yurmaydi"
+          ],
+          "pairs": null,
+          "correct_answer": "Odatdagidek",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "\"Ab Donnerstag fährt sie wieder normal.\"",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": "Achtung: Wegen Bauarbeiten fährt die Linie sieben von Montag bis Mittwoch nur bis zum Hauptbahnhof. Ab Donnerstag fährt sie wieder normal."
+        },
+        {
+          "id": "exam-a2-11",
+          "version": 1,
+          "type": "listen_choice",
+          "skill": "listening",
+          "topic": "future-plans",
+          "grammar_topic": null,
+          "difficulty": 3,
+          "question": "Tinglang. Gapiruvchining rejasi qanday?",
+          "prompt_de": null,
+          "options": [
+            "Avval Gamburgda ishlash, keyin Toshkentda firma ochish",
+            "Gamburgda firma ochish",
+            "Toshkentda o'qishni davom ettirish"
+          ],
+          "pairs": null,
+          "correct_answer": "Avval Gamburgda ishlash, keyin Toshkentda firma ochish",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "\"ein Jahr in Hamburg arbeiten. Danach ... nach Taschkent ... eine eigene Firma gründen.\"",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": "Nach dem Studium werde ich ein Jahr in Hamburg arbeiten. Danach möchte ich zurück nach Taschkent gehen und eine eigene Firma gründen."
+        }
+      ]
+    },
+    {
+      "skill": "grammar",
+      "title": "Grammatik — grammatika",
+      "exercises": [
+        {
+          "id": "exam-a2-12",
+          "version": 1,
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "topic": "family",
+          "grammar_topic": "g-comparison",
+          "difficulty": 1,
+          "question": "Bo'sh joyni to'ldiring: \"Mein Bruder ist zwei Jahre ___ als ich.\"",
+          "prompt_de": "Mein Bruder ist zwei Jahre ___ als ich.",
+          "options": [
+            "älter",
+            "alt",
+            "ältesten"
+          ],
+          "pairs": null,
+          "correct_answer": "älter",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "alt – älter – am ältesten; taqqoslash als bilan.",
+          "error_type": "other",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "exam-a2-13",
+          "version": 1,
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "topic": "health",
+          "grammar_topic": "g-subordinate",
+          "difficulty": 1,
+          "question": "Gapni to'ldiring: \"Ich bleibe heute zu Hause, weil ich ___.\"",
+          "prompt_de": "Ich bleibe heute zu Hause, weil ich ___.",
+          "options": [
+            "Kopfschmerzen habe",
+            "habe Kopfschmerzen",
+            "Kopfschmerzen hatte habe"
+          ],
+          "pairs": null,
+          "correct_answer": "Kopfschmerzen habe",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "weil-gapda fe'l oxirida.",
+          "error_type": "word_order",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "exam-a2-14",
+          "version": 1,
+          "type": "fill_blank",
+          "skill": "grammar",
+          "topic": "invitations",
+          "grammar_topic": "g-reflexive",
+          "difficulty": 1,
+          "question": "Qaytishli olmoshni yozing: \"Wir treffen ___ um acht Uhr vor dem Kino.\"",
+          "prompt_de": "Wir treffen ___ um acht Uhr vor dem Kino.",
+          "options": null,
+          "pairs": null,
+          "correct_answer": "uns",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "wir → uns.",
+          "error_type": "case",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "exam-a2-15",
+          "version": 1,
+          "type": "conjugate",
+          "skill": "grammar",
+          "topic": "sports",
+          "grammar_topic": "g-praeteritum",
+          "difficulty": 1,
+          "question": "Fe'lni yozing (haben, Präteritum): \"Letztes Jahr ___ ich keine Zeit für Sport.\"",
+          "prompt_de": "Letztes Jahr ___ ich keine Zeit für Sport.",
+          "options": null,
+          "pairs": null,
+          "correct_answer": "hatte",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "ich → hatte.",
+          "error_type": "tense",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "exam-a2-16",
+          "version": 1,
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "topic": "work",
+          "grammar_topic": "g-adjectives",
+          "difficulty": 2,
+          "question": "Bo'sh joyni to'ldiring: \"Ich suche einen ___ Job.\"",
+          "prompt_de": "Ich suche einen ___ Job.",
+          "options": [
+            "neuen",
+            "neue",
+            "neues"
+          ],
+          "pairs": null,
+          "correct_answer": "neuen",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "Akkusativ erkak jinsi: einen neuen Job.",
+          "error_type": "case",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "exam-a2-17",
+          "version": 1,
+          "type": "order_words",
+          "skill": "grammar",
+          "topic": "education",
+          "grammar_topic": "g-subordinate",
+          "difficulty": 2,
+          "question": "Ergash gapni tuzing: \"Ich finde, ...\" (bu kurs juda foydali)",
+          "prompt_de": null,
+          "options": [
+            "ist",
+            "nützlich",
+            "sehr",
+            "Kurs",
+            "der",
+            "dass"
+          ],
+          "pairs": null,
+          "correct_answer": "dass der Kurs sehr nützlich ist",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "dass + ega + ... + fe'l (ist) oxirida.",
+          "error_type": "word_order",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "exam-a2-18",
+          "version": 1,
+          "type": "find_error",
+          "skill": "grammar",
+          "topic": "weather",
+          "grammar_topic": "g-comparison",
+          "difficulty": 2,
+          "question": "Xato so'zni toping: \"Im Winter ist es in Moskau kälter wie in Taschkent.\"",
+          "prompt_de": "Im Winter ist es in Moskau kälter wie in Taschkent.",
+          "options": [
+            "Winter",
+            "ist",
+            "Moskau",
+            "kälter",
+            "wie",
+            "Taschkent"
+          ],
+          "pairs": null,
+          "correct_answer": "wie",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "Komparativdan keyin als: kälter als in Taschkent.",
+          "error_type": "other",
+          "points": 1,
+          "audio_text": null
+        }
+      ]
+    },
+    {
+      "skill": "vocabulary",
+      "title": "Wortschatz — lug'at",
+      "exercises": [
+        {
+          "id": "exam-a2-19",
+          "version": 1,
+          "type": "match",
+          "skill": "vocabulary",
+          "topic": "general",
+          "grammar_topic": null,
+          "difficulty": 1,
+          "question": "So'zlarni juftlang.",
+          "prompt_de": null,
+          "options": null,
+          "pairs": [
+            [
+              "Müll trennen",
+              "chiqindini saralamoq"
+            ],
+            [
+              "sich bewerben",
+              "ishga ariza bermoq"
+            ],
+            [
+              "herunterladen",
+              "yuklab olmoq"
+            ],
+            [
+              "die Rechnung",
+              "hisob-faktura"
+            ]
+          ],
+          "correct_answer": {
+            "Müll trennen": "chiqindini saralamoq",
+            "sich bewerben": "ishga ariza bermoq",
+            "herunterladen": "yuklab olmoq",
+            "die Rechnung": "hisob-faktura"
+          },
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "Müll trennen — chiqindini saralamoq, sich bewerben — ishga ariza bermoq, herunterladen — yuklab olmoq, die Rechnung — hisob-faktura.",
+          "error_type": "vocabulary",
+          "points": 2,
+          "audio_text": null
+        },
+        {
+          "id": "exam-a2-20",
+          "version": 1,
+          "type": "situation_choice",
+          "skill": "vocabulary",
+          "topic": "technology",
+          "grammar_topic": null,
+          "difficulty": 1,
+          "question": "Uyingizda internet kechadan beri ishlamayapti. Provayderga qo'ng'iroq qildingiz. Nima deysiz?",
+          "prompt_de": null,
+          "options": [
+            "Mein Internet funktioniert seit gestern nicht.",
+            "Ich habe gestern kein Internet gekauft.",
+            "Mein Internet arbeitet morgen nicht."
+          ],
+          "pairs": null,
+          "correct_answer": "Mein Internet funktioniert seit gestern nicht.",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "funktionieren — ishlamoq (texnika haqida); seit gestern — kechadan beri.",
+          "error_type": "vocabulary",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "exam-a2-21",
+          "version": 1,
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "topic": "environment",
+          "grammar_topic": null,
+          "difficulty": 2,
+          "question": "\"umweltfreundlich\" nimani bildiradi?",
+          "prompt_de": null,
+          "options": [
+            "tabiatga zarar yetkazmaydigan",
+            "juda qimmat",
+            "tez ishlaydigan"
+          ],
+          "pairs": null,
+          "correct_answer": "tabiatga zarar yetkazmaydigan",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "die Umwelt — atrof-muhit, freundlich — do'stona.",
+          "error_type": "vocabulary",
+          "points": 1,
+          "audio_text": null
+        }
+      ]
+    },
+    {
+      "skill": "writing",
+      "title": "Schreiben — yozish",
+      "exercises": [
+        {
+          "id": "exam-a2-22",
+          "version": 1,
+          "type": "short_text",
+          "skill": "writing",
+          "topic": "language-learning",
+          "grammar_topic": null,
+          "difficulty": 3,
+          "question": "Nemis do'stingizga email yozing: nega nemis tilini o'rganyapsiz (weil), qanday o'rganasiz va kelajak rejangiz qanday. Kamida 50 so'z.",
+          "prompt_de": null,
+          "options": null,
+          "pairs": null,
+          "correct_answer": null,
+          "accepted_answers": [],
+          "criteria": {
+            "min_words": 50,
+            "required_words": [
+              "weil"
+            ],
+            "sample": "Liebe Anna, wie geht es dir? Ich lerne jetzt seit einem Jahr Deutsch, weil ich in Deutschland eine Ausbildung machen möchte. Ich lerne jeden Tag eine Stunde mit einer App und gehe zweimal pro Woche in einen Kurs. Am Wochenende sehe ich deutsche Filme. Nächstes Jahr werde ich die B1-Prüfung machen. Viele Grüße, Jasur"
+          },
+          "hint": null,
+          "explanation": "Baholash: so'z soni, kerakli so'zlar va namunaga yaqinlik. Namuna javobni o'zingiznikiga solishtiring.",
+          "error_type": "other",
+          "points": 6,
+          "audio_text": null
+        },
+        {
+          "id": "exam-a2-23",
+          "version": 1,
+          "type": "short_text",
+          "skill": "writing",
+          "topic": "shopping",
+          "grammar_topic": null,
+          "difficulty": 3,
+          "question": "Internet do'kondan olgan poyabzalingiz buzuq keldi. Rasmiy shikoyat yozing: nima olgansiz, qanday muammo, nimani xohlaysiz (almashtirish yoki pulni qaytarish). Kamida 40 so'z.",
+          "prompt_de": null,
+          "options": null,
+          "pairs": null,
+          "correct_answer": null,
+          "accepted_answers": [],
+          "criteria": {
+            "min_words": 40,
+            "required_words": [
+              "Grüßen"
+            ],
+            "sample": "Sehr geehrte Damen und Herren, am 3. Mai habe ich bei Ihnen Sportschuhe bestellt. Leider ist ein Schuh kaputt. Ich möchte die Schuhe zurückschicken. Könnten Sie mir bitte neue Schuhe schicken oder das Geld zurückzahlen? Mit freundlichen Grüßen, Malika Yusupova"
+          },
+          "hint": null,
+          "explanation": "Baholash: so'z soni, kerakli so'zlar va namunaga yaqinlik. Namuna javobni o'zingiznikiga solishtiring.",
+          "error_type": "other",
+          "points": 6,
+          "audio_text": null
+        }
+      ]
+    },
+    {
+      "skill": "speaking",
+      "title": "Sprechen — gapirish",
+      "exercises": [
+        {
+          "id": "exam-a2-24",
+          "version": 1,
+          "type": "speak",
+          "skill": "speaking",
+          "topic": "city",
+          "grammar_topic": null,
+          "difficulty": 3,
+          "question": "Shaharda va qishloqda yashashni taqqoslang. Qaysi biri sizga ko'proq yoqadi va nega?",
+          "prompt_de": null,
+          "options": null,
+          "pairs": null,
+          "correct_answer": null,
+          "accepted_answers": [],
+          "criteria": {
+            "min_words": 30,
+            "required_words": [
+              "als"
+            ],
+            "sample": "In der Stadt gibt es mehr Arbeit und mehr Geschäfte als auf dem Land. Aber das Leben auf dem Land ist ruhiger und gesünder. Ich wohne lieber in der Stadt, weil ich dort studieren kann und der Weg zur Arbeit kürzer ist."
+          },
+          "hint": null,
+          "explanation": "Gapirish o'z-o'zini baholash bilan tekshiriladi va umumiy foizga kirmaydi. Namuna bilan solishtiring.",
+          "error_type": "other",
+          "points": 2,
+          "audio_text": null
+        },
+        {
+          "id": "exam-a2-25",
+          "version": 1,
+          "type": "speak",
+          "skill": "speaking",
+          "topic": "invitations",
+          "grammar_topic": null,
+          "difficulty": 2,
+          "question": "Do'stingiz bilan dam olish kunini rejalashtiring: taklif qiling, vaqt va joyni belgilang, nima olib kelishni ayting.",
+          "prompt_de": null,
+          "options": null,
+          "pairs": null,
+          "correct_answer": null,
+          "accepted_answers": [],
+          "criteria": {
+            "min_words": 20,
+            "required_words": [],
+            "sample": "Hast du am Samstag Zeit? Wollen wir zusammen grillen? Wir können uns um zwölf Uhr im Park treffen. Ich bringe Fleisch und Brot mit. Kannst du Getränke mitbringen?"
+          },
+          "hint": null,
+          "explanation": "Gapirish o'z-o'zini baholash bilan tekshiriladi va umumiy foizga kirmaydi. Namuna bilan solishtiring.",
+          "error_type": "other",
+          "points": 2,
+          "audio_text": null
+        }
+      ]
+    }
+  ]
+}

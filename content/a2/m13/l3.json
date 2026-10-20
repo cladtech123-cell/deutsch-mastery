@@ -1,0 +1,917 @@
+{
+  "id": "a2-m13-l3",
+  "version": 1,
+  "level": "A2",
+  "module": 13,
+  "order": 3,
+  "title": "Mini-hikoya: kutilmagan voqea",
+  "title_de": "Eine kleine Geschichte erzählen",
+  "goal": "Dars oxirida nomuntazam fe'llarning Partizip II shakllarini (getroffen, verloren, gebracht) ishlatib, \"zuerst, dann, danach, zum Schluss\" yordamida 5 gaplik hikoya tuza olasiz.",
+  "skill_focus": [
+    "grammar",
+    "writing",
+    "speaking"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Ko'p ishlatiladigan fe'llarning bir qismi nomuntazam: ularning Partizip II shakli \"-en\" bilan tugaydi va ko'pincha ichidagi unli o'zgaradi. Bularni ro'yxat bilan yodlash eng yaxshi yo'l."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Infinitiv",
+        "Partizip II",
+        "Yordamchi",
+        "Ma'nosi"
+      ],
+      "rows": [
+        [
+          "essen",
+          "gegessen",
+          "haben",
+          "yemoq"
+        ],
+        [
+          "trinken",
+          "getrunken",
+          "haben",
+          "ichmoq"
+        ],
+        [
+          "treffen",
+          "getroffen",
+          "haben",
+          "uchratmoq"
+        ],
+        [
+          "finden",
+          "gefunden",
+          "haben",
+          "topmoq"
+        ],
+        [
+          "nehmen",
+          "genommen",
+          "haben",
+          "olmoq"
+        ],
+        [
+          "schreiben",
+          "geschrieben",
+          "haben",
+          "yozmoq"
+        ],
+        [
+          "verlieren",
+          "verloren",
+          "haben",
+          "yo'qotmoq"
+        ],
+        [
+          "vergessen",
+          "vergessen",
+          "haben",
+          "unutmoq"
+        ],
+        [
+          "bringen",
+          "gebracht",
+          "haben",
+          "olib kelmoq"
+        ],
+        [
+          "gehen",
+          "gegangen",
+          "sein",
+          "bormoq"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Hikoya aytganda voqealar ketma-ketligini bog'lovchi so'zlar bilan ko'rsating: zuerst (avval), dann (keyin), danach (undan keyin), plötzlich (birdan), endlich (nihoyat), zum Schluss (oxirida)."
+    },
+    {
+      "type": "tip",
+      "text": "Bu so'zlar gap boshida tursa, fe'l baribir 2-o'rinda qoladi: \"Zuerst HABE ich ...\", \"Dann SIND wir ...\". O'zbek tilidagi kabi \"Avval men ...\" deb tartibni saqlab qolmang!"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-vergessen",
+      "de": "vergessen",
+      "uz": "unutmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "vergessen",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "vergisst"
+      },
+      "example_de": "Ich habe meine Hausaufgabe vergessen.",
+      "example_uz": "Uy vazifamni unutib qoldim.",
+      "topic": "past-events"
+    },
+    {
+      "id": "v-verlieren",
+      "de": "verlieren",
+      "uz": "yo'qotmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "verloren",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "verliert"
+      },
+      "example_de": "Er hat seinen Schlüssel verloren.",
+      "example_uz": "U kalitini yo'qotib qo'ydi.",
+      "topic": "past-events"
+    },
+    {
+      "id": "v-bringen",
+      "de": "bringen",
+      "uz": "olib kelmoq, olib bormoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "gebracht",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "bringt"
+      },
+      "example_de": "Sie hat mir Blumen gebracht.",
+      "example_uz": "U menga gul olib keldi.",
+      "topic": "general"
+    },
+    {
+      "id": "v-danach",
+      "de": "danach",
+      "uz": "undan keyin",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Danach sind wir ins Kino gegangen.",
+      "example_uz": "Undan keyin kinoga bordik.",
+      "topic": "past-events"
+    },
+    {
+      "id": "v-zum-schluss",
+      "de": "zum Schluss",
+      "uz": "oxirida, so'ngida",
+      "pos": "phrase",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Zum Schluss haben wir getanzt.",
+      "example_uz": "Oxirida raqs tushdik.",
+      "topic": "past-events"
+    },
+    {
+      "id": "v-plötzlich",
+      "de": "plötzlich",
+      "uz": "birdan, to'satdan",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Plötzlich hat das Telefon geklingelt.",
+      "example_uz": "Birdan telefon jiringladi.",
+      "topic": "past-events"
+    },
+    {
+      "id": "v-endlich",
+      "de": "endlich",
+      "uz": "nihoyat",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Endlich habe ich die Prüfung geschafft!",
+      "example_uz": "Nihoyat imtihondan o'tdim!",
+      "topic": "past-events"
+    },
+    {
+      "id": "v-das-erlebnis",
+      "de": "Erlebnis",
+      "uz": "boshdan kechirgan voqea, taassurot",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Erlebnisse",
+      "forms": null,
+      "example_de": "Das Konzert war ein tolles Erlebnis.",
+      "example_uz": "Konsert ajoyib taassurot bo'ldi.",
+      "topic": "past-events"
+    },
+    {
+      "id": "v-der-schlüssel",
+      "de": "Schlüssel",
+      "uz": "kalit",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Schlüssel",
+      "forms": null,
+      "example_de": "Wo ist mein Schlüssel?",
+      "example_uz": "Kalitim qayerda?",
+      "topic": "home"
+    },
+    {
+      "id": "v-die-geldbörse",
+      "de": "Geldbörse",
+      "uz": "hamyon",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Geldbörsen",
+      "forms": null,
+      "example_de": "Ich habe meine Geldbörse im Bus vergessen.",
+      "example_uz": "Hamyonimni avtobusda unutib qoldirdim.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-das-fundbüro",
+      "de": "Fundbüro",
+      "uz": "topilgan buyumlar byurosi",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Fundbüros",
+      "forms": null,
+      "example_de": "Ich habe meine Geldbörse im Fundbüro abgeholt.",
+      "example_uz": "Hamyonimni topilgan buyumlar byurosidan olib ketdim.",
+      "topic": "services"
+    },
+    {
+      "id": "v-die-überraschung",
+      "de": "Überraschung",
+      "uz": "kutilmagan voqea, syurpriz",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Überraschungen",
+      "forms": null,
+      "example_de": "Das war eine schöne Überraschung!",
+      "example_uz": "Bu yoqimli syurpriz bo'ldi!",
+      "topic": "past-events"
+    }
+  ],
+  "review_vocabulary": [
+    "v-treffen",
+    "v-zuerst",
+    "v-das-konzert",
+    "v-erzählen",
+    "v-passieren",
+    "v-neulich",
+    "v-aufwachen"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-perfekt",
+      "rule": "Nomuntazam (kuchli) fe'llar Partizip II ni \"ge- ... -en\" bilan yasaydi va ko'pincha unli o'zgaradi (treffen → getroffen). \"ver-\" bilan boshlansa \"ge-\" yo'q (verloren, vergessen). Aralash fe'llar: bringen → gebracht.",
+      "when": "Hikoya, tajriba va kutilmagan voqealarni aytib berganda.",
+      "structure": "Subyekt + haben/sein + ... + ge...en.  Masalan: Ich habe Anna getroffen.",
+      "examples": [
+        {
+          "de": "Wir haben im Restaurant Plov gegessen.",
+          "uz": "Biz restoranda palov yedik."
+        },
+        {
+          "de": "Ich habe meinen Schlüssel verloren.",
+          "uz": "Kalitimni yo'qotib qo'ydim."
+        },
+        {
+          "de": "Hast du meine Nachricht vergessen?",
+          "uz": "Xabarimni unutdingmi?"
+        },
+        {
+          "de": "Mein Kollege hat Kuchen ins Büro gebracht.",
+          "uz": "Hamkasbim ofisga pirog olib keldi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Ich habe meinen Schlüssel geverloren.",
+          "right": "Ich habe meinen Schlüssel verloren.",
+          "why": "\"ver-\" bilan boshlanadigan fe'llarga \"ge-\" qo'shilmaydi."
+        },
+        {
+          "wrong": "Ich habe Lena getrefft.",
+          "right": "Ich habe Lena getroffen.",
+          "why": "\"treffen\" nomuntazam fe'l: -en bilan tugaydi va e → o o'zgaradi."
+        },
+        {
+          "wrong": "Er hat Blumen gebringt.",
+          "right": "Er hat Blumen gebracht.",
+          "why": "\"bringen\" — aralash fe'l: o'zak o'zgaradi (brach-), lekin oxiri -t."
+        }
+      ],
+      "check": [
+        "a2-m13-l3-e02",
+        "a2-m13-l3-e03",
+        "a2-m13-l3-e04",
+        "a2-m13-l3-e08"
+      ]
+    },
+    {
+      "topic_id": "g-verb-position",
+      "rule": "Hikoyadagi bog'lovchi ravishlar (zuerst, dann, danach, plötzlich, zum Schluss) 1-o'rinni egallaydi. Shundan keyin darhol tuslangan fe'l (habe/bin) keladi, keyin subyekt.",
+      "when": "Voqealarni ketma-ket aytib berganda.",
+      "structure": "Zuerst + habe/bin + ich + ... + Partizip II.",
+      "examples": [
+        {
+          "de": "Zuerst habe ich gefrühstückt.",
+          "uz": "Avval nonushta qildim."
+        },
+        {
+          "de": "Dann bin ich zur Arbeit gefahren.",
+          "uz": "Keyin ishga bordim."
+        },
+        {
+          "de": "Plötzlich hat mein Handy geklingelt.",
+          "uz": "Birdan telefonim jiringladi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Zuerst ich habe gefrühstückt.",
+          "right": "Zuerst habe ich gefrühstückt.",
+          "why": "Fe'l doim 2-o'rinda: \"Zuerst\" 1-o'rin, \"habe\" 2-o'rin, keyin \"ich\"."
+        },
+        {
+          "wrong": "Dann ich bin gefahren.",
+          "right": "Dann bin ich gefahren.",
+          "why": "O'zbek tilida \"Keyin men bordim\" deyiladi, nemis tilida esa fe'l subyektdan oldin keladi."
+        }
+      ],
+      "check": [
+        "a2-m13-l3-e05"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Shanba kungi voqea",
+    "lines": [
+      {
+        "speaker": "Lena",
+        "de": "Na, Aziz, wie war dein Samstag?",
+        "uz": "Xo'sh, Aziz, shanba kuning qanday o'tdi?"
+      },
+      {
+        "speaker": "Aziz",
+        "de": "Spannend! Zuerst habe ich Freunde in der Stadt getroffen.",
+        "uz": "Qiziq! Avval shaharda do'stlarimni uchratdim."
+      },
+      {
+        "speaker": "Aziz",
+        "de": "Dann haben wir Pizza gegessen und danach sind wir ins Konzert gegangen.",
+        "uz": "Keyin pitsa yedik, undan keyin konsertga bordik."
+      },
+      {
+        "speaker": "Lena",
+        "de": "Toll! Und dann?",
+        "uz": "Zo'r! Keyin-chi?"
+      },
+      {
+        "speaker": "Aziz",
+        "de": "Im Konzert habe ich plötzlich gemerkt: Meine Geldbörse ist weg!",
+        "uz": "Konsertda birdan sezib qoldim: hamyonim yo'q!"
+      },
+      {
+        "speaker": "Lena",
+        "de": "Oh nein! Hast du sie gefunden?",
+        "uz": "Voy! Topdingmi?"
+      },
+      {
+        "speaker": "Aziz",
+        "de": "Ja! Zum Schluss hat ein Mann sie gefunden und zur Kasse gebracht.",
+        "uz": "Ha! Oxirida bir kishi uni topib, kassaga olib borib berdi."
+      }
+    ],
+    "questions": [
+      "a2-m13-l3-e06"
+    ]
+  },
+  "situation": {
+    "title": "Do'stingizga voqea aytib berish",
+    "context_uz": "Kechqurun do'stingiz Jonas bilan telefonda gaplashyapsiz. Bugun ertalab kalitingizni yo'qotgan edingiz, lekin keyin topdingiz.",
+    "lines": [
+      {
+        "speaker": "Jonas",
+        "de": "Du klingst müde. Was ist passiert?",
+        "uz": "Ovozing charchagan. Nima bo'ldi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Heute Morgen habe ich meinen Schlüssel verloren!",
+        "uz": "Bugun ertalab kalitimni yo'qotib qo'ydim!"
+      },
+      {
+        "speaker": "Jonas",
+        "de": "Oh je! Und dann?",
+        "uz": "Voy! Keyin-chi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Zuerst habe ich die ganze Wohnung gesucht. Dann habe ich den Hausmeister angerufen.",
+        "uz": "Avval butun kvartirani qidirdim. Keyin uy boshqaruvchisiga qo'ng'iroq qildim."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Zum Schluss habe ich ihn endlich gefunden — in meiner Jacke!",
+        "uz": "Oxirida nihoyat topdim — kurtkamning ichidan!"
+      },
+      {
+        "speaker": "Jonas",
+        "de": "Ha, das kenne ich!",
+        "uz": "Ha-ha, bu menga tanish!"
+      }
+    ],
+    "task_uz": "O'zingizning kichik voqeangizni (biror narsani unutgan, yo'qotgan yoki kimnidir kutilmaganda uchratgan) 4–5 gapda aytib bering. \"zuerst, dann, plötzlich, zum Schluss\" so'zlarini ishlating."
+  },
+  "exercises": [
+    {
+      "id": "a2-m13-l3-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "grammar",
+      "topic": "past-events",
+      "grammar_topic": "g-perfekt",
+      "difficulty": 1,
+      "question": "Infinitivni Partizip II bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "treffen",
+          "getroffen"
+        ],
+        [
+          "verlieren",
+          "verloren"
+        ],
+        [
+          "bringen",
+          "gebracht"
+        ],
+        [
+          "essen",
+          "gegessen"
+        ],
+        [
+          "schreiben",
+          "geschrieben"
+        ]
+      ],
+      "correct_answer": {
+        "treffen": "getroffen",
+        "verlieren": "verloren",
+        "bringen": "gebracht",
+        "essen": "gegessen",
+        "schreiben": "geschrieben"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "treffen → getroffen, verlieren → verloren (ge- yo'q), bringen → gebracht (aralash), essen → gegessen, schreiben → geschrieben.",
+      "error_type": "conjugation",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l3-e02",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "past-events",
+      "grammar_topic": "g-perfekt",
+      "difficulty": 2,
+      "question": "\"finden\" fe'lining Partizip II shaklini yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "gefunden",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "i → u",
+      "explanation": "finden → gefunden. Masalan: Ich habe meinen Schlüssel gefunden.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l3-e03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "past-events",
+      "grammar_topic": "g-perfekt",
+      "difficulty": 2,
+      "question": "Qavsdagi fe'lning Partizip II shaklini yozing: Ich habe meinen Termin ___. (vergessen)",
+      "prompt_de": "Ich habe meinen Termin ___. (vergessen)",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "vergessen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"ver-\" fe'llarida ge- yo'q.",
+      "explanation": "\"vergessen\" ning Partizip II shakli infinitiv bilan bir xil: vergessen. \"gevergessen\" deb bo'lmaydi.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l3-e04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "people",
+      "grammar_topic": "g-perfekt",
+      "difficulty": 1,
+      "question": "To'g'ri shaklni tanlang: Gestern habe ich Lena im Café ___.",
+      "prompt_de": null,
+      "options": [
+        "getroffen",
+        "getreffen",
+        "getrifft"
+      ],
+      "pairs": null,
+      "correct_answer": "getroffen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"treffen\" — nomuntazam: e → o, oxiri -en: getroffen.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l3-e05",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-verb-position",
+      "difficulty": 2,
+      "question": "So'zlarni to'g'ri tartibda joylashtiring: \"Avval biz pitsa yedik.\"",
+      "prompt_de": null,
+      "options": [
+        "wir",
+        "Pizza",
+        "haben",
+        "gegessen",
+        "Zuerst"
+      ],
+      "pairs": null,
+      "correct_answer": "Zuerst haben wir Pizza gegessen",
+      "accepted_answers": [
+        "Wir haben zuerst Pizza gegessen"
+      ],
+      "criteria": null,
+      "hint": "\"Zuerst\" birinchi bo'lsa, keyingi so'z — fe'l.",
+      "explanation": "\"Zuerst\" 1-o'rinda, \"haben\" 2-o'rinda, keyin \"wir\". \"gegessen\" — gap oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l3-e06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "past-events",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Aziz hamyonini kim topdi?",
+      "prompt_de": null,
+      "options": [
+        "Bir notanish kishi",
+        "Lena",
+        "Azizning o'zi"
+      ],
+      "pairs": null,
+      "correct_answer": "Bir notanish kishi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"ein Mann\" — bir kishi.",
+      "explanation": "\"Zum Schluss hat ein Mann sie gefunden\" — oxirida bir kishi uni topdi va kassaga olib bordi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Zum Schluss hat ein Mann sie gefunden und zur Kasse gebracht."
+    },
+    {
+      "id": "a2-m13-l3-e07",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "past-events",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Matnni o'qing. Kalit qayerdan topildi?",
+      "prompt_de": "Letzten Freitag bin ich mit meiner Kollegin ins Konzert gegangen. Zuerst haben wir im Restaurant gegessen. Danach sind wir mit der U-Bahn zum Konzert gefahren. Plötzlich habe ich gemerkt: Mein Schlüssel ist weg! Zum Schluss hat meine Kollegin ihn in ihrer Tasche gefunden.",
+      "options": [
+        "Hamkasbining sumkasidan",
+        "Restorandan",
+        "Metrodan"
+      ],
+      "pairs": null,
+      "correct_answer": "Hamkasbining sumkasidan",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Oxirgi gapni diqqat bilan o'qing.",
+      "explanation": "\"Zum Schluss hat meine Kollegin ihn in ihrer Tasche gefunden\" — hamkasbi kalitni o'z sumkasidan topdi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l3-e08",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "past-events",
+      "grammar_topic": "g-perfekt",
+      "difficulty": 2,
+      "question": "Gapdagi xato so'zni toping: \"Ich habe meinen Schlüssel geverloren.\"",
+      "prompt_de": "Ich habe meinen Schlüssel geverloren.",
+      "options": [
+        "Ich",
+        "habe",
+        "meinen",
+        "Schlüssel",
+        "geverloren"
+      ],
+      "pairs": null,
+      "correct_answer": "geverloren",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: \"verloren\". \"ver-\" bilan boshlanadigan fe'llarda \"ge-\" qo'shilmaydi.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l3-e09",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "people",
+      "grammar_topic": "g-perfekt",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Men kecha do'stimni uchratdim.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich habe gestern meinen Freund getroffen.",
+      "accepted_answers": [
+        "Gestern habe ich meinen Freund getroffen.",
+        "Ich habe gestern meine Freundin getroffen.",
+        "Gestern habe ich meine Freundin getroffen.",
+        "Ich habe gestern einen Freund getroffen.",
+        "Gestern habe ich einen Freund getroffen.",
+        "Ich habe meinen Freund gestern getroffen."
+      ],
+      "criteria": null,
+      "hint": "uchratmoq = treffen → getroffen",
+      "explanation": "treffen → getroffen, yordamchi fe'l \"haben\". \"do'stim\" — meinen Freund (erkak) yoki meine Freundin (ayol).",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l3-e10",
+      "version": 1,
+      "type": "short_text",
+      "skill": "writing",
+      "topic": "past-events",
+      "grammar_topic": null,
+      "difficulty": 3,
+      "question": "O'tgan dam olish kuningiz haqida 4–5 gaplik qisqa hikoya yozing. \"zuerst\" va \"dann\" so'zlarini ishlating, Perfektdan foydalaning.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 25,
+        "required_words": [
+          "zuerst",
+          "dann"
+        ],
+        "sample": "Am Samstag bin ich früh aufgewacht. Zuerst habe ich gefrühstückt und die Wohnung aufgeräumt. Dann habe ich meine Freundin getroffen. Danach sind wir in die Stadt gefahren und haben Eis gegessen. Zum Schluss habe ich mit meiner Mutter telefoniert."
+      },
+      "hint": "Har bir gapda habe/bin + Partizip II bo'lsin.",
+      "explanation": "Yaxshi hikoyada voqealar tartib bilan beriladi (zuerst → dann → danach → zum Schluss), fe'l 2-o'rinda va Partizip II gap oxirida turadi.",
+      "error_type": "tense",
+      "points": 3,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l3-e11",
+      "version": 1,
+      "type": "speak",
+      "skill": "speaking",
+      "topic": "past-events",
+      "grammar_topic": null,
+      "difficulty": 3,
+      "question": "Ovoz chiqarib gapiring: do'stingizga kutilmagan bir voqeangizni (biror narsani yo'qotdingiz yoki unutdingiz) 3–4 gapda aytib bering. \"plötzlich\" so'zini ishlating.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 20,
+        "required_words": [
+          "plötzlich"
+        ],
+        "sample": "Letzte Woche bin ich mit dem Bus zur Arbeit gefahren. Plötzlich habe ich gemerkt: Meine Geldbörse ist weg! Ich habe sie im Bus vergessen. Zum Schluss hat der Busfahrer sie gefunden."
+      },
+      "hint": null,
+      "explanation": "Gapirishda ham Perfekt ishlating: habe/bin + Partizip II. \"plötzlich\" hikoyaga kutilmagan burilish beradi.",
+      "error_type": "other",
+      "points": 2,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a2-m13-l3-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "past-events",
+      "grammar_topic": "g-perfekt",
+      "difficulty": 1,
+      "question": "\"nehmen\" fe'lining Partizip II shakli qaysi?",
+      "prompt_de": null,
+      "options": [
+        "genommen",
+        "genehmt",
+        "genimmt"
+      ],
+      "pairs": null,
+      "correct_answer": "genommen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "nehmen → genommen (nomuntazam). Masalan: Ich habe den Bus genommen.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l3-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "general",
+      "grammar_topic": "g-perfekt",
+      "difficulty": 2,
+      "question": "Qavsdagi fe'lning Partizip II shaklini yozing: Er hat mir Blumen ___. (bringen)",
+      "prompt_de": "Er hat mir Blumen ___. (bringen)",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "gebracht",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"bringen\" — aralash fe'l: gebracht.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l3-t03",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "invitations",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Do'stingiz so'rayapti: \"Warum bist du gestern nicht gekommen?\" Siz uchrashuvni unutgan edingiz. Nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Entschuldigung, ich habe es vergessen!",
+        "Entschuldigung, ich bin es vergessen!",
+        "Entschuldigung, ich vergesse es gestern!"
+      ],
+      "pairs": null,
+      "correct_answer": "Entschuldigung, ich habe es vergessen!",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"vergessen\" — \"haben\" bilan, Partizip II ham \"vergessen\". \"gestern\" bilan hozirgi zamon ishlatilmaydi.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l3-t04",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-verb-position",
+      "difficulty": 2,
+      "question": "So'zlarni to'g'ri tartibda joylashtiring: \"Undan keyin biz uyga bordik.\"",
+      "prompt_de": null,
+      "options": [
+        "Hause",
+        "sind",
+        "wir",
+        "Danach",
+        "gefahren",
+        "nach"
+      ],
+      "pairs": null,
+      "correct_answer": "Danach sind wir nach Hause gefahren",
+      "accepted_answers": [
+        "Wir sind danach nach Hause gefahren"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Danach\" 1-o'rinda → \"sind\" 2-o'rinda → \"wir\". \"gefahren\" oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l3-t05",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "reading",
+      "topic": "past-events",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "O'zbek tiliga tarjima qiling: \"Zum Schluss haben wir den Schlüssel gefunden.\"",
+      "prompt_de": "Zum Schluss haben wir den Schlüssel gefunden.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Oxirida biz kalitni topdik.",
+      "accepted_answers": [
+        "Oxirida kalitni topdik.",
+        "Nihoyat kalitni topdik.",
+        "Oxiri kalitni topdik.",
+        "So'ngida kalitni topdik.",
+        "Oxirida biz kalitni topdik"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Zum Schluss\" — oxirida, \"gefunden\" — topdik (finden).",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l3-t06",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "past-events",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni davom ettiring. — Ich habe gestern meinen Schlüssel verloren!",
+      "prompt_de": "Ich habe gestern meinen Schlüssel verloren!",
+      "options": [
+        "Oh nein! Hast du ihn gefunden?",
+        "Super, herzlichen Glückwunsch!",
+        "Ich verliere morgen."
+      ],
+      "pairs": null,
+      "correct_answer": "Oh nein! Hast du ihn gefunden?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Yomon xabarga hamdardlik bildirib, savol berish tabiiy: \"Oh nein! Hast du ihn gefunden?\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l3-t07",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "past-events",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "\"Avval, birinchi navbatda\" nemischa qanday?",
+      "prompt_de": null,
+      "options": [
+        "zuerst",
+        "zum Schluss",
+        "plötzlich"
+      ],
+      "pairs": null,
+      "correct_answer": "zuerst",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "zuerst — avval; zum Schluss — oxirida; plötzlich — birdan.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

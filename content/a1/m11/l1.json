@@ -1,0 +1,895 @@
+{
+  "id": "a1-m11-l1",
+  "version": 1,
+  "level": "A1",
+  "module": 11,
+  "order": 1,
+  "title": "Hobbilar",
+  "title_de": "Hobbys und Freizeit",
+  "goal": "Dars oxirida 14 ta hobbi va bo'sh vaqt so'zini ishlatasiz, \"lesen, sehen, fahren\" kabi unli o'zgaradigan fe'llarni to'g'ri tuslaysiz va o'z qiziqishlaringiz haqida 3–4 gap ayta olasiz.",
+  "skill_focus": [
+    "vocabulary",
+    "grammar",
+    "speaking"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Bo'sh vaqt haqida eng ko'p beriladigan savollar: \"Was machst du in deiner Freizeit?\" (Bo'sh vaqtingda nima qilasan?) va \"Was ist dein Hobby?\" (Sevimli mashg'uloting nima?). Javobda \"gern\" (7-modul) juda qo'l keladi: Ich lese gern. Ich tanze nicht gern."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Fe'l",
+        "O'zbekcha",
+        "Misol"
+      ],
+      "rows": [
+        [
+          "lesen",
+          "o'qimoq",
+          "Ich lese gern Bücher."
+        ],
+        [
+          "schwimmen",
+          "suzmoq",
+          "Wir schwimmen im Sommer."
+        ],
+        [
+          "tanzen",
+          "raqsga tushmoq",
+          "Sie tanzt sehr gut."
+        ],
+        [
+          "singen",
+          "qo'shiq aytmoq",
+          "Er singt gern."
+        ],
+        [
+          "malen",
+          "rasm chizmoq",
+          "Ich male am Wochenende."
+        ],
+        [
+          "wandern",
+          "piyoda sayohat qilmoq",
+          "Wir wandern in den Bergen."
+        ],
+        [
+          "fotografieren",
+          "suratga olmoq",
+          "Ich fotografiere gern."
+        ],
+        [
+          "Fußball spielen",
+          "futbol o'ynamoq",
+          "Spielst du Fußball?"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Ba'zi fe'llarda du va er/sie/es shaklida unli o'zgaradi. Bu faqat shu ikki shaxsda bo'ladi, qolganlari muntazam."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Infinitiv",
+        "ich",
+        "du",
+        "er / sie / es",
+        "wir"
+      ],
+      "rows": [
+        [
+          "lesen (e → ie)",
+          "lese",
+          "liest",
+          "liest",
+          "lesen"
+        ],
+        [
+          "sehen (e → ie)",
+          "sehe",
+          "siehst",
+          "sieht",
+          "sehen"
+        ],
+        [
+          "sprechen (e → i)",
+          "spreche",
+          "sprichst",
+          "spricht",
+          "sprechen"
+        ],
+        [
+          "fahren (a → ä)",
+          "fahre",
+          "fährst",
+          "fährt",
+          "fahren"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "\"lieber\" — \"ko'proq yoqtiraman\": Ich lese gern, aber ich sehe lieber Filme. (Taqqoslashni A2 da batafsil o'rganamiz.)"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-das-hobby",
+      "de": "Hobby",
+      "uz": "hobbi, sevimli mashg'ulot",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Hobbys",
+      "forms": null,
+      "example_de": "Mein Hobby ist Fotografieren.",
+      "example_uz": "Mening hobbim — suratga olish.",
+      "topic": "leisure"
+    },
+    {
+      "id": "v-die-freizeit",
+      "de": "Freizeit",
+      "uz": "bo'sh vaqt",
+      "pos": "noun",
+      "article": "die",
+      "plural": "-",
+      "forms": null,
+      "example_de": "In meiner Freizeit lese ich gern.",
+      "example_uz": "Bo'sh vaqtimda kitob o'qishni yaxshi ko'raman.",
+      "topic": "leisure"
+    },
+    {
+      "id": "v-schwimmen",
+      "de": "schwimmen",
+      "uz": "suzmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "geschwommen",
+        "perfekt_aux": "sein",
+        "praesens_3sg": "schwimmt"
+      },
+      "example_de": "Im Sommer schwimmen wir im See.",
+      "example_uz": "Yozda biz ko'lda suzamiz.",
+      "topic": "sports"
+    },
+    {
+      "id": "v-tanzen",
+      "de": "tanzen",
+      "uz": "raqsga tushmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "getanzt",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "tanzt"
+      },
+      "example_de": "Madina tanzt sehr gut.",
+      "example_uz": "Madina juda yaxshi raqs tushadi.",
+      "topic": "leisure"
+    },
+    {
+      "id": "v-singen",
+      "de": "singen",
+      "uz": "qo'shiq aytmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "gesungen",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "singt"
+      },
+      "example_de": "Mein Bruder singt gern.",
+      "example_uz": "Akam qo'shiq aytishni yaxshi ko'radi.",
+      "topic": "leisure"
+    },
+    {
+      "id": "v-malen",
+      "de": "malen",
+      "uz": "rasm chizmoq (bo'yoq bilan)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "gemalt",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "malt"
+      },
+      "example_de": "Am Wochenende male ich.",
+      "example_uz": "Dam olish kunlari rasm chizaman.",
+      "topic": "leisure"
+    },
+    {
+      "id": "v-wandern",
+      "de": "wandern",
+      "uz": "piyoda sayohat qilmoq (tabiatda)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "gewandert",
+        "perfekt_aux": "sein",
+        "praesens_3sg": "wandert"
+      },
+      "example_de": "Wir wandern gern in den Bergen.",
+      "example_uz": "Biz tog'larda piyoda sayr qilishni yaxshi ko'ramiz.",
+      "topic": "leisure"
+    },
+    {
+      "id": "v-fotografieren",
+      "de": "fotografieren",
+      "uz": "suratga olmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "fotografiert",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "fotografiert"
+      },
+      "example_de": "Ich fotografiere gern Blumen.",
+      "example_uz": "Men gullarni suratga olishni yaxshi ko'raman.",
+      "topic": "leisure"
+    },
+    {
+      "id": "v-der-fußball",
+      "de": "Fußball",
+      "uz": "futbol; futbol to'pi",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Fußbälle",
+      "forms": null,
+      "example_de": "Spielst du gern Fußball?",
+      "example_uz": "Futbol o'ynashni yaxshi ko'rasanmi?",
+      "topic": "sports"
+    },
+    {
+      "id": "v-der-film",
+      "de": "Film",
+      "uz": "film",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Filme",
+      "forms": null,
+      "example_de": "Wir sehen heute einen Film.",
+      "example_uz": "Bugun biz film ko'ramiz.",
+      "topic": "leisure"
+    }
+  ],
+  "review_vocabulary": [
+    "v-der-park",
+    "v-das-kino",
+    "v-das-fahrrad",
+    "v-fahren",
+    "v-mögen",
+    "v-lesen",
+    "v-spielen",
+    "v-die-musik",
+    "v-das-buch"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-praesens",
+      "rule": "Ba'zi kuchli fe'llarda du va er/sie/es shaklida unli o'zgaradi: e → ie (lesen → liest, sehen → sieht), e → i (sprechen → spricht), a → ä (fahren → fährt). ich, wir, ihr, sie shakllari muntazam.",
+      "when": "Boshqa odamning (er, sie, du) hobbilari va odatlari haqida gapirganda.",
+      "structure": "du + o'zgargan o'zak + -st: du liest, du siehst, du fährst\ner/sie/es + o'zgargan o'zak + -t: er liest, sie sieht, er fährt",
+      "examples": [
+        {
+          "de": "Meine Schwester liest gern Bücher.",
+          "uz": "Opam kitob o'qishni yaxshi ko'radi."
+        },
+        {
+          "de": "Liest du gern?",
+          "uz": "Kitob o'qishni yaxshi ko'rasanmi?"
+        },
+        {
+          "de": "Er sieht gern Filme.",
+          "uz": "U film ko'rishni yaxshi ko'radi."
+        },
+        {
+          "de": "Am Wochenende fährt mein Vater Fahrrad.",
+          "uz": "Dam olish kunlari otam velosiped haydaydi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Er lest ein Buch.",
+          "right": "Er liest ein Buch.",
+          "why": "lesen: er/sie/es bilan e → ie: liest."
+        },
+        {
+          "wrong": "Du sehst gern Filme.",
+          "right": "Du siehst gern Filme.",
+          "why": "sehen: du bilan e → ie: siehst."
+        },
+        {
+          "wrong": "Wir liest Bücher.",
+          "right": "Wir lesen Bücher.",
+          "why": "Unli faqat du va er/sie/es da o'zgaradi. wir bilan — lesen."
+        }
+      ],
+      "check": [
+        "a1-m11-l1-e04",
+        "a1-m11-l1-e05",
+        "a1-m11-l1-e06"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Bo'sh vaqt haqida intervyu",
+    "lines": [
+      {
+        "speaker": "Moderatorin",
+        "de": "Was machst du in deiner Freizeit, Sanjar?",
+        "uz": "Sanjar, bo'sh vaqtingda nima qilasan?"
+      },
+      {
+        "speaker": "Sanjar",
+        "de": "Ich spiele gern Fußball. Am Wochenende spiele ich mit Freunden im Park.",
+        "uz": "Futbol o'ynashni yaxshi ko'raman. Dam olish kunlari do'stlarim bilan parkda o'ynayman."
+      },
+      {
+        "speaker": "Moderatorin",
+        "de": "Und liest du auch gern?",
+        "uz": "Kitob o'qishni ham yaxshi ko'rasanmi?"
+      },
+      {
+        "speaker": "Sanjar",
+        "de": "Nein, nicht so gern. Aber ich höre viel Musik.",
+        "uz": "Yo'q, unchalik emas. Lekin musiqani ko'p tinglayman."
+      },
+      {
+        "speaker": "Moderatorin",
+        "de": "Und deine Schwester?",
+        "uz": "Opang-chi?"
+      },
+      {
+        "speaker": "Sanjar",
+        "de": "Meine Schwester Madina tanzt und singt gern. Sie malt auch sehr schön.",
+        "uz": "Opam Madina raqs tushishni va qo'shiq aytishni yaxshi ko'radi. U juda chiroyli rasm ham chizadi."
+      }
+    ],
+    "questions": [
+      "a1-m11-l1-e07",
+      "a1-m11-l1-e08"
+    ]
+  },
+  "situation": {
+    "title": "Til almashinuvi (Tandem)",
+    "context_uz": "Siz nemis talabasi Laura bilan til almashinuvi (Tandem) uchun birinchi marta uchrashdingiz. U sizning qiziqishlaringizni so'rayapti.",
+    "lines": [
+      {
+        "speaker": "Laura",
+        "de": "Was sind deine Hobbys?",
+        "uz": "Sening hobbilaring qanday?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ich fotografiere gern. Und ich schwimme viel.",
+        "uz": "Suratga olishni yaxshi ko'raman. Ko'p suzaman ham."
+      },
+      {
+        "speaker": "Laura",
+        "de": "Toll! Ich schwimme auch gern. Liest du auch gern?",
+        "uz": "Zo'r! Men ham suzishni yaxshi ko'raman. Kitob o'qishni ham yoqtirasanmi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Nicht so gern. Ich sehe lieber Filme.",
+        "uz": "Unchalik emas. Film ko'rishni ko'proq yoqtiraman."
+      },
+      {
+        "speaker": "Laura",
+        "de": "Ich mag Filme auch. Am Freitag gibt es einen Film im Kino.",
+        "uz": "Men ham filmlarni yoqtiraman. Juma kuni kinoda bitta film bor."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Super, ich komme gern mit!",
+        "uz": "Zo'r, men ham bajonidil boraman!"
+      }
+    ],
+    "task_uz": "Sherigingizga 3 ta hobbingizni ayting (gern / nicht gern / lieber bilan) va unga 2 ta savol bering: \"Was machst du in deiner Freizeit?\", \"Spielst du gern ...?\""
+  },
+  "exercises": [
+    {
+      "id": "a1-m11-l1-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "leisure",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Fe'llarni juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "lesen",
+          "o'qimoq"
+        ],
+        [
+          "schwimmen",
+          "suzmoq"
+        ],
+        [
+          "tanzen",
+          "raqsga tushmoq"
+        ],
+        [
+          "singen",
+          "qo'shiq aytmoq"
+        ],
+        [
+          "malen",
+          "rasm chizmoq"
+        ],
+        [
+          "wandern",
+          "piyoda sayohat qilmoq"
+        ]
+      ],
+      "correct_answer": {
+        "lesen": "o'qimoq",
+        "schwimmen": "suzmoq",
+        "tanzen": "raqsga tushmoq",
+        "singen": "qo'shiq aytmoq",
+        "malen": "rasm chizmoq",
+        "wandern": "piyoda sayohat qilmoq"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "lesen — o'qimoq, schwimmen — suzmoq, tanzen — raqsga tushmoq, singen — qo'shiq aytmoq, malen — rasm chizmoq, wandern — tabiatda piyoda sayohat qilmoq.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l1-e02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "leisure",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "\"die Freizeit\" nima degani?",
+      "prompt_de": null,
+      "options": [
+        "bo'sh vaqt",
+        "ish vaqti",
+        "tushlik vaqti"
+      ],
+      "pairs": null,
+      "correct_answer": "bo'sh vaqt",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "frei — bo'sh, Zeit — vaqt: Freizeit — bo'sh vaqt.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l1-e03",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "leisure",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Artiklni tanlang: ___ Hobby",
+      "prompt_de": "___ Hobby",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "das",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "das Hobby — o'rta jins, ko'pligi die Hobbys.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l1-e04",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "leisure",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "Fe'lni tuslang: Meine Mutter ___ (lesen) jeden Abend.",
+      "prompt_de": "Meine Mutter ___ (lesen) jeden Abend.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "liest",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "e → ie",
+      "explanation": "Meine Mutter = sie. lesen → sie liest (e → ie).",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l1-e05",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "leisure",
+      "grammar_topic": "g-praesens",
+      "difficulty": 2,
+      "question": "Bo'sh joyni to'ldiring (sehen): ___ du gern Filme?",
+      "prompt_de": "___ du gern Filme?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Siehst",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "sehen → du siehst. Savolda fe'l birinchi.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l1-e06",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "leisure",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "Xato so'zni toping: \"Er lest ein Buch.\"",
+      "prompt_de": "Er lest ein Buch.",
+      "options": [
+        "Er",
+        "lest",
+        "ein",
+        "Buch"
+      ],
+      "pairs": null,
+      "correct_answer": "lest",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: \"Er liest ein Buch.\" lesen: er bilan liest.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l1-e07",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "leisure",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Intervyuni tinglang. Sanjar nimani unchalik yoqtirmaydi?",
+      "prompt_de": null,
+      "options": [
+        "Kitob o'qishni",
+        "Futbolni",
+        "Musiqani"
+      ],
+      "pairs": null,
+      "correct_answer": "Kitob o'qishni",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Und liest du auch gern? — Nein, nicht so gern.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Was machst du in deiner Freizeit, Sanjar? Ich spiele gern Fußball. Am Wochenende spiele ich mit Freunden im Park. Und liest du auch gern? Nein, nicht so gern. Aber ich höre viel Musik. Und deine Schwester? Meine Schwester Madina tanzt und singt gern. Sie malt auch sehr schön."
+    },
+    {
+      "id": "a1-m11-l1-e08",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "leisure",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Intervyuni tinglang. Madina nima qilishni yaxshi ko'radi?",
+      "prompt_de": null,
+      "options": [
+        "Raqs, qo'shiq va rasm",
+        "Futbol va suzish",
+        "Kitob va film"
+      ],
+      "pairs": null,
+      "correct_answer": "Raqs, qo'shiq va rasm",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Sie tanzt und singt gern. Sie malt auch sehr schön.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Was machst du in deiner Freizeit, Sanjar? Ich spiele gern Fußball. Am Wochenende spiele ich mit Freunden im Park. Und liest du auch gern? Nein, nicht so gern. Aber ich höre viel Musik. Und deine Schwester? Meine Schwester Madina tanzt und singt gern. Sie malt auch sehr schön."
+    },
+    {
+      "id": "a1-m11-l1-e09",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "sports",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemis tiliga tarjima qiling: \"Men futbol o'ynashni yaxshi ko'raman.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich spiele gern Fußball.",
+      "accepted_answers": [
+        "Fußball spiele ich gern.",
+        "Gern spiele ich Fußball."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"... ni yaxshi ko'raman\" = fe'l + gern. Fußball spielen — futbol o'ynamoq.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l1-e10",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "leisure",
+      "grammar_topic": "g-verb-position",
+      "difficulty": 2,
+      "question": "So'zlarni tartiblang: \"Dam olish kunlari biz piyoda sayr qilishni yaxshi ko'ramiz.\"",
+      "prompt_de": null,
+      "options": [
+        "Am",
+        "gern",
+        "wir",
+        "wandern",
+        "Wochenende"
+      ],
+      "pairs": null,
+      "correct_answer": "Am Wochenende wandern wir gern",
+      "accepted_answers": [
+        "Wir wandern am Wochenende gern",
+        "Wir wandern gern am Wochenende"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Vaqt bilan boshlansa, fe'l 2-o'rinda, ega undan keyin: Am Wochenende wandern wir gern.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l1-e11",
+      "version": 1,
+      "type": "short_text",
+      "skill": "writing",
+      "topic": "leisure",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Bo'sh vaqtingizda nima qilasiz? 3–4 gap yozing (gern / nicht gern).",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 15,
+        "required_words": [
+          "gern"
+        ],
+        "sample": "In meiner Freizeit lese ich gern. Ich spiele auch gern Fußball. Ich tanze nicht gern. Am Wochenende sehe ich Filme."
+      },
+      "hint": null,
+      "explanation": "Namuna: \"In meiner Freizeit lese ich gern. Ich spiele auch Fußball. Ich tanze nicht gern. Am Wochenende sehe ich Filme.\"",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l1-e12",
+      "version": 1,
+      "type": "plural",
+      "skill": "vocabulary",
+      "topic": "leisure",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Ko'plik shaklini yozing: das Buch → die ___",
+      "prompt_de": "das Buch",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Bücher",
+      "accepted_answers": [
+        "die Bücher"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "das Buch → die Bücher (u → ü, -er).",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a1-m11-l1-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "leisure",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "\"fotografieren\" nima degani?",
+      "prompt_de": null,
+      "options": [
+        "suratga olmoq",
+        "rasm chizmoq",
+        "raqsga tushmoq"
+      ],
+      "pairs": null,
+      "correct_answer": "suratga olmoq",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "fotografieren — suratga olmoq; malen — rasm chizmoq.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l1-t02",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "leisure",
+      "grammar_topic": "g-praesens",
+      "difficulty": 2,
+      "question": "Fe'lni tuslang: Du ___ (lesen) sehr viel.",
+      "prompt_de": "Du ___ (lesen) sehr viel.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "liest",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "lesen → du liest (o'zak lies- s bilan tugagani uchun faqat -t qo'shiladi).",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l1-t03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "leisure",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (sehen): Er ___ gern Filme.",
+      "prompt_de": "Er ___ gern Filme.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "sieht",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "sehen → er sieht.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l1-t04",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "leisure",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Artiklni tanlang: ___ Musik",
+      "prompt_de": "___ Musik",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "die",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Musik — ayol jinsi.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l1-t05",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "leisure",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"In meiner Freizeit male ich.\"",
+      "prompt_de": "In meiner Freizeit male ich.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Bo'sh vaqtimda rasm chizaman.",
+      "accepted_answers": [
+        "Bo'sh vaqtimda men rasm chizaman",
+        "Men bo'sh vaqtimda rasm chizaman"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Freizeit — bo'sh vaqt, malen — rasm chizmoq.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l1-t06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "leisure",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. U nimani yoqtirmaydi?",
+      "prompt_de": null,
+      "options": [
+        "Raqsni",
+        "Suzishni",
+        "Qo'shiqni"
+      ],
+      "pairs": null,
+      "correct_answer": "Raqsni",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"aber ich tanze nicht gern\" — raqsni yoqtirmaydi, suzishni yoqtiradi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Ich schwimme gern, aber ich tanze nicht gern."
+    },
+    {
+      "id": "a1-m11-l1-t07",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "leisure",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "To'g'ri shaklni tanlang: Wir ___ gern Bücher.",
+      "prompt_de": "Wir ___ gern Bücher.",
+      "options": [
+        "lesen",
+        "liest",
+        "lest"
+      ],
+      "pairs": null,
+      "correct_answer": "lesen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "wir bilan unli o'zgarmaydi: wir lesen.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

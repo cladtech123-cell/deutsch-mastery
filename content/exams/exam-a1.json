@@ -1,0 +1,727 @@
+{
+  "id": "exam-a1",
+  "version": 2,
+  "kind": "level_exam",
+  "level": "A1",
+  "title": "A1 sinov imtihoni",
+  "pass_percent": 60,
+  "sections": [
+    {
+      "skill": "reading",
+      "title": "Lesen — o'qish",
+      "exercises": [
+        {
+          "id": "exam-a1-01",
+          "version": 1,
+          "type": "reading",
+          "skill": "reading",
+          "topic": "health",
+          "grammar_topic": null,
+          "difficulty": 1,
+          "question": "E'lonni o'qing. Shanba kuni dorixona soat nechagacha ochiq?",
+          "prompt_de": "Apotheke am Markt — Öffnungszeiten: Montag bis Freitag 8:00–18:30 Uhr, Samstag 9:00–13:00 Uhr, Sonntag geschlossen. Notdienst: Telefon 0341 223344.",
+          "options": [
+            "13:00 gacha",
+            "18:30 gacha",
+            "Shanba kuni yopiq"
+          ],
+          "pairs": null,
+          "correct_answer": "13:00 gacha",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "E'londa: \"Samstag 9:00–13:00 Uhr\".",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "exam-a1-02",
+          "version": 1,
+          "type": "reading",
+          "skill": "reading",
+          "topic": "health",
+          "grammar_topic": null,
+          "difficulty": 1,
+          "question": "E'lonni o'qing. Yakshanba kuni dorixona qanday ishlaydi?",
+          "prompt_de": "Apotheke am Markt — Öffnungszeiten: Montag bis Freitag 8:00–18:30 Uhr, Samstag 9:00–13:00 Uhr, Sonntag geschlossen. Notdienst: Telefon 0341 223344.",
+          "options": [
+            "Yopiq",
+            "9:00–13:00",
+            "8:00–18:30"
+          ],
+          "pairs": null,
+          "correct_answer": "Yopiq",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "E'londa: \"Sonntag geschlossen\" — yakshanba yopiq.",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "exam-a1-03",
+          "version": 1,
+          "type": "reading",
+          "skill": "reading",
+          "topic": "celebrations",
+          "grammar_topic": null,
+          "difficulty": 1,
+          "question": "Emailni o'qing. Ziyofat qachon boshlanadi?",
+          "prompt_de": "Lieber Daniel, am Samstag habe ich Geburtstag und mache eine kleine Party. Sie beginnt um 19 Uhr bei mir zu Hause. Kannst du kommen? Bitte bring keine Geschenke mit, aber vielleicht einen Salat. Meine Wohnung ist im dritten Stock. Bis Samstag! Lea",
+          "options": [
+            "Shanba, soat 19:00",
+            "Juma, soat 19:00",
+            "Shanba, soat 17:00"
+          ],
+          "pairs": null,
+          "correct_answer": "Shanba, soat 19:00",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "Emailda: \"am Samstag ... Sie beginnt um 19 Uhr\".",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "exam-a1-04",
+          "version": 1,
+          "type": "reading",
+          "skill": "reading",
+          "topic": "celebrations",
+          "grammar_topic": null,
+          "difficulty": 2,
+          "question": "Emailni o'qing. Daniel nima olib kelishi mumkin?",
+          "prompt_de": "Lieber Daniel, am Samstag habe ich Geburtstag und mache eine kleine Party. Sie beginnt um 19 Uhr bei mir zu Hause. Kannst du kommen? Bitte bring keine Geschenke mit, aber vielleicht einen Salat. Meine Wohnung ist im dritten Stock. Bis Samstag! Lea",
+          "options": [
+            "Salat",
+            "Sovg'a",
+            "Tort"
+          ],
+          "pairs": null,
+          "correct_answer": "Salat",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "Emailda: \"Bitte bring keine Geschenke mit, aber vielleicht einen Salat.\"",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "exam-a1-05",
+          "version": 1,
+          "type": "reading",
+          "skill": "reading",
+          "topic": "home",
+          "grammar_topic": null,
+          "difficulty": 2,
+          "question": "Emailni o'qing. Leaning kvartirasi qayerda?",
+          "prompt_de": "Lieber Daniel, am Samstag habe ich Geburtstag und mache eine kleine Party. Sie beginnt um 19 Uhr bei mir zu Hause. Kannst du kommen? Bitte bring keine Geschenke mit, aber vielleicht einen Salat. Meine Wohnung ist im dritten Stock. Bis Samstag! Lea",
+          "options": [
+            "Uchinchi qavatda",
+            "Birinchi qavatda",
+            "Ikkinchi qavatda"
+          ],
+          "pairs": null,
+          "correct_answer": "Uchinchi qavatda",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "Emailda: \"Meine Wohnung ist im dritten Stock.\" — dritten = uchinchi.",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "exam-a1-06",
+          "version": 1,
+          "type": "reading",
+          "skill": "reading",
+          "topic": "shopping",
+          "grammar_topic": null,
+          "difficulty": 2,
+          "question": "E'lonni o'qing. Qaysi gap to'g'ri?",
+          "prompt_de": "Zu verkaufen: Fahrrad, fast neu, blau, 120 Euro. Nur Barzahlung. Bitte ab 17 Uhr anrufen: 0157 889210.",
+          "options": [
+            "Velosipedni faqat naqd pulga sotib olish mumkin.",
+            "Velosiped eski va qizil.",
+            "Ertalab qo'ng'iroq qilish kerak."
+          ],
+          "pairs": null,
+          "correct_answer": "Velosipedni faqat naqd pulga sotib olish mumkin.",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "E'londa: \"Nur Barzahlung\" — faqat naqd. Velosiped \"fast neu, blau\", qo'ng'iroq \"ab 17 Uhr\".",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": null
+        }
+      ]
+    },
+    {
+      "skill": "listening",
+      "title": "Hören — tinglash",
+      "exercises": [
+        {
+          "id": "exam-a1-07",
+          "version": 1,
+          "type": "listen_choice",
+          "skill": "listening",
+          "topic": "shopping",
+          "grammar_topic": null,
+          "difficulty": 1,
+          "question": "Tinglang. Xaridor nima sotib oladi?",
+          "prompt_de": null,
+          "options": [
+            "Pomidor va bodring",
+            "Kartoshka va piyoz",
+            "Olma va banan"
+          ],
+          "pairs": null,
+          "correct_answer": "Pomidor va bodring",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "\"ein Kilo Tomaten und zwei Gurken\" — bir kilo pomidor va ikkita bodring.",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": "Ich möchte ein Kilo Tomaten und zwei Gurken, bitte."
+        },
+        {
+          "id": "exam-a1-08",
+          "version": 1,
+          "type": "listen_choice",
+          "skill": "listening",
+          "topic": "transport",
+          "grammar_topic": null,
+          "difficulty": 1,
+          "question": "Tinglang. Bugun nima bilan borish kerak?",
+          "prompt_de": null,
+          "options": [
+            "3-tramvay bilan",
+            "5-avtobus bilan",
+            "Taksi bilan"
+          ],
+          "pairs": null,
+          "correct_answer": "3-tramvay bilan",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "\"Der Bus Nummer fünf fährt heute nicht. Bitte nehmen Sie die Straßenbahn Nummer drei.\"",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": "Achtung, bitte! Der Bus Nummer fünf fährt heute nicht. Bitte nehmen Sie die Straßenbahn Nummer drei."
+        },
+        {
+          "id": "exam-a1-09",
+          "version": 1,
+          "type": "listen_choice",
+          "skill": "listening",
+          "topic": "directions",
+          "grammar_topic": null,
+          "difficulty": 2,
+          "question": "Tinglang. Pochtaga qanday boriladi?",
+          "prompt_de": null,
+          "options": [
+            "To'g'riga, keyin ikkinchi ko'chadan chapga",
+            "To'g'riga, keyin birinchi ko'chadan o'ngga",
+            "Orqaga, keyin chapga"
+          ],
+          "pairs": null,
+          "correct_answer": "To'g'riga, keyin ikkinchi ko'chadan chapga",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "\"geradeaus und dann die zweite Straße links\" — to'g'riga, keyin 2-ko'chadan chapga.",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": "— Entschuldigung, wo ist die Post? — Gehen Sie geradeaus und dann die zweite Straße links."
+        },
+        {
+          "id": "exam-a1-10",
+          "version": 1,
+          "type": "listen_choice",
+          "skill": "listening",
+          "topic": "weather",
+          "grammar_topic": null,
+          "difficulty": 1,
+          "question": "Tinglang. Ertaga Berlinda ob-havo qanday?",
+          "prompt_de": null,
+          "options": [
+            "Sovuq, kunduzi yomg'ir",
+            "Issiq va quyoshli",
+            "Qor yog'adi"
+          ],
+          "pairs": null,
+          "correct_answer": "Sovuq, kunduzi yomg'ir",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "\"kalt, nur fünf Grad. Am Nachmittag regnet es.\"",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": "Morgen ist es in Berlin kalt, nur fünf Grad. Am Nachmittag regnet es."
+        },
+        {
+          "id": "exam-a1-11",
+          "version": 1,
+          "type": "listen_choice",
+          "skill": "listening",
+          "topic": "health",
+          "grammar_topic": null,
+          "difficulty": 2,
+          "question": "Tinglang. Bemorning nimasi og'riyapti?",
+          "prompt_de": null,
+          "options": [
+            "Tomog'i",
+            "Boshi",
+            "Qorni"
+          ],
+          "pairs": null,
+          "correct_answer": "Tomog'i",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "\"Halsschmerzen\" — tomoq og'rig'i (der Hals — tomoq).",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": "— Was fehlt Ihnen? — Ich habe seit zwei Tagen Halsschmerzen und Fieber."
+        },
+        {
+          "id": "exam-a1-12",
+          "version": 1,
+          "type": "listen_choice",
+          "skill": "listening",
+          "topic": "leisure",
+          "grammar_topic": null,
+          "difficulty": 2,
+          "question": "Tinglang. Ular qachon suzishga boradi?",
+          "prompt_de": null,
+          "options": [
+            "Shanba kuni",
+            "Juma kuni",
+            "Yakshanba kuni"
+          ],
+          "pairs": null,
+          "correct_answer": "Shanba kuni",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "\"Am Freitag nicht, aber am Samstag gern!\"",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": "— Hast du am Freitag Zeit? Wir können schwimmen gehen. — Am Freitag nicht, aber am Samstag gern!"
+        }
+      ]
+    },
+    {
+      "skill": "grammar",
+      "title": "Grammatik — grammatika",
+      "exercises": [
+        {
+          "id": "exam-a1-13",
+          "version": 1,
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "topic": "food",
+          "grammar_topic": "g-negation",
+          "difficulty": 2,
+          "question": "Bo'sh joyni to'ldiring: \"Ich habe ___ Hunger.\"",
+          "prompt_de": "Ich habe ___ Hunger.",
+          "options": [
+            "keinen",
+            "nicht",
+            "kein"
+          ],
+          "pairs": null,
+          "correct_answer": "keinen",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "der Hunger — erkak jinsi, Akkusativ inkor: keinen.",
+          "error_type": "case",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "exam-a1-14",
+          "version": 1,
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "topic": "restaurant",
+          "grammar_topic": "g-akkusativ",
+          "difficulty": 1,
+          "question": "Bo'sh joyni to'ldiring: \"Ich möchte ___ Kaffee.\"",
+          "prompt_de": "Ich möchte ___ Kaffee.",
+          "options": [
+            "einen",
+            "ein",
+            "einem"
+          ],
+          "pairs": null,
+          "correct_answer": "einen",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "möchten + Akkusativ; der Kaffee → einen.",
+          "error_type": "case",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "exam-a1-15",
+          "version": 1,
+          "type": "conjugate",
+          "skill": "grammar",
+          "topic": "language-learning",
+          "grammar_topic": "g-modal-verbs",
+          "difficulty": 1,
+          "question": "Fe'lni tuslang (können): \"Du ___ gut Deutsch sprechen.\"",
+          "prompt_de": "Du ___ gut Deutsch sprechen.",
+          "options": null,
+          "pairs": null,
+          "correct_answer": "kannst",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "du bilan können → kannst.",
+          "error_type": "conjugation",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "exam-a1-16",
+          "version": 1,
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "topic": "communication",
+          "grammar_topic": "g-imperative",
+          "difficulty": 1,
+          "question": "Rasmiy iltimos: \"___ Sie bitte langsam!\"",
+          "prompt_de": "___ Sie bitte langsam!",
+          "options": [
+            "Sprechen",
+            "Sprich",
+            "Sprecht"
+          ],
+          "pairs": null,
+          "correct_answer": "Sprechen",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "Sie-imperativ: infinitiv + Sie.",
+          "error_type": "conjugation",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "exam-a1-17",
+          "version": 1,
+          "type": "order_words",
+          "skill": "grammar",
+          "topic": "work",
+          "grammar_topic": "g-modal-verbs",
+          "difficulty": 2,
+          "question": "So'zlardan gap tuzing: \"Dam olish kunlari men ishlashim kerak.\"",
+          "prompt_de": null,
+          "options": [
+            "arbeiten",
+            "ich",
+            "muss",
+            "Wochenende",
+            "Am"
+          ],
+          "pairs": null,
+          "correct_answer": "Am Wochenende muss ich arbeiten.",
+          "accepted_answers": [
+            "Ich muss am Wochenende arbeiten."
+          ],
+          "criteria": null,
+          "hint": null,
+          "explanation": "muss — 2-o'rin, arbeiten — oxirida.",
+          "error_type": "word_order",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "exam-a1-18",
+          "version": 1,
+          "type": "find_error",
+          "skill": "grammar",
+          "topic": "home",
+          "grammar_topic": "g-akkusativ",
+          "difficulty": 2,
+          "question": "Xato so'zni toping: \"Im Zimmer gibt es ein Tisch und zwei Stühle.\"",
+          "prompt_de": "Im Zimmer gibt es ein Tisch und zwei Stühle.",
+          "options": [
+            "Zimmer",
+            "gibt",
+            "ein",
+            "Tisch",
+            "zwei",
+            "Stühle"
+          ],
+          "pairs": null,
+          "correct_answer": "ein",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "es gibt + Akkusativ; der Tisch → einen Tisch.",
+          "error_type": "case",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "exam-a1-19",
+          "version": 1,
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "topic": "hotel",
+          "grammar_topic": "g-negation",
+          "difficulty": 1,
+          "question": "Bo'sh joyni to'ldiring: \"Das Hotel ist ___ teuer.\"",
+          "prompt_de": "Das Hotel ist ___ teuer.",
+          "options": [
+            "nicht",
+            "kein",
+            "keine"
+          ],
+          "pairs": null,
+          "correct_answer": "nicht",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "Sifat (teuer) nicht bilan inkor qilinadi.",
+          "error_type": "other",
+          "points": 1,
+          "audio_text": null
+        }
+      ]
+    },
+    {
+      "skill": "vocabulary",
+      "title": "Wortschatz — lug'at",
+      "exercises": [
+        {
+          "id": "exam-a1-20",
+          "version": 1,
+          "type": "match",
+          "skill": "vocabulary",
+          "topic": "food",
+          "grammar_topic": null,
+          "difficulty": 1,
+          "question": "So'zlarni juftlang.",
+          "prompt_de": null,
+          "options": null,
+          "pairs": [
+            [
+              "Brot",
+              "non"
+            ],
+            [
+              "Milch",
+              "sut"
+            ],
+            [
+              "Apfel",
+              "olma"
+            ],
+            [
+              "Wasser",
+              "suv"
+            ]
+          ],
+          "correct_answer": {
+            "Brot": "non",
+            "Milch": "sut",
+            "Apfel": "olma",
+            "Wasser": "suv"
+          },
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "Brot — non, Milch — sut, Apfel — olma, Wasser — suv.",
+          "error_type": "vocabulary",
+          "points": 2,
+          "audio_text": null
+        },
+        {
+          "id": "exam-a1-21",
+          "version": 1,
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "topic": "clothes",
+          "grammar_topic": null,
+          "difficulty": 1,
+          "question": "Qaysi so'z ortiqcha?",
+          "prompt_de": null,
+          "options": [
+            "Hose",
+            "Jacke",
+            "Rock",
+            "Gurke"
+          ],
+          "pairs": null,
+          "correct_answer": "Gurke",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "Hose, Jacke, Rock — kiyimlar. Gurke — bodring (sabzavot).",
+          "error_type": "vocabulary",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "exam-a1-22",
+          "version": 1,
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "topic": "city",
+          "grammar_topic": null,
+          "difficulty": 1,
+          "question": "\"der Bahnhof\" nima?",
+          "prompt_de": null,
+          "options": [
+            "vokzal",
+            "aeroport",
+            "bekat (avtobus)"
+          ],
+          "pairs": null,
+          "correct_answer": "vokzal",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "der Bahnhof — temir yo'l vokzali.",
+          "error_type": "vocabulary",
+          "points": 1,
+          "audio_text": null
+        }
+      ]
+    },
+    {
+      "skill": "writing",
+      "title": "Schreiben — yozish",
+      "exercises": [
+        {
+          "id": "exam-a1-23",
+          "version": 1,
+          "type": "short_text",
+          "skill": "writing",
+          "topic": "communication",
+          "grammar_topic": null,
+          "difficulty": 2,
+          "question": "Do'stingizga SMS yozing: bugun kursga kela olmaysiz, sababini ayting, ertaga qo'ng'iroq qilishingizni yozing. Kamida 20 so'z.",
+          "prompt_de": null,
+          "options": null,
+          "pairs": null,
+          "correct_answer": null,
+          "accepted_answers": [],
+          "criteria": {
+            "min_words": 20,
+            "required_words": [
+              "heute",
+              "nicht"
+            ],
+            "sample": "Hallo Jonas, ich kann heute leider nicht zum Kurs kommen. Ich bin krank und habe Fieber. Ich rufe dich morgen an. Viele Grüße, Bekzod"
+          },
+          "hint": null,
+          "explanation": "Baholash: so'z soni, kerakli so'zlar va namunaga yaqinlik. Namuna javobni o'zingiznikiga solishtiring.",
+          "error_type": "other",
+          "points": 5,
+          "audio_text": null
+        },
+        {
+          "id": "exam-a1-24",
+          "version": 2,
+          "type": "short_text",
+          "skill": "writing",
+          "topic": "home",
+          "grammar_topic": null,
+          "difficulty": 2,
+          "question": "Kvartirangizni tasvirlang: nechta xona, xonalar qanday, nima bor (es gibt). Kamida 30 so'z.",
+          "prompt_de": null,
+          "options": null,
+          "pairs": null,
+          "correct_answer": null,
+          "accepted_answers": [],
+          "criteria": {
+            "min_words": 30,
+            "required_words": [
+              "gibt"
+            ],
+            "sample": "Meine Wohnung ist nicht groß, aber schön. Sie hat zwei Zimmer, eine Küche und ein Bad. Das Wohnzimmer ist hell. Dort gibt es ein Sofa, einen Tisch und einen Fernseher. In der Küche gibt es keinen Geschirrspüler. Ich wohne gern hier."
+          },
+          "hint": null,
+          "explanation": "Baholash: so'z soni, kerakli so'zlar va namunaga yaqinlik. Namuna javobni o'zingiznikiga solishtiring.",
+          "error_type": "other",
+          "points": 5,
+          "audio_text": null
+        }
+      ]
+    },
+    {
+      "skill": "speaking",
+      "title": "Sprechen — gapirish",
+      "exercises": [
+        {
+          "id": "exam-a1-25",
+          "version": 1,
+          "type": "speak",
+          "skill": "speaking",
+          "topic": "restaurant",
+          "grammar_topic": null,
+          "difficulty": 1,
+          "question": "Restoranda buyurtma bering: ovqat va ichimlik so'rang, so'ng hisobni so'rang.",
+          "prompt_de": null,
+          "options": null,
+          "pairs": null,
+          "correct_answer": null,
+          "accepted_answers": [],
+          "criteria": {
+            "min_words": 12,
+            "required_words": [
+              "möchte"
+            ],
+            "sample": "Guten Abend! Ich möchte eine Suppe und einen Salat. Und ich möchte ein Wasser, bitte. ... Die Rechnung, bitte!"
+          },
+          "hint": null,
+          "explanation": "Gapirish o'z-o'zini baholash bilan tekshiriladi va umumiy foizga kirmaydi. Namuna bilan solishtiring.",
+          "error_type": "other",
+          "points": 2,
+          "audio_text": null
+        },
+        {
+          "id": "exam-a1-26",
+          "version": 1,
+          "type": "speak",
+          "skill": "speaking",
+          "topic": "leisure",
+          "grammar_topic": null,
+          "difficulty": 2,
+          "question": "Bo'sh vaqtingiz haqida gapiring: nima qilasiz, qachon va kim bilan. Kamida 4 ta gap.",
+          "prompt_de": null,
+          "options": null,
+          "pairs": null,
+          "correct_answer": null,
+          "accepted_answers": [],
+          "criteria": {
+            "min_words": 20,
+            "required_words": [
+              "gern"
+            ],
+            "sample": "In meiner Freizeit spiele ich gern Fußball. Ich spiele am Samstag mit meinen Freunden. Am Abend lese ich gern Bücher. Am Sonntag gehe ich oft mit meiner Familie in den Park."
+          },
+          "hint": null,
+          "explanation": "Gapirish o'z-o'zini baholash bilan tekshiriladi va umumiy foizga kirmaydi. Namuna bilan solishtiring.",
+          "error_type": "other",
+          "points": 2,
+          "audio_text": null
+        }
+      ]
+    }
+  ]
+}

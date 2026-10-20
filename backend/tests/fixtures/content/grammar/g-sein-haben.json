@@ -1,0 +1,103 @@
+{
+  "id": "g-sein-haben",
+  "version": 1,
+  "level": "A1",
+  "order": 3,
+  "title": "sein va haben",
+  "prerequisites": [
+    "g-pronouns"
+  ],
+  "next": [
+    "g-praesens"
+  ],
+  "rule": "sein — bo'lmoq.",
+  "when": "Tanishganda.",
+  "structure": "Ich bin ...",
+  "explanation": [],
+  "examples": [
+    {
+      "de": "Ich bin Anna.",
+      "uz": "Men Annaman."
+    },
+    {
+      "de": "Du bist Tom.",
+      "uz": "Sen Tomsan."
+    },
+    {
+      "de": "Er ist hier.",
+      "uz": "U shu yerda."
+    }
+  ],
+  "common_mistakes": [
+    {
+      "wrong": "Ich ist",
+      "right": "Ich bin",
+      "why": "ich bilan bin."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "g-sein-haben-e01",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "personal-info",
+      "grammar_topic": "g-sein-haben",
+      "difficulty": 1,
+      "question": "Du ___ Tom.",
+      "prompt_de": "Du ___ Tom.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "bist",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Izoh: bist",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-sein-haben-e02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "personal-info",
+      "grammar_topic": "g-sein-haben",
+      "difficulty": 1,
+      "question": "Er ___ hier.",
+      "prompt_de": "Er ___ hier.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "ist",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Izoh: ist",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-sein-haben-e03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "personal-info",
+      "grammar_topic": "g-sein-haben",
+      "difficulty": 1,
+      "question": "Wir ___ hier.",
+      "prompt_de": "Wir ___ hier.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "sind",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Izoh: sind",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

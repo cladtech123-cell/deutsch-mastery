@@ -1,0 +1,299 @@
+{
+  "id": "g-subordinate",
+  "version": 1,
+  "level": "A2",
+  "order": 25,
+  "title": "Ergash gaplar: weil, dass, wenn, ob",
+  "prerequisites": [
+    "g-verb-position",
+    "g-modal-verbs",
+    "g-perfekt"
+  ],
+  "next": [
+    "g-future"
+  ],
+  "rule": "Ergash gapda tuslangan fe'l gap OXIRIGA ketadi. Ergash gap bosh gapdan vergul bilan ajratiladi.",
+  "when": "Sabab (weil — chunki), fikr (dass — ...ki), shart/vaqt (wenn — agar, ...ganda) va bilvosita savol (ob — ...mi yo'qmi) aytganda.",
+  "structure": "Bosh gap, + bog'lovchi + ega + ... + fe'l (oxirida).",
+  "explanation": [
+    {
+      "type": "table",
+      "headers": [
+        "Bog'lovchi",
+        "Ma'nosi",
+        "Misol"
+      ],
+      "rows": [
+        [
+          "weil",
+          "chunki",
+          "Ich lerne Deutsch, weil ich in Deutschland arbeiten möchte."
+        ],
+        [
+          "dass",
+          "...ki, ...ganini",
+          "Ich glaube, dass der Kurs gut ist."
+        ],
+        [
+          "wenn",
+          "agar; ...ganda",
+          "Wenn ich Zeit habe, lese ich."
+        ],
+        [
+          "ob",
+          "...mi (yo'qmi)",
+          "Ich weiß nicht, ob er heute kommt."
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "denn (oddiy tartib)",
+        "weil (fe'l oxirida)"
+      ],
+      "rows": [
+        [
+          "Ich bleibe zu Hause, denn ich bin krank.",
+          "Ich bleibe zu Hause, weil ich krank bin."
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Ergash gap birinchi kelsa, bosh gap fe'l bilan boshlanadi: Wenn es regnet, bleibe ich zu Hause. Modal fe'l va Perfekt bilan: ..., weil ich arbeiten muss. / ..., dass er gekommen ist."
+    },
+    {
+      "type": "tip",
+      "text": "O'zbek tilida fe'l odatda oxirida — ergash gapda nemis tili ham shunday! weil-gapni o'zbekcha tartibni eslab tuzing: \"chunki men kasalman\" → weil ich krank bin."
+    }
+  ],
+  "examples": [
+    {
+      "de": "Ich komme heute nicht, weil ich krank bin.",
+      "uz": "Bugun kelmayman, chunki kasalman."
+    },
+    {
+      "de": "Ich finde, dass Deutsch interessant ist.",
+      "uz": "Menimcha, nemis tili qiziq."
+    },
+    {
+      "de": "Wenn das Wetter gut ist, gehen wir in den Park.",
+      "uz": "Ob-havo yaxshi bo'lsa, bog'ga boramiz."
+    },
+    {
+      "de": "Weißt du, ob der Laden heute offen ist?",
+      "uz": "Do'kon bugun ochiqmi, bilasanmi?"
+    },
+    {
+      "de": "Er sagt, dass er keine Zeit hat.",
+      "uz": "U vaqti yo'qligini aytyapti."
+    },
+    {
+      "de": "Ich lerne jeden Tag, weil ich die Prüfung bestehen will.",
+      "uz": "Har kuni o'qiyman, chunki imtihondan o'tmoqchiman."
+    }
+  ],
+  "common_mistakes": [
+    {
+      "wrong": "..., weil ich bin krank.",
+      "right": "..., weil ich krank bin.",
+      "why": "weil dan keyin fe'l gap oxirida."
+    },
+    {
+      "wrong": "Wenn ich habe Zeit, ich komme.",
+      "right": "Wenn ich Zeit habe, komme ich.",
+      "why": "Ergash gapda fe'l oxirida; bosh gap fe'l bilan boshlanadi."
+    },
+    {
+      "wrong": "..., weil ich muss arbeiten.",
+      "right": "..., weil ich arbeiten muss.",
+      "why": "Modal fe'l ergash gapning eng oxirida."
+    },
+    {
+      "wrong": "Ich denke dass er kommt.",
+      "right": "Ich denke, dass er kommt.",
+      "why": "Ergash gap oldidan vergul majburiy."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "g-subordinate-e01",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-subordinate",
+      "difficulty": 1,
+      "question": "Ergash gapni tuzing: \"Ich bleibe zu Hause, ...\" (chunki men kasalman)",
+      "prompt_de": null,
+      "options": [
+        "bin",
+        "krank",
+        "ich",
+        "weil"
+      ],
+      "pairs": null,
+      "correct_answer": "weil ich krank bin",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "weil + ega + ... + fe'l (bin) oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-subordinate-e02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "education",
+      "grammar_topic": "g-subordinate",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: \"Ich lerne Deutsch, ___ ich in Berlin studieren möchte.\"",
+      "prompt_de": "Ich lerne Deutsch, ___ ich in Berlin studieren möchte.",
+      "options": [
+        "weil",
+        "denn",
+        "aber"
+      ],
+      "pairs": null,
+      "correct_answer": "weil",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Fe'l (möchte) oxirida — demak weil. denn dan keyin oddiy tartib bo'lardi.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-subordinate-e03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "communication",
+      "grammar_topic": "g-subordinate",
+      "difficulty": 1,
+      "question": "Qaysi gap to'g'ri?",
+      "prompt_de": null,
+      "options": [
+        "Ich glaube, dass er heute kommt.",
+        "Ich glaube, dass er kommt heute.",
+        "Ich glaube, dass kommt er heute."
+      ],
+      "pairs": null,
+      "correct_answer": "Ich glaube, dass er heute kommt.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "dass-gapda fe'l (kommt) oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-subordinate-e04",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "education",
+      "grammar_topic": "g-subordinate",
+      "difficulty": 2,
+      "question": "Ergash gapni tuzing: \"Ich hoffe, ...\" (kurs ertaga boshlanadi)",
+      "prompt_de": null,
+      "options": [
+        "beginnt",
+        "morgen",
+        "Kurs",
+        "der",
+        "dass"
+      ],
+      "pairs": null,
+      "correct_answer": "dass der Kurs morgen beginnt",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "dass + ega + ... + fe'l (beginnt) oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-subordinate-e05",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "work",
+      "grammar_topic": "g-subordinate",
+      "difficulty": 2,
+      "question": "Bo'sh joyni to'ldiring (müssen): \"Ich komme nicht, weil ich arbeiten ___.\"",
+      "prompt_de": "Ich komme nicht, weil ich arbeiten ___.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "muss",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Modal fe'l ergash gap oxirida: weil ich arbeiten muss.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-subordinate-e06",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-subordinate",
+      "difficulty": 2,
+      "question": "Qaysi so'z noto'g'ri joyda? \"Ich bleibe zu Hause, weil ich habe Fieber.\"",
+      "prompt_de": "Ich bleibe zu Hause, weil ich habe Fieber.",
+      "options": [
+        "bleibe",
+        "zu",
+        "Hause",
+        "weil",
+        "habe",
+        "Fieber"
+      ],
+      "pairs": null,
+      "correct_answer": "habe",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "weil-gapda fe'l oxirida: ..., weil ich Fieber habe.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-subordinate-e07",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "grammar",
+      "topic": "language-learning",
+      "grammar_topic": "g-subordinate",
+      "difficulty": 3,
+      "question": "Nemis tiliga tarjima qiling: \"Menimcha, nemis tili qiziq.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich denke, dass Deutsch interessant ist.",
+      "accepted_answers": [
+        "Ich glaube, dass Deutsch interessant ist.",
+        "Ich finde, dass Deutsch interessant ist.",
+        "Ich denke, Deutsch ist interessant.",
+        "Ich finde, Deutsch ist interessant."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "dass-gap: fe'l (ist) oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

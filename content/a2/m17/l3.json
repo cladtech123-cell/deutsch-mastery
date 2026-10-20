@@ -1,0 +1,813 @@
+{
+  "id": "a2-m17-l3",
+  "version": 1,
+  "level": "A2",
+  "module": 17,
+  "order": 3,
+  "title": "Uydagi muammolar haqida xabar berish",
+  "title_de": "Probleme in der Wohnung melden",
+  "goal": "Dars oxirida uy egasi yoki uy boshqaruvchisiga muammoni (isitish, jo'mrak, mog'or, shovqin) og'zaki va yozma ravishda tushuntira olasiz hamda mit/bei/zu/aus/seit + Dativni to'g'ri ishlatasiz.",
+  "skill_focus": [
+    "writing",
+    "speaking",
+    "grammar"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Ijara kvartirasida biror narsa buzilsa, ko'pincha uy egasi (Vermieter) yoki uy boshqaruvchisi (Hausmeister) ta'mirlashni tashkil qiladi. Muammoni aniq aytish kerak: NIMA buzilgan, QAYERDA va QACHONDAN BERI."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Predlog (+ Dativ)",
+        "Misol",
+        "O'zbekcha"
+      ],
+      "rows": [
+        [
+          "mit",
+          "Ich habe ein Problem mit der Heizung.",
+          "Isitish bilan muammom bor."
+        ],
+        [
+          "aus",
+          "Wasser kommt aus der Decke.",
+          "Shiftdan suv kelyapti."
+        ],
+        [
+          "seit",
+          "Seit einer Woche ist es kalt.",
+          "Bir haftadan beri sovuq."
+        ],
+        [
+          "zu",
+          "Ich gehe zum Hausmeister / zur Vermieterin.",
+          "Uy boshqaruvchisi/uy egasi oldiga boraman."
+        ],
+        [
+          "bei",
+          "Der Schlüssel ist beim Nachbarn.",
+          "Kalit qo'shnida."
+        ],
+        [
+          "von",
+          "Ich habe eine Nachricht vom Vermieter.",
+          "Uy egasidan xabarim bor."
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Bu predloglardan keyin HAR DOIM Dativ. Qisqartmalar: zu + dem = zum, zu + der = zur, bei + dem = beim, von + dem = vom."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-die-heizung",
+      "de": "Heizung",
+      "uz": "isitish tizimi, batareya",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Heizungen",
+      "forms": null,
+      "example_de": "Die Heizung ist seit Montag kalt.",
+      "example_uz": "Batareya dushanbadan beri sovuq.",
+      "topic": "household"
+    },
+    {
+      "id": "v-der-wasserhahn",
+      "de": "Wasserhahn",
+      "uz": "jo'mrak (kran)",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Wasserhähne",
+      "forms": null,
+      "example_de": "Der Wasserhahn in der Küche tropft.",
+      "example_uz": "Oshxonadagi jo'mrak tomchilayapti.",
+      "topic": "household"
+    },
+    {
+      "id": "v-tropfen",
+      "de": "tropfen",
+      "uz": "tomchilamoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "getropft",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "tropft"
+      },
+      "example_de": "Es tropft aus der Decke!",
+      "example_uz": "Shiftdan suv tomchilayapti!",
+      "topic": "household"
+    },
+    {
+      "id": "v-verstopft",
+      "de": "verstopft",
+      "uz": "tiqilib qolgan",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Die Toilette ist verstopft.",
+      "example_uz": "Unitaz tiqilib qolgan.",
+      "topic": "household"
+    },
+    {
+      "id": "v-undicht",
+      "de": "undicht",
+      "uz": "suv o'tkazadigan, teshik (germetik emas)",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Das Fenster ist undicht, es zieht.",
+      "example_uz": "Deraza zich yopilmaydi, shamol kiryapti.",
+      "topic": "household"
+    },
+    {
+      "id": "v-der-schimmel",
+      "de": "Schimmel",
+      "uz": "mog'or",
+      "pos": "noun",
+      "article": "der",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Im Bad ist Schimmel an der Wand.",
+      "example_uz": "Hammomdagi devorda mog'or bor.",
+      "topic": "household"
+    },
+    {
+      "id": "v-der-hausmeister",
+      "de": "Hausmeister",
+      "uz": "uy boshqaruvchisi, farrosh-usta",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Hausmeister",
+      "forms": null,
+      "example_de": "Rufen Sie den Hausmeister an!",
+      "example_uz": "Uy boshqaruvchisiga qo'ng'iroq qiling!",
+      "topic": "home"
+    },
+    {
+      "id": "v-der-handwerker",
+      "de": "Handwerker",
+      "uz": "usta (ta'mirchi)",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Handwerker",
+      "forms": null,
+      "example_de": "Morgen kommt ein Handwerker.",
+      "example_uz": "Ertaga usta keladi.",
+      "topic": "services"
+    },
+    {
+      "id": "v-der-lärm",
+      "de": "Lärm",
+      "uz": "shovqin",
+      "pos": "noun",
+      "article": "der",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Der Lärm von der Baustelle stört mich.",
+      "example_uz": "Qurilishdagi shovqin menga xalaqit beryapti.",
+      "topic": "home"
+    },
+    {
+      "id": "v-die-spülmaschine",
+      "de": "Spülmaschine",
+      "uz": "idish yuvish mashinasi",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Spülmaschinen",
+      "forms": null,
+      "example_de": "Die Spülmaschine ist kaputt.",
+      "example_uz": "Idish yuvish mashinasi buzilgan.",
+      "topic": "household"
+    },
+    {
+      "id": "v-die-mülltonne",
+      "de": "Mülltonne",
+      "uz": "chiqindi qutisi (katta)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Mülltonnen",
+      "forms": null,
+      "example_de": "Die Mülltonnen stehen im Hof.",
+      "example_uz": "Chiqindi qutilari hovlida turadi.",
+      "topic": "household"
+    },
+    {
+      "id": "v-vorbeikommen",
+      "de": "vorbeikommen",
+      "uz": "kirib o'tmoq, kelib ketmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "vorbeigekommen",
+        "perfekt_aux": "sein",
+        "praesens_3sg": "kommt vorbei"
+      },
+      "example_de": "Kann der Handwerker morgen vorbeikommen?",
+      "example_uz": "Usta ertaga kelib keta oladimi?",
+      "topic": "services"
+    }
+  ],
+  "review_vocabulary": [
+    "v-funktionieren",
+    "v-kaputt",
+    "v-der-vermieter",
+    "v-die-vermieterin",
+    "v-dringend",
+    "v-seit",
+    "v-mit-freundlichen-grüßen"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-dativ",
+      "rule": "mit, aus, bei, nach, seit, von, zu — bu predloglardan keyin doim Dativ keladi. zu + dem = zum, zu + der = zur, bei + dem = beim, von + dem = vom.",
+      "when": "Muammo bilan bog'liq narsalarni, kimning oldiga borishni, qachondan beri ekanini aytganda.",
+      "structure": "Predlog + dem / der / dem / den(+n).  Masalan: Ich habe ein Problem mit der Heizung.",
+      "examples": [
+        {
+          "de": "Ich habe ein Problem mit der Heizung.",
+          "uz": "Isitish bilan muammom bor."
+        },
+        {
+          "de": "Seit einer Woche tropft der Wasserhahn.",
+          "uz": "Bir haftadan beri jo'mrak tomchilayapti."
+        },
+        {
+          "de": "Ich gehe morgen zum Hausmeister.",
+          "uz": "Ertaga uy boshqaruvchisi oldiga boraman."
+        },
+        {
+          "de": "Der Lärm kommt aus der Wohnung über uns.",
+          "uz": "Shovqin tepamizdagi kvartiradan kelyapti."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Ich habe ein Problem mit die Heizung.",
+          "right": "Ich habe ein Problem mit der Heizung.",
+          "why": "\"mit\" doim Dativ: die Heizung → der Heizung."
+        },
+        {
+          "wrong": "Ich gehe zu der Hausmeister.",
+          "right": "Ich gehe zum Hausmeister.",
+          "why": "der Hausmeister → Dativ dem; zu + dem = zum."
+        },
+        {
+          "wrong": "seit eine Woche",
+          "right": "seit einer Woche",
+          "why": "\"seit\" + Dativ: eine → einer."
+        }
+      ],
+      "check": [
+        "a2-m17-l3-e02",
+        "a2-m17-l3-e03",
+        "a2-m17-l3-e04"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Uy boshqaruvchisiga qo'ng'iroq",
+    "lines": [
+      {
+        "speaker": "Hausmeister",
+        "de": "Hausmeisterservice, Wolf.",
+        "uz": "Uy xizmati, Volf."
+      },
+      {
+        "speaker": "Frau Abdullayeva",
+        "de": "Guten Tag, hier ist Abdullayeva aus der Goethestraße 12. Ich habe ein Problem mit dem Wasserhahn im Bad.",
+        "uz": "Assalomu alaykum, bu Gyote ko'chasi 12 dan Abdullayeva. Hammomdagi jo'mrak bilan muammom bor."
+      },
+      {
+        "speaker": "Hausmeister",
+        "de": "Was ist denn los?",
+        "uz": "Nima bo'ldi?"
+      },
+      {
+        "speaker": "Frau Abdullayeva",
+        "de": "Er tropft seit drei Tagen. Und die Heizung im Wohnzimmer ist auch kalt.",
+        "uz": "U uch kundan beri tomchilayapti. Mehmonxonadagi batareya ham sovuq."
+      },
+      {
+        "speaker": "Hausmeister",
+        "de": "Okay. Ich kann morgen Vormittag vorbeikommen. Sind Sie zu Hause?",
+        "uz": "Xo'p. Ertaga tushdan oldin kelib keta olaman. Uyda bo'lasizmi?"
+      },
+      {
+        "speaker": "Frau Abdullayeva",
+        "de": "Ja, bis 12 Uhr bin ich da.",
+        "uz": "Ha, soat 12 gacha uydaman."
+      }
+    ],
+    "questions": [
+      "a2-m17-l3-e05"
+    ]
+  },
+  "situation": {
+    "title": "Uy egasiga xat",
+    "context_uz": "Hammomingizda mog'or paydo bo'ldi va deraza zich yopilmayapti. Siz uy egasi Frau Schneiderga elektron xat yozasiz.",
+    "lines": [
+      {
+        "speaker": "Siz (E-Mail)",
+        "de": "Sehr geehrte Frau Schneider,",
+        "uz": "Hurmatli Shnayder xonim,"
+      },
+      {
+        "speaker": "Siz (E-Mail)",
+        "de": "seit zwei Wochen gibt es im Bad Schimmel an der Wand. Außerdem ist das Fenster im Schlafzimmer undicht.",
+        "uz": "Ikki haftadan beri hammomdagi devorda mog'or bor. Bundan tashqari, yotoqxonadagi deraza zich yopilmayapti."
+      },
+      {
+        "speaker": "Siz (E-Mail)",
+        "de": "Könnten Sie bitte einen Handwerker schicken? Ich bin nachmittags ab 15 Uhr zu Hause.",
+        "uz": "Iltimos, usta yubora olasizmi? Men tushdan keyin soat 15 dan uydaman."
+      },
+      {
+        "speaker": "Siz (E-Mail)",
+        "de": "Mit freundlichen Grüßen, Shahzod Qodirov",
+        "uz": "Hurmat bilan, Shahzod Qodirov"
+      }
+    ],
+    "task_uz": "Xuddi shunday xat yozing, lekin boshqa muammo bilan (masalan: idish yuvish mashinasi buzilgan, unitaz tiqilgan yoki qo'shnilar kechasi shovqin qiladi). Nima, qayerda, qachondan beri — uchalasini ham yozing."
+  },
+  "exercises": [
+    {
+      "id": "a2-m17-l3-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "household",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemischa so'zni o'zbekcha ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "die Heizung",
+          "isitish tizimi"
+        ],
+        [
+          "der Wasserhahn",
+          "jo'mrak"
+        ],
+        [
+          "der Schimmel",
+          "mog'or"
+        ],
+        [
+          "der Lärm",
+          "shovqin"
+        ],
+        [
+          "der Handwerker",
+          "usta"
+        ]
+      ],
+      "correct_answer": {
+        "die Heizung": "isitish tizimi",
+        "der Wasserhahn": "jo'mrak",
+        "der Schimmel": "mog'or",
+        "der Lärm": "shovqin",
+        "der Handwerker": "usta"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Heizung — isitish, Wasserhahn — jo'mrak (kran), Schimmel — mog'or, Lärm — shovqin, Handwerker — ta'mirlovchi usta.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l3-e02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "household",
+      "grammar_topic": "g-dativ",
+      "difficulty": 1,
+      "question": "To'g'ri artiklni tanlang: Ich habe ein Problem mit ___ Heizung.",
+      "prompt_de": null,
+      "options": [
+        "der",
+        "die",
+        "dem"
+      ],
+      "pairs": null,
+      "correct_answer": "der",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"mit\" + Dativ; die Heizung → der Heizung.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l3-e03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-dativ",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (zu + dem): Ich gehe heute ___ Hausmeister.",
+      "prompt_de": "Ich gehe heute ___ Hausmeister.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "zum",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "zu + dem = zum: zum Hausmeister.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l3-e04",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "time",
+      "grammar_topic": "g-dativ",
+      "difficulty": 2,
+      "question": "Bo'sh joyni to'ldiring (eine → Dativ): Die Heizung funktioniert seit ___ Woche nicht.",
+      "prompt_de": "Die Heizung funktioniert seit ___ Woche nicht.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "einer",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"seit\" + Dativ: eine Woche → einer Woche.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l3-e05",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "services",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Uy boshqaruvchisi qachon keladi?",
+      "prompt_de": null,
+      "options": [
+        "Ertaga tushdan oldin",
+        "Bugun kechqurun",
+        "Uch kundan keyin"
+      ],
+      "pairs": null,
+      "correct_answer": "Ertaga tushdan oldin",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"morgen Vormittag\" — ertaga tushgacha. \"seit drei Tagen\" esa jo'mrak qachondan beri tomchilayotgani.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Ich kann morgen Vormittag vorbeikommen. Sind Sie zu Hause?"
+    },
+    {
+      "id": "a2-m17-l3-e06",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Soat 23:30. Tepadagi qo'shningiz baland musiqa qo'ygan. Uning eshigini taqillatdingiz. Nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Entschuldigung, die Musik ist sehr laut. Es ist schon halb zwölf.",
+        "Ruhe! Sofort!",
+        "Ihre Musik gefällt mir sehr gut."
+      ],
+      "pairs": null,
+      "correct_answer": "Entschuldigung, die Musik ist sehr laut. Es ist schon halb zwölf.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Muloyim, lekin aniq: \"Entschuldigung\" + muammo + vaqt. Germaniyada odatda soat 22 dan keyin \"Nachtruhe\" (tungi tinchlik).",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l3-e07",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "services",
+      "grammar_topic": "g-perfekt",
+      "difficulty": 2,
+      "question": "\"vorbeikommen\" fe'lining Partizip II shaklini yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "vorbeigekommen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "vorbei + ge + kommen = vorbeigekommen. Perfektda \"sein\": Der Handwerker ist gestern vorbeigekommen.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l3-e08",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "household",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Jo'mrak tomchilayapti.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Der Wasserhahn tropft.",
+      "accepted_answers": [
+        "Es tropft aus dem Wasserhahn.",
+        "Aus dem Wasserhahn tropft Wasser.",
+        "Wasser tropft aus dem Wasserhahn."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"tropfen\" — tomchilamoq. \"aus\" bilan: aus dem Wasserhahn (Dativ).",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l3-e09",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Uy egasining javobini o'qing. Usta qachon keladi?",
+      "prompt_de": "Sehr geehrter Herr Qodirov,\nvielen Dank für Ihre Nachricht. Es tut mir leid, dass es Probleme mit dem Fenster gibt. Ein Handwerker von der Firma Bauer kommt am Donnerstag zwischen 8 und 10 Uhr vorbei. Bitte sagen Sie mir Bescheid, wenn Sie da keine Zeit haben.\n\nMit freundlichen Grüßen\nMaria Schneider",
+      "options": [
+        "Payshanba soat 8 dan 10 gacha",
+        "Juma kuni tushdan keyin",
+        "Bugun soat 15 da"
+      ],
+      "pairs": null,
+      "correct_answer": "Payshanba soat 8 dan 10 gacha",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"am Donnerstag zwischen 8 und 10 Uhr\".",
+      "explanation": "\"Ein Handwerker ... kommt am Donnerstag zwischen 8 und 10 Uhr vorbei\" — payshanba kuni 8–10 oralig'ida.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l3-e10",
+      "version": 1,
+      "type": "short_text",
+      "skill": "writing",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 3,
+      "question": "Uy egasiga qisqa xabar yozing (4–5 gap): kvartirangizdagi bitta muammoni tasvirlang (nima, qayerda, qachondan beri) va yordam so'rang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 30,
+        "required_words": [
+          "Problem",
+          "seit"
+        ],
+        "sample": "Sehr geehrter Herr Lorenz, ich habe ein Problem mit der Spülmaschine. Sie funktioniert seit Freitag nicht mehr. Das Wasser bleibt in der Maschine. Könnten Sie bitte einen Handwerker schicken? Ich bin ab 16 Uhr zu Hause. Mit freundlichen Grüßen, Laylo Hamidova"
+      },
+      "hint": "Ich habe ein Problem mit ... / Seit ... / Könnten Sie bitte ...?",
+      "explanation": "Yaxshi xabarda: rasmiy murojaat, muammo (mit + Dativ), vaqt (seit + Dativ), muloyim iltimos va qachon uyda ekaningiz bo'ladi.",
+      "error_type": "other",
+      "points": 3,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l3-e11",
+      "version": 1,
+      "type": "speak",
+      "skill": "speaking",
+      "topic": "services",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Ovoz chiqarib gapiring: uy boshqaruvchisiga qo'ng'iroq qilib, muammoni tushuntiring va qachon kelishini so'rang (3–4 gap).",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 15,
+        "required_words": [
+          "kommen"
+        ],
+        "sample": "Guten Tag, hier ist Aziz Karimov aus Wohnung 5. Die Toilette ist verstopft. Wann können Sie kommen? Ich bin heute den ganzen Tag zu Hause."
+      },
+      "hint": null,
+      "explanation": "Telefonda: kim va qaysi kvartira → muammo → qachon kelishi haqida savol.",
+      "error_type": "other",
+      "points": 2,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a2-m17-l3-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "household",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "\"Die Toilette ist verstopft\" nimani bildiradi?",
+      "prompt_de": null,
+      "options": [
+        "Unitaz tiqilib qolgan",
+        "Unitaz juda toza",
+        "Unitaz band"
+      ],
+      "pairs": null,
+      "correct_answer": "Unitaz tiqilib qolgan",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "verstopft — tiqilib qolgan.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l3-t02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "services",
+      "grammar_topic": "g-dativ",
+      "difficulty": 2,
+      "question": "To'g'ri variantni tanlang: Der Handwerker kommt mit ___ Kollegen.",
+      "prompt_de": null,
+      "options": [
+        "einem",
+        "einen",
+        "ein"
+      ],
+      "pairs": null,
+      "correct_answer": "einem",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"mit\" + Dativ: ein Kollege → einem Kollegen. (Kollege Dativda ham -n oladi.)",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l3-t03",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "household",
+      "grammar_topic": "g-verb-position",
+      "difficulty": 2,
+      "question": "So'zlarni to'g'ri tartibda joylashtiring: \"Kechadan beri batareya ishlamayapti.\"",
+      "prompt_de": null,
+      "options": [
+        "Heizung",
+        "die",
+        "funktioniert",
+        "nicht",
+        "Seit",
+        "gestern"
+      ],
+      "pairs": null,
+      "correct_answer": "Seit gestern funktioniert die Heizung nicht",
+      "accepted_answers": [
+        "Die Heizung funktioniert seit gestern nicht"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Seit gestern\" 1-o'rinda → fe'l \"funktioniert\" 2-o'rinda → \"die Heizung\". \"nicht\" oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l3-t04",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "reading",
+      "topic": "services",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "O'zbek tiliga tarjima qiling: \"Können Sie morgen vorbeikommen?\"",
+      "prompt_de": "Können Sie morgen vorbeikommen?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ertaga kelib keta olasizmi?",
+      "accepted_answers": [
+        "Ertaga kela olasizmi?",
+        "Ertaga kirib o'ta olasizmi?",
+        "Ertaga kelib ketolasizmi?",
+        "Siz ertaga kela olasizmi?"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"vorbeikommen\" — qisqa vaqtga kelib ketmoq.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l3-t05",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "To'g'ri artiklni tanlang: ___ Lärm",
+      "prompt_de": null,
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "der",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Lärm — shovqin. Ko'pligi yo'q.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l3-t06",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "services",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni davom ettiring. — Hausmeisterservice, Wolf. Was ist das Problem?",
+      "prompt_de": "Hausmeisterservice, Wolf. Was ist das Problem?",
+      "options": [
+        "Guten Tag, die Toilette in Wohnung 3 ist verstopft.",
+        "Guten Tag, die Wohnung gefällt mir.",
+        "Ja, ich bin der Hausmeister."
+      ],
+      "pairs": null,
+      "correct_answer": "Guten Tag, die Toilette in Wohnung 3 ist verstopft.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Was ist das Problem?\" savoliga muammo va kvartira raqami bilan javob beriladi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l3-t07",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "household",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang va eshitganingizni yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Die Heizung ist seit Montag kaputt.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"seit Montag\" — dushanbadan beri. \"Heizung\", \"Montag\" — katta harf bilan.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": "Die Heizung ist seit Montag kaputt."
+    }
+  ]
+}

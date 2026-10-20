@@ -1,0 +1,880 @@
+{
+  "id": "a2-m24-l3",
+  "version": 1,
+  "level": "A2",
+  "module": 24,
+  "order": 3,
+  "title": "Yozish va gapirish: imtihon simulyatsiyasi",
+  "title_de": "Schreiben und Sprechen: Prüfungstraining",
+  "goal": "Dars oxirida sherik bilan biror narsani birga rejalashtira olasiz (Wollen wir ...? Wie wäre es mit ...?), o'zingizni 1–2 daqiqa tanishtirasiz va topshiriqning har bir punktiga javob beradigan qisqa email yozasiz.",
+  "skill_focus": [
+    "speaking",
+    "writing",
+    "listening"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "A2 og'zaki imtihonida odatda uch qism bo'ladi: o'zingizni tanishtirish, savol-javob va sherik bilan birga biror narsani rejalashtirish (sovg'a, uchrashuv, sayohat). Yozishda esa qisqa xabar yoki email yoziladi."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Maqsad",
+        "Iboralar"
+      ],
+      "rows": [
+        [
+          "Taklif",
+          "Wollen wir ...? / Sollen wir ...? / Wie wäre es mit ...? / Lass uns ...!"
+        ],
+        [
+          "Rozilik",
+          "Gute Idee! / Einverstanden. / Das passt mir gut."
+        ],
+        [
+          "Boshqa taklif",
+          "Ich würde lieber ... / Am Samstag kann ich leider nicht. Geht es am Sonntag?"
+        ],
+        [
+          "Kelishuv",
+          "Also, wir treffen uns am ... um ... Uhr in/am ..."
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Email qismi",
+        "Misol"
+      ],
+      "rows": [
+        [
+          "Murojaat",
+          "Liebe Anna, / Sehr geehrte Frau Neumann,"
+        ],
+        [
+          "Sabab",
+          "ich schreibe dir, weil ..."
+        ],
+        [
+          "Asosiy qism",
+          "topshiriqdagi har bir punktga 1–2 gap"
+        ],
+        [
+          "Xulosa",
+          "Ich freue mich auf deine Antwort."
+        ],
+        [
+          "Xayrlashuv",
+          "Viele Grüße / Mit freundlichen Grüßen"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Imtihonda topshiriqdagi HAR BIR punktga javob bering — bitta punkt tushib qolsa, ball kamayadi. Gapirishda sherigingizga ham savol bering: \"Und du? Was meinst du?\""
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-gemeinsam",
+      "de": "gemeinsam",
+      "uz": "birgalikda",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Wir planen die Feier gemeinsam.",
+      "example_uz": "Bazmni birgalikda rejalashtiramiz.",
+      "topic": "communication"
+    },
+    {
+      "id": "v-der-treffpunkt",
+      "de": "Treffpunkt",
+      "uz": "uchrashuv joyi",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Treffpunkte",
+      "forms": null,
+      "example_de": "Unser Treffpunkt ist vor dem Kino.",
+      "example_uz": "Uchrashuv joyimiz — kinoteatr oldi.",
+      "topic": "invitations"
+    },
+    {
+      "id": "v-die-verabredung",
+      "de": "Verabredung",
+      "uz": "kelishilgan uchrashuv",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Verabredungen",
+      "forms": null,
+      "example_de": "Ich habe heute Abend eine Verabredung.",
+      "example_uz": "Bugun kechqurun uchrashuvim bor.",
+      "topic": "invitations"
+    },
+    {
+      "id": "v-die-präsentation",
+      "de": "Präsentation",
+      "uz": "taqdimot",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Präsentationen",
+      "forms": null,
+      "example_de": "Morgen halte ich eine Präsentation.",
+      "example_uz": "Ertaga taqdimot qilaman.",
+      "topic": "education"
+    },
+    {
+      "id": "v-sich-verabreden",
+      "de": "sich verabreden",
+      "uz": "uchrashishga kelishmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "verabredet",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "verabredet sich"
+      },
+      "example_de": "Wir haben uns für Freitag verabredet.",
+      "example_uz": "Juma kuniga uchrashishga kelishdik.",
+      "topic": "invitations"
+    },
+    {
+      "id": "v-sich-einigen",
+      "de": "sich einigen",
+      "uz": "kelishib olmoq (bir qarorga)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "geeinigt",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "einigt sich"
+      },
+      "example_de": "Wir haben uns auf ein Geschenk geeinigt.",
+      "example_uz": "Bitta sovg'aga kelishib oldik.",
+      "topic": "communication"
+    },
+    {
+      "id": "v-ausmachen",
+      "de": "ausmachen",
+      "uz": "(vaqt, uchrashuvni) kelishmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "ausgemacht",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "macht aus"
+      },
+      "example_de": "Wir haben 18 Uhr ausgemacht.",
+      "example_uz": "Soat 18 ga kelishdik.",
+      "topic": "invitations"
+    },
+    {
+      "id": "v-organisieren",
+      "de": "organisieren",
+      "uz": "tashkil qilmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "organisiert",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "organisiert"
+      },
+      "example_de": "Wer organisiert die Party?",
+      "example_uz": "Bazmni kim tashkil qiladi?",
+      "topic": "events"
+    },
+    {
+      "id": "v-sich-vorstellen",
+      "de": "sich vorstellen",
+      "uz": "o'zini tanishtirmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "vorgestellt",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "stellt sich vor"
+      },
+      "example_de": "Bitte stellen Sie sich kurz vor.",
+      "example_uz": "Iltimos, o'zingizni qisqacha tanishtiring.",
+      "topic": "personal-info"
+    },
+    {
+      "id": "v-wie-wäre-es-mit",
+      "de": "Wie wäre es mit",
+      "uz": "... qilsak-chi? (taklif)",
+      "pos": "phrase",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Wie wäre es mit einem Picknick?",
+      "example_uz": "Piknik qilsak-chi?",
+      "topic": "invitations"
+    },
+    {
+      "id": "v-lass-uns",
+      "de": "Lass uns",
+      "uz": "keling, ... qilaylik",
+      "pos": "phrase",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Lass uns ins Kino gehen!",
+      "example_uz": "Keling, kinoga boraylik!",
+      "topic": "invitations"
+    },
+    {
+      "id": "v-einerseits",
+      "de": "einerseits",
+      "uz": "bir tomondan",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Einerseits ist die Wohnung groß, ...",
+      "example_uz": "Bir tomondan, kvartira katta, ...",
+      "topic": "communication"
+    },
+    {
+      "id": "v-andererseits",
+      "de": "andererseits",
+      "uz": "ikkinchi tomondan",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "... andererseits ist sie sehr teuer.",
+      "example_uz": "... ikkinchi tomondan, u juda qimmat.",
+      "topic": "communication"
+    }
+  ],
+  "review_vocabulary": [
+    "v-als",
+    "v-das-geschenk",
+    "v-lustig",
+    "v-weil",
+    "v-der-unterricht"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-modal-verbs",
+      "rule": "Birga rejalashtirishda modal fe'llar savol shaklida taklif bildiradi: Wollen wir ...? (... qilamizmi?), Sollen wir ...? (... qilaylikmi?). Modal fe'l 1-o'rinda, infinitiv oxirida. \"Lass uns\" + infinitiv ham taklif. \"Wie wäre es mit\" dan keyin Dativ keladi.",
+      "when": "Do'st bilan uchrashuv, sovg'a, sayohat yoki bazmni rejalashtirganda.",
+      "structure": "Wollen / Sollen + wir + ... + infinitiv?   Lass uns + ... + infinitiv!   Wie wäre es mit + Dativ?",
+      "examples": [
+        {
+          "de": "Wollen wir am Samstag zusammen kochen?",
+          "uz": "Shanba kuni birga ovqat pishiramizmi?"
+        },
+        {
+          "de": "Sollen wir Anna ein Buch schenken?",
+          "uz": "Annaga kitob sovg'a qilaylikmi?"
+        },
+        {
+          "de": "Lass uns zusammen ins Kino gehen!",
+          "uz": "Keling, birga kinoga boraylik!"
+        },
+        {
+          "de": "Wie wäre es mit einem Picknick im Park?",
+          "uz": "Bog'da piknik qilsak-chi?"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Wollen wir gehen ins Kino?",
+          "right": "Wollen wir ins Kino gehen?",
+          "why": "Modal fe'l bilan infinitiv gap oxirida."
+        },
+        {
+          "wrong": "Wie wäre es mit ein Picknick?",
+          "right": "Wie wäre es mit einem Picknick?",
+          "why": "mit doim Dativ bilan: das Picknick → mit einem Picknick."
+        },
+        {
+          "wrong": "Wir wollen uns am Samstag treffen?",
+          "right": "Wollen wir uns am Samstag treffen?",
+          "why": "Taklif-savolda modal fe'l 1-o'rinda."
+        }
+      ],
+      "check": [
+        "a2-m24-l3-e03",
+        "a2-m24-l3-e04",
+        "a2-m24-l3-e05"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "O'qituvchiga sovg'a",
+    "lines": [
+      {
+        "speaker": "Lina",
+        "de": "Unsere Lehrerin, Frau Neumann, hört nächsten Monat auf. Sollen wir ihr ein Geschenk kaufen?",
+        "uz": "O'qituvchimiz Noyman xonim keyingi oy ishdan ketyapti. Unga sovg'a olaylikmi?"
+      },
+      {
+        "speaker": "Javlon",
+        "de": "Gute Idee! Wie wäre es mit Blumen?",
+        "uz": "Yaxshi fikr! Gul olsak-chi?"
+      },
+      {
+        "speaker": "Lina",
+        "de": "Blumen sind schön, aber ich würde lieber etwas Persönliches schenken. Wollen wir ein Fotobuch vom Kurs machen?",
+        "uz": "Gullar chiroyli, lekin men shaxsiyroq narsa sovg'a qilishni afzal ko'rardim. Kurs suratlaridan albom qilamizmi?"
+      },
+      {
+        "speaker": "Javlon",
+        "de": "Super! Jeder schreibt eine kurze Nachricht dazu. Wann treffen wir uns?",
+        "uz": "Zo'r! Har kim unga qisqa tilak yozadi. Qachon uchrashamiz?"
+      },
+      {
+        "speaker": "Lina",
+        "de": "Am Freitag nach dem Unterricht? Dann können wir die Fotos zusammen aussuchen.",
+        "uz": "Juma kuni darsdan keyin? Unda suratlarni birga tanlaymiz."
+      },
+      {
+        "speaker": "Javlon",
+        "de": "Am Freitag kann ich leider nicht. Geht es am Donnerstag?",
+        "uz": "Juma kuni afsuski bo'lmaydi. Payshanba kuni bo'ladimi?"
+      },
+      {
+        "speaker": "Lina",
+        "de": "Ja, Donnerstag passt. Also, Donnerstag um 17 Uhr in der Cafeteria.",
+        "uz": "Ha, payshanba to'g'ri keladi. Demak, payshanba soat 17 da kafeteriyada."
+      }
+    ],
+    "questions": [
+      "a2-m24-l3-e06",
+      "a2-m24-l3-e07"
+    ]
+  },
+  "situation": {
+    "title": "Og'zaki imtihon: o'zini tanishtirish",
+    "context_uz": "A2 og'zaki imtihonining birinchi qismi: imtihon oluvchi sizdan o'zingiz haqingizda gapirishni so'rayapti.",
+    "lines": [
+      {
+        "speaker": "Prüfer",
+        "de": "Bitte stellen Sie sich kurz vor.",
+        "uz": "Iltimos, o'zingizni qisqacha tanishtiring."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Gern. Ich heiße Dilnoza Karimova und komme aus Usbekistan, aus Buchara. Ich bin 27 Jahre alt.",
+        "uz": "Bajonidil. Ismim Dilnoza Karimova, O'zbekistondan, Buxorodanman. 27 yoshdaman."
+      },
+      {
+        "speaker": "Prüfer",
+        "de": "Wo wohnen Sie jetzt und was machen Sie beruflich?",
+        "uz": "Hozir qayerda yashaysiz va kasbingiz nima?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ich wohne seit einem Jahr in Leipzig. In Usbekistan war ich Lehrerin. Jetzt mache ich einen Deutschkurs.",
+        "uz": "Bir yildan beri Leyptsigda yashayman. O'zbekistonda o'qituvchi edim. Hozir nemis tili kursida o'qiyapman."
+      },
+      {
+        "speaker": "Prüfer",
+        "de": "Was machen Sie gern in Ihrer Freizeit?",
+        "uz": "Bo'sh vaqtingizda nima qilishni yoqtirasiz?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ich koche gern und ich interessiere mich für Fotografie. Am Wochenende gehe ich oft im Park spazieren.",
+        "uz": "Ovqat pishirishni yoqtiraman va suratga olishga qiziqaman. Dam olish kunlari ko'pincha bog'da sayr qilaman."
+      },
+      {
+        "speaker": "Prüfer",
+        "de": "Und was sind Ihre Pläne?",
+        "uz": "Rejalaringiz qanday?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ich werde nächstes Jahr die B1-Prüfung machen, weil ich wieder als Lehrerin arbeiten möchte.",
+        "uz": "Kelasi yili B1 imtihonini topshiraman, chunki yana o'qituvchi bo'lib ishlamoqchiman."
+      }
+    ],
+    "task_uz": "O'zingizni 1–2 daqiqa tanishtiring: ism, qayerdan, qayerda yashaysiz, kasb (avval va hozir), qiziqishlar, rejalar. A2 ning barcha zamonlaridan foydalaning: Präsens, Perfekt/war, werden."
+  },
+  "exercises": [
+    {
+      "id": "a2-m24-l3-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "invitations",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemischa so'zni o'zbekcha ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "der Treffpunkt",
+          "uchrashuv joyi"
+        ],
+        [
+          "die Verabredung",
+          "kelishilgan uchrashuv"
+        ],
+        [
+          "gemeinsam",
+          "birgalikda"
+        ],
+        [
+          "sich einigen",
+          "kelishib olmoq"
+        ],
+        [
+          "ausmachen",
+          "vaqtni kelishmoq"
+        ]
+      ],
+      "correct_answer": {
+        "der Treffpunkt": "uchrashuv joyi",
+        "die Verabredung": "kelishilgan uchrashuv",
+        "gemeinsam": "birgalikda",
+        "sich einigen": "kelishib olmoq",
+        "ausmachen": "vaqtni kelishmoq"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Treffpunkt — uchrashuv joyi, Verabredung — kelishilgan uchrashuv, gemeinsam — birgalikda, sich einigen — kelishib olmoq, ausmachen — (vaqtni) kelishmoq.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m24-l3-e02",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "invitations",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni davom ettiring. Sherigingiz: \"Wollen wir am Samstag zusammen kochen?\"",
+      "prompt_de": "Wollen wir am Samstag zusammen kochen?",
+      "options": [
+        "Am Samstag kann ich leider nicht. Geht es am Sonntag?",
+        "Ja, ich habe am Samstag gekocht.",
+        "Nein, ich wollte kochen."
+      ],
+      "pairs": null,
+      "correct_answer": "Am Samstag kann ich leider nicht. Geht es am Sonntag?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Bo'lmasa — muloyim rad etib, boshqa kun taklif qiling. Boshqa javoblar zamon jihatdan mos emas.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m24-l3-e03",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "leisure",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "Taklif tuzing: \"Shanba kuni kinoga boramizmi?\"",
+      "prompt_de": null,
+      "options": [
+        "am",
+        "gehen",
+        "Wollen",
+        "Kino",
+        "ins",
+        "wir",
+        "Samstag"
+      ],
+      "pairs": null,
+      "correct_answer": "Wollen wir am Samstag ins Kino gehen?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Taklif-savol: Wollen (1) wir (2) ... gehen (oxirda).",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m24-l3-e04",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "leisure",
+      "grammar_topic": "g-dativ",
+      "difficulty": 2,
+      "question": "Artiklni yozing: \"Wie wäre es mit ___ Picknick im Park?\"",
+      "prompt_de": "Wie wäre es mit ___ Picknick im Park?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "einem",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "mit + Dativ: das Picknick → mit einem Picknick.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m24-l3-e05",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "celebrations",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "To'g'ri shaklni tanlang: \"___ wir Anna ein Buch schenken?\"",
+      "prompt_de": null,
+      "options": [
+        "Sollen",
+        "Sollt",
+        "Soll"
+      ],
+      "pairs": null,
+      "correct_answer": "Sollen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "wir bilan: sollen. Sollt — ihr, soll — ich/er.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m24-l3-e06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "education",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang. Ular qanday sovg'a tayyorlaydi?",
+      "prompt_de": null,
+      "options": [
+        "Kurs suratlaridan albom",
+        "Gul",
+        "Kitob"
+      ],
+      "pairs": null,
+      "correct_answer": "Kurs suratlaridan albom",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Wollen wir ein Fotobuch vom Kurs machen?\" Gul haqida ham gapirishdi, lekin Lina shaxsiyroq narsani afzal ko'rdi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Blumen sind schön, aber ich würde lieber etwas Persönliches schenken. Wollen wir ein Fotobuch vom Kurs machen?"
+    },
+    {
+      "id": "a2-m24-l3-e07",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "invitations",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang. Ular qachon va qayerda uchrashadi?",
+      "prompt_de": null,
+      "options": [
+        "Payshanba, soat 17 da, kafeteriyada",
+        "Juma, darsdan keyin",
+        "Payshanba, soat 7 da, kafeteriyada"
+      ],
+      "pairs": null,
+      "correct_answer": "Payshanba, soat 17 da, kafeteriyada",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Juma Javlonga to'g'ri kelmadi; kelishuv: \"Donnerstag um 17 Uhr in der Cafeteria\".",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Am Freitag kann ich leider nicht. Geht es am Donnerstag? — Ja, Donnerstag passt. Also, Donnerstag um 17 Uhr in der Cafeteria."
+    },
+    {
+      "id": "a2-m24-l3-e08",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "celebrations",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Sherigingiz: \"Wie wäre es mit einem Kochkurs als Geschenk?\" Siz rozisiz.",
+      "prompt_de": null,
+      "options": [
+        "Gute Idee! Das ist bestimmt lustig.",
+        "Gute Idee! Ich war gestern einen Kochkurs.",
+        "Nein, gute Idee."
+      ],
+      "pairs": null,
+      "correct_answer": "Gute Idee! Das ist bestimmt lustig.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Rozilik + qisqa sabab. Ikkinchi variantda zamon va fe'l xato (war ... einen Kochkurs), uchinchisi o'ziga zid.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m24-l3-e09",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "communication",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang va emailning yakuniy gapini yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich freue mich auf deine Antwort.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "sich freuen auf + Akkusativ: auf deine Antwort. Antwort — katta harf bilan.",
+      "error_type": "spelling",
+      "points": 2,
+      "audio_text": "Ich freue mich auf deine Antwort."
+    },
+    {
+      "id": "a2-m24-l3-e10",
+      "version": 1,
+      "type": "short_text",
+      "skill": "writing",
+      "topic": "invitations",
+      "grammar_topic": null,
+      "difficulty": 3,
+      "question": "Do'stingiz Tobias sizni shanba kuni tug'ilgan kuniga taklif qildi. Unga email yozing: 1) taklif uchun rahmat; 2) kela olmaysiz — sababi (weil); 3) boshqa kun uchrashishni taklif qiling (Wollen wir ...? / Wie wäre es mit ...?).",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 35,
+        "required_words": [
+          "weil"
+        ],
+        "sample": "Lieber Tobias, vielen Dank für deine Einladung! Leider kann ich am Samstag nicht kommen, weil meine Eltern aus Usbekistan zu Besuch kommen. Das tut mir sehr leid. Wollen wir uns nächste Woche treffen? Wie wäre es mit Mittwoch um 18 Uhr im Café Linde? Ich bringe dein Geschenk mit. Viele Grüße, Aziz"
+      },
+      "hint": null,
+      "explanation": "Uchala punkt bo'lishi kerak; murojaat (Lieber Tobias) va xayrlashuv (Viele Grüße) unutilmasin.",
+      "error_type": "vocabulary",
+      "points": 3,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m24-l3-e11",
+      "version": 1,
+      "type": "speak",
+      "skill": "speaking",
+      "topic": "personal-info",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Ovoz chiqarib o'zingizni tanishtiring (imtihonning 1-qismi): ism, mamlakat, yashash joyi, kasb, qiziqishlar va rejalar.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 35,
+        "required_words": [],
+        "sample": "Ich heiße Aziz und komme aus Usbekistan, aus Samarkand. Ich bin 30 Jahre alt. Seit zwei Jahren wohne ich in Köln. In Usbekistan war ich Ingenieur, jetzt arbeite ich in einer Firma als Techniker. In meiner Freizeit spiele ich Fußball und ich interessiere mich für Geschichte. Nächstes Jahr werde ich die B1-Prüfung machen."
+      },
+      "hint": null,
+      "explanation": "Yaxshi javob 6–8 gapdan iborat va turli zamonlarni ishlatadi: Präsens, war/Perfekt, werden.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a2-m24-l3-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "To'g'ri shaklni tanlang: \"___ uns am Sonntag zusammen frühstücken!\"",
+      "prompt_de": null,
+      "options": [
+        "Lass",
+        "Lassen",
+        "Lässt"
+      ],
+      "pairs": null,
+      "correct_answer": "Lass",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Taklif: Lass uns + infinitiv (du ga). Lassen uns / Lässt uns — noto'g'ri.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m24-l3-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "invitations",
+      "grammar_topic": "g-reflexive",
+      "difficulty": 1,
+      "question": "Qaytish olmoshini yozing: \"Wollen wir ___ morgen treffen?\"",
+      "prompt_de": "Wollen wir ___ morgen treffen?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "uns",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "sich treffen; wir bilan — uns.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m24-l3-t03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "invitations",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Mos so'zni tanlang: \"Wo ist unser ___? — Vor dem Kino.\"",
+      "prompt_de": null,
+      "options": [
+        "Treffpunkt",
+        "Verabredung",
+        "Präsentation"
+      ],
+      "pairs": null,
+      "correct_answer": "Treffpunkt",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Treffpunkt — uchrashuv joyi (Wo? savoliga javob).",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m24-l3-t04",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "education",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Nega ular sovg'a olmoqchi?",
+      "prompt_de": null,
+      "options": [
+        "O'qituvchi keyingi oy ishdan ketadi",
+        "O'qituvchining tug'ilgan kuni",
+        "Ularning to'yi bor"
+      ],
+      "pairs": null,
+      "correct_answer": "O'qituvchi keyingi oy ishdan ketadi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Frau Neumann, hört nächsten Monat auf\" — keyingi oy ishni tugatadi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Unsere Lehrerin, Frau Neumann, hört nächsten Monat auf. Sollen wir ihr ein Geschenk kaufen?"
+    },
+    {
+      "id": "a2-m24-l3-t05",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "leisure",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Bog'da piknik qilsak-chi?\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Wie wäre es mit einem Picknick im Park?",
+      "accepted_answers": [
+        "Wollen wir ein Picknick im Park machen?",
+        "Sollen wir ein Picknick im Park machen?",
+        "Wollen wir im Park ein Picknick machen?",
+        "Sollen wir im Park ein Picknick machen?",
+        "Lass uns ein Picknick im Park machen!",
+        "Lass uns im Park ein Picknick machen!"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Taklif: Wie wäre es mit + Dativ? yoki Wollen/Sollen wir ...?",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m24-l3-t06",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "leisure",
+      "grammar_topic": "g-dativ",
+      "difficulty": 1,
+      "question": "Xato so'zni toping: \"Wie wäre es mit ein Kinobesuch?\"",
+      "prompt_de": "Wie wäre es mit ein Kinobesuch?",
+      "options": [
+        "Wie",
+        "wäre",
+        "es",
+        "mit",
+        "ein",
+        "Kinobesuch"
+      ],
+      "pairs": null,
+      "correct_answer": "ein",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "mit + Dativ: der Kinobesuch → mit einem Kinobesuch.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m24-l3-t07",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "writing",
+      "topic": "communication",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'qituvchingizga rasmiy email yozdingiz. Qanday xayrlashasiz?",
+      "prompt_de": null,
+      "options": [
+        "Mit freundlichen Grüßen",
+        "Tschüs, bis dann!",
+        "Hallo zusammen"
+      ],
+      "pairs": null,
+      "correct_answer": "Mit freundlichen Grüßen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Rasmiy xatda — \"Mit freundlichen Grüßen\". \"Tschüs\" — norasmiy, \"Hallo zusammen\" — salomlashish.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "id": "a2-m17",
+  "version": 1,
+  "level": "A2",
+  "number": 17,
+  "title": "Uy-joy va muammolar",
+  "title_de": "Wohnen und Probleme",
+  "goals": [
+    "Ijara e'lonini tushunish va uy egasiga savol berish",
+    "Dativ: artikllar, gefallen/gehören/helfen fe'llari va mit/bei/zu/seit predloglari",
+    "Joy predloglari (in, an, auf, unter, neben ...) + Dativ bilan narsalar joyini aytish",
+    "Uydagi muammo haqida og'zaki va yozma xabar berish"
+  ],
+  "lessons": [
+    "a2-m17-l1",
+    "a2-m17-l2",
+    "a2-m17-l3"
+  ],
+  "module_test": [
+    {
+      "id": "mtest-a2-m17-01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-dativ",
+      "difficulty": 1,
+      "question": "To'g'ri variantni tanlang: Der Balkon gefällt ___ Frau sehr.",
+      "prompt_de": null,
+      "options": [
+        "meiner",
+        "meine",
+        "meinem"
+      ],
+      "pairs": null,
+      "correct_answer": "meiner",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"gefallen\" + Dativ; ayol jinsi: meine → meiner.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m17-02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-place-prepositions",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (an + dem): Der Tisch steht ___ Fenster.",
+      "prompt_de": "Der Tisch steht ___ Fenster.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "am",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "an + dem = am: am Fenster.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m17-03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-place-prepositions",
+      "difficulty": 2,
+      "question": "To'g'ri variantni tanlang: Die Mülltonnen stehen ___ Haus.",
+      "prompt_de": null,
+      "options": [
+        "hinter dem",
+        "hinter das",
+        "hinter der"
+      ],
+      "pairs": null,
+      "correct_answer": "hinter dem",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Wo?\" — Dativ. das Haus → dem Haus.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m17-04",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "household",
+      "grammar_topic": "g-dativ",
+      "difficulty": 2,
+      "question": "Gapdagi xato so'zni toping: \"Ich habe ein Problem mit die Spülmaschine.\"",
+      "prompt_de": "Ich habe ein Problem mit die Spülmaschine.",
+      "options": [
+        "Ich",
+        "habe",
+        "ein",
+        "Problem",
+        "mit",
+        "die",
+        "Spülmaschine"
+      ],
+      "pairs": null,
+      "correct_answer": "die",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"mit\" + Dativ: mit der Spülmaschine.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m17-05",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang. Qaysi gap to'g'ri?",
+      "prompt_de": null,
+      "options": [
+        "Kvartira ikkinchi qavatda, garov puli 1200 yevro",
+        "Kvartira birinchi qavatda, garov puli 1200 yevro",
+        "Kvartira ikkinchi qavatda, garov puli yo'q"
+      ],
+      "pairs": null,
+      "correct_answer": "Kvartira ikkinchi qavatda, garov puli 1200 yevro",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Nemischa \"erster Stock\" — o'zbekcha 2-qavat.",
+      "explanation": "Germaniyada \"Erdgeschoss\" — birinchi qavat, \"erster Stock\" — ikkinchi qavat. Kaution — 1200 yevro.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Die Wohnung liegt im ersten Stock, also eine Treppe hoch. Die Kaution beträgt 1200 Euro."
+    },
+    {
+      "id": "mtest-a2-m17-06",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "So'zni ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "der Mieter",
+          "ijarachi"
+        ],
+        [
+          "der Keller",
+          "yerto'la"
+        ],
+        [
+          "die Treppe",
+          "zinapoya"
+        ],
+        [
+          "der Hof",
+          "hovli"
+        ],
+        [
+          "der Hausmeister",
+          "uy boshqaruvchisi"
+        ]
+      ],
+      "correct_answer": {
+        "der Mieter": "ijarachi",
+        "der Keller": "yerto'la",
+        "die Treppe": "zinapoya",
+        "der Hof": "hovli",
+        "der Hausmeister": "uy boshqaruvchisi"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Mieter — ijarachi, Keller — yerto'la, Treppe — zinapoya, Hof — hovli, Hausmeister — uy boshqaruvchisi.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m17-07",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "home",
+      "grammar_topic": "g-dativ",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Bu velosiped kimga tegishli?\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Wem gehört das Fahrrad?",
+      "accepted_answers": [
+        "Wem gehört dieses Fahrrad?"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"kimga?\" — Dativ savoli \"wem?\". \"gehören\" + Dativ.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m17-08",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "E'lonni o'qing. Qaysi ma'lumot to'g'ri?",
+      "prompt_de": "3-Zimmer-Wohnung, 78 m², 2. Stock, ohne Möbel. Kaltmiete 890 €, Nebenkosten 210 €. Keller und Fahrradraum im Haus. Besichtigung: Samstag 10–12 Uhr.",
+      "options": [
+        "Kvartira ijarasiga qo'shimcha xarajatlar kirmagan",
+        "Kvartira mebellangan",
+        "Kvartira birinchi qavatda"
+      ],
+      "pairs": null,
+      "correct_answer": "Kvartira ijarasiga qo'shimcha xarajatlar kirmagan",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Kaltmiete 890 €, Nebenkosten 210 €\" — qo'shimcha xarajatlar alohida. \"ohne Möbel\" — mebelsiz, \"2. Stock\" — uchinchi qavat.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m17-09",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-place-prepositions",
+      "difficulty": 2,
+      "question": "So'zlarni to'g'ri tartibda joylashtiring: \"Uy boshqaruvchisining xonasi kirish yonida.\"",
+      "prompt_de": null,
+      "options": [
+        "Hausmeister",
+        "Büro",
+        "vom",
+        "Das",
+        "neben",
+        "Eingang",
+        "dem",
+        "ist"
+      ],
+      "pairs": null,
+      "correct_answer": "Das Büro vom Hausmeister ist neben dem Eingang",
+      "accepted_answers": [
+        "Neben dem Eingang ist das Büro vom Hausmeister"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"neben dem Eingang\" — Dativ. \"vom Hausmeister\" = von dem Hausmeister.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m17-10",
+      "version": 1,
+      "type": "plural",
+      "skill": "vocabulary",
+      "topic": "household",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Ko'plik shaklini yozing: der Wasserhahn → ?",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "die Wasserhähne",
+      "accepted_answers": [
+        "Wasserhähne"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Hahn → die Hähne, shuning uchun die Wasserhähne.",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "writing_task": {
+    "id": "w-a2-m17",
+    "title": "Uy egasiga muammo haqida xat",
+    "task_uz": "Siz ijarada yashaysiz. Kvartiradagi ikki muammo haqida uy egasiga rasmiy elektron xat yozing: nima buzilgan, qayerda (joy predloglari), qachondan beri (seit), bu sizga qanday xalaqit beradi va usta qachon kelishi mumkin (qachon uydasiz).",
+    "required_words": [
+      "seit",
+      "Problem"
+    ],
+    "min_words": 50,
+    "max_words": 110,
+    "criteria": [
+      "Rasmiy murojaat va yakun (Sehr geehrte/r ..., Mit freundlichen Grüßen)",
+      "Ikki muammo aniq tasvirlangan (Heizung, Wasserhahn, Schimmel, Fenster ...)",
+      "Dativ to'g'ri: mit der Heizung, seit einer Woche, im Bad",
+      "Muloyim iltimos (Könnten Sie bitte ...?)",
+      "Qachon uyda ekaningiz (um/ab/von ... bis)"
+    ],
+    "sample_answer": "Sehr geehrte Frau Schneider,\nich wohne in der Goethestraße 12, Wohnung 7. Leider habe ich zwei Probleme. Seit einer Woche funktioniert die Heizung im Wohnzimmer nicht. Es ist sehr kalt und meine Kinder sind schon erkältet. Außerdem tropft der Wasserhahn in der Küche. Könnten Sie bitte einen Handwerker schicken? Ich bin jeden Tag ab 15 Uhr zu Hause, am Samstag den ganzen Tag. Vielen Dank im Voraus.\n\nMit freundlichen Grüßen\nNodira Yusupova"
+  }
+}

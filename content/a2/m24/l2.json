@@ -1,0 +1,925 @@
+{
+  "id": "a2-m24-l2",
+  "version": 1,
+  "level": "A2",
+  "module": 24,
+  "order": 2,
+  "title": "Grammatikani umumlashtirish: o'qish va tinglash",
+  "title_de": "Grammatik-Training: Lesen und Hören",
+  "goal": "Dars oxirida A1–A2 dagi asosiy fe'l o'rni qoidalarini va Akkusativ/Dativni bitta tizimda ko'ra olasiz, e'lon va ko'rsatmalarni tushunib, imtihon uslubidagi o'qish va tinglash topshiriqlarini bajarasiz.",
+  "skill_focus": [
+    "grammar",
+    "reading",
+    "listening"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "A2 imtihonida odatda to'rt qism bo'ladi: o'qish (Lesen), tinglash (Hören), yozish (Schreiben) va gapirish (Sprechen). Bu darsda o'qish va tinglash strategiyalarini hamda eng muhim grammatika qoidalarini takrorlaymiz."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Qism",
+        "Strategiya"
+      ],
+      "rows": [
+        [
+          "O'qish (Lesen)",
+          "Avval savollarni o'qing, keyin matnni. Kalit so'zlarni belgilang (markieren)."
+        ],
+        [
+          "Tinglash (Hören)",
+          "E'londa raqamlar, vaqt va joyga e'tibor bering: Gleis, Uhr, Minuten."
+        ],
+        [
+          "Javob belgilash",
+          "Bilmasangiz ham bitta variantni belgilang (ankreuzen) — bo'sh qoldirmang."
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Gap turi",
+        "Fe'l o'rni",
+        "Misol"
+      ],
+      "rows": [
+        [
+          "Darak gap",
+          "2-o'rin",
+          "Heute lerne ich Deutsch."
+        ],
+        [
+          "Ha/yo'q savol, buyruq",
+          "1-o'rin",
+          "Lernst du heute? / Lern jeden Tag!"
+        ],
+        [
+          "Modal, Perfekt, werden",
+          "2-o'rin + gap oxiri",
+          "Ich habe gestern gelernt."
+        ],
+        [
+          "weil / dass / wenn",
+          "gap oxiri",
+          "..., weil ich morgen eine Prüfung habe."
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "trotzdem (shunga qaramay) va außerdem (bundan tashqari) gapning 1-o'rnini egallaydi, shuning uchun fe'l darhol keladi: Ich bin müde. Trotzdem lerne ich."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-der-text",
+      "de": "Text",
+      "uz": "matn",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Texte",
+      "forms": null,
+      "example_de": "Lesen Sie den Text und kreuzen Sie an.",
+      "example_uz": "Matnni o'qing va belgilang.",
+      "topic": "education"
+    },
+    {
+      "id": "v-die-überschrift",
+      "de": "Überschrift",
+      "uz": "sarlavha",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Überschriften",
+      "forms": null,
+      "example_de": "Welche Überschrift passt zum Text?",
+      "example_uz": "Matnga qaysi sarlavha mos?",
+      "topic": "education"
+    },
+    {
+      "id": "v-der-hinweis",
+      "de": "Hinweis",
+      "uz": "ko'rsatma, eslatma",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Hinweise",
+      "forms": null,
+      "example_de": "Lesen Sie zuerst die Hinweise.",
+      "example_uz": "Avval ko'rsatmalarni o'qing.",
+      "topic": "education"
+    },
+    {
+      "id": "v-die-ansage",
+      "de": "Ansage",
+      "uz": "ovozli e'lon",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Ansagen",
+      "forms": null,
+      "example_de": "Hören Sie die Ansage zweimal.",
+      "example_uz": "E'lonni ikki marta tinglang.",
+      "topic": "communication"
+    },
+    {
+      "id": "v-die-lösung",
+      "de": "Lösung",
+      "uz": "yechim; to'g'ri javob",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Lösungen",
+      "forms": null,
+      "example_de": "Die Lösungen stehen am Ende.",
+      "example_uz": "Javoblar oxirida.",
+      "topic": "education"
+    },
+    {
+      "id": "v-die-möglichkeit",
+      "de": "Möglichkeit",
+      "uz": "imkoniyat",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Möglichkeiten",
+      "forms": null,
+      "example_de": "Es gibt drei Möglichkeiten: a, b oder c.",
+      "example_uz": "Uchta variant bor: a, b yoki c.",
+      "topic": "general"
+    },
+    {
+      "id": "v-der-test",
+      "de": "Test",
+      "uz": "test, sinov",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Tests",
+      "forms": null,
+      "example_de": "Der Test dauert 30 Minuten.",
+      "example_uz": "Test 30 daqiqa davom etadi.",
+      "topic": "education"
+    },
+    {
+      "id": "v-ankreuzen",
+      "de": "ankreuzen",
+      "uz": "belgilamoq (x bilan)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "angekreuzt",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "kreuzt an"
+      },
+      "example_de": "Kreuzen Sie die richtige Lösung an.",
+      "example_uz": "To'g'ri javobni belgilang.",
+      "topic": "education"
+    },
+    {
+      "id": "v-markieren",
+      "de": "markieren",
+      "uz": "belgilab qo'ymoq (marker bilan)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "markiert",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "markiert"
+      },
+      "example_de": "Ich markiere die wichtigen Wörter.",
+      "example_uz": "Muhim so'zlarni belgilab qo'yaman.",
+      "topic": "education"
+    },
+    {
+      "id": "v-zusammenfassen",
+      "de": "zusammenfassen",
+      "uz": "qisqacha bayon qilmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "zusammengefasst",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "fasst zusammen"
+      },
+      "example_de": "Kannst du den Text kurz zusammenfassen?",
+      "example_uz": "Matnni qisqacha bayon qila olasanmi?",
+      "topic": "education"
+    },
+    {
+      "id": "v-trotzdem",
+      "de": "trotzdem",
+      "uz": "shunga qaramay",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Ich bin müde. Trotzdem lerne ich.",
+      "example_uz": "Charchaganman. Shunga qaramay o'qiyman.",
+      "topic": "communication"
+    },
+    {
+      "id": "v-außerdem",
+      "de": "außerdem",
+      "uz": "bundan tashqari",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Außerdem brauchen Sie einen Ausweis.",
+      "example_uz": "Bundan tashqari, sizga guvohnoma kerak.",
+      "topic": "communication"
+    },
+    {
+      "id": "v-zum-beispiel",
+      "de": "zum Beispiel",
+      "uz": "masalan",
+      "pos": "phrase",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Ich lerne mit Apps, zum Beispiel mit Karteikarten.",
+      "example_uz": "Ilovalar bilan o'rganaman, masalan, kartochkalar bilan.",
+      "topic": "communication"
+    }
+  ],
+  "review_vocabulary": [
+    "v-teilnehmen",
+    "v-dass",
+    "v-der-erfolg",
+    "v-wenn",
+    "v-der-ausweis"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-verb-position",
+      "rule": "Nemis gapining asosiy qoidasi — fe'l o'rni. Darak gapda tuslangan fe'l 2-o'rinda; ha/yo'q savol va buyruqda 1-o'rinda; ikkinchi fe'l (infinitiv, Partizip II, ajraladigan qism) gap oxirida; ergash gapda (weil, dass, wenn) tuslangan fe'l eng oxirida.",
+      "when": "Har bir gapda! Imtihonda so'z tartibi xatolari eng ko'p ball yo'qotiladigan xatolardan biri.",
+      "structure": "[1] + fe'l + ... + [oxir]   |   Fe'l + ega + ...?   |   ..., weil + ega + ... + fe'l.",
+      "examples": [
+        {
+          "de": "Am Wochenende habe ich meine Großeltern besucht.",
+          "uz": "Dam olish kunlari bobom va buvimnikiga bordim."
+        },
+        {
+          "de": "Trotzdem gehe ich heute zum Kurs.",
+          "uz": "Shunga qaramay, bugun kursga boraman."
+        },
+        {
+          "de": "Kannst du mir morgen helfen?",
+          "uz": "Ertaga menga yordam bera olasanmi?"
+        },
+        {
+          "de": "Ich weiß, dass du morgen keine Zeit hast.",
+          "uz": "Ertaga vaqting yo'qligini bilaman."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Am Wochenende ich habe gearbeitet.",
+          "right": "Am Wochenende habe ich gearbeitet.",
+          "why": "1-o'rinda vaqt bo'lsa, fe'l 2-o'rinda, ega undan keyin."
+        },
+        {
+          "wrong": "Ich bin müde, trotzdem ich gehe zum Kurs.",
+          "right": "Ich bin müde, trotzdem gehe ich zum Kurs.",
+          "why": "trotzdem 1-o'rinni egallaydi — keyin darhol fe'l."
+        },
+        {
+          "wrong": "Ich kann nicht kommen, weil ich muss arbeiten.",
+          "right": "Ich kann nicht kommen, weil ich arbeiten muss.",
+          "why": "weil-gapda tuslangan fe'l (muss) oxirida."
+        }
+      ],
+      "check": [
+        "a2-m24-l2-e03",
+        "a2-m24-l2-e04",
+        "a2-m24-l2-e05"
+      ]
+    },
+    {
+      "topic_id": "g-dativ",
+      "rule": "Kim? Nima? — Nominativ. Kimni? Nimani? — Akkusativ (den, einen). Kimga? Qayerda? — Dativ (dem, der, einem). mit, bei, nach, von, zu, aus, seit — doim Dativ. in, an, auf: Wo? (qayerda) → Dativ, Wohin? (qayerga) → Akkusativ.",
+      "when": "Predlog yoki fe'ldan keyin artiklni tanlaganda.",
+      "structure": "mit + dem / der / dem   |   Wo? → im, auf dem   |   Wohin? → in den, auf den",
+      "examples": [
+        {
+          "de": "Ich fahre mit dem Bus zur Arbeit.",
+          "uz": "Ishga avtobusda boraman."
+        },
+        {
+          "de": "Das Buch liegt auf dem Tisch.",
+          "uz": "Kitob stol ustida turibdi."
+        },
+        {
+          "de": "Ich lege das Buch auf den Tisch.",
+          "uz": "Kitobni stol ustiga qo'yaman."
+        },
+        {
+          "de": "Ich schenke meiner Mutter Blumen.",
+          "uz": "Onamga gul sovg'a qilaman."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Ich fahre mit den Bus.",
+          "right": "Ich fahre mit dem Bus.",
+          "why": "mit doim Dativ bilan: der Bus → mit dem Bus."
+        },
+        {
+          "wrong": "Ich gehe in dem Park.",
+          "right": "Ich gehe in den Park.",
+          "why": "Harakat yo'nalishi (Wohin?) — Akkusativ: in den Park."
+        }
+      ],
+      "check": [
+        "a2-m24-l2-e09",
+        "a2-m24-l2-e10"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Vokzaldagi e'lon",
+    "lines": [
+      {
+        "speaker": "Ansage",
+        "de": "Achtung, eine Information für die Fahrgäste: Der ICE 578 nach Frankfurt hat heute etwa 20 Minuten Verspätung.",
+        "uz": "Diqqat, yo'lovchilar uchun ma'lumot: Frankfurtga boradigan ICE 578 poyezdi bugun taxminan 20 daqiqa kechikadi."
+      },
+      {
+        "speaker": "Ansage",
+        "de": "Der Zug fährt heute nicht von Gleis 7, sondern von Gleis 12.",
+        "uz": "Poyezd bugun 7-yo'ldan emas, 12-yo'ldan jo'naydi."
+      },
+      {
+        "speaker": "Sherzod",
+        "de": "Entschuldigung, habe ich richtig verstanden? Gleis 12?",
+        "uz": "Kechirasiz, to'g'ri tushundimmi? 12-yo'lmi?"
+      },
+      {
+        "speaker": "Frau",
+        "de": "Ja, Gleis 12. Und er kommt erst um 14:35 Uhr.",
+        "uz": "Ha, 12-yo'l. U faqat soat 14:35 da keladi."
+      },
+      {
+        "speaker": "Sherzod",
+        "de": "Oh nein, dann verpasse ich meinen Anschluss in Frankfurt.",
+        "uz": "Voy, unda Frankfurtdagi keyingi poyezdga ulgurmayman."
+      },
+      {
+        "speaker": "Frau",
+        "de": "Fragen Sie am Infoschalter. Dort hilft man Ihnen sicher.",
+        "uz": "Ma'lumot oynasidan so'rang. U yerda sizga albatta yordam berishadi."
+      }
+    ],
+    "questions": [
+      "a2-m24-l2-e06",
+      "a2-m24-l2-e07"
+    ]
+  },
+  "situation": {
+    "title": "Imtihon kuni",
+    "context_uz": "Siz A2 imtihoniga keldingiz. Ro'yxatdan o'tish joyida nazoratchi bilan gaplashyapsiz.",
+    "lines": [
+      {
+        "speaker": "Prüferin",
+        "de": "Guten Morgen! Ihren Ausweis, bitte.",
+        "uz": "Xayrli tong! Guvohnomangizni bering, iltimos."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Hier, bitte. Entschuldigung, wo ist der Prüfungsraum?",
+        "uz": "Mana, marhamat. Kechirasiz, imtihon xonasi qayerda?"
+      },
+      {
+        "speaker": "Prüferin",
+        "de": "Im zweiten Stock, Raum 204. Der Test beginnt um neun Uhr.",
+        "uz": "Ikkinchi qavatda, 204-xona. Test soat to'qqizda boshlanadi."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Darf ich ein Wörterbuch benutzen?",
+        "uz": "Lug'atdan foydalansam bo'ladimi?"
+      },
+      {
+        "speaker": "Prüferin",
+        "de": "Nein, leider nicht. Und bitte schalten Sie Ihr Handy aus.",
+        "uz": "Yo'q, afsuski. Va iltimos, telefoningizni o'chiring."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Natürlich. Wie lange dauert der schriftliche Teil?",
+        "uz": "Albatta. Yozma qism qancha davom etadi?"
+      },
+      {
+        "speaker": "Prüferin",
+        "de": "Ungefähr anderthalb Stunden. Viel Erfolg!",
+        "uz": "Taxminan bir yarim soat. Omad!"
+      }
+    ],
+    "task_uz": "Imtihon kunida kerakli savollarni bering: qayerda, qachon, nima mumkin yoki mumkin emas (dürfen), qancha davom etadi. Kamida 4 ta savol tuzing va fe'l o'rniga e'tibor bering."
+  },
+  "exercises": [
+    {
+      "id": "a2-m24-l2-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "education",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemischa so'zni o'zbekcha ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "ankreuzen",
+          "belgilamoq"
+        ],
+        [
+          "die Überschrift",
+          "sarlavha"
+        ],
+        [
+          "die Lösung",
+          "to'g'ri javob"
+        ],
+        [
+          "der Hinweis",
+          "ko'rsatma"
+        ],
+        [
+          "die Ansage",
+          "ovozli e'lon"
+        ]
+      ],
+      "correct_answer": {
+        "ankreuzen": "belgilamoq",
+        "die Überschrift": "sarlavha",
+        "die Lösung": "to'g'ri javob",
+        "der Hinweis": "ko'rsatma",
+        "die Ansage": "ovozli e'lon"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "ankreuzen — belgilamoq, Überschrift — sarlavha, Lösung — to'g'ri javob, Hinweis — ko'rsatma, Ansage — ovozli e'lon.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m24-l2-e02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "language-learning",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Mos so'zni tanlang: \"Ich bin müde. ___ lerne ich heute noch eine Stunde.\"",
+      "prompt_de": "Ich bin müde. ___ lerne ich heute noch eine Stunde.",
+      "options": [
+        "Trotzdem",
+        "Außerdem",
+        "Zum Beispiel"
+      ],
+      "pairs": null,
+      "correct_answer": "Trotzdem",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Charchagan, LEKIN baribir o'qiydi — trotzdem (shunga qaramay). außerdem — bundan tashqari.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m24-l2-e03",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-verb-position",
+      "difficulty": 1,
+      "question": "So'zlarni tartiblang: \"Dam olish kunlari bobom va buvimnikiga bordim.\"",
+      "prompt_de": null,
+      "options": [
+        "ich",
+        "Wochenende",
+        "besucht",
+        "Großeltern",
+        "Am",
+        "meine",
+        "habe"
+      ],
+      "pairs": null,
+      "correct_answer": "Am Wochenende habe ich meine Großeltern besucht.",
+      "accepted_answers": [
+        "Ich habe am Wochenende meine Großeltern besucht."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Vaqt 1-o'rinda — habe 2-o'rinda — ega — ... — Partizip II oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m24-l2-e04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "work",
+      "grammar_topic": "g-verb-position",
+      "difficulty": 1,
+      "question": "To'g'ri davomni tanlang: \"Ich kann morgen nicht kommen, weil ...\"",
+      "prompt_de": null,
+      "options": [
+        "ich arbeiten muss",
+        "ich muss arbeiten",
+        "muss ich arbeiten"
+      ],
+      "pairs": null,
+      "correct_answer": "ich arbeiten muss",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "weil-gapda tuslangan fe'l (muss) eng oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m24-l2-e05",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "education",
+      "grammar_topic": "g-verb-position",
+      "difficulty": 2,
+      "question": "So'zlarni tartiblang: \"Shunga qaramay, bugun kursga boraman.\"",
+      "prompt_de": null,
+      "options": [
+        "zum",
+        "ich",
+        "heute",
+        "gehe",
+        "Trotzdem",
+        "Kurs"
+      ],
+      "pairs": null,
+      "correct_answer": "Trotzdem gehe ich heute zum Kurs.",
+      "accepted_answers": [
+        "Ich gehe trotzdem heute zum Kurs.",
+        "Ich gehe heute trotzdem zum Kurs.",
+        "Heute gehe ich trotzdem zum Kurs."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "trotzdem 1-o'rinda bo'lsa, fe'l (gehe) darhol keladi.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m24-l2-e06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "transport",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "E'lonni tinglang. Poyezd qaysi yo'ldan jo'naydi?",
+      "prompt_de": null,
+      "options": [
+        "12-yo'ldan",
+        "7-yo'ldan",
+        "2-yo'ldan"
+      ],
+      "pairs": null,
+      "correct_answer": "12-yo'ldan",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"nicht von Gleis 7, sondern von Gleis 12\" — 7 dan emas, 12 dan.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Der Zug fährt heute nicht von Gleis 7, sondern von Gleis 12."
+    },
+    {
+      "id": "a2-m24-l2-e07",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "transport",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "E'lonni tinglang. Poyezd qancha kechikadi?",
+      "prompt_de": null,
+      "options": [
+        "Taxminan 20 daqiqa",
+        "2 soat",
+        "Kechikmaydi"
+      ],
+      "pairs": null,
+      "correct_answer": "Taxminan 20 daqiqa",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"etwa 20 Minuten Verspätung\".",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Achtung, eine Information für die Fahrgäste: Der ICE 578 nach Frankfurt hat heute etwa 20 Minuten Verspätung."
+    },
+    {
+      "id": "a2-m24-l2-e08",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "education",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Ko'rsatmalarni o'qing. Imtihonga kechiksangiz nima bo'ladi?",
+      "prompt_de": "Hinweise zur Prüfung: Bringen Sie bitte Ihren Ausweis und einen Kugelschreiber mit. Handys müssen während der Prüfung aus sein. Im Teil Lesen kreuzen Sie bitte die richtige Lösung an. Wenn Sie zu spät kommen, dürfen Sie nicht mehr teilnehmen.",
+      "options": [
+        "Imtihonda qatnasha olmaysiz",
+        "Keyingi qismdan boshlaysiz",
+        "Hech narsa bo'lmaydi"
+      ],
+      "pairs": null,
+      "correct_answer": "Imtihonda qatnasha olmaysiz",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Wenn Sie zu spät kommen, dürfen Sie nicht mehr teilnehmen.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m24-l2-e09",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "transport",
+      "grammar_topic": "g-dativ",
+      "difficulty": 1,
+      "question": "Artiklni yozing: \"Ich fahre mit ___ Bus zur Prüfung.\"",
+      "prompt_de": "Ich fahre mit ___ Bus zur Prüfung.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "dem",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "mit + Dativ: der Bus → mit dem Bus.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m24-l2-e10",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-dativ",
+      "difficulty": 2,
+      "question": "To'g'ri artiklni tanlang: \"Ich lege den Ausweis auf ___ Tisch.\"",
+      "prompt_de": null,
+      "options": [
+        "den",
+        "dem",
+        "der"
+      ],
+      "pairs": null,
+      "correct_answer": "den",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "legen — harakat (Wohin?), shuning uchun Akkusativ: auf den Tisch. (Wo? bo'lsa: auf dem Tisch.)",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m24-l2-e11",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "education",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "To'g'ri artiklni tanlang: ___ Lösung",
+      "prompt_de": null,
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "die",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "-ung bilan tugaydigan otlar — die.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a2-m24-l2-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "travel",
+      "grammar_topic": "g-perfekt-aux",
+      "difficulty": 1,
+      "question": "To'g'ri yordamchi fe'lni tanlang: \"Gestern ___ ich mit dem Zug nach Berlin gefahren.\"",
+      "prompt_de": null,
+      "options": [
+        "bin",
+        "habe",
+        "hatte"
+      ],
+      "pairs": null,
+      "correct_answer": "bin",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "fahren — harakat, Perfekt sein bilan.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m24-l2-t02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "services",
+      "grammar_topic": "g-akkusativ",
+      "difficulty": 1,
+      "question": "To'g'ri shaklni tanlang: \"Ich brauche ___ neuen Pass.\"",
+      "prompt_de": null,
+      "options": [
+        "einen",
+        "einem",
+        "ein"
+      ],
+      "pairs": null,
+      "correct_answer": "einen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "brauchen + Akkusativ; der Pass → einen Pass.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m24-l2-t03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "time",
+      "grammar_topic": "g-subordinate",
+      "difficulty": 1,
+      "question": "Bog'lovchini yozing: \"Ich weiß, ___ du morgen keine Zeit hast.\"",
+      "prompt_de": "Ich weiß, ___ du morgen keine Zeit hast.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "dass",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "wissen dan keyin — dass; fe'l (hast) oxirida.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m24-l2-t04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "education",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "To'g'ri modal fe'lni tanlang: \"Im Prüfungsraum ist Telefonieren verboten. Man ___ dort nicht telefonieren.\"",
+      "prompt_de": null,
+      "options": [
+        "darf",
+        "will",
+        "möchte"
+      ],
+      "pairs": null,
+      "correct_answer": "darf",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Taqiq — nicht dürfen.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m24-l2-t05",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "transport",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "E'lonni tinglang. Poyezd qayerga boradi?",
+      "prompt_de": null,
+      "options": [
+        "Frankfurtga",
+        "Berlinga",
+        "Myunxenga"
+      ],
+      "pairs": null,
+      "correct_answer": "Frankfurtga",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Der ICE 578 nach Frankfurt\".",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Achtung, eine Information für die Fahrgäste: Der ICE 578 nach Frankfurt hat heute etwa 20 Minuten Verspätung."
+    },
+    {
+      "id": "a2-m24-l2-t06",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "past-events",
+      "grammar_topic": "g-praeteritum",
+      "difficulty": 2,
+      "question": "sein fe'lini Präteritumda yozing: \"Wo ___ ihr gestern?\"",
+      "prompt_de": "Wo ___ ihr gestern?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "wart",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "ihr bilan: wart.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m24-l2-t07",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "education",
+      "grammar_topic": "g-verb-position",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Shunga qaramay, men kursga boraman.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Trotzdem gehe ich zum Kurs.",
+      "accepted_answers": [
+        "Ich gehe trotzdem zum Kurs.",
+        "Trotzdem gehe ich in den Kurs.",
+        "Ich gehe trotzdem in den Kurs."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "trotzdem 1-o'rinda bo'lsa — fe'l darhol keyin.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m24-l2-t08",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "education",
+      "grammar_topic": "g-comparison",
+      "difficulty": 1,
+      "question": "To'g'ri shaklni tanlang: \"Der schriftliche Teil war ___ als der mündliche.\"",
+      "prompt_de": null,
+      "options": [
+        "schwerer",
+        "schwer",
+        "am schwersten"
+      ],
+      "pairs": null,
+      "correct_answer": "schwerer",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ikki qismni solishtirish — komparativ + als.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

@@ -1,0 +1,857 @@
+{
+  "id": "a2-m19-l2",
+  "version": 1,
+  "level": "A2",
+  "module": 19,
+  "order": 2,
+  "title": "Eng yaxshi tanlov: superlativ",
+  "title_de": "Das Beste finden: Superlativ",
+  "goal": "Dars oxirida uch va undan ortiq variant ichidan eng arzon, eng tez, eng yaxshisini \"am ...sten\" bilan ayta olasiz va internet do'kondagi sharhni tushunasiz.",
+  "skill_focus": [
+    "grammar",
+    "reading",
+    "speaking"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Superlativ — \"eng ...\" degani. Uch yoki undan ko'p narsani solishtirib, eng zo'rini aytamiz. Eng oddiy shakli: am + sifat + -sten."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Asosiy",
+        "Komparativ",
+        "Superlativ",
+        "O'zbekcha"
+      ],
+      "rows": [
+        [
+          "billig",
+          "billiger",
+          "am billigsten",
+          "eng arzon"
+        ],
+        [
+          "schnell",
+          "schneller",
+          "am schnellsten",
+          "eng tez"
+        ],
+        [
+          "teuer",
+          "teurer",
+          "am teuersten",
+          "eng qimmat"
+        ],
+        [
+          "groß",
+          "größer",
+          "am größten",
+          "eng katta"
+        ],
+        [
+          "alt",
+          "älter",
+          "am ältesten",
+          "eng eski / eng katta (yosh)"
+        ],
+        [
+          "gut",
+          "besser",
+          "am besten",
+          "eng yaxshi"
+        ],
+        [
+          "viel",
+          "mehr",
+          "am meisten",
+          "eng ko'p"
+        ],
+        [
+          "gern",
+          "lieber",
+          "am liebsten",
+          "eng ko'p yoqtirib"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Sifat -t, -d, -s, -ß, -z bilan tugasa, odatda -esten bo'ladi: alt → am ältesten, kurz → am kürzesten, heiß → am heißesten. Istisno: groß → am größten."
+    },
+    {
+      "type": "p",
+      "text": "Ot oldida esa artikl bilan: der/die/das + sifat + -ste: das billigste Handy, der beste Shop."
+    },
+    {
+      "type": "tip",
+      "text": "\"am besten\" va \"am liebsten\" kundalik nutqda juda ko'p ishlatiladi: Was trinkst du am liebsten? — Am liebsten trinke ich grünen Tee."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-der-onlineshop",
+      "de": "Onlineshop",
+      "uz": "internet do'kon",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Onlineshops",
+      "forms": null,
+      "example_de": "Ich kaufe oft im Onlineshop.",
+      "example_uz": "Men ko'pincha internet do'kondan xarid qilaman.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-die-bewertung",
+      "de": "Bewertung",
+      "uz": "baho, sharh (reyting)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Bewertungen",
+      "forms": null,
+      "example_de": "Das Produkt hat sehr gute Bewertungen.",
+      "example_uz": "Mahsulotning baholari juda yaxshi.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-die-lieferung",
+      "de": "Lieferung",
+      "uz": "yetkazib berish",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Lieferungen",
+      "forms": null,
+      "example_de": "Die Lieferung dauert drei Tage.",
+      "example_uz": "Yetkazib berish uch kun davom etadi.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-die-bestellung",
+      "de": "Bestellung",
+      "uz": "buyurtma",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Bestellungen",
+      "forms": null,
+      "example_de": "Meine Bestellung ist noch nicht da.",
+      "example_uz": "Buyurtmam hali kelmadi.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-das-paket",
+      "de": "Paket",
+      "uz": "posilka",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Pakete",
+      "forms": null,
+      "example_de": "Das Paket ist heute angekommen.",
+      "example_uz": "Posilka bugun keldi.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-das-produkt",
+      "de": "Produkt",
+      "uz": "mahsulot",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Produkte",
+      "forms": null,
+      "example_de": "Welches Produkt ist am beliebtesten?",
+      "example_uz": "Qaysi mahsulot eng mashhur?",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-liefern",
+      "de": "liefern",
+      "uz": "yetkazib bermoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "geliefert",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "liefert"
+      },
+      "example_de": "Der Shop liefert am schnellsten.",
+      "example_uz": "Bu do'kon eng tez yetkazib beradi.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-empfehlen",
+      "de": "empfehlen",
+      "uz": "tavsiya qilmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "empfohlen",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "empfiehlt",
+        "praeteritum": "empfahl"
+      },
+      "example_de": "Was empfiehlst du mir?",
+      "example_uz": "Menga nimani tavsiya qilasan?",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-beliebt",
+      "de": "beliebt",
+      "uz": "mashhur, ko'pchilik yoqtiradigan",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Dieses Handy ist sehr beliebt.",
+      "example_uz": "Bu telefon juda mashhur.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-zufrieden",
+      "de": "zufrieden",
+      "uz": "mamnun, rozi",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Ich bin mit dem Shop zufrieden.",
+      "example_uz": "Men bu do'kondan mamnunman.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-kostenlos",
+      "de": "kostenlos",
+      "uz": "bepul",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Die Lieferung ist kostenlos.",
+      "example_uz": "Yetkazib berish bepul.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-am-besten",
+      "de": "am besten",
+      "uz": "eng yaxshi",
+      "pos": "phrase",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Dieser Shop ist am besten.",
+      "example_uz": "Bu do'kon eng yaxshisi.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-am-liebsten",
+      "de": "am liebsten",
+      "uz": "eng ko'p yoqtirib",
+      "pos": "phrase",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Ich kaufe am liebsten auf dem Markt ein.",
+      "example_uz": "Men eng ko'p bozordan xarid qilishni yoqtiraman.",
+      "topic": "shopping"
+    }
+  ],
+  "review_vocabulary": [
+    "v-das-angebot",
+    "v-die-qualität",
+    "v-die-auswahl",
+    "v-als",
+    "v-der-kunde"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-comparison",
+      "rule": "Superlativ: am + sifat + -(e)sten. Ko'p narsa ichidan eng ... ni ko'rsatadi. Umlaut va istisnolar komparativdagidek: gut → besser → am besten, viel → mehr → am meisten, gern → lieber → am liebsten.",
+      "when": "Uch yoki undan ortiq narsani solishtirib, eng yaxshi/arzon/tez variantni aytganda.",
+      "structure": "A + fe'l + am + sifat-sten.   Ot oldida: der/die/das + sifat-ste + ot.",
+      "examples": [
+        {
+          "de": "Shop A ist billig, Shop B ist billiger, Shop C ist am billigsten.",
+          "uz": "A do'kon arzon, B arzonroq, C eng arzon."
+        },
+        {
+          "de": "Welcher Onlineshop liefert am schnellsten?",
+          "uz": "Qaysi internet do'kon eng tez yetkazadi?"
+        },
+        {
+          "de": "Das ist das beste Angebot.",
+          "uz": "Bu eng yaxshi aksiya."
+        },
+        {
+          "de": "Ich kaufe am liebsten auf dem Markt ein.",
+          "uz": "Men eng ko'p bozordan xarid qilishni yoqtiraman."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Dieser Shop ist am billigste.",
+          "right": "Dieser Shop ist am billigsten.",
+          "why": "\"am\" bilan superlativ doim -sten (oxirida n) bilan tugaydi."
+        },
+        {
+          "wrong": "Das ist am gutesten.",
+          "right": "Das ist am besten.",
+          "why": "gut — noto'g'ri sifat: gut → besser → am besten."
+        },
+        {
+          "wrong": "Ich trinke am meisten gern Tee.",
+          "right": "Ich trinke am liebsten Tee.",
+          "why": "gern ning superlativi — am liebsten. \"am meisten gern\" deyilmaydi."
+        }
+      ],
+      "check": [
+        "a2-m19-l2-e03",
+        "a2-m19-l2-e04",
+        "a2-m19-l2-e05"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Qaysi internet do'kon?",
+    "lines": [
+      {
+        "speaker": "Lena",
+        "de": "Aziz, du willst doch Kopfhörer kaufen. Hast du schon im Internet gesucht?",
+        "uz": "Aziz, sen quloqchin olmoqchi eding-ku. Internetdan qidirdingmi?"
+      },
+      {
+        "speaker": "Aziz",
+        "de": "Ja, ich habe drei Onlineshops verglichen.",
+        "uz": "Ha, uchta internet do'konni solishtirdim."
+      },
+      {
+        "speaker": "Lena",
+        "de": "Und? Wo sind sie am billigsten?",
+        "uz": "Xo'sh? Qayerda eng arzon?"
+      },
+      {
+        "speaker": "Aziz",
+        "de": "Bei TechShop kosten sie 49 Euro, aber die Lieferung dauert zehn Tage.",
+        "uz": "TechShop'da 49 yevro, lekin yetkazib berish o'n kun davom etadi."
+      },
+      {
+        "speaker": "Lena",
+        "de": "Und die anderen?",
+        "uz": "Boshqalarichi?"
+      },
+      {
+        "speaker": "Aziz",
+        "de": "Bei Klick24 kosten sie 55 Euro, aber sie liefern am schnellsten: schon morgen! Die Lieferung ist kostenlos und die Bewertungen sind am besten.",
+        "uz": "Klick24'da 55 yevro, lekin ular eng tez yetkazadi: ertagayoq! Yetkazish bepul, baholari ham eng yaxshi."
+      },
+      {
+        "speaker": "Lena",
+        "de": "Dann bestell doch bei Klick24!",
+        "uz": "Unda Klick24'dan buyurtma qil!"
+      }
+    ],
+    "questions": [
+      "a2-m19-l2-e06",
+      "a2-m19-l2-e07"
+    ]
+  },
+  "situation": {
+    "title": "Do'stingizga maslahat",
+    "context_uz": "Do'stingiz Jonas yangi noutbuk olmoqchi va qayerdan olishni so'rayapti. Siz o'z tajribangizdan maslahat berasiz.",
+    "lines": [
+      {
+        "speaker": "Jonas",
+        "de": "Ich brauche einen neuen Laptop. Was empfiehlst du?",
+        "uz": "Menga yangi noutbuk kerak. Nimani tavsiya qilasan?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ich kaufe am liebsten bei MediaWelt. Dort ist die Auswahl am größten.",
+        "uz": "Men eng ko'p MediaWelt'dan olaman. U yerda tanlov eng katta."
+      },
+      {
+        "speaker": "Jonas",
+        "de": "Ist es dort auch am billigsten?",
+        "uz": "U yerda eng arzon hammi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Nein, online ist es billiger. Aber im Laden kann man die Laptops testen.",
+        "uz": "Yo'q, internetda arzonroq. Lekin do'konda noutbuklarni sinab ko'rish mumkin."
+      },
+      {
+        "speaker": "Jonas",
+        "de": "Stimmt. Und sind die Kunden dort zufrieden?",
+        "uz": "To'g'ri. Mijozlar u yerdan mamnunmi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ja, der Laden hat sehr gute Bewertungen.",
+        "uz": "Ha, do'konning baholari juda yaxshi."
+      }
+    ],
+    "task_uz": "Do'stingizga uchta do'kon yoki bozorni solishtirib maslahat bering: qayerda eng arzon, eng tez, tanlov qayerda eng katta. Kamida 3 ta gapda \"am ...sten\" ishlating."
+  },
+  "exercises": [
+    {
+      "id": "a2-m19-l2-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemischa so'zni o'zbekcha ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "die Lieferung",
+          "yetkazib berish"
+        ],
+        [
+          "die Bewertung",
+          "baho, sharh"
+        ],
+        [
+          "der Kunde",
+          "mijoz"
+        ],
+        [
+          "das Paket",
+          "posilka"
+        ],
+        [
+          "kostenlos",
+          "bepul"
+        ]
+      ],
+      "correct_answer": {
+        "die Lieferung": "yetkazib berish",
+        "die Bewertung": "baho, sharh",
+        "der Kunde": "mijoz",
+        "das Paket": "posilka",
+        "kostenlos": "bepul"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Lieferung — yetkazib berish, Bewertung — baho, Kunde — mijoz, Paket — posilka, kostenlos — bepul.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m19-l2-e02",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "To'g'ri artiklni tanlang: ___ Bestellung",
+      "prompt_de": null,
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "die",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "-ung qo'shimchasiga qarang.",
+      "explanation": "-ung bilan tugaydigan otlar doim \"die\": die Bestellung, die Lieferung, die Bewertung.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m19-l2-e03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "shopping",
+      "grammar_topic": "g-comparison",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (schnell): Shop A liefert in fünf Tagen, Shop B in drei Tagen, Shop C in einem Tag. Shop C liefert am ___.",
+      "prompt_de": "Shop C liefert am ___.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "schnellsten",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "am + sifat + sten",
+      "explanation": "Uchta do'kondan eng tezi — superlativ: am schnellsten.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m19-l2-e04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-comparison",
+      "difficulty": 1,
+      "question": "To'g'ri shaklni tanlang: \"Welcher Kaffee schmeckt dir am ___?\"",
+      "prompt_de": null,
+      "options": [
+        "besten",
+        "gutesten",
+        "bester"
+      ],
+      "pairs": null,
+      "correct_answer": "besten",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "gut → besser → am besten. \"gutesten\" degan shakl yo'q.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m19-l2-e05",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-comparison",
+      "difficulty": 2,
+      "question": "Bo'sh joyni to'ldiring (gern): Ich trinke am ___ grünen Tee.",
+      "prompt_de": "Ich trinke am ___ grünen Tee.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "liebsten",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "gern noto'g'ri sifat, l harfi bilan boshlanadi.",
+      "explanation": "gern → lieber → am liebsten.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m19-l2-e06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. TechShop'ning muammosi nima?",
+      "prompt_de": null,
+      "options": [
+        "Yetkazib berish juda uzoq (10 kun)",
+        "Quloqchinlar eng qimmat",
+        "Baholar yomon"
+      ],
+      "pairs": null,
+      "correct_answer": "Yetkazib berish juda uzoq (10 kun)",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Die Lieferung dauert zehn Tage\" — yetkazish o'n kun davom etadi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Bei TechShop kosten sie 49 Euro, aber die Lieferung dauert zehn Tage."
+    },
+    {
+      "id": "a2-m19-l2-e07",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang. Nega Lena Klick24'ni tavsiya qiladi?",
+      "prompt_de": null,
+      "options": [
+        "Ular eng tez yetkazadi va baholari eng yaxshi",
+        "U yerda eng arzon",
+        "U yerda yetkazish pullik emas, lekin juda sekin"
+      ],
+      "pairs": null,
+      "correct_answer": "Ular eng tez yetkazadi va baholari eng yaxshi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Klick24 qimmatroq (55 yevro), lekin \"liefern am schnellsten\", yetkazish bepul va \"die Bewertungen sind am besten\".",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Bei Klick24 kosten sie 55 Euro, aber sie liefern am schnellsten: schon morgen! Die Lieferung ist kostenlos und die Bewertungen sind am besten."
+    },
+    {
+      "id": "a2-m19-l2-e08",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "shopping",
+      "grammar_topic": "g-praesens",
+      "difficulty": 2,
+      "question": "Fe'lni tuslang (empfehlen): Was ___ du mir?",
+      "prompt_de": "Was ___ du mir?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "empfiehlst",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "e → ie",
+      "explanation": "empfehlen — o'zagi o'zgaradigan fe'l: du empfiehlst, er empfiehlt (e → ie).",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m19-l2-e09",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Sharhni o'qing. Sara nimani maslahat beradi?",
+      "prompt_de": "Bewertung von Sara K. (4 von 5 Sternen): Ich habe die Schuhe am Montag bestellt. Die Lieferung war kostenlos und schnell: Schon am Mittwoch war das Paket da. Die Qualität ist gut, aber die Schuhe sind etwas kleiner als normal. Mein Tipp: Bestellen Sie eine Nummer größer!",
+      "options": [
+        "Bir o'lcham kattaroq buyurtma qilishni",
+        "Bu poyabzalni olmaslikni",
+        "Faqat do'kondan sotib olishni"
+      ],
+      "pairs": null,
+      "correct_answer": "Bir o'lcham kattaroq buyurtma qilishni",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Bestellen Sie eine Nummer größer!\" — bir o'lcham kattarog'ini buyurtma qiling.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m19-l2-e10",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Die Lieferung ist kostenlos.\"",
+      "prompt_de": "Die Lieferung ist kostenlos.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Yetkazib berish bepul.",
+      "accepted_answers": [
+        "Yetkazish bepul.",
+        "Yetkazib berish tekin.",
+        "Yetkazish tekin.",
+        "Dostavka bepul."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Lieferung — yetkazib berish, kostenlos — bepul.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m19-l2-e11",
+      "version": 1,
+      "type": "plural",
+      "skill": "vocabulary",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Ko'plik shaklini yozing: das Paket → die ___",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Pakete",
+      "accepted_answers": [
+        "die Pakete"
+      ],
+      "criteria": null,
+      "hint": "-e",
+      "explanation": "das Paket → die Pakete (-e qo'shiladi).",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a2-m19-l2-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "transport",
+      "grammar_topic": "g-comparison",
+      "difficulty": 1,
+      "question": "To'g'ri shaklni tanlang: \"Das Auto ist schnell, der Zug ist schneller, das Flugzeug ist ___.\"",
+      "prompt_de": null,
+      "options": [
+        "am schnellsten",
+        "am schnellste",
+        "schnellster"
+      ],
+      "pairs": null,
+      "correct_answer": "am schnellsten",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Uchtadan eng tezi: am schnellsten.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m19-l2-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-comparison",
+      "difficulty": 2,
+      "question": "Bo'sh joyni to'ldiring (alt): Wer ist in deiner Familie am ___?",
+      "prompt_de": "Wer ist in deiner Familie am ___?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "ältesten",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "alt → älter → am ältesten (-t bilan tugagani uchun -esten).",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m19-l2-t03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-comparison",
+      "difficulty": 1,
+      "question": "To'g'ri shaklni tanlang: \"Was isst du am ___?\" (gern)",
+      "prompt_de": null,
+      "options": [
+        "liebsten",
+        "gernsten",
+        "meisten"
+      ],
+      "pairs": null,
+      "correct_answer": "liebsten",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "gern → lieber → am liebsten.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m19-l2-t04",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Klick24 haqida nima to'g'ri?",
+      "prompt_de": null,
+      "options": [
+        "Eng tez yetkazadi",
+        "Eng arzon",
+        "Yetkazish o'n kun davom etadi"
+      ],
+      "pairs": null,
+      "correct_answer": "Eng tez yetkazadi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"sie liefern am schnellsten\" — ular eng tez yetkazadi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Bei Klick24 kosten die Kopfhörer 55 Euro, aber sie liefern am schnellsten."
+    },
+    {
+      "id": "a2-m19-l2-t05",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 3,
+      "question": "Nemis tiliga tarjima qiling: \"Men eng ko'p bozordan xarid qilishni yoqtiraman.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich kaufe am liebsten auf dem Markt ein.",
+      "accepted_answers": [
+        "Ich kaufe am liebsten auf dem Markt.",
+        "Am liebsten kaufe ich auf dem Markt ein.",
+        "Am liebsten kaufe ich auf dem Markt."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"eng ko'p yoqtirib\" — am liebsten. einkaufen ajraladigan fe'l: ein gap oxirida.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m19-l2-t06",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "shopping",
+      "grammar_topic": "g-comparison",
+      "difficulty": 1,
+      "question": "Xato so'zni toping: \"Dieser Laptop ist am teuerste.\"",
+      "prompt_de": "Dieser Laptop ist am teuerste.",
+      "options": [
+        "Dieser",
+        "Laptop",
+        "ist",
+        "am",
+        "teuerste"
+      ],
+      "pairs": null,
+      "correct_answer": "teuerste",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: \"am teuersten\". am bilan superlativ -sten bilan tugaydi.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m19-l2-t07",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Do'stingiz so'rayapti: \"Welchen Onlineshop empfiehlst du?\"",
+      "prompt_de": null,
+      "options": [
+        "Ich empfehle Klick24. Dort ist die Lieferung am schnellsten.",
+        "Ich empfehle Klick24. Dort ist die Lieferung am schnell.",
+        "Klick24 ist mehr am besten."
+      ],
+      "pairs": null,
+      "correct_answer": "Ich empfehle Klick24. Dort ist die Lieferung am schnellsten.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Superlativ to'g'ri shaklda: am schnellsten. Boshqa javoblarda shakl xato.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

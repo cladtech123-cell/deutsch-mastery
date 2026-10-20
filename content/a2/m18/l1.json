@@ -1,0 +1,849 @@
+{
+  "id": "a2-m18-l1",
+  "version": 1,
+  "level": "A2",
+  "module": 18,
+  "order": 1,
+  "title": "Kasallik alomatlari",
+  "title_de": "Was fehlt Ihnen?",
+  "goal": "Dars oxirida shifokorga 2–3 ta alomatingizni va qachondan beri kasal ekaningizni ayta olasiz (Ich habe seit ... Husten; Mir ist schwindlig) hamda \"müssen\" bilan zarurat bildirasiz.",
+  "skill_focus": [
+    "vocabulary",
+    "speaking",
+    "grammar"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Germaniyada kasal bo'lsangiz, avval oilaviy shifokor (Hausarzt) praksisiga qo'ng'iroq qilib vaqt olasiz. Qabulxonada sug'urta kartangiz (Versichertenkarte) so'raladi. Shifokor odatda \"Was fehlt Ihnen?\" (Sizni nima bezovta qilyapti?) deb so'raydi."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Qanday aytiladi",
+        "Misol",
+        "O'zbekcha"
+      ],
+      "rows": [
+        [
+          "Ich habe + alomat",
+          "Ich habe Husten und Schnupfen.",
+          "Yo'tal va tumovim bor."
+        ],
+        [
+          "... tut/tun weh",
+          "Mein Kopf tut weh. / Meine Füße tun weh.",
+          "Boshim og'riyapti. / Oyoqlarim og'riyapti."
+        ],
+        [
+          "Mir ist + holat",
+          "Mir ist schwindlig. / Mir ist übel.",
+          "Boshim aylanyapti. / Ko'nglim aynayapti."
+        ],
+        [
+          "seit + vaqt",
+          "Seit drei Tagen habe ich Fieber.",
+          "Uch kundan beri isitmam bor."
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Shaxs",
+        "müssen"
+      ],
+      "rows": [
+        [
+          "ich",
+          "muss"
+        ],
+        [
+          "du",
+          "musst"
+        ],
+        [
+          "er / sie / es",
+          "muss"
+        ],
+        [
+          "wir",
+          "müssen"
+        ],
+        [
+          "ihr",
+          "müsst"
+        ],
+        [
+          "sie / Sie",
+          "müssen"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "\"Mir ist schwindlig\" — Dativ (17-modul). O'zbekchada \"boshim aylanyapti\" deymiz, nemischa \"menga aylanma\" degan tuzilma. \"Ich bin schwindlig\" deyish noto'g'ri!"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-die-halsschmerzen",
+      "de": "Halsschmerzen",
+      "uz": "tomoq og'rig'i",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Halsschmerzen",
+      "forms": null,
+      "example_de": "Ich habe starke Halsschmerzen.",
+      "example_uz": "Tomog'im qattiq og'riyapti.",
+      "topic": "health"
+    },
+    {
+      "id": "v-die-grippe",
+      "de": "Grippe",
+      "uz": "gripp",
+      "pos": "noun",
+      "article": "die",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Mit Grippe muss man im Bett bleiben.",
+      "example_uz": "Gripp bilan to'shakda yotish kerak.",
+      "topic": "health"
+    },
+    {
+      "id": "v-die-allergie",
+      "de": "Allergie",
+      "uz": "allergiya",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Allergien",
+      "forms": null,
+      "example_de": "Ich habe eine Allergie gegen Nüsse.",
+      "example_uz": "Yong'oqqa allergiyam bor.",
+      "topic": "health"
+    },
+    {
+      "id": "v-schwindlig",
+      "de": "schwindlig",
+      "uz": "boshi aylanayotgan",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Mir ist schwindlig.",
+      "example_uz": "Boshim aylanyapti.",
+      "topic": "health"
+    },
+    {
+      "id": "v-übel",
+      "de": "übel",
+      "uz": "ko'ngil aynayotgan",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Nach dem Essen ist mir übel.",
+      "example_uz": "Ovqatdan keyin ko'nglim aynayapti.",
+      "topic": "health"
+    },
+    {
+      "id": "v-verletzt",
+      "de": "verletzt",
+      "uz": "jarohatlangan",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Sein Knie ist verletzt.",
+      "example_uz": "Uning tizzasi jarohatlangan.",
+      "topic": "body"
+    },
+    {
+      "id": "v-was-fehlt-ihnen",
+      "de": "Was fehlt Ihnen",
+      "uz": "Sizni nima bezovta qilyapti? (shifokor savoli)",
+      "pos": "phrase",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Guten Tag, was fehlt Ihnen?",
+      "example_uz": "Assalomu alaykum, sizni nima bezovta qilyapti?",
+      "topic": "health"
+    },
+    {
+      "id": "v-die-versichertenkarte",
+      "de": "Versichertenkarte",
+      "uz": "tibbiy sug'urta kartasi",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Versichertenkarten",
+      "forms": null,
+      "example_de": "Bitte bringen Sie Ihre Versichertenkarte mit.",
+      "example_uz": "Iltimos, sug'urta kartangizni olib keling.",
+      "topic": "health"
+    },
+    {
+      "id": "v-die-sprechstunde",
+      "de": "Sprechstunde",
+      "uz": "qabul vaqti (shifokorda)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Sprechstunden",
+      "forms": null,
+      "example_de": "Die Sprechstunde ist von 8 bis 12 Uhr.",
+      "example_uz": "Qabul vaqti soat 8 dan 12 gacha.",
+      "topic": "health"
+    },
+    {
+      "id": "v-niesen",
+      "de": "niesen",
+      "uz": "aksirmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "geniest",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "niest"
+      },
+      "example_de": "Ich niese den ganzen Tag. Vielleicht ist das eine Allergie.",
+      "example_uz": "Kun bo'yi aksiryapman. Balki bu allergiyadir.",
+      "topic": "health"
+    },
+    {
+      "id": "v-der-ausschlag",
+      "de": "Ausschlag",
+      "uz": "toshma (terida)",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Ausschläge",
+      "forms": null,
+      "example_de": "Das Kind hat einen Ausschlag am Arm.",
+      "example_uz": "Bolaning qo'lida toshma bor.",
+      "topic": "health"
+    },
+    {
+      "id": "v-die-notaufnahme",
+      "de": "Notaufnahme",
+      "uz": "tez yordam bo'limi (kasalxonada)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Notaufnahmen",
+      "forms": null,
+      "example_de": "Nachts gehen Sie in die Notaufnahme.",
+      "example_uz": "Kechasi kasalxonaning tez yordam bo'limiga borasiz.",
+      "topic": "health"
+    }
+  ],
+  "review_vocabulary": [
+    "v-der-husten",
+    "v-der-schnupfen",
+    "v-die-erkältung",
+    "v-wehtun",
+    "v-seit",
+    "v-dringend",
+    "v-vereinbaren",
+    "v-absagen"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-modal-verbs",
+      "rule": "\"müssen\" — zarurat, majburiyat (kerak, shart). Modal fe'l 2-o'rinda tuslanadi, asosiy fe'l Infinitivda gap oxirida. \"ich\" va \"er/sie/es\" shakllari bir xil: muss.",
+      "when": "Nima qilish kerakligini aytganda: shifokorga borish, dori ichish, uyda qolish.",
+      "structure": "Subyekt + muss/müssen + ... + Infinitiv.  Masalan: Ich muss heute zum Arzt gehen.",
+      "examples": [
+        {
+          "de": "Ich muss heute zum Arzt gehen.",
+          "uz": "Bugun shifokorga borishim kerak."
+        },
+        {
+          "de": "Sie müssen viel Tee trinken.",
+          "uz": "Siz ko'p choy ichishingiz kerak."
+        },
+        {
+          "de": "Mein Sohn hat Fieber, er muss im Bett bleiben.",
+          "uz": "O'g'limning isitmasi bor, u to'shakda yotishi kerak."
+        },
+        {
+          "de": "Musst du morgen arbeiten?",
+          "uz": "Ertaga ishlashing kerakmi?"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Ich muss gehen zum Arzt.",
+          "right": "Ich muss zum Arzt gehen.",
+          "why": "Modal fe'l bilan Infinitiv (gehen) oxirida turadi."
+        },
+        {
+          "wrong": "Er musst im Bett bleiben.",
+          "right": "Er muss im Bett bleiben.",
+          "why": "\"er\" bilan \"muss\" — oxiriga -t qo'shilmaydi."
+        },
+        {
+          "wrong": "Ich bin schwindlig.",
+          "right": "Mir ist schwindlig.",
+          "why": "Bu holat Dativ bilan aytiladi: Mir ist schwindlig / übel."
+        }
+      ],
+      "check": [
+        "a2-m18-l1-e02",
+        "a2-m18-l1-e03",
+        "a2-m18-l1-e04",
+        "a2-m18-l1-e08"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Praksisga qo'ng'iroq",
+    "lines": [
+      {
+        "speaker": "Praxis",
+        "de": "Praxis Dr. Hartmann, guten Morgen!",
+        "uz": "Doktor Hartman praksisi, xayrli tong!"
+      },
+      {
+        "speaker": "Herr Nazarov",
+        "de": "Guten Morgen, hier ist Nazarov. Ich bin krank und brauche heute einen Termin.",
+        "uz": "Xayrli tong, bu Nazarov. Kasalman, bugun qabulga yozilishim kerak."
+      },
+      {
+        "speaker": "Praxis",
+        "de": "Was fehlt Ihnen denn?",
+        "uz": "Sizni nima bezovta qilyapti?"
+      },
+      {
+        "speaker": "Herr Nazarov",
+        "de": "Ich habe Fieber, Husten und Halsschmerzen. Und mir ist schwindlig.",
+        "uz": "Isitmam, yo'talim va tomog'im og'riyapti. Boshim ham aylanyapti."
+      },
+      {
+        "speaker": "Praxis",
+        "de": "Seit wann haben Sie Fieber?",
+        "uz": "Qachondan beri isitmangiz bor?"
+      },
+      {
+        "speaker": "Herr Nazarov",
+        "de": "Seit zwei Tagen.",
+        "uz": "Ikki kundan beri."
+      },
+      {
+        "speaker": "Praxis",
+        "de": "Gut, kommen Sie um 11 Uhr. Bringen Sie bitte Ihre Versichertenkarte mit.",
+        "uz": "Yaxshi, soat 11 da keling. Iltimos, sug'urta kartangizni olib keling."
+      }
+    ],
+    "questions": [
+      "a2-m18-l1-e05"
+    ]
+  },
+  "situation": {
+    "title": "Shifokor qabulida",
+    "context_uz": "Siz shifokor xonasiga kirdingiz. Doktor Hartman alomatlaringiz haqida so'rayapti.",
+    "lines": [
+      {
+        "speaker": "Dr. Hartmann",
+        "de": "Guten Tag! Was fehlt Ihnen?",
+        "uz": "Assalomu alaykum! Sizni nima bezovta qilyapti?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ich habe seit drei Tagen Halsschmerzen und Husten.",
+        "uz": "Uch kundan beri tomog'im og'riyapti va yo'talyapman."
+      },
+      {
+        "speaker": "Dr. Hartmann",
+        "de": "Haben Sie auch Fieber?",
+        "uz": "Isitmangiz ham bormi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ja, gestern Abend 38,5. Und mein Kopf tut weh.",
+        "uz": "Ha, kecha kechqurun 38,5. Boshim ham og'riyapti."
+      },
+      {
+        "speaker": "Dr. Hartmann",
+        "de": "Haben Sie Allergien?",
+        "uz": "Allergiyangiz bormi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ja, gegen Penizillin.",
+        "uz": "Ha, penitsillinga."
+      },
+      {
+        "speaker": "Dr. Hartmann",
+        "de": "Gut, dass Sie das sagen. Das ist eine starke Erkältung. Sie müssen viel trinken und zu Hause bleiben.",
+        "uz": "Aytganingiz yaxshi bo'ldi. Bu kuchli shamollash. Ko'p suyuqlik ichishingiz va uyda qolishingiz kerak."
+      }
+    ],
+    "task_uz": "Shifokor rolida do'stingiz \"Was fehlt Ihnen?\" deb so'raydi. Siz 3 ta alomat (Ich habe ..., ... tut weh, Mir ist ...) va qachondan beri (seit) ekanini ayting."
+  },
+  "exercises": [
+    {
+      "id": "a2-m18-l1-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemischa so'zni o'zbekcha ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "der Husten",
+          "yo'tal"
+        ],
+        [
+          "der Schnupfen",
+          "tumov"
+        ],
+        [
+          "die Halsschmerzen",
+          "tomoq og'rig'i"
+        ],
+        [
+          "die Erkältung",
+          "shamollash"
+        ],
+        [
+          "schwindlig",
+          "boshi aylanayotgan"
+        ]
+      ],
+      "correct_answer": {
+        "der Husten": "yo'tal",
+        "der Schnupfen": "tumov",
+        "die Halsschmerzen": "tomoq og'rig'i",
+        "die Erkältung": "shamollash",
+        "schwindlig": "boshi aylanayotgan"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Husten — yo'tal, Schnupfen — tumov, Halsschmerzen — tomoq (Hals) og'rig'i (Schmerzen), Erkältung — shamollash, schwindlig — boshi aylanayotgan.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l1-e02",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "\"müssen\" fe'lini \"du\" uchun tuslang: Du ___ im Bett bleiben.",
+      "prompt_de": "Du ___ im Bett bleiben.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "musst",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "müssen: ich muss, du musst, er muss, wir müssen, ihr müsst, sie müssen.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l1-e03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (müssen): Ich ___ heute zum Arzt gehen.",
+      "prompt_de": "Ich ___ heute zum Arzt gehen.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "muss",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "ich → muss. \"gehen\" gap oxirida.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l1-e04",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 2,
+      "question": "So'zlarni to'g'ri tartibda joylashtiring: \"Siz ko'p choy ichishingiz kerak.\"",
+      "prompt_de": null,
+      "options": [
+        "müssen",
+        "Tee",
+        "Sie",
+        "viel",
+        "trinken"
+      ],
+      "pairs": null,
+      "correct_answer": "Sie müssen viel Tee trinken",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"trinken\" — oxirida.",
+      "explanation": "Modal fe'l \"müssen\" 2-o'rinda, Infinitiv \"trinken\" oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l1-e05",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Herr Nazarov qachondan beri isitmalayapti?",
+      "prompt_de": null,
+      "options": [
+        "Ikki kundan beri",
+        "Kechadan beri",
+        "Bir haftadan beri"
+      ],
+      "pairs": null,
+      "correct_answer": "Ikki kundan beri",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Seit zwei Tagen\" — ikki kundan beri.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Seit wann haben Sie Fieber? — Seit zwei Tagen."
+    },
+    {
+      "id": "a2-m18-l1-e06",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-dativ",
+      "difficulty": 2,
+      "question": "\"Boshim aylanyapti\" nemischa qanday?",
+      "prompt_de": null,
+      "options": [
+        "Mir ist schwindlig.",
+        "Ich bin schwindlig.",
+        "Mich ist schwindlig."
+      ],
+      "pairs": null,
+      "correct_answer": "Mir ist schwindlig.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Holat Dativ bilan: Mir ist schwindlig. \"Ich bin schwindlig\" — noto'g'ri, \"mich\" — Akkusativ.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l1-e07",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Shifokor so'rayapti: \"Was fehlt Ihnen?\" Qaysi javob mos?",
+      "prompt_de": null,
+      "options": [
+        "Ich habe Halsschmerzen und Husten.",
+        "Mir fehlt mein Handy.",
+        "Ich fehle heute."
+      ],
+      "pairs": null,
+      "correct_answer": "Ich habe Halsschmerzen und Husten.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Was fehlt Ihnen?\" — sizni nima bezovta qilyapti? Javob — alomatlar.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l1-e08",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 2,
+      "question": "Gapdagi xato so'zni toping: \"Mein Sohn musst im Bett bleiben.\"",
+      "prompt_de": "Mein Sohn musst im Bett bleiben.",
+      "options": [
+        "Mein",
+        "Sohn",
+        "musst",
+        "im",
+        "Bett",
+        "bleiben"
+      ],
+      "pairs": null,
+      "correct_answer": "musst",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Mein Sohn\" = er → \"muss\". \"musst\" — faqat \"du\" uchun.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l1-e09",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "health",
+      "grammar_topic": "g-time-prepositions",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Uch kundan beri yo'talim bor.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich habe seit drei Tagen Husten.",
+      "accepted_answers": [
+        "Seit drei Tagen habe ich Husten.",
+        "Ich huste seit drei Tagen.",
+        "Seit drei Tagen huste ich.",
+        "Ich habe seit 3 Tagen Husten."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"seit\" + Dativ ko'plik (Tagen) + Präsens: Ich habe seit drei Tagen Husten.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l1-e10",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "reading",
+      "topic": "body",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Mein Rücken tut weh.\"",
+      "prompt_de": "Mein Rücken tut weh.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Belim og'riyapti.",
+      "accepted_answers": [
+        "Orqam og'riyapti.",
+        "Belim og'riydi.",
+        "Mening belim og'riyapti.",
+        "Mening orqam og'riyapti."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"wehtun\" — og'rimoq. \"der Rücken\" — bel, orqa.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l1-e11",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "To'g'ri artiklni tanlang: ___ Erkältung",
+      "prompt_de": null,
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "die",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"-ung\" bilan tugaydi.",
+      "explanation": "\"-ung\" bilan tugaydigan otlar doim \"die\": die Erkältung.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a2-m18-l1-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "\"die Versichertenkarte\" nima?",
+      "prompt_de": null,
+      "options": [
+        "tibbiy sug'urta kartasi",
+        "retsept",
+        "qabul vaqti"
+      ],
+      "pairs": null,
+      "correct_answer": "tibbiy sug'urta kartasi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Versichertenkarte — sug'urta kartasi. Har safar praksisda ko'rsatiladi.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l1-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (müssen): Wir ___ morgen früh zum Arzt.",
+      "prompt_de": "Wir ___ morgen früh zum Arzt.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "müssen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "wir → müssen. (\"gehen\" og'zaki nutqda tushib qolishi mumkin.)",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l1-t03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "body",
+      "grammar_topic": "g-praesens",
+      "difficulty": 2,
+      "question": "To'g'ri variantni tanlang: Meine Augen ___ weh.",
+      "prompt_de": null,
+      "options": [
+        "tun",
+        "tut",
+        "tust"
+      ],
+      "pairs": null,
+      "correct_answer": "tun",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Meine Augen\" — ko'plik, shuning uchun \"tun\": Meine Augen tun weh.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l1-t04",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni davom ettiring. — Haben Sie Ihre Versichertenkarte dabei?",
+      "prompt_de": "Haben Sie Ihre Versichertenkarte dabei?",
+      "options": [
+        "Ja, hier ist sie.",
+        "Ja, ich habe Husten.",
+        "Nein, mir ist übel."
+      ],
+      "pairs": null,
+      "correct_answer": "Ja, hier ist sie.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Kartani so'rashsa, uni beramiz: \"Ja, hier ist sie.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l1-t05",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "health",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Men shifokorga borishim kerak.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich muss zum Arzt gehen.",
+      "accepted_answers": [
+        "Ich muss zum Arzt.",
+        "Ich muss zur Ärztin gehen.",
+        "Ich muss zur Ärztin.",
+        "Ich muss zum Doktor gehen."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ich muss + zum Arzt + gehen (oxirida).",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l1-t06",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang va eshitganingizni yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Mir ist schwindlig und übel.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Mir ist ...\" — Dativ bilan holat. \"übel\" — \"ü\" bilan.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": "Mir ist schwindlig und übel."
+    },
+    {
+      "id": "a2-m18-l1-t07",
+      "version": 1,
+      "type": "plural",
+      "skill": "vocabulary",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Ko'plik shaklini yozing: die Allergie → ?",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "die Allergien",
+      "accepted_answers": [
+        "Allergien"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Allergie → die Allergien (-n qo'shiladi).",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

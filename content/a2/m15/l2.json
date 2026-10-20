@@ -1,0 +1,793 @@
+{
+  "id": "a2-m15-l2",
+  "version": 1,
+  "level": "A2",
+  "module": 15,
+  "order": 2,
+  "title": "Ta'lim, Ausbildung va tajriba",
+  "title_de": "Ausbildung, Studium und Erfahrung",
+  "goal": "Dars oxirida ta'limingiz va ish tajribangiz haqida \"seit\", \"vor\" va yil bilan to'g'ri gapira olasiz (Ich arbeite seit drei Jahren als ...; Vor zwei Jahren habe ich ...).",
+  "skill_focus": [
+    "grammar",
+    "speaking",
+    "reading"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Germaniyada ko'p kasblar universitetda emas, \"Ausbildung\" orqali o'rganiladi: odatda 2–3,5 yil, haftada bir necha kun korxonada (Betrieb) ishlab, qolgan kunlari kasb maktabida (Berufsschule) o'qiysiz. Ausbildung qilayotgan yoshni \"Azubi\" deyishadi va u maosh oladi."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Ifoda",
+        "Ma'nosi",
+        "Zamon",
+        "Misol"
+      ],
+      "rows": [
+        [
+          "seit + vaqt",
+          "...dan beri (hali davom etyapti)",
+          "Präsens",
+          "Ich arbeite seit drei Jahren hier."
+        ],
+        [
+          "vor + vaqt",
+          "... oldin (tugagan)",
+          "Perfekt",
+          "Vor zwei Jahren habe ich die Prüfung bestanden."
+        ],
+        [
+          "yil (2020)",
+          "...-yilda",
+          "Perfekt",
+          "2020 habe ich mein Studium beendet."
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "O'zbekcha \"uch yildan beri ishlayman\" — nemischa ham HOZIRGI zamonda: \"Ich arbeite seit drei Jahren ...\". \"seit\" va \"vor\" dan keyin ko'plikda -n qo'shiladi: drei Jahre → seit drei JahreN. Yil oldidan \"in\" qo'yilmaydi: \"2019\", yoki \"im Jahr 2019\"."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-die-ausbildung",
+      "de": "Ausbildung",
+      "uz": "kasb-hunar ta'limi (Germaniyadagi dual tizim)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Ausbildungen",
+      "forms": null,
+      "example_de": "Ich mache eine Ausbildung als Elektriker.",
+      "example_uz": "Elektrik bo'lish uchun kasb ta'limi olyapman.",
+      "topic": "education"
+    },
+    {
+      "id": "v-das-studium",
+      "de": "Studium",
+      "uz": "oliy ta'lim, universitetda o'qish",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Studien",
+      "forms": null,
+      "example_de": "Mein Studium hat fünf Jahre gedauert.",
+      "example_uz": "Oliy o'qishim besh yil davom etdi.",
+      "topic": "education"
+    },
+    {
+      "id": "v-der-abschluss",
+      "de": "Abschluss",
+      "uz": "tamomlash, diplom",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Abschlüsse",
+      "forms": null,
+      "example_de": "Haben Sie einen Abschluss in Informatik?",
+      "example_uz": "Informatika bo'yicha diplomingiz bormi?",
+      "topic": "education"
+    },
+    {
+      "id": "v-das-praktikum",
+      "de": "Praktikum",
+      "uz": "amaliyot (ishda)",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Praktika",
+      "forms": null,
+      "example_de": "Ich habe ein Praktikum in einem Hotel gemacht.",
+      "example_uz": "Mehmonxonada amaliyot o'tadim.",
+      "topic": "education"
+    },
+    {
+      "id": "v-die-berufsschule",
+      "de": "Berufsschule",
+      "uz": "kasb maktabi",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Berufsschulen",
+      "forms": null,
+      "example_de": "Zweimal pro Woche gehe ich in die Berufsschule.",
+      "example_uz": "Haftada ikki marta kasb maktabiga boraman.",
+      "topic": "education"
+    },
+    {
+      "id": "v-der-betrieb",
+      "de": "Betrieb",
+      "uz": "korxona, ish joyi",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Betriebe",
+      "forms": null,
+      "example_de": "In meinem Betrieb arbeiten 15 Leute.",
+      "example_uz": "Korxonamda 15 kishi ishlaydi.",
+      "topic": "work"
+    },
+    {
+      "id": "v-der-azubi",
+      "de": "Azubi",
+      "uz": "kasb ta'limi olayotgan shogird",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Azubis",
+      "forms": null,
+      "example_de": "Unser Azubi heißt Tim und lernt sehr schnell.",
+      "example_uz": "Shogirdimizning ismi Tim, u juda tez o'rganadi.",
+      "topic": "education"
+    },
+    {
+      "id": "v-die-erfahrung",
+      "de": "Erfahrung",
+      "uz": "tajriba",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Erfahrungen",
+      "forms": null,
+      "example_de": "Ich habe fünf Jahre Erfahrung als Fahrer.",
+      "example_uz": "Haydovchi sifatida besh yillik tajribam bor.",
+      "topic": "work"
+    },
+    {
+      "id": "v-die-prüfung",
+      "de": "Prüfung",
+      "uz": "imtihon",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Prüfungen",
+      "forms": null,
+      "example_de": "Morgen habe ich eine wichtige Prüfung.",
+      "example_uz": "Ertaga muhim imtihonim bor.",
+      "topic": "education"
+    },
+    {
+      "id": "v-bestehen",
+      "de": "bestehen",
+      "uz": "(imtihondan) o'tmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "bestanden",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "besteht"
+      },
+      "example_de": "Ich habe die Prüfung bestanden!",
+      "example_uz": "Imtihondan o'tdim!",
+      "topic": "education"
+    },
+    {
+      "id": "v-seit",
+      "de": "seit",
+      "uz": "...dan beri",
+      "pos": "preposition",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Ich lerne seit einem Jahr Deutsch.",
+      "example_uz": "Bir yildan beri nemis tilini o'rganyapman.",
+      "topic": "time"
+    }
+  ],
+  "review_vocabulary": [
+    "v-vor",
+    "v-umziehen",
+    "v-die-firma",
+    "v-verdienen",
+    "v-die-schicht"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-time-prepositions",
+      "rule": "\"seit\" — o'tmishda boshlanib, hozir ham davom etayotgan ish (fe'l Präsensda). \"vor\" — o'tmishda tugagan voqea qancha vaqt oldin bo'lgani (fe'l Perfektda). Ikkalasidan keyin Dativ: seit einem Jahr, vor zwei Jahren.",
+      "when": "Ta'lim, ish tajribasi, Germaniyaga qachon kelganingiz haqida gapirganda.",
+      "structure": "seit + vaqt + Präsens: Ich wohne seit 2021 hier.  vor + vaqt + Perfekt: Ich bin vor drei Jahren gekommen.",
+      "examples": [
+        {
+          "de": "Ich arbeite seit zwei Jahren in diesem Betrieb.",
+          "uz": "Ikki yildan beri shu korxonada ishlayman."
+        },
+        {
+          "de": "Vor einem Jahr habe ich die Ausbildung angefangen.",
+          "uz": "Bir yil oldin kasb ta'limini boshladim."
+        },
+        {
+          "de": "Sie lernt seit Oktober Deutsch.",
+          "uz": "U oktyabrdan beri nemis tilini o'rganyapti."
+        },
+        {
+          "de": "2018 habe ich mein Studium in Samarkand beendet.",
+          "uz": "2018-yilda Samarqandda oliy o'qishimni tugatdim."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Ich habe seit drei Jahren hier gearbeitet.",
+          "right": "Ich arbeite seit drei Jahren hier.",
+          "why": "Ish hali davom etyapti — \"seit\" bilan Präsens ishlatiladi."
+        },
+        {
+          "wrong": "Ich bin in 2019 gekommen.",
+          "right": "Ich bin 2019 gekommen.",
+          "why": "Nemis tilida yil oldidan \"in\" qo'yilmaydi (yoki: im Jahr 2019)."
+        },
+        {
+          "wrong": "vor zwei Jahre",
+          "right": "vor zwei Jahren",
+          "why": "\"vor\" va \"seit\" Dativ talab qiladi; ko'plikda otga -n qo'shiladi."
+        }
+      ],
+      "check": [
+        "a2-m15-l2-e02",
+        "a2-m15-l2-e03",
+        "a2-m15-l2-e04",
+        "a2-m15-l2-e05"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Azubi bilan suhbat",
+    "lines": [
+      {
+        "speaker": "Reporterin",
+        "de": "Hallo Farrux, was machst du hier im Betrieb?",
+        "uz": "Salom Farrux, bu korxonada nima qilyapsan?"
+      },
+      {
+        "speaker": "Farrux",
+        "de": "Ich mache eine Ausbildung als Mechatroniker. Ich bin seit einem Jahr hier.",
+        "uz": "Mexatronik bo'lish uchun Ausbildung qilyapman. Bir yildan beri shu yerdaman."
+      },
+      {
+        "speaker": "Reporterin",
+        "de": "Und vorher?",
+        "uz": "Undan oldin-chi?"
+      },
+      {
+        "speaker": "Farrux",
+        "de": "Vor zwei Jahren bin ich aus Usbekistan gekommen. Zuerst habe ich Deutsch gelernt und ein Praktikum gemacht.",
+        "uz": "Ikki yil oldin O'zbekistondan keldim. Avval nemis tilini o'rgandim va amaliyot o'tadim."
+      },
+      {
+        "speaker": "Reporterin",
+        "de": "Wie oft gehst du in die Berufsschule?",
+        "uz": "Kasb maktabiga qanchalik tez-tez borasan?"
+      },
+      {
+        "speaker": "Farrux",
+        "de": "Zweimal pro Woche. Nächsten Sommer habe ich meine Zwischenprüfung.",
+        "uz": "Haftada ikki marta. Kelasi yozda oraliq imtihonim bor."
+      }
+    ],
+    "questions": [
+      "a2-m15-l2-e06"
+    ]
+  },
+  "situation": {
+    "title": "Ish markazida (Agentur für Arbeit)",
+    "context_uz": "Siz Agentur für Arbeit (ish markazi)dasiz. Maslahatchi ta'limingiz va tajribangiz haqida so'rayapti.",
+    "lines": [
+      {
+        "speaker": "Beraterin",
+        "de": "Welchen Abschluss haben Sie?",
+        "uz": "Qanday ma'lumotingiz bor?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ich habe in Taschkent Wirtschaft studiert. Vor sechs Jahren habe ich meinen Abschluss gemacht.",
+        "uz": "Toshkentda iqtisodiyot o'qiganman. Olti yil oldin diplom oldim."
+      },
+      {
+        "speaker": "Beraterin",
+        "de": "Haben Sie Berufserfahrung?",
+        "uz": "Ish tajribangiz bormi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ja, ich habe vier Jahre in einer Bank gearbeitet.",
+        "uz": "Ha, to'rt yil bankda ishlaganman."
+      },
+      {
+        "speaker": "Beraterin",
+        "de": "Und seit wann sind Sie in Deutschland?",
+        "uz": "Germaniyada qachondan berisiz?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Seit einem Jahr. Ich lerne seit zehn Monaten Deutsch.",
+        "uz": "Bir yildan beri. O'n oydan beri nemis tilini o'rganyapman."
+      }
+    ],
+    "task_uz": "Maslahatchining uchta savoliga o'zingiz haqingizda javob bering. \"seit\" va \"vor\" ning har biridan kamida bir martadan foydalaning."
+  },
+  "exercises": [
+    {
+      "id": "a2-m15-l2-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "education",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemischa so'zni o'zbekcha ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "die Ausbildung",
+          "kasb ta'limi"
+        ],
+        [
+          "das Praktikum",
+          "amaliyot"
+        ],
+        [
+          "der Abschluss",
+          "diplom, tamomlash"
+        ],
+        [
+          "die Prüfung",
+          "imtihon"
+        ],
+        [
+          "die Erfahrung",
+          "tajriba"
+        ]
+      ],
+      "correct_answer": {
+        "die Ausbildung": "kasb ta'limi",
+        "das Praktikum": "amaliyot",
+        "der Abschluss": "diplom, tamomlash",
+        "die Prüfung": "imtihon",
+        "die Erfahrung": "tajriba"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ausbildung — kasb ta'limi, Praktikum — amaliyot, Abschluss — o'qishni tamomlash/diplom, Prüfung — imtihon, Erfahrung — tajriba.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l2-e02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "time",
+      "grammar_topic": "g-time-prepositions",
+      "difficulty": 1,
+      "question": "To'g'ri predlogni tanlang: Ich wohne ___ drei Jahren in Leipzig (va hozir ham shu yerda yashayman).",
+      "prompt_de": null,
+      "options": [
+        "seit",
+        "vor",
+        "für"
+      ],
+      "pairs": null,
+      "correct_answer": "seit",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Hali davom etyapti.",
+      "explanation": "Hozir ham davom etayotgan holat — \"seit\": uch yildan beri.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l2-e03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "education",
+      "grammar_topic": "g-time-prepositions",
+      "difficulty": 2,
+      "question": "Bo'sh joyni to'ldiring: Ich habe ___ zwei Jahren mein Studium beendet.",
+      "prompt_de": "Ich habe ___ zwei Jahren mein Studium beendet.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "vor",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Voqea tugagan (Perfekt).",
+      "explanation": "O'qish tugagan, fe'l Perfektda — \"vor\": ikki yil oldin.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l2-e04",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "time",
+      "grammar_topic": "g-time-prepositions",
+      "difficulty": 2,
+      "question": "Gapdagi xato so'zni toping: \"Ich lebe seit zwei Jahre in Deutschland.\"",
+      "prompt_de": "Ich lebe seit zwei Jahre in Deutschland.",
+      "options": [
+        "Ich",
+        "lebe",
+        "seit",
+        "zwei",
+        "Jahre",
+        "in",
+        "Deutschland"
+      ],
+      "pairs": null,
+      "correct_answer": "Jahre",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"seit\" Dativ talab qiladi, ko'plikda -n: seit zwei Jahren.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l2-e05",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "education",
+      "grammar_topic": "g-time-prepositions",
+      "difficulty": 2,
+      "question": "\"Men 2020-yilda maktabni bitirdim\" — to'g'ri tarjimani tanlang.",
+      "prompt_de": null,
+      "options": [
+        "2020 habe ich die Schule beendet.",
+        "In 2020 habe ich die Schule beendet.",
+        "Seit 2020 habe ich die Schule beendet."
+      ],
+      "pairs": null,
+      "correct_answer": "2020 habe ich die Schule beendet.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Yil oldidan \"in\" qo'yilmaydi. \"seit\" esa davom etayotgan holat uchun, tugagan voqea uchun emas.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l2-e06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "education",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Farrux Germaniyaga qachon kelgan?",
+      "prompt_de": null,
+      "options": [
+        "Ikki yil oldin",
+        "Bir yil oldin",
+        "Kelasi yozda keladi"
+      ],
+      "pairs": null,
+      "correct_answer": "Ikki yil oldin",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Vor zwei Jahren\" — ikki yil oldin. \"seit einem Jahr\" esa korxonada qancha vaqtdan beri ishlashi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Vor zwei Jahren bin ich aus Usbekistan gekommen."
+    },
+    {
+      "id": "a2-m15-l2-e07",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "education",
+      "grammar_topic": "g-perfekt",
+      "difficulty": 2,
+      "question": "\"bestehen\" fe'lining Partizip II shaklini yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "bestanden",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"be-\" bilan boshlanadi, nomuntazam.",
+      "explanation": "bestehen → bestanden (\"be-\", shuning uchun ge- yo'q). Ich habe die Prüfung bestanden.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l2-e08",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "education",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Matnni o'qing. Hozir Gulnora nima qilyapti?",
+      "prompt_de": "Gulnora ist 24 Jahre alt. Sie hat in Buchara Biologie studiert. Vor zwei Jahren ist sie nach Deutschland gekommen. Zuerst hat sie ein Praktikum im Krankenhaus gemacht. Seit September macht sie dort eine Ausbildung zur Pflegefachfrau.",
+      "options": [
+        "Kasalxonada Ausbildung qilyapti",
+        "Universitetda o'qiyapti",
+        "Bankda ishlayapti"
+      ],
+      "pairs": null,
+      "correct_answer": "Kasalxonada Ausbildung qilyapti",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"Seit September ...\" — hozir davom etayotgan holat.",
+      "explanation": "\"Seit September macht sie dort eine Ausbildung\" — sentyabrdan beri u yerda (kasalxonada) Ausbildung qilyapti. Biologiyani avval o'qigan.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l2-e09",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "education",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "To'g'ri artiklni tanlang: ___ Praktikum",
+      "prompt_de": null,
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "das",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"-um\" bilan tugaydigan otlar.",
+      "explanation": "\"-um\" bilan tugaydigan otlar odatda \"das\": das Praktikum, das Studium, das Museum.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l2-e10",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "time",
+      "grammar_topic": "g-time-prepositions",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Men ikki yildan beri Germaniyada yashayman.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich wohne seit zwei Jahren in Deutschland.",
+      "accepted_answers": [
+        "Ich lebe seit zwei Jahren in Deutschland.",
+        "Seit zwei Jahren wohne ich in Deutschland.",
+        "Seit zwei Jahren lebe ich in Deutschland.",
+        "Ich wohne seit 2 Jahren in Deutschland.",
+        "Ich lebe seit 2 Jahren in Deutschland."
+      ],
+      "criteria": null,
+      "hint": "Hozir ham yashayapsiz → Präsens.",
+      "explanation": "Davom etayotgan holat: seit + Präsens. \"zwei Jahren\" — Dativ ko'plik, -n bilan.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l2-e11",
+      "version": 1,
+      "type": "plural",
+      "skill": "vocabulary",
+      "topic": "education",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Ko'plik shaklini yozing: das Praktikum → ?",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "die Praktika",
+      "accepted_answers": [
+        "Praktika"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Lotin tilidan kirgan \"-um\" otlari ko'plikda \"-a\" oladi: das Praktikum → die Praktika.",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a2-m15-l2-t01",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "education",
+      "grammar_topic": "g-time-prepositions",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: Er macht ___ September eine Ausbildung als Koch (va hozir ham davom etyapti).",
+      "prompt_de": "Er macht ___ September eine Ausbildung als Koch.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "seit",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Sentyabrda boshlangan va hozir davom etyapti — \"seit\".",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l2-t02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "education",
+      "grammar_topic": "g-time-prepositions",
+      "difficulty": 2,
+      "question": "Savolga to'g'ri javobni tanlang: \"Wann hast du die Prüfung bestanden?\"",
+      "prompt_de": null,
+      "options": [
+        "Vor einem Monat.",
+        "Seit einem Monat.",
+        "In einem Monat bestanden."
+      ],
+      "pairs": null,
+      "correct_answer": "Vor einem Monat.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Wann?\" + Perfekt — tugagan voqea: \"Vor einem Monat\" (bir oy oldin).",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l2-t03",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "reading",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "O'zbek tiliga tarjima qiling: \"Ich habe drei Jahre Erfahrung als Verkäufer.\"",
+      "prompt_de": "Ich habe drei Jahre Erfahrung als Verkäufer.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Mening sotuvchi sifatida uch yillik tajribam bor.",
+      "accepted_answers": [
+        "Sotuvchi sifatida uch yillik tajribam bor.",
+        "Sotuvchilikda uch yillik tajribam bor.",
+        "Men sotuvchi bo'lib uch yil tajribaga egaman.",
+        "Sotuvchi sifatida uch yil tajribam bor."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Erfahrung als ...\" — ... sifatida tajriba. \"drei Jahre\" — uch yil.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l2-t04",
+      "version": 1,
+      "type": "plural",
+      "skill": "vocabulary",
+      "topic": "education",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Ko'plik shaklini yozing: die Prüfung → ?",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "die Prüfungen",
+      "accepted_answers": [
+        "Prüfungen"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"-ung\" → \"-ungen\": die Prüfungen.",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l2-t05",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "education",
+      "grammar_topic": "g-time-prepositions",
+      "difficulty": 2,
+      "question": "Ish markazida maslahatchi so'rayapti: \"Haben Sie einen Berufsabschluss?\" Siz Ausbildung qilyapsiz, hali tugatmagansiz. Nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Noch nicht. Ich mache seit einem Jahr eine Ausbildung.",
+        "Ja, vor einem Jahr mache ich eine Ausbildung.",
+        "Nein, ich habe keine Erfahrung gemacht."
+      ],
+      "pairs": null,
+      "correct_answer": "Noch nicht. Ich mache seit einem Jahr eine Ausbildung.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Davom etayotgan Ausbildung: seit + Präsens. \"vor\" bilan Präsens ishlatilmaydi.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l2-t06",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "education",
+      "grammar_topic": "g-perfekt",
+      "difficulty": 1,
+      "question": "So'zlarni to'g'ri tartibda joylashtiring: \"Men imtihondan o'tdim.\"",
+      "prompt_de": null,
+      "options": [
+        "Ich",
+        "habe",
+        "Prüfung",
+        "die",
+        "bestanden"
+      ],
+      "pairs": null,
+      "correct_answer": "Ich habe die Prüfung bestanden",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "habe (2-o'rin) ... bestanden (oxir).",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l2-t07",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang. Qaysi gap to'g'ri?",
+      "prompt_de": null,
+      "options": [
+        "U bir yildan beri Berlinda ishlaydi",
+        "U besh yildan beri Berlinda ishlaydi",
+        "U bir yil oldin Toshkentda o'qishni boshlagan"
+      ],
+      "pairs": null,
+      "correct_answer": "U bir yildan beri Berlinda ishlaydi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Seit einem Jahr arbeite ich in Berlin\" — bir yildan beri Berlinda ishlayapti. Toshkentda besh yil oldin o'qigan.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Ich habe vor fünf Jahren in Taschkent studiert. Seit einem Jahr arbeite ich in Berlin."
+    }
+  ]
+}

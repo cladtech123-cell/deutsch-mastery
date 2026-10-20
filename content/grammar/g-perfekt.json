@@ -1,0 +1,345 @@
+{
+  "id": "g-perfekt",
+  "version": 1,
+  "level": "A2",
+  "order": 16,
+  "title": "Perfekt va Partizip II",
+  "prerequisites": [
+    "g-praesens",
+    "g-verb-position",
+    "g-separable-verbs"
+  ],
+  "next": [
+    "g-perfekt-aux",
+    "g-praeteritum",
+    "g-subordinate"
+  ],
+  "rule": "Perfekt — og'zaki nutqdagi asosiy o'tgan zamon. U ikki qismdan iborat: yordamchi fe'l haben/sein (2-o'rinda) + Partizip II (gap oxirida).",
+  "when": "Kecha, o'tgan hafta yoki umuman o'tmishda nima qilganingizni aytganda: Ich habe gestern Plov gekocht.",
+  "structure": "Ega + haben/sein (2-o'rin) + ... + Partizip II (oxirida)",
+  "explanation": [
+    {
+      "type": "table",
+      "headers": [
+        "Fe'l turi",
+        "Qoida",
+        "Misol"
+      ],
+      "rows": [
+        [
+          "muntazam",
+          "ge- + o'zak + -t",
+          "machen → gemacht, kaufen → gekauft, arbeiten → gearbeitet"
+        ],
+        [
+          "nomuntazam",
+          "ge- + o'zak (ko'pincha o'zgaradi) + -en",
+          "sehen → gesehen, schreiben → geschrieben, trinken → getrunken"
+        ],
+        [
+          "ajraladigan",
+          "prefiks + ge + ...",
+          "einkaufen → eingekauft, aufstehen → aufgestanden, anrufen → angerufen"
+        ],
+        [
+          "be-, ver-, er- ... va -ieren",
+          "ge- qo'shilmaydi",
+          "besuchen → besucht, verstehen → verstanden, studieren → studiert"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Infinitiv",
+        "Partizip II",
+        "O'zbekcha"
+      ],
+      "rows": [
+        [
+          "essen",
+          "gegessen",
+          "yemoq"
+        ],
+        [
+          "trinken",
+          "getrunken",
+          "ichmoq"
+        ],
+        [
+          "lesen",
+          "gelesen",
+          "o'qimoq"
+        ],
+        [
+          "schreiben",
+          "geschrieben",
+          "yozmoq"
+        ],
+        [
+          "sprechen",
+          "gesprochen",
+          "gapirmoq"
+        ],
+        [
+          "nehmen",
+          "genommen",
+          "olmoq"
+        ],
+        [
+          "finden",
+          "gefunden",
+          "topmoq"
+        ],
+        [
+          "schlafen",
+          "geschlafen",
+          "uxlamoq"
+        ],
+        [
+          "gehen",
+          "gegangen",
+          "bormoq"
+        ],
+        [
+          "fahren",
+          "gefahren",
+          "(transportda) bormoq"
+        ],
+        [
+          "bringen",
+          "gebracht",
+          "olib kelmoq"
+        ],
+        [
+          "denken",
+          "gedacht",
+          "o'ylamoq"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Gap ramkasi: yordamchi fe'l va Partizip II gapni \"o'rab oladi\", qolgan hamma bo'laklar ularning orasida: Ich habe gestern im Supermarkt Obst gekauft."
+    },
+    {
+      "type": "tip",
+      "text": "Nomuntazam fe'llarning Partizip II shaklini lug'atdagi kabi uchlik bilan yodlang: sehen – sah – gesehen. A2 uchun eng muhimi infinitiv + Partizip II."
+    }
+  ],
+  "examples": [
+    {
+      "de": "Ich habe gestern Plov gekocht.",
+      "uz": "Kecha osh pishirdim."
+    },
+    {
+      "de": "Wir haben einen Film gesehen.",
+      "uz": "Biz film ko'rdik."
+    },
+    {
+      "de": "Hast du die E-Mail gelesen?",
+      "uz": "Emailni o'qidingmi?"
+    },
+    {
+      "de": "Er hat am Wochenende viel gearbeitet.",
+      "uz": "U dam olish kunlari ko'p ishladi."
+    },
+    {
+      "de": "Ich habe im Supermarkt eingekauft.",
+      "uz": "Supermarketda xarid qildim."
+    },
+    {
+      "de": "Sie hat in Taschkent Medizin studiert.",
+      "uz": "U Toshkentda tibbiyotni o'qigan."
+    }
+  ],
+  "common_mistakes": [
+    {
+      "wrong": "Ich habe gekauft ein Buch.",
+      "right": "Ich habe ein Buch gekauft.",
+      "why": "Partizip II gap oxirida turadi."
+    },
+    {
+      "wrong": "Ich habe gestudiert.",
+      "right": "Ich habe studiert.",
+      "why": "-ieren bilan tugagan fe'llarga ge- qo'shilmaydi."
+    },
+    {
+      "wrong": "Ich habe geeinkauft.",
+      "right": "Ich habe eingekauft.",
+      "why": "Ajraladigan fe'lda ge- prefiks va o'zak orasiga kiradi."
+    },
+    {
+      "wrong": "Ich habe gegeht.",
+      "right": "Ich bin gegangen.",
+      "why": "gehen nomuntazam (gegangen) va sein bilan tuziladi."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "g-perfekt-e01",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "past-events",
+      "grammar_topic": "g-perfekt",
+      "difficulty": 1,
+      "question": "Partizip II shaklini yozing: machen → ___",
+      "prompt_de": "machen",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "gemacht",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Muntazam fe'l: ge + mach + t = gemacht.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-perfekt-e02",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "past-events",
+      "grammar_topic": "g-perfekt",
+      "difficulty": 1,
+      "question": "Partizip II shaklini yozing: schreiben → ___",
+      "prompt_de": "schreiben",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "geschrieben",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Nomuntazam fe'l: geschrieben.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-perfekt-e03",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "shopping",
+      "grammar_topic": "g-perfekt",
+      "difficulty": 2,
+      "question": "Partizip II shaklini yozing: einkaufen → ___",
+      "prompt_de": "einkaufen",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "eingekauft",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ajraladigan fe'l: ein + ge + kauft.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-perfekt-e04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-perfekt",
+      "difficulty": 2,
+      "question": "\"besuchen\" fe'lining Partizip II shakli qaysi?",
+      "prompt_de": null,
+      "options": [
+        "besucht",
+        "gebesucht",
+        "besuchen"
+      ],
+      "pairs": null,
+      "correct_answer": "besucht",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "be- prefiksli fe'llarga ge- qo'shilmaydi: besucht.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-perfekt-e05",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "leisure",
+      "grammar_topic": "g-perfekt",
+      "difficulty": 1,
+      "question": "So'zlardan gap tuzing: \"Kecha men film ko'rdim.\"",
+      "prompt_de": null,
+      "options": [
+        "gesehen",
+        "Film",
+        "einen",
+        "gestern",
+        "habe",
+        "Ich"
+      ],
+      "pairs": null,
+      "correct_answer": "Ich habe gestern einen Film gesehen.",
+      "accepted_answers": [
+        "Gestern habe ich einen Film gesehen."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "habe — 2-o'rin, gesehen — oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-perfekt-e06",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-perfekt",
+      "difficulty": 1,
+      "question": "Xato so'zni toping: \"Wir haben Pizza gegesst.\"",
+      "prompt_de": "Wir haben Pizza gegesst.",
+      "options": [
+        "Wir",
+        "haben",
+        "Pizza",
+        "gegesst"
+      ],
+      "pairs": null,
+      "correct_answer": "gegesst",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "essen nomuntazam: gegessen. To'g'risi: Wir haben Pizza gegessen.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-perfekt-e07",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "grammar",
+      "topic": "language-learning",
+      "grammar_topic": "g-perfekt",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Men nemis tilini o'rgandim.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich habe Deutsch gelernt.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "lernen → gelernt, haben bilan.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

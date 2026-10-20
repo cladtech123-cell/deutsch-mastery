@@ -1,0 +1,352 @@
+{
+  "id": "g-reflexive",
+  "version": 1,
+  "level": "A2",
+  "order": 26,
+  "title": "Qaytishli fe'llar (sich freuen, sich treffen ...)",
+  "prerequisites": [
+    "g-pronoun-cases"
+  ],
+  "next": [],
+  "rule": "Qaytishli fe'l harakat egasining o'ziga qaytishini bildiradi va qaytishli olmosh bilan ishlatiladi: ich freue mich, du freust dich, er freut sich.",
+  "when": "His-tuyg'u, kundalik ishlar va uchrashuvlar haqida gapirganda: sich freuen, sich anziehen, sich treffen, sich fühlen.",
+  "structure": "Ega + fe'l + qaytishli olmosh (mich, dich, sich ...) + ...",
+  "explanation": [
+    {
+      "type": "table",
+      "headers": [
+        "Olmosh",
+        "Qaytishli olmosh",
+        "sich freuen"
+      ],
+      "rows": [
+        [
+          "ich",
+          "mich",
+          "ich freue mich"
+        ],
+        [
+          "du",
+          "dich",
+          "du freust dich"
+        ],
+        [
+          "er / sie / es",
+          "sich",
+          "er freut sich"
+        ],
+        [
+          "wir",
+          "uns",
+          "wir freuen uns"
+        ],
+        [
+          "ihr",
+          "euch",
+          "ihr freut euch"
+        ],
+        [
+          "sie / Sie",
+          "sich",
+          "sie freuen sich / Sie freuen sich"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Fe'l",
+        "Ma'nosi",
+        "Misol"
+      ],
+      "rows": [
+        [
+          "sich freuen auf / über",
+          "intiqlik bilan kutmoq / xursand bo'lmoq",
+          "Ich freue mich auf den Urlaub."
+        ],
+        [
+          "sich treffen",
+          "uchrashmoq",
+          "Wir treffen uns um 6 Uhr."
+        ],
+        [
+          "sich anziehen",
+          "kiyinmoq",
+          "Er zieht sich an."
+        ],
+        [
+          "sich beeilen",
+          "shoshilmoq",
+          "Beeil dich!"
+        ],
+        [
+          "sich fühlen",
+          "o'zini his qilmoq",
+          "Ich fühle mich gut."
+        ],
+        [
+          "sich interessieren für",
+          "qiziqmoq",
+          "Sie interessiert sich für Musik."
+        ],
+        [
+          "sich erholen",
+          "dam olmoq",
+          "Im Urlaub erhole ich mich."
+        ],
+        [
+          "sich setzen",
+          "o'tirmoq",
+          "Setzen Sie sich bitte!"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "O'zbek tilida bunday fe'llar ko'pincha -in/-n qo'shimchasi yoki \"o'zini\" so'zi bilan beriladi: yuvinmoq, kiyinmoq, o'zini his qilmoq. Perfekt haben bilan: Ich habe mich gefreut."
+    },
+    {
+      "type": "tip",
+      "text": "Inversiyada olmosh fe'l va egadan keyin: Heute treffe ich mich mit Anna. Morgen ziehe ich mich warm an."
+    }
+  ],
+  "examples": [
+    {
+      "de": "Ich freue mich auf das Wochenende.",
+      "uz": "Dam olish kunlarini intiqlik bilan kutyapman."
+    },
+    {
+      "de": "Wie fühlst du dich heute?",
+      "uz": "Bugun o'zingni qanday his qilyapsan?"
+    },
+    {
+      "de": "Wir treffen uns um 18 Uhr am Bahnhof.",
+      "uz": "Biz soat 18 da vokzalda uchrashamiz."
+    },
+    {
+      "de": "Er zieht sich schnell an.",
+      "uz": "U tez kiyinadi."
+    },
+    {
+      "de": "Interessierst du dich für Fußball?",
+      "uz": "Futbolga qiziqasanmi?"
+    },
+    {
+      "de": "Setzen Sie sich bitte!",
+      "uz": "O'tiring, iltimos!"
+    }
+  ],
+  "common_mistakes": [
+    {
+      "wrong": "Ich freue auf den Urlaub.",
+      "right": "Ich freue mich auf den Urlaub.",
+      "why": "Qaytishli olmosh tushib qolmaydi."
+    },
+    {
+      "wrong": "Wir treffen sich.",
+      "right": "Wir treffen uns.",
+      "why": "wir bilan qaytishli olmosh — uns. sich faqat er/sie/es, sie, Sie bilan."
+    },
+    {
+      "wrong": "Ich interessiere mich auf Sport.",
+      "right": "Ich interessiere mich für Sport.",
+      "why": "sich interessieren — für bilan."
+    },
+    {
+      "wrong": "Ich bin mich gefreut.",
+      "right": "Ich habe mich gefreut.",
+      "why": "Qaytishli fe'llar Perfektni haben bilan yasaydi."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "g-reflexive-e01",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "travel",
+      "grammar_topic": "g-reflexive",
+      "difficulty": 1,
+      "question": "Qaytishli olmoshni yozing: \"Ich freue ___ auf den Urlaub.\"",
+      "prompt_de": "Ich freue ___ auf den Urlaub.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "mich",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "ich → mich.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-reflexive-e02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "appointments",
+      "grammar_topic": "g-reflexive",
+      "difficulty": 1,
+      "question": "To'g'ri olmoshni tanlang: \"Wir treffen ___ morgen.\"",
+      "prompt_de": "Wir treffen ___ morgen.",
+      "options": [
+        "uns",
+        "sich",
+        "euch"
+      ],
+      "pairs": null,
+      "correct_answer": "uns",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "wir → uns.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-reflexive-e03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "leisure",
+      "grammar_topic": "g-reflexive",
+      "difficulty": 1,
+      "question": "Qaytishli olmoshni yozing: \"Interessierst du ___ für Musik?\"",
+      "prompt_de": "Interessierst du ___ für Musik?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "dich",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "du → dich.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-reflexive-e04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "clothes",
+      "grammar_topic": "g-reflexive",
+      "difficulty": 1,
+      "question": "To'g'ri olmoshni tanlang: \"Anna zieht ___ an.\"",
+      "prompt_de": "Anna zieht ___ an.",
+      "options": [
+        "sich",
+        "mich",
+        "uns"
+      ],
+      "pairs": null,
+      "correct_answer": "sich",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "sie (Anna) → sich.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-reflexive-e05",
+      "version": 1,
+      "type": "match",
+      "skill": "grammar",
+      "topic": "daily-routine",
+      "grammar_topic": "g-reflexive",
+      "difficulty": 1,
+      "question": "Fe'lni ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "sich freuen",
+          "quvonmoq"
+        ],
+        [
+          "sich beeilen",
+          "shoshilmoq"
+        ],
+        [
+          "sich anziehen",
+          "kiyinmoq"
+        ],
+        [
+          "sich erholen",
+          "dam olmoq"
+        ]
+      ],
+      "correct_answer": {
+        "sich freuen": "quvonmoq",
+        "sich beeilen": "shoshilmoq",
+        "sich anziehen": "kiyinmoq",
+        "sich erholen": "dam olmoq"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "sich freuen — quvonmoq, sich beeilen — shoshilmoq, sich anziehen — kiyinmoq, sich erholen — dam olmoq.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "g-reflexive-e06",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "past-events",
+      "grammar_topic": "g-reflexive",
+      "difficulty": 2,
+      "question": "Xato so'zni toping: \"Wir haben sich gestern im Park getroffen.\"",
+      "prompt_de": "Wir haben sich gestern im Park getroffen.",
+      "options": [
+        "Wir",
+        "haben",
+        "sich",
+        "gestern",
+        "Park",
+        "getroffen"
+      ],
+      "pairs": null,
+      "correct_answer": "sich",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "wir → uns: Wir haben uns gestern im Park getroffen.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-reflexive-e07",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "grammar",
+      "topic": "politeness",
+      "grammar_topic": "g-reflexive",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling (Sie): \"O'tiring, iltimos!\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Setzen Sie sich bitte!",
+      "accepted_answers": [
+        "Bitte setzen Sie sich!",
+        "Setzen Sie sich, bitte!",
+        "Setzen Sie sich!"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "sich setzen, Sie-imperativ: Setzen Sie sich!",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

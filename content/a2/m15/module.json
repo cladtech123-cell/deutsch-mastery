@@ -1,0 +1,303 @@
+{
+  "id": "a2-m15",
+  "version": 1,
+  "level": "A2",
+  "number": 15,
+  "title": "Ish, kasb va Ausbildung",
+  "title_de": "Arbeit, Beruf und Ausbildung",
+  "goals": [
+    "Kasbingiz va ish kuningizdagi vazifalarni tasvirlash",
+    "Ta'lim va tajribani \"seit\", \"vor\" va yil bilan aytish",
+    "\"können\" va \"möchten\" bilan qobiliyat va xohishni ifodalash",
+    "Ish suhbatida o'zingizni qisqacha tanishtirish"
+  ],
+  "lessons": [
+    "a2-m15-l1",
+    "a2-m15-l2",
+    "a2-m15-l3"
+  ],
+  "module_test": [
+    {
+      "id": "mtest-a2-m15-01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "work",
+      "grammar_topic": "g-verb-position",
+      "difficulty": 1,
+      "question": "Qaysi gap to'g'ri?",
+      "prompt_de": null,
+      "options": [
+        "Im Lager arbeite ich mit drei Kollegen.",
+        "Im Lager ich arbeite mit drei Kollegen.",
+        "Im Lager arbeiten ich mit drei Kollegen."
+      ],
+      "pairs": null,
+      "correct_answer": "Im Lager arbeite ich mit drei Kollegen.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Im Lager\" 1-o'rinda → fe'l \"arbeite\" 2-o'rinda → \"ich\".",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m15-02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "time",
+      "grammar_topic": "g-time-prepositions",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: Ich lerne ___ acht Monaten Deutsch (va hali o'rganyapman).",
+      "prompt_de": "Ich lerne ___ acht Monaten Deutsch.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "seit",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Davom etayotgan holat — \"seit\".",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m15-03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "time",
+      "grammar_topic": "g-time-prepositions",
+      "difficulty": 2,
+      "question": "To'g'ri variantni tanlang: Ich bin ___ nach Deutschland gekommen.",
+      "prompt_de": null,
+      "options": [
+        "vor drei Jahren",
+        "seit drei Jahren",
+        "vor drei Jahre"
+      ],
+      "pairs": null,
+      "correct_answer": "vor drei Jahren",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Kelish — tugagan voqea (Perfekt) → \"vor\". Dativ ko'plik: Jahren.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m15-04",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "work",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "\"möchten\" fe'lini \"er\" uchun tuslang: Er ___ als Koch arbeiten.",
+      "prompt_de": "Er ___ als Koch arbeiten.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "möchte",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "möchten: ich möchte, du möchtest, er möchte (-t yo'q).",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m15-05",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "professions",
+      "grammar_topic": "g-articles",
+      "difficulty": 2,
+      "question": "Gapdagi xato so'zni toping: \"Meine Schwester arbeitet als eine Lehrerin.\"",
+      "prompt_de": "Meine Schwester arbeitet als eine Lehrerin.",
+      "options": [
+        "Meine",
+        "Schwester",
+        "arbeitet",
+        "als",
+        "eine",
+        "Lehrerin"
+      ],
+      "pairs": null,
+      "correct_answer": "eine",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"als\" + kasb — artiklsiz: Meine Schwester arbeitet als Lehrerin.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m15-06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang. Ayol hozir qanday ishlaydi?",
+      "prompt_de": null,
+      "options": [
+        "Yarim stavkada, chunki kasb maktabiga boradi",
+        "To'liq stavkada, tungi smenada",
+        "Hozir ishlamaydi"
+      ],
+      "pairs": null,
+      "correct_answer": "Yarim stavkada, chunki kasb maktabiga boradi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"in Teilzeit\" — yarim stavka, \"Zweimal pro Woche gehe ich in die Berufsschule\" — haftada ikki marta kasb maktabiga boradi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Ich arbeite in Teilzeit. Zweimal pro Woche gehe ich in die Berufsschule."
+    },
+    {
+      "id": "mtest-a2-m15-07",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "So'zni ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "der Arbeitgeber",
+          "ish beruvchi"
+        ],
+        [
+          "der Azubi",
+          "kasb ta'limi oluvchi shogird"
+        ],
+        [
+          "die Kenntnisse",
+          "bilimlar"
+        ],
+        [
+          "der Betrieb",
+          "korxona"
+        ]
+      ],
+      "correct_answer": {
+        "der Arbeitgeber": "ish beruvchi",
+        "der Azubi": "kasb ta'limi oluvchi shogird",
+        "die Kenntnisse": "bilimlar",
+        "der Betrieb": "korxona"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Arbeitgeber — ish beruvchi, Azubi — Auszubildende (shogird), Kenntnisse — bilimlar, Betrieb — korxona.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m15-08",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "work",
+      "grammar_topic": "g-time-prepositions",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Men uch yildan beri shu firmada ishlayman.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich arbeite seit drei Jahren bei dieser Firma.",
+      "accepted_answers": [
+        "Ich arbeite seit drei Jahren in dieser Firma.",
+        "Seit drei Jahren arbeite ich bei dieser Firma.",
+        "Seit drei Jahren arbeite ich in dieser Firma.",
+        "Ich arbeite seit 3 Jahren bei dieser Firma.",
+        "Ich arbeite seit 3 Jahren in dieser Firma."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Davom etayotgan ish: seit + Präsens. \"firmada\" — bei/in dieser Firma.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m15-09",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "education",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Matnni o'qing. Nega Bobur hozir yarim stavkada ishlaydi?",
+      "prompt_de": "Bobur ist seit vier Jahren in Deutschland. Vor drei Jahren hat er ein Praktikum in einer Autowerkstatt gemacht. Das hat ihm gefallen. Seit letztem Herbst macht er dort eine Ausbildung als Kfz-Mechatroniker. Er arbeitet drei Tage pro Woche in der Werkstatt, zwei Tage geht er in die Berufsschule.",
+      "options": [
+        "Chunki u Ausbildung qilyapti va kasb maktabiga boradi",
+        "Chunki uning haydovchilik guvohnomasi yo'q",
+        "Chunki u universitetda o'qiydi"
+      ],
+      "pairs": null,
+      "correct_answer": "Chunki u Ausbildung qilyapti va kasb maktabiga boradi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Oxirgi gaplarga e'tibor bering.",
+      "explanation": "Bobur Ausbildung qilyapti: haftada 3 kun ustaxonada, 2 kun kasb maktabida.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m15-10",
+      "version": 1,
+      "type": "plural",
+      "skill": "vocabulary",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Ko'plik shaklini yozing: die Firma → ?",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "die Firmen",
+      "accepted_answers": [
+        "Firmen"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Firma → die Firmen (-a o'rniga -en).",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "writing_task": {
+    "id": "w-a2-m15",
+    "title": "Ishga qisqa ariza xati",
+    "task_uz": "Siz \"Lagerist/in (Teilzeit)\" ish o'rni haqidagi e'lonni ko'rdingiz. Firmaga qisqa ariza xati (E-Mail) yozing: o'zingizni tanishtiring, ta'lim va tajribangizni ayting (seit/vor), nimani qila olishingizni va nega bu ishni xohlashingizni yozing.",
+    "required_words": [
+      "seit",
+      "Erfahrung"
+    ],
+    "min_words": 50,
+    "max_words": 110,
+    "criteria": [
+      "Rasmiy murojaat va xayrlashish (Sehr geehrte Damen und Herren / Mit freundlichen Grüßen)",
+      "Ta'lim yoki tajriba \"seit\" yoki \"vor\" bilan to'g'ri ifodalangan",
+      "Kamida 2 ta qobiliyat \"können\" bilan (Infinitiv oxirida)",
+      "Kasb nomi artiklsiz (als Lagerist)",
+      "Xohish \"möchten\" bilan"
+    ],
+    "sample_answer": "Sehr geehrte Damen und Herren, ich habe Ihre Anzeige gelesen und möchte mich als Lagerist in Teilzeit bewerben. Ich heiße Akmal Rahimov und bin 27 Jahre alt. Vor fünf Jahren habe ich in Usbekistan eine Ausbildung als Kaufmann gemacht. Danach habe ich drei Jahre in einem Lager gearbeitet. Seit einem Jahr wohne ich in Hamburg und lerne Deutsch. Ich kann gut im Team arbeiten und ich habe einen Führerschein. Ich bin zuverlässig und pünktlich. Ich freue mich auf Ihre Antwort. Mit freundlichen Grüßen, Akmal Rahimov"
+  }
+}

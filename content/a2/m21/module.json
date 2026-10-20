@@ -1,0 +1,311 @@
+{
+  "id": "a2-m21",
+  "version": 1,
+  "level": "A2",
+  "number": 21,
+  "title": "Ta'lim va til o'rganish",
+  "title_de": "Lernen und Sprachen",
+  "goals": [
+    "Til o'rganish sabablari va usullarini weil, denn va deshalb bilan tushuntirish",
+    "Kurs, o'qituvchi va darslar haqida dass bilan fikr bildirish",
+    "wenn bilan shart, odat va maslahat aytish; ergash gapda fe'lni oxirga qo'yish",
+    "Kursga yozilish va o'z o'rganish tajribasi haqida yozish"
+  ],
+  "lessons": [
+    "a2-m21-l1",
+    "a2-m21-l2",
+    "a2-m21-l3"
+  ],
+  "module_test": [
+    {
+      "id": "mtest-a2-m21-01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "education",
+      "grammar_topic": "g-subordinate",
+      "difficulty": 1,
+      "question": "To'g'ri variantni tanlang: \"Ich lerne Deutsch, weil ich in Wien ___.\"",
+      "prompt_de": null,
+      "options": [
+        "studieren möchte",
+        "möchte studieren",
+        "studieren möchten"
+      ],
+      "pairs": null,
+      "correct_answer": "studieren möchte",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "weil-gapda tuslangan fe'l (möchte) eng oxirida; ich bilan — möchte.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m21-02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "technology",
+      "grammar_topic": "g-subordinate",
+      "difficulty": 1,
+      "question": "Bog'lovchini yozing: \"Ich finde, ___ die App sehr nützlich ist.\"",
+      "prompt_de": "Ich finde, ___ die App sehr nützlich ist.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "dass",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Fikr — Ich finde, dass ...",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m21-03",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-subordinate",
+      "difficulty": 1,
+      "question": "Gapni yakunlang: \"Ich war nicht im Kurs, ...\" (chunki kecha kasal edim)",
+      "prompt_de": null,
+      "options": [
+        "weil",
+        "war",
+        "ich",
+        "gestern",
+        "krank"
+      ],
+      "pairs": null,
+      "correct_answer": "weil ich gestern krank war",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "weil + ega + ... + fe'l (war) oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m21-04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "leisure",
+      "grammar_topic": "g-subordinate",
+      "difficulty": 1,
+      "question": "To'g'ri variantni tanlang: \"Wenn ich Zeit habe, ___ ins Kino.\"",
+      "prompt_de": null,
+      "options": [
+        "gehe ich",
+        "ich gehe",
+        "gehen ich"
+      ],
+      "pairs": null,
+      "correct_answer": "gehe ich",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "wenn-gapdan keyin fe'l + ega.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m21-05",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "language-learning",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "So'zlarni juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "die Aussprache",
+          "talaffuz"
+        ],
+        [
+          "der Teilnehmer",
+          "qatnashchi"
+        ],
+        [
+          "das Lehrbuch",
+          "darslik"
+        ],
+        [
+          "die Fremdsprache",
+          "chet tili"
+        ]
+      ],
+      "correct_answer": {
+        "die Aussprache": "talaffuz",
+        "der Teilnehmer": "qatnashchi",
+        "das Lehrbuch": "darslik",
+        "die Fremdsprache": "chet tili"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Aussprache — talaffuz, Teilnehmer — qatnashchi, Lehrbuch — darslik, Fremdsprache — chet tili.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m21-06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "education",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Nega u kursga kela olmaydi?",
+      "prompt_de": null,
+      "options": [
+        "O'g'li kasal",
+        "O'zi kasal",
+        "Ishda"
+      ],
+      "pairs": null,
+      "correct_answer": "O'g'li kasal",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"weil mein Sohn krank ist\" — chunki o'g'lim kasal.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Ich kann heute leider nicht zum Kurs kommen, weil mein Sohn krank ist."
+    },
+    {
+      "id": "mtest-a2-m21-07",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "education",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "E'lonni o'qing. Kurs narxiga nima kirmaydi?",
+      "prompt_de": "Deutsch A2 an der Volkshochschule: Der Kurs beginnt am 5. September und dauert zehn Wochen. Unterricht: dienstags und donnerstags von 18 bis 20 Uhr. Maximal 14 Teilnehmer. Preis: 180 Euro, Lehrbuch nicht inklusive. Am Ende gibt es eine Prüfung.",
+      "options": [
+        "Darslik",
+        "Imtihon",
+        "Mashg'ulotlar"
+      ],
+      "pairs": null,
+      "correct_answer": "Darslik",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Lehrbuch nicht inklusive\" — darslik narxga kirmaydi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m21-08",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "education",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'qituvchi tushuntirdi, lekin siz tushunmadingiz. Nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Können Sie das bitte noch einmal erklären?",
+        "Erklären Sie das noch einmal nicht?",
+        "Ich erkläre das bitte."
+      ],
+      "pairs": null,
+      "correct_answer": "Können Sie das bitte noch einmal erklären?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Muloyim iltimos: Können Sie ... bitte ...?",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m21-09",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "education",
+      "grammar_topic": "g-subordinate",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Kurs juda foydali deb o'ylayman.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich glaube, dass der Kurs sehr nützlich ist.",
+      "accepted_answers": [
+        "Ich denke, dass der Kurs sehr nützlich ist.",
+        "Ich finde, dass der Kurs sehr nützlich ist.",
+        "Ich glaube, der Kurs ist sehr nützlich.",
+        "Ich finde den Kurs sehr nützlich.",
+        "Ich denke, der Kurs ist sehr nützlich.",
+        "Ich finde, der Kurs ist sehr nützlich."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "dass-gapda fe'l (ist) oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m21-10",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "education",
+      "grammar_topic": "g-subordinate",
+      "difficulty": 2,
+      "question": "Xato so'zni toping: \"Ich hoffe, dass ich die Prüfung bestehe kann.\"",
+      "prompt_de": "Ich hoffe, dass ich die Prüfung bestehe kann.",
+      "options": [
+        "hoffe",
+        "dass",
+        "Prüfung",
+        "bestehe",
+        "kann"
+      ],
+      "pairs": null,
+      "correct_answer": "bestehe",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Modal fe'l bilan infinitiv: \"..., dass ich die Prüfung bestehen kann.\"",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "writing_task": {
+    "id": "w-a2-m21",
+    "title": "Forumga javob: \"Wie lernt ihr Deutsch?\"",
+    "task_uz": "Internet forumida kimdir so'radi: \"Wie lernt ihr Deutsch? Habt ihr Tipps?\" Javob yozing: nega nemis tilini o'rganyapsiz (weil), qanday o'rganasiz va nima yordam beradi (wenn), nima deb o'ylaysiz (dass), qaysi qiyinchilik bor va unga qarshi nima qilasiz (deshalb).",
+    "required_words": [
+      "weil",
+      "wenn"
+    ],
+    "min_words": 40,
+    "max_words": 100,
+    "criteria": [
+      "Sabab weil bilan, fe'l oxirida",
+      "Kamida bitta wenn-gap va undan keyin to'g'ri tartib (fe'l + ega)",
+      "Fikr dass bilan (Ich finde / glaube, dass ...)",
+      "Kamida 2 ta aniq maslahat yoki o'rganish usuli",
+      "Salomlashish va xayrlashish (Hallo zusammen / Viele Grüße)"
+    ],
+    "sample_answer": "Hallo zusammen, ich lerne seit zwei Jahren Deutsch, weil ich in Deutschland eine Ausbildung machen möchte. Wenn ich im Bus sitze, wiederhole ich Vokabeln mit einer App. Abends sehe ich deutsche Serien. Die Aussprache ist für mich schwer, deshalb spreche ich einmal pro Woche mit einer Muttersprachlerin. Ich glaube, dass man jeden Tag ein bisschen lernen muss. Viel Erfolg! Viele Grüße, Jasur"
+  }
+}

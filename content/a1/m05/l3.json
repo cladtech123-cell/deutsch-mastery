@@ -1,0 +1,901 @@
+{
+  "id": "a1-m05-l3",
+  "version": 1,
+  "level": "A1",
+  "module": 5,
+  "order": 3,
+  "title": "So'z tartibi: o'zim va ishim haqida",
+  "title_de": "Satzstellung: Über mich und meine Arbeit",
+  "goal": "Dars oxirida darak gapda fe'lni har doim ikkinchi o'ringa qo'yasiz (Heute arbeite ich ...), und/aber/oder bilan gaplarni bog'laysiz va o'zingiz hamda ishingiz haqida 5–6 gaplik hikoya ayta olasiz.",
+  "skill_focus": [
+    "grammar",
+    "speaking",
+    "writing"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Nemis darak gapining asosiy qoidasi: fe'l doim IKKINCHI o'rinda. Birinchi o'rinda ega ham, vaqt so'zi ham, boshqa bo'lak ham turishi mumkin. Agar birinchi o'rinda ega bo'lmasa, ega fe'ldan keyin o'tadi."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "1-o'rin",
+        "2-o'rin (fe'l)",
+        "3-o'rin",
+        "Qolgan qism"
+      ],
+      "rows": [
+        [
+          "Ich",
+          "arbeite",
+          "heute",
+          "im Büro."
+        ],
+        [
+          "Heute",
+          "arbeite",
+          "ich",
+          "im Büro."
+        ],
+        [
+          "Morgen",
+          "fährt",
+          "mein Kollege",
+          "nach Berlin."
+        ],
+        [
+          "Dann",
+          "trinken",
+          "wir",
+          "Tee."
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "O'zbek tilida fe'l gap oxirida keladi (Men bugun ofisda ishlayman), nemis tilida esa ikkinchi o'rinda. Bu — o'zbek o'quvchilari uchun eng muhim farqlardan biri."
+    },
+    {
+      "type": "p",
+      "text": "und (va), aber (lekin), oder (yoki) — so'z tartibini o'zgartirmaydi: Ich arbeite viel, aber ich habe am Abend Zeit."
+    },
+    {
+      "type": "tip",
+      "text": "\"fahren\" ham unli o'zgaradigan fe'l: du fährst, er fährt (a → ä)."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-morgen",
+      "de": "morgen",
+      "uz": "ertaga",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Morgen arbeite ich nicht.",
+      "example_uz": "Ertaga ishlamayman.",
+      "topic": "time"
+    },
+    {
+      "id": "v-immer",
+      "de": "immer",
+      "uz": "doim, har doim",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Ich trinke immer Tee.",
+      "example_uz": "Men doim choy ichaman.",
+      "topic": "time"
+    },
+    {
+      "id": "v-manchmal",
+      "de": "manchmal",
+      "uz": "ba'zan",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Manchmal koche ich.",
+      "example_uz": "Ba'zan ovqat pishiraman.",
+      "topic": "time"
+    },
+    {
+      "id": "v-dann",
+      "de": "dann",
+      "uz": "keyin, so'ng",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Dann lese ich ein Buch.",
+      "example_uz": "Keyin kitob o'qiyman.",
+      "topic": "time"
+    },
+    {
+      "id": "v-zuerst",
+      "de": "zuerst",
+      "uz": "avval, birinchi navbatda",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Zuerst trinke ich Tee.",
+      "example_uz": "Avval choy ichaman.",
+      "topic": "daily-routine"
+    },
+    {
+      "id": "v-und",
+      "de": "und",
+      "uz": "va",
+      "pos": "conjunction",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Ich bin Lehrer und meine Frau ist Ärztin.",
+      "example_uz": "Men o'qituvchiman, xotinim esa shifokor.",
+      "topic": "general"
+    },
+    {
+      "id": "v-aber",
+      "de": "aber",
+      "uz": "lekin, ammo",
+      "pos": "conjunction",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Ich arbeite viel, aber ich bin glücklich.",
+      "example_uz": "Men ko'p ishlayman, lekin baxtliman.",
+      "topic": "general"
+    },
+    {
+      "id": "v-oder",
+      "de": "oder",
+      "uz": "yoki",
+      "pos": "conjunction",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Trinkst du Tee oder Wasser?",
+      "example_uz": "Choy ichasanmi yoki suv?",
+      "topic": "general"
+    },
+    {
+      "id": "v-das-büro",
+      "de": "Büro",
+      "uz": "ofis, idora",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Büros",
+      "forms": null,
+      "example_de": "Heute arbeite ich im Büro.",
+      "example_uz": "Bugun ofisda ishlayman.",
+      "topic": "work"
+    },
+    {
+      "id": "v-der-kollege",
+      "de": "Kollege",
+      "uz": "hamkasb (erkak)",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Kollegen",
+      "forms": null,
+      "example_de": "Mein Kollege kommt aus Polen.",
+      "example_uz": "Hamkasbim Polshadan.",
+      "topic": "work"
+    },
+    {
+      "id": "v-die-kollegin",
+      "de": "Kollegin",
+      "uz": "hamkasb (ayol)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Kolleginnen",
+      "forms": null,
+      "example_de": "Meine Kollegin ist sehr nett.",
+      "example_uz": "Hamkasbim juda xushmuomala.",
+      "topic": "work"
+    },
+    {
+      "id": "v-der-computer",
+      "de": "Computer",
+      "uz": "kompyuter",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Computer",
+      "forms": null,
+      "example_de": "Ich arbeite viel am Computer.",
+      "example_uz": "Men kompyuterda ko'p ishlayman.",
+      "topic": "technology"
+    },
+    {
+      "id": "v-fahren",
+      "de": "fahren",
+      "uz": "(transportda) bormoq; haydamoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "praesens_3sg": "fährt",
+        "partizip2": "gefahren",
+        "perfekt_aux": "sein"
+      },
+      "example_de": "Er fährt nach Berlin.",
+      "example_uz": "U Berlinga ketyapti.",
+      "topic": "transport"
+    },
+    {
+      "id": "v-das-auto",
+      "de": "Auto",
+      "uz": "avtomobil, mashina",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Autos",
+      "forms": null,
+      "example_de": "Mein Auto ist alt.",
+      "example_uz": "Mashinam eski.",
+      "topic": "transport"
+    }
+  ],
+  "review_vocabulary": [
+    "v-heute",
+    "v-jetzt",
+    "v-arbeiten",
+    "v-haben",
+    "v-machen",
+    "v-lesen",
+    "v-trinken",
+    "v-kochen",
+    "v-der-tee",
+    "v-viel",
+    "v-oft",
+    "v-gern",
+    "v-die-arbeit",
+    "v-die-firma",
+    "v-der-ingenieur",
+    "v-die-e-mail",
+    "v-schreiben",
+    "v-nicht"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-verb-position",
+      "rule": "Darak gapda tuslangan fe'l doim ikkinchi o'rinda turadi. Gap vaqt so'zi (heute, morgen, dann ...) bilan boshlansa, ega fe'ldan keyin keladi (inversiya).",
+      "when": "Har qanday darak gapda; ayniqsa kun tartibi, rejalar va ketma-ket harakatlar haqida gapirganda.",
+      "structure": "1-o'rin (ega / vaqt / joy) + FE'L + ega (agar 1-o'rinda bo'lmasa) + qolgan qism",
+      "examples": [
+        {
+          "de": "Ich arbeite heute im Büro.",
+          "uz": "Men bugun ofisda ishlayman."
+        },
+        {
+          "de": "Heute arbeite ich im Büro.",
+          "uz": "Bugun men ofisda ishlayman."
+        },
+        {
+          "de": "Zuerst schreibe ich E-Mails, dann telefoniere ich.",
+          "uz": "Avval email yozaman, keyin qo'ng'iroq qilaman."
+        },
+        {
+          "de": "Morgen fährt meine Kollegin nach Hamburg.",
+          "uz": "Ertaga hamkasbim Gamburgga ketadi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Heute ich arbeite im Büro.",
+          "right": "Heute arbeite ich im Büro.",
+          "why": "Vaqt so'zi birinchi o'rinda bo'lsa, fe'l ikkinchi, ega uchinchi o'ringa o'tadi."
+        },
+        {
+          "wrong": "Ich im Büro arbeite.",
+          "right": "Ich arbeite im Büro.",
+          "why": "O'zbekchadagidek fe'lni oxiriga qo'yib bo'lmaydi — u ikkinchi o'rinda."
+        },
+        {
+          "wrong": "Dann ich trinke Tee.",
+          "right": "Dann trinke ich Tee.",
+          "why": "\"dann\" ham birinchi o'rinni egallaydi, shuning uchun fe'l darhol keladi."
+        }
+      ],
+      "check": [
+        "a1-m05-l3-e01",
+        "a1-m05-l3-e02",
+        "a1-m05-l3-e03",
+        "a1-m05-l3-e04",
+        "a1-m05-l3-e10"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Ish kuni",
+    "lines": [
+      {
+        "speaker": "Herr Braun",
+        "de": "Ich bin Ingenieur. Ich arbeite in einer Firma in Köln.",
+        "uz": "Men muhandisman. Kyoldagi bir firmada ishlayman."
+      },
+      {
+        "speaker": "Herr Braun",
+        "de": "Ich fahre immer mit dem Auto zur Arbeit.",
+        "uz": "Ishga doim mashinada boraman."
+      },
+      {
+        "speaker": "Herr Braun",
+        "de": "Zuerst trinke ich Tee, dann schreibe ich E-Mails.",
+        "uz": "Avval choy ichaman, keyin email yozaman."
+      },
+      {
+        "speaker": "Herr Braun",
+        "de": "Manchmal arbeite ich zu Hause, aber morgen arbeite ich im Büro.",
+        "uz": "Ba'zan uyda ishlayman, lekin ertaga ofisda ishlayman."
+      },
+      {
+        "speaker": "Herr Braun",
+        "de": "Meine Kollegen sind sehr nett.",
+        "uz": "Hamkasblarim juda xushmuomala."
+      }
+    ],
+    "questions": [
+      "a1-m05-l3-e06",
+      "a1-m05-l3-e07"
+    ]
+  },
+  "situation": {
+    "title": "Ishxonada rejalar",
+    "context_uz": "Hamkasbingiz Tom ertangi reja haqida so'rayapti.",
+    "lines": [
+      {
+        "speaker": "Tom",
+        "de": "Arbeitest du morgen im Büro?",
+        "uz": "Ertaga ofisda ishlaysanmi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Nein, morgen arbeite ich zu Hause.",
+        "uz": "Yo'q, ertaga uyda ishlayman."
+      },
+      {
+        "speaker": "Tom",
+        "de": "Schade! Fährst du heute mit dem Auto?",
+        "uz": "Afsus! Bugun mashinadamisan?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ja. Zuerst fahre ich nach Hause, dann koche ich.",
+        "uz": "Ha. Avval uyga boraman, keyin ovqat pishiraman."
+      },
+      {
+        "speaker": "Tom",
+        "de": "Gut, bis übermorgen!",
+        "uz": "Yaxshi, indingacha!"
+      }
+    ],
+    "task_uz": "Tomga o'z ertangi rejangiz haqida 3 gap bilan javob bering. Har bir gapni vaqt so'zi bilan boshlang (Morgen ..., Zuerst ..., Dann ...) va fe'lni ikkinchi o'ringa qo'ying."
+  },
+  "exercises": [
+    {
+      "id": "a1-m05-l3-e01",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "work",
+      "grammar_topic": "g-verb-position",
+      "difficulty": 2,
+      "question": "So'zlarni tartiblang (gap \"Heute\" bilan boshlansin): \"Bugun men ofisda ishlayman.\"",
+      "prompt_de": null,
+      "options": [
+        "Büro",
+        "im",
+        "Heute",
+        "ich",
+        "arbeite"
+      ],
+      "pairs": null,
+      "correct_answer": "Heute arbeite ich im Büro.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Heute (1) + fe'l (2) + ich (3).",
+      "explanation": "Vaqt so'zi birinchi bo'lsa: Heute arbeite ich im Büro.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l3-e02",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "transport",
+      "grammar_topic": "g-verb-position",
+      "difficulty": 2,
+      "question": "So'zlarni tartiblang (gap \"Morgen\" bilan boshlansin): \"Ertaga hamkasbim Berlinga ketadi.\"",
+      "prompt_de": null,
+      "options": [
+        "fährt",
+        "Morgen",
+        "mein",
+        "nach",
+        "Kollege",
+        "Berlin"
+      ],
+      "pairs": null,
+      "correct_answer": "Morgen fährt mein Kollege nach Berlin.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Morgen (1) + fährt (2) + mein Kollege (3) + nach Berlin.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l3-e03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "daily-routine",
+      "grammar_topic": "g-verb-position",
+      "difficulty": 1,
+      "question": "Qaysi gap to'g'ri?",
+      "prompt_de": null,
+      "options": [
+        "Dann ich lese ein Buch.",
+        "Dann lese ich ein Buch.",
+        "Ich dann lese ein Buch."
+      ],
+      "pairs": null,
+      "correct_answer": "Dann lese ich ein Buch.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "dann — 1-o'rin, lese — 2-o'rin, ich — 3-o'rin.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l3-e04",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-verb-position",
+      "difficulty": 1,
+      "question": "Fe'lni to'g'ri shaklda yozing (trinken): Manchmal ___ ich Tee.",
+      "prompt_de": "Manchmal ___ ich Tee.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "trinke",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Manchmal (1) + trinke (2) + ich. ich bilan -e.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l3-e05",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "transport",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "Gapdagi xato so'zni toping: \"Er fahrt mit dem Auto.\"",
+      "prompt_de": "Er fahrt mit dem Auto.",
+      "options": [
+        "Er",
+        "fahrt",
+        "mit",
+        "dem",
+        "Auto"
+      ],
+      "pairs": null,
+      "correct_answer": "fahrt",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "fahren: er fährt (a → ä).",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l3-e06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "transport",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Braun janoblari ishga qanday boradi?",
+      "prompt_de": null,
+      "options": [
+        "avtobusda",
+        "mashinada",
+        "piyoda"
+      ],
+      "pairs": null,
+      "correct_answer": "mashinada",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"mit dem Auto\" — mashinada.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Ich fahre immer mit dem Auto zur Arbeit."
+    },
+    {
+      "id": "a1-m05-l3-e07",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Braun janoblari ertaga qayerda ishlaydi?",
+      "prompt_de": null,
+      "options": [
+        "uyda",
+        "ofisda",
+        "Berlinda"
+      ],
+      "pairs": null,
+      "correct_answer": "ofisda",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"morgen arbeite ich im Büro\" — ertaga ofisda.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Manchmal arbeite ich zu Hause, aber morgen arbeite ich im Büro."
+    },
+    {
+      "id": "a1-m05-l3-e08",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "general",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "So'zni ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "und",
+          "va"
+        ],
+        [
+          "aber",
+          "lekin"
+        ],
+        [
+          "oder",
+          "yoki"
+        ],
+        [
+          "dann",
+          "keyin"
+        ],
+        [
+          "immer",
+          "doim"
+        ]
+      ],
+      "correct_answer": {
+        "und": "va",
+        "aber": "lekin",
+        "oder": "yoki",
+        "dann": "keyin",
+        "immer": "doim"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "und — va, aber — lekin, oder — yoki, dann — keyin, immer — doim.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l3-e09",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni davom ettiring. — Arbeitest du heute?",
+      "prompt_de": "Arbeitest du heute?",
+      "options": [
+        "Nein, heute nicht. Aber morgen arbeite ich.",
+        "Ja, ich bin Lehrer.",
+        "Morgen ich arbeite."
+      ],
+      "pairs": null,
+      "correct_answer": "Nein, heute nicht. Aber morgen arbeite ich.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Savolga mos va so'z tartibi to'g'ri javob: Aber morgen arbeite ich. \"Morgen ich arbeite\" — noto'g'ri tartib.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l3-e10",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "work",
+      "grammar_topic": "g-verb-position",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Ertaga men ofisda ishlayman.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Morgen arbeite ich im Büro.",
+      "accepted_answers": [
+        "Ich arbeite morgen im Büro."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ikkala tartib ham to'g'ri — asosiysi, fe'l ikkinchi o'rinda.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l3-e11",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Matnni o'qing. Nigora avval nima qiladi?",
+      "prompt_de": "Ich heiße Nigora. Ich bin Verkäuferin. Zuerst trinke ich Tee, dann fahre ich zur Arbeit. Meine Kolleginnen sind nett. Am Abend lese ich oder ich koche.",
+      "options": [
+        "Choy ichadi.",
+        "Ishga boradi.",
+        "Ovqat pishiradi."
+      ],
+      "pairs": null,
+      "correct_answer": "Choy ichadi.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Zuerst trinke ich Tee\" — avval choy ichaman.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l3-e12",
+      "version": 1,
+      "type": "speak",
+      "skill": "speaking",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zingiz va ishingiz (o'qishingiz) haqida 5 gap ayting. Kamida 2 gapni vaqt so'zi bilan boshlang (Heute, Morgen, Zuerst, Dann, Manchmal).",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 20,
+        "required_words": [
+          "ich"
+        ],
+        "sample": "Ich bin Ingenieur. Ich arbeite in einer Firma. Zuerst trinke ich Tee. Dann schreibe ich E-Mails. Morgen arbeite ich zu Hause."
+      },
+      "hint": null,
+      "explanation": "Har bir gapda fe'l ikkinchi o'rinda: Zuerst trinke ich ..., Dann schreibe ich ...",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a1-m05-l3-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "work",
+      "grammar_topic": "g-sein-haben",
+      "difficulty": 1,
+      "question": "Heute ___ ich viel Arbeit.",
+      "prompt_de": "Heute ___ ich viel Arbeit.",
+      "options": [
+        "habe",
+        "hast",
+        "hat"
+      ],
+      "pairs": null,
+      "correct_answer": "habe",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "ega — ich → habe; fe'l ikkinchi o'rinda.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l3-t02",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-verb-position",
+      "difficulty": 1,
+      "question": "So'zlarni tartiblang (gap \"Dann\" bilan boshlansin): \"Keyin men choy ichaman.\"",
+      "prompt_de": null,
+      "options": [
+        "ich",
+        "Dann",
+        "Tee",
+        "trinke"
+      ],
+      "pairs": null,
+      "correct_answer": "Dann trinke ich Tee.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Dann (1) + trinke (2) + ich + Tee.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l3-t03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-verb-position",
+      "difficulty": 1,
+      "question": "Qaysi gap to'g'ri?",
+      "prompt_de": null,
+      "options": [
+        "Morgen kocht meine Kollegin.",
+        "Morgen meine Kollegin kocht.",
+        "Morgen kochen meine Kollegin."
+      ],
+      "pairs": null,
+      "correct_answer": "Morgen kocht meine Kollegin.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Morgen (1) + kocht (2) + meine Kollegin. Ega birlikda → kocht.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l3-t04",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "transport",
+      "grammar_topic": "g-praesens",
+      "difficulty": 2,
+      "question": "\"fahren\" fe'lini tuslang: ___ du oft Auto?",
+      "prompt_de": "___ du oft Auto?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Fährst",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "du fährst (a → ä).",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l3-t05",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. U ertaga qayerda ishlaydi?",
+      "prompt_de": null,
+      "options": [
+        "uyda",
+        "ofisda",
+        "kasalxonada"
+      ],
+      "pairs": null,
+      "correct_answer": "uyda",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"morgen arbeite ich zu Hause\" — ertaga uyda.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Ich arbeite immer im Büro, aber morgen arbeite ich zu Hause."
+    },
+    {
+      "id": "a1-m05-l3-t06",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "technology",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Manchmal arbeite ich am Computer.\"",
+      "prompt_de": "Manchmal arbeite ich am Computer.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ba'zan kompyuterda ishlayman.",
+      "accepted_answers": [
+        "Men ba'zan kompyuterda ishlayman",
+        "Ba'zida kompyuterda ishlayman",
+        "Ba'zida men kompyuterda ishlayman"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "manchmal — ba'zan; am Computer — kompyuterda.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l3-t07",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "vocabulary",
+      "topic": "food",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (yoki): Trinkst du Tee ___ Wasser?",
+      "prompt_de": "Trinkst du Tee ___ Wasser?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "oder",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "oder — yoki.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l3-t08",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Hamkasbingiz \"Kommst du heute?\" dedi. Siz bugun emas, ertaga kelasiz. Nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Heute nicht, aber morgen komme ich.",
+        "Morgen ich komme.",
+        "Ja, heute komme ich."
+      ],
+      "pairs": null,
+      "correct_answer": "Heute nicht, aber morgen komme ich.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Fe'l ikkinchi o'rinda: aber morgen komme ich.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

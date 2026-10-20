@@ -1,0 +1,312 @@
+{
+  "id": "g-comparison",
+  "version": 1,
+  "level": "A2",
+  "order": 23,
+  "title": "Taqqoslash: komparativ va superlativ",
+  "prerequisites": [
+    "g-adjectives"
+  ],
+  "next": [],
+  "rule": "Komparativ: sifat + -er (Tom ist größer als Anna). Superlativ: am + sifat + -sten (am größten) yoki ot oldida der/die/das + -ste.",
+  "when": "Narsalar, narxlar, shaharlar, odamlarni taqqoslaganda va afzallik bildirganda (lieber, am liebsten).",
+  "structure": "A + ist + sifat-er + als + B | A + ist + so + sifat + wie + B | am + sifat-sten",
+  "explanation": [
+    {
+      "type": "table",
+      "headers": [
+        "Positiv",
+        "Komparativ",
+        "Superlativ"
+      ],
+      "rows": [
+        [
+          "klein",
+          "kleiner",
+          "am kleinsten"
+        ],
+        [
+          "billig",
+          "billiger",
+          "am billigsten"
+        ],
+        [
+          "schnell",
+          "schneller",
+          "am schnellsten"
+        ],
+        [
+          "alt",
+          "älter",
+          "am ältesten"
+        ],
+        [
+          "groß",
+          "größer",
+          "am größten"
+        ],
+        [
+          "jung",
+          "jünger",
+          "am jüngsten"
+        ],
+        [
+          "teuer",
+          "teurer",
+          "am teuersten"
+        ],
+        [
+          "gut",
+          "besser",
+          "am besten"
+        ],
+        [
+          "viel",
+          "mehr",
+          "am meisten"
+        ],
+        [
+          "gern",
+          "lieber",
+          "am liebsten"
+        ],
+        [
+          "hoch",
+          "höher",
+          "am höchsten"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Taqqoslashda \"als\" (…dan): Der Zug ist schneller als der Bus. Tenglikda \"so ... wie\": Anna ist so alt wie Tom."
+    },
+    {
+      "type": "p",
+      "text": "O'zbekcha \"-roq\" ≈ -er, \"eng\" ≈ am ...-sten. Qisqa sifatlar ko'pincha umlaut oladi: alt → älter, jung → jünger."
+    },
+    {
+      "type": "tip",
+      "text": "-t, -d, -s, -ß, -z bilan tugasa superlativda -esten: am ältesten, am heißesten. Ot oldida komparativ ham qo'shimcha oladi: eine billigere Jacke."
+    }
+  ],
+  "examples": [
+    {
+      "de": "Der Zug ist schneller als der Bus.",
+      "uz": "Poyezd avtobusdan tezroq."
+    },
+    {
+      "de": "Mein Bruder ist älter als ich.",
+      "uz": "Akam mendan katta."
+    },
+    {
+      "de": "Diese Jacke ist so teuer wie die andere.",
+      "uz": "Bu kurtka boshqasi kabi qimmat."
+    },
+    {
+      "de": "Im Juli ist es am heißesten.",
+      "uz": "Iyulda eng issiq bo'ladi."
+    },
+    {
+      "de": "Ich trinke lieber Tee als Kaffee.",
+      "uz": "Men qahvadan ko'ra choyni afzal ko'raman."
+    },
+    {
+      "de": "Das ist der beste Laden in der Stadt.",
+      "uz": "Bu shahardagi eng yaxshi do'kon."
+    }
+  ],
+  "common_mistakes": [
+    {
+      "wrong": "Tom ist größer wie Anna.",
+      "right": "Tom ist größer als Anna.",
+      "why": "Komparativdan keyin als; wie — faqat so ... wie da."
+    },
+    {
+      "wrong": "mehr gut",
+      "right": "besser",
+      "why": "gut nomuntazam: gut – besser – am besten."
+    },
+    {
+      "wrong": "am billigste",
+      "right": "am billigsten",
+      "why": "am bilan doim -sten."
+    },
+    {
+      "wrong": "teuerer",
+      "right": "teurer",
+      "why": "teuer komparativda e tushib qoladi: teurer."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "g-comparison-e01",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "shopping",
+      "grammar_topic": "g-comparison",
+      "difficulty": 1,
+      "question": "Komparativ shaklini yozing: billig → ___",
+      "prompt_de": "billig",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "billiger",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "billig + er = billiger.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-comparison-e02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "general",
+      "grammar_topic": "g-comparison",
+      "difficulty": 1,
+      "question": "Komparativ shaklini yozing: gut → ___",
+      "prompt_de": "gut",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "besser",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "gut nomuntazam: gut – besser – am besten.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-comparison-e03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "city",
+      "grammar_topic": "g-comparison",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: \"Samarkand ist älter ___ Taschkent.\"",
+      "prompt_de": "Samarkand ist älter ___ Taschkent.",
+      "options": [
+        "als",
+        "wie",
+        "von"
+      ],
+      "pairs": null,
+      "correct_answer": "als",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Komparativdan keyin als.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-comparison-e04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-comparison",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: \"Anna ist so groß ___ ihre Mutter.\"",
+      "prompt_de": "Anna ist so groß ___ ihre Mutter.",
+      "options": [
+        "wie",
+        "als",
+        "so"
+      ],
+      "pairs": null,
+      "correct_answer": "wie",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Tenglik: so ... wie.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-comparison-e05",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "weather",
+      "grammar_topic": "g-comparison",
+      "difficulty": 3,
+      "question": "Superlativni yozing (kalt): \"Im Januar ist es am ___.\"",
+      "prompt_de": "Im Januar ist es am ___.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "kältesten",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "kalt – kälter – am kältesten (-t bilan tugagani uchun -esten, umlaut bilan).",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-comparison-e06",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-comparison",
+      "difficulty": 2,
+      "question": "So'zlardan gap tuzing: \"Men qahvadan ko'ra choyni ko'proq yoqtiraman.\"",
+      "prompt_de": null,
+      "options": [
+        "Kaffee",
+        "als",
+        "Tee",
+        "lieber",
+        "trinke",
+        "Ich"
+      ],
+      "pairs": null,
+      "correct_answer": "Ich trinke lieber Tee als Kaffee.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "gern – lieber; taqqoslash als bilan.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-comparison-e07",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "technology",
+      "grammar_topic": "g-comparison",
+      "difficulty": 3,
+      "question": "Xato so'zni toping: \"Dieser Laptop ist teuerer als mein Laptop.\"",
+      "prompt_de": "Dieser Laptop ist teuerer als mein Laptop.",
+      "options": [
+        "Dieser",
+        "Laptop",
+        "ist",
+        "teuerer",
+        "als",
+        "mein"
+      ],
+      "pairs": null,
+      "correct_answer": "teuerer",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "teuer → teurer (e tushib qoladi).",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

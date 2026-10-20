@@ -1,0 +1,837 @@
+{
+  "id": "a1-m09-l2",
+  "version": 1,
+  "level": "A1",
+  "module": 9,
+  "order": 2,
+  "title": "Mebellar: es gibt",
+  "title_de": "Was gibt es in der Wohnung?",
+  "goal": "Dars oxirida 13 ta mebel va uy jihozini artikli bilan aytasiz hamda \"Es gibt einen/eine/ein ...\" va \"Gibt es ...?\" bilan xonada nima bor-yo'qligini tasvirlaysiz.",
+  "skill_focus": [
+    "grammar",
+    "vocabulary",
+    "writing"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "\"Es gibt\" — \"... bor\" degani. U biror joyda nima borligini aytish uchun ishlatiladi. es gibt dan keyin Akkusativ keladi (7-moduldagi kabi): Es gibt einen Tisch. Es gibt eine Lampe. Es gibt ein Bett."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Jins",
+        "Bor",
+        "Yo'q",
+        "Savol"
+      ],
+      "rows": [
+        [
+          "der",
+          "Es gibt einen Schrank.",
+          "Es gibt keinen Schrank.",
+          "Gibt es einen Schrank?"
+        ],
+        [
+          "die",
+          "Es gibt eine Lampe.",
+          "Es gibt keine Lampe.",
+          "Gibt es eine Lampe?"
+        ],
+        [
+          "das",
+          "Es gibt ein Sofa.",
+          "Es gibt kein Sofa.",
+          "Gibt es ein Sofa?"
+        ],
+        [
+          "ko'plik",
+          "Es gibt zwei Stühle.",
+          "Es gibt keine Stühle.",
+          "Gibt es Stühle?"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "\"es gibt\" doim birlikda qoladi, ko'plik ot bilan ham: Es gibt drei Stühle (\"es geben\" emas!)."
+    },
+    {
+      "type": "p",
+      "text": "\"haben\" va \"es gibt\" farqi: Ich habe einen Tisch — mening stolim bor (egalik). Im Zimmer gibt es einen Tisch — xonada stol bor (mavjudlik). Gap joy bilan boshlansa, fe'l 2-o'rinda qoladi: Im Zimmer gibt es ..."
+    },
+    {
+      "type": "tip",
+      "text": "\"im Zimmer\" (xonada), \"in der Küche\" (oshxonada), \"im Bad\" (hammomda) — hozircha tayyor ibora sifatida yodlang. Keyingi darsda joy ifodalarini batafsil o'rganamiz."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-der-tisch",
+      "de": "Tisch",
+      "uz": "stol",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Tische",
+      "forms": null,
+      "example_de": "In der Küche gibt es einen Tisch.",
+      "example_uz": "Oshxonada stol bor.",
+      "topic": "home"
+    },
+    {
+      "id": "v-das-bett",
+      "de": "Bett",
+      "uz": "karavot",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Betten",
+      "forms": null,
+      "example_de": "Das Bett ist neu.",
+      "example_uz": "Karavot yangi.",
+      "topic": "home"
+    },
+    {
+      "id": "v-der-schrank",
+      "de": "Schrank",
+      "uz": "shkaf",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Schränke",
+      "forms": null,
+      "example_de": "Der Schrank ist groß.",
+      "example_uz": "Shkaf katta.",
+      "topic": "home"
+    },
+    {
+      "id": "v-das-sofa",
+      "de": "Sofa",
+      "uz": "divan",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Sofas",
+      "forms": null,
+      "example_de": "Im Wohnzimmer gibt es ein Sofa.",
+      "example_uz": "Mehmonxonada divan bor.",
+      "topic": "home"
+    },
+    {
+      "id": "v-die-lampe",
+      "de": "Lampe",
+      "uz": "chiroq, lampa",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Lampen",
+      "forms": null,
+      "example_de": "Die Lampe ist kaputt.",
+      "example_uz": "Chiroq buzilgan.",
+      "topic": "home"
+    },
+    {
+      "id": "v-das-regal",
+      "de": "Regal",
+      "uz": "javon, tokcha",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Regale",
+      "forms": null,
+      "example_de": "Meine Bücher sind im Regal.",
+      "example_uz": "Kitoblarim javonda.",
+      "topic": "home"
+    },
+    {
+      "id": "v-der-teppich",
+      "de": "Teppich",
+      "uz": "gilam",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Teppiche",
+      "forms": null,
+      "example_de": "Der Teppich ist aus Usbekistan.",
+      "example_uz": "Gilam O'zbekistondan.",
+      "topic": "home"
+    },
+    {
+      "id": "v-der-kühlschrank",
+      "de": "Kühlschrank",
+      "uz": "muzlatgich",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Kühlschränke",
+      "forms": null,
+      "example_de": "Gibt es Milch im Kühlschrank?",
+      "example_uz": "Muzlatgichda sut bormi?",
+      "topic": "home"
+    },
+    {
+      "id": "v-der-herd",
+      "de": "Herd",
+      "uz": "plita (oshxona)",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Herde",
+      "forms": null,
+      "example_de": "Der Herd ist alt.",
+      "example_uz": "Plita eski.",
+      "topic": "home"
+    },
+    {
+      "id": "v-die-waschmaschine",
+      "de": "Waschmaschine",
+      "uz": "kir yuvish mashinasi",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Waschmaschinen",
+      "forms": null,
+      "example_de": "Die Waschmaschine ist im Bad.",
+      "example_uz": "Kir yuvish mashinasi hammomda.",
+      "topic": "home"
+    },
+    {
+      "id": "v-das-fenster",
+      "de": "Fenster",
+      "uz": "deraza",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Fenster",
+      "forms": null,
+      "example_de": "Das Zimmer hat zwei Fenster.",
+      "example_uz": "Xonada ikkita deraza bor.",
+      "topic": "home"
+    }
+  ],
+  "review_vocabulary": [
+    "v-die-küche",
+    "v-das-zimmer",
+    "v-das-wohnzimmer",
+    "v-das-schlafzimmer",
+    "v-das-bad",
+    "v-die-wohnung",
+    "v-hell",
+    "v-die-miete",
+    "v-brauchen",
+    "v-kaufen",
+    "v-der-stuhl",
+    "v-die-tür"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-akkusativ",
+      "rule": "\"es gibt\" — \"... bor\". Undan keyin ot Akkusativda turadi: erkak jinsi einen/keinen; die va das o'zgarmaydi. Savol: Gibt es ...?",
+      "when": "Xona, uy, shahar yoki boshqa joyda nima borligi yoki yo'qligini aytganda.",
+      "structure": "(Joy +) gibt es + einen/eine/ein + ot: Im Zimmer gibt es einen Schrank.\nEs gibt + keinen/keine/kein + ot: Es gibt keinen Herd.\nSavol: Gibt es eine Waschmaschine?",
+      "examples": [
+        {
+          "de": "In der Küche gibt es einen Kühlschrank.",
+          "uz": "Oshxonada muzlatgich bor."
+        },
+        {
+          "de": "Gibt es im Bad eine Waschmaschine?",
+          "uz": "Hammomda kir yuvish mashinasi bormi?"
+        },
+        {
+          "de": "Im Wohnzimmer gibt es kein Sofa.",
+          "uz": "Mehmonxonada divan yo'q."
+        },
+        {
+          "de": "Es gibt zwei Fenster.",
+          "uz": "Ikkita deraza bor."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Es gibt ein Tisch.",
+          "right": "Es gibt einen Tisch.",
+          "why": "es gibt dan keyin Akkusativ: der Tisch → einen Tisch."
+        },
+        {
+          "wrong": "Es geben drei Stühle.",
+          "right": "Es gibt drei Stühle.",
+          "why": "\"es gibt\" har doim birlikda, ko'plik ot bilan ham."
+        },
+        {
+          "wrong": "Im Zimmer es gibt ein Bett.",
+          "right": "Im Zimmer gibt es ein Bett.",
+          "why": "Gap joy bilan boshlansa, fe'l (gibt) 2-o'rinda qoladi, \"es\" undan keyin keladi."
+        }
+      ],
+      "check": [
+        "a1-m09-l2-e03",
+        "a1-m09-l2-e04",
+        "a1-m09-l2-e05",
+        "a1-m09-l2-e06",
+        "a1-m09-l2-e10"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Kvartirani ko'rish",
+    "lines": [
+      {
+        "speaker": "Vermieter",
+        "de": "Hier ist die Küche. Es gibt einen Herd und einen Kühlschrank.",
+        "uz": "Mana oshxona. Plita va muzlatgich bor."
+      },
+      {
+        "speaker": "Sardor",
+        "de": "Gibt es auch eine Waschmaschine?",
+        "uz": "Kir yuvish mashinasi ham bormi?"
+      },
+      {
+        "speaker": "Vermieter",
+        "de": "Ja, die Waschmaschine ist im Bad.",
+        "uz": "Ha, kir yuvish mashinasi hammomda."
+      },
+      {
+        "speaker": "Sardor",
+        "de": "Und im Schlafzimmer? Gibt es ein Bett?",
+        "uz": "Yotoqxonada-chi? Karavot bormi?"
+      },
+      {
+        "speaker": "Vermieter",
+        "de": "Nein, im Schlafzimmer gibt es kein Bett. Aber es gibt einen Schrank.",
+        "uz": "Yo'q, yotoqxonada karavot yo'q. Lekin shkaf bor."
+      },
+      {
+        "speaker": "Sardor",
+        "de": "Okay. Das Zimmer hat zwei Fenster. Es ist sehr hell!",
+        "uz": "Yaxshi. Xonada ikkita deraza bor. Juda yorug'!"
+      }
+    ],
+    "questions": [
+      "a1-m09-l2-e07",
+      "a1-m09-l2-e08"
+    ]
+  },
+  "situation": {
+    "title": "Talabalar yotoqxonasi",
+    "context_uz": "Siz talabalar yotoqxonasida (Studentenwohnheim) xona ijaraga olmoqchisiz va telefonda administrator Schulz xonim bilan gaplashyapsiz.",
+    "lines": [
+      {
+        "speaker": "Siz",
+        "de": "Guten Tag! Ich habe eine Frage. Gibt es im Zimmer ein Bett?",
+        "uz": "Assalomu alaykum! Bir savolim bor. Xonada karavot bormi?"
+      },
+      {
+        "speaker": "Frau Schulz",
+        "de": "Ja, es gibt ein Bett, einen Tisch und einen Stuhl.",
+        "uz": "Ha, karavot, stol va stul bor."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Gibt es auch einen Kühlschrank?",
+        "uz": "Muzlatgich ham bormi?"
+      },
+      {
+        "speaker": "Frau Schulz",
+        "de": "Nein, im Zimmer gibt es keinen Kühlschrank. Aber in der Küche gibt es zwei Kühlschränke.",
+        "uz": "Yo'q, xonada muzlatgich yo'q. Lekin oshxonada ikkita muzlatgich bor."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Und was kostet das Zimmer?",
+        "uz": "Xona qancha turadi?"
+      },
+      {
+        "speaker": "Frau Schulz",
+        "de": "Die Miete ist 350 Euro im Monat.",
+        "uz": "Ijara haqi oyiga 350 evro."
+      }
+    ],
+    "task_uz": "Siz ham xona haqida kamida 3 ta savol bering \"Gibt es ...?\" bilan (masalan: Schrank, Regal, Waschmaschine). Sherigingiz \"Ja, es gibt ...\" yoki \"Nein, es gibt keinen/keine/kein ...\" bilan javob bersin."
+  },
+  "exercises": [
+    {
+      "id": "a1-m09-l2-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Mebellarni juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "Tisch",
+          "stol"
+        ],
+        [
+          "Stuhl",
+          "stul"
+        ],
+        [
+          "Bett",
+          "karavot"
+        ],
+        [
+          "Schrank",
+          "shkaf"
+        ],
+        [
+          "Kühlschrank",
+          "muzlatgich"
+        ],
+        [
+          "Fenster",
+          "deraza"
+        ]
+      ],
+      "correct_answer": {
+        "Tisch": "stol",
+        "Stuhl": "stul",
+        "Bett": "karavot",
+        "Schrank": "shkaf",
+        "Kühlschrank": "muzlatgich",
+        "Fenster": "deraza"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Tisch — stol, Stuhl — stul, Bett — karavot, Schrank — shkaf, Kühlschrank — muzlatgich, Fenster — deraza.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l2-e02",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Artiklni tanlang: ___ Sofa",
+      "prompt_de": "___ Sofa",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "das",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "das Sofa — o'rta jins, ko'pligi die Sofas.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l2-e03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-akkusativ",
+      "difficulty": 1,
+      "question": "To'g'ri variantni tanlang: Im Wohnzimmer gibt es ___ Teppich.",
+      "prompt_de": "Im Wohnzimmer gibt es ___ Teppich.",
+      "options": [
+        "ein",
+        "einen",
+        "eine"
+      ],
+      "pairs": null,
+      "correct_answer": "einen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Teppich, es gibt + Akkusativ → einen Teppich.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l2-e04",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-akkusativ",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: Es ___ zwei Stühle in der Küche.",
+      "prompt_de": "Es ___ zwei Stühle in der Küche.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "gibt",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"es gibt\" ko'plik ot bilan ham birlikda qoladi.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l2-e05",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-akkusativ",
+      "difficulty": 2,
+      "question": "So'zlarni tartiblang: \"Oshxonada plita bor.\"",
+      "prompt_de": null,
+      "options": [
+        "es",
+        "Küche",
+        "gibt",
+        "einen",
+        "Herd",
+        "der",
+        "In"
+      ],
+      "pairs": null,
+      "correct_answer": "In der Küche gibt es einen Herd",
+      "accepted_answers": [
+        "Es gibt einen Herd in der Küche",
+        "Einen Herd gibt es in der Küche"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Joy birinchi o'rinda bo'lsa, fe'l (gibt) 2-o'rinda, keyin es. \"Es gibt einen Herd in der Küche\" ham to'g'ri.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l2-e06",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-akkusativ",
+      "difficulty": 1,
+      "question": "Inkor qiling: Im Bad gibt es ___ Waschmaschine.",
+      "prompt_de": "Im Bad gibt es ___ Waschmaschine.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "keine",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Waschmaschine → keine Waschmaschine.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l2-e07",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni tinglang. Yotoqxonada nima bor?",
+      "prompt_de": null,
+      "options": [
+        "Shkaf",
+        "Karavot",
+        "Kir yuvish mashinasi"
+      ],
+      "pairs": null,
+      "correct_answer": "Shkaf",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Im Schlafzimmer gibt es kein Bett. Aber es gibt einen Schrank.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Hier ist die Küche. Es gibt einen Herd und einen Kühlschrank. Gibt es auch eine Waschmaschine? Ja, die Waschmaschine ist im Bad. Und im Schlafzimmer? Gibt es ein Bett? Nein, im Schlafzimmer gibt es kein Bett. Aber es gibt einen Schrank. Okay. Das Zimmer hat zwei Fenster. Es ist sehr hell!"
+    },
+    {
+      "id": "a1-m09-l2-e08",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni tinglang. Kir yuvish mashinasi qayerda?",
+      "prompt_de": null,
+      "options": [
+        "Hammomda",
+        "Oshxonada",
+        "Yotoqxonada"
+      ],
+      "pairs": null,
+      "correct_answer": "Hammomda",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Die Waschmaschine ist im Bad.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Hier ist die Küche. Es gibt einen Herd und einen Kühlschrank. Gibt es auch eine Waschmaschine? Ja, die Waschmaschine ist im Bad. Und im Schlafzimmer? Gibt es ein Bett? Nein, im Schlafzimmer gibt es kein Bett. Aber es gibt einen Schrank. Okay. Das Zimmer hat zwei Fenster. Es ist sehr hell!"
+    },
+    {
+      "id": "a1-m09-l2-e09",
+      "version": 1,
+      "type": "plural",
+      "skill": "vocabulary",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Ko'plik shaklini yozing: der Stuhl → die ___",
+      "prompt_de": "der Stuhl",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Stühle",
+      "accepted_answers": [
+        "die Stühle"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Stuhl → die Stühle (u → ü, -e).",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l2-e10",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-akkusativ",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Xonada ikkita deraza bor.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Im Zimmer gibt es zwei Fenster.",
+      "accepted_answers": [
+        "Es gibt zwei Fenster im Zimmer.",
+        "Das Zimmer hat zwei Fenster."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Joyda nima borligi — es gibt. Joy bilan boshlasak: Im Zimmer gibt es ...",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l2-e11",
+      "version": 1,
+      "type": "short_text",
+      "skill": "writing",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Xonangizni tasvirlang: unda nima bor va nima yo'q? Kamida 4 gap yozing, \"es gibt\" ishlating.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 20,
+        "required_words": [
+          "gibt"
+        ],
+        "sample": "In meinem Zimmer gibt es ein Bett, einen Tisch und einen Stuhl. Es gibt auch einen Schrank. Es gibt kein Sofa. Das Zimmer hat ein Fenster und es ist hell."
+      },
+      "hint": null,
+      "explanation": "Namuna: \"In meinem Zimmer gibt es ein Bett, einen Tisch und einen Stuhl. Es gibt auch einen Schrank. Es gibt kein Sofa.\" Erkak jinsdagi so'zlarda einen/keinen.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l2-e12",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang va yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Gibt es einen Kühlschrank?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Savol fe'l bilan boshlanadi: Gibt es ...? Kühlschrank — ü bilan, katta harf.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": "Gibt es einen Kühlschrank?"
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a1-m09-l2-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-akkusativ",
+      "difficulty": 1,
+      "question": "To'g'ri variantni tanlang: Es gibt ___ Lampe.",
+      "prompt_de": "Es gibt ___ Lampe.",
+      "options": [
+        "ein",
+        "eine",
+        "einen"
+      ],
+      "pairs": null,
+      "correct_answer": "eine",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Lampe — ayol jinsi, Akkusativda ham eine.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l2-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-akkusativ",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: Gibt ___ hier eine Waschmaschine?",
+      "prompt_de": "Gibt ___ hier eine Waschmaschine?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "es",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Savol: Gibt es ...? — \"es\" tushib qolmaydi.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l2-t03",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Artiklni tanlang: ___ Schrank",
+      "prompt_de": "___ Schrank",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "der",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Schrank — erkak jinsi.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l2-t04",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-akkusativ",
+      "difficulty": 1,
+      "question": "Xato so'zni toping: \"Es gibt ein Kühlschrank.\"",
+      "prompt_de": "Es gibt ein Kühlschrank.",
+      "options": [
+        "Es",
+        "gibt",
+        "ein",
+        "Kühlschrank"
+      ],
+      "pairs": null,
+      "correct_answer": "ein",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: \"Es gibt einen Kühlschrank.\" der Kühlschrank → einen.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l2-t05",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Im Wohnzimmer gibt es ein Sofa.\"",
+      "prompt_de": "Im Wohnzimmer gibt es ein Sofa.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Mehmonxonada divan bor.",
+      "accepted_answers": [
+        "Mehmonxonada bitta divan bor",
+        "Yashash xonasida divan bor"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "es gibt — ... bor.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l2-t06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Oshxonada nima bor?",
+      "prompt_de": null,
+      "options": [
+        "Ikkita stul",
+        "Stol",
+        "Divan"
+      ],
+      "pairs": null,
+      "correct_answer": "Ikkita stul",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"keinen Tisch, aber ... zwei Stühle\" — stol yo'q, ikkita stul bor.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "In der Küche gibt es keinen Tisch, aber es gibt zwei Stühle."
+    },
+    {
+      "id": "a1-m09-l2-t07",
+      "version": 1,
+      "type": "plural",
+      "skill": "vocabulary",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Ko'plik shaklini yozing: das Fenster → die ___",
+      "prompt_de": "das Fenster",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Fenster",
+      "accepted_answers": [
+        "die Fenster"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "-er bilan tugaydigan ko'p otlar ko'plikda o'zgarmaydi: das Fenster → die Fenster.",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

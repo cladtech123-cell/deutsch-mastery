@@ -1,0 +1,826 @@
+{
+  "id": "a2-m21-l3",
+  "version": 1,
+  "level": "A2",
+  "module": 21,
+  "order": 3,
+  "title": "O'rganish tajribam: weil, dass, wenn",
+  "title_de": "Meine Lernerfahrung: weil, dass, wenn",
+  "goal": "Dars oxirida o'z til o'rganish tajribangiz haqida weil, dass va wenn bilan gapira va yoza olasiz, do'stingizga \"Wenn du ..., ...\" bilan maslahat berasiz.",
+  "skill_focus": [
+    "grammar",
+    "writing",
+    "listening"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "\"wenn\" — \"agar ...-sa\" yoki \"har safar ...-ganda\". U ham ergash gap bog'lovchisi: fe'l oxirga ketadi. wenn-gap gap boshida tursa, asosiy gap fe'l bilan boshlanadi: Wenn ich Zeit habe, lerne ich. Ikki fe'l vergul atrofida yonma-yon turadi: \"habe, lerne\"."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Bog'lovchi",
+        "Ma'nosi",
+        "Misol"
+      ],
+      "rows": [
+        [
+          "weil",
+          "chunki (sabab)",
+          "Ich lerne viel, weil ich eine Prüfung habe."
+        ],
+        [
+          "dass",
+          "... deb (fikr, umid)",
+          "Ich glaube, dass ich Fortschritte mache."
+        ],
+        [
+          "wenn",
+          "agar ...-sa / ...-ganda",
+          "Wenn ich müde bin, höre ich Podcasts."
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Uchalasida qoida bir xil: ergash gapda tuslangan fe'l eng oxirida. Har qanday ergash gap ham gap boshida tura oladi: Weil ich viel geübt habe, habe ich die Prüfung bestanden."
+    },
+    {
+      "type": "tip",
+      "text": "Esda qoladigan qoida: \"fe'l — vergul — fe'l\". Wenn ich Zeit habe, lerne ich Deutsch. Ergash gap oldinda bo'lsa, vergul ikki fe'lni ajratib turadi."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-der-fortschritt",
+      "de": "Fortschritt",
+      "uz": "rivojlanish, yutuq (o'qishda)",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Fortschritte",
+      "forms": null,
+      "example_de": "Du machst große Fortschritte!",
+      "example_uz": "Katta yutuqlarga erishyapsan!",
+      "topic": "language-learning"
+    },
+    {
+      "id": "v-die-motivation",
+      "de": "Motivation",
+      "uz": "motivatsiya, ishtiyoq",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Motivationen",
+      "forms": null,
+      "example_de": "Motivation ist beim Lernen sehr wichtig.",
+      "example_uz": "O'qishda motivatsiya juda muhim.",
+      "topic": "language-learning"
+    },
+    {
+      "id": "v-der-erfolg",
+      "de": "Erfolg",
+      "uz": "muvaffaqiyat",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Erfolge",
+      "forms": null,
+      "example_de": "Viel Erfolg bei der Prüfung!",
+      "example_uz": "Imtihonda omad (muvaffaqiyat) tilayman!",
+      "topic": "education"
+    },
+    {
+      "id": "v-das-lehrbuch",
+      "de": "Lehrbuch",
+      "uz": "darslik",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Lehrbücher",
+      "forms": null,
+      "example_de": "Das Lehrbuch hat viele Übungen.",
+      "example_uz": "Darslikda ko'p mashq bor.",
+      "topic": "education"
+    },
+    {
+      "id": "v-das-fach",
+      "de": "Fach",
+      "uz": "fan (o'quv predmeti)",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Fächer",
+      "forms": null,
+      "example_de": "Mathe war mein Lieblingsfach.",
+      "example_uz": "Matematika sevimli fanim edi.",
+      "topic": "education"
+    },
+    {
+      "id": "v-die-volkshochschule",
+      "de": "Volkshochschule",
+      "uz": "xalq oliy maktabi (kattalar uchun kurslar markazi)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Volkshochschulen",
+      "forms": null,
+      "example_de": "An der Volkshochschule gibt es günstige Deutschkurse.",
+      "example_uz": "Xalq oliy maktabida arzon nemis tili kurslari bor.",
+      "topic": "education"
+    },
+    {
+      "id": "v-ausleihen",
+      "de": "ausleihen",
+      "uz": "ijaraga (vaqtincha) olmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "ausgeliehen",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "leiht aus",
+        "praeteritum": "lieh aus"
+      },
+      "example_de": "Ich leihe mir ein Lehrbuch aus.",
+      "example_uz": "Bitta darslikni vaqtincha olaman.",
+      "topic": "education"
+    },
+    {
+      "id": "v-durchfallen",
+      "de": "durchfallen",
+      "uz": "(imtihondan) yiqilmoq, o'tolmaslik",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "durchgefallen",
+        "perfekt_aux": "sein",
+        "praesens_3sg": "fällt durch",
+        "praeteritum": "fiel durch"
+      },
+      "example_de": "Er ist in der Prüfung durchgefallen.",
+      "example_uz": "U imtihondan yiqildi.",
+      "topic": "education"
+    },
+    {
+      "id": "v-wenn",
+      "de": "wenn",
+      "uz": "agar ...-sa; ...-ganda (fe'l oxirga ketadi)",
+      "pos": "conjunction",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Wenn ich Zeit habe, lese ich.",
+      "example_uz": "Vaqtim bo'lsa, kitob o'qiyman.",
+      "topic": "language-learning"
+    },
+    {
+      "id": "v-motiviert",
+      "de": "motiviert",
+      "uz": "ishtiyoqli, motivatsiyali",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Heute bin ich sehr motiviert.",
+      "example_uz": "Bugun ishtiyoqim juda baland.",
+      "topic": "language-learning"
+    },
+    {
+      "id": "v-schriftlich",
+      "de": "schriftlich",
+      "uz": "yozma",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Der schriftliche Teil war schwer.",
+      "example_uz": "Yozma qism qiyin edi.",
+      "topic": "education"
+    },
+    {
+      "id": "v-mündlich",
+      "de": "mündlich",
+      "uz": "og'zaki",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Die mündliche Prüfung ist am Freitag.",
+      "example_uz": "Og'zaki imtihon juma kuni.",
+      "topic": "education"
+    }
+  ],
+  "review_vocabulary": [
+    "v-kostenlos",
+    "v-üben",
+    "v-weil",
+    "v-deshalb",
+    "v-der-kursleiter",
+    "v-dass",
+    "v-nützlich",
+    "v-die-bibliothek"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-subordinate",
+      "rule": "wenn — shart yoki takrorlanadigan vaqt (agar ...-sa, ...-ganda). wenn-gapda fe'l oxirida. Ergash gap birinchi tursa, u butun gapning 1-o'rni hisoblanadi, shuning uchun asosiy gapning fe'li darhol keladi, ega esa fe'ldan keyin.",
+      "when": "Shart, odat va maslahat aytganda: Wenn du ... willst, musst du ...",
+      "structure": "Wenn + ega + ... + fe'l, + fe'l + ega + ...   yoki   Asosiy gap + , + wenn + ega + ... + fe'l.",
+      "examples": [
+        {
+          "de": "Wenn ich Zeit habe, lese ich deutsche Bücher.",
+          "uz": "Vaqtim bo'lsa, nemischa kitob o'qiyman."
+        },
+        {
+          "de": "Wenn du schneller lernen willst, musst du jeden Tag üben.",
+          "uz": "Tezroq o'rganmoqchi bo'lsang, har kuni mashq qilishing kerak."
+        },
+        {
+          "de": "Ich frage den Kursleiter, wenn ich etwas nicht verstehe.",
+          "uz": "Biror narsani tushunmasam, kurs o'qituvchisidan so'rayman."
+        },
+        {
+          "de": "Weil ich viel geübt habe, habe ich die Prüfung bestanden.",
+          "uz": "Ko'p mashq qilganim uchun imtihondan o'tdim."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Wenn ich Zeit habe, ich lerne Deutsch.",
+          "right": "Wenn ich Zeit habe, lerne ich Deutsch.",
+          "why": "Ergash gap 1-o'rinni egallaydi, keyin darhol fe'l keladi (o'zbek tilidan farqli)."
+        },
+        {
+          "wrong": "Wenn ich habe Zeit, lerne ich Deutsch.",
+          "right": "Wenn ich Zeit habe, lerne ich Deutsch.",
+          "why": "wenn-gapda fe'l (habe) oxirida."
+        },
+        {
+          "wrong": "Wann ich müde bin, höre ich Musik.",
+          "right": "Wenn ich müde bin, höre ich Musik.",
+          "why": "wann — savol so'zi (qachon?). Bog'lovchi — wenn."
+        }
+      ],
+      "check": [
+        "a2-m21-l3-e03",
+        "a2-m21-l3-e04",
+        "a2-m21-l3-e05",
+        "a2-m21-l3-e09"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Podkast: \"Mening nemis tilim\"",
+    "lines": [
+      {
+        "speaker": "Moderator",
+        "de": "Nodira, Sie sprechen sehr gut Deutsch. Wie haben Sie gelernt?",
+        "uz": "Nodira, siz nemischa juda yaxshi gapirasiz. Qanday o'rgangansiz?"
+      },
+      {
+        "speaker": "Nodira",
+        "de": "Am Anfang war es schwer. Bei meiner ersten Prüfung bin ich durchgefallen.",
+        "uz": "Boshida qiyin edi. Birinchi imtihonimda yiqilganman."
+      },
+      {
+        "speaker": "Moderator",
+        "de": "Oh! Und was haben Sie dann gemacht?",
+        "uz": "Oh! Keyin nima qildingiz?"
+      },
+      {
+        "speaker": "Nodira",
+        "de": "Ich habe jeden Tag eine Stunde gelernt. Wenn ich müde war, habe ich deutsche Serien gesehen.",
+        "uz": "Har kuni bir soat o'qidim. Charchaganimda nemischa seriallar ko'rardim."
+      },
+      {
+        "speaker": "Moderator",
+        "de": "Was war am wichtigsten für Sie?",
+        "uz": "Siz uchun eng muhimi nima bo'lgan?"
+      },
+      {
+        "speaker": "Nodira",
+        "de": "Ich glaube, dass die Motivation am wichtigsten ist. Man macht nicht jeden Tag Fortschritte, aber man darf nicht aufhören.",
+        "uz": "Menimcha, eng muhimi motivatsiya. Har kuni ham yutuq bo'lmaydi, lekin to'xtab qolmaslik kerak."
+      },
+      {
+        "speaker": "Moderator",
+        "de": "Und die zweite Prüfung?",
+        "uz": "Ikkinchi imtihon-chi?"
+      },
+      {
+        "speaker": "Nodira",
+        "de": "Die habe ich bestanden! Im mündlichen Teil hatte ich sogar 95 Punkte.",
+        "uz": "Undan o'tdim! Og'zaki qismda hatto 95 ball oldim."
+      }
+    ],
+    "questions": [
+      "a2-m21-l3-e06",
+      "a2-m21-l3-e07"
+    ]
+  },
+  "situation": {
+    "title": "Do'stga maslahat",
+    "context_uz": "Do'stingiz Sardor imtihondan yiqildi va nemis tilini tashlamoqchi. Siz unga o'z tajribangizdan maslahat berasiz.",
+    "lines": [
+      {
+        "speaker": "Sardor",
+        "de": "Ich bin in der Prüfung durchgefallen. Ich glaube, dass Deutsch zu schwer für mich ist.",
+        "uz": "Imtihondan yiqildim. Nemis tili men uchun juda qiyin deb o'ylayman."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Das tut mir leid. Aber das ist normal! Ich bin auch einmal durchgefallen.",
+        "uz": "Afsus. Lekin bu normal holat! Men ham bir marta yiqilganman."
+      },
+      {
+        "speaker": "Sardor",
+        "de": "Wirklich? Was hast du dann gemacht?",
+        "uz": "Rostdanmi? Keyin nima qilding?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Wenn ich Zeit hatte, bin ich in die Bibliothek gegangen. Dort kann man Lehrbücher kostenlos ausleihen.",
+        "uz": "Vaqtim bo'lsa, kutubxonaga borardim. U yerda darsliklarni bepul olib turish mumkin."
+      },
+      {
+        "speaker": "Sardor",
+        "de": "Gute Idee. Und was war schwer für dich?",
+        "uz": "Yaxshi fikr. Sen uchun nima qiyin edi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Der schriftliche Teil. Deshalb habe ich jeden Tag kurze Texte geschrieben. Du schaffst das!",
+        "uz": "Yozma qism. Shuning uchun har kuni qisqa matnlar yozdim. Sen uddalaysan!"
+      }
+    ],
+    "task_uz": "Do'stingizga 4–5 gapli maslahat bering: \"Wenn du ..., musst/kannst du ...\". Kamida bitta weil va bitta dass ishlating."
+  },
+  "exercises": [
+    {
+      "id": "a2-m21-l3-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "education",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemischa so'zni o'zbekcha ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "der Fortschritt",
+          "rivojlanish"
+        ],
+        [
+          "der Erfolg",
+          "muvaffaqiyat"
+        ],
+        [
+          "die Bibliothek",
+          "kutubxona"
+        ],
+        [
+          "das Lehrbuch",
+          "darslik"
+        ],
+        [
+          "das Fach",
+          "fan"
+        ]
+      ],
+      "correct_answer": {
+        "der Fortschritt": "rivojlanish",
+        "der Erfolg": "muvaffaqiyat",
+        "die Bibliothek": "kutubxona",
+        "das Lehrbuch": "darslik",
+        "das Fach": "fan"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Fortschritt — rivojlanish, Erfolg — muvaffaqiyat, Bibliothek — kutubxona, Lehrbuch — darslik, Fach — fan.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m21-l3-e02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "education",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "\"og'zaki\" nemischa qanday?",
+      "prompt_de": null,
+      "options": [
+        "mündlich",
+        "schriftlich",
+        "nützlich"
+      ],
+      "pairs": null,
+      "correct_answer": "mündlich",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "der Mund — og'iz.",
+      "explanation": "mündlich — og'zaki (der Mund — og'iz), schriftlich — yozma, nützlich — foydali.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m21-l3-e03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "language-learning",
+      "grammar_topic": "g-subordinate",
+      "difficulty": 1,
+      "question": "Bog'lovchini yozing: \"___ ich müde bin, höre ich Podcasts.\"",
+      "prompt_de": "___ ich müde bin, höre ich Podcasts.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Wenn",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Shart/odat — wenn (charchaganimda). Savol so'zi \"wann\" bu yerda mos emas.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m21-l3-e04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "language-learning",
+      "grammar_topic": "g-subordinate",
+      "difficulty": 1,
+      "question": "To'g'ri davomni tanlang: \"Wenn ich Zeit habe, ...\"",
+      "prompt_de": null,
+      "options": [
+        "lerne ich Vokabeln",
+        "ich lerne Vokabeln",
+        "ich Vokabeln lerne"
+      ],
+      "pairs": null,
+      "correct_answer": "lerne ich Vokabeln",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "wenn-gapdan keyin asosiy gap fe'l bilan boshlanadi: lerne ich.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m21-l3-e05",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "language-learning",
+      "grammar_topic": "g-subordinate",
+      "difficulty": 2,
+      "question": "Gapni yakunlang: \"Wenn ich Zeit habe, ...\" (nemischa kitob o'qiyman)",
+      "prompt_de": null,
+      "options": [
+        "Bücher",
+        "ich",
+        "lese",
+        "deutsche"
+      ],
+      "pairs": null,
+      "correct_answer": "lese ich deutsche Bücher",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "wenn-gap 1-o'rinda — demak fe'l (lese) darhol keladi, keyin ega (ich).",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m21-l3-e06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "education",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Nodiraning birinchi imtihoni qanday bo'ldi?",
+      "prompt_de": null,
+      "options": [
+        "U imtihondan yiqildi",
+        "U imtihondan a'lo o'tdi",
+        "U imtihonga bormadi"
+      ],
+      "pairs": null,
+      "correct_answer": "U imtihondan yiqildi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Bei meiner ersten Prüfung bin ich durchgefallen.\" — durchfallen: yiqilmoq.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Am Anfang war es schwer. Bei meiner ersten Prüfung bin ich durchgefallen."
+    },
+    {
+      "id": "a2-m21-l3-e07",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "language-learning",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Nodiraning fikricha eng muhimi nima?",
+      "prompt_de": null,
+      "options": [
+        "Motivatsiya",
+        "Grammatika",
+        "Yaxshi darslik"
+      ],
+      "pairs": null,
+      "correct_answer": "Motivatsiya",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"dass die Motivation am wichtigsten ist\".",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Ich glaube, dass die Motivation am wichtigsten ist."
+    },
+    {
+      "id": "a2-m21-l3-e08",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "education",
+      "grammar_topic": "g-perfekt-aux",
+      "difficulty": 2,
+      "question": "Yordamchi fe'lni yozing (Perfekt): Ich ___ in der Prüfung durchgefallen.",
+      "prompt_de": "Ich ___ in der Prüfung durchgefallen.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "bin",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "durchfallen holat o'zgarishi — Perfekt sein bilan: ich bin durchgefallen.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m21-l3-e09",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "education",
+      "grammar_topic": "g-subordinate",
+      "difficulty": 1,
+      "question": "Xato so'zni toping: \"Wann ich Zeit habe, gehe ich in die Bibliothek.\"",
+      "prompt_de": "Wann ich Zeit habe, gehe ich in die Bibliothek.",
+      "options": [
+        "Wann",
+        "Zeit",
+        "habe",
+        "gehe",
+        "Bibliothek"
+      ],
+      "pairs": null,
+      "correct_answer": "Wann",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: \"Wenn ich Zeit habe, ...\" wann — savol so'zi, bog'lovchi — wenn.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m21-l3-e10",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "education",
+      "grammar_topic": "g-subordinate",
+      "difficulty": 3,
+      "question": "Nemis tiliga tarjima qiling: \"Vaqtim bo'lsa, kutubxonaga boraman.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Wenn ich Zeit habe, gehe ich in die Bibliothek.",
+      "accepted_answers": [
+        "Ich gehe in die Bibliothek, wenn ich Zeit habe."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "wenn-gap boshida — keyin fe'l (gehe) + ega (ich). Teskari tartib ham to'g'ri.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m21-l3-e11",
+      "version": 1,
+      "type": "short_text",
+      "skill": "writing",
+      "topic": "language-learning",
+      "grammar_topic": null,
+      "difficulty": 3,
+      "question": "\"Mein Deutsch\": nemis tilini o'rganish tajribangiz haqida 5–6 gap yozing: qachon boshladingiz, nega (weil), qanday o'rganasiz (wenn), nima deb o'ylaysiz (dass).",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 35,
+        "required_words": [
+          "weil",
+          "dass"
+        ],
+        "sample": "Ich lerne seit einem Jahr Deutsch. Ich lerne Deutsch, weil ich in Deutschland arbeiten möchte. Wenn ich Zeit habe, sehe ich deutsche Serien. Am Anfang war die Aussprache schwer, aber jetzt ist sie besser. Ich glaube, dass ich jeden Monat Fortschritte mache. Ich hoffe, dass ich bald die A2-Prüfung bestehe."
+      },
+      "hint": null,
+      "explanation": "Yaxshi matnda weil, dass va wenn gaplarida fe'l oxirda turadi; o'tmish uchun Perfekt va war ishlatiladi.",
+      "error_type": "vocabulary",
+      "points": 3,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a2-m21-l3-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "weather",
+      "grammar_topic": "g-subordinate",
+      "difficulty": 1,
+      "question": "To'g'ri variantni tanlang: \"Wenn es regnet, ___ zu Hause.\"",
+      "prompt_de": null,
+      "options": [
+        "bleibe ich",
+        "ich bleibe",
+        "ich bleiben"
+      ],
+      "pairs": null,
+      "correct_answer": "bleibe ich",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "wenn-gapdan keyin: fe'l + ega (bleibe ich).",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m21-l3-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "education",
+      "grammar_topic": "g-subordinate",
+      "difficulty": 1,
+      "question": "Bog'lovchini yozing: \"Ich frage die Lehrerin, ___ ich etwas nicht verstehe.\"",
+      "prompt_de": "Ich frage die Lehrerin, ___ ich etwas nicht verstehe.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "wenn",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Har safar tushunmasam — wenn.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m21-l3-t03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "language-learning",
+      "grammar_topic": "g-subordinate",
+      "difficulty": 1,
+      "question": "Mos bog'lovchini tanlang: \"Ich glaube, ___ Deutsch eine schöne Sprache ist.\"",
+      "prompt_de": null,
+      "options": [
+        "dass",
+        "weil",
+        "wenn"
+      ],
+      "pairs": null,
+      "correct_answer": "dass",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "glauben dan keyin fikr — dass.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m21-l3-t04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "education",
+      "grammar_topic": "g-subordinate",
+      "difficulty": 1,
+      "question": "Mos bog'lovchini tanlang: \"Ich lerne jeden Tag, ___ ich im Mai eine Prüfung habe.\"",
+      "prompt_de": null,
+      "options": [
+        "weil",
+        "dass",
+        "wenn"
+      ],
+      "pairs": null,
+      "correct_answer": "weil",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Sabab — weil (chunki may oyida imtihonim bor).",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m21-l3-t05",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "education",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Ich bin in der Prüfung durchgefallen.\"",
+      "prompt_de": "Ich bin in der Prüfung durchgefallen.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Men imtihondan yiqildim.",
+      "accepted_answers": [
+        "Imtihondan yiqildim.",
+        "Men imtihondan o'tolmadim.",
+        "Imtihondan o'tolmadim.",
+        "Men imtihondan o'ta olmadim.",
+        "Imtihondan o'ta olmadim."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "durchfallen — imtihondan yiqilmoq / o'tolmaslik.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m21-l3-t06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "media",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Nodira charchaganida nima qilardi?",
+      "prompt_de": null,
+      "options": [
+        "Nemischa seriallar ko'rardi",
+        "Uxlardi",
+        "Kutubxonaga borardi"
+      ],
+      "pairs": null,
+      "correct_answer": "Nemischa seriallar ko'rardi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Wenn ich müde war, habe ich deutsche Serien gesehen.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Wenn ich müde war, habe ich deutsche Serien gesehen."
+    },
+    {
+      "id": "a2-m21-l3-t07",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "language-learning",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Do'stingiz: \"Ich habe keine Motivation mehr.\" Qaysi maslahat to'g'ri tuzilgan?",
+      "prompt_de": null,
+      "options": [
+        "Wenn du jeden Tag ein bisschen lernst, machst du bestimmt Fortschritte.",
+        "Wenn du lernst jeden Tag, du machst Fortschritte.",
+        "Wann du lernst, machst du Fortschritte?"
+      ],
+      "pairs": null,
+      "correct_answer": "Wenn du jeden Tag ein bisschen lernst, machst du bestimmt Fortschritte.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "wenn-gapda fe'l oxirda (lernst), keyin asosiy gap fe'l bilan (machst du).",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

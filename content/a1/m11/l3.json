@@ -1,0 +1,867 @@
+{
+  "id": "a1-m11-l3",
+  "version": 3,
+  "level": "A1",
+  "module": 11,
+  "order": 3,
+  "title": "Taklif qilish va javob berish",
+  "title_de": "Kommst du mit?",
+  "goal": "Dars oxirida do'stingizni biror joyga taklif qilasiz (Hast du Zeit? Kommst du mit? Wollen wir ...?), taklifni qabul qilasiz yoki sababini aytib muloyim rad etasiz va uchrashuv vaqti hamda joyini kelishasiz.",
+  "skill_focus": [
+    "speaking",
+    "listening",
+    "writing"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Taklif qilishning uch oddiy usuli: 1) Hast du am Samstag Zeit? 2) Kommst du mit ins Kino? 3) Wollen wir zusammen grillen? Uchalasida ham fe'l birinchi o'rinda — bu ha/yo'q savoli."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Taklif",
+        "Rozi bo'lish",
+        "Rad etish"
+      ],
+      "rows": [
+        [
+          "Hast du am Samstag Zeit?",
+          "Ja, gern!",
+          "Leider nicht. Ich arbeite."
+        ],
+        [
+          "Kommst du mit?",
+          "Gute Idee! Ich komme gern.",
+          "Tut mir leid, ich kann nicht."
+        ],
+        [
+          "Wollen wir ins Café gehen?",
+          "Toll, wann?",
+          "Vielleicht am Sonntag?"
+        ],
+        [
+          "Ich lade dich ein!",
+          "Danke für die Einladung!",
+          "Schade, ich habe keine Zeit."
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Kelishib olish uchun W-savollar: Wann treffen wir uns? (Qachon uchrashamiz?) Wo treffen wir uns? (Qayerda uchrashamiz?) Javob: Um 14 Uhr am Bahnhof."
+    },
+    {
+      "type": "tip",
+      "text": "Nemislar rad etganda odatda sababini aytadi va boshqa vaqtni taklif qiladi: \"Leider kann ich nicht. Ich arbeite. Vielleicht am Sonntag?\" Shunchaki \"Nein\" deyish qo'pol eshitiladi."
+    },
+    {
+      "type": "tip",
+      "text": "Inkor savolga ijobiy javob \"doch\" bilan: Hast du keine Zeit? — Doch, ich habe Zeit! (\"ja\" emas)."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-die-einladung",
+      "de": "Einladung",
+      "uz": "taklif, taklifnoma",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Einladungen",
+      "forms": null,
+      "example_de": "Danke für die Einladung!",
+      "example_uz": "Taklif uchun rahmat!",
+      "topic": "invitations"
+    },
+    {
+      "id": "v-einladen",
+      "de": "einladen",
+      "uz": "taklif qilmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "eingeladen",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "lädt ein"
+      },
+      "example_de": "Ich lade dich zu meiner Party ein.",
+      "example_uz": "Seni ziyofatimga taklif qilaman.",
+      "topic": "invitations"
+    },
+    {
+      "id": "v-mitkommen",
+      "de": "mitkommen",
+      "uz": "birga bormoq/kelmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "mitgekommen",
+        "perfekt_aux": "sein",
+        "praesens_3sg": "kommt mit"
+      },
+      "example_de": "Kommst du mit ins Kino?",
+      "example_uz": "Kinoga birga borasanmi?",
+      "topic": "invitations"
+    },
+    {
+      "id": "v-die-idee",
+      "de": "Idee",
+      "uz": "fikr, g'oya",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Ideen",
+      "forms": null,
+      "example_de": "Gute Idee!",
+      "example_uz": "Yaxshi fikr!",
+      "topic": "invitations"
+    },
+    {
+      "id": "v-leider",
+      "de": "leider",
+      "uz": "afsuski",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Leider habe ich keine Zeit.",
+      "example_uz": "Afsuski, vaqtim yo'q.",
+      "topic": "invitations"
+    },
+    {
+      "id": "v-vielleicht",
+      "de": "vielleicht",
+      "uz": "balki, ehtimol",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Vielleicht komme ich später.",
+      "example_uz": "Balki keyinroq kelarman.",
+      "topic": "invitations"
+    },
+    {
+      "id": "v-toll",
+      "de": "toll",
+      "uz": "ajoyib, zo'r",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Das Konzert war toll!",
+      "example_uz": "Konsert ajoyib edi!",
+      "topic": "leisure"
+    },
+    {
+      "id": "v-langweilig",
+      "de": "langweilig",
+      "uz": "zerikarli",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Der Film ist langweilig.",
+      "example_uz": "Film zerikarli.",
+      "topic": "leisure"
+    },
+    {
+      "id": "v-das-picknick",
+      "de": "Picknick",
+      "uz": "piknik",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Picknicks",
+      "forms": null,
+      "example_de": "Wir machen ein Picknick im Park.",
+      "example_uz": "Biz parkda piknik qilamiz.",
+      "topic": "leisure"
+    },
+    {
+      "id": "v-grillen",
+      "de": "grillen",
+      "uz": "kabob (go'sht) pishirmoq, grill qilmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "gegrillt",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "grillt"
+      },
+      "example_de": "Am Sonntag grillen wir im Garten.",
+      "example_uz": "Yakshanba kuni bog'da kabob pishiramiz.",
+      "topic": "leisure"
+    },
+    {
+      "id": "v-spazieren-gehen",
+      "de": "spazieren gehen",
+      "uz": "sayr qilmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "spazieren gegangen",
+        "perfekt_aux": "sein",
+        "praesens_3sg": "geht spazieren"
+      },
+      "example_de": "Wollen wir im Park spazieren gehen?",
+      "example_uz": "Parkda sayr qilamizmi?",
+      "topic": "leisure"
+    },
+    {
+      "id": "v-der-see",
+      "de": "See",
+      "uz": "ko'l",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Seen",
+      "forms": null,
+      "example_de": "Im Sommer schwimmen wir im See.",
+      "example_uz": "Yozda biz ko'lda suzamiz.",
+      "topic": "leisure"
+    },
+    {
+      "id": "v-das-café",
+      "de": "Café",
+      "uz": "kafe",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Cafés",
+      "forms": null,
+      "example_de": "Wir treffen uns im Café.",
+      "example_uz": "Biz kafeda uchrashamiz.",
+      "topic": "leisure"
+    }
+  ],
+  "review_vocabulary": [
+    "v-wollen",
+    "v-treffen",
+    "v-die-lust",
+    "v-die-party",
+    "v-das-konzert",
+    "v-können",
+    "v-das-kino",
+    "v-der-bahnhof",
+    "v-zusammen"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-questions",
+      "rule": "Ha/yo'q savolida fe'l birinchi o'rinda turadi: Kommst du mit? W-savolda W-so'z birinchi, fe'l ikkinchi: Wann treffen wir uns? Taklifda \"Wollen wir ...?\" ko'p ishlatiladi. Inkor savolga ijobiy javob — doch.",
+      "when": "Taklif qilganda, vaqt va joyni kelishganda, taklifga javob berganda.",
+      "structure": "Fe'l + ega + ...?: Hast du Zeit? Kommst du mit?\nWollen wir + ... + infinitiv?: Wollen wir grillen?\nW-so'z + fe'l + ega?: Wo treffen wir uns?",
+      "examples": [
+        {
+          "de": "Kommst du mit ins Kino?",
+          "uz": "Kinoga birga borasanmi?"
+        },
+        {
+          "de": "Hast du am Freitag Zeit?",
+          "uz": "Juma kuni vaqting bormi?"
+        },
+        {
+          "de": "Wollen wir am See grillen?",
+          "uz": "Ko'l bo'yida kabob pishiramizmi?"
+        },
+        {
+          "de": "Wo treffen wir uns?",
+          "uz": "Qayerda uchrashamiz?"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Du kommst mit?",
+          "right": "Kommst du mit?",
+          "why": "Yozma ha/yo'q savolida fe'l birinchi o'rinda turadi."
+        },
+        {
+          "wrong": "Wann wir treffen uns?",
+          "right": "Wann treffen wir uns?",
+          "why": "W-savolda fe'l ikkinchi o'rinda, ega undan keyin."
+        },
+        {
+          "wrong": "Hast du keine Zeit? — Ja, ich habe Zeit.",
+          "right": "Hast du keine Zeit? — Doch, ich habe Zeit.",
+          "why": "Inkor savolga \"ha\" ma'nosida javob — doch."
+        }
+      ],
+      "check": [
+        "a1-m11-l3-e03",
+        "a1-m11-l3-e04",
+        "a1-m11-l3-e05"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Ovozli xabar",
+    "lines": [
+      {
+        "speaker": "Lisa",
+        "de": "Hallo Dilshod, hier ist Lisa. Am Samstag mache ich ein Picknick am See.",
+        "uz": "Salom Dilshod, bu Lisa. Shanba kuni ko'l bo'yida piknik qilyapman."
+      },
+      {
+        "speaker": "Lisa",
+        "de": "Ich lade dich ein! Wir grillen und spielen Volleyball.",
+        "uz": "Seni taklif qilaman! Kabob pishiramiz va voleybol o'ynaymiz."
+      },
+      {
+        "speaker": "Lisa",
+        "de": "Kommst du mit? Wir treffen uns um 14 Uhr am Bahnhof. Tschüs!",
+        "uz": "Kelasanmi? Soat 14 da vokzalda uchrashamiz. Xayr!"
+      },
+      {
+        "speaker": "Dilshod",
+        "de": "Hallo Lisa, danke für die Einladung!",
+        "uz": "Salom Lisa, taklif uchun rahmat!"
+      },
+      {
+        "speaker": "Dilshod",
+        "de": "Leider kann ich am Samstag nicht. Ich arbeite. Vielleicht nächstes Mal!",
+        "uz": "Afsuski, shanba kuni kela olmayman. Ishlayman. Balki keyingi safar!"
+      }
+    ],
+    "questions": [
+      "a1-m11-l3-e08",
+      "a1-m11-l3-e09"
+    ]
+  },
+  "situation": {
+    "title": "Kafega taklif",
+    "context_uz": "Do'stingiz Sophie sizga telefon qilib, kechqurun kafega taklif qilyapti. Lekin bugun kechqurun sizda nemis tili kursi bor.",
+    "lines": [
+      {
+        "speaker": "Sophie",
+        "de": "Hallo! Wollen wir heute Abend ins Café gehen?",
+        "uz": "Salom! Bugun kechqurun kafega boramizmi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Heute Abend? Leider kann ich nicht. Ich habe einen Deutschkurs.",
+        "uz": "Bugun kechqurunmi? Afsuski, kela olmayman. Nemis tili kursim bor."
+      },
+      {
+        "speaker": "Sophie",
+        "de": "Schade! Hast du morgen Zeit?",
+        "uz": "Attang! Ertaga vaqting bormi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ja, morgen habe ich Zeit. Wann treffen wir uns?",
+        "uz": "Ha, ertaga vaqtim bor. Qachon uchrashamiz?"
+      },
+      {
+        "speaker": "Sophie",
+        "de": "Um 17 Uhr im Café Mozart?",
+        "uz": "Soat 17 da \"Mozart\" kafesida?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Gute Idee! Bis morgen!",
+        "uz": "Yaxshi fikr! Ertagacha!"
+      }
+    ],
+    "task_uz": "Sherigingizni biror joyga taklif qiling (piknik, kino, sayr). Sherigingiz avval sababini aytib rad etsin va boshqa kunni taklif qilsin. Keyin vaqt va joyni kelishing: \"Wann treffen wir uns?\", \"Wo treffen wir uns?\""
+  },
+  "exercises": [
+    {
+      "id": "a1-m11-l3-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "invitations",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "So'zlarni juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "Einladung",
+          "taklif"
+        ],
+        [
+          "leider",
+          "afsuski"
+        ],
+        [
+          "vielleicht",
+          "balki"
+        ],
+        [
+          "langweilig",
+          "zerikarli"
+        ],
+        [
+          "See",
+          "ko'l"
+        ]
+      ],
+      "correct_answer": {
+        "Einladung": "taklif",
+        "leider": "afsuski",
+        "vielleicht": "balki",
+        "langweilig": "zerikarli",
+        "See": "ko'l"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Einladung — taklif, leider — afsuski, vielleicht — balki, langweilig — zerikarli, See — ko'l.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l3-e02",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "invitations",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Do'stingiz so'radi: \"Kommst du mit ins Kino?\" Qaysi javob mos?",
+      "prompt_de": "Kommst du mit ins Kino?",
+      "options": [
+        "Ja, gern! Wann?",
+        "Ja, ich bin Kino.",
+        "Nein, ich komme mit."
+      ],
+      "pairs": null,
+      "correct_answer": "Ja, gern! Wann?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Taklifni qabul qilib, vaqtini so'raysiz. \"Ich bin Kino\" — ma'nosiz.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l3-e03",
+      "version": 2,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "invitations",
+      "grammar_topic": "g-questions",
+      "difficulty": 1,
+      "question": "So'zlarni tartiblang: \"Shanba kuni vaqting bormi?\"",
+      "prompt_de": null,
+      "options": [
+        "am",
+        "Hast",
+        "Zeit",
+        "Samstag",
+        "du"
+      ],
+      "pairs": null,
+      "correct_answer": "Hast du am Samstag Zeit?",
+      "accepted_answers": [
+        "Hast du Zeit am Samstag"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ha/yo'q savoli: fe'l (Hast) birinchi, keyin ega (du).",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l3-e04",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "invitations",
+      "grammar_topic": "g-questions",
+      "difficulty": 1,
+      "question": "Taklif qiling (wollen): ___ wir am Sonntag grillen?",
+      "prompt_de": "___ wir am Sonntag grillen?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Wollen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Taklif: Wollen wir ...? — fe'l birinchi, infinitiv oxirida.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l3-e05",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "invitations",
+      "grammar_topic": "g-questions",
+      "difficulty": 2,
+      "question": "To'g'ri javobni tanlang: \"Hast du keine Zeit?\" — \"___, ich habe Zeit!\"",
+      "prompt_de": "Hast du keine Zeit? — ___, ich habe Zeit!",
+      "options": [
+        "Doch",
+        "Ja",
+        "Nein"
+      ],
+      "pairs": null,
+      "correct_answer": "Doch",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Inkor savolga ijobiy javob — doch.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l3-e06",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "invitations",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Do'stingiz shanba kuni piknikka chaqirdi, lekin siz ishlaysiz. Muloyim rad eting.",
+      "prompt_de": null,
+      "options": [
+        "Leider kann ich nicht. Ich arbeite.",
+        "Nein. Langweilig!",
+        "Ja, leider."
+      ],
+      "pairs": null,
+      "correct_answer": "Leider kann ich nicht. Ich arbeite.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Muloyim rad etish: \"leider\" + sabab. \"Langweilig!\" — qo'pol.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l3-e07",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "invitations",
+      "grammar_topic": "g-separable-verbs",
+      "difficulty": 1,
+      "question": "Fe'lni yozing (einladen): Ich ___ dich zu meiner Party ein.",
+      "prompt_de": "Ich ___ dich zu meiner Party ein.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "lade",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "einladen — ajraladigan fe'l: ich lade ... ein.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l3-e08",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "invitations",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Piknik qayerda bo'ladi?",
+      "prompt_de": null,
+      "options": [
+        "Ko'l bo'yida",
+        "Vokzalda",
+        "Kafeda"
+      ],
+      "pairs": null,
+      "correct_answer": "Ko'l bo'yida",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"ein Picknick am See\" — ko'l bo'yida. Vokzal — uchrashuv joyi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Hallo Dilshod, hier ist Lisa. Am Samstag mache ich ein Picknick am See. Ich lade dich ein! Wir grillen und spielen Volleyball. Kommst du mit? Wir treffen uns um 14 Uhr am Bahnhof. Tschüs! Hallo Lisa, danke für die Einladung! Leider kann ich am Samstag nicht. Ich arbeite. Vielleicht nächstes Mal!"
+    },
+    {
+      "id": "a1-m11-l3-e09",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "invitations",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang. Dilshod piknikka boradimi?",
+      "prompt_de": null,
+      "options": [
+        "Yo'q, u ishlaydi",
+        "Ha, soat 14 da",
+        "Ha, lekin kechroq"
+      ],
+      "pairs": null,
+      "correct_answer": "Yo'q, u ishlaydi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Leider kann ich am Samstag nicht. Ich arbeite.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Hallo Dilshod, hier ist Lisa. Am Samstag mache ich ein Picknick am See. Ich lade dich ein! Wir grillen und spielen Volleyball. Kommst du mit? Wir treffen uns um 14 Uhr am Bahnhof. Tschüs! Hallo Lisa, danke für die Einladung! Leider kann ich am Samstag nicht. Ich arbeite. Vielleicht nächstes Mal!"
+    },
+    {
+      "id": "a1-m11-l3-e10",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "invitations",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemis tiliga tarjima qiling: \"Yaxshi fikr!\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Gute Idee!",
+      "accepted_answers": [
+        "Tolle Idee!",
+        "Das ist eine gute Idee!",
+        "Eine gute Idee!"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Idee — fikr. \"Gute Idee!\" — eng ko'p ishlatiladigan rozilik iborasi.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l3-e11",
+      "version": 1,
+      "type": "short_text",
+      "skill": "writing",
+      "topic": "invitations",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Do'stingizga taklif xabari yozing (3–5 gap): nima, qachon, qayerda uchrashasiz.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 20,
+        "required_words": [
+          "Zeit"
+        ],
+        "sample": "Hallo Tom! Am Samstag mache ich ein Picknick im Park. Hast du Zeit? Wir grillen und spielen Fußball. Wir treffen uns um 15 Uhr an der Haltestelle. Kommst du mit? Viele Grüße, Aziz"
+      },
+      "hint": null,
+      "explanation": "Namuna: \"Hallo Tom! Am Samstag mache ich ein Picknick im Park. Hast du Zeit? Wir grillen. Wir treffen uns um 15 Uhr an der Haltestelle. Kommst du mit?\"",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l3-e12",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "invitations",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Taklifnomani o'qing. Ziyofat qayerda bo'ladi?",
+      "prompt_de": "Einladung zur Geburtstagsparty! Wann? Samstag, 14. Juni, 19 Uhr. Wo? Gartenstraße 8, bei Anna. Wir grillen im Garten. Bitte antworte bis Mittwoch.",
+      "options": [
+        "Annaning uyida, Gartenstraße 8",
+        "Kafeda",
+        "Ko'l bo'yida"
+      ],
+      "pairs": null,
+      "correct_answer": "Annaning uyida, Gartenstraße 8",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Wo? Gartenstraße 8, bei Anna.\" bei Anna — Annaning uyida.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a1-m11-l3-t01",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "invitations",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Do'stingiz: \"Hast du am Freitag Zeit?\" Siz juma kuni ishlaysiz. Qaysi javob mos?",
+      "prompt_de": "Hast du am Freitag Zeit?",
+      "options": [
+        "Leider nicht. Ich arbeite.",
+        "Ja, ich bin Freitag.",
+        "Gute Nacht!"
+      ],
+      "pairs": null,
+      "correct_answer": "Leider nicht. Ich arbeite.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Vaqt yo'q bo'lsa, \"leider\" va sabab aytiladi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l3-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "invitations",
+      "grammar_topic": "g-separable-verbs",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (mitkommen): ___ du mit?",
+      "prompt_de": "___ du mit?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Kommst",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "mitkommen: Kommst du mit? — fe'l birinchi, mit oxirida.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l3-t03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "leisure",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "\"langweilig\" so'zining qarama-qarshisi qaysi?",
+      "prompt_de": null,
+      "options": [
+        "toll",
+        "leider",
+        "vielleicht"
+      ],
+      "pairs": null,
+      "correct_answer": "toll",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "langweilig — zerikarli, toll — ajoyib.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l3-t04",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "invitations",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "O'zbek tiliga tarjima qiling: \"Leider kann ich nicht.\"",
+      "prompt_de": "Leider kann ich nicht.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Afsuski, kela olmayman.",
+      "accepted_answers": [
+        "Afsuski, men kela olmayman",
+        "Afsuski, qila olmayman",
+        "Afsuski, iloji yo'q",
+        "Afsuski, bora olmayman"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "leider — afsuski. Taklif kontekstida \"kela olmayman\" eng tabiiy tarjima.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l3-t05",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "invitations",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Qachon va qayerda uchrashishadi?",
+      "prompt_de": null,
+      "options": [
+        "Soat 3 da ko'l bo'yida",
+        "Soat 3 da kafeda",
+        "Soat 13 da ko'l bo'yida"
+      ],
+      "pairs": null,
+      "correct_answer": "Soat 3 da ko'l bo'yida",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"um drei Uhr am See\".",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Wir treffen uns um drei Uhr am See."
+    },
+    {
+      "id": "a1-m11-l3-t06",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "invitations",
+      "grammar_topic": "g-questions",
+      "difficulty": 2,
+      "question": "So'zlarni tartiblang: \"Parkda sayr qilamizmi?\"",
+      "prompt_de": null,
+      "options": [
+        "wir",
+        "im",
+        "gehen",
+        "Wollen",
+        "spazieren",
+        "Park"
+      ],
+      "pairs": null,
+      "correct_answer": "Wollen wir im Park spazieren gehen?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Taklif: Wollen wir + joy + infinitiv (spazieren gehen) oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l3-t07",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "invitations",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Do'stingiz: \"Wollen wir grillen?\" Sizga bu fikr yoqdi. Nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Gute Idee! Ich komme gern.",
+        "Leider kann ich nicht.",
+        "Das ist langweilig."
+      ],
+      "pairs": null,
+      "correct_answer": "Gute Idee! Ich komme gern.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Rozilik: \"Gute Idee!\", \"Ich komme gern.\"",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

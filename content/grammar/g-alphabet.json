@@ -1,0 +1,358 @@
+{
+  "id": "g-alphabet",
+  "version": 1,
+  "level": "A1",
+  "order": 1,
+  "title": "Alifbo va asosiy talaffuz",
+  "prerequisites": [],
+  "next": [
+    "g-pronouns"
+  ],
+  "rule": "Nemis alifbosida 26 ta asosiy harf va to'rtta maxsus harf bor: ä, ö, ü, ß. Ko'p harflar o'zbek lotin alifbosiga o'xshaydi, lekin ayrim harflar va birikmalar boshqacha o'qiladi.",
+  "when": "Har bir yangi so'zni o'qiganda, ismingizni yoki manzilni harflab aytganda (buchstabieren).",
+  "structure": "Harf birikmasi = bitta tovush: sch = [sh], ei = [ay], ie = [i:], eu = [oy].",
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Nemis tilida so'z asosan yozilganidek o'qiladi, lekin bir nechta qoidani bilish kerak. Eng muhimlari quyidagi jadvalda."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Yozilishi",
+        "O'qilishi",
+        "Misol"
+      ],
+      "rows": [
+        [
+          "ei",
+          "[ay]",
+          "drei, mein, heißen"
+        ],
+        [
+          "ie",
+          "[i:] (uzun i)",
+          "vier, Bier, spielen"
+        ],
+        [
+          "eu, äu",
+          "[oy]",
+          "neun, Deutsch, Häuser"
+        ],
+        [
+          "sch",
+          "[sh]",
+          "Schule, schön"
+        ],
+        [
+          "ch",
+          "[x] (a, o, u dan keyin) / [ç] (yumshoq)",
+          "acht, Buch / ich, Milch"
+        ],
+        [
+          "sp, st (so'z boshida)",
+          "[shp], [sht]",
+          "Sport, Straße"
+        ],
+        [
+          "z",
+          "[ts]",
+          "zehn, Zimmer"
+        ],
+        [
+          "v",
+          "[f]",
+          "Vater, vier"
+        ],
+        [
+          "w",
+          "[v]",
+          "Wasser, wohnen"
+        ],
+        [
+          "j",
+          "[y]",
+          "ja, Juli"
+        ],
+        [
+          "ß",
+          "[s] (jarangsiz, uzun unlidan keyin)",
+          "Straße, heißen"
+        ],
+        [
+          "h (unlidan keyin)",
+          "o'qilmaydi, unli cho'ziladi",
+          "gehen, Uhr"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Harf",
+        "Talaffuzi",
+        "Misol"
+      ],
+      "rows": [
+        [
+          "ä",
+          "[e] ga yaqin",
+          "Käse, Männer"
+        ],
+        [
+          "ö",
+          "lablarni cho'chchaytirib [e]",
+          "schön, hören"
+        ],
+        [
+          "ü",
+          "lablarni cho'chchaytirib [i]",
+          "Tür, fünf"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Harflab aytish: A [a], B [be], C [tse], D [de], E [e], F [ef], G [ge], H [ha], I [i], J [yot], K [ka], L [el], M [em], N [en], O [o], P [pe], Q [ku], R [er], S [es], T [te], U [u], V [fau], W [ve], X [iks], Y [ipsilon], Z [tset]. Ä — \"a-Umlaut\", ß — \"eszett\"."
+    },
+    {
+      "type": "tip",
+      "text": "\"ei\" va \"ie\" ni adashtirmang: ikkinchi harf o'qiladi. ei → [ay] (drei), ie → [i] (vier)."
+    }
+  ],
+  "examples": [
+    {
+      "de": "Wie schreibt man das? — M-Ü-L-L-E-R.",
+      "uz": "Bu qanday yoziladi? — M-Ü-L-L-E-R."
+    },
+    {
+      "de": "Ich heiße Schulz: S-C-H-U-L-Z.",
+      "uz": "Mening familiyam Shulz: S-C-H-U-L-Z."
+    },
+    {
+      "de": "Mein Vater wohnt in der Schillerstraße.",
+      "uz": "Otam Shiller ko'chasida yashaydi."
+    },
+    {
+      "de": "Drei, vier, neun.",
+      "uz": "Uch, to'rt, to'qqiz."
+    },
+    {
+      "de": "Das Wasser ist sehr kalt.",
+      "uz": "Suv juda sovuq."
+    }
+  ],
+  "common_mistakes": [
+    {
+      "wrong": "Vater [vater]",
+      "right": "Vater [fater]",
+      "why": "Nemis tilida v odatda [f] deb o'qiladi. [v] tovushi w harfi bilan yoziladi."
+    },
+    {
+      "wrong": "mein [meyn]",
+      "right": "mein [mayn]",
+      "why": "ei birikmasi doim [ay] deb o'qiladi."
+    },
+    {
+      "wrong": "Shule",
+      "right": "Schule",
+      "why": "[sh] tovushi nemis tilida uchta harf bilan yoziladi: sch."
+    },
+    {
+      "wrong": "Strasse [shtrase] ni [strase] deb o'qish",
+      "right": "Straße [shtra:se]",
+      "why": "So'z boshidagi st [sht] deb o'qiladi."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "g-alphabet-e01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "alphabet",
+      "grammar_topic": "g-alphabet",
+      "difficulty": 1,
+      "question": "Qaysi so'zda [ay] tovushi bor?",
+      "prompt_de": null,
+      "options": [
+        "drei",
+        "vier",
+        "Bier"
+      ],
+      "pairs": null,
+      "correct_answer": "drei",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Ikkinchi harf o'qiladi.",
+      "explanation": "ei birikmasi [ay] deb o'qiladi: drei [dray]. vier va Bier da ie bor — u uzun [i:].",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-alphabet-e02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "alphabet",
+      "grammar_topic": "g-alphabet",
+      "difficulty": 1,
+      "question": "\"Vater\" so'zidagi V harfi qanday o'qiladi?",
+      "prompt_de": null,
+      "options": [
+        "[f]",
+        "[v]",
+        "[u]"
+      ],
+      "pairs": null,
+      "correct_answer": "[f]",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Nemis so'zlarida v ko'pincha [f] deb o'qiladi: Vater [fater], vier [fir].",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-alphabet-e03",
+      "version": 1,
+      "type": "match",
+      "skill": "grammar",
+      "topic": "alphabet",
+      "grammar_topic": "g-alphabet",
+      "difficulty": 1,
+      "question": "Harf birikmasini tovush bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "ei",
+          "[ay]"
+        ],
+        [
+          "ie",
+          "[i:]"
+        ],
+        [
+          "eu",
+          "[oy]"
+        ],
+        [
+          "sch",
+          "[sh]"
+        ]
+      ],
+      "correct_answer": {
+        "ei": "[ay]",
+        "ie": "[i:]",
+        "eu": "[oy]",
+        "sch": "[sh]"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "ei — [ay], ie — [i:], eu — [oy], sch — [sh].",
+      "error_type": "spelling",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "g-alphabet-e04",
+      "version": 1,
+      "type": "dictation",
+      "skill": "grammar",
+      "topic": "alphabet",
+      "grammar_topic": "g-alphabet",
+      "difficulty": 2,
+      "question": "Tinglang va so'zni yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Schule",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Ot — katta harf bilan.",
+      "explanation": "Schule — maktab. [sh] tovushi sch bilan yoziladi, ot bo'lgani uchun katta harf bilan.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": "Schule"
+    },
+    {
+      "id": "g-alphabet-e05",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "alphabet",
+      "grammar_topic": "g-alphabet",
+      "difficulty": 2,
+      "question": "Bo'sh joyga maxsus harfni yozing: Stra___e (ko'cha)",
+      "prompt_de": "Stra___e",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "ß",
+      "accepted_answers": [
+        "ss"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Straße so'zida uzun [a] dan keyin ß yoziladi. ß ni ss bilan almashtirsa bo'ladi, lekin Germaniyada Straße deb yoziladi.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-alphabet-e06",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "education",
+      "grammar_topic": "g-alphabet",
+      "difficulty": 1,
+      "question": "Qaysi so'z noto'g'ri yozilgan? \"Ich gehe in die Shule.\"",
+      "prompt_de": "Ich gehe in die Shule.",
+      "options": [
+        "Ich",
+        "gehe",
+        "in",
+        "die",
+        "Shule"
+      ],
+      "pairs": null,
+      "correct_answer": "Shule",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: Schule. [sh] tovushi sch bilan yoziladi.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-alphabet-e07",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "grammar",
+      "topic": "numbers",
+      "grammar_topic": "g-alphabet",
+      "difficulty": 2,
+      "question": "Tinglang. Qaysi so'zni eshitdingiz?",
+      "prompt_de": null,
+      "options": [
+        "neun",
+        "nein",
+        "nie"
+      ],
+      "pairs": null,
+      "correct_answer": "neun",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "[noyn] — neun (to'qqiz). eu birikmasi [oy] deb o'qiladi.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": "neun"
+    }
+  ]
+}

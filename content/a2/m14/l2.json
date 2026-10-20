@@ -1,0 +1,809 @@
+{
+  "id": "a2-m14-l2",
+  "version": 1,
+  "level": "A2",
+  "module": 14,
+  "order": 2,
+  "title": "Chipta va safar rejasi",
+  "title_de": "Fahrkarte und Reiseplan",
+  "goal": "Dars oxirida vokzalda chipta sotib ola olasiz, jadvaldan jo'nash va yetib kelish vaqtini tushunasiz hamda \"um, gegen, ab, bis, von ... bis\" bilan vaqtni aniq ayta olasiz.",
+  "skill_focus": [
+    "listening",
+    "reading",
+    "grammar"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Germaniyada poyezd bilan sayohat juda keng tarqalgan. Chipta avtomatdan, ilovadan yoki kassadan olinadi. Jadvalda \"ab\" (jo'naydi) va \"an\" (yetib keladi) so'zlari bor."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Predlog",
+        "Ma'nosi",
+        "Misol"
+      ],
+      "rows": [
+        [
+          "um",
+          "aniq soatda",
+          "Der Zug fährt um 9.15 Uhr ab."
+        ],
+        [
+          "gegen",
+          "taxminan, atrofida",
+          "Ich komme gegen 18 Uhr an."
+        ],
+        [
+          "ab",
+          "...dan boshlab",
+          "Ab Montag habe ich Urlaub."
+        ],
+        [
+          "bis",
+          "...gacha",
+          "Ich bleibe bis Sonntag."
+        ],
+        [
+          "von ... bis",
+          "...dan ...gacha",
+          "Die Kasse ist von 6 bis 22 Uhr geöffnet."
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "\"abfahren\", \"ankommen\", \"umsteigen\" — ajraladigan fe'llar. Hozirgi zamonda old qo'shimcha gap oxiriga ketadi: Der Zug fährt um 8 Uhr AB. Perfektda esa \"sein\" bilan: Der Zug ist abgefahren."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-die-abfahrt",
+      "de": "Abfahrt",
+      "uz": "jo'nash vaqti",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Abfahrten",
+      "forms": null,
+      "example_de": "Die Abfahrt ist um 10.20 Uhr.",
+      "example_uz": "Jo'nash soat 10:20 da.",
+      "topic": "transport"
+    },
+    {
+      "id": "v-die-ankunft",
+      "de": "Ankunft",
+      "uz": "yetib kelish",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Ankünfte",
+      "forms": null,
+      "example_de": "Die Ankunft in Berlin ist um 14 Uhr.",
+      "example_uz": "Berlinga yetib kelish soat 14:00 da.",
+      "topic": "transport"
+    },
+    {
+      "id": "v-hin-und-zurück",
+      "de": "hin und zurück",
+      "uz": "borish-qaytish",
+      "pos": "phrase",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Einmal Leipzig, hin und zurück, bitte.",
+      "example_uz": "Leyptsigga bitta borish-qaytish chiptasi, iltimos.",
+      "topic": "transport"
+    },
+    {
+      "id": "v-der-fahrplan",
+      "de": "Fahrplan",
+      "uz": "qatnov jadvali",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Fahrpläne",
+      "forms": null,
+      "example_de": "Auf dem Fahrplan steht: Abfahrt 8.15 Uhr.",
+      "example_uz": "Jadvalda yozilgan: jo'nash 8:15 da.",
+      "topic": "transport"
+    },
+    {
+      "id": "v-die-verbindung",
+      "de": "Verbindung",
+      "uz": "qatnov, reys (bir joydan boshqasiga yo'l)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Verbindungen",
+      "forms": null,
+      "example_de": "Gibt es eine direkte Verbindung nach Wien?",
+      "example_uz": "Venaga to'g'ridan-to'g'ri qatnov bormi?",
+      "topic": "transport"
+    },
+    {
+      "id": "v-der-koffer",
+      "de": "Koffer",
+      "uz": "chamadon",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Koffer",
+      "forms": null,
+      "example_de": "Mein Koffer ist sehr schwer.",
+      "example_uz": "Chamadonim juda og'ir.",
+      "topic": "travel"
+    },
+    {
+      "id": "v-die-reise",
+      "de": "Reise",
+      "uz": "sayohat, safar",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Reisen",
+      "forms": null,
+      "example_de": "Gute Reise!",
+      "example_uz": "Oq yo'l!",
+      "topic": "travel"
+    },
+    {
+      "id": "v-der-anschluss",
+      "de": "Anschluss",
+      "uz": "ulanadigan keyingi poyezd/reys",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Anschlüsse",
+      "forms": null,
+      "example_de": "In Hannover haben Sie Anschluss nach Hamburg.",
+      "example_uz": "Gannoverda Gamburgga ketadigan keyingi poyezdga o'tasiz.",
+      "topic": "transport"
+    },
+    {
+      "id": "v-die-hinfahrt",
+      "de": "Hinfahrt",
+      "uz": "borish yo'li",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Hinfahrten",
+      "forms": null,
+      "example_de": "Die Hinfahrt dauert vier Stunden.",
+      "example_uz": "Borish to'rt soat davom etadi.",
+      "topic": "travel"
+    },
+    {
+      "id": "v-die-rückfahrt",
+      "de": "Rückfahrt",
+      "uz": "qaytish yo'li",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Rückfahrten",
+      "forms": null,
+      "example_de": "Die Rückfahrt ist am Sonntag.",
+      "example_uz": "Qaytish yakshanba kuni.",
+      "topic": "travel"
+    },
+    {
+      "id": "v-die-platzreservierung",
+      "de": "Platzreservierung",
+      "uz": "joyni oldindan band qilish (poyezdda)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Platzreservierungen",
+      "forms": null,
+      "example_de": "Mit Platzreservierung kostet das Ticket 5 Euro mehr.",
+      "example_uz": "Joy band qilinsa, chipta 5 yevro qimmatroq.",
+      "topic": "transport"
+    },
+    {
+      "id": "v-das-reiseziel",
+      "de": "Reiseziel",
+      "uz": "sayohat manzili",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Reiseziele",
+      "forms": null,
+      "example_de": "Mein Reiseziel ist Wien.",
+      "example_uz": "Sayohat manzilim — Vena.",
+      "topic": "travel"
+    }
+  ],
+  "review_vocabulary": [
+    "v-die-fahrkarte",
+    "v-das-gleis",
+    "v-umsteigen",
+    "v-abfahren",
+    "v-ankommen",
+    "v-buchen",
+    "v-reservieren",
+    "v-fliegen",
+    "v-bleiben"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-time-prepositions",
+      "rule": "Vaqtni ifodalashda: \"um\" — aniq soat, \"gegen\" — taxminiy vaqt, \"ab\" — boshlanish nuqtasi, \"bis\" — tugash nuqtasi, \"von ... bis\" — vaqt oralig'i.",
+      "when": "Poyezd jadvali, ish vaqti, bron muddati, uchrashuv vaqtini aytganda.",
+      "structure": "Subyekt + fe'l + um/gegen/ab/bis + vaqt.  Masalan: Der Zug fährt um 9 Uhr ab.",
+      "examples": [
+        {
+          "de": "Der Zug fährt um 7.45 Uhr von Gleis 2 ab.",
+          "uz": "Poyezd soat 7:45 da 2-yo'ldan jo'naydi."
+        },
+        {
+          "de": "Wir kommen gegen Mittag in Wien an.",
+          "uz": "Venaga tushga yaqin yetib kelamiz."
+        },
+        {
+          "de": "Ab Juni gibt es eine neue Verbindung.",
+          "uz": "Iyundan boshlab yangi qatnov bor."
+        },
+        {
+          "de": "Das Ticket ist bis Sonntag gültig.",
+          "uz": "Chipta yakshanbagacha amal qiladi."
+        },
+        {
+          "de": "Die Rezeption ist von 6 bis 23 Uhr geöffnet.",
+          "uz": "Qabulxona soat 6 dan 23 gacha ochiq."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Der Zug fährt an 9 Uhr ab.",
+          "right": "Der Zug fährt um 9 Uhr ab.",
+          "why": "Soat bilan doim \"um\". \"am\" — kun bilan (am Montag)."
+        },
+        {
+          "wrong": "Ich arbeite von 8 zu 17 Uhr.",
+          "right": "Ich arbeite von 8 bis 17 Uhr.",
+          "why": "Oraliq: \"von ... bis\". \"zu\" bu ma'noda ishlatilmaydi."
+        },
+        {
+          "wrong": "Der Zug abfährt um 9 Uhr.",
+          "right": "Der Zug fährt um 9 Uhr ab.",
+          "why": "\"abfahren\" ajraladigan fe'l: \"fährt\" 2-o'rinda, \"ab\" oxirida."
+        }
+      ],
+      "check": [
+        "a2-m14-l2-e02",
+        "a2-m14-l2-e03",
+        "a2-m14-l2-e04"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Vokzal kassasida",
+    "lines": [
+      {
+        "speaker": "Kasse",
+        "de": "Guten Tag, wohin möchten Sie fahren?",
+        "uz": "Assalomu alaykum, qayerga bormoqchisiz?"
+      },
+      {
+        "speaker": "Frau Usmonova",
+        "de": "Nach München, bitte. Morgen Vormittag.",
+        "uz": "Myunxenga, iltimos. Ertaga tushdan oldin."
+      },
+      {
+        "speaker": "Kasse",
+        "de": "Es gibt eine Verbindung um 9.12 Uhr. Sie steigen in Nürnberg um.",
+        "uz": "Soat 9:12 da reys bor. Nyurnbergda boshqa poyezdga o'tasiz."
+      },
+      {
+        "speaker": "Frau Usmonova",
+        "de": "Und wann komme ich in München an?",
+        "uz": "Myunxenga qachon yetib boraman?"
+      },
+      {
+        "speaker": "Kasse",
+        "de": "Um 13.40 Uhr. Der Zug fährt von Gleis 7 ab.",
+        "uz": "Soat 13:40 da. Poyezd 7-yo'ldan jo'naydi."
+      },
+      {
+        "speaker": "Frau Usmonova",
+        "de": "Gut. Eine Fahrkarte hin und zurück, bitte.",
+        "uz": "Yaxshi. Bitta borish-qaytish chiptasi, iltimos."
+      }
+    ],
+    "questions": [
+      "a2-m14-l2-e06"
+    ]
+  },
+  "situation": {
+    "title": "Ma'lumot byurosida",
+    "context_uz": "Siz Frankfurt vokzalidasiz. Bugun kechqurun Drezdenga yetib borishingiz kerak. Ma'lumot byurosidan qatnov haqida so'rayapsiz.",
+    "lines": [
+      {
+        "speaker": "Siz",
+        "de": "Entschuldigung, gibt es heute noch eine Verbindung nach Dresden?",
+        "uz": "Kechirasiz, bugun Drezdenga yana qatnov bormi?"
+      },
+      {
+        "speaker": "Mitarbeiter",
+        "de": "Ja, um 16.05 Uhr. Sie steigen in Leipzig um.",
+        "uz": "Ha, soat 16:05 da. Leyptsigda o'tasiz."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Wann komme ich in Dresden an?",
+        "uz": "Drezdenga qachon yetib boraman?"
+      },
+      {
+        "speaker": "Mitarbeiter",
+        "de": "Gegen 21 Uhr.",
+        "uz": "Soat 21 larda."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Und von welchem Gleis fährt der Zug ab?",
+        "uz": "Poyezd qaysi yo'ldan jo'naydi?"
+      },
+      {
+        "speaker": "Mitarbeiter",
+        "de": "Von Gleis 12. Gute Reise!",
+        "uz": "12-yo'ldan. Oq yo'l!"
+      }
+    ],
+    "task_uz": "Dialogni o'qing. Keyin o'z marshrutingizni tuzing: Berlin → Hamburg, jo'nash 10:30, yetib kelish taxminan 12:30. Kamida 3 ta savol bering."
+  },
+  "exercises": [
+    {
+      "id": "a2-m14-l2-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "transport",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemischa so'zni o'zbekcha ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "die Abfahrt",
+          "jo'nash"
+        ],
+        [
+          "die Ankunft",
+          "yetib kelish"
+        ],
+        [
+          "das Gleis",
+          "yo'l (platforma)"
+        ],
+        [
+          "die Fahrkarte",
+          "chipta"
+        ],
+        [
+          "umsteigen",
+          "boshqa poyezdga o'tmoq"
+        ]
+      ],
+      "correct_answer": {
+        "die Abfahrt": "jo'nash",
+        "die Ankunft": "yetib kelish",
+        "das Gleis": "yo'l (platforma)",
+        "die Fahrkarte": "chipta",
+        "umsteigen": "boshqa poyezdga o'tmoq"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Abfahrt (ab-fahren) — jo'nash, Ankunft (an-kommen) — yetib kelish, Gleis — vokzaldagi yo'l, Fahrkarte — chipta, umsteigen — boshqa poyezdga o'tmoq.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l2-e02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "transport",
+      "grammar_topic": "g-time-prepositions",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: Der Zug fährt ___ 9.15 Uhr ab.",
+      "prompt_de": "Der Zug fährt ___ 9.15 Uhr ab.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "um",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Aniq soat.",
+      "explanation": "Aniq soat bilan \"um\" ishlatiladi: um 9.15 Uhr.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l2-e03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "hotel",
+      "grammar_topic": "g-time-prepositions",
+      "difficulty": 1,
+      "question": "To'g'ri variantni tanlang: Die Rezeption ist ___ 7 ___ 22 Uhr geöffnet.",
+      "prompt_de": null,
+      "options": [
+        "von ... bis",
+        "um ... bis",
+        "ab ... zu"
+      ],
+      "pairs": null,
+      "correct_answer": "von ... bis",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Vaqt oralig'i \"von ... bis\" bilan: von 7 bis 22 Uhr — 7 dan 22 gacha.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l2-e04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "travel",
+      "grammar_topic": "g-time-prepositions",
+      "difficulty": 2,
+      "question": "To'g'ri variantni tanlang: Ich weiß es nicht genau, aber ich komme ___ 18 Uhr an.",
+      "prompt_de": null,
+      "options": [
+        "gegen",
+        "um",
+        "bis"
+      ],
+      "pairs": null,
+      "correct_answer": "gegen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"aniq bilmayman\" — demak, vaqt taxminiy.",
+      "explanation": "Taxminiy vaqt — \"gegen\": gegen 18 Uhr = soat 18 larda. \"um\" — aniq vaqt uchun.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l2-e05",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "transport",
+      "grammar_topic": "g-separable-verbs",
+      "difficulty": 2,
+      "question": "So'zlarni to'g'ri tartibda joylashtiring: \"Poyezd soat o'nda jo'naydi.\"",
+      "prompt_de": null,
+      "options": [
+        "Zug",
+        "zehn",
+        "Der",
+        "fährt",
+        "um",
+        "ab",
+        "Uhr"
+      ],
+      "pairs": null,
+      "correct_answer": "Der Zug fährt um zehn Uhr ab",
+      "accepted_answers": [
+        "Um zehn Uhr fährt der Zug ab"
+      ],
+      "criteria": null,
+      "hint": "\"abfahren\" ajraladi.",
+      "explanation": "\"fährt\" 2-o'rinda, \"ab\" gap oxirida: Der Zug fährt um zehn Uhr ab.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l2-e06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "transport",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Poyezd qaysi yo'ldan jo'naydi?",
+      "prompt_de": null,
+      "options": [
+        "7-yo'ldan",
+        "4-yo'ldan",
+        "12-yo'ldan"
+      ],
+      "pairs": null,
+      "correct_answer": "7-yo'ldan",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"von Gleis 7\" — 7-yo'ldan. 13:40 — Myunxenga yetib kelish vaqti.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Um 13.40 Uhr. Der Zug fährt von Gleis 7 ab."
+    },
+    {
+      "id": "a2-m14-l2-e07",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "transport",
+      "grammar_topic": "g-perfekt",
+      "difficulty": 2,
+      "question": "\"umsteigen\" fe'lining Partizip II shaklini yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "umgestiegen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "steigen → gestiegen",
+      "explanation": "um + ge + stiegen = umgestiegen. Perfektda \"sein\" bilan: Ich bin in Köln umgestiegen.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l2-e08",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "transport",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Bitta borish-qaytish chiptasi, iltimos.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Eine Fahrkarte hin und zurück, bitte.",
+      "accepted_answers": [
+        "Einmal hin und zurück, bitte.",
+        "Eine Fahrkarte hin und zurück bitte.",
+        "Hin und zurück, bitte.",
+        "Eine Fahrkarte, hin und zurück, bitte."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"hin und zurück\" — borish-qaytish. Kassada qisqacha \"Einmal hin und zurück, bitte\" ham deyiladi.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l2-e09",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "transport",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Jadvalni o'qing. Leyptsigda keyingi poyezdni necha daqiqa kutasiz?",
+      "prompt_de": "Berlin Hbf ab 8.15 Uhr – Leipzig Hbf an 9.30 Uhr\nLeipzig Hbf ab 9.42 Uhr – München Hbf an 13.05 Uhr\nUmstieg in Leipzig: Gleis 10 → Gleis 14",
+      "options": [
+        "12 daqiqa",
+        "15 daqiqa",
+        "1 soat"
+      ],
+      "pairs": null,
+      "correct_answer": "12 daqiqa",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"an\" — yetib kelish, \"ab\" — jo'nash.",
+      "explanation": "Leyptsigga 9:30 da yetib kelasiz (an), keyingi poyezd 9:42 da jo'naydi (ab): 12 daqiqa.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l2-e10",
+      "version": 1,
+      "type": "plural",
+      "skill": "vocabulary",
+      "topic": "travel",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Ko'plik shaklini yozing: der Koffer → ?",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "die Koffer",
+      "accepted_answers": [
+        "Koffer"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"-er\" bilan tugaydigan erkak jinsi otlari ko'pincha o'zgarmaydi: der Koffer → die Koffer.",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l2-e11",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "transport",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni davom ettiring. — Wann kommt der Zug in Hamburg an?",
+      "prompt_de": "Wann kommt der Zug in Hamburg an?",
+      "options": [
+        "Um 14.20 Uhr.",
+        "Von Gleis 3.",
+        "Hin und zurück."
+      ],
+      "pairs": null,
+      "correct_answer": "Um 14.20 Uhr.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Wann?\" — qachon? Javob vaqt bilan: Um 14.20 Uhr.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a2-m14-l2-t01",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "travel",
+      "grammar_topic": "g-time-prepositions",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: Ich bleibe ___ Sonntag in Wien.",
+      "prompt_de": "Ich bleibe ___ Sonntag in Wien.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "bis",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Tugash nuqtasi — \"bis\": yakshanbagacha.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l2-t02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "transport",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "\"die Ankunft\" nimani bildiradi?",
+      "prompt_de": null,
+      "options": [
+        "yetib kelish",
+        "jo'nash",
+        "chipta"
+      ],
+      "pairs": null,
+      "correct_answer": "yetib kelish",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ankunft — ankommen (yetib kelmoq) fe'lidan. Jo'nash — die Abfahrt.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l2-t03",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "transport",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "To'g'ri artiklni tanlang: ___ Gleis",
+      "prompt_de": null,
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "das",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "das Gleis, ko'pligi: die Gleise. Artiklni so'z bilan birga yodlang.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l2-t04",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "reading",
+      "topic": "transport",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "O'zbek tiliga tarjima qiling: \"Wo steige ich um?\"",
+      "prompt_de": "Wo steige ich um?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Qayerda boshqa poyezdga o'taman?",
+      "accepted_answers": [
+        "Qayerda o'taman?",
+        "Qayerda boshqa transportga o'taman?",
+        "Qayerda poyezd almashtiraman?",
+        "Qayerda boshqa poyezdga o'tishim kerak?"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"umsteigen\" — boshqa poyezd/avtobusga o'tmoq. \"Wo\" — qayerda.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l2-t05",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "transport",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Kassadasiz. Ertaga Berlinga borib, kechqurun qaytmoqchisiz. Nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Einmal Berlin, hin und zurück, bitte.",
+        "Ich bin nach Berlin gefahren.",
+        "Wann kommt Berlin an?"
+      ],
+      "pairs": null,
+      "correct_answer": "Einmal Berlin, hin und zurück, bitte.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Kassada chipta so'rash: \"Einmal + shahar + hin und zurück, bitte\".",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l2-t06",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "transport",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang va eshitganingizni yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Der Zug fährt von Gleis drei ab.",
+      "accepted_answers": [
+        "Der Zug fährt von Gleis 3 ab."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"abfahren\": fährt ... ab. \"Gleis\" — katta harf bilan (ot).",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": "Der Zug fährt von Gleis drei ab."
+    },
+    {
+      "id": "a2-m14-l2-t07",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "travel",
+      "grammar_topic": "g-perfekt",
+      "difficulty": 2,
+      "question": "\"ankommen\" fe'lining Partizip II shaklini yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "angekommen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "an + ge + kommen = angekommen. Perfektda \"sein\": Wir sind angekommen.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

@@ -1,0 +1,885 @@
+{
+  "id": "a2-m24-l1",
+  "version": 1,
+  "level": "A2",
+  "module": 24,
+  "order": 1,
+  "title": "Kelajak rejalari va maqsadlar",
+  "title_de": "Pläne und Ziele für die Zukunft",
+  "goal": "Dars oxirida kelasi oy, kelasi yil va bir necha yildan keyingi rejalaringizni werden + infinitiv, Präsens + vaqt so'zi va \"Ich habe vor, ... zu ...\" bilan ayta olasiz.",
+  "skill_focus": [
+    "grammar",
+    "speaking",
+    "listening"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Kelajak haqida nemis tilida ko'pincha oddiy hozirgi zamon + vaqt so'zi ishlatiladi: Nächstes Jahr ziehe ich nach Berlin. Aniq reja, va'da yoki taxmin uchun: werden + infinitiv: Ich werde eine Ausbildung machen."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Usul",
+        "Misol",
+        "O'zbekcha"
+      ],
+      "rows": [
+        [
+          "Präsens + vaqt",
+          "Morgen fahre ich nach Köln.",
+          "Ertaga Kyolnga boraman."
+        ],
+        [
+          "werden + infinitiv",
+          "Ich werde Deutsch weiterlernen.",
+          "Nemis tilini o'rganishda davom etaman."
+        ],
+        [
+          "vorhaben, ... zu + infinitiv",
+          "Ich habe vor, ein Café zu eröffnen.",
+          "Kafe ochish niyatim bor."
+        ],
+        [
+          "möchten / wollen",
+          "Ich möchte Krankenpflegerin werden.",
+          "Hamshira bo'lmoqchiman."
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Shaxs",
+        "werden"
+      ],
+      "rows": [
+        [
+          "ich",
+          "werde"
+        ],
+        [
+          "du",
+          "wirst"
+        ],
+        [
+          "er / sie / es",
+          "wird"
+        ],
+        [
+          "wir",
+          "werden"
+        ],
+        [
+          "ihr",
+          "werdet"
+        ],
+        [
+          "sie / Sie",
+          "werden"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "werden ikki xil ma'noda: 1) \"bo'lmoq\": Ich werde Ärztin. — Shifokor bo'laman. 2) kelajak yordamchi fe'li: Ich werde arbeiten. — Ishlayman. Ikkinchisida infinitiv gap oxirida turadi."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-die-zukunft",
+      "de": "Zukunft",
+      "uz": "kelajak",
+      "pos": "noun",
+      "article": "die",
+      "plural": "-",
+      "forms": null,
+      "example_de": "In der Zukunft möchte ich in Deutschland arbeiten.",
+      "example_uz": "Kelajakda Germaniyada ishlamoqchiman.",
+      "topic": "future-plans"
+    },
+    {
+      "id": "v-das-ziel",
+      "de": "Ziel",
+      "uz": "maqsad",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Ziele",
+      "forms": null,
+      "example_de": "Mein Ziel ist die B1-Prüfung.",
+      "example_uz": "Maqsadim — B1 imtihoni.",
+      "topic": "future-plans"
+    },
+    {
+      "id": "v-der-plan",
+      "de": "Plan",
+      "uz": "reja",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Pläne",
+      "forms": null,
+      "example_de": "Was sind deine Pläne für den Sommer?",
+      "example_uz": "Yozga rejalaring qanday?",
+      "topic": "future-plans"
+    },
+    {
+      "id": "v-der-traum",
+      "de": "Traum",
+      "uz": "orzu; tush",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Träume",
+      "forms": null,
+      "example_de": "Mein Traum ist ein eigenes Haus.",
+      "example_uz": "Orzuim — o'z uyim.",
+      "topic": "future-plans"
+    },
+    {
+      "id": "v-planen",
+      "de": "planen",
+      "uz": "rejalashtirmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "geplant",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "plant"
+      },
+      "example_de": "Wir planen eine Reise nach Italien.",
+      "example_uz": "Italiyaga sayohat rejalashtiryapmiz.",
+      "topic": "future-plans"
+    },
+    {
+      "id": "v-vorhaben",
+      "de": "vorhaben",
+      "uz": "niyat qilmoq, rejasi bo'lmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "vorgehabt",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "hat vor",
+        "praeteritum": "hatte vor"
+      },
+      "example_de": "Was hast du am Wochenende vor?",
+      "example_uz": "Dam olish kunlari nima rejang bor?",
+      "topic": "future-plans"
+    },
+    {
+      "id": "v-werden",
+      "de": "werden",
+      "uz": "bo'lmoq; (kelajak yordamchi fe'li)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "geworden",
+        "perfekt_aux": "sein",
+        "praesens_3sg": "wird",
+        "praeteritum": "wurde"
+      },
+      "example_de": "Ich werde Lehrerin.",
+      "example_uz": "Men o'qituvchi bo'laman.",
+      "topic": "future-plans"
+    },
+    {
+      "id": "v-träumen",
+      "de": "träumen",
+      "uz": "orzu qilmoq; tush ko'rmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "geträumt",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "träumt"
+      },
+      "example_de": "Ich träume von einer Reise um die Welt.",
+      "example_uz": "Dunyo bo'ylab sayohatni orzu qilaman.",
+      "topic": "future-plans"
+    },
+    {
+      "id": "v-sich-bewerben",
+      "de": "sich bewerben",
+      "uz": "ishga ariza topshirmoq (um/bei)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "beworben",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "bewirbt sich",
+        "praeteritum": "bewarb sich"
+      },
+      "example_de": "Ich bewerbe mich bei einer Firma in München.",
+      "example_uz": "Myunxendagi bir firmaga ariza topshiryapman.",
+      "topic": "work"
+    },
+    {
+      "id": "v-selbstständig",
+      "de": "selbstständig",
+      "uz": "mustaqil; o'z biznesiga ega",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Mein Onkel ist selbstständig.",
+      "example_uz": "Tog'am o'z biznesiga ega.",
+      "topic": "work"
+    },
+    {
+      "id": "v-hoffentlich",
+      "de": "hoffentlich",
+      "uz": "umid qilamanki",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Hoffentlich bestehe ich die Prüfung.",
+      "example_uz": "Umid qilamanki, imtihondan o'taman.",
+      "topic": "future-plans"
+    },
+    {
+      "id": "v-wahrscheinlich",
+      "de": "wahrscheinlich",
+      "uz": "ehtimol, katta ehtimol bilan",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Wahrscheinlich ziehen wir nach Leipzig.",
+      "example_uz": "Katta ehtimol bilan Leyptsigga ko'chamiz.",
+      "topic": "future-plans"
+    },
+    {
+      "id": "v-irgendwann",
+      "de": "irgendwann",
+      "uz": "qachondir, bir kun kelib",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Irgendwann möchte ich ein Haus kaufen.",
+      "example_uz": "Bir kun kelib uy sotib olmoqchiman.",
+      "topic": "future-plans"
+    }
+  ],
+  "review_vocabulary": [
+    "v-als",
+    "v-der-erfolg"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-future",
+      "rule": "Kelajak: werden (tuslangan, 2-o'rinda) + infinitiv (gap oxirida). Ko'pincha hozirgi zamon + vaqt so'zi ham yetarli. Niyat uchun: Ich habe vor, ... zu + infinitiv. Ehtimol uchun: wahrscheinlich, hoffentlich, vielleicht.",
+      "when": "Rejalar, maqsadlar, va'da va taxminlar haqida gapirganda.",
+      "structure": "Ega + werden + ... + infinitiv.   Vaqt + fe'l + ega + ... (Präsens).   Ich habe vor, ... zu + infinitiv.",
+      "examples": [
+        {
+          "de": "Nächstes Jahr werde ich eine Ausbildung als Elektriker machen.",
+          "uz": "Kelasi yili elektrik bo'yicha Ausbildung qilaman."
+        },
+        {
+          "de": "Wir werden im Sommer heiraten.",
+          "uz": "Yozda turmush quramiz."
+        },
+        {
+          "de": "Hoffentlich wird die Prüfung nicht so schwer.",
+          "uz": "Umid qilamanki, imtihon unchalik qiyin bo'lmaydi."
+        },
+        {
+          "de": "Ich habe vor, mich bei einer Firma in München zu bewerben.",
+          "uz": "Myunxendagi bir firmaga ariza topshirish niyatim bor."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Ich werde machen eine Ausbildung.",
+          "right": "Ich werde eine Ausbildung machen.",
+          "why": "werden bilan infinitiv gap oxirida turadi."
+        },
+        {
+          "wrong": "Du werdest Arzt.",
+          "right": "Du wirst Arzt.",
+          "why": "werden noto'g'ri tuslanadi: du wirst, er wird."
+        },
+        {
+          "wrong": "Nächstes Jahr ich werde nach Deutschland ziehen.",
+          "right": "Nächstes Jahr werde ich nach Deutschland ziehen.",
+          "why": "Fe'l 2-o'rinda: vaqt birinchi bo'lsa, ega fe'ldan keyin."
+        }
+      ],
+      "check": [
+        "a2-m24-l1-e03",
+        "a2-m24-l1-e04",
+        "a2-m24-l1-e05",
+        "a2-m24-l1-e09"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Kursdan keyingi rejalar",
+    "lines": [
+      {
+        "speaker": "Kamola",
+        "de": "Und, Aziz, was sind deine Pläne nach dem Kurs?",
+        "uz": "Xo'sh, Aziz, kursdan keyin qanday rejalaring bor?"
+      },
+      {
+        "speaker": "Aziz",
+        "de": "Ich werde mich bei Krankenhäusern in Hamburg bewerben. Ich möchte Krankenpfleger werden.",
+        "uz": "Hamburgdagi kasalxonalarga ariza topshiraman. Hamshira bo'lmoqchiman."
+      },
+      {
+        "speaker": "Kamola",
+        "de": "Toll! Wann fängst du an?",
+        "uz": "Zo'r! Qachon boshlaysan?"
+      },
+      {
+        "speaker": "Aziz",
+        "de": "Hoffentlich im Oktober. Aber zuerst muss ich die B1-Prüfung machen.",
+        "uz": "Umid qilamanki, oktyabrda. Lekin avval B1 imtihonini topshirishim kerak."
+      },
+      {
+        "speaker": "Kamola",
+        "de": "Ich habe vor, in Usbekistan ein Reisebüro zu eröffnen. Mein Traum ist, deutsche Touristen nach Samarkand zu bringen.",
+        "uz": "Men O'zbekistonda sayohat agentligi ochish niyatidaman. Orzuim — nemis sayyohlarini Samarqandga olib borish."
+      },
+      {
+        "speaker": "Aziz",
+        "de": "Das ist eine super Idee! Dann werden wir uns irgendwann in Samarkand sehen.",
+        "uz": "Bu zo'r fikr! Unda qachondir Samarqandda ko'rishamiz."
+      }
+    ],
+    "questions": [
+      "a2-m24-l1-e06",
+      "a2-m24-l1-e07"
+    ]
+  },
+  "situation": {
+    "title": "O'qituvchi bilan suhbat",
+    "context_uz": "Kurs oxirida o'qituvchingiz Frau Neumann har bir talabadan kelajak rejalarini so'rayapti.",
+    "lines": [
+      {
+        "speaker": "Frau Neumann",
+        "de": "Was ist Ihr Ziel für das nächste Jahr?",
+        "uz": "Kelasi yilga maqsadingiz nima?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ich werde weiter Deutsch lernen. Ich möchte im Frühling die B1-Prüfung machen.",
+        "uz": "Nemis tilini o'rganishda davom etaman. Bahorda B1 imtihonini topshirmoqchiman."
+      },
+      {
+        "speaker": "Frau Neumann",
+        "de": "Und beruflich?",
+        "uz": "Kasb bo'yicha-chi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ich habe vor, mich als IT-Spezialist zu bewerben. Wahrscheinlich in Berlin oder Leipzig.",
+        "uz": "IT mutaxassisi sifatida ariza topshirish niyatim bor. Katta ehtimol bilan Berlin yoki Leyptsigda."
+      },
+      {
+        "speaker": "Frau Neumann",
+        "de": "Und in fünf Jahren?",
+        "uz": "Besh yildan keyin-chi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Irgendwann möchte ich selbstständig sein und eine eigene Firma haben.",
+        "uz": "Bir kun kelib mustaqil bo'lib, o'z firmamga ega bo'lmoqchiman."
+      },
+      {
+        "speaker": "Frau Neumann",
+        "de": "Das klingt sehr gut. Viel Erfolg!",
+        "uz": "Juda yaxshi eshitiladi. Omad!"
+      }
+    ],
+    "task_uz": "O'qituvchiga o'z rejalaringizni ayting: kelasi yil, kasbiy maqsad va 5 yildan keyin. werden + infinitiv va \"Ich habe vor, ... zu ...\" ni ishlating."
+  },
+  "exercises": [
+    {
+      "id": "a2-m24-l1-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "future-plans",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemischa so'zni o'zbekcha ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "die Zukunft",
+          "kelajak"
+        ],
+        [
+          "das Ziel",
+          "maqsad"
+        ],
+        [
+          "der Traum",
+          "orzu"
+        ],
+        [
+          "der Plan",
+          "reja"
+        ],
+        [
+          "hoffentlich",
+          "umid qilamanki"
+        ]
+      ],
+      "correct_answer": {
+        "die Zukunft": "kelajak",
+        "das Ziel": "maqsad",
+        "der Traum": "orzu",
+        "der Plan": "reja",
+        "hoffentlich": "umid qilamanki"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Zukunft — kelajak, Ziel — maqsad, Traum — orzu, Plan — reja, hoffentlich — umid qilamanki.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m24-l1-e02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'z firmangizga ega bo'lmoqchisiz: \"Ich möchte ___ sein.\"",
+      "prompt_de": null,
+      "options": [
+        "selbstständig",
+        "wahrscheinlich",
+        "irgendwann"
+      ],
+      "pairs": null,
+      "correct_answer": "selbstständig",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "selbstständig — mustaqil, o'z biznesiga ega. wahrscheinlich — ehtimol, irgendwann — qachondir.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m24-l1-e03",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "future-plans",
+      "grammar_topic": "g-future",
+      "difficulty": 1,
+      "question": "werden fe'lini tuslang: \"Was ___ du nach dem Kurs machen?\"",
+      "prompt_de": "Was ___ du nach dem Kurs machen?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "wirst",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "werden noto'g'ri: du wirst.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m24-l1-e04",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "work",
+      "grammar_topic": "g-future",
+      "difficulty": 1,
+      "question": "So'zlarni tartiblang: \"Men Ausbildung qilaman.\"",
+      "prompt_de": null,
+      "options": [
+        "Ich",
+        "machen",
+        "Ausbildung",
+        "werde",
+        "eine"
+      ],
+      "pairs": null,
+      "correct_answer": "Ich werde eine Ausbildung machen.",
+      "accepted_answers": [
+        "Eine Ausbildung werde ich machen."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "werde — 2-o'rinda, infinitiv machen — oxirda.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m24-l1-e05",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-future",
+      "difficulty": 1,
+      "question": "To'g'ri variantni tanlang: \"Nächstes Jahr ___ nach Hamburg.\"",
+      "prompt_de": null,
+      "options": [
+        "ziehe ich",
+        "ich ziehe",
+        "ich werde ziehen"
+      ],
+      "pairs": null,
+      "correct_answer": "ziehe ich",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Präsens + vaqt ham kelajakni bildiradi. Vaqt birinchi — fe'l 2-o'rinda, keyin ega.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m24-l1-e06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Aziz qanday reja qilyapti?",
+      "prompt_de": null,
+      "options": [
+        "Hamburgdagi kasalxonalarga ishga ariza topshirish",
+        "Hamburgda universitetda o'qish",
+        "O'zbekistonga qaytish"
+      ],
+      "pairs": null,
+      "correct_answer": "Hamburgdagi kasalxonalarga ishga ariza topshirish",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Ich werde mich bei Krankenhäusern in Hamburg bewerben.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Ich werde mich bei Krankenhäusern in Hamburg bewerben. Ich möchte Krankenpfleger werden."
+    },
+    {
+      "id": "a2-m24-l1-e07",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "future-plans",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang. Kamolaning orzusi nima?",
+      "prompt_de": null,
+      "options": [
+        "Nemis sayyohlarini Samarqandga olib borish",
+        "Germaniyada yashash",
+        "Hamshira bo'lish"
+      ],
+      "pairs": null,
+      "correct_answer": "Nemis sayyohlarini Samarqandga olib borish",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Mein Traum ist, deutsche Touristen nach Samarkand zu bringen.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Ich habe vor, in Usbekistan ein Reisebüro zu eröffnen. Mein Traum ist, deutsche Touristen nach Samarkand zu bringen."
+    },
+    {
+      "id": "a2-m24-l1-e08",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "work",
+      "grammar_topic": "g-praesens",
+      "difficulty": 2,
+      "question": "Fe'lni tuslang (sich bewerben): \"Er ___ sich bei einer Firma in München.\"",
+      "prompt_de": "Er ___ sich bei einer Firma in München.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "bewirbt",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "e → i",
+      "explanation": "bewerben — o'zagi o'zgaradi: er bewirbt sich (e → i).",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m24-l1-e09",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "professions",
+      "grammar_topic": "g-future",
+      "difficulty": 1,
+      "question": "Xato so'zni toping: \"Du werdest bestimmt eine gute Ärztin.\"",
+      "prompt_de": "Du werdest bestimmt eine gute Ärztin.",
+      "options": [
+        "Du",
+        "werdest",
+        "bestimmt",
+        "gute",
+        "Ärztin"
+      ],
+      "pairs": null,
+      "correct_answer": "werdest",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: \"Du wirst bestimmt eine gute Ärztin.\"",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m24-l1-e10",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "future-plans",
+      "grammar_topic": "g-future",
+      "difficulty": 3,
+      "question": "Nemis tiliga tarjima qiling: \"Kelasi yili Germaniyada ishlayman.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Nächstes Jahr werde ich in Deutschland arbeiten.",
+      "accepted_answers": [
+        "Nächstes Jahr arbeite ich in Deutschland.",
+        "Ich werde nächstes Jahr in Deutschland arbeiten.",
+        "Ich arbeite nächstes Jahr in Deutschland.",
+        "Im nächsten Jahr werde ich in Deutschland arbeiten.",
+        "Im nächsten Jahr arbeite ich in Deutschland."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "werden + infinitiv yoki Präsens + vaqt. Vaqt birinchi bo'lsa — fe'l 2-o'rinda.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m24-l1-e11",
+      "version": 1,
+      "type": "speak",
+      "skill": "speaking",
+      "topic": "future-plans",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Ovoz chiqarib ayting: 3 ta reja — kelasi oy, kelasi yil va 5 yildan keyin.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 15,
+        "required_words": [
+          "werde"
+        ],
+        "sample": "Nächsten Monat werde ich die A2-Prüfung machen. Nächstes Jahr habe ich vor, eine Ausbildung zu beginnen. In fünf Jahren werde ich hoffentlich als Krankenpflegerin arbeiten."
+      },
+      "hint": null,
+      "explanation": "werde + infinitiv (oxirda) yoki Ich habe vor, ... zu ... ishlating.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a2-m24-l1-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "celebrations",
+      "grammar_topic": "g-future",
+      "difficulty": 1,
+      "question": "To'g'ri shaklni tanlang: \"Wir ___ im Sommer heiraten.\"",
+      "prompt_de": null,
+      "options": [
+        "werden",
+        "wird",
+        "werdet"
+      ],
+      "pairs": null,
+      "correct_answer": "werden",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "wir bilan: werden.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m24-l1-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "future-plans",
+      "grammar_topic": "g-future",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: \"Ich habe vor, ein Café ___ eröffnen.\"",
+      "prompt_de": "Ich habe vor, ein Café ___ eröffnen.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "zu",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "vorhaben, ... zu + infinitiv.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m24-l1-t03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "future-plans",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "\"umid qilamanki\" nemischa qanday?",
+      "prompt_de": null,
+      "options": [
+        "hoffentlich",
+        "wahrscheinlich",
+        "irgendwann"
+      ],
+      "pairs": null,
+      "correct_answer": "hoffentlich",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "hoffen — umid qilmoq → hoffentlich. wahrscheinlich — ehtimol, irgendwann — qachondir.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m24-l1-t04",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "education",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Aziz avval nima qilishi kerak?",
+      "prompt_de": null,
+      "options": [
+        "B1 imtihonini topshirish",
+        "Oktyabrda ishga kirish",
+        "Hamburgga ko'chish"
+      ],
+      "pairs": null,
+      "correct_answer": "B1 imtihonini topshirish",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Aber zuerst muss ich die B1-Prüfung machen.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Hoffentlich im Oktober. Aber zuerst muss ich die B1-Prüfung machen."
+    },
+    {
+      "id": "a2-m24-l1-t05",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "future-plans",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Mein Ziel ist, fließend Deutsch zu sprechen.\"",
+      "prompt_de": "Mein Ziel ist, fließend Deutsch zu sprechen.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Mening maqsadim nemischa ravon gapirish.",
+      "accepted_answers": [
+        "Maqsadim nemischa ravon gapirish.",
+        "Mening maqsadim nemis tilida ravon gapirish.",
+        "Maqsadim nemis tilida ravon gapirish.",
+        "Mening maqsadim nemis tilida erkin gapirish."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "das Ziel — maqsad; fließend — ravon.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m24-l1-t06",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "work",
+      "grammar_topic": "g-future",
+      "difficulty": 1,
+      "question": "So'zlarni tartiblang: \"Besh yildan keyin o'z biznesimga ega bo'laman.\"",
+      "prompt_de": null,
+      "options": [
+        "selbstständig",
+        "sein",
+        "ich",
+        "In",
+        "fünf",
+        "werde",
+        "Jahren"
+      ],
+      "pairs": null,
+      "correct_answer": "In fünf Jahren werde ich selbstständig sein.",
+      "accepted_answers": [
+        "Ich werde in fünf Jahren selbstständig sein."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Vaqt birinchi — werde 2-o'rinda, ega keyin, infinitiv sein oxirda.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m24-l1-t07",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Ish suhbatida so'rashdi: \"Was sind Ihre Pläne für die Zukunft?\"",
+      "prompt_de": null,
+      "options": [
+        "Ich werde weiter Deutsch lernen und möchte später eine Weiterbildung machen.",
+        "Ich werde lernen weiter Deutsch.",
+        "Ich wurde Deutsch lernen."
+      ],
+      "pairs": null,
+      "correct_answer": "Ich werde weiter Deutsch lernen und möchte später eine Weiterbildung machen.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "werde + infinitiv oxirda. Ikkinchisida tartib xato, uchinchisida \"wurde\" — o'tgan zamon.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

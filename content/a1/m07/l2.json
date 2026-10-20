@@ -1,0 +1,822 @@
+{
+  "id": "a1-m07-l2",
+  "version": 1,
+  "level": "A1",
+  "module": 7,
+  "order": 2,
+  "title": "Bizga nima kerak? Akkusativ",
+  "title_de": "Was brauchen wir?",
+  "goal": "Dars oxirida \"brauchen\", \"nehmen\", \"kochen\" fe'llari bilan to'ldiruvchini Akkusativda to'g'ri ishlatasiz (der → den/einen) va ovqat uchun xarid ro'yxatini nemischa ayta olasiz.",
+  "skill_focus": [
+    "grammar",
+    "vocabulary",
+    "writing"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "\"Nimani?\" savoliga javob beradigan so'z (to'ldiruvchi) Akkusativda turadi. O'zbek tilida bu tushum kelishigi: olma-ni yeyman. Nemis tilida qo'shimcha so'zga emas, artiklga qo'shiladi."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Jins",
+        "Nominativ (kim? nima?)",
+        "Akkusativ (kimni? nimani?)"
+      ],
+      "rows": [
+        [
+          "erkak (der)",
+          "der / ein Fisch",
+          "den / einen Fisch"
+        ],
+        [
+          "ayol (die)",
+          "die / eine Banane",
+          "die / eine Banane"
+        ],
+        [
+          "o'rta (das)",
+          "das / ein Ei",
+          "das / ein Ei"
+        ],
+        [
+          "ko'plik",
+          "die Tomaten",
+          "die Tomaten"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Faqat erkak jinsi o'zgaradi: der → den, ein → einen. Ayol, o'rta jins va ko'plik o'zgarmaydi. Shuning uchun otning jinsini bilish juda muhim."
+    },
+    {
+      "type": "p",
+      "text": "Akkusativ bilan ishlatiladigan fe'llar: brauchen (kerak bo'lmoq), nehmen (olmoq), kochen (pishirmoq), kaufen (sotib olmoq), essen, trinken, mögen, haben. Masalan: Ich brauche einen Fisch. Wir haben einen Kuchen."
+    },
+    {
+      "type": "tip",
+      "text": "\"Menga ... kerak\" nemischa \"Ich brauche ...\" bo'ladi: Menga piyoz kerak — Ich brauche Zwiebeln. \"nehmen\" nomuntazam: du nimmst, er nimmt."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-das-obst",
+      "de": "Obst",
+      "uz": "meva",
+      "pos": "noun",
+      "article": "das",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Wir essen viel Obst.",
+      "example_uz": "Biz ko'p meva yeymiz.",
+      "topic": "food"
+    },
+    {
+      "id": "v-die-banane",
+      "de": "Banane",
+      "uz": "banan",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Bananen",
+      "forms": null,
+      "example_de": "Ich nehme eine Banane.",
+      "example_uz": "Men bitta banan olaman.",
+      "topic": "food"
+    },
+    {
+      "id": "v-die-tomate",
+      "de": "Tomate",
+      "uz": "pomidor",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Tomaten",
+      "forms": null,
+      "example_de": "Wir brauchen drei Tomaten.",
+      "example_uz": "Bizga uchta pomidor kerak.",
+      "topic": "food"
+    },
+    {
+      "id": "v-die-kartoffel",
+      "de": "Kartoffel",
+      "uz": "kartoshka",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Kartoffeln",
+      "forms": null,
+      "example_de": "Deutsche essen oft Kartoffeln.",
+      "example_uz": "Nemislar tez-tez kartoshka yeydi.",
+      "topic": "food"
+    },
+    {
+      "id": "v-die-zwiebel",
+      "de": "Zwiebel",
+      "uz": "piyoz",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Zwiebeln",
+      "forms": null,
+      "example_de": "Für Plov brauche ich Zwiebeln.",
+      "example_uz": "Palov uchun menga piyoz kerak.",
+      "topic": "food"
+    },
+    {
+      "id": "v-die-butter",
+      "de": "Butter",
+      "uz": "sariyog'",
+      "pos": "noun",
+      "article": "die",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Ich esse Brot mit Butter.",
+      "example_uz": "Men sariyog'li non yeyman.",
+      "topic": "food"
+    },
+    {
+      "id": "v-der-zucker",
+      "de": "Zucker",
+      "uz": "shakar",
+      "pos": "noun",
+      "article": "der",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Trinkst du Tee mit Zucker?",
+      "example_uz": "Choyni shakar bilan ichasanmi?",
+      "topic": "food"
+    },
+    {
+      "id": "v-der-kuchen",
+      "de": "Kuchen",
+      "uz": "pirog, tort",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Kuchen",
+      "forms": null,
+      "example_de": "Ich kaufe einen Kuchen.",
+      "example_uz": "Men bitta pirog sotib olaman.",
+      "topic": "food"
+    },
+    {
+      "id": "v-die-wurst",
+      "de": "Wurst",
+      "uz": "kolbasa",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Würste",
+      "forms": null,
+      "example_de": "Tom isst gern Wurst.",
+      "example_uz": "Tom kolbasani yaxshi ko'radi.",
+      "topic": "food"
+    },
+    {
+      "id": "v-der-fisch",
+      "de": "Fisch",
+      "uz": "baliq",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Fische",
+      "forms": null,
+      "example_de": "Am Freitag kochen wir Fisch.",
+      "example_uz": "Juma kuni biz baliq pishiramiz.",
+      "topic": "food"
+    },
+    {
+      "id": "v-das-hähnchen",
+      "de": "Hähnchen",
+      "uz": "tovuq (go'shti)",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Hähnchen",
+      "forms": null,
+      "example_de": "Ich koche heute ein Hähnchen.",
+      "example_uz": "Bugun men tovuq pishiraman.",
+      "topic": "food"
+    },
+    {
+      "id": "v-brauchen",
+      "de": "brauchen",
+      "uz": "kerak bo'lmoq, muhtoj bo'lmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "gebraucht",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "braucht"
+      },
+      "example_de": "Was brauchen wir noch?",
+      "example_uz": "Bizga yana nima kerak?",
+      "topic": "food"
+    },
+    {
+      "id": "v-nehmen",
+      "de": "nehmen",
+      "uz": "olmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "genommen",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "nimmt"
+      },
+      "example_de": "Nimmst du einen Apfel?",
+      "example_uz": "Bitta olma olasanmi?",
+      "topic": "food"
+    }
+  ],
+  "review_vocabulary": [
+    "v-der-apfel",
+    "v-das-ei",
+    "v-der-käse",
+    "v-das-fleisch",
+    "v-der-reis",
+    "v-das-brot",
+    "v-essen",
+    "v-der-tee",
+    "v-gern",
+    "v-kochen"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-akkusativ",
+      "rule": "Fe'l harakati qaratilgan ot (\"nimani?\") Akkusativda turadi. Faqat erkak jinsida artikl o'zgaradi: der → den, ein → einen. die, das va ko'plik o'zgarmaydi.",
+      "when": "brauchen, nehmen, kochen, kaufen, essen, trinken, mögen, haben fe'llaridan keyingi to'ldiruvchida.",
+      "structure": "Ega + fe'l + den/einen + erkak jinsli ot: Ich brauche einen Fisch.\nEga + fe'l + die/eine, das/ein: Ich nehme eine Banane. Wir kochen ein Hähnchen.",
+      "examples": [
+        {
+          "de": "Ich brauche einen Fisch.",
+          "uz": "Menga bitta baliq kerak."
+        },
+        {
+          "de": "Wir kochen ein Hähnchen.",
+          "uz": "Biz tovuq pishiramiz."
+        },
+        {
+          "de": "Nimmst du den Kuchen?",
+          "uz": "Pirogni olasanmi?"
+        },
+        {
+          "de": "Sie kauft eine Banane und einen Apfel.",
+          "uz": "U bitta banan va bitta olma sotib oladi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Ich brauche ein Fisch.",
+          "right": "Ich brauche einen Fisch.",
+          "why": "Fisch — der (erkak jinsi). Akkusativda \"ein\" → \"einen\"."
+        },
+        {
+          "wrong": "Ich nehme einen Banane.",
+          "right": "Ich nehme eine Banane.",
+          "why": "Banane — die (ayol jinsi). Ayol jinsida Akkusativ o'zgarmaydi: eine."
+        },
+        {
+          "wrong": "Der Kuchen nehme ich.",
+          "right": "Ich nehme den Kuchen.",
+          "why": "Olinadigan narsa Akkusativda turadi: den Kuchen. \"der\" faqat ega bo'lganda ishlatiladi."
+        }
+      ],
+      "check": [
+        "a1-m07-l2-e03",
+        "a1-m07-l2-e04",
+        "a1-m07-l2-e05",
+        "a1-m07-l2-e09",
+        "a1-m07-l2-e11"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Palov uchun xarid",
+    "lines": [
+      {
+        "speaker": "Max",
+        "de": "Was kochen wir heute, Dilnoza?",
+        "uz": "Dilnoza, bugun nima pishiramiz?"
+      },
+      {
+        "speaker": "Dilnoza",
+        "de": "Plov! Wir brauchen Reis, Fleisch, Zwiebeln und Karotten.",
+        "uz": "Palov! Bizga guruch, go'sht, piyoz va sabzi kerak."
+      },
+      {
+        "speaker": "Max",
+        "de": "Reis haben wir. Ich kaufe das Fleisch und die Zwiebeln.",
+        "uz": "Guruch bor. Go'sht va piyozni men sotib olaman."
+      },
+      {
+        "speaker": "Dilnoza",
+        "de": "Gut. Und ich kaufe einen Kuchen für den Tee.",
+        "uz": "Yaxshi. Men esa choy uchun bitta pirog olaman."
+      },
+      {
+        "speaker": "Max",
+        "de": "Super! Ich mag Kuchen.",
+        "uz": "Zo'r! Men pirogni yaxshi ko'raman."
+      }
+    ],
+    "questions": [
+      "a1-m07-l2-e07"
+    ]
+  },
+  "situation": {
+    "title": "Birga ovqat pishiramiz",
+    "context_uz": "Siz nemis kursdoshingiz Sarah bilan bir kvartirada yashaysiz. Bugun kechqurun birga ovqat pishirmoqchisiz va xarid ro'yxatini tuzyapsiz.",
+    "lines": [
+      {
+        "speaker": "Sarah",
+        "de": "Wir kochen heute zusammen, ja?",
+        "uz": "Bugun birga ovqat pishiramiz, a?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ja, gern! Ich koche Fisch mit Kartoffeln.",
+        "uz": "Ha, bajonidil! Men kartoshkali baliq pishiraman."
+      },
+      {
+        "speaker": "Sarah",
+        "de": "Toll! Was brauchen wir?",
+        "uz": "Ajoyib! Bizga nima kerak?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Wir brauchen einen Fisch, ein Kilo Kartoffeln und Butter.",
+        "uz": "Bizga bitta baliq, bir kilo kartoshka va sariyog' kerak."
+      },
+      {
+        "speaker": "Sarah",
+        "de": "Und eine Zwiebel?",
+        "uz": "Piyoz-chi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ja, zwei Zwiebeln, bitte.",
+        "uz": "Ha, ikkita piyoz, iltimos."
+      }
+    ],
+    "task_uz": "O'zingiz ovqat tanlang (masalan, guruchli tovuq) va xarid ro'yxatini ayting: kamida 4 ta mahsulotni \"Wir brauchen einen/eine/ein ...\" bilan. Erkak jinsdagi so'zlarda \"einen\"ni unutmang."
+  },
+  "exercises": [
+    {
+      "id": "a1-m07-l2-e01",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "food",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Artiklni tanlang: ___ Fisch",
+      "prompt_de": "___ Fisch",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "der",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Fisch — erkak jinsi. Akkusativda: den/einen Fisch.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l2-e02",
+      "version": 1,
+      "type": "plural",
+      "skill": "vocabulary",
+      "topic": "food",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Ko'plik shaklini yozing: die Tomate → die ___",
+      "prompt_de": "die Tomate",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Tomaten",
+      "accepted_answers": [
+        "die Tomaten"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "-e bilan tugaydigan ayol jinsidagi otlarga ko'plikda odatda -n qo'shiladi: die Tomaten.",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l2-e03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-akkusativ",
+      "difficulty": 1,
+      "question": "To'g'ri variantni tanlang: Ich brauche ___ Kuchen.",
+      "prompt_de": "Ich brauche ___ Kuchen.",
+      "options": [
+        "ein",
+        "einen",
+        "eine"
+      ],
+      "pairs": null,
+      "correct_answer": "einen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "der Kuchen",
+      "explanation": "Kuchen — der (erkak jinsi). brauchen dan keyin Akkusativ: einen Kuchen.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l2-e04",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-akkusativ",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (\"bitta\"): Wir kochen ___ Hähnchen.",
+      "prompt_de": "Wir kochen ___ Hähnchen.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "ein",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "das Hähnchen",
+      "explanation": "Hähnchen — das (o'rta jins). O'rta jins Akkusativda o'zgarmaydi: ein Hähnchen.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l2-e05",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-akkusativ",
+      "difficulty": 2,
+      "question": "Xato so'zni toping: \"Ich nehme einen Banane.\"",
+      "prompt_de": "Ich nehme einen Banane.",
+      "options": [
+        "Ich",
+        "nehme",
+        "einen",
+        "Banane"
+      ],
+      "pairs": null,
+      "correct_answer": "einen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: \"Ich nehme eine Banane.\" Banane — die, ayol jinsida Akkusativ o'zgarmaydi.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l2-e06",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-praesens",
+      "difficulty": 2,
+      "question": "Fe'lni tuslang: Er ___ (nehmen) einen Apfel.",
+      "prompt_de": "Er ___ (nehmen) einen Apfel.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "nimmt",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "e → i, h tushadi",
+      "explanation": "\"nehmen\" nomuntazam: du nimmst, er nimmt.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l2-e07",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "food",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni tinglang. Go'sht va piyozni kim sotib oladi?",
+      "prompt_de": null,
+      "options": [
+        "Max",
+        "Dilnoza",
+        "Ikkalasi ham olmaydi"
+      ],
+      "pairs": null,
+      "correct_answer": "Max",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Max: \"Ich kaufe das Fleisch und die Zwiebeln.\" Dilnoza esa pirog oladi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Was kochen wir heute, Dilnoza? Plov! Wir brauchen Reis, Fleisch, Zwiebeln und Karotten. Reis haben wir. Ich kaufe das Fleisch und die Zwiebeln. Gut. Und ich kaufe einen Kuchen für den Tee. Super! Ich mag Kuchen."
+    },
+    {
+      "id": "a1-m07-l2-e08",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "food",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang va yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Wir brauchen zwei Zwiebeln.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Zwiebeln\" — ko'plik, katta harf bilan. \"brauchen\" — wir shakli.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": "Wir brauchen zwei Zwiebeln."
+    },
+    {
+      "id": "a1-m07-l2-e09",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-akkusativ",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Menga bitta baliq kerak.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich brauche einen Fisch.",
+      "accepted_answers": [
+        "Einen Fisch brauche ich."
+      ],
+      "criteria": null,
+      "hint": "brauchen + einen",
+      "explanation": "\"Menga ... kerak\" = Ich brauche ... Fisch — der, shuning uchun Akkusativda einen Fisch.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l2-e10",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "food",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "So'zlarni juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "Zwiebel",
+          "piyoz"
+        ],
+        [
+          "Kartoffel",
+          "kartoshka"
+        ],
+        [
+          "Zucker",
+          "shakar"
+        ],
+        [
+          "Butter",
+          "sariyog'"
+        ],
+        [
+          "Wurst",
+          "kolbasa"
+        ]
+      ],
+      "correct_answer": {
+        "Zwiebel": "piyoz",
+        "Kartoffel": "kartoshka",
+        "Zucker": "shakar",
+        "Butter": "sariyog'",
+        "Wurst": "kolbasa"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Zwiebel — piyoz, Kartoffel — kartoshka, Zucker — shakar, Butter — sariyog', Wurst — kolbasa.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l2-e11",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-akkusativ",
+      "difficulty": 1,
+      "question": "So'zlarni tartiblang: \"Onam baliq pishiryapti.\"",
+      "prompt_de": null,
+      "options": [
+        "Fisch",
+        "Meine",
+        "einen",
+        "Mutter",
+        "kocht"
+      ],
+      "pairs": null,
+      "correct_answer": "Meine Mutter kocht einen Fisch",
+      "accepted_answers": [
+        "Einen Fisch kocht meine Mutter"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ega (Meine Mutter) + fe'l (kocht) + Akkusativ (einen Fisch). To'ldiruvchi bilan boshlash ham mumkin: Einen Fisch kocht meine Mutter.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a1-m07-l2-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-akkusativ",
+      "difficulty": 1,
+      "question": "To'g'ri variantni tanlang: Nimmst du ___ Wurst?",
+      "prompt_de": "Nimmst du ___ Wurst?",
+      "options": [
+        "die",
+        "den",
+        "der"
+      ],
+      "pairs": null,
+      "correct_answer": "die",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Wurst — die. Ayol jinsi Akkusativda o'zgarmaydi: die Wurst.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l2-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-akkusativ",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (\"bitta\"): Ich brauche ___ Apfel.",
+      "prompt_de": "Ich brauche ___ Apfel.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "einen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Apfel → Akkusativda einen Apfel.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l2-t03",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "food",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Artiklni tanlang: ___ Butter",
+      "prompt_de": "___ Butter",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "die",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Butter — ayol jinsi.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l2-t04",
+      "version": 1,
+      "type": "plural",
+      "skill": "vocabulary",
+      "topic": "food",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Ko'plik shaklini yozing: der Fisch → die ___",
+      "prompt_de": "der Fisch",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Fische",
+      "accepted_answers": [
+        "die Fische"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Fisch → die Fische (-e qo'shiladi).",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l2-t05",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "food",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Wir brauchen Zucker.\"",
+      "prompt_de": "Wir brauchen Zucker.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Bizga shakar kerak.",
+      "accepted_answers": [
+        "Bizga qand kerak",
+        "Shakar kerak",
+        "Bizga shakar kerak bo'ladi"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "brauchen — kerak bo'lmoq. Wir brauchen Zucker — Bizga shakar kerak.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l2-t06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "food",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. U nimani sotib oladi?",
+      "prompt_de": null,
+      "options": [
+        "Pirog",
+        "Choy",
+        "Baliq"
+      ],
+      "pairs": null,
+      "correct_answer": "Pirog",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Ich kaufe einen Kuchen\" — u pirog sotib oladi. Choy uchun.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Ich kaufe einen Kuchen für den Tee."
+    },
+    {
+      "id": "a1-m07-l2-t07",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-akkusativ",
+      "difficulty": 1,
+      "question": "Xato so'zni toping: \"Er kocht ein Fisch.\"",
+      "prompt_de": "Er kocht ein Fisch.",
+      "options": [
+        "Er",
+        "kocht",
+        "ein",
+        "Fisch"
+      ],
+      "pairs": null,
+      "correct_answer": "ein",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: \"Er kocht einen Fisch.\" Fisch — der, Akkusativda einen.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

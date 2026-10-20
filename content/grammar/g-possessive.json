@@ -1,0 +1,313 @@
+{
+  "id": "g-possessive",
+  "version": 1,
+  "level": "A1",
+  "order": 7,
+  "title": "Egalik olmoshlari: mein, dein, sein, ihr ...",
+  "prerequisites": [
+    "g-articles",
+    "g-pronouns"
+  ],
+  "next": [
+    "g-akkusativ"
+  ],
+  "rule": "Egalik olmoshi kimga tegishli ekanini bildiradi. Uning shakli egaga bog'liq (mein, dein, sein ...), oxiri esa keyingi otning jinsiga (mein Bruder, meine Schwester).",
+  "when": "Oila, narsalar va shaxsiy ma'lumot haqida gapirganda: Das ist mein Vater. Wie ist Ihr Name?",
+  "structure": "egalik olmoshi + ot: erkak/o'rta — mein, ayol/ko'plik — meine",
+  "explanation": [
+    {
+      "type": "table",
+      "headers": [
+        "Ega",
+        "erkak / o'rta",
+        "ayol / ko'plik",
+        "O'zbekcha"
+      ],
+      "rows": [
+        [
+          "ich",
+          "mein",
+          "meine",
+          "mening"
+        ],
+        [
+          "du",
+          "dein",
+          "deine",
+          "sening"
+        ],
+        [
+          "er / es",
+          "sein",
+          "seine",
+          "uning (erkak/o'rta)"
+        ],
+        [
+          "sie",
+          "ihr",
+          "ihre",
+          "uning (ayol)"
+        ],
+        [
+          "wir",
+          "unser",
+          "unsere",
+          "bizning"
+        ],
+        [
+          "ihr",
+          "euer",
+          "eure",
+          "sizlarning"
+        ],
+        [
+          "sie",
+          "ihr",
+          "ihre",
+          "ularning"
+        ],
+        [
+          "Sie",
+          "Ihr",
+          "Ihre",
+          "Sizning"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Egalik olmoshlari \"ein\" kabi o'zgaradi. Akkusativda erkak jinsi -en oladi: Ich besuche meinen Bruder."
+    },
+    {
+      "type": "tip",
+      "text": "O'zbekchada \"uning\" bitta, nemischada ikkita: egasi erkak bo'lsa sein, ayol bo'lsa ihr. Anna und ihr Bruder; Tom und seine Schwester."
+    }
+  ],
+  "examples": [
+    {
+      "de": "Das ist mein Vater.",
+      "uz": "Bu mening otam."
+    },
+    {
+      "de": "Meine Mutter heißt Dilnoza.",
+      "uz": "Onamning ismi Dilnoza."
+    },
+    {
+      "de": "Ist das dein Handy?",
+      "uz": "Bu sening telefoningmi?"
+    },
+    {
+      "de": "Tom und seine Schwester wohnen in Köln.",
+      "uz": "Tom va uning singlisi Kyolnda yashaydi."
+    },
+    {
+      "de": "Anna liebt ihren Hund.",
+      "uz": "Anna itini yaxshi ko'radi."
+    },
+    {
+      "de": "Wie ist Ihr Name?",
+      "uz": "Ismingiz nima?"
+    }
+  ],
+  "common_mistakes": [
+    {
+      "wrong": "Anna und sein Bruder",
+      "right": "Anna und ihr Bruder",
+      "why": "Ega — Anna (ayol), shuning uchun ihr. Narsaning jinsi emas, egasining jinsi muhim."
+    },
+    {
+      "wrong": "mein Schwester",
+      "right": "meine Schwester",
+      "why": "die Schwester — ayol jinsi, -e qo'shiladi."
+    },
+    {
+      "wrong": "Wie ist ihr Name? (Sizga)",
+      "right": "Wie ist Ihr Name?",
+      "why": "Hurmat shakli Ihr doim katta harf bilan."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "g-possessive-e01",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-possessive",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (mening): \"Das ist ___ Schwester.\"",
+      "prompt_de": "Das ist ___ Schwester.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "meine",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Schwester — ayol jinsi: meine.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-possessive-e02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-possessive",
+      "difficulty": 2,
+      "question": "Bo'sh joyni to'ldiring: \"Anna und ___ Bruder.\"",
+      "prompt_de": "Anna und ___ Bruder.",
+      "options": [
+        "ihr",
+        "sein",
+        "ihre"
+      ],
+      "pairs": null,
+      "correct_answer": "ihr",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ega Anna — ayol → ihr; der Bruder — erkak jinsi, qo'shimchasiz.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-possessive-e03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-possessive",
+      "difficulty": 2,
+      "question": "Bo'sh joyni to'ldiring: \"Tom besucht ___ Mutter.\"",
+      "prompt_de": "Tom besucht ___ Mutter.",
+      "options": [
+        "seine",
+        "ihre",
+        "sein"
+      ],
+      "pairs": null,
+      "correct_answer": "seine",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ega Tom — erkak → sein; die Mutter — ayol jinsi → seine.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-possessive-e04",
+      "version": 1,
+      "type": "match",
+      "skill": "grammar",
+      "topic": "people",
+      "grammar_topic": "g-possessive",
+      "difficulty": 1,
+      "question": "Olmoshni egalik shakli bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "wir",
+          "unser"
+        ],
+        [
+          "ihr",
+          "euer"
+        ],
+        [
+          "du",
+          "dein"
+        ],
+        [
+          "Sie",
+          "Ihr"
+        ]
+      ],
+      "correct_answer": {
+        "wir": "unser",
+        "ihr": "euer",
+        "du": "dein",
+        "Sie": "Ihr"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "wir — unser, ihr — euer, du — dein, Sie — Ihr.",
+      "error_type": "other",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "g-possessive-e05",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "transport",
+      "grammar_topic": "g-possessive",
+      "difficulty": 2,
+      "question": "Hurmat bilan so'rang: \"Herr Weber, ist das ___ Auto?\"",
+      "prompt_de": "Herr Weber, ist das ___ Auto?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ihr",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Sie (Siz) → Ihr (Sizning), katta harf bilan. das Auto — o'rta jins, qo'shimchasiz.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-possessive-e06",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-possessive",
+      "difficulty": 1,
+      "question": "Xato so'zni toping: \"Meine Bruder ist Arzt.\"",
+      "prompt_de": "Meine Bruder ist Arzt.",
+      "options": [
+        "Meine",
+        "Bruder",
+        "ist",
+        "Arzt"
+      ],
+      "pairs": null,
+      "correct_answer": "Meine",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Bruder — erkak jinsi: Mein Bruder ist Arzt.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-possessive-e07",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "grammar",
+      "topic": "education",
+      "grammar_topic": "g-possessive",
+      "difficulty": 1,
+      "question": "Nemis tiliga tarjima qiling: \"Bu mening kitobim.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Das ist mein Buch.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "das Buch — o'rta jins → mein.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

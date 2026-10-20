@@ -1,0 +1,338 @@
+{
+  "id": "g-place-prepositions",
+  "version": 1,
+  "level": "A2",
+  "order": 21,
+  "title": "Joy va yo'nalish predloglari (Wo? / Wohin?)",
+  "prerequisites": [
+    "g-dativ",
+    "g-akkusativ"
+  ],
+  "next": [
+    "g-adjectives"
+  ],
+  "rule": "in, an, auf, unter, über, vor, hinter, neben, zwischen predloglari ikki kelishik bilan keladi: Wo? (qayerda — joy) → Dativ, Wohin? (qayerga — harakat) → Akkusativ.",
+  "when": "Uy, xona, shahar haqida, narsalar qayerda turgani yoki qayerga qo'yilgani haqida gapirganda.",
+  "structure": "Wo? + liegen/stehen/hängen/sein + predlog + Dativ | Wohin? + legen/stellen/hängen/gehen + predlog + Akkusativ",
+  "explanation": [
+    {
+      "type": "table",
+      "headers": [
+        "Predlog",
+        "Ma'nosi",
+        "Wo? + Dativ",
+        "Wohin? + Akkusativ"
+      ],
+      "rows": [
+        [
+          "in",
+          "ichida / ichiga",
+          "Ich bin im Zimmer.",
+          "Ich gehe ins Zimmer."
+        ],
+        [
+          "auf",
+          "ustida (yotiq sirt)",
+          "Das Buch liegt auf dem Tisch.",
+          "Ich lege das Buch auf den Tisch."
+        ],
+        [
+          "an",
+          "yonida, devorda (tik sirt)",
+          "Das Bild hängt an der Wand.",
+          "Ich hänge das Bild an die Wand."
+        ],
+        [
+          "unter",
+          "tagida",
+          "Die Katze ist unter dem Bett.",
+          "Die Katze läuft unter das Bett."
+        ],
+        [
+          "neben",
+          "yonida",
+          "Der Stuhl steht neben dem Schrank.",
+          "Ich stelle den Stuhl neben den Schrank."
+        ],
+        [
+          "vor / hinter",
+          "oldida / orqasida",
+          "Das Auto steht vor dem Haus.",
+          "Ich fahre das Auto hinter das Haus."
+        ],
+        [
+          "über / zwischen",
+          "tepasida / orasida",
+          "Die Lampe hängt über dem Tisch.",
+          "Ich stelle die Vase zwischen die Bücher."
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Wo? (holat)",
+        "Wohin? (harakat)"
+      ],
+      "rows": [
+        [
+          "liegen — yotmoq",
+          "legen — yotqizib qo'ymoq"
+        ],
+        [
+          "stehen — turmoq",
+          "stellen — tik qo'ymoq"
+        ],
+        [
+          "hängen — osilib turmoq",
+          "hängen — osmoq"
+        ],
+        [
+          "sein, wohnen, arbeiten",
+          "gehen, fahren, kommen"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Odam va muassasaga: zu + Dativ (zum Arzt, zur Bank). Shahar va mamlakatga: nach (nach Berlin), uyga: nach Hause, uyda: zu Hause."
+    },
+    {
+      "type": "tip",
+      "text": "Qisqartmalar: in dem = im, in das = ins, an dem = am, an das = ans."
+    }
+  ],
+  "examples": [
+    {
+      "de": "Das Handy liegt auf dem Tisch.",
+      "uz": "Telefon stol ustida yotibdi."
+    },
+    {
+      "de": "Ich lege das Handy auf den Tisch.",
+      "uz": "Telefonni stol ustiga qo'yaman."
+    },
+    {
+      "de": "Wir gehen heute ins Kino.",
+      "uz": "Bugun kinoga boramiz."
+    },
+    {
+      "de": "Das Bild hängt an der Wand.",
+      "uz": "Rasm devorda osilgan."
+    },
+    {
+      "de": "Der Supermarkt ist neben der Apotheke.",
+      "uz": "Supermarket dorixona yonida."
+    },
+    {
+      "de": "Am Wochenende fahre ich nach München.",
+      "uz": "Dam olish kunlari Myunxenga boraman."
+    }
+  ],
+  "common_mistakes": [
+    {
+      "wrong": "Ich gehe in dem Park.",
+      "right": "Ich gehe in den Park.",
+      "why": "gehen — harakat (Wohin?) → Akkusativ."
+    },
+    {
+      "wrong": "Ich bin in den Park.",
+      "right": "Ich bin im Park.",
+      "why": "sein — joy (Wo?) → Dativ."
+    },
+    {
+      "wrong": "Das Buch liegt auf den Tisch.",
+      "right": "Das Buch liegt auf dem Tisch.",
+      "why": "liegen — holat → Dativ."
+    },
+    {
+      "wrong": "Ich fahre in München.",
+      "right": "Ich fahre nach München.",
+      "why": "Shaharga — nach."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "g-place-prepositions-e01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-place-prepositions",
+      "difficulty": 1,
+      "question": "To'g'ri artiklni tanlang: \"Das Handy liegt auf ___ Tisch.\"",
+      "prompt_de": "Das Handy liegt auf ___ Tisch.",
+      "options": [
+        "dem",
+        "den",
+        "der"
+      ],
+      "pairs": null,
+      "correct_answer": "dem",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "liegen — Wo? → Dativ: auf dem Tisch.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-place-prepositions-e02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-place-prepositions",
+      "difficulty": 1,
+      "question": "To'g'ri artiklni tanlang: \"Ich lege das Handy auf ___ Tisch.\"",
+      "prompt_de": "Ich lege das Handy auf ___ Tisch.",
+      "options": [
+        "den",
+        "dem",
+        "der"
+      ],
+      "pairs": null,
+      "correct_answer": "den",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "legen — Wohin? → Akkusativ: auf den Tisch.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-place-prepositions-e03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "leisure",
+      "grammar_topic": "g-place-prepositions",
+      "difficulty": 1,
+      "question": "Qisqartmani yozing (in + das): \"Wir gehen heute ___ Kino.\"",
+      "prompt_de": "Wir gehen heute ___ Kino.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "ins",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "gehen — Wohin? → in das = ins.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-place-prepositions-e04",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-place-prepositions",
+      "difficulty": 2,
+      "question": "Artiklni yozing: \"Das Bild hängt an ___ Wand.\"",
+      "prompt_de": "Das Bild hängt an ___ Wand.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "der",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Wo? → Dativ; die Wand → der Wand.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-place-prepositions-e05",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-place-prepositions",
+      "difficulty": 2,
+      "question": "\"Mushuk karavot tagida\" nemischa qanday?",
+      "prompt_de": null,
+      "options": [
+        "Die Katze ist unter dem Bett.",
+        "Die Katze ist unter das Bett.",
+        "Die Katze ist auf dem Bett."
+      ],
+      "pairs": null,
+      "correct_answer": "Die Katze ist unter dem Bett.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Joy (Wo?) → Dativ: unter dem Bett.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-place-prepositions-e06",
+      "version": 1,
+      "type": "match",
+      "skill": "grammar",
+      "topic": "directions",
+      "grammar_topic": "g-place-prepositions",
+      "difficulty": 1,
+      "question": "Savolni ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "Wo?",
+          "qayerda"
+        ],
+        [
+          "Wohin?",
+          "qayerga"
+        ],
+        [
+          "Woher?",
+          "qayerdan"
+        ]
+      ],
+      "correct_answer": {
+        "Wo?": "qayerda",
+        "Wohin?": "qayerga",
+        "Woher?": "qayerdan"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Wo? — qayerda (Dativ), Wohin? — qayerga (Akkusativ), Woher? — qayerdan.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-place-prepositions-e07",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "travel",
+      "grammar_topic": "g-place-prepositions",
+      "difficulty": 2,
+      "question": "Xato so'zni toping: \"Am Wochenende fahre ich in München.\"",
+      "prompt_de": "Am Wochenende fahre ich in München.",
+      "options": [
+        "Am",
+        "Wochenende",
+        "fahre",
+        "ich",
+        "in",
+        "München"
+      ],
+      "pairs": null,
+      "correct_answer": "in",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Shaharga yo'nalish — nach: Am Wochenende fahre ich nach München.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

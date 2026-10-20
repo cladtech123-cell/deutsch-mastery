@@ -1,0 +1,803 @@
+{
+  "id": "a2-m16-l1",
+  "version": 1,
+  "level": "A2",
+  "module": 16,
+  "order": 1,
+  "title": "Uchrashuv vaqtini belgilash",
+  "title_de": "Einen Termin vereinbaren",
+  "goal": "Dars oxirida sartaroshxona, idora yoki hamkasb bilan uchrashuv vaqtini kelisha olasiz: vaqt so'raysiz, taklif berasiz, rozilik yoki boshqa vaqtni bildirasiz (Passt Ihnen ...? Lieber um ...).",
+  "skill_focus": [
+    "speaking",
+    "listening",
+    "grammar"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Germaniyada deyarli hamma narsa oldindan belgilangan vaqt (Termin) bilan bo'ladi: shifokor, sartarosh, idora (Bürgeramt), ish yig'ilishi. Termin kelishish uchun bir nechta tayyor iboralar yetarli."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Vazifa",
+        "Ibora",
+        "O'zbekcha"
+      ],
+      "rows": [
+        [
+          "Vaqt so'rash",
+          "Wann haben Sie Zeit?",
+          "Qachon bo'shsiz?"
+        ],
+        [
+          "Taklif berish",
+          "Passt Ihnen Dienstag um 10 Uhr?",
+          "Seshanba soat 10 sizga to'g'ri keladimi?"
+        ],
+        [
+          "Rozilik",
+          "Ja, das passt gut. / Einverstanden!",
+          "Ha, juda mos. / Roziman!"
+        ],
+        [
+          "Rad etish",
+          "Dienstag geht leider nicht.",
+          "Seshanba, afsuski, bo'lmaydi."
+        ],
+        [
+          "Boshqa taklif",
+          "Lieber am Mittwoch. Geht das?",
+          "Yaxshisi chorshanba. Bo'ladimi?"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "\"passen\" Dativ bilan ishlatiladi: \"Das passt MIR\", \"Passt es IHNEN?\". 17-modulda Dativni batafsil o'rganamiz, hozircha bu iboralarni tayyor holda yodlang."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-vereinbaren",
+      "de": "vereinbaren",
+      "uz": "kelishmoq, belgilamoq (vaqt, uchrashuv)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "vereinbart",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "vereinbart"
+      },
+      "example_de": "Ich möchte einen Termin vereinbaren.",
+      "example_uz": "Uchrashuv vaqtini belgilamoqchiman.",
+      "topic": "appointments"
+    },
+    {
+      "id": "v-möglich",
+      "de": "möglich",
+      "uz": "mumkin, imkoni bor",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Ist ein Termin am Montag möglich?",
+      "example_uz": "Dushanba kuni uchrashuv mumkinmi?",
+      "topic": "appointments"
+    },
+    {
+      "id": "v-der-kalender",
+      "de": "Kalender",
+      "uz": "kalendar, taqvim",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Kalender",
+      "forms": null,
+      "example_de": "Ich schaue mal in meinen Kalender.",
+      "example_uz": "Kalendarimga bir qarab chiqay.",
+      "topic": "time"
+    },
+    {
+      "id": "v-die-uhrzeit",
+      "de": "Uhrzeit",
+      "uz": "soat (vaqt)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Uhrzeiten",
+      "forms": null,
+      "example_de": "Welche Uhrzeit passt Ihnen?",
+      "example_uz": "Sizga qaysi vaqt to'g'ri keladi?",
+      "topic": "time"
+    },
+    {
+      "id": "v-der-vorschlag",
+      "de": "Vorschlag",
+      "uz": "taklif",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Vorschläge",
+      "forms": null,
+      "example_de": "Haben Sie einen anderen Vorschlag?",
+      "example_uz": "Boshqa taklifingiz bormi?",
+      "topic": "communication"
+    },
+    {
+      "id": "v-vorschlagen",
+      "de": "vorschlagen",
+      "uz": "taklif qilmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "vorgeschlagen",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "schlägt vor"
+      },
+      "example_de": "Ich schlage Donnerstag vor.",
+      "example_uz": "Payshanbani taklif qilaman.",
+      "topic": "communication"
+    },
+    {
+      "id": "v-einverstanden",
+      "de": "einverstanden",
+      "uz": "rozi",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Um 15 Uhr? Einverstanden!",
+      "example_uz": "Soat 15 dami? Roziman!",
+      "topic": "communication"
+    },
+    {
+      "id": "v-lieber",
+      "de": "lieber",
+      "uz": "afzalroq, yaxshisi",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Ich komme lieber am Nachmittag.",
+      "example_uz": "Yaxshisi tushdan keyin kelaman.",
+      "topic": "communication"
+    },
+    {
+      "id": "v-der-friseur",
+      "de": "Friseur",
+      "uz": "sartarosh",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Friseure",
+      "forms": null,
+      "example_de": "Ich habe morgen einen Termin beim Friseur.",
+      "example_uz": "Ertaga sartaroshda navbatim bor.",
+      "topic": "services"
+    },
+    {
+      "id": "v-das-bürgeramt",
+      "de": "Bürgeramt",
+      "uz": "fuqarolar xizmati idorasi",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Bürgerämter",
+      "forms": null,
+      "example_de": "Für die Anmeldung gehen Sie zum Bürgeramt.",
+      "example_uz": "Ro'yxatdan o'tish uchun fuqarolar idorasiga borasiz.",
+      "topic": "services"
+    },
+    {
+      "id": "v-dringend",
+      "de": "dringend",
+      "uz": "shoshilinch",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Es ist dringend. Haben Sie heute noch einen Termin?",
+      "example_uz": "Bu shoshilinch. Bugun yana bo'sh vaqtingiz bormi?",
+      "topic": "appointments"
+    }
+  ],
+  "review_vocabulary": [
+    "v-passen",
+    "v-die-besprechung",
+    "v-pünktlich",
+    "v-reservieren"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-questions",
+      "rule": "Ha/yo'q savolida tuslangan fe'l 1-o'rinda turadi (Passt Ihnen ...? Haben Sie ...?). W-savolda so'roq so'z 1-o'rinda, fe'l 2-o'rinda (Wann haben Sie Zeit?).",
+      "when": "Uchrashuv vaqtini so'raganda va taklif berganda.",
+      "structure": "Ha/yo'q: Fe'l + subyekt + ...?  W-savol: Wann / Um wie viel Uhr / Wie lange + fe'l + subyekt + ...?",
+      "examples": [
+        {
+          "de": "Haben Sie am Donnerstag Zeit?",
+          "uz": "Payshanba kuni bo'shmisiz?"
+        },
+        {
+          "de": "Um wie viel Uhr passt es Ihnen?",
+          "uz": "Sizga soat nechada to'g'ri keladi?"
+        },
+        {
+          "de": "Geht es auch am Nachmittag?",
+          "uz": "Tushdan keyin ham bo'ladimi?"
+        },
+        {
+          "de": "Wie lange dauert der Termin?",
+          "uz": "Uchrashuv qancha davom etadi?"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Sie haben am Montag Zeit?",
+          "right": "Haben Sie am Montag Zeit?",
+          "why": "Yozma va rasmiy nutqda ha/yo'q savolida fe'l birinchi turadi. Faqat ohang bilan so'rash noto'g'ri yoki qo'pol eshitiladi."
+        },
+        {
+          "wrong": "Wann Sie haben Zeit?",
+          "right": "Wann haben Sie Zeit?",
+          "why": "W-savolda fe'l 2-o'rinda, subyektdan oldin."
+        },
+        {
+          "wrong": "Wie viel Uhr passt es?",
+          "right": "Um wie viel Uhr passt es Ihnen?",
+          "why": "Soat haqida so'rashda \"Um wie viel Uhr ...?\" deyiladi."
+        }
+      ],
+      "check": [
+        "a2-m16-l1-e02",
+        "a2-m16-l1-e03",
+        "a2-m16-l1-e09"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Sartaroshxonaga qo'ng'iroq",
+    "lines": [
+      {
+        "speaker": "Friseur",
+        "de": "Salon Haarschnitt, guten Tag!",
+        "uz": "Haarschnitt saloni, assalomu alaykum!"
+      },
+      {
+        "speaker": "Frau Nazarova",
+        "de": "Guten Tag! Ich möchte einen Termin zum Haareschneiden vereinbaren.",
+        "uz": "Assalomu alaykum! Soch oldirish uchun vaqt belgilamoqchiman."
+      },
+      {
+        "speaker": "Friseur",
+        "de": "Gern. Passt Ihnen Mittwoch um 10 Uhr?",
+        "uz": "Mamnuniyat bilan. Chorshanba soat 10 sizga to'g'ri keladimi?"
+      },
+      {
+        "speaker": "Frau Nazarova",
+        "de": "Mittwoch geht leider nicht. Ist Donnerstag möglich?",
+        "uz": "Chorshanba afsuski bo'lmaydi. Payshanba mumkinmi?"
+      },
+      {
+        "speaker": "Friseur",
+        "de": "Donnerstag um 14.30 Uhr oder um 17 Uhr.",
+        "uz": "Payshanba soat 14:30 yoki 17:00 da."
+      },
+      {
+        "speaker": "Frau Nazarova",
+        "de": "Lieber um 17 Uhr. Dann komme ich nach der Arbeit.",
+        "uz": "Yaxshisi soat 17 da. Unda ishdan keyin kelaman."
+      },
+      {
+        "speaker": "Friseur",
+        "de": "Gut, also Donnerstag, 17 Uhr. Bis dann!",
+        "uz": "Yaxshi, demak payshanba, soat 17. Ko'rishguncha!"
+      }
+    ],
+    "questions": [
+      "a2-m16-l1-e05"
+    ]
+  },
+  "situation": {
+    "title": "Hamkasb bilan yig'ilish vaqtini kelishish",
+    "context_uz": "Siz va hamkasbingiz Frau Roth yangi loyiha haqida gaplashishingiz kerak. Vaqt kelishyapsiz.",
+    "lines": [
+      {
+        "speaker": "Frau Roth",
+        "de": "Wir müssen über das Projekt sprechen. Wann haben Sie Zeit?",
+        "uz": "Loyiha haqida gaplashishimiz kerak. Qachon bo'shsiz?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Passt Ihnen Dienstag um 9 Uhr?",
+        "uz": "Seshanba soat 9 sizga to'g'ri keladimi?"
+      },
+      {
+        "speaker": "Frau Roth",
+        "de": "Hm, um 9 habe ich schon eine Besprechung. Geht es auch später?",
+        "uz": "Hm, soat 9 da yig'ilishim bor. Kechroq ham bo'ladimi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ja, ich schlage 11 Uhr vor.",
+        "uz": "Ha, soat 11 ni taklif qilaman."
+      },
+      {
+        "speaker": "Frau Roth",
+        "de": "Einverstanden. Dienstag, 11 Uhr, in meinem Büro.",
+        "uz": "Roziman. Seshanba, soat 11, mening xonamda."
+      }
+    ],
+    "task_uz": "O'z variantingizni tuzing: siz chorshanbani taklif qilasiz, hamkasbingiz rad etadi, siz boshqa kun va vaqtni taklif qilasiz. \"Passt Ihnen ...?\", \"lieber\", \"einverstanden\" so'zlarini ishlating."
+  },
+  "exercises": [
+    {
+      "id": "a2-m16-l1-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "appointments",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemischa so'zni o'zbekcha ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "vereinbaren",
+          "kelishmoq, belgilamoq"
+        ],
+        [
+          "der Vorschlag",
+          "taklif"
+        ],
+        [
+          "einverstanden",
+          "rozi"
+        ],
+        [
+          "dringend",
+          "shoshilinch"
+        ],
+        [
+          "lieber",
+          "yaxshisi, afzalroq"
+        ]
+      ],
+      "correct_answer": {
+        "vereinbaren": "kelishmoq, belgilamoq",
+        "der Vorschlag": "taklif",
+        "einverstanden": "rozi",
+        "dringend": "shoshilinch",
+        "lieber": "yaxshisi, afzalroq"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "vereinbaren — (vaqt) kelishmoq, Vorschlag — taklif, einverstanden — rozi, dringend — shoshilinch, lieber — afzalroq.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l1-e02",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "appointments",
+      "grammar_topic": "g-questions",
+      "difficulty": 1,
+      "question": "So'zlarni to'g'ri tartibda joylashtiring: \"Payshanba kuni bo'shmisiz?\"",
+      "prompt_de": null,
+      "options": [
+        "Donnerstag",
+        "Sie",
+        "am",
+        "Haben",
+        "Zeit"
+      ],
+      "pairs": null,
+      "correct_answer": "Haben Sie am Donnerstag Zeit",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Ha/yo'q savoli — fe'l birinchi.",
+      "explanation": "Ha/yo'q savolida fe'l (Haben) birinchi o'rinda: Haben Sie am Donnerstag Zeit?",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l1-e03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "appointments",
+      "grammar_topic": "g-questions",
+      "difficulty": 1,
+      "question": "To'g'ri variantni tanlang: ___ Uhr passt es Ihnen?",
+      "prompt_de": null,
+      "options": [
+        "Um wie viel",
+        "Wie viel",
+        "Wann um"
+      ],
+      "pairs": null,
+      "correct_answer": "Um wie viel",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Aniq soatni so'rash: \"Um wie viel Uhr ...?\" (javob: Um 10 Uhr).",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l1-e04",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "appointments",
+      "grammar_topic": "g-praesens",
+      "difficulty": 2,
+      "question": "Gapdagi xato so'zni toping: \"Der Dienstag passen mir leider nicht.\"",
+      "prompt_de": "Der Dienstag passen mir leider nicht.",
+      "options": [
+        "Der",
+        "Dienstag",
+        "passen",
+        "mir",
+        "leider",
+        "nicht"
+      ],
+      "pairs": null,
+      "correct_answer": "passen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Subyekt \"der Dienstag\" — birlik (er), shuning uchun \"passt\": Der Dienstag passt mir leider nicht.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l1-e05",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "appointments",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Frau Nazarova sartaroshga qachon boradi?",
+      "prompt_de": null,
+      "options": [
+        "Payshanba, soat 17 da",
+        "Chorshanba, soat 10 da",
+        "Payshanba, soat 14:30 da"
+      ],
+      "pairs": null,
+      "correct_answer": "Payshanba, soat 17 da",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Chorshanba bo'lmadi, payshanba ikki vaqt taklif qilindi, u \"Lieber um 17 Uhr\" dedi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Lieber um 17 Uhr. Dann komme ich nach der Arbeit. — Gut, also Donnerstag, 17 Uhr."
+    },
+    {
+      "id": "a2-m16-l1-e06",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "appointments",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Qabulxona so'rayapti: \"Geht es am Mittwoch um 8 Uhr?\" Siz chorshanba band bo'lasiz. Eng yaxshi javob qaysi?",
+      "prompt_de": null,
+      "options": [
+        "Mittwoch geht leider nicht. Geht es auch am Donnerstag?",
+        "Nein.",
+        "Ja, Mittwoch geht nicht."
+      ],
+      "pairs": null,
+      "correct_answer": "Mittwoch geht leider nicht. Geht es auch am Donnerstag?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Muloyim rad etish: \"leider\" + boshqa taklif. Shunchaki \"Nein\" qo'pol, uchinchi variant esa o'zaro zid.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l1-e07",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "appointments",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni davom ettiring. — Wann haben Sie Zeit?",
+      "prompt_de": "Wann haben Sie Zeit?",
+      "options": [
+        "Am Montagvormittag, ab 9 Uhr.",
+        "Ja, ich habe Zeit.",
+        "Zwei Stunden."
+      ],
+      "pairs": null,
+      "correct_answer": "Am Montagvormittag, ab 9 Uhr.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Wann?\" — qachon? Javobda kun va vaqt aytiladi. \"Ja\" bilan W-savolga javob berilmaydi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l1-e08",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "appointments",
+      "grammar_topic": "g-questions",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Sizga dushanba to'g'ri keladimi?\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Passt Ihnen Montag?",
+      "accepted_answers": [
+        "Passt Ihnen der Montag?",
+        "Passt es Ihnen am Montag?",
+        "Geht es am Montag?",
+        "Geht Montag?",
+        "Passt Ihnen Montag gut?"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"to'g'ri kelmoq\" — passen + Dativ (Ihnen). Ha/yo'q savoli: fe'l birinchi.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l1-e09",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "appointments",
+      "grammar_topic": "g-questions",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: ___ haben Sie Zeit? — Am Freitag.",
+      "prompt_de": "___ haben Sie Zeit? — Am Freitag.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Wann",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Javob kun bilan (Am Freitag), demak savol \"Wann?\" — qachon?",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l1-e10",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "time",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "To'g'ri artiklni tanlang: ___ Kalender",
+      "prompt_de": null,
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "der",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Kalender, ko'pligi: die Kalender.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l1-e11",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "communication",
+      "grammar_topic": "g-perfekt",
+      "difficulty": 2,
+      "question": "\"vorschlagen\" fe'lining Partizip II shaklini yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "vorgeschlagen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ajraladigan fe'l: vor + ge + schlagen = vorgeschlagen. Er hat Freitag vorgeschlagen.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a2-m16-l1-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "communication",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "\"einverstanden\" nimani bildiradi?",
+      "prompt_de": null,
+      "options": [
+        "rozi",
+        "band",
+        "shoshilinch"
+      ],
+      "pairs": null,
+      "correct_answer": "rozi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "einverstanden — rozi. \"Einverstanden!\" — Roziman! / Kelishdik!",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l1-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "appointments",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (passen): Um wie viel Uhr ___ es Ihnen?",
+      "prompt_de": "Um wie viel Uhr ___ es Ihnen?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "passt",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"es\" — 3-shaxs birlik: passt.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l1-t03",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "appointments",
+      "grammar_topic": "g-questions",
+      "difficulty": 2,
+      "question": "So'zlarni to'g'ri tartibda joylashtiring: \"Juma kuni qachon bo'shsiz?\"",
+      "prompt_de": null,
+      "options": [
+        "Sie",
+        "Freitag",
+        "haben",
+        "am",
+        "Wann",
+        "Zeit"
+      ],
+      "pairs": null,
+      "correct_answer": "Wann haben Sie am Freitag Zeit",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "W-savol: Wann (1) haben (2) Sie ...",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l1-t04",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "reading",
+      "topic": "appointments",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Es ist dringend.\"",
+      "prompt_de": "Es ist dringend.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Bu shoshilinch.",
+      "accepted_answers": [
+        "Bu shoshilinch",
+        "Shoshilinch.",
+        "Bu juda shoshilinch.",
+        "Bu tezkor."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"dringend\" — shoshilinch, kechiktirib bo'lmaydigan.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l1-t05",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "appointments",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Hamkasbingiz soat 8 ni taklif qildi, lekin sizga kechroq qulay. Nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Lieber um 10 Uhr. Geht das?",
+        "Um 8 Uhr? Einverstanden!",
+        "Ich habe keinen Kalender."
+      ],
+      "pairs": null,
+      "correct_answer": "Lieber um 10 Uhr. Geht das?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Boshqa vaqtni muloyim taklif qilish: \"Lieber um ... Geht das?\"",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l1-t06",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "appointments",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang va eshitganingizni yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Passt Ihnen Dienstag um zehn Uhr?",
+      "accepted_answers": [
+        "Passt Ihnen Dienstag um 10 Uhr?"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Ihnen\" (Sizga) — katta harf bilan, chunki \"Sie\" ning shakli.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": "Passt Ihnen Dienstag um zehn Uhr?"
+    },
+    {
+      "id": "a2-m16-l1-t07",
+      "version": 1,
+      "type": "plural",
+      "skill": "vocabulary",
+      "topic": "communication",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Ko'plik shaklini yozing: der Vorschlag → ?",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "die Vorschläge",
+      "accepted_answers": [
+        "Vorschläge"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Vorschlag → die Vorschläge (a → ä, -e).",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

@@ -1,0 +1,310 @@
+{
+  "id": "a2-m18",
+  "version": 1,
+  "level": "A2",
+  "number": 18,
+  "title": "Shifokor va sog'liq",
+  "title_de": "Beim Arzt und Gesundheit",
+  "goals": [
+    "Alomatlar va kasallik haqida shifokorga gapirish",
+    "Praksisda vaqt olish va shifokor ko'rsatmalarini tushunish",
+    "müssen, dürfen, sollen ning ma'no farqini bilish (nicht müssen ≠ nicht dürfen)",
+    "Dorixonada dori so'rash va yo'riqnomani tushunish"
+  ],
+  "lessons": [
+    "a2-m18-l1",
+    "a2-m18-l2",
+    "a2-m18-l3"
+  ],
+  "module_test": [
+    {
+      "id": "mtest-a2-m18-01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "To'g'ri variantni tanlang: Mein Kind hat Fieber. Es ___ im Bett bleiben.",
+      "prompt_de": null,
+      "options": [
+        "muss",
+        "musst",
+        "müssen"
+      ],
+      "pairs": null,
+      "correct_answer": "muss",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"es\" → muss.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m18-02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 2,
+      "question": "\"Sie dürfen nicht schwimmen gehen\" nimani bildiradi?",
+      "prompt_de": null,
+      "options": [
+        "Suzishga borish mumkin emas",
+        "Suzishga borish shart emas",
+        "Suzishga borishingiz kerak"
+      ],
+      "pairs": null,
+      "correct_answer": "Suzishga borish mumkin emas",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"nicht dürfen\" — taqiq, mumkin emas.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m18-03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (sollen): Die Ärztin sagt, wir ___ mehr Obst essen.",
+      "prompt_de": "Die Ärztin sagt, wir ___ mehr Obst essen.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "sollen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "wir → sollen. Boshqa odamning maslahati.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m18-04",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "body",
+      "grammar_topic": "g-praesens",
+      "difficulty": 2,
+      "question": "Gapdagi xato so'zni toping: \"Meine Füße tut sehr weh.\"",
+      "prompt_de": "Meine Füße tut sehr weh.",
+      "options": [
+        "Meine",
+        "Füße",
+        "tut",
+        "sehr",
+        "weh"
+      ],
+      "pairs": null,
+      "correct_answer": "tut",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Meine Füße\" — ko'plik, shuning uchun \"tun\": Meine Füße tun sehr weh.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m18-05",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang. Bemor nima qilishi kerak?",
+      "prompt_de": null,
+      "options": [
+        "Mutaxassisga borishi, buning uchun yo'llanma oladi",
+        "Faqat dorixonadan malham olishi",
+        "Ertaga yana shu shifokorga kelishi"
+      ],
+      "pairs": null,
+      "correct_answer": "Mutaxassisga borishi, buning uchun yo'llanma oladi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Sie müssen zum Facharzt gehen. Hier ist Ihre Überweisung\" — mutaxassisga borish kerak, mana yo'llanma.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Ihr Knie ist verletzt. Sie müssen zum Facharzt gehen. Hier ist Ihre Überweisung."
+    },
+    {
+      "id": "mtest-a2-m18-06",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "So'zni ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "die Sprechstunde",
+          "qabul vaqti"
+        ],
+        [
+          "die Apotheke",
+          "dorixona"
+        ],
+        [
+          "das Medikament",
+          "dori"
+        ],
+        [
+          "rezeptfrei",
+          "retseptsiz"
+        ],
+        [
+          "untersuchen",
+          "tekshirmoq"
+        ]
+      ],
+      "correct_answer": {
+        "die Sprechstunde": "qabul vaqti",
+        "die Apotheke": "dorixona",
+        "das Medikament": "dori",
+        "rezeptfrei": "retseptsiz",
+        "untersuchen": "tekshirmoq"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Sprechstunde — qabul vaqti, Apotheke — dorixona, Medikament — dori, rezeptfrei — retseptsiz, untersuchen — ko'rikdan o'tkazmoq.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m18-07",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "health",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Ertaga ishga borsam bo'ladimi?\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Darf ich morgen arbeiten gehen?",
+      "accepted_answers": [
+        "Darf ich morgen zur Arbeit gehen?",
+        "Darf ich morgen wieder arbeiten?",
+        "Darf ich morgen arbeiten?",
+        "Darf ich morgen wieder arbeiten gehen?"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ruxsat so'rash — \"Darf ich ...?\". Infinitiv oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m18-08",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Praksis e'lonini o'qing. Qaysi gap to'g'ri?",
+      "prompt_de": "Praxis Dr. Weiß – Sprechstunden: Mo, Di, Do 8–12 und 15–18 Uhr, Mi und Fr 8–12 Uhr. Bitte bringen Sie immer Ihre Versichertenkarte mit. In dringenden Fällen rufen Sie bitte an.",
+      "options": [
+        "Chorshanba kuni tushdan keyin praksis yopiq",
+        "Praksis shanba kuni ham ochiq",
+        "Sug'urta kartasi kerak emas"
+      ],
+      "pairs": null,
+      "correct_answer": "Chorshanba kuni tushdan keyin praksis yopiq",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Chorshanba (Mi) va jumada (Fr) faqat 8–12 — tushdan keyin yopiq. Shanba yo'q. Karta har doim kerak.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m18-09",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 2,
+      "question": "So'zlarni to'g'ri tartibda joylashtiring: \"Retsept shart emas.\" (so'zma-so'z: retseptga ega bo'lishingiz shart emas)",
+      "prompt_de": null,
+      "options": [
+        "Rezept",
+        "kein",
+        "haben",
+        "Sie",
+        "müssen"
+      ],
+      "pairs": null,
+      "correct_answer": "Sie müssen kein Rezept haben",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"müssen\" 2-o'rinda, \"haben\" oxirida. \"kein Rezept\" — ot inkori.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m18-10",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang va eshitganingizni yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Sie dürfen heute keinen Sport machen.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Taqiq: dürfen + keinen + ot. \"machen\" oxirida.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": "Sie dürfen heute keinen Sport machen."
+    }
+  ],
+  "writing_task": {
+    "id": "w-a2-m18",
+    "title": "Kasallik haqida xabar",
+    "task_uz": "Siz kasal bo'lib qoldingiz va shifokorga bordingiz. Nemis tili kursidagi o'qituvchingizga (yoki boshlig'ingizga) elektron xat yozing: qanday alomatlar bor va qachondan beri, shifokor nima dedi (müssen, dürfen, sollen ishlating), qachongacha kasallik varaqangiz bor va qachon qaytasiz.",
+    "required_words": [
+      "Arzt",
+      "soll"
+    ],
+    "min_words": 40,
+    "max_words": 90,
+    "criteria": [
+      "Murojaat va yakun mos (rasmiy yoki norasmiy)",
+      "Kamida 2 ta alomat va \"seit\" bilan vaqt",
+      "müssen, dürfen va sollen dan kamida ikkitasi to'g'ri ma'noda",
+      "Modal fe'l bilan Infinitiv gap oxirida",
+      "Qaytish vaqti aniq (bis Freitag, am Montag ...)"
+    ],
+    "sample_answer": "Sehr geehrte Frau Weber,\nleider kann ich diese Woche nicht zum Deutschkurs kommen. Ich habe seit Sonntag Fieber, Husten und starke Halsschmerzen. Heute war ich beim Arzt. Ich habe eine Grippe. Der Arzt sagt, ich soll viel schlafen und viel Tee trinken. Ich darf bis Freitag nicht aus dem Haus gehen und muss dreimal täglich Tabletten nehmen. Am Montag komme ich wieder.\n\nMit freundlichen Grüßen\nGulnoza Rahimova"
+  }
+}

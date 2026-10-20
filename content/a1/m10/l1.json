@@ -1,0 +1,908 @@
+{
+  "id": "a1-m10-l1",
+  "version": 1,
+  "level": "A1",
+  "module": 10,
+  "order": 1,
+  "title": "Shahar joylari va können",
+  "title_de": "In der Stadt",
+  "goal": "Dars oxirida shahardagi 13 ta muhim joyni nomlaysiz, \"Gibt es hier ...?\" bilan so'raysiz va \"können\" bilan u yerda nima qilish mumkinligini aytasiz: In der Apotheke kann man Medikamente kaufen.",
+  "skill_focus": [
+    "vocabulary",
+    "grammar",
+    "speaking"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Yangi shaharda eng ko'p beriladigan savol: \"Gibt es hier ...?\" (Bu yerda ... bormi?). Javobda joy ifodalari (9-modul) kerak bo'ladi: neben der Bank, im Zentrum, am Bahnhof."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Joy",
+        "O'zbekcha",
+        "Was kann man dort machen?"
+      ],
+      "rows": [
+        [
+          "die Apotheke",
+          "dorixona",
+          "Medikamente kaufen"
+        ],
+        [
+          "die Bank",
+          "bank",
+          "Geld wechseln"
+        ],
+        [
+          "die Post",
+          "pochta",
+          "Briefe schicken"
+        ],
+        [
+          "die Bibliothek",
+          "kutubxona",
+          "Bücher lesen"
+        ],
+        [
+          "das Kino",
+          "kinoteatr",
+          "Filme sehen"
+        ],
+        [
+          "der Park",
+          "park, bog'",
+          "spazieren gehen"
+        ],
+        [
+          "der Bahnhof",
+          "vokzal",
+          "Fahrkarten kaufen"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "\"können\" — qila olmoq, mumkin bo'lmoq. U ham möchten kabi modal fe'l: ikkinchi fe'l infinitivda gap oxiriga o'tadi. \"man kann\" — \"... mumkin\" (umumiy ma'noda)."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Shaxs",
+        "können"
+      ],
+      "rows": [
+        [
+          "ich",
+          "kann"
+        ],
+        [
+          "du",
+          "kannst"
+        ],
+        [
+          "er / sie / es / man",
+          "kann"
+        ],
+        [
+          "wir",
+          "können"
+        ],
+        [
+          "ihr",
+          "könnt"
+        ],
+        [
+          "sie / Sie",
+          "können"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "ich kann va er kann bir xil — oxirida -t yo'q (xuddi möchte, mag kabi)."
+    },
+    {
+      "type": "tip",
+      "text": "Muloyim iltimos: \"Können Sie mir helfen?\" — \"Menga yordam bera olasizmi?\" Bu buyruqdan ancha muloyim."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-der-bahnhof",
+      "de": "Bahnhof",
+      "uz": "vokzal",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Bahnhöfe",
+      "forms": null,
+      "example_de": "Der Bahnhof ist im Zentrum.",
+      "example_uz": "Vokzal shahar markazida.",
+      "topic": "city"
+    },
+    {
+      "id": "v-die-bank",
+      "de": "Bank",
+      "uz": "bank",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Banken",
+      "forms": null,
+      "example_de": "In der Bank kann man Geld wechseln.",
+      "example_uz": "Bankda pul almashtirish mumkin.",
+      "topic": "city"
+    },
+    {
+      "id": "v-die-post",
+      "de": "Post",
+      "uz": "pochta",
+      "pos": "noun",
+      "article": "die",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Die Post ist neben dem Bahnhof.",
+      "example_uz": "Pochta vokzalning yonida.",
+      "topic": "city"
+    },
+    {
+      "id": "v-die-apotheke",
+      "de": "Apotheke",
+      "uz": "dorixona",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Apotheken",
+      "forms": null,
+      "example_de": "Gibt es hier eine Apotheke?",
+      "example_uz": "Bu yerda dorixona bormi?",
+      "topic": "city"
+    },
+    {
+      "id": "v-das-kino",
+      "de": "Kino",
+      "uz": "kinoteatr",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Kinos",
+      "forms": null,
+      "example_de": "Im Kino kann man Filme sehen.",
+      "example_uz": "Kinoteatrda film ko'rish mumkin.",
+      "topic": "city"
+    },
+    {
+      "id": "v-der-park",
+      "de": "Park",
+      "uz": "park",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Parks",
+      "forms": null,
+      "example_de": "Der Park ist sehr schön.",
+      "example_uz": "Park juda chiroyli.",
+      "topic": "city"
+    },
+    {
+      "id": "v-das-museum",
+      "de": "Museum",
+      "uz": "muzey",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Museen",
+      "forms": null,
+      "example_de": "Das Museum ist am Montag geschlossen.",
+      "example_uz": "Muzey dushanba kuni yopiq.",
+      "topic": "city"
+    },
+    {
+      "id": "v-die-haltestelle",
+      "de": "Haltestelle",
+      "uz": "bekat (avtobus, tramvay)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Haltestellen",
+      "forms": null,
+      "example_de": "Die Haltestelle ist hier links.",
+      "example_uz": "Bekat shu yerda, chapda.",
+      "topic": "city"
+    },
+    {
+      "id": "v-das-rathaus",
+      "de": "Rathaus",
+      "uz": "shahar hokimiyati (meriya)",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Rathäuser",
+      "forms": null,
+      "example_de": "Das Rathaus ist am Marktplatz.",
+      "example_uz": "Hokimiyat bozor maydonida.",
+      "topic": "city"
+    },
+    {
+      "id": "v-die-bibliothek",
+      "de": "Bibliothek",
+      "uz": "kutubxona",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Bibliotheken",
+      "forms": null,
+      "example_de": "In der Bibliothek kann man Bücher lesen.",
+      "example_uz": "Kutubxonada kitob o'qish mumkin.",
+      "topic": "city"
+    },
+    {
+      "id": "v-der-platz",
+      "de": "Platz",
+      "uz": "maydon",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Plätze",
+      "forms": null,
+      "example_de": "Auf dem Platz gibt es einen Markt.",
+      "example_uz": "Maydonda bozor bor.",
+      "topic": "city"
+    },
+    {
+      "id": "v-das-zentrum",
+      "de": "Zentrum",
+      "uz": "markaz (shahar markazi)",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Zentren",
+      "forms": null,
+      "example_de": "Ich wohne im Zentrum.",
+      "example_uz": "Men shahar markazida yashayman.",
+      "topic": "city"
+    },
+    {
+      "id": "v-können",
+      "de": "können",
+      "uz": "qila olmoq; mumkin bo'lmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "gekonnt",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "kann"
+      },
+      "example_de": "Kannst du mir helfen?",
+      "example_uz": "Menga yordam bera olasanmi?",
+      "topic": "city"
+    }
+  ],
+  "review_vocabulary": [
+    "v-der-supermarkt",
+    "v-kaufen",
+    "v-das-geld",
+    "v-links",
+    "v-rechts",
+    "v-neben",
+    "v-hinter",
+    "v-suchen",
+    "v-das-krankenhaus"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-modal-verbs",
+      "rule": "können — qobiliyat (qila olaman), imkoniyat (mumkin) va muloyim iltimosni bildiradi. Ikkinchi fe'l infinitivda gap oxirida turadi.",
+      "when": "Biror joyda nima qilish mumkinligini, nima qila olishingizni aytganda va yordam so'raganda.",
+      "structure": "Ega + kann/kannst/können + ... + infinitiv (oxirida):\nIn der Bank kann man Geld wechseln.\nSavol: Können Sie mir helfen?",
+      "examples": [
+        {
+          "de": "In der Apotheke kann man Medikamente kaufen.",
+          "uz": "Dorixonada dori sotib olish mumkin."
+        },
+        {
+          "de": "Ich kann gut Deutsch sprechen.",
+          "uz": "Men nemischa yaxshi gapira olaman."
+        },
+        {
+          "de": "Kannst du mir helfen?",
+          "uz": "Menga yordam bera olasanmi?"
+        },
+        {
+          "de": "Wo kann ich hier Fahrkarten kaufen?",
+          "uz": "Bu yerda chiptani qayerdan olsam bo'ladi?"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Er kannt gut kochen.",
+          "right": "Er kann gut kochen.",
+          "why": "er/sie/es bilan \"kann\" — oxiriga -t qo'shilmaydi."
+        },
+        {
+          "wrong": "Ich kann kaufen Brot.",
+          "right": "Ich kann Brot kaufen.",
+          "why": "Ikkinchi fe'l (kaufen) gap oxiriga o'tadi."
+        },
+        {
+          "wrong": "Du kann hier parken.",
+          "right": "Du kannst hier parken.",
+          "why": "du bilan -st: kannst."
+        }
+      ],
+      "check": [
+        "a1-m10-l1-e04",
+        "a1-m10-l1-e05",
+        "a1-m10-l1-e06",
+        "a1-m10-l1-e09"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Turist savollari",
+    "lines": [
+      {
+        "speaker": "Tourist",
+        "de": "Entschuldigung, gibt es hier eine Apotheke?",
+        "uz": "Kechirasiz, bu yerda dorixona bormi?"
+      },
+      {
+        "speaker": "Frau Lang",
+        "de": "Ja, die Apotheke ist am Marktplatz, neben der Bank.",
+        "uz": "Ha, dorixona bozor maydonida, bankning yonida."
+      },
+      {
+        "speaker": "Tourist",
+        "de": "Und wo kann ich Briefmarken kaufen?",
+        "uz": "Pochta markasini qayerdan sotib olsam bo'ladi?"
+      },
+      {
+        "speaker": "Frau Lang",
+        "de": "Briefmarken können Sie bei der Post kaufen. Die Post ist neben dem Bahnhof.",
+        "uz": "Markani pochtadan olishingiz mumkin. Pochta vokzalning yonida."
+      },
+      {
+        "speaker": "Tourist",
+        "de": "Vielen Dank! Und gibt es hier auch ein Museum?",
+        "uz": "Katta rahmat! Bu yerda muzey ham bormi?"
+      },
+      {
+        "speaker": "Frau Lang",
+        "de": "Ja, das Stadtmuseum. Dort kann man viel über die Stadt lernen.",
+        "uz": "Ha, shahar muzeyi. U yerda shahar haqida ko'p narsa bilib olish mumkin."
+      }
+    ],
+    "questions": [
+      "a1-m10-l1-e07",
+      "a1-m10-l1-e08"
+    ]
+  },
+  "situation": {
+    "title": "Yangi mahalla",
+    "context_uz": "Siz Germaniyadagi yangi shaharga ko'chib keldingiz. Qo'shningiz Herr Braun bilan gaplashib, atrofda nima borligini so'rayapsiz.",
+    "lines": [
+      {
+        "speaker": "Siz",
+        "de": "Entschuldigung, ich bin neu hier. Gibt es hier einen Supermarkt?",
+        "uz": "Kechirasiz, men bu yerda yangiman. Bu yerda supermarket bormi?"
+      },
+      {
+        "speaker": "Herr Braun",
+        "de": "Ja, in der Bahnhofstraße.",
+        "uz": "Ha, Bahnhofstraße ko'chasida."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Und gibt es hier eine Bibliothek?",
+        "uz": "Kutubxona ham bormi?"
+      },
+      {
+        "speaker": "Herr Braun",
+        "de": "Ja, die Bibliothek ist im Zentrum, neben dem Rathaus. Dort kann man auch Zeitungen lesen.",
+        "uz": "Ha, kutubxona markazda, hokimiyat yonida. U yerda gazeta ham o'qish mumkin."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Toll! Und wo ist die Haltestelle?",
+        "uz": "Zo'r! Bekat qayerda?"
+      },
+      {
+        "speaker": "Herr Braun",
+        "de": "Die Haltestelle ist hier links.",
+        "uz": "Bekat shu yerda, chapda."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Danke schön!",
+        "uz": "Katta rahmat!"
+      }
+    ],
+    "task_uz": "Qo'shningizga 3 ta savol bering: \"Gibt es hier ...?\", \"Wo ist ...?\", \"Wo kann man hier ...?\". U joyni \"neben dem / im / links\" bilan aytib bersin."
+  },
+  "exercises": [
+    {
+      "id": "a1-m10-l1-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "city",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Shahar joylarini juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "Bahnhof",
+          "vokzal"
+        ],
+        [
+          "Apotheke",
+          "dorixona"
+        ],
+        [
+          "Krankenhaus",
+          "kasalxona"
+        ],
+        [
+          "Bibliothek",
+          "kutubxona"
+        ],
+        [
+          "Haltestelle",
+          "bekat"
+        ],
+        [
+          "Rathaus",
+          "hokimiyat"
+        ]
+      ],
+      "correct_answer": {
+        "Bahnhof": "vokzal",
+        "Apotheke": "dorixona",
+        "Krankenhaus": "kasalxona",
+        "Bibliothek": "kutubxona",
+        "Haltestelle": "bekat",
+        "Rathaus": "hokimiyat"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Bahnhof — vokzal, Apotheke — dorixona, Krankenhaus — kasalxona, Bibliothek — kutubxona, Haltestelle — bekat, Rathaus — shahar hokimiyati.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l1-e02",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "city",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Artiklni tanlang: ___ Museum",
+      "prompt_de": "___ Museum",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "das",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "das Museum — o'rta jins, ko'pligi die Museen.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l1-e03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "city",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dori qayerdan sotib olinadi?",
+      "prompt_de": null,
+      "options": [
+        "in der Apotheke",
+        "im Kino",
+        "im Park"
+      ],
+      "pairs": null,
+      "correct_answer": "in der Apotheke",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Apotheke — dorixona. Kino — film, Park — sayr qilish joyi.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l1-e04",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "city",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "Fe'lni tuslang: Du ___ (können) hier Geld wechseln.",
+      "prompt_de": "Du ___ (können) hier Geld wechseln.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "kannst",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "du → kannst.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l1-e05",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "city",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (können): Er ___ gut Deutsch sprechen.",
+      "prompt_de": "Er ___ gut Deutsch sprechen.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "kann",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "er → kann (oxirida -t yo'q).",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l1-e06",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "city",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 2,
+      "question": "So'zlarni tartiblang: \"Kinoteatrda film ko'rish mumkin.\"",
+      "prompt_de": null,
+      "options": [
+        "Im",
+        "kann",
+        "Filme",
+        "man",
+        "Kino",
+        "sehen"
+      ],
+      "pairs": null,
+      "correct_answer": "Im Kino kann man Filme sehen",
+      "accepted_answers": [
+        "Man kann im Kino Filme sehen",
+        "Filme kann man im Kino sehen"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "kann 2-o'rinda, infinitiv (sehen) oxirida. \"Man kann im Kino Filme sehen\" ham to'g'ri.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l1-e07",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "city",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni tinglang. Dorixona qayerda?",
+      "prompt_de": null,
+      "options": [
+        "Bankning yonida",
+        "Pochtaning yonida",
+        "Vokzalning yonida"
+      ],
+      "pairs": null,
+      "correct_answer": "Bankning yonida",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Die Apotheke ist am Marktplatz, neben der Bank.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Entschuldigung, gibt es hier eine Apotheke? Ja, die Apotheke ist am Marktplatz, neben der Bank. Und wo kann ich Briefmarken kaufen? Briefmarken können Sie bei der Post kaufen. Die Post ist neben dem Bahnhof. Vielen Dank! Und gibt es hier auch ein Museum? Ja, das Stadtmuseum. Dort kann man viel über die Stadt lernen."
+    },
+    {
+      "id": "a1-m10-l1-e08",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "city",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni tinglang. Pochta markasini qayerdan sotib olish mumkin?",
+      "prompt_de": null,
+      "options": [
+        "Pochtadan",
+        "Dorixonadan",
+        "Muzeydan"
+      ],
+      "pairs": null,
+      "correct_answer": "Pochtadan",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Briefmarken können Sie bei der Post kaufen.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Entschuldigung, gibt es hier eine Apotheke? Ja, die Apotheke ist am Marktplatz, neben der Bank. Und wo kann ich Briefmarken kaufen? Briefmarken können Sie bei der Post kaufen. Die Post ist neben dem Bahnhof. Vielen Dank! Und gibt es hier auch ein Museum? Ja, das Stadtmuseum. Dort kann man viel über die Stadt lernen."
+    },
+    {
+      "id": "a1-m10-l1-e09",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "city",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "Xato so'zni toping: \"Sie kannt gut kochen.\"",
+      "prompt_de": "Sie kannt gut kochen.",
+      "options": [
+        "Sie",
+        "kannt",
+        "gut",
+        "kochen"
+      ],
+      "pairs": null,
+      "correct_answer": "kannt",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: \"Sie kann gut kochen.\" er/sie/es bilan kann.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l1-e10",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "city",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Bu yerda bank bormi?\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Gibt es hier eine Bank?",
+      "accepted_answers": [
+        "Gibt es eine Bank hier?"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"... bormi?\" = Gibt es ...? die Bank → eine Bank.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l1-e11",
+      "version": 1,
+      "type": "plural",
+      "skill": "vocabulary",
+      "topic": "city",
+      "grammar_topic": null,
+      "difficulty": 3,
+      "question": "Ko'plik shaklini yozing: das Museum → die ___",
+      "prompt_de": "das Museum",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Museen",
+      "accepted_answers": [
+        "die Museen"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "-um bilan tugaydigan so'zlar: das Museum → die Museen, das Zentrum → die Zentren.",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l1-e12",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "city",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Shaharda adashib qoldingiz. Notanish odamga muloyim murojaat qiling.",
+      "prompt_de": null,
+      "options": [
+        "Entschuldigung, können Sie mir helfen?",
+        "Hilf mir!",
+        "Kannst du Geld?"
+      ],
+      "pairs": null,
+      "correct_answer": "Entschuldigung, können Sie mir helfen?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Notanish odamga \"Sie\" va \"können\" bilan muloyim so'raladi. \"Hilf mir!\" — qo'pol buyruq.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a1-m10-l1-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "city",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "\"der Bahnhof\" nima degani?",
+      "prompt_de": null,
+      "options": [
+        "vokzal",
+        "aeroport",
+        "bekat"
+      ],
+      "pairs": null,
+      "correct_answer": "vokzal",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Bahnhof — vokzal, Haltestelle — bekat.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l1-t02",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "city",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "Fe'lni tuslang: Wir ___ (können) heute ins Museum gehen.",
+      "prompt_de": "Wir ___ (können) heute ins Museum gehen.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "können",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "wir → können.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l1-t03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "city",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (können): ___ du mir helfen?",
+      "prompt_de": "___ du mir helfen?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Kannst",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "du → kannst. Savolda fe'l birinchi.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l1-t04",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "city",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Artiklni tanlang: ___ Haltestelle",
+      "prompt_de": "___ Haltestelle",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "die",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Haltestelle — ayol jinsi.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l1-t05",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "city",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "O'zbek tiliga tarjima qiling: \"In der Bibliothek kann man Bücher lesen.\"",
+      "prompt_de": "In der Bibliothek kann man Bücher lesen.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Kutubxonada kitob o'qish mumkin.",
+      "accepted_answers": [
+        "Kutubxonada kitob o'qisa bo'ladi",
+        "Kutubxonada kitoblar o'qish mumkin",
+        "Kutubxonada kitob o'qiy olasiz"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "man kann — ... mumkin.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l1-t06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "city",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Pochta qayerda?",
+      "prompt_de": null,
+      "options": [
+        "Vokzalning yonida",
+        "Bankning yonida",
+        "Parkning orqasida"
+      ],
+      "pairs": null,
+      "correct_answer": "Vokzalning yonida",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"neben dem Bahnhof\" — vokzal yonida.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Die Post ist neben dem Bahnhof."
+    },
+    {
+      "id": "a1-m10-l1-t07",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "city",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "To'g'ri shaklni tanlang: Hier ___ man nicht parken.",
+      "prompt_de": "Hier ___ man nicht parken.",
+      "options": [
+        "kann",
+        "kannst",
+        "können"
+      ],
+      "pairs": null,
+      "correct_answer": "kann",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "man → kann (er/sie/es kabi).",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

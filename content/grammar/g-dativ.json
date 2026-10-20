@@ -1,0 +1,329 @@
+{
+  "id": "g-dativ",
+  "version": 3,
+  "level": "A2",
+  "order": 19,
+  "title": "Dativ (jo'nalish kelishigi)",
+  "prerequisites": [
+    "g-akkusativ",
+    "g-time-prepositions",
+    "g-plural"
+  ],
+  "next": [
+    "g-pronoun-cases",
+    "g-place-prepositions",
+    "g-adjectives"
+  ],
+  "rule": "Dativ — \"kimga?\" (Wem?) savoliga javob beradi. Dativ predloglari (aus, bei, mit, nach, seit, von, zu) va ba'zi fe'llardan (helfen, danken, gefallen, gehören, schmecken) keyin ishlatiladi.",
+  "when": "Kimga biror narsa berish, kim bilan, nima bilan, qayerdan kelish va kimnikida bo'lish haqida gapirganda.",
+  "structure": "Ega + fe'l + Dativ (kimga) + Akkusativ (nimani): Ich gebe dem Kind ein Buch.",
+  "explanation": [
+    {
+      "type": "table",
+      "headers": [
+        "Jins",
+        "Nominativ",
+        "Akkusativ",
+        "Dativ"
+      ],
+      "rows": [
+        [
+          "erkak",
+          "der / ein",
+          "den / einen",
+          "dem / einem"
+        ],
+        [
+          "ayol",
+          "die / eine",
+          "die / eine",
+          "der / einer"
+        ],
+        [
+          "o'rta",
+          "das / ein",
+          "das / ein",
+          "dem / einem"
+        ],
+        [
+          "ko'plik",
+          "die",
+          "die",
+          "den + ot-n"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Predlog",
+        "Ma'nosi",
+        "Misol"
+      ],
+      "rows": [
+        [
+          "aus",
+          "-dan (ichidan, qayerdan)",
+          "Ich komme aus der Türkei."
+        ],
+        [
+          "bei",
+          "yonida, -nikida, -da",
+          "Ich wohne bei meiner Tante."
+        ],
+        [
+          "mit",
+          "bilan",
+          "Ich fahre mit dem Bus."
+        ],
+        [
+          "nach",
+          "-ga (shahar, mamlakat); keyin",
+          "nach Berlin, nach dem Essen"
+        ],
+        [
+          "seit",
+          "... dan beri",
+          "seit einem Jahr"
+        ],
+        [
+          "von",
+          "-dan",
+          "Das Geschenk ist von meinem Freund."
+        ],
+        [
+          "zu",
+          "-ga (odam, muassasa)",
+          "Ich gehe zum Arzt."
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Qisqartmalar: zu dem = zum, zu der = zur, von dem = vom, bei dem = beim. Ko'plikdagi ot Dativda -n oladi: mit den Kindern."
+    },
+    {
+      "type": "tip",
+      "text": "O'zbekchadagi \"-ga\" ko'pincha Dativga to'g'ri keladi: \"bolaga beraman\" — Ich gebe dem Kind ... helfen ham Dativ: Ich helfe dir (senga yordam beraman)."
+    }
+  ],
+  "examples": [
+    {
+      "de": "Ich fahre mit dem Bus zur Arbeit.",
+      "uz": "Ishga avtobusda boraman."
+    },
+    {
+      "de": "Ich gebe meiner Mutter eine Blume.",
+      "uz": "Onamga gul beraman."
+    },
+    {
+      "de": "Das Buch gehört dem Lehrer.",
+      "uz": "Kitob o'qituvchiniki."
+    },
+    {
+      "de": "Nach dem Unterricht gehe ich zum Arzt.",
+      "uz": "Darsdan keyin shifokorga boraman."
+    },
+    {
+      "de": "Ich wohne seit einem Jahr bei meinem Onkel.",
+      "uz": "Bir yildan beri amakimnikida yashayman."
+    },
+    {
+      "de": "Die Suppe schmeckt den Kindern.",
+      "uz": "Sho'rva bolalarga yoqadi."
+    }
+  ],
+  "common_mistakes": [
+    {
+      "wrong": "mit der Bus",
+      "right": "mit dem Bus",
+      "why": "mit + Dativ; der Bus → dem Bus."
+    },
+    {
+      "wrong": "Ich fahre zu Berlin.",
+      "right": "Ich fahre nach Berlin.",
+      "why": "Shahar va mamlakatga — nach, odam va muassasaga — zu."
+    },
+    {
+      "wrong": "mit meinen Freunde",
+      "right": "mit meinen Freunden",
+      "why": "Ko'plik Dativda ot -n oladi."
+    },
+    {
+      "wrong": "Ich helfe dich.",
+      "right": "Ich helfe dir.",
+      "why": "helfen Dativ talab qiladi."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "g-dativ-e01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "transport",
+      "grammar_topic": "g-dativ",
+      "difficulty": 1,
+      "question": "To'g'ri artiklni tanlang: \"Ich fahre mit ___ Zug.\"",
+      "prompt_de": "Ich fahre mit ___ Zug.",
+      "options": [
+        "dem",
+        "den",
+        "der"
+      ],
+      "pairs": null,
+      "correct_answer": "dem",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "mit + Dativ; der Zug → dem Zug.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-dativ-e02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-dativ",
+      "difficulty": 1,
+      "question": "Qisqartmani yozing (zu + dem): \"Ich gehe heute ___ Arzt.\"",
+      "prompt_de": "Ich gehe heute ___ Arzt.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "zum",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "zu + dem = zum.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-dativ-e03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "people",
+      "grammar_topic": "g-dativ",
+      "difficulty": 2,
+      "question": "To'g'ri artiklni tanlang: \"Er hilft ___ Frau.\"",
+      "prompt_de": "Er hilft ___ Frau.",
+      "options": [
+        "der",
+        "die",
+        "den"
+      ],
+      "pairs": null,
+      "correct_answer": "der",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "helfen + Dativ; die Frau → der Frau.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-dativ-e04",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-dativ",
+      "difficulty": 2,
+      "question": "Bo'sh joyni to'ldiring (bir): \"Ich wohne seit ___ Jahr in Deutschland.\"",
+      "prompt_de": "Ich wohne seit ___ Jahr in Deutschland.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "einem",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "seit + Dativ; das Jahr → einem Jahr.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-dativ-e05",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-dativ",
+      "difficulty": 2,
+      "question": "To'g'ri shaklni tanlang: \"Wir spielen mit den ___.\"",
+      "prompt_de": "Wir spielen mit den ___.",
+      "options": [
+        "Kindern",
+        "Kinder",
+        "Kinds"
+      ],
+      "pairs": null,
+      "correct_answer": "Kindern",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ko'plik Dativda ot -n oladi: mit den Kindern.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-dativ-e06",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "travel",
+      "grammar_topic": "g-dativ",
+      "difficulty": 1,
+      "question": "Xato so'zni toping: \"Ich fahre morgen zu Hamburg.\"",
+      "prompt_de": "Ich fahre morgen zu Hamburg.",
+      "options": [
+        "Ich",
+        "fahre",
+        "morgen",
+        "zu",
+        "Hamburg"
+      ],
+      "pairs": null,
+      "correct_answer": "zu",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Shaharga — nach: Ich fahre morgen nach Hamburg.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-dativ-e07",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-dativ",
+      "difficulty": 3,
+      "question": "Nemis tiliga tarjima qiling: \"Men onamga gul beraman.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich gebe meiner Mutter eine Blume.",
+      "accepted_answers": [
+        "Ich schenke meiner Mutter eine Blume.",
+        "Ich gebe meiner Mutter Blumen.",
+        "Ich schenke meiner Mutter Blumen."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Kimga? — meiner Mutter (Dativ), nimani? — eine Blume (Akkusativ).",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

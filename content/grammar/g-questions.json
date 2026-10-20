@@ -1,0 +1,340 @@
+{
+  "id": "g-questions",
+  "version": 1,
+  "level": "A1",
+  "order": 4,
+  "title": "W-savollar va ha/yo'q savollari",
+  "prerequisites": [
+    "g-sein-haben"
+  ],
+  "next": [
+    "g-verb-position",
+    "g-subordinate"
+  ],
+  "rule": "Nemis tilida ikki xil savol bor: W-so'z bilan boshlanadigan savol va ha/yo'q savoli. Ikkalasida ham fe'l egadan OLDIN keladi.",
+  "when": "Ma'lumot so'rash (Wo wohnst du?) yoki tasdiq/inkor kutish (Wohnst du in Taschkent?).",
+  "structure": "W-savol: W-so'z + fe'l + ega + ...? | Ha/yo'q savoli: Fe'l + ega + ...?",
+  "explanation": [
+    {
+      "type": "table",
+      "headers": [
+        "W-so'z",
+        "Ma'nosi",
+        "Misol"
+      ],
+      "rows": [
+        [
+          "Wer?",
+          "kim?",
+          "Wer ist das?"
+        ],
+        [
+          "Was?",
+          "nima?",
+          "Was machst du?"
+        ],
+        [
+          "Wo?",
+          "qayerda?",
+          "Wo wohnst du?"
+        ],
+        [
+          "Woher?",
+          "qayerdan?",
+          "Woher kommen Sie?"
+        ],
+        [
+          "Wohin?",
+          "qayerga?",
+          "Wohin fährst du?"
+        ],
+        [
+          "Wann?",
+          "qachon?",
+          "Wann beginnt der Kurs?"
+        ],
+        [
+          "Wie?",
+          "qanday?",
+          "Wie heißt du?"
+        ],
+        [
+          "Wie alt?",
+          "necha yoshda?",
+          "Wie alt bist du?"
+        ],
+        [
+          "Wie viel?",
+          "qancha?",
+          "Wie viel kostet das?"
+        ],
+        [
+          "Warum?",
+          "nega?",
+          "Warum lernst du Deutsch?"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "O'zbek tilida savol \"-mi\" qo'shimchasi yoki so'roq so'zi bilan yasaladi, so'z tartibi deyarli o'zgarmaydi. Nemis tilida esa fe'l joyini o'zgartiradi."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Darak gap",
+        "Ha/yo'q savoli",
+        "W-savol"
+      ],
+      "rows": [
+        [
+          "Du wohnst in Berlin.",
+          "Wohnst du in Berlin?",
+          "Wo wohnst du?"
+        ],
+        [
+          "Er ist Arzt.",
+          "Ist er Arzt?",
+          "Was ist er?"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Ha/yo'q savoliga javob: Ja / Nein. Inkor savolga \"ha\" javobi — Doch: Kommst du nicht? — Doch!"
+    }
+  ],
+  "examples": [
+    {
+      "de": "Wie heißt du? — Ich heiße Malika.",
+      "uz": "Isming nima? — Ismim Malika."
+    },
+    {
+      "de": "Woher kommen Sie? — Aus Usbekistan.",
+      "uz": "Qayerdansiz? — O'zbekistondan."
+    },
+    {
+      "de": "Sprichst du Deutsch? — Ja, ein bisschen.",
+      "uz": "Nemischa gapirasanmi? — Ha, ozgina."
+    },
+    {
+      "de": "Wann beginnt der Kurs? — Um neun Uhr.",
+      "uz": "Kurs qachon boshlanadi? — Soat to'qqizda."
+    },
+    {
+      "de": "Ist das dein Handy? — Nein, das ist Toms Handy.",
+      "uz": "Bu sening telefoningmi? — Yo'q, bu Tomning telefoni."
+    }
+  ],
+  "common_mistakes": [
+    {
+      "wrong": "Wo du wohnst?",
+      "right": "Wo wohnst du?",
+      "why": "W-savolda fe'l ikkinchi o'rinda, egadan oldin turadi."
+    },
+    {
+      "wrong": "Wo kommst du?",
+      "right": "Woher kommst du?",
+      "why": "\"Qayerdan\" — woher. Wo — faqat \"qayerda\"."
+    },
+    {
+      "wrong": "Du sprichst Deutsch?",
+      "right": "Sprichst du Deutsch?",
+      "why": "Ha/yo'q savolida fe'l birinchi o'ringa chiqadi."
+    },
+    {
+      "wrong": "Wer ist das? (narsa haqida)",
+      "right": "Was ist das?",
+      "why": "Wer — odam uchun, was — narsa uchun."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "g-questions-e01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "countries-languages",
+      "grammar_topic": "g-questions",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: \"___ kommst du? — Aus Samarkand.\"",
+      "prompt_de": "___ kommst du? — Aus Samarkand.",
+      "options": [
+        "Woher",
+        "Wo",
+        "Wohin"
+      ],
+      "pairs": null,
+      "correct_answer": "Woher",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Javob \"Aus ...\" (…dan) — demak savol \"Woher?\" (qayerdan?).",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-questions-e02",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "personal-info",
+      "grammar_topic": "g-questions",
+      "difficulty": 1,
+      "question": "So'zlardan savol tuzing: \"Qayerda yashaysan?\"",
+      "prompt_de": null,
+      "options": [
+        "du",
+        "wohnst",
+        "Wo"
+      ],
+      "pairs": null,
+      "correct_answer": "Wo wohnst du?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "W-so'z + fe'l + ega: Wo wohnst du?",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-questions-e03",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "countries-languages",
+      "grammar_topic": "g-questions",
+      "difficulty": 1,
+      "question": "So'zlardan savol tuzing: \"Siz nemischa gapirasizmi?\"",
+      "prompt_de": null,
+      "options": [
+        "Deutsch",
+        "Sie",
+        "Sprechen"
+      ],
+      "pairs": null,
+      "correct_answer": "Sprechen Sie Deutsch?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ha/yo'q savolida fe'l birinchi: Sprechen Sie Deutsch?",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-questions-e04",
+      "version": 1,
+      "type": "match",
+      "skill": "grammar",
+      "topic": "general",
+      "grammar_topic": "g-questions",
+      "difficulty": 1,
+      "question": "So'roq so'zini tarjimasi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "Wer",
+          "kim"
+        ],
+        [
+          "Wann",
+          "qachon"
+        ],
+        [
+          "Wie viel",
+          "qancha"
+        ],
+        [
+          "Warum",
+          "nega"
+        ]
+      ],
+      "correct_answer": {
+        "Wer": "kim",
+        "Wann": "qachon",
+        "Wie viel": "qancha",
+        "Warum": "nega"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Wer — kim, Wann — qachon, Wie viel — qancha, Warum — nega.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "g-questions-e05",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "personal-info",
+      "grammar_topic": "g-questions",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: \"___ alt bist du? — Ich bin 19.\"",
+      "prompt_de": "___ alt bist du?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Wie",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Yosh so'raladi: Wie alt bist du?",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-questions-e06",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "work",
+      "grammar_topic": "g-questions",
+      "difficulty": 2,
+      "question": "Qaysi savol to'g'ri tuzilgan?",
+      "prompt_de": null,
+      "options": [
+        "Wo arbeitest du?",
+        "Wo du arbeitest?",
+        "Du wo arbeitest?"
+      ],
+      "pairs": null,
+      "correct_answer": "Wo arbeitest du?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "W-savolda fe'l (arbeitest) W-so'zdan keyin, egadan oldin.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-questions-e07",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "grammar",
+      "topic": "countries-languages",
+      "grammar_topic": "g-questions",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling (hurmat bilan): \"Qayerdansiz?\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Woher kommen Sie?",
+      "accepted_answers": [
+        "Woher sind Sie?"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Qayerdan — woher, Siz — Sie, fe'l egadan oldin.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

@@ -1,0 +1,799 @@
+{
+  "id": "a2-m13-l1",
+  "version": 1,
+  "level": "A2",
+  "module": 13,
+  "order": 1,
+  "title": "Kecha nima qildingiz?",
+  "title_de": "Was hast du gestern gemacht?",
+  "goal": "Dars oxirida \"haben\" + Partizip II bilan kecha yoki o'tgan hafta qilgan 3–4 ishingizni ayta olasiz (masalan: Ich habe die Wohnung aufgeräumt).",
+  "skill_focus": [
+    "grammar",
+    "speaking",
+    "vocabulary"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Nemislar og'zaki nutqda o'tgan voqealar haqida deyarli har doim Perfekt zamonidan foydalanadi. Do'stingiz \"Was hast du gestern gemacht?\" deb so'rasa, javob ham Perfektda bo'ladi."
+    },
+    {
+      "type": "p",
+      "text": "Perfekt ikki qismdan iborat: yordamchi fe'l (ko'pincha \"haben\") gapda 2-o'rinda turadi va tuslanadi, asosiy fe'l esa Partizip II shaklida gap OXIRIGA o'tadi. Bu \"gap qavsi\" (Satzklammer) deyiladi."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Infinitiv",
+        "Qoida",
+        "Partizip II",
+        "Gap"
+      ],
+      "rows": [
+        [
+          "machen",
+          "ge + mach + t",
+          "gemacht",
+          "Ich habe Tee gemacht."
+        ],
+        [
+          "putzen",
+          "ge + putz + t",
+          "geputzt",
+          "Er hat das Bad geputzt."
+        ],
+        [
+          "arbeiten",
+          "ge + arbeit + et",
+          "gearbeitet",
+          "Wir haben lange gearbeitet."
+        ],
+        [
+          "aufräumen",
+          "auf + ge + räum + t",
+          "aufgeräumt",
+          "Sie hat aufgeräumt."
+        ],
+        [
+          "telefonieren",
+          "-ieren: ge- yo'q",
+          "telefoniert",
+          "Ich habe telefoniert."
+        ],
+        [
+          "erzählen",
+          "er-/be-/ver- : ge- yo'q",
+          "erzählt",
+          "Er hat viel erzählt."
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Ikki istisno guruhni eslab qoling: 1) \"-ieren\" bilan tugaydigan fe'llar (telefonieren, reparieren, studieren) va 2) be-, er-, ver- bilan boshlanadigan fe'llar (besuchen, erzählen) — ularda \"ge-\" qo'shilmaydi."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-vorgestern",
+      "de": "vorgestern",
+      "uz": "o'tgan kuni (kechadan oldingi kun)",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Vorgestern habe ich lange gearbeitet.",
+      "example_uz": "O'tgan kuni uzoq ishladim.",
+      "topic": "time"
+    },
+    {
+      "id": "v-letzte-woche",
+      "de": "letzte Woche",
+      "uz": "o'tgan hafta",
+      "pos": "phrase",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Letzte Woche haben wir viel gelernt.",
+      "example_uz": "O'tgan hafta biz ko'p o'qidik.",
+      "topic": "time"
+    },
+    {
+      "id": "v-neulich",
+      "de": "neulich",
+      "uz": "yaqinda, yaqinda bir kuni",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Neulich habe ich mit meiner Oma telefoniert.",
+      "example_uz": "Yaqinda buvim bilan telefonda gaplashdim.",
+      "topic": "past-events"
+    },
+    {
+      "id": "v-putzen",
+      "de": "putzen",
+      "uz": "tozalamoq, artmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "geputzt",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "putzt"
+      },
+      "example_de": "Ich habe am Samstag das Bad geputzt.",
+      "example_uz": "Shanba kuni hammomni tozaladim.",
+      "topic": "household"
+    },
+    {
+      "id": "v-telefonieren",
+      "de": "telefonieren",
+      "uz": "telefonda gaplashmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "telefoniert",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "telefoniert"
+      },
+      "example_de": "Gestern habe ich eine Stunde mit meiner Mutter telefoniert.",
+      "example_uz": "Kecha onam bilan bir soat telefonda gaplashdim.",
+      "topic": "phone"
+    },
+    {
+      "id": "v-reparieren",
+      "de": "reparieren",
+      "uz": "tuzatmoq, ta'mirlamoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "repariert",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "repariert"
+      },
+      "example_de": "Mein Vater hat das Fahrrad repariert.",
+      "example_uz": "Otam velosipedni tuzatdi.",
+      "topic": "household"
+    },
+    {
+      "id": "v-feiern",
+      "de": "feiern",
+      "uz": "nishonlamoq, bayram qilmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "gefeiert",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "feiert"
+      },
+      "example_de": "Wir haben am Sonntag Geburtstag gefeiert.",
+      "example_uz": "Yakshanba kuni tug'ilgan kunni nishonladik.",
+      "topic": "celebrations"
+    },
+    {
+      "id": "v-üben",
+      "de": "üben",
+      "uz": "mashq qilmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "geübt",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "übt"
+      },
+      "example_de": "Ich habe gestern Deutsch geübt.",
+      "example_uz": "Kecha nemis tilini mashq qildim.",
+      "topic": "language-learning"
+    },
+    {
+      "id": "v-erzählen",
+      "de": "erzählen",
+      "uz": "aytib bermoq, hikoya qilmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "erzählt",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "erzählt"
+      },
+      "example_de": "Erzähl mal, was hast du gemacht?",
+      "example_uz": "Aytib ber-chi, nima qilding?",
+      "topic": "communication"
+    },
+    {
+      "id": "v-die-hausaufgabe",
+      "de": "Hausaufgabe",
+      "uz": "uy vazifasi",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Hausaufgaben",
+      "forms": null,
+      "example_de": "Ich habe die Hausaufgabe schon gemacht.",
+      "example_uz": "Men uy vazifasini allaqachon qildim.",
+      "topic": "education"
+    },
+    {
+      "id": "v-die-wäsche",
+      "de": "Wäsche",
+      "uz": "kir, yuviladigan kiyimlar",
+      "pos": "noun",
+      "article": "die",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Am Sonntag habe ich die Wäsche gemacht.",
+      "example_uz": "Yakshanba kuni kir yuvdim.",
+      "topic": "household"
+    }
+  ],
+  "review_vocabulary": [
+    "v-aufräumen"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-perfekt",
+      "rule": "Perfekt = \"haben\" (tuslangan, 2-o'rinda) + Partizip II (gap oxirida). Kuchsiz (muntazam) fe'llarda Partizip II: ge + o'zak + t. O'zak -t yoki -d bilan tugasa: ge + o'zak + et (gearbeitet).",
+      "when": "Og'zaki nutqda va xabarlarda o'tgan voqealarni aytganda: kecha, o'tgan hafta, yaqinda nima qilganingiz.",
+      "structure": "Ich + habe + (vaqt / boshqa so'zlar) + Partizip II.  Savol: Hast du ... + Partizip II?  W-savol: Was hast du ... gemacht?",
+      "examples": [
+        {
+          "de": "Ich habe gestern die Küche geputzt.",
+          "uz": "Men kecha oshxonani tozaladim."
+        },
+        {
+          "de": "Hast du deine Hausaufgabe gemacht?",
+          "uz": "Uy vazifangni qildingmi?"
+        },
+        {
+          "de": "Wir haben letzte Woche Geburtstag gefeiert.",
+          "uz": "O'tgan hafta tug'ilgan kun nishonladik."
+        },
+        {
+          "de": "Mein Bruder hat das Auto repariert.",
+          "uz": "Akam mashinani tuzatdi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Ich habe gemacht die Hausaufgabe.",
+          "right": "Ich habe die Hausaufgabe gemacht.",
+          "why": "Partizip II doim gap oxirida turadi. O'zbek tilida fe'l oxirda bo'lgani kabi, bu yerda ham \"gemacht\" oxirga ketadi."
+        },
+        {
+          "wrong": "Ich habe getelefoniert.",
+          "right": "Ich habe telefoniert.",
+          "why": "\"-ieren\" bilan tugaydigan fe'llarga \"ge-\" qo'shilmaydi."
+        },
+        {
+          "wrong": "Ich gemacht Sport.",
+          "right": "Ich habe Sport gemacht.",
+          "why": "Yordamchi fe'l \"habe\" tushib qolmaydi — u gapning 2-o'rnini egallaydi."
+        }
+      ],
+      "check": [
+        "a2-m13-l1-e02",
+        "a2-m13-l1-e03",
+        "a2-m13-l1-e04",
+        "a2-m13-l1-e05",
+        "a2-m13-l1-e07"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Dushanba ertalab kursda",
+    "lines": [
+      {
+        "speaker": "Frau Weber",
+        "de": "Guten Morgen! Was haben Sie am Wochenende gemacht, Dilnoza?",
+        "uz": "Xayrli tong! Dam olish kunlari nima qildingiz, Dilnoza?"
+      },
+      {
+        "speaker": "Dilnoza",
+        "de": "Am Samstag habe ich die Wohnung geputzt und die Wäsche gemacht.",
+        "uz": "Shanba kuni kvartirani tozaladim va kir yuvdim."
+      },
+      {
+        "speaker": "Frau Weber",
+        "de": "Und am Sonntag?",
+        "uz": "Yakshanba kunichi?"
+      },
+      {
+        "speaker": "Dilnoza",
+        "de": "Am Sonntag haben wir den Geburtstag von meinem Sohn gefeiert.",
+        "uz": "Yakshanba kuni o'g'limning tug'ilgan kunini nishonladik."
+      },
+      {
+        "speaker": "Frau Weber",
+        "de": "Schön! Und Sie, Bekzod?",
+        "uz": "Ajoyib! Siz-chi, Bekzod?"
+      },
+      {
+        "speaker": "Bekzod",
+        "de": "Ich habe viel Deutsch geübt und mit meinen Eltern telefoniert.",
+        "uz": "Men ko'p nemis tilini mashq qildim va ota-onam bilan telefonda gaplashdim."
+      }
+    ],
+    "questions": [
+      "a2-m13-l1-e06"
+    ]
+  },
+  "situation": {
+    "title": "Ishxonada dushanba kuni",
+    "context_uz": "Dushanba ertalab. Hamkasbingiz Jonas qahva ichib turibdi va dam olish kunlaringiz haqida so'rayapti.",
+    "lines": [
+      {
+        "speaker": "Jonas",
+        "de": "Hallo! Wie war dein Wochenende? Was hast du gemacht?",
+        "uz": "Salom! Dam olish kunlaring qanday o'tdi? Nima qilding?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Am Samstag habe ich aufgeräumt und geputzt. Das war viel Arbeit!",
+        "uz": "Shanba kuni yig'ishtirdim va tozaladim. Ish ko'p bo'ldi!"
+      },
+      {
+        "speaker": "Jonas",
+        "de": "Und am Sonntag?",
+        "uz": "Yakshanba-chi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Am Sonntag habe ich mit meiner Familie gefeiert. Und du?",
+        "uz": "Yakshanba kuni oilam bilan bayram qildim. Sen-chi?"
+      },
+      {
+        "speaker": "Jonas",
+        "de": "Ich habe nur Fußball gespielt und ein bisschen gekocht.",
+        "uz": "Men faqat futbol o'ynadim va ozgina ovqat pishirdim."
+      }
+    ],
+    "task_uz": "Jonasga o'z dam olish kunlaringiz haqida 3 ta gap ayting. Har bir gapda \"habe\" + Partizip II bo'lsin (masalan: geputzt, gekocht, geübt, telefoniert)."
+  },
+  "exercises": [
+    {
+      "id": "a2-m13-l1-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "household",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemischa fe'lni o'zbekcha ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "putzen",
+          "tozalamoq"
+        ],
+        [
+          "aufräumen",
+          "yig'ishtirmoq"
+        ],
+        [
+          "feiern",
+          "nishonlamoq"
+        ],
+        [
+          "üben",
+          "mashq qilmoq"
+        ],
+        [
+          "erzählen",
+          "aytib bermoq"
+        ]
+      ],
+      "correct_answer": {
+        "putzen": "tozalamoq",
+        "aufräumen": "yig'ishtirmoq",
+        "feiern": "nishonlamoq",
+        "üben": "mashq qilmoq",
+        "erzählen": "aytib bermoq"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "putzen — tozalamoq, aufräumen — narsalarni joyiga qo'yib yig'ishtirmoq, feiern — nishonlamoq, üben — mashq qilmoq, erzählen — aytib bermoq.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l1-e02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "past-events",
+      "grammar_topic": "g-perfekt",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: Ich ___ gestern Deutsch geübt.",
+      "prompt_de": "Ich ___ gestern Deutsch geübt.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "habe",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"ich\" uchun \"haben\" fe'lining shakli.",
+      "explanation": "Perfektda \"ich\" bilan yordamchi fe'l \"habe\" bo'ladi: Ich habe ... geübt. \"üben\" — harakat fe'li emas, shuning uchun \"haben\".",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l1-e03",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "past-events",
+      "grammar_topic": "g-perfekt",
+      "difficulty": 1,
+      "question": "\"kaufen\" fe'lining Partizip II shaklini yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "gekauft",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "ge + o'zak + t",
+      "explanation": "Muntazam fe'l: ge + kauf + t = gekauft. Masalan: Ich habe Brot gekauft.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l1-e04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "household",
+      "grammar_topic": "g-perfekt",
+      "difficulty": 2,
+      "question": "To'g'ri shaklni tanlang: Wir haben das Fahrrad ___.",
+      "prompt_de": null,
+      "options": [
+        "repariert",
+        "gerepariert",
+        "reparieren"
+      ],
+      "pairs": null,
+      "correct_answer": "repariert",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Fe'l \"-ieren\" bilan tugaydi.",
+      "explanation": "\"-ieren\" bilan tugaydigan fe'llarda \"ge-\" bo'lmaydi: repariert. \"reparieren\" — infinitiv, Perfektda ishlatilmaydi.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l1-e05",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "household",
+      "grammar_topic": "g-perfekt",
+      "difficulty": 2,
+      "question": "So'zlarni to'g'ri tartibda joylashtiring: \"Men kecha kvartirani yig'ishtirdim.\"",
+      "prompt_de": null,
+      "options": [
+        "habe",
+        "aufgeräumt",
+        "Ich",
+        "gestern",
+        "Wohnung",
+        "die"
+      ],
+      "pairs": null,
+      "correct_answer": "Ich habe gestern die Wohnung aufgeräumt",
+      "accepted_answers": [
+        "Gestern habe ich die Wohnung aufgeräumt",
+        "Ich habe die Wohnung gestern aufgeräumt"
+      ],
+      "criteria": null,
+      "hint": "\"habe\" — 2-o'rinda, \"aufgeräumt\" — oxirida.",
+      "explanation": "Gap qavsi: habe (2-o'rin) ... aufgeräumt (oxir). \"Gestern\" bilan boshlasangiz ham fe'l 2-o'rinda qoladi: Gestern habe ich ...",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l1-e06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "past-events",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Dilnoza yakshanba kuni nima qildi?",
+      "prompt_de": null,
+      "options": [
+        "O'g'lining tug'ilgan kunini nishonladi",
+        "Kvartirani tozaladi",
+        "Ota-onasi bilan telefonda gaplashdi"
+      ],
+      "pairs": null,
+      "correct_answer": "O'g'lining tug'ilgan kunini nishonladi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"gefeiert\" so'ziga quloq soling.",
+      "explanation": "\"Am Sonntag haben wir den Geburtstag ... gefeiert\" — yakshanba kuni tug'ilgan kun nishonlandi. Tozalash shanba kuni bo'lgan.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Am Sonntag haben wir den Geburtstag von meinem Sohn gefeiert."
+    },
+    {
+      "id": "a2-m13-l1-e07",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "leisure",
+      "grammar_topic": "g-perfekt",
+      "difficulty": 2,
+      "question": "Gapdagi xato so'zni toping: \"Ich habe gestern Fußball gespielen.\"",
+      "prompt_de": "Ich habe gestern Fußball gespielen.",
+      "options": [
+        "Ich",
+        "habe",
+        "gestern",
+        "Fußball",
+        "gespielen"
+      ],
+      "pairs": null,
+      "correct_answer": "gespielen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"spielen\" — muntazam fe'l.",
+      "explanation": "To'g'risi: \"gespielt\". Muntazam fe'llar Partizip II da \"-t\" bilan tugaydi: ge + spiel + t.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l1-e08",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "household",
+      "grammar_topic": "g-perfekt",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Biz kecha kvartirani yig'ishtirdik.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Wir haben gestern die Wohnung aufgeräumt.",
+      "accepted_answers": [
+        "Gestern haben wir die Wohnung aufgeräumt.",
+        "Wir haben die Wohnung gestern aufgeräumt.",
+        "Wir haben gestern das Haus aufgeräumt.",
+        "Gestern haben wir das Haus aufgeräumt."
+      ],
+      "criteria": null,
+      "hint": "wir + haben ... aufgeräumt",
+      "explanation": "\"Biz\" = wir, yordamchi fe'l \"haben\", Partizip II \"aufgeräumt\" gap oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l1-e09",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "time",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Was hast du vorgestern gemacht?\"",
+      "prompt_de": "Was hast du vorgestern gemacht?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "O'tgan kuni nima qilding?",
+      "accepted_answers": [
+        "Sen o'tgan kuni nima qilding?",
+        "Avvalgi kuni nima qilding?",
+        "Sen avvalgi kuni nima qilding?",
+        "Kechadan oldingi kun nima qilding?"
+      ],
+      "criteria": null,
+      "hint": "vorgestern = kechadan oldingi kun.",
+      "explanation": "\"vorgestern\" — kechadan oldingi kun, o'zbekchada \"o'tgan kuni\". \"Was hast du gemacht?\" — nima qilding?",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l1-e10",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "past-events",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni davom ettiring. — Was hast du am Wochenende gemacht?",
+      "prompt_de": "Was hast du am Wochenende gemacht?",
+      "options": [
+        "Ich habe mein Zimmer aufgeräumt und Deutsch geübt.",
+        "Ich räume morgen mein Zimmer auf.",
+        "Ja, ich habe."
+      ],
+      "pairs": null,
+      "correct_answer": "Ich habe mein Zimmer aufgeräumt und Deutsch geübt.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Savol o'tgan zamonda.",
+      "explanation": "Savol Perfektda — o'tgan dam olish kunlari haqida. Javob ham Perfektda bo'lishi kerak. \"morgen\" kelajak haqida, \"Ja, ich habe\" esa W-savolga javob emas.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a2-m13-l1-t01",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "work",
+      "grammar_topic": "g-perfekt",
+      "difficulty": 2,
+      "question": "\"arbeiten\" fe'lining Partizip II shaklini yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "gearbeitet",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "O'zak \"-t\" bilan tugaydi, shuning uchun \"-et\": ge + arbeit + et = gearbeitet.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l1-t02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "phone",
+      "grammar_topic": "g-perfekt",
+      "difficulty": 1,
+      "question": "To'g'ri variantni tanlang: Hast du gestern mit Anna ___?",
+      "prompt_de": null,
+      "options": [
+        "telefoniert",
+        "getelefoniert",
+        "telefonierst"
+      ],
+      "pairs": null,
+      "correct_answer": "telefoniert",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"telefonieren\" — \"-ieren\" fe'l, \"ge-\" qo'shilmaydi: telefoniert.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l1-t03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "household",
+      "grammar_topic": "g-perfekt",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: Mein Mann ___ die Wäsche gemacht.",
+      "prompt_de": "Mein Mann ___ die Wäsche gemacht.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "hat",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Mein Mann\" = er, shuning uchun \"hat\": Er hat die Wäsche gemacht.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l1-t04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "household",
+      "grammar_topic": "g-perfekt",
+      "difficulty": 2,
+      "question": "\"aufräumen\" fe'lining Partizip II shakli qaysi?",
+      "prompt_de": null,
+      "options": [
+        "aufgeräumt",
+        "geaufräumt",
+        "aufräumt"
+      ],
+      "pairs": null,
+      "correct_answer": "aufgeräumt",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ajraladigan fe'llarda \"ge\" old qo'shimcha va o'zak orasiga kiradi: auf + ge + räumt.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l1-t05",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "past-events",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Hamkasbingiz dushanba kuni so'rayapti: \"Wie war dein Wochenende?\" Qaysi javob to'g'ri va tabiiy?",
+      "prompt_de": null,
+      "options": [
+        "Gut! Ich habe mit Freunden gefeiert.",
+        "Gut! Ich feiere mit Freunden gefeiert.",
+        "Gut! Ich habe mit Freunden feiern."
+      ],
+      "pairs": null,
+      "correct_answer": "Gut! Ich habe mit Freunden gefeiert.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Perfekt: habe + gefeiert. Boshqa variantlarda yo yordamchi fe'l, yo Partizip II xato.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l1-t06",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "education",
+      "grammar_topic": "g-perfekt",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Sen uy vazifasini qildingmi?\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Hast du die Hausaufgabe gemacht?",
+      "accepted_answers": [
+        "Hast du die Hausaufgaben gemacht?",
+        "Hast du deine Hausaufgabe gemacht?",
+        "Hast du deine Hausaufgaben gemacht?"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ha/yo'q savolida \"hast\" birinchi o'rinda, \"gemacht\" oxirida: Hast du ... gemacht?",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l1-t07",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "past-events",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang va eshitganingizni yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Neulich habe ich lange telefoniert.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "4 ta so'z, \"neulich\" bilan boshlanadi.",
+      "explanation": "\"Neulich\" (yaqinda) birinchi o'rinda, shuning uchun \"habe ich\" — fe'l 2-o'rinda.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": "Neulich habe ich lange telefoniert."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+name: deutsch-mastery
+
+services:
+  db:
+    image: postgres:17
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    # bound to localhost only: lets host-side pytest/alembic reach it without exposing the DB on the network
+    ports:
+      - "127.0.0.1:${POSTGRES_HOST_PORT:-5433}:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      # inside the compose network the DB host is "db", not localhost
+      DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB}
+    depends_on:
+      db:
+        condition: service_healthy
+    # 8001 on the host (8000 is used by another local project). Localhost only: uvicorn trusts X-Forwarded-For,
+    # so from outside the backend must be reached through nginx, which overwrites that header.
+    ports:
+      - "127.0.0.1:${BACKEND_HOST_PORT:-8001}:8000"
+    # healthy only after migrations + seed finished and uvicorn answers; nginx would return 502 before that
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/health', timeout=3)"]
+      interval: 5s
+      timeout: 5s
+      start_period: 30s
+      retries: 24
+
+  frontend:
+    build: ./frontend
+    restart: unless-stopped
+    ports:
+      - "${FRONTEND_HOST_PORT:-8080}:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+
+  # Public HTTPS URL for other devices/networks (Cloudflare quick tunnel, no account). Opt-in:
+  #   docker compose --profile tunnel up -d   then   docker compose logs tunnel | grep trycloudflare
+  # The URL changes every time this container restarts; anyone with the link can open the app.
+  tunnel:
+    image: cloudflare/cloudflared:2025.10.1
+    command: tunnel --no-autoupdate --url http://frontend:80
+    restart: unless-stopped
+    depends_on:
+      - frontend
+    profiles: ["tunnel"]
+
+volumes:
+  pgdata:

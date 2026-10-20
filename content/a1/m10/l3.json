@@ -1,0 +1,892 @@
+{
+  "id": "a1-m10-l3",
+  "version": 1,
+  "level": "A1",
+  "module": 10,
+  "order": 3,
+  "title": "Yo'l so'rash va ko'rsatish",
+  "title_de": "Wie komme ich zum Bahnhof?",
+  "goal": "Dars oxirida \"Wie komme ich zum/zur ...?\" bilan yo'l so'raysiz, yo'l ko'rsatishni tushunasiz va o'zingiz \"Gehen Sie geradeaus, biegen Sie links ab\" kabi buyruq shaklida yo'l tushuntira olasiz.",
+  "skill_focus": [
+    "speaking",
+    "listening",
+    "grammar"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Yo'l so'rash: \"Entschuldigung, wie komme ich zum Bahnhof?\" zu + dem = zum (der/das so'zlar), zu + der = zur (die so'zlar)."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Jins",
+        "Misol",
+        "zum / zur"
+      ],
+      "rows": [
+        [
+          "der",
+          "der Bahnhof",
+          "zum Bahnhof"
+        ],
+        [
+          "das",
+          "das Museum",
+          "zum Museum"
+        ],
+        [
+          "die",
+          "die Post",
+          "zur Post"
+        ],
+        [
+          "die",
+          "die Apotheke",
+          "zur Apotheke"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Yo'l ko'rsatishda rasmiy buyruq (Imperativ) ishlatiladi: fe'l + Sie. Fe'l birinchi o'rinda turadi: Gehen Sie geradeaus! Ajraladigan fe'lda old qo'shimcha oxirida: Biegen Sie links ab!"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Infinitiv",
+        "Sie-buyruq",
+        "O'zbekcha"
+      ],
+      "rows": [
+        [
+          "gehen",
+          "Gehen Sie geradeaus!",
+          "To'g'riga yuring!"
+        ],
+        [
+          "abbiegen",
+          "Biegen Sie rechts ab!",
+          "O'ngga buriling!"
+        ],
+        [
+          "nehmen",
+          "Nehmen Sie den Bus!",
+          "Avtobusga o'tiring!"
+        ],
+        [
+          "überqueren",
+          "Überqueren Sie die Straße!",
+          "Ko'chani kesib o'ting!"
+        ],
+        [
+          "fahren",
+          "Fahren Sie bis zum Bahnhof!",
+          "Vokzalgacha boring!"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Ketma-ketlik so'zlari: zuerst (avval), dann (keyin). Zuerst gehen Sie geradeaus, dann biegen Sie links ab."
+    },
+    {
+      "type": "tip",
+      "text": "Bilmasangiz: \"Tut mir leid, ich bin nicht von hier.\" — \"Kechirasiz, men bu yerlik emasman.\""
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-geradeaus",
+      "de": "geradeaus",
+      "uz": "to'g'riga",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Gehen Sie immer geradeaus.",
+      "example_uz": "Doim to'g'riga yuring.",
+      "topic": "directions"
+    },
+    {
+      "id": "v-die-ampel",
+      "de": "Ampel",
+      "uz": "svetofor",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Ampeln",
+      "forms": null,
+      "example_de": "An der Ampel biegen Sie rechts ab.",
+      "example_uz": "Svetoforda o'ngga buriling.",
+      "topic": "directions"
+    },
+    {
+      "id": "v-die-kreuzung",
+      "de": "Kreuzung",
+      "uz": "chorraha",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Kreuzungen",
+      "forms": null,
+      "example_de": "Die Post ist an der Kreuzung.",
+      "example_uz": "Pochta chorrahada.",
+      "topic": "directions"
+    },
+    {
+      "id": "v-die-ecke",
+      "de": "Ecke",
+      "uz": "burchak (ko'cha burchagi)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Ecken",
+      "forms": null,
+      "example_de": "Die Apotheke ist an der Ecke.",
+      "example_uz": "Dorixona burchakda.",
+      "topic": "directions"
+    },
+    {
+      "id": "v-abbiegen",
+      "de": "abbiegen",
+      "uz": "burilmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "abgebogen",
+        "perfekt_aux": "sein",
+        "praesens_3sg": "biegt ab"
+      },
+      "example_de": "Biegen Sie links ab!",
+      "example_uz": "Chapga buriling!",
+      "topic": "directions"
+    },
+    {
+      "id": "v-die-brücke",
+      "de": "Brücke",
+      "uz": "ko'prik",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Brücken",
+      "forms": null,
+      "example_de": "Gehen Sie über die Brücke.",
+      "example_uz": "Ko'prikdan o'ting.",
+      "topic": "directions"
+    },
+    {
+      "id": "v-weit",
+      "de": "weit",
+      "uz": "uzoq",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Ist der Bahnhof weit?",
+      "example_uz": "Vokzal uzoqmi?",
+      "topic": "directions"
+    },
+    {
+      "id": "v-nah",
+      "de": "nah",
+      "uz": "yaqin",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Die Haltestelle ist ganz nah.",
+      "example_uz": "Bekat juda yaqin.",
+      "topic": "directions"
+    },
+    {
+      "id": "v-die-richtung",
+      "de": "Richtung",
+      "uz": "yo'nalish",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Richtungen",
+      "forms": null,
+      "example_de": "Fahren Sie Richtung Zentrum.",
+      "example_uz": "Markaz tomonga boring.",
+      "topic": "directions"
+    },
+    {
+      "id": "v-der-stadtplan",
+      "de": "Stadtplan",
+      "uz": "shahar xaritasi",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Stadtpläne",
+      "forms": null,
+      "example_de": "Haben Sie einen Stadtplan?",
+      "example_uz": "Sizda shahar xaritasi bormi?",
+      "topic": "directions"
+    },
+    {
+      "id": "v-überqueren",
+      "de": "überqueren",
+      "uz": "kesib o'tmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "überquert",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "überquert"
+      },
+      "example_de": "Überqueren Sie die Straße an der Ampel.",
+      "example_uz": "Ko'chani svetofordan kesib o'ting.",
+      "topic": "directions"
+    },
+    {
+      "id": "v-gegenüber",
+      "de": "gegenüber",
+      "uz": "ro'parasida, qarshisida",
+      "pos": "preposition",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Die Bank ist gegenüber der Post.",
+      "example_uz": "Bank pochtaning ro'parasida.",
+      "topic": "directions"
+    }
+  ],
+  "review_vocabulary": [
+    "v-links",
+    "v-rechts",
+    "v-der-bahnhof",
+    "v-die-post",
+    "v-das-museum",
+    "v-die-apotheke",
+    "v-die-bibliothek",
+    "v-zu-fuß",
+    "v-neben",
+    "v-können",
+    "v-zuerst"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-imperative",
+      "rule": "Rasmiy buyruq (Sie): fe'l (infinitiv shaklida) birinchi o'rinda, keyin Sie. Ajraladigan fe'lda old qo'shimcha gap oxiriga ketadi.",
+      "when": "Yo'l ko'rsatganda, ko'rsatma yoki maslahat berganda (notanish odamga).",
+      "structure": "Fe'l + Sie + ...: Gehen Sie geradeaus!\nAjraladigan fe'l: Biegen Sie an der Ampel links ab!",
+      "examples": [
+        {
+          "de": "Gehen Sie geradeaus.",
+          "uz": "To'g'riga yuring."
+        },
+        {
+          "de": "Biegen Sie an der Ampel rechts ab.",
+          "uz": "Svetoforda o'ngga buriling."
+        },
+        {
+          "de": "Nehmen Sie die U-Bahn Linie 2.",
+          "uz": "2-liniya metrosiga o'tiring."
+        },
+        {
+          "de": "Überqueren Sie die Brücke.",
+          "uz": "Ko'prikdan o'ting."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Sie gehen geradeaus!",
+          "right": "Gehen Sie geradeaus!",
+          "why": "Buyruqda fe'l birinchi o'rinda: Gehen Sie ..."
+        },
+        {
+          "wrong": "Abbiegen Sie links!",
+          "right": "Biegen Sie links ab!",
+          "why": "Old qo'shimcha (ab) gap oxiriga ketadi."
+        },
+        {
+          "wrong": "Geh Sie geradeaus!",
+          "right": "Gehen Sie geradeaus!",
+          "why": "Sie-buyruqda fe'l to'liq infinitiv shaklida: gehen."
+        }
+      ],
+      "check": [
+        "a1-m10-l3-e03",
+        "a1-m10-l3-e04",
+        "a1-m10-l3-e05",
+        "a1-m10-l3-e10"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Muzeyga yo'l",
+    "lines": [
+      {
+        "speaker": "Rustam",
+        "de": "Entschuldigung, wie komme ich zum Museum?",
+        "uz": "Kechirasiz, muzeyga qanday borsam bo'ladi?"
+      },
+      {
+        "speaker": "Frau Koch",
+        "de": "Gehen Sie hier geradeaus bis zur Ampel.",
+        "uz": "Shu yerdan svetoforgacha to'g'riga yuring."
+      },
+      {
+        "speaker": "Frau Koch",
+        "de": "An der Ampel biegen Sie links ab. Dann überqueren Sie die Brücke.",
+        "uz": "Svetoforda chapga buriling. Keyin ko'prikdan o'ting."
+      },
+      {
+        "speaker": "Rustam",
+        "de": "Ist das weit?",
+        "uz": "Uzoqmi?"
+      },
+      {
+        "speaker": "Frau Koch",
+        "de": "Nein, nur fünf Minuten zu Fuß. Das Museum ist gegenüber der Bibliothek.",
+        "uz": "Yo'q, piyoda atigi besh daqiqa. Muzey kutubxonaning ro'parasida."
+      },
+      {
+        "speaker": "Rustam",
+        "de": "Vielen Dank!",
+        "uz": "Katta rahmat!"
+      }
+    ],
+    "questions": [
+      "a1-m10-l3-e08",
+      "a1-m10-l3-e09"
+    ]
+  },
+  "situation": {
+    "title": "Yo'l ko'rsating",
+    "context_uz": "Siz Germaniyada yashaysiz. Ko'chada bir kishi sizdan vokzalga yo'l so'rayapti.",
+    "lines": [
+      {
+        "speaker": "Mann",
+        "de": "Entschuldigung, wie komme ich zum Bahnhof?",
+        "uz": "Kechirasiz, vokzalga qanday borsam bo'ladi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Gehen Sie zuerst geradeaus. An der Kreuzung biegen Sie rechts ab.",
+        "uz": "Avval to'g'riga yuring. Chorrahada o'ngga buriling."
+      },
+      {
+        "speaker": "Mann",
+        "de": "Rechts, okay. Und dann?",
+        "uz": "O'ngga, yaxshi. Keyin-chi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Dann gehen Sie über die Brücke. Der Bahnhof ist links.",
+        "uz": "Keyin ko'prikdan o'ting. Vokzal chap tomonda."
+      },
+      {
+        "speaker": "Mann",
+        "de": "Ist das weit?",
+        "uz": "Uzoqmi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Nein, es ist nah. Zehn Minuten zu Fuß.",
+        "uz": "Yo'q, yaqin. Piyoda o'n daqiqa."
+      },
+      {
+        "speaker": "Mann",
+        "de": "Danke schön!",
+        "uz": "Katta rahmat!"
+      }
+    ],
+    "task_uz": "Uyingizdan eng yaqin bekat yoki do'kongacha bo'lgan yo'lni nemischa tushuntiring: kamida 3 ta buyruq (Gehen Sie ..., Biegen Sie ... ab, Überqueren Sie ...) va \"zuerst\", \"dann\" so'zlarini ishlating."
+  },
+  "exercises": [
+    {
+      "id": "a1-m10-l3-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "directions",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "So'zlarni juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "geradeaus",
+          "to'g'riga"
+        ],
+        [
+          "Ampel",
+          "svetofor"
+        ],
+        [
+          "Kreuzung",
+          "chorraha"
+        ],
+        [
+          "Ecke",
+          "burchak"
+        ],
+        [
+          "Brücke",
+          "ko'prik"
+        ]
+      ],
+      "correct_answer": {
+        "geradeaus": "to'g'riga",
+        "Ampel": "svetofor",
+        "Kreuzung": "chorraha",
+        "Ecke": "burchak",
+        "Brücke": "ko'prik"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "geradeaus — to'g'riga, Ampel — svetofor, Kreuzung — chorraha, Ecke — burchak, Brücke — ko'prik.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l3-e02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "directions",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "\"weit\" so'zining qarama-qarshisi qaysi?",
+      "prompt_de": null,
+      "options": [
+        "nah",
+        "links",
+        "zuerst"
+      ],
+      "pairs": null,
+      "correct_answer": "nah",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "weit — uzoq, nah — yaqin.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l3-e03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "directions",
+      "grammar_topic": "g-imperative",
+      "difficulty": 1,
+      "question": "To'g'ri variantni tanlang: ___ Sie an der Ampel rechts ab.",
+      "prompt_de": "___ Sie an der Ampel rechts ab.",
+      "options": [
+        "Biegen",
+        "Abbiegen",
+        "Biegt"
+      ],
+      "pairs": null,
+      "correct_answer": "Biegen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "abbiegen — ajraladigan fe'l: Biegen Sie ... ab.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l3-e04",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "directions",
+      "grammar_topic": "g-imperative",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: Gehen ___ geradeaus!",
+      "prompt_de": "Gehen ___ geradeaus!",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Sie",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Rasmiy buyruq: fe'l + Sie.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l3-e05",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "directions",
+      "grammar_topic": "g-imperative",
+      "difficulty": 2,
+      "question": "So'zlarni tartiblang: \"Chorrahada chapga buriling.\"",
+      "prompt_de": null,
+      "options": [
+        "ab",
+        "der",
+        "Biegen",
+        "Sie",
+        "an",
+        "links",
+        "Kreuzung"
+      ],
+      "pairs": null,
+      "correct_answer": "Biegen Sie an der Kreuzung links ab",
+      "accepted_answers": [
+        "An der Kreuzung biegen Sie links ab"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Buyruq: fe'l birinchi, \"ab\" oxirida. Yo'l ko'rsatishda \"An der Kreuzung biegen Sie links ab\" ham juda tabiiy.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l3-e06",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "directions",
+      "grammar_topic": "g-dativ",
+      "difficulty": 1,
+      "question": "To'g'ri variantni tanlang: Wie komme ich ___ Bahnhof?",
+      "prompt_de": "Wie komme ich ___ Bahnhof?",
+      "options": [
+        "zum",
+        "zur",
+        "zu die"
+      ],
+      "pairs": null,
+      "correct_answer": "zum",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Bahnhof → zu + dem = zum.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l3-e07",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "directions",
+      "grammar_topic": "g-dativ",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: Wie komme ich ___ Post?",
+      "prompt_de": "Wie komme ich ___ Post?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "zur",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Post → zu + der = zur.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l3-e08",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "directions",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni tinglang. Svetoforda qaysi tomonga burilish kerak?",
+      "prompt_de": null,
+      "options": [
+        "Chapga",
+        "O'ngga",
+        "To'g'riga"
+      ],
+      "pairs": null,
+      "correct_answer": "Chapga",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"An der Ampel biegen Sie links ab.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Entschuldigung, wie komme ich zum Museum? Gehen Sie hier geradeaus bis zur Ampel. An der Ampel biegen Sie links ab. Dann überqueren Sie die Brücke. Ist das weit? Nein, nur fünf Minuten zu Fuß. Das Museum ist gegenüber der Bibliothek. Vielen Dank!"
+    },
+    {
+      "id": "a1-m10-l3-e09",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "directions",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Dialogni tinglang. Muzey qayerda?",
+      "prompt_de": null,
+      "options": [
+        "Kutubxonaning ro'parasida",
+        "Ko'prik ostida",
+        "Bankning yonida"
+      ],
+      "pairs": null,
+      "correct_answer": "Kutubxonaning ro'parasida",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Das Museum ist gegenüber der Bibliothek.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Entschuldigung, wie komme ich zum Museum? Gehen Sie hier geradeaus bis zur Ampel. An der Ampel biegen Sie links ab. Dann überqueren Sie die Brücke. Ist das weit? Nein, nur fünf Minuten zu Fuß. Das Museum ist gegenüber der Bibliothek. Vielen Dank!"
+    },
+    {
+      "id": "a1-m10-l3-e10",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "directions",
+      "grammar_topic": "g-imperative",
+      "difficulty": 1,
+      "question": "Nemis tiliga tarjima qiling (Sie): \"To'g'riga yuring!\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Gehen Sie geradeaus!",
+      "accepted_answers": [
+        "Fahren Sie geradeaus!"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Sie-buyruq: Gehen Sie ... Transportda bo'lsa: Fahren Sie geradeaus!",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l3-e11",
+      "version": 1,
+      "type": "speak",
+      "skill": "speaking",
+      "topic": "directions",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Ovoz chiqarib ayting: uyingizdan bekatgacha yo'lni tushuntiring (kamida 3 ta buyruq).",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 12,
+        "required_words": [
+          "Sie",
+          "geradeaus"
+        ],
+        "sample": "Gehen Sie zuerst geradeaus. An der Ampel biegen Sie links ab. Dann überqueren Sie die Straße. Die Haltestelle ist rechts."
+      },
+      "hint": null,
+      "explanation": "Namuna: \"Gehen Sie zuerst geradeaus. An der Ampel biegen Sie links ab. Dann überqueren Sie die Straße. Die Haltestelle ist rechts.\"",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l3-e12",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "directions",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni davom ettiring: \"Ist das weit?\"",
+      "prompt_de": "Ist das weit?",
+      "options": [
+        "Nein, nur fünf Minuten zu Fuß.",
+        "Ja, ich bin weit.",
+        "Gehen Sie weit!"
+      ],
+      "pairs": null,
+      "correct_answer": "Nein, nur fünf Minuten zu Fuß.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Uzoqmi?\" savoliga masofa yoki vaqt bilan javob beriladi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a1-m10-l3-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "directions",
+      "grammar_topic": "g-imperative",
+      "difficulty": 1,
+      "question": "To'g'ri variantni tanlang: ___ Sie die Brücke!",
+      "prompt_de": "___ Sie die Brücke!",
+      "options": [
+        "Überqueren",
+        "Überquert",
+        "Überquere"
+      ],
+      "pairs": null,
+      "correct_answer": "Überqueren",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Sie-buyruq: infinitiv shakli + Sie.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l3-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "directions",
+      "grammar_topic": "g-imperative",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: Biegen Sie links ___!",
+      "prompt_de": "Biegen Sie links ___!",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "ab",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "abbiegen → Biegen Sie ... ab!",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l3-t03",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "directions",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Hokimiyatni (Rathaus) qidiryapsiz. Ko'chadagi odamdan qanday so'raysiz?",
+      "prompt_de": null,
+      "options": [
+        "Entschuldigung, wie komme ich zum Rathaus?",
+        "Wo ist ich Rathaus?",
+        "Gehen Sie zum Rathaus!"
+      ],
+      "pairs": null,
+      "correct_answer": "Entschuldigung, wie komme ich zum Rathaus?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "das Rathaus → zum Rathaus. Avval \"Entschuldigung\" deyiladi.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l3-t04",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "directions",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "O'zbek tiliga tarjima qiling: \"Die Post ist gegenüber der Bank.\"",
+      "prompt_de": "Die Post ist gegenüber der Bank.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Pochta bankning ro'parasida.",
+      "accepted_answers": [
+        "Pochta bank ro'parasida",
+        "Pochta bankning qarshisida",
+        "Pochta bank qarshisida"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "gegenüber — ro'parasida, qarshisida.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l3-t05",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "directions",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Avval qaysi tomonga yurish kerak?",
+      "prompt_de": null,
+      "options": [
+        "To'g'riga",
+        "O'ngga",
+        "Chapga"
+      ],
+      "pairs": null,
+      "correct_answer": "To'g'riga",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Gehen Sie geradeaus und dann rechts\" — avval to'g'riga, keyin o'ngga.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Gehen Sie geradeaus und dann rechts."
+    },
+    {
+      "id": "a1-m10-l3-t06",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "directions",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Artiklni tanlang: ___ Ampel",
+      "prompt_de": "___ Ampel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "die",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Ampel — ayol jinsi.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l3-t07",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "directions",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Matnni o'qing. Til maktabi qayerda?",
+      "prompt_de": "So kommen Sie zu uns: Vom Bahnhof gehen Sie geradeaus bis zur Kreuzung. Dort biegen Sie rechts ab. Unsere Sprachschule ist an der Ecke, neben der Apotheke.",
+      "options": [
+        "Burchakda, dorixonaning yonida",
+        "Vokzalning ichida",
+        "Chorrahadan chapda"
+      ],
+      "pairs": null,
+      "correct_answer": "Burchakda, dorixonaning yonida",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Unsere Sprachschule ist an der Ecke, neben der Apotheke.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

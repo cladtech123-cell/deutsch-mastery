@@ -1,0 +1,780 @@
+{
+  "id": "a1-m07-l1",
+  "version": 1,
+  "level": "A1",
+  "module": 7,
+  "order": 1,
+  "title": "Ovqat va ichimliklar",
+  "title_de": "Essen und Trinken",
+  "goal": "Dars oxirida 11 ta asosiy ovqat va ichimlik nomini artikli bilan aytasiz, \"essen\", \"trinken\", \"mögen\" fe'llarini tuslaysiz va nimani yaxshi ko'rishingizni \"gern\" bilan ayta olasiz.",
+  "skill_focus": [
+    "vocabulary",
+    "grammar",
+    "speaking"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Ovqat haqida gapirish uchun uchta fe'l yetarli: essen (yemoq), trinken (ichmoq) va mögen (yoqtirmoq). Fe'ldan keyin \"gern\" qo'shsangiz, \"yaxshi ko'rib, mamnuniyat bilan\" ma'nosi chiqadi: Ich esse gern Reis. — Men guruch yeyishni yaxshi ko'raman."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Shaxs",
+        "essen (yemoq)",
+        "trinken (ichmoq)",
+        "mögen (yoqtirmoq)"
+      ],
+      "rows": [
+        [
+          "ich",
+          "esse",
+          "trinke",
+          "mag"
+        ],
+        [
+          "du",
+          "isst",
+          "trinkst",
+          "magst"
+        ],
+        [
+          "er / sie / es",
+          "isst",
+          "trinkt",
+          "mag"
+        ],
+        [
+          "wir",
+          "essen",
+          "trinken",
+          "mögen"
+        ],
+        [
+          "ihr",
+          "esst",
+          "trinkt",
+          "mögt"
+        ],
+        [
+          "sie / Sie",
+          "essen",
+          "trinken",
+          "mögen"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Ovqat nomini artikli bilan birga yodlang: der Apfel, die Milch, das Brot. Umumiy ma'noda gapirganda ovqat nomi ko'pincha artiklsiz ishlatiladi: Ich trinke Milch. Wir essen Reis."
+    },
+    {
+      "type": "tip",
+      "text": "\"essen\" nomuntazam: du isst, er isst (e → i). \"mögen\"da ich va er shakli bir xil: ich mag, er mag — oxirida -t yo'q."
+    },
+    {
+      "type": "tip",
+      "text": "Yoqtirmasangiz: \"nicht gern\". Ich trinke nicht gern Milch. — Men sutni unchalik yoqtirmayman. (Inkor haqida batafsil 8-modulda.)"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-das-brot",
+      "de": "Brot",
+      "uz": "non",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Brote",
+      "forms": null,
+      "example_de": "Ich esse Brot mit Käse.",
+      "example_uz": "Men pishloqli non yeyman.",
+      "topic": "food"
+    },
+    {
+      "id": "v-der-käse",
+      "de": "Käse",
+      "uz": "pishloq",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Käse",
+      "forms": null,
+      "example_de": "Magst du Käse? — Ja, sehr gern.",
+      "example_uz": "Pishloqni yoqtirasanmi? — Ha, juda.",
+      "topic": "food"
+    },
+    {
+      "id": "v-der-apfel",
+      "de": "Apfel",
+      "uz": "olma",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Äpfel",
+      "forms": null,
+      "example_de": "Der Apfel ist sehr gut.",
+      "example_uz": "Olma juda yaxshi (mazali).",
+      "topic": "food"
+    },
+    {
+      "id": "v-der-reis",
+      "de": "Reis",
+      "uz": "guruch",
+      "pos": "noun",
+      "article": "der",
+      "plural": "-",
+      "forms": null,
+      "example_de": "In Usbekistan essen wir viel Reis.",
+      "example_uz": "O'zbekistonda biz ko'p guruch yeymiz.",
+      "topic": "food"
+    },
+    {
+      "id": "v-das-fleisch",
+      "de": "Fleisch",
+      "uz": "go'sht",
+      "pos": "noun",
+      "article": "das",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Mein Vater isst gern Fleisch.",
+      "example_uz": "Otam go'shtni yaxshi ko'radi.",
+      "topic": "food"
+    },
+    {
+      "id": "v-das-gemüse",
+      "de": "Gemüse",
+      "uz": "sabzavot",
+      "pos": "noun",
+      "article": "das",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Gemüse ist gesund.",
+      "example_uz": "Sabzavot sog'liq uchun foydali.",
+      "topic": "food"
+    },
+    {
+      "id": "v-der-saft",
+      "de": "Saft",
+      "uz": "sharbat",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Säfte",
+      "forms": null,
+      "example_de": "Ich trinke gern Apfelsaft.",
+      "example_uz": "Men olma sharbatini yaxshi ko'raman.",
+      "topic": "food"
+    },
+    {
+      "id": "v-mögen",
+      "de": "mögen",
+      "uz": "yoqtirmoq, yaxshi ko'rmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "gemocht",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "mag"
+      },
+      "example_de": "Anna mag Äpfel.",
+      "example_uz": "Anna olmani yaxshi ko'radi.",
+      "topic": "food"
+    }
+  ],
+  "review_vocabulary": [
+    "v-die-milch",
+    "v-das-ei",
+    "v-der-tee",
+    "v-essen",
+    "v-trinken",
+    "v-gern"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-praesens",
+      "rule": "\"trinken\" — muntazam fe'l. \"essen\" va \"mögen\" — nomuntazam: essen → du isst, er isst; mögen → ich mag, du magst, er mag. Yoqtirishni ikki yo'l bilan aytish mumkin: fe'l + gern yoki mögen + ot.",
+      "when": "Nima yeyishingiz, ichishingiz va nimani yoqtirishingiz haqida gapirganda.",
+      "structure": "Ega + fe'l + gern + ovqat: Ich esse gern Reis.\nEga + mag + ovqat: Ich mag Reis.",
+      "examples": [
+        {
+          "de": "Ich esse gern Reis.",
+          "uz": "Men guruch yeyishni yaxshi ko'raman."
+        },
+        {
+          "de": "Isst du gern Fleisch?",
+          "uz": "Go'shtni yaxshi ko'rasanmi?"
+        },
+        {
+          "de": "Mein Bruder trinkt gern Saft.",
+          "uz": "Akam sharbatni yaxshi ko'radi."
+        },
+        {
+          "de": "Wir mögen Käse.",
+          "uz": "Biz pishloqni yoqtiramiz."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Er esst Brot.",
+          "right": "Er isst Brot.",
+          "why": "\"essen\" nomuntazam: du va er/sie/es bilan o'zak \"iss-\" bo'ladi."
+        },
+        {
+          "wrong": "Sie magt Tee.",
+          "right": "Sie mag Tee.",
+          "why": "\"mögen\"da er/sie/es shakli \"mag\" — oxiriga -t qo'shilmaydi."
+        },
+        {
+          "wrong": "Ich gern trinke Tee.",
+          "right": "Ich trinke gern Tee.",
+          "why": "Fe'l doim 2-o'rinda turadi, \"gern\" fe'ldan keyin keladi. O'zbekcha tartibni ko'chirmang."
+        }
+      ],
+      "check": [
+        "a1-m07-l1-e04",
+        "a1-m07-l1-e05",
+        "a1-m07-l1-e06",
+        "a1-m07-l1-e10"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Nimani yaxshi ko'rasan?",
+    "lines": [
+      {
+        "speaker": "Lena",
+        "de": "Was isst du gern, Aziz?",
+        "uz": "Aziz, nimani yeyishni yaxshi ko'rasan?"
+      },
+      {
+        "speaker": "Aziz",
+        "de": "Ich esse gern Reis und Fleisch. Und du?",
+        "uz": "Men guruch va go'shtni yaxshi ko'raman. Sen-chi?"
+      },
+      {
+        "speaker": "Lena",
+        "de": "Ich esse nicht gern Fleisch. Ich mag Gemüse und Käse.",
+        "uz": "Men go'shtni unchalik yoqtirmayman. Men sabzavot va pishloqni yaxshi ko'raman."
+      },
+      {
+        "speaker": "Aziz",
+        "de": "Und was trinkst du?",
+        "uz": "Nima ichasan-chi?"
+      },
+      {
+        "speaker": "Lena",
+        "de": "Ich trinke gern Tee mit Milch.",
+        "uz": "Men sutli choyni yaxshi ko'raman."
+      },
+      {
+        "speaker": "Aziz",
+        "de": "Ich auch! In Usbekistan trinken wir viel Tee.",
+        "uz": "Men ham! O'zbekistonda biz ko'p choy ichamiz."
+      }
+    ],
+    "questions": [
+      "a1-m07-l1-e07"
+    ]
+  },
+  "situation": {
+    "title": "Mehmon kutish",
+    "context_uz": "Nemis hamkasbingiz Jonas uyingizga mehmonga keldi. Siz undan nima ichishi va nima yeyishini so'raysiz.",
+    "lines": [
+      {
+        "speaker": "Siz",
+        "de": "Was trinkst du gern, Jonas? Tee oder Saft?",
+        "uz": "Jonas, nima ichishni yaxshi ko'rasan? Choymi yoki sharbatmi?"
+      },
+      {
+        "speaker": "Jonas",
+        "de": "Ich trinke gern Tee.",
+        "uz": "Men choyni yaxshi ko'raman."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Magst du Reis mit Fleisch? Das ist Plov.",
+        "uz": "Go'shtli guruchni yoqtirasanmi? Bu palov."
+      },
+      {
+        "speaker": "Jonas",
+        "de": "Ja, ich mag Reis sehr. Und ich esse gern Fleisch.",
+        "uz": "Ha, guruchni juda yoqtiraman. Go'shtni ham yaxshi ko'raman."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Super! Hier sind Brot und Käse.",
+        "uz": "Zo'r! Mana non va pishloq."
+      },
+      {
+        "speaker": "Jonas",
+        "de": "Danke schön!",
+        "uz": "Katta rahmat!"
+      }
+    ],
+    "task_uz": "Dialogni ovoz chiqarib o'qing. Keyin mehmoningizga 3 ta savol bering: \"Trinkst du gern ...?\", \"Isst du gern ...?\", \"Magst du ...?\". Uning javobini ham nemischa ayting."
+  },
+  "exercises": [
+    {
+      "id": "a1-m07-l1-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "food",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemischa so'zni o'zbekcha ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "Brot",
+          "non"
+        ],
+        [
+          "Käse",
+          "pishloq"
+        ],
+        [
+          "Milch",
+          "sut"
+        ],
+        [
+          "Apfel",
+          "olma"
+        ],
+        [
+          "Ei",
+          "tuxum"
+        ],
+        [
+          "Fleisch",
+          "go'sht"
+        ]
+      ],
+      "correct_answer": {
+        "Brot": "non",
+        "Käse": "pishloq",
+        "Milch": "sut",
+        "Apfel": "olma",
+        "Ei": "tuxum",
+        "Fleisch": "go'sht"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Brot — non, Käse — pishloq, Milch — sut, Apfel — olma, Ei — tuxum, Fleisch — go'sht.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l1-e02",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "food",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Artiklni tanlang: ___ Milch",
+      "prompt_de": "___ Milch",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "die",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Sut — ayol jinsi.",
+      "explanation": "\"Milch\" — ayol jinsidagi ot: die Milch. Artiklni so'z bilan birga yodlang.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l1-e03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "food",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Qaysi so'z ichimlikni bildiradi?",
+      "prompt_de": null,
+      "options": [
+        "Reis",
+        "Saft",
+        "Brot",
+        "Ei"
+      ],
+      "pairs": null,
+      "correct_answer": "Saft",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Saft\" — sharbat, ichimlik. Reis — guruch, Brot — non, Ei — tuxum: bular yeyiladi.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l1-e04",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-praesens",
+      "difficulty": 2,
+      "question": "Fe'lni tuslang: Er ___ (essen) gern Fleisch.",
+      "prompt_de": "Er ___ (essen) gern Fleisch.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "isst",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "e → i",
+      "explanation": "\"essen\" nomuntazam: er/sie/es bilan \"isst\" (e → i). \"esst\" — faqat \"ihr\" uchun.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l1-e05",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (mögen): ___ du Käse?",
+      "prompt_de": "___ du Käse?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Magst",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "du → -st",
+      "explanation": "\"du\" bilan \"mögen\" → \"magst\". Savolda fe'l birinchi o'rinda: Magst du Käse?",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l1-e06",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "So'zlarni tartiblang: \"Men sutli choy ichishni yaxshi ko'raman.\"",
+      "prompt_de": null,
+      "options": [
+        "trinke",
+        "mit",
+        "gern",
+        "Tee",
+        "Milch",
+        "Ich"
+      ],
+      "pairs": null,
+      "correct_answer": "Ich trinke gern Tee mit Milch",
+      "accepted_answers": [
+        "Tee mit Milch trinke ich gern",
+        "Gern trinke ich Tee mit Milch"
+      ],
+      "criteria": null,
+      "hint": "Fe'l 2-o'rinda.",
+      "explanation": "Fe'l (trinke) 2-o'rinda, \"gern\" fe'ldan keyin. \"Tee mit Milch\" bilan boshlash ham mumkin: Tee mit Milch trinke ich gern.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l1-e07",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "food",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni tinglang. Lena nimani yoqtirmaydi?",
+      "prompt_de": null,
+      "options": [
+        "Go'sht",
+        "Sabzavot",
+        "Pishloq"
+      ],
+      "pairs": null,
+      "correct_answer": "Go'sht",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"nicht gern\" so'ziga quloq soling.",
+      "explanation": "Lena: \"Ich esse nicht gern Fleisch.\" — u go'shtni yoqtirmaydi, sabzavot va pishloqni yoqtiradi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Was isst du gern, Aziz? Ich esse gern Reis und Fleisch. Und du? Ich esse nicht gern Fleisch. Ich mag Gemüse und Käse. Und was trinkst du? Ich trinke gern Tee mit Milch. Ich auch! In Usbekistan trinken wir viel Tee."
+    },
+    {
+      "id": "a1-m07-l1-e08",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "food",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang va eshitganingizni yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Was isst du gern?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "To'rtta so'z, savol.",
+      "explanation": "\"isst\" — ikkita s bilan yoziladi (du isst). Savol so'zi \"Was\" bilan boshlanadi.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": "Was isst du gern?"
+    },
+    {
+      "id": "a1-m07-l1-e09",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "food",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Men olmani yaxshi ko'raman.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich mag Äpfel.",
+      "accepted_answers": [
+        "Ich esse gern Äpfel.",
+        "Ich mag Äpfel sehr.",
+        "Ich mag Äpfel gern."
+      ],
+      "criteria": null,
+      "hint": "mögen → ich mag",
+      "explanation": "Umumiy ma'noda \"olmani yoqtiraman\" deyilganda ko'plik ishlatiladi: Ich mag Äpfel. \"Ich esse gern Äpfel\" ham to'g'ri.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l1-e10",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "Xato so'zni toping: \"Sie magt Saft.\"",
+      "prompt_de": "Sie magt Saft.",
+      "options": [
+        "Sie",
+        "magt",
+        "Saft"
+      ],
+      "pairs": null,
+      "correct_answer": "magt",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: \"Sie mag Saft.\" mögen fe'lida er/sie/es shakli \"mag\", -t qo'shilmaydi.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l1-e11",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "food",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Do'stingiz so'radi: \"Magst du Käse?\" Siz pishloqni yoqtirmaysiz. Nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Nein, ich esse nicht gern Käse.",
+        "Ja, ich trinke Käse.",
+        "Nein, ich bin Käse."
+      ],
+      "pairs": null,
+      "correct_answer": "Nein, ich esse nicht gern Käse.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Yoqtirmaslikni \"nicht gern\" bilan aytamiz. \"Ich trinke Käse\" — pishloq ichilmaydi; \"Ich bin Käse\" — \"men pishloqman\" degani.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a1-m07-l1-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "food",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "\"das Gemüse\" nima degani?",
+      "prompt_de": null,
+      "options": [
+        "sabzavot",
+        "meva",
+        "go'sht"
+      ],
+      "pairs": null,
+      "correct_answer": "sabzavot",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Gemüse — sabzavot. Meva — Obst, go'sht — Fleisch.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l1-t02",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "Fe'lni tuslang: Du ___ (trinken) gern Saft.",
+      "prompt_de": "Du ___ (trinken) gern Saft.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "trinkst",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "du → -st: du trinkst.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l1-t03",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-praesens",
+      "difficulty": 2,
+      "question": "Fe'lni tuslang: Mein Vater ___ (essen) gern Reis.",
+      "prompt_de": "Mein Vater ___ (essen) gern Reis.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "isst",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Mein Vater = er. essen → er isst.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l1-t04",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "food",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Artiklni tanlang: ___ Ei",
+      "prompt_de": "___ Ei",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "das",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "das Ei — o'rta jins. Ko'pligi: die Eier.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l1-t05",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "food",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Wir trinken gern Tee.\"",
+      "prompt_de": "Wir trinken gern Tee.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Biz choy ichishni yaxshi ko'ramiz.",
+      "accepted_answers": [
+        "Biz choyni yaxshi ko'ramiz",
+        "Biz choy ichishni yoqtiramiz",
+        "Biz choyni yoqtiramiz",
+        "Biz choyni yaxshi ko'rib ichamiz"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"gern\" — yaxshi ko'rib. Wir trinken gern Tee — Biz choy ichishni yaxshi ko'ramiz.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l1-t06",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (mögen): Lena ___ Käse.",
+      "prompt_de": "Lena ___ Käse.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "mag",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Lena = sie. mögen → sie mag.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l1-t07",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "food",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Aziz nimani yaxshi ko'radi?",
+      "prompt_de": null,
+      "options": [
+        "Guruch va go'sht",
+        "Non va pishloq",
+        "Sabzavot va sut"
+      ],
+      "pairs": null,
+      "correct_answer": "Guruch va go'sht",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Ich esse gern Reis und Fleisch\" — guruch va go'shtni yaxshi ko'radi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Ich esse gern Reis und Fleisch."
+    }
+  ]
+}

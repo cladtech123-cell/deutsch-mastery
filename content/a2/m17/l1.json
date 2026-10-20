@@ -1,0 +1,854 @@
+{
+  "id": "a2-m17-l1",
+  "version": 2,
+  "level": "A2",
+  "module": 17,
+  "order": 1,
+  "title": "Kvartira ijaraga olish",
+  "title_de": "Eine Wohnung mieten",
+  "goal": "Dars oxirida ijara e'lonini tushuna olasiz (Miete, Nebenkosten, Kaution), uy egasiga savol bera olasiz va \"gefallen, gehören, helfen\" fe'llari bilan Dativni to'g'ri ishlatasiz (Die Wohnung gefällt mir).",
+  "skill_focus": [
+    "vocabulary",
+    "grammar",
+    "reading"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Germaniyada kvartira ijarasi ikki qismdan iborat: \"Kaltmiete\" (sof ijara haqi) va \"Nebenkosten\" (suv, isitish, chiqindi va h.k.). Ikkalasi birga — \"Warmmiete\". Ko'chib kirishda odatda \"Kaution\" (garov puli, ko'pincha 3 oylik sof ijara) to'lanadi."
+    },
+    {
+      "type": "p",
+      "text": "Dativ — o'zbek tilidagi jo'nalish kelishigiga (-ga) o'xshaydi: \"kimga? nimaga?\" = \"wem?\". Masalan: \"Kalit uy egasiga tegishli\" → \"Der Schlüssel gehört dem Vermieter\"."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "",
+        "Nominativ",
+        "Dativ",
+        "Misol"
+      ],
+      "rows": [
+        [
+          "der (m)",
+          "der / ein",
+          "dem / einem",
+          "Ich helfe dem Vermieter."
+        ],
+        [
+          "die (f)",
+          "die / eine",
+          "der / einer",
+          "Ich gebe der Vermieterin die Kaution."
+        ],
+        [
+          "das (n)",
+          "das / ein",
+          "dem / einem",
+          "Das Fahrrad gehört dem Kind."
+        ],
+        [
+          "die (ko'plik)",
+          "die / –",
+          "den + -n",
+          "Der Vermieter hilft den Mietern."
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "ich",
+        "du",
+        "er / sie / es",
+        "wir",
+        "ihr",
+        "sie / Sie"
+      ],
+      "rows": [
+        [
+          "mir",
+          "dir",
+          "ihm / ihr / ihm",
+          "uns",
+          "euch",
+          "ihnen / Ihnen"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "\"gefallen\" bilan gap o'zbekchaga teskari tuziladi: \"Menga kvartira yoqadi\" → \"Die Wohnung gefällt mir\". Kvartira — ega (Nominativ), \"men\" — Dativ (mir). \"Ich gefalle die Wohnung\" — noto'g'ri!"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-der-vermieter",
+      "de": "Vermieter",
+      "uz": "uy egasi (ijaraga beruvchi, erkak)",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Vermieter",
+      "forms": null,
+      "example_de": "Der Vermieter wohnt im Erdgeschoss.",
+      "example_uz": "Uy egasi birinchi qavatda yashaydi.",
+      "topic": "home"
+    },
+    {
+      "id": "v-die-vermieterin",
+      "de": "Vermieterin",
+      "uz": "uy egasi (ayol)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Vermieterinnen",
+      "forms": null,
+      "example_de": "Ich schreibe der Vermieterin eine E-Mail.",
+      "example_uz": "Uy egasiga (ayolga) elektron xat yozaman.",
+      "topic": "home"
+    },
+    {
+      "id": "v-der-mieter",
+      "de": "Mieter",
+      "uz": "ijarachi",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Mieter",
+      "forms": null,
+      "example_de": "Im Haus wohnen zehn Mieter.",
+      "example_uz": "Uyda o'nta ijarachi yashaydi.",
+      "topic": "home"
+    },
+    {
+      "id": "v-die-nebenkosten",
+      "de": "Nebenkosten",
+      "uz": "kommunal va qo'shimcha xarajatlar",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Nebenkosten",
+      "forms": null,
+      "example_de": "Die Nebenkosten sind 150 Euro.",
+      "example_uz": "Qo'shimcha xarajatlar 150 yevro.",
+      "topic": "home"
+    },
+    {
+      "id": "v-die-kaution",
+      "de": "Kaution",
+      "uz": "garov puli (depozit)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Kautionen",
+      "forms": null,
+      "example_de": "Die Kaution sind drei Monatsmieten.",
+      "example_uz": "Garov puli — uch oylik ijara haqi.",
+      "topic": "home"
+    },
+    {
+      "id": "v-mieten",
+      "de": "mieten",
+      "uz": "ijaraga olmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "gemietet",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "mietet"
+      },
+      "example_de": "Wir haben eine Wohnung in Köln gemietet.",
+      "example_uz": "Kyolnda kvartira ijaraga oldik.",
+      "topic": "home"
+    },
+    {
+      "id": "v-der-mietvertrag",
+      "de": "Mietvertrag",
+      "uz": "ijara shartnomasi",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Mietverträge",
+      "forms": null,
+      "example_de": "Bitte lesen Sie den Mietvertrag genau.",
+      "example_uz": "Iltimos, ijara shartnomasini diqqat bilan o'qing.",
+      "topic": "home"
+    },
+    {
+      "id": "v-die-anzeige",
+      "de": "Anzeige",
+      "uz": "e'lon",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Anzeigen",
+      "forms": null,
+      "example_de": "Ich habe die Wohnung über eine Anzeige gefunden.",
+      "example_uz": "Kvartirani e'lon orqali topdim.",
+      "topic": "media"
+    },
+    {
+      "id": "v-der-quadratmeter",
+      "de": "Quadratmeter",
+      "uz": "kvadrat metr (m²)",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Quadratmeter",
+      "forms": null,
+      "example_de": "Die Wohnung hat 60 Quadratmeter.",
+      "example_uz": "Kvartira 60 kvadrat metr.",
+      "topic": "home"
+    },
+    {
+      "id": "v-möbliert",
+      "de": "möbliert",
+      "uz": "mebellangan, mebeli bor",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Das Zimmer ist möbliert.",
+      "example_uz": "Xona mebellangan.",
+      "topic": "home"
+    },
+    {
+      "id": "v-gehören",
+      "de": "gehören",
+      "uz": "tegishli bo'lmoq (+ Dativ)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "gehört",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "gehört"
+      },
+      "example_de": "Gehört der Keller auch zur Wohnung?",
+      "example_uz": "Yerto'la ham kvartiraga tegishlimi?",
+      "topic": "home"
+    },
+    {
+      "id": "v-gefallen",
+      "de": "gefallen",
+      "uz": "yoqmoq (+ Dativ)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "gefallen",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "gefällt"
+      },
+      "example_de": "Die Wohnung gefällt mir sehr gut.",
+      "example_uz": "Kvartira menga juda yoqadi.",
+      "topic": "home"
+    }
+  ],
+  "review_vocabulary": [
+    "v-die-miete",
+    "v-umziehen",
+    "v-der-schlüssel",
+    "v-vereinbaren",
+    "v-möglich"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-dativ",
+      "rule": "Dativ \"wem?\" (kimga?) savoliga javob beradi. Artikllar: der → dem, die → der, das → dem, ko'plik die → den (+n). Ba'zi fe'llar doim Dativ oladi: gefallen, gehören, helfen, danken, antworten.",
+      "when": "Kimga nima yoqishi, nima kimga tegishli ekanini, kimga yordam berishni aytganda.",
+      "structure": "Ega (Nom.) + gefällt/gehört + Dativ.  Masalan: Der Balkon gefällt meiner Frau.",
+      "examples": [
+        {
+          "de": "Die Wohnung gefällt mir sehr.",
+          "uz": "Kvartira menga juda yoqadi."
+        },
+        {
+          "de": "Der Schlüssel gehört dem Vermieter.",
+          "uz": "Kalit uy egasiga tegishli."
+        },
+        {
+          "de": "Ich gebe der Vermieterin die Kaution.",
+          "uz": "Garov pulini uy egasiga beraman."
+        },
+        {
+          "de": "Der Hausmeister hilft den Mietern.",
+          "uz": "Uy boshqaruvchisi ijarachilarga yordam beradi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Ich gefalle die Wohnung.",
+          "right": "Die Wohnung gefällt mir.",
+          "why": "Nemis tilida yoqadigan narsa — ega, kimga yoqishi — Dativ (mir)."
+        },
+        {
+          "wrong": "Das Fahrrad gehört der Vermieter.",
+          "right": "Das Fahrrad gehört dem Vermieter.",
+          "why": "\"der Vermieter\" erkak jinsi, Dativda \"dem\"."
+        },
+        {
+          "wrong": "Die Küche gefällt ich nicht.",
+          "right": "Die Küche gefällt mir nicht.",
+          "why": "\"ich\" ning Dativ shakli — \"mir\"."
+        }
+      ],
+      "check": [
+        "a2-m17-l1-e02",
+        "a2-m17-l1-e03",
+        "a2-m17-l1-e04",
+        "a2-m17-l1-e05",
+        "a2-m17-l1-e10"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Kvartirani ko'rish",
+    "lines": [
+      {
+        "speaker": "Frau Brandt",
+        "de": "Kommen Sie rein! Das ist die Wohnung: zwei Zimmer, Küche, Bad und ein kleiner Balkon.",
+        "uz": "Kiring! Mana kvartira: ikki xona, oshxona, hammom va kichik balkon."
+      },
+      {
+        "speaker": "Akmal",
+        "de": "Sehr schön! Wie hoch ist die Miete?",
+        "uz": "Juda chiroyli! Ijara haqi qancha?"
+      },
+      {
+        "speaker": "Frau Brandt",
+        "de": "Die Kaltmiete ist 650 Euro. Dazu kommen 150 Euro Nebenkosten.",
+        "uz": "Sof ijara 650 yevro. Unga 150 yevro qo'shimcha xarajatlar qo'shiladi."
+      },
+      {
+        "speaker": "Akmal",
+        "de": "Also 800 Euro warm. Und die Kaution?",
+        "uz": "Demak, jami 800 yevro. Garov puli-chi?"
+      },
+      {
+        "speaker": "Frau Brandt",
+        "de": "Drei Monatsmieten, also 1950 Euro.",
+        "uz": "Uch oylik ijara, ya'ni 1950 yevro."
+      },
+      {
+        "speaker": "Akmal",
+        "de": "Gehört der Keller auch zur Wohnung?",
+        "uz": "Yerto'la ham kvartiraga tegishlimi?"
+      },
+      {
+        "speaker": "Frau Brandt",
+        "de": "Ja, Sie haben einen Kellerraum. Gefällt Ihnen die Wohnung?",
+        "uz": "Ha, sizda yerto'la xonasi bor. Kvartira sizga yoqdimi?"
+      },
+      {
+        "speaker": "Akmal",
+        "de": "Ja, sie gefällt mir sehr!",
+        "uz": "Ha, menga juda yoqdi!"
+      }
+    ],
+    "questions": [
+      "a2-m17-l1-e06"
+    ]
+  },
+  "situation": {
+    "title": "E'lon bo'yicha qo'ng'iroq",
+    "context_uz": "Siz internetda kvartira e'lonini ko'rdingiz va uy egasi Herr Lorenzga qo'ng'iroq qilyapsiz.",
+    "lines": [
+      {
+        "speaker": "Herr Lorenz",
+        "de": "Lorenz.",
+        "uz": "Lorens."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Guten Tag, hier ist Laylo Hamidova. Ich rufe wegen der Anzeige an. Ist die Wohnung noch frei?",
+        "uz": "Assalomu alaykum, bu Laylo Hamidova. E'lon bo'yicha qo'ng'iroq qilyapman. Kvartira hali bo'shmi?"
+      },
+      {
+        "speaker": "Herr Lorenz",
+        "de": "Ja, noch ist sie frei.",
+        "uz": "Ha, hozircha bo'sh."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Wie hoch sind die Nebenkosten? Und ist die Wohnung möbliert?",
+        "uz": "Qo'shimcha xarajatlar qancha? Kvartira mebellanganmi?"
+      },
+      {
+        "speaker": "Herr Lorenz",
+        "de": "Die Nebenkosten sind 120 Euro. Die Küche ist möbliert, die Zimmer nicht.",
+        "uz": "Qo'shimcha xarajatlar 120 yevro. Oshxona mebellangan, xonalar yo'q."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Kann ich die Wohnung besichtigen?",
+        "uz": "Kvartirani ko'rib chiqsam bo'ladimi?"
+      },
+      {
+        "speaker": "Herr Lorenz",
+        "de": "Gern. Passt Ihnen Samstag um 11 Uhr?",
+        "uz": "Mamnuniyat bilan. Shanba soat 11 sizga to'g'ri keladimi?"
+      }
+    ],
+    "task_uz": "Shunday qo'ng'iroqni o'zingiz o'ynang: kvartira hali bo'shmi, ijara va Nebenkosten qancha, Kaution qancha, qachon ko'rish mumkin — 4 ta savol bering."
+  },
+  "exercises": [
+    {
+      "id": "a2-m17-l1-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemischa so'zni o'zbekcha ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "die Miete",
+          "ijara haqi"
+        ],
+        [
+          "die Kaution",
+          "garov puli"
+        ],
+        [
+          "die Nebenkosten",
+          "qo'shimcha xarajatlar"
+        ],
+        [
+          "der Mietvertrag",
+          "ijara shartnomasi"
+        ],
+        [
+          "der Vermieter",
+          "uy egasi"
+        ]
+      ],
+      "correct_answer": {
+        "die Miete": "ijara haqi",
+        "die Kaution": "garov puli",
+        "die Nebenkosten": "qo'shimcha xarajatlar",
+        "der Mietvertrag": "ijara shartnomasi",
+        "der Vermieter": "uy egasi"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Miete — ijara haqi, Kaution — garov puli, Nebenkosten — suv, isitish va boshqa xarajatlar, Mietvertrag — shartnoma, Vermieter — uyni ijaraga beruvchi.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l1-e02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-dativ",
+      "difficulty": 1,
+      "question": "To'g'ri artiklni tanlang: Der Schlüssel gehört ___ Vermieter.",
+      "prompt_de": null,
+      "options": [
+        "dem",
+        "den",
+        "der"
+      ],
+      "pairs": null,
+      "correct_answer": "dem",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"gehören\" + Dativ; der Vermieter — erkak jinsi.",
+      "explanation": "\"gehören\" Dativ talab qiladi. Erkak jinsi Dativda: der → dem.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l1-e03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-dativ",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (men): Die Wohnung gefällt ___ sehr gut.",
+      "prompt_de": "Die Wohnung gefällt ___ sehr gut.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "mir",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"ich\" ning Dativ shakli.",
+      "explanation": "\"gefallen\" + Dativ: ich → mir. Die Wohnung gefällt mir.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l1-e04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-dativ",
+      "difficulty": 2,
+      "question": "To'g'ri artiklni tanlang: Ich gebe ___ Vermieterin die Kaution.",
+      "prompt_de": null,
+      "options": [
+        "der",
+        "die",
+        "dem"
+      ],
+      "pairs": null,
+      "correct_answer": "der",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Kimga? — Dativ. die Vermieterin — ayol jinsi.",
+      "explanation": "Kimga beraman? — Dativ. Ayol jinsi Dativda: die → der.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l1-e05",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-dativ",
+      "difficulty": 2,
+      "question": "Gapdagi xato so'zni toping: \"Die Küche gefällt ich nicht.\"",
+      "prompt_de": "Die Küche gefällt ich nicht.",
+      "options": [
+        "Die",
+        "Küche",
+        "gefällt",
+        "ich",
+        "nicht"
+      ],
+      "pairs": null,
+      "correct_answer": "ich",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: \"Die Küche gefällt mir nicht.\" \"gefallen\" bilan shaxs Dativda: mir.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l1-e06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang. Akmal oyiga jami qancha to'laydi?",
+      "prompt_de": null,
+      "options": [
+        "800 yevro",
+        "650 yevro",
+        "1950 yevro"
+      ],
+      "pairs": null,
+      "correct_answer": "800 yevro",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Kaltmiete + Nebenkosten = Warmmiete.",
+      "explanation": "650 + 150 = 800 yevro (Warmmiete). 1950 yevro — garov puli.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Die Kaltmiete ist 650 Euro. Dazu kommen 150 Euro Nebenkosten. — Also 800 Euro warm."
+    },
+    {
+      "id": "a2-m17-l1-e07",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "E'lonni o'qing. Qaysi gap to'g'ri?",
+      "prompt_de": "Schöne 2-Zimmer-Wohnung, 55 m², 3. Stock, mit Balkon, möbliert. Miete: 720 € warm (inklusive Nebenkosten). Kaution: 1.500 €. Frei ab 1. März. Tel. 0171 2345678 (Frau Peters)",
+      "options": [
+        "Kvartirada balkon bor va u mebellangan",
+        "Ijara haqiga Nebenkosten kirmagan",
+        "Garov puli kerak emas"
+      ],
+      "pairs": null,
+      "correct_answer": "Kvartirada balkon bor va u mebellangan",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"warm (inklusive Nebenkosten)\" ga e'tibor bering.",
+      "explanation": "\"mit Balkon, möbliert\" — balkon va mebel bor. Nebenkosten narxga kiritilgan, Kaution 1500 €.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l1-e08",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "home",
+      "grammar_topic": "g-dativ",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Bu kvartira menga yoqadi.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Die Wohnung gefällt mir.",
+      "accepted_answers": [
+        "Diese Wohnung gefällt mir.",
+        "Mir gefällt die Wohnung.",
+        "Mir gefällt diese Wohnung.",
+        "Die Wohnung gefällt mir gut.",
+        "Diese Wohnung gefällt mir gut."
+      ],
+      "criteria": null,
+      "hint": "Kvartira — ega, \"menga\" — Dativ.",
+      "explanation": "\"gefallen\" bilan: narsa (die Wohnung) ega, shaxs Dativda (mir).",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l1-e09",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "To'g'ri artiklni tanlang: ___ Mietvertrag",
+      "prompt_de": null,
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "der",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Miete + Vertrag: \"der Vertrag\", shuning uchun \"der Mietvertrag\".",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l1-e10",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-dativ",
+      "difficulty": 2,
+      "question": "\"gefallen\" fe'lini to'g'ri shaklda yozing: Der Balkon ___ mir.",
+      "prompt_de": "Der Balkon ___ mir.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "gefällt",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "a → ä",
+      "explanation": "\"gefallen\" — unli o'zgaradi: es gefällt. Ega \"der Balkon\" — 3-shaxs birlik.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l1-e11",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Siz kvartira e'lonini ko'rdingiz va uy egasiga qo'ng'iroq qildingiz. Nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Guten Tag, ich rufe wegen der Anzeige an. Ist die Wohnung noch frei?",
+        "Hallo, ich will Ihre Wohnung.",
+        "Guten Tag, gefällt Ihnen meine Wohnung?"
+      ],
+      "pairs": null,
+      "correct_answer": "Guten Tag, ich rufe wegen der Anzeige an. Ist die Wohnung noch frei?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Muloyim boshlash: kim ekaningiz va nima uchun qo'ng'iroq qilganingiz, keyin savol.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a2-m17-l1-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "\"die Kaution\" nima?",
+      "prompt_de": null,
+      "options": [
+        "garov puli",
+        "oylik ijara haqi",
+        "ijara shartnomasi"
+      ],
+      "pairs": null,
+      "correct_answer": "garov puli",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Kaution — ko'chib kirishda to'lanadigan garov puli. Uy topshirilganda qaytariladi.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l1-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-dativ",
+      "difficulty": 2,
+      "question": "Bo'sh joyni to'ldiring (Sizga — Sie): Gehört das Fahrrad ___?",
+      "prompt_de": "Gehört das Fahrrad ___?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ihnen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Sie\" ning Dativ shakli — \"Ihnen\" (katta harf bilan).",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l1-t03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-dativ",
+      "difficulty": 2,
+      "question": "To'g'ri variantni tanlang: Der Hausmeister hilft ___ Mietern.",
+      "prompt_de": null,
+      "options": [
+        "den",
+        "die",
+        "dem"
+      ],
+      "pairs": null,
+      "correct_answer": "den",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"helfen\" + Dativ. Ko'plikda Dativ: den + -n (den Mietern).",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l1-t04",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni davom ettiring. — Wie hoch ist die Miete?",
+      "prompt_de": "Wie hoch ist die Miete?",
+      "options": [
+        "650 Euro kalt, dazu kommen 150 Euro Nebenkosten.",
+        "Die Wohnung hat zwei Zimmer.",
+        "Ja, sie gefällt mir."
+      ],
+      "pairs": null,
+      "correct_answer": "650 Euro kalt, dazu kommen 150 Euro Nebenkosten.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ijara haqida savolga summa bilan javob beriladi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l1-t05",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "reading",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Ist die Wohnung möbliert?\"",
+      "prompt_de": "Ist die Wohnung möbliert?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Kvartira mebellanganmi?",
+      "accepted_answers": [
+        "Kvartirada mebel bormi?",
+        "Kvartira mebellimi?",
+        "Uy mebellanganmi?",
+        "Uyda mebel bormi?"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"möbliert\" — mebellangan (Möbel — mebel).",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l1-t06",
+      "version": 2,
+      "type": "plural",
+      "skill": "vocabulary",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Ko'plik shaklini yozing: der Quadratmeter → ?",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "die Quadratmeter",
+      "accepted_answers": [
+        "Quadratmeter"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"-er\" bilan tugaydigan erkak jinsi otlari ko'plikda odatda o'zgarmaydi (der Quadratmeter → die Quadratmeter), ba'zilari faqat umlaut oladi (der Bruder → die Brüder).",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l1-t07",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang va eshitganingizni yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Die Wohnung gefällt mir sehr gut.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"gefällt\" — \"ä\" bilan, \"mir\" — Dativ.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": "Die Wohnung gefällt mir sehr gut."
+    }
+  ]
+}

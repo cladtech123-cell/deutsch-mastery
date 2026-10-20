@@ -1,0 +1,876 @@
+{
+  "id": "a1-m01-l2",
+  "version": 1,
+  "level": "A1",
+  "module": 1,
+  "order": 2,
+  "title": "Alifbo va ismni harflab aytish",
+  "title_de": "Das Alphabet und Buchstabieren",
+  "goal": "Dars oxirida nemis harflarini nemischa nomi bilan ataysiz, ismingiz va familiyangizni harflab aytasiz hamda \"Wie heißen Sie?\", \"Wie schreibt man das?\" savollariga javob bera olasiz.",
+  "skill_focus": [
+    "vocabulary",
+    "listening",
+    "speaking"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Nemis alifbosi lotin yozuvida: 26 ta asosiy harf va 4 ta qo'shimcha belgi (Ä, Ö, Ü, ß). Ko'p harflar o'zbek lotin yozuviga o'xshaydi, lekin ba'zilari boshqacha ataladi. Telefonda, idorada yoki shifoxonada ismingizni aytganda sizdan albatta \"Buchstabieren Sie bitte!\" (Iltimos, harflab ayting!) deb so'rashadi."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Harf",
+        "Nemischa nomi",
+        "Diqqat"
+      ],
+      "rows": [
+        [
+          "A",
+          "a",
+          "o'zbekcha \"a\" kabi"
+        ],
+        [
+          "E",
+          "e",
+          "uzun \"e\""
+        ],
+        [
+          "H",
+          "ha",
+          "\"h\" emas, \"ha\" deb ataladi"
+        ],
+        [
+          "J",
+          "yot",
+          "\"y\" tovushini beradi: Jana [yana]"
+        ],
+        [
+          "Q",
+          "ku",
+          "doim \"qu\" bo'lib keladi"
+        ],
+        [
+          "V",
+          "fau",
+          "ko'pincha \"f\" kabi o'qiladi: Vater [fater]"
+        ],
+        [
+          "W",
+          "ve",
+          "o'zbekcha \"v\" kabi: Wasser [vasser]"
+        ],
+        [
+          "Y",
+          "ypsilon",
+          "kam uchraydi"
+        ],
+        [
+          "Z",
+          "tset",
+          "\"ts\" kabi o'qiladi"
+        ],
+        [
+          "C",
+          "tse",
+          "ko'pincha \"ch\", \"sch\", \"ck\" ichida keladi"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Ism so'rash ikki xil: do'st, tengdosh yoki bola bilan \"Wie heißt du?\", notanish yoki kattaroq odam bilan \"Wie heißen Sie?\". Javob: \"Ich heiße ...\" (Mening ismim ...). Tushunmasangiz: \"Wie bitte?\" yoki \"Noch einmal, bitte!\"."
+    },
+    {
+      "type": "tip",
+      "text": "V va W ni adashtirmang: V — \"fau\", W — \"ve\". O'zbek familiyalaridagi \"-ov\", \"-ova\" nemis hujjatlarida ko'pincha V bilan yoziladi, shuning uchun harflaganda \"fau\" deysiz: K – A – R – I – M – O – V."
+    },
+    {
+      "type": "tip",
+      "text": "\"Sie\" (Siz) doim katta harf bilan yoziladi. Nemis tilida barcha otlar va ismlar ham katta harf bilan boshlanadi: der Name, Aziz."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-der-name",
+      "de": "Name",
+      "uz": "ism",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Namen",
+      "forms": null,
+      "example_de": "Mein Name ist Aziz.",
+      "example_uz": "Mening ismim Aziz.",
+      "topic": "personal-info"
+    },
+    {
+      "id": "v-der-vorname",
+      "de": "Vorname",
+      "uz": "ism (shaxsiy ism)",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Vornamen",
+      "forms": null,
+      "example_de": "Mein Vorname ist Dilnoza.",
+      "example_uz": "Mening ismim Dilnoza.",
+      "topic": "personal-info"
+    },
+    {
+      "id": "v-der-nachname",
+      "de": "Nachname",
+      "uz": "familiya",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Nachnamen",
+      "forms": null,
+      "example_de": "Mein Nachname ist Karimova.",
+      "example_uz": "Mening familiyam Karimova.",
+      "topic": "personal-info"
+    },
+    {
+      "id": "v-heißen",
+      "de": "heißen",
+      "uz": "atalmoq; ismi ... bo'lmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "praesens_3sg": "heißt",
+        "partizip2": "geheißen",
+        "perfekt_aux": "haben"
+      },
+      "example_de": "Ich heiße Aziz.",
+      "example_uz": "Mening ismim Aziz.",
+      "topic": "personal-info"
+    },
+    {
+      "id": "v-wie",
+      "de": "wie",
+      "uz": "qanday; qanaqa",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Wie heißt du?",
+      "example_uz": "Isming nima?",
+      "topic": "personal-info"
+    },
+    {
+      "id": "v-buchstabieren",
+      "de": "buchstabieren",
+      "uz": "harflab aytmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "praesens_3sg": "buchstabiert",
+        "partizip2": "buchstabiert",
+        "perfekt_aux": "haben"
+      },
+      "example_de": "Buchstabieren Sie bitte!",
+      "example_uz": "Iltimos, harflab ayting!",
+      "topic": "alphabet"
+    },
+    {
+      "id": "v-der-buchstabe",
+      "de": "Buchstabe",
+      "uz": "harf",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Buchstaben",
+      "forms": null,
+      "example_de": "Der Buchstabe J heißt \"Jot\".",
+      "example_uz": "J harfi \"yot\" deb ataladi.",
+      "topic": "alphabet"
+    },
+    {
+      "id": "v-das-alphabet",
+      "de": "Alphabet",
+      "uz": "alifbo",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Alphabete",
+      "forms": null,
+      "example_de": "Das deutsche Alphabet hat 26 Buchstaben.",
+      "example_uz": "Nemis alifbosida 26 ta harf bor.",
+      "topic": "alphabet"
+    },
+    {
+      "id": "v-schreiben",
+      "de": "schreiben",
+      "uz": "yozmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "praesens_3sg": "schreibt",
+        "partizip2": "geschrieben",
+        "perfekt_aux": "haben"
+      },
+      "example_de": "Wie schreibt man das?",
+      "example_uz": "Bu qanday yoziladi?",
+      "topic": "language-learning"
+    },
+    {
+      "id": "v-du",
+      "de": "du",
+      "uz": "sen",
+      "pos": "pronoun",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Wie heißt du?",
+      "example_uz": "Isming nima?",
+      "topic": "people"
+    },
+    {
+      "id": "v-sie",
+      "de": "Sie",
+      "uz": "Siz (hurmat shakli, doim katta harf bilan)",
+      "pos": "pronoun",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Wie heißen Sie?",
+      "example_uz": "Ismingiz nima?",
+      "topic": "people"
+    },
+    {
+      "id": "v-wie-bitte",
+      "de": "Wie bitte?",
+      "uz": "Nima dedingiz? / Kechirasiz, tushunmadim",
+      "pos": "phrase",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Wie bitte? Noch einmal, bitte.",
+      "example_uz": "Nima dedingiz? Iltimos, yana bir marta.",
+      "topic": "communication"
+    },
+    {
+      "id": "v-noch-einmal",
+      "de": "noch einmal",
+      "uz": "yana bir marta",
+      "pos": "phrase",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Bitte noch einmal!",
+      "example_uz": "Iltimos, yana bir marta!",
+      "topic": "communication"
+    },
+    {
+      "id": "v-langsam",
+      "de": "langsam",
+      "uz": "sekin",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Bitte langsam!",
+      "example_uz": "Iltimos, sekinroq!",
+      "topic": "communication"
+    }
+  ],
+  "review_vocabulary": [
+    "v-guten-tag",
+    "v-hallo",
+    "v-ich",
+    "v-bitte",
+    "v-danke",
+    "v-ja",
+    "v-nein"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-alphabet",
+      "rule": "Nemis tilida har bir harfning o'z nomi bor. Ismni harflashda har bir harfni nemischa nomi bilan ketma-ket aytasiz. Ismlar va otlar doim katta harf bilan yoziladi.",
+      "when": "Ism, familiya, ko'cha nomi yoki email'ni telefonda, idorada, shifoxonada aytganda — ayniqsa nemislarga notanish o'zbek ismlarida.",
+      "structure": "Ich heiße + ism. → Wie schreibt man das? → harf – harf – harf.",
+      "examples": [
+        {
+          "de": "Ich heiße Dilnoza: D – I – L – N – O – Z – A.",
+          "uz": "Mening ismim Dilnoza: D – I – L – N – O – Z – A."
+        },
+        {
+          "de": "Wie schreibt man das? — W – E – B – E – R.",
+          "uz": "Bu qanday yoziladi? — V – E – B – E – R."
+        },
+        {
+          "de": "Mein Nachname ist Karimov: K – A – R – I – M – O – V.",
+          "uz": "Mening familiyam Karimov: K – A – R – I – M – O – V."
+        },
+        {
+          "de": "Jana schreibt man mit J.",
+          "uz": "Jana \"J\" harfi bilan yoziladi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "J harfini \"ji\" deb aytish",
+          "right": "J — \"yot\"",
+          "why": "Nemis tilida J harfi \"yot\" deb ataladi va \"y\" tovushini beradi: Jana [yana]."
+        },
+        {
+          "wrong": "V harfini \"ve\" deb aytish",
+          "right": "V — \"fau\", W — \"ve\"",
+          "why": "Rus va ingliz tili ta'sirida V ni \"ve\" deyish oson, lekin nemischa V — \"fau\", \"ve\" esa W harfi."
+        },
+        {
+          "wrong": "Ich heiße aziz.",
+          "right": "Ich heiße Aziz.",
+          "why": "Ismlar har doim katta harf bilan yoziladi."
+        }
+      ],
+      "check": [
+        "a1-m01-l2-e01",
+        "a1-m01-l2-e02",
+        "a1-m01-l2-e04",
+        "a1-m01-l2-e10"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Kursga yozilish",
+    "lines": [
+      {
+        "speaker": "Sekretärin",
+        "de": "Guten Tag! Wie heißen Sie?",
+        "uz": "Assalomu alaykum! Ismingiz nima?"
+      },
+      {
+        "speaker": "Aziz",
+        "de": "Guten Tag! Ich heiße Aziz Karimov.",
+        "uz": "Assalomu alaykum! Mening ismim Aziz Karimov."
+      },
+      {
+        "speaker": "Sekretärin",
+        "de": "Wie schreibt man Karimov?",
+        "uz": "Karimov qanday yoziladi?"
+      },
+      {
+        "speaker": "Aziz",
+        "de": "K – A – R – I – M – O – V.",
+        "uz": "K – A – R – I – M – O – V."
+      },
+      {
+        "speaker": "Sekretärin",
+        "de": "Wie bitte? Bitte langsam!",
+        "uz": "Nima dedingiz? Iltimos, sekinroq!"
+      },
+      {
+        "speaker": "Aziz",
+        "de": "K – A – R – I – M – O – V.",
+        "uz": "K – A – R – I – M – O – V."
+      },
+      {
+        "speaker": "Sekretärin",
+        "de": "Danke, Herr Karimov!",
+        "uz": "Rahmat, Karimov janoblari!"
+      }
+    ],
+    "questions": [
+      "a1-m01-l2-e03"
+    ]
+  },
+  "situation": {
+    "title": "Shifokorga telefon",
+    "context_uz": "Siz shifokor qabulxonasiga telefon qilyapsiz. Qabulxona xodimi ismingizni yozib olishi kerak, lekin o'zbek ismini birinchi marta eshityapti.",
+    "lines": [
+      {
+        "speaker": "Praxis",
+        "de": "Praxis Dr. Braun, guten Tag!",
+        "uz": "Doktor Braun qabulxonasi, assalomu alaykum!"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Guten Tag! Ich heiße Nodira Yusupova.",
+        "uz": "Assalomu alaykum! Mening ismim Nodira Yusupova."
+      },
+      {
+        "speaker": "Praxis",
+        "de": "Wie bitte? Buchstabieren Sie bitte!",
+        "uz": "Nima dedingiz? Iltimos, harflab ayting!"
+      },
+      {
+        "speaker": "Siz",
+        "de": "N – O – D – I – R – A. Y – U – S – U – P – O – V – A.",
+        "uz": "N – O – D – I – R – A. Y – U – S – U – P – O – V – A."
+      },
+      {
+        "speaker": "Praxis",
+        "de": "Danke, Frau Yusupova!",
+        "uz": "Rahmat, Yusupova xonim!"
+      }
+    ],
+    "task_uz": "Dialogni o'z ismingiz va familiyangiz bilan takrorlang. Har bir harfni nemischa nomi bilan ayting — ayniqsa J, V, W, Y, Z harflariga e'tibor bering."
+  },
+  "exercises": [
+    {
+      "id": "a1-m01-l2-e01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "alphabet",
+      "grammar_topic": "g-alphabet",
+      "difficulty": 1,
+      "question": "Nemis tilida \"J\" harfi qanday ataladi?",
+      "prompt_de": null,
+      "options": [
+        "ji",
+        "yot",
+        "je"
+      ],
+      "pairs": null,
+      "correct_answer": "yot",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "U \"y\" tovushini beradi.",
+      "explanation": "J — \"yot\". Shuning uchun Jana [yana], ja [ya] deb o'qiladi.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m01-l2-e02",
+      "version": 1,
+      "type": "match",
+      "skill": "grammar",
+      "topic": "alphabet",
+      "grammar_topic": "g-alphabet",
+      "difficulty": 1,
+      "question": "Harfni uning nemischa nomi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "V",
+          "fau"
+        ],
+        [
+          "W",
+          "ve"
+        ],
+        [
+          "Z",
+          "tset"
+        ],
+        [
+          "J",
+          "yot"
+        ],
+        [
+          "H",
+          "ha"
+        ]
+      ],
+      "correct_answer": {
+        "V": "fau",
+        "W": "ve",
+        "Z": "tset",
+        "J": "yot",
+        "H": "ha"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "V — fau, W — ve, Z — tset, J — yot, H — ha. Bular o'zbek o'quvchilari eng ko'p adashtiradigan harflar.",
+      "error_type": "spelling",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m01-l2-e03",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "alphabet",
+      "grammar_topic": "g-alphabet",
+      "difficulty": 1,
+      "question": "Tinglang. Qaysi familiya harflab aytildi?",
+      "prompt_de": null,
+      "options": [
+        "Karimow",
+        "Karimov",
+        "Kalimov"
+      ],
+      "pairs": null,
+      "correct_answer": "Karimov",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Oxirgi harf \"fau\"mi yoki \"ve\"mi?",
+      "explanation": "Oxirida \"fau\" eshitildi — bu V harfi: Karimov. W bo'lsa \"ve\" deyilardi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "K, A, R, I, M, O, V."
+    },
+    {
+      "id": "a1-m01-l2-e04",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "alphabet",
+      "grammar_topic": "g-alphabet",
+      "difficulty": 2,
+      "question": "Tinglang: familiya harflab aytiladi. Familiyani bitta so'z qilib yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Weber",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Birinchi harf \"ve\" — bu W.",
+      "explanation": "\"ve\" — W, keyin E, B, E, R: Weber. Familiya katta harf bilan boshlanadi.",
+      "error_type": "spelling",
+      "points": 2,
+      "audio_text": "W, E, B, E, R."
+    },
+    {
+      "id": "a1-m01-l2-e05",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "personal-info",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "\"heißen\" fe'lini \"du\" uchun tuslang: Wie ___ du? — Ich heiße Lena.",
+      "prompt_de": "Wie ___ du? — Ich heiße Lena.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "heißt",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"du\" bilan fe'l odatda -st bilan tugaydi, lekin ß dan keyin faqat -t qo'shiladi.",
+      "explanation": "du heißt (heiß + t). \"heißst\" deb yozilmaydi, chunki ß o'zi \"s\" tovushini beradi.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m01-l2-e06",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "personal-info",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Bankda xodimning ismini bilmoqchisiz (rasmiy vaziyat). Qanday so'raysiz?",
+      "prompt_de": null,
+      "options": [
+        "Wie heißt du?",
+        "Wie heißen Sie?",
+        "Wie bitte?"
+      ],
+      "pairs": null,
+      "correct_answer": "Wie heißen Sie?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Notanish kattalar bilan rasmiy \"Sie\" ishlatiladi: Wie heißen Sie? \"Wie heißt du?\" — do'st yoki bola uchun. \"Wie bitte?\" — tushunmaganda.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m01-l2-e07",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "alphabet",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni davom ettiring. — Wie schreibt man Aziz?",
+      "prompt_de": "Wie schreibt man Aziz?",
+      "options": [
+        "Ich heiße Aziz.",
+        "A – Z – I – Z.",
+        "Danke, gut."
+      ],
+      "pairs": null,
+      "correct_answer": "A – Z – I – Z.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Wie schreibt man ...?\" — \"... qanday yoziladi?\" degani. Javob — harflab aytish: A – Z – I – Z.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m01-l2-e08",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "alphabet",
+      "grammar_topic": "g-questions",
+      "difficulty": 1,
+      "question": "So'zlarni to'g'ri tartibda joylashtiring: \"Bu qanday yoziladi?\"",
+      "prompt_de": null,
+      "options": [
+        "schreibt",
+        "Wie",
+        "man",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "Wie schreibt man das?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Savol so'zi birinchi, fe'l ikkinchi o'rinda.",
+      "explanation": "W-savolda tartib: savol so'zi (Wie) + fe'l (schreibt) + man + das.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m01-l2-e09",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "communication",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemis tiliga tarjima qiling: \"Iltimos, sekinroq!\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Bitte langsam!",
+      "accepted_answers": [
+        "Langsam, bitte!",
+        "Bitte langsamer!",
+        "Langsamer, bitte!",
+        "Bitte sprechen Sie langsam!",
+        "Sprechen Sie bitte langsam!"
+      ],
+      "criteria": null,
+      "hint": "\"sekin\" — langsam.",
+      "explanation": "Bitte langsam! — eng qisqa va tabiiy shakl. \"langsamer\" (sekinroq) ham to'g'ri.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m01-l2-e10",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "alphabet",
+      "grammar_topic": "g-alphabet",
+      "difficulty": 1,
+      "question": "Gapdagi xato so'zni toping: \"Ich heiße aziz.\"",
+      "prompt_de": "Ich heiße aziz.",
+      "options": [
+        "Ich",
+        "heiße",
+        "aziz"
+      ],
+      "pairs": null,
+      "correct_answer": "aziz",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Ism qanday harf bilan boshlanadi?",
+      "explanation": "To'g'risi: Ich heiße Aziz. Ismlar doim katta harf bilan yoziladi.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m01-l2-e11",
+      "version": 1,
+      "type": "speak",
+      "skill": "speaking",
+      "topic": "personal-info",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Ismingiz va familiyangizni ayting, keyin ularni nemischa harflab ayting.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 6,
+        "required_words": [
+          "heiße"
+        ],
+        "sample": "Ich heiße Aziz Karimov. A – Z – I – Z. K – A – R – I – M – O – V."
+      },
+      "hint": null,
+      "explanation": "Avval \"Ich heiße ...\" deysiz, keyin har bir harfni nemischa nomi bilan aytasiz. V — fau, J — yot, Z — tset ekanini unutmang.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a1-m01-l2-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "alphabet",
+      "grammar_topic": "g-alphabet",
+      "difficulty": 1,
+      "question": "Qaysi harf \"fau\" deb ataladi?",
+      "prompt_de": null,
+      "options": [
+        "W",
+        "F",
+        "V"
+      ],
+      "pairs": null,
+      "correct_answer": "V",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "V — \"fau\". W — \"ve\", F — \"ef\".",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m01-l2-t02",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "alphabet",
+      "grammar_topic": "g-alphabet",
+      "difficulty": 1,
+      "question": "Tinglang. Qaysi ism harflab aytildi?",
+      "prompt_de": null,
+      "options": [
+        "Jana",
+        "Yana",
+        "Iana"
+      ],
+      "pairs": null,
+      "correct_answer": "Jana",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Birinchi harf \"yot\" — J. Demak, Jana.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "J, A, N, A."
+    },
+    {
+      "id": "a1-m01-l2-t03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "personal-info",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: Wie ___ Sie? — Ich heiße Peter Braun.",
+      "prompt_de": "Wie ___ Sie? — Ich heiße Peter Braun.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "heißen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Sie\" (Siz) bilan fe'l infinitiv shaklida: Wie heißen Sie?",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m01-l2-t04",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "communication",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Sotuvchi juda tez gapirdi, siz tushunmadingiz. Nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Tschüs!",
+        "Wie bitte?",
+        "Guten Tag!"
+      ],
+      "pairs": null,
+      "correct_answer": "Wie bitte?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Tushunmaganda \"Wie bitte?\" deyiladi — bu xushmuomala so'rov.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m01-l2-t05",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "personal-info",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Wie heißt du?\"",
+      "prompt_de": "Wie heißt du?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Isming nima?",
+      "accepted_answers": [
+        "Sening isming nima?",
+        "Isming kim?",
+        "Sening isming kim?",
+        "Oting nima?"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Wie heißt du?\" — so'zma-so'z \"Sen qanday atalasan?\", tabiiy tarjimasi \"Isming nima?\".",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m01-l2-t06",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "alphabet",
+      "grammar_topic": "g-alphabet",
+      "difficulty": 2,
+      "question": "Tinglang va familiyani yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ziegler",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"tset\" — Z, keyin I, E, G, L, E, R: Ziegler.",
+      "error_type": "spelling",
+      "points": 2,
+      "audio_text": "Z, I, E, G, L, E, R."
+    },
+    {
+      "id": "a1-m01-l2-t07",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "personal-info",
+      "grammar_topic": "g-verb-position",
+      "difficulty": 1,
+      "question": "So'zlarni tartiblang: \"Mening ismim Nodira Yusupova.\"",
+      "prompt_de": null,
+      "options": [
+        "Ich",
+        "Nodira",
+        "heiße",
+        "Yusupova"
+      ],
+      "pairs": null,
+      "correct_answer": "Ich heiße Nodira Yusupova.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Darak gapda fe'l ikkinchi o'rinda: Ich (1) heiße (2) Nodira Yusupova.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

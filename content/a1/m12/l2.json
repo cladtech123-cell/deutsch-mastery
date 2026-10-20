@@ -1,0 +1,914 @@
+{
+  "id": "a1-m12-l2",
+  "version": 1,
+  "level": "A1",
+  "module": 12,
+  "order": 2,
+  "title": "Ob-havo va maslahatlar",
+  "title_de": "Wie ist das Wetter?",
+  "goal": "Dars oxirida ob-havoni tasvirlaysiz (Es regnet. Die Sonne scheint. Es sind 20 Grad.), radiodagi ob-havo ma'lumotini tushunasiz va do'stingizga \"du\"-buyruq bilan maslahat berasiz: Nimm einen Regenschirm mit!",
+  "skill_focus": [
+    "vocabulary",
+    "listening",
+    "grammar"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Ob-havo haqida nemischa gapda ko'pincha \"es\" ishlatiladi: Es regnet (yomg'ir yog'yapti), es schneit (qor yog'yapti), es ist kalt (sovuq). Faqat quyosh uchun: Die Sonne scheint."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Nemischa",
+        "O'zbekcha"
+      ],
+      "rows": [
+        [
+          "Wie ist das Wetter?",
+          "Ob-havo qanday?"
+        ],
+        [
+          "Die Sonne scheint.",
+          "Quyosh charaqlayapti."
+        ],
+        [
+          "Es regnet.",
+          "Yomg'ir yog'yapti."
+        ],
+        [
+          "Es schneit.",
+          "Qor yog'yapti."
+        ],
+        [
+          "Es ist windig.",
+          "Shamol esyapti."
+        ],
+        [
+          "Es ist kalt / warm / heiß.",
+          "Sovuq / iliq / issiq."
+        ],
+        [
+          "Es sind 25 Grad.",
+          "25 daraja issiq."
+        ],
+        [
+          "Es sind minus 5 Grad.",
+          "5 daraja sovuq."
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Fasllar: der Frühling (bahor), der Sommer (yoz), der Herbst (kuz), der Winter (qish). Faslda: im Sommer, im Winter."
+    },
+    {
+      "type": "p",
+      "text": "Do'stga maslahat — du-buyruq. du-shakldan -st va \"du\" olib tashlanadi: du nimmst → Nimm!, du trinkst → Trink!, du gehst → Geh! Ajraladigan fe'lda old qo'shimcha oxirida: Zieh eine Jacke an! Nimm einen Regenschirm mit!"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "du-shakl",
+        "Buyruq",
+        "O'zbekcha"
+      ],
+      "rows": [
+        [
+          "du nimmst ... mit",
+          "Nimm einen Regenschirm mit!",
+          "Soyabon olib ol!"
+        ],
+        [
+          "du ziehst ... an",
+          "Zieh eine Jacke an!",
+          "Kurtka kiy!"
+        ],
+        [
+          "du trinkst",
+          "Trink viel Wasser!",
+          "Ko'p suv ich!"
+        ],
+        [
+          "du bleibst",
+          "Bleib zu Hause!",
+          "Uyda qol!"
+        ],
+        [
+          "du fährst",
+          "Fahr langsam!",
+          "Sekin hayda!"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "a → ä o'zgaradigan fe'llarda buyruqda umlaut bo'lmaydi: du fährst → Fahr! Lekin e → i saqlanadi: du nimmst → Nimm!, du liest → Lies!"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-das-wetter",
+      "de": "Wetter",
+      "uz": "ob-havo",
+      "pos": "noun",
+      "article": "das",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Wie ist das Wetter heute?",
+      "example_uz": "Bugun ob-havo qanday?",
+      "topic": "weather"
+    },
+    {
+      "id": "v-die-sonne",
+      "de": "Sonne",
+      "uz": "quyosh",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Sonnen",
+      "forms": null,
+      "example_de": "Die Sonne scheint.",
+      "example_uz": "Quyosh charaqlayapti.",
+      "topic": "weather"
+    },
+    {
+      "id": "v-der-regen",
+      "de": "Regen",
+      "uz": "yomg'ir",
+      "pos": "noun",
+      "article": "der",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Bei Regen bleiben wir zu Hause.",
+      "example_uz": "Yomg'irda uyda qolamiz.",
+      "topic": "weather"
+    },
+    {
+      "id": "v-der-schnee",
+      "de": "Schnee",
+      "uz": "qor",
+      "pos": "noun",
+      "article": "der",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Die Kinder spielen im Schnee.",
+      "example_uz": "Bolalar qorda o'ynayapti.",
+      "topic": "weather"
+    },
+    {
+      "id": "v-der-wind",
+      "de": "Wind",
+      "uz": "shamol",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Winde",
+      "forms": null,
+      "example_de": "Der Wind ist heute stark.",
+      "example_uz": "Bugun shamol kuchli.",
+      "topic": "weather"
+    },
+    {
+      "id": "v-regnen",
+      "de": "regnen",
+      "uz": "yomg'ir yog'moq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "geregnet",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "regnet"
+      },
+      "example_de": "Es regnet seit Montag.",
+      "example_uz": "Dushanbadan beri yomg'ir yog'yapti.",
+      "topic": "weather"
+    },
+    {
+      "id": "v-schneien",
+      "de": "schneien",
+      "uz": "qor yog'moq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "geschneit",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "schneit"
+      },
+      "example_de": "Im Winter schneit es oft.",
+      "example_uz": "Qishda tez-tez qor yog'adi.",
+      "topic": "weather"
+    },
+    {
+      "id": "v-scheinen",
+      "de": "scheinen",
+      "uz": "charaqlamoq (quyosh)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "geschienen",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "scheint"
+      },
+      "example_de": "Heute scheint die Sonne.",
+      "example_uz": "Bugun quyosh charaqlayapti.",
+      "topic": "weather"
+    },
+    {
+      "id": "v-kalt",
+      "de": "kalt",
+      "uz": "sovuq",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Im Januar ist es sehr kalt.",
+      "example_uz": "Yanvarda juda sovuq.",
+      "topic": "weather"
+    },
+    {
+      "id": "v-warm",
+      "de": "warm",
+      "uz": "iliq",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Heute ist es warm.",
+      "example_uz": "Bugun iliq.",
+      "topic": "weather"
+    },
+    {
+      "id": "v-heiß",
+      "de": "heiß",
+      "uz": "issiq (juda)",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Im Sommer ist es in Taschkent heiß.",
+      "example_uz": "Yozda Toshkentda issiq.",
+      "topic": "weather"
+    },
+    {
+      "id": "v-der-sommer",
+      "de": "Sommer",
+      "uz": "yoz",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Sommer",
+      "forms": null,
+      "example_de": "Im Sommer fahren wir an den See.",
+      "example_uz": "Yozda biz ko'lga boramiz.",
+      "topic": "weather"
+    },
+    {
+      "id": "v-der-winter",
+      "de": "Winter",
+      "uz": "qish",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Winter",
+      "forms": null,
+      "example_de": "Der Winter in Deutschland ist lang.",
+      "example_uz": "Germaniyada qish uzoq.",
+      "topic": "weather"
+    },
+    {
+      "id": "v-der-regenschirm",
+      "de": "Regenschirm",
+      "uz": "soyabon (yomg'irdan)",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Regenschirme",
+      "forms": null,
+      "example_de": "Nimm einen Regenschirm mit!",
+      "example_uz": "Soyabon olib ol!",
+      "topic": "weather"
+    }
+  ],
+  "review_vocabulary": [
+    "v-die-jacke",
+    "v-der-pullover",
+    "v-der-see",
+    "v-schwimmen",
+    "v-krank",
+    "v-das-fieber",
+    "v-der-hals"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-imperative",
+      "rule": "du-buyruq: du-shakldan \"du\" va -st olib tashlanadi: du nimmst → Nimm!, du trinkst → Trink! Ajraladigan fe'lda old qo'shimcha oxirida. a → ä umlauti buyruqda tushadi: Fahr!",
+      "when": "Do'st, oila a'zosi yoki bolaga maslahat, iltimos yoki ko'rsatma berganda.",
+      "structure": "Fe'l o'zagi + ... (+ old qo'shimcha)!: Trink viel Wasser! Zieh eine Jacke an!",
+      "examples": [
+        {
+          "de": "Nimm einen Regenschirm mit!",
+          "uz": "Soyabon olib ol!"
+        },
+        {
+          "de": "Zieh eine Jacke an, es ist kalt!",
+          "uz": "Kurtka kiy, sovuq!"
+        },
+        {
+          "de": "Trink viel Wasser, es ist heiß!",
+          "uz": "Ko'p suv ich, issiq!"
+        },
+        {
+          "de": "Bleib heute zu Hause, du bist krank!",
+          "uz": "Bugun uyda qol, sen kasalsan!"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Nimmst einen Regenschirm mit!",
+          "right": "Nimm einen Regenschirm mit!",
+          "why": "du-buyruqda -st tushib qoladi."
+        },
+        {
+          "wrong": "Du geh nach Hause!",
+          "right": "Geh nach Hause!",
+          "why": "Buyruqda \"du\" aytilmaydi."
+        },
+        {
+          "wrong": "Fähr langsam!",
+          "right": "Fahr langsam!",
+          "why": "a → ä o'zgarishi buyruqda bo'lmaydi."
+        }
+      ],
+      "check": [
+        "a1-m12-l2-e04",
+        "a1-m12-l2-e05",
+        "a1-m12-l2-e06"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Radio: ertangi ob-havo",
+    "lines": [
+      {
+        "speaker": "Radio",
+        "de": "Und jetzt das Wetter für morgen.",
+        "uz": "Endi ertangi ob-havo."
+      },
+      {
+        "speaker": "Radio",
+        "de": "Im Norden regnet es den ganzen Tag. Es sind nur 12 Grad.",
+        "uz": "Shimolda kun bo'yi yomg'ir yog'adi. Atigi 12 daraja."
+      },
+      {
+        "speaker": "Radio",
+        "de": "Im Süden scheint die Sonne. Dort ist es warm: 24 Grad.",
+        "uz": "Janubda quyosh charaqlaydi. U yerda iliq: 24 daraja."
+      },
+      {
+        "speaker": "Radio",
+        "de": "In den Bergen ist es kalt und windig. Am Abend schneit es vielleicht.",
+        "uz": "Tog'larda sovuq va shamolli. Kechqurun qor yog'ishi mumkin."
+      }
+    ],
+    "questions": [
+      "a1-m12-l2-e07",
+      "a1-m12-l2-e08"
+    ]
+  },
+  "situation": {
+    "title": "Gamburgga safar oldidan",
+    "context_uz": "Siz kelasi hafta Gamburgdagi do'stingiz Jonasning oldiga borasiz. U telefonda ob-havo haqida maslahat beryapti.",
+    "lines": [
+      {
+        "speaker": "Jonas",
+        "de": "Kommst du nächste Woche nach Hamburg?",
+        "uz": "Kelasi hafta Gamburgga kelasanmi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ja! Wie ist das Wetter in Hamburg?",
+        "uz": "Ha! Gamburgda ob-havo qanday?"
+      },
+      {
+        "speaker": "Jonas",
+        "de": "Es ist kalt und es regnet oft. Nur 8 Grad.",
+        "uz": "Sovuq va tez-tez yomg'ir yog'adi. Atigi 8 daraja."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Oh! In Taschkent ist es jetzt warm. 25 Grad!",
+        "uz": "Voy! Toshkentda hozir iliq. 25 daraja!"
+      },
+      {
+        "speaker": "Jonas",
+        "de": "Dann nimm eine Jacke und einen Pullover mit! Und vergiss den Regenschirm nicht!",
+        "uz": "Unda kurtka va sviter olib kel! Soyabonni ham unutma!"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Danke für den Tipp!",
+        "uz": "Maslahat uchun rahmat!"
+      }
+    ],
+    "task_uz": "Do'stingiz sizning shahringizga kelyapti. Hozirgi ob-havoni tasvirlang (harorat, yomg'ir/quyosh) va unga \"du\"-buyruq bilan 2–3 ta maslahat bering."
+  },
+  "exercises": [
+    {
+      "id": "a1-m12-l2-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "weather",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "So'zlarni juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "Sonne",
+          "quyosh"
+        ],
+        [
+          "Regen",
+          "yomg'ir"
+        ],
+        [
+          "Schnee",
+          "qor"
+        ],
+        [
+          "Wind",
+          "shamol"
+        ],
+        [
+          "Regenschirm",
+          "soyabon"
+        ]
+      ],
+      "correct_answer": {
+        "Sonne": "quyosh",
+        "Regen": "yomg'ir",
+        "Schnee": "qor",
+        "Wind": "shamol",
+        "Regenschirm": "soyabon"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Sonne — quyosh, Regen — yomg'ir, Schnee — qor, Wind — shamol, Regenschirm — soyabon.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l2-e02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "weather",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "\"Es schneit.\" nimani bildiradi?",
+      "prompt_de": null,
+      "options": [
+        "Qor yog'yapti",
+        "Yomg'ir yog'yapti",
+        "Quyosh charaqlayapti"
+      ],
+      "pairs": null,
+      "correct_answer": "Qor yog'yapti",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "schneien — qor yog'moq. Es regnet — yomg'ir yog'yapti.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l2-e03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "weather",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "\"kalt\" so'zining qarama-qarshisi qaysi?",
+      "prompt_de": null,
+      "options": [
+        "warm",
+        "Schnee",
+        "Wind"
+      ],
+      "pairs": null,
+      "correct_answer": "warm",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "kalt — sovuq, warm — iliq. Schnee va Wind — otlar.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l2-e04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "weather",
+      "grammar_topic": "g-imperative",
+      "difficulty": 1,
+      "question": "To'g'ri variantni tanlang: Es regnet. ___ einen Regenschirm mit!",
+      "prompt_de": "Es regnet. ___ einen Regenschirm mit!",
+      "options": [
+        "Nimm",
+        "Nimmst",
+        "Nehmen du"
+      ],
+      "pairs": null,
+      "correct_answer": "Nimm",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "du nimmst → Nimm! (-st tushadi, du aytilmaydi).",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l2-e05",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "weather",
+      "grammar_topic": "g-imperative",
+      "difficulty": 1,
+      "question": "Maslahat bering (trinken, du): Es ist heiß. ___ viel Wasser!",
+      "prompt_de": "___ viel Wasser!",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Trink",
+      "accepted_answers": [
+        "Trinke"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "du trinkst → Trink! (\"Trinke!\" ham to'g'ri, lekin kamroq ishlatiladi).",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l2-e06",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-imperative",
+      "difficulty": 1,
+      "question": "Xato so'zni toping: \"Du geh nach Hause!\"",
+      "prompt_de": "Du geh nach Hause!",
+      "options": [
+        "Du",
+        "geh",
+        "nach",
+        "Hause"
+      ],
+      "pairs": null,
+      "correct_answer": "Du",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: \"Geh nach Hause!\" du-buyruqda \"du\" aytilmaydi.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l2-e07",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "weather",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Ob-havo ma'lumotini tinglang. Janubda ob-havo qanday?",
+      "prompt_de": null,
+      "options": [
+        "Quyoshli, 24 daraja",
+        "Yomg'irli, 12 daraja",
+        "Qorli va sovuq"
+      ],
+      "pairs": null,
+      "correct_answer": "Quyoshli, 24 daraja",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Im Süden scheint die Sonne. Dort ist es warm: 24 Grad.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Und jetzt das Wetter für morgen. Im Norden regnet es den ganzen Tag. Es sind nur 12 Grad. Im Süden scheint die Sonne. Dort ist es warm: 24 Grad. In den Bergen ist es kalt und windig. Am Abend schneit es vielleicht."
+    },
+    {
+      "id": "a1-m12-l2-e08",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "weather",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Ob-havo ma'lumotini tinglang. Shimolda necha daraja?",
+      "prompt_de": null,
+      "options": [
+        "12 daraja",
+        "24 daraja",
+        "2 daraja"
+      ],
+      "pairs": null,
+      "correct_answer": "12 daraja",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Im Norden ... Es sind nur 12 Grad.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Und jetzt das Wetter für morgen. Im Norden regnet es den ganzen Tag. Es sind nur 12 Grad. Im Süden scheint die Sonne. Dort ist es warm: 24 Grad. In den Bergen ist es kalt und windig. Am Abend schneit es vielleicht."
+    },
+    {
+      "id": "a1-m12-l2-e09",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "weather",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemis tiliga tarjima qiling: \"Bugun sovuq.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Heute ist es kalt.",
+      "accepted_answers": [
+        "Es ist heute kalt."
+      ],
+      "criteria": null,
+      "hint": "es ist ...",
+      "explanation": "Ob-havoda \"es\" kerak: es ist kalt. Heute bilan boshlansa — fe'l 2-o'rinda: Heute ist es kalt.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l2-e10",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "weather",
+      "grammar_topic": "g-verb-position",
+      "difficulty": 2,
+      "question": "So'zlarni tartiblang: \"Yozda ko'pincha quyosh charaqlaydi.\"",
+      "prompt_de": null,
+      "options": [
+        "Sommer",
+        "Im",
+        "scheint",
+        "oft",
+        "Sonne",
+        "die"
+      ],
+      "pairs": null,
+      "correct_answer": "Im Sommer scheint oft die Sonne",
+      "accepted_answers": [
+        "Im Sommer scheint die Sonne oft",
+        "Die Sonne scheint im Sommer oft"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Vaqt bilan boshlansa, fe'l (scheint) 2-o'rinda.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l2-e11",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "weather",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "Fe'lni tuslang: Im Winter ___ (schneien) es oft.",
+      "prompt_de": "Im Winter ___ (schneien) es oft.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "schneit",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "es → schneit.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l2-e12",
+      "version": 1,
+      "type": "speak",
+      "skill": "speaking",
+      "topic": "weather",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Ovoz chiqarib ayting: bugungi ob-havo qanday va do'stingizga bitta maslahat bering.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 10,
+        "required_words": [
+          "Grad"
+        ],
+        "sample": "Heute ist es kalt. Es regnet und es sind nur 8 Grad. Nimm einen Regenschirm mit!"
+      },
+      "hint": null,
+      "explanation": "Namuna: \"Heute ist es kalt. Es regnet und es sind nur 8 Grad. Nimm einen Regenschirm mit!\"",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a1-m12-l2-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "weather",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "To'g'ri fe'lni tanlang: Die Sonne ___.",
+      "prompt_de": "Die Sonne ___.",
+      "options": [
+        "scheint",
+        "regnet",
+        "schneit"
+      ],
+      "pairs": null,
+      "correct_answer": "scheint",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Quyosh charaqlaydi — scheinen.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l2-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "weather",
+      "grammar_topic": "g-imperative",
+      "difficulty": 2,
+      "question": "Maslahat bering (anziehen, du): Es ist kalt. ___ eine Jacke an!",
+      "prompt_de": "___ eine Jacke an!",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Zieh",
+      "accepted_answers": [
+        "Ziehe"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "du ziehst ... an → Zieh ... an!",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l2-t03",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "weather",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Artiklni tanlang: ___ Wetter",
+      "prompt_de": "___ Wetter",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "das",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "das Wetter — o'rta jins.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l2-t04",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "weather",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Es regnet.\"",
+      "prompt_de": "Es regnet.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Yomg'ir yog'yapti.",
+      "accepted_answers": [
+        "Yomg'ir yog'adi",
+        "Yomg'ir yog'moqda"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "regnen — yomg'ir yog'moq.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l2-t05",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "weather",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Bugun necha daraja?",
+      "prompt_de": null,
+      "options": [
+        "35 daraja",
+        "25 daraja",
+        "53 daraja"
+      ],
+      "pairs": null,
+      "correct_answer": "35 daraja",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"35 Grad\" — fünfunddreißig.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Heute ist es heiß: 35 Grad!"
+    },
+    {
+      "id": "a1-m12-l2-t06",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "weather",
+      "grammar_topic": "g-imperative",
+      "difficulty": 1,
+      "question": "Qaysi buyruq to'g'ri? (Qor yog'yapti, do'stingizga)",
+      "prompt_de": null,
+      "options": [
+        "Fahr langsam!",
+        "Fähr langsam!",
+        "Fährst langsam!"
+      ],
+      "pairs": null,
+      "correct_answer": "Fahr langsam!",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "du fährst → Fahr! Buyruqda umlaut tushadi.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l2-t07",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "weather",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Qaysi fasl eng issiq?",
+      "prompt_de": null,
+      "options": [
+        "der Sommer",
+        "der Winter",
+        "der Schnee"
+      ],
+      "pairs": null,
+      "correct_answer": "der Sommer",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Sommer — yoz, der Winter — qish.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

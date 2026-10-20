@@ -1,0 +1,315 @@
+{
+  "id": "g-pronouns",
+  "version": 1,
+  "level": "A1",
+  "order": 2,
+  "title": "Kishilik olmoshlari",
+  "prerequisites": [
+    "g-alphabet"
+  ],
+  "next": [
+    "g-sein-haben",
+    "g-praesens",
+    "g-possessive"
+  ],
+  "rule": "Kishilik olmoshlari gapda ega bo'ladi: ich, du, er, sie, es, wir, ihr, sie, Sie. Nemis tilida ega tushib qolmaydi.",
+  "when": "Kim haqida gapirayotganingizni ko'rsatish uchun. Notanish va katta odamlarga \"Sie\" (Siz), do'st va oilaga \"du\" (sen).",
+  "structure": "Olmosh + fe'l: Ich wohne ... / Sie wohnen ...",
+  "explanation": [
+    {
+      "type": "table",
+      "headers": [
+        "Olmosh",
+        "O'zbekcha",
+        "Izoh"
+      ],
+      "rows": [
+        [
+          "ich",
+          "men",
+          "gap boshida bo'lmasa ham kichik harf"
+        ],
+        [
+          "du",
+          "sen",
+          "do'st, oila, bolalar"
+        ],
+        [
+          "er",
+          "u (erkak)",
+          "der-so'zlar ham: der Tisch → er"
+        ],
+        [
+          "sie",
+          "u (ayol)",
+          "die-so'zlar ham: die Lampe → sie"
+        ],
+        [
+          "es",
+          "u (o'rta jins)",
+          "das-so'zlar: das Kind → es"
+        ],
+        [
+          "wir",
+          "biz",
+          ""
+        ],
+        [
+          "ihr",
+          "sizlar (norasmiy)",
+          "bir nechta do'st"
+        ],
+        [
+          "sie",
+          "ular",
+          "kichik harf"
+        ],
+        [
+          "Sie",
+          "Siz (hurmat)",
+          "doim katta harf, birlik va ko'plik"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "O'zbek tilida \"u\" bitta, nemis tilida esa uchta: er, sie, es. Narsalar ham jinsiga qarab er/sie/es bilan almashtiriladi: Der Bus kommt. → Er kommt."
+    },
+    {
+      "type": "tip",
+      "text": "sie (u, ayol), sie (ular) va Sie (Siz) ni fe'l ajratadi: sie wohnt (u), sie wohnen (ular), Sie wohnen (Siz). Yozuvda Sie doim katta harf bilan."
+    }
+  ],
+  "examples": [
+    {
+      "de": "Ich bin Aziz.",
+      "uz": "Men Azizman."
+    },
+    {
+      "de": "Du bist mein Freund.",
+      "uz": "Sen mening do'stimsan."
+    },
+    {
+      "de": "Er ist Lehrer, und sie ist Ärztin.",
+      "uz": "U (erkak) o'qituvchi, u (ayol) esa shifokor."
+    },
+    {
+      "de": "Wir kommen aus Usbekistan.",
+      "uz": "Biz O'zbekistondanmiz."
+    },
+    {
+      "de": "Ihr seid sehr nett.",
+      "uz": "Sizlar juda yoqimlisizlar."
+    },
+    {
+      "de": "Sind Sie Herr Weber?",
+      "uz": "Siz Veber janoblarimisiz?"
+    },
+    {
+      "de": "Wo ist der Bus? — Er kommt gleich.",
+      "uz": "Avtobus qayerda? — Hozir keladi."
+    }
+  ],
+  "common_mistakes": [
+    {
+      "wrong": "Bin Aziz.",
+      "right": "Ich bin Aziz.",
+      "why": "O'zbekchada \"Azizman\" deyish mumkin, lekin nemis tilida ega (ich) majburiy."
+    },
+    {
+      "wrong": "Herr Weber, kommst du?",
+      "right": "Herr Weber, kommen Sie?",
+      "why": "Notanish yoki rasmiy odamga \"Sie\" bilan murojaat qilinadi."
+    },
+    {
+      "wrong": "Der Tisch ist neu. Es ist schön.",
+      "right": "Der Tisch ist neu. Er ist schön.",
+      "why": "der Tisch — erkak jinsi, shuning uchun \"er\"."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "g-pronouns-e01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "personal-info",
+      "grammar_topic": "g-pronouns",
+      "difficulty": 1,
+      "question": "O'qituvchingizga murojaat qiling: \"Herr Braun, kommen ___ aus Berlin?\"",
+      "prompt_de": "Herr Braun, kommen ___ aus Berlin?",
+      "options": [
+        "Sie",
+        "du",
+        "ihr"
+      ],
+      "pairs": null,
+      "correct_answer": "Sie",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Rasmiy murojaatda \"Sie\" (Siz) ishlatiladi, fe'l \"kommen\".",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-pronouns-e02",
+      "version": 1,
+      "type": "match",
+      "skill": "grammar",
+      "topic": "people",
+      "grammar_topic": "g-pronouns",
+      "difficulty": 1,
+      "question": "Olmoshni tarjimasi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "ich",
+          "men"
+        ],
+        [
+          "du",
+          "sen"
+        ],
+        [
+          "wir",
+          "biz"
+        ],
+        [
+          "ihr",
+          "sizlar"
+        ]
+      ],
+      "correct_answer": {
+        "ich": "men",
+        "du": "sen",
+        "wir": "biz",
+        "ihr": "sizlar"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "ich — men, du — sen, wir — biz, ihr — sizlar (norasmiy).",
+      "error_type": "other",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "g-pronouns-e03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "people",
+      "grammar_topic": "g-pronouns",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: \"Das ist Anna. ___ ist Lehrerin.\"",
+      "prompt_de": "Das ist Anna. ___ ist Lehrerin.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Sie",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Anna — ayol, shuning uchun \"sie\" (u). Gap boshida katta harf: Sie.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-pronouns-e04",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "transport",
+      "grammar_topic": "g-pronouns",
+      "difficulty": 2,
+      "question": "Bo'sh joyni to'ldiring: \"Wo ist der Bus? — ___ kommt gleich.\"",
+      "prompt_de": "Wo ist der Bus? — ___ kommt gleich.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Er",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "der → er, die → sie, das → es",
+      "explanation": "der Bus — erkak jinsi, uni \"er\" almashtiradi.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-pronouns-e05",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "people",
+      "grammar_topic": "g-pronouns",
+      "difficulty": 1,
+      "question": "\"Aziz und ich\" o'rniga qaysi olmosh keladi?",
+      "prompt_de": null,
+      "options": [
+        "wir",
+        "ihr",
+        "sie"
+      ],
+      "pairs": null,
+      "correct_answer": "wir",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Aziz va men = biz → wir.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-pronouns-e06",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "grammar",
+      "topic": "people",
+      "grammar_topic": "g-pronouns",
+      "difficulty": 2,
+      "question": "Siz do'stlaringiz guruhiga gapiryapsiz: \"Sizlar zo'rsizlar!\"",
+      "prompt_de": null,
+      "options": [
+        "Ihr seid super!",
+        "Sie ist super!",
+        "Du bist super!"
+      ],
+      "pairs": null,
+      "correct_answer": "Ihr seid super!",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Bir nechta do'stga norasmiy murojaat — ihr, fe'l shakli seid.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-pronouns-e07",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "grammar",
+      "topic": "countries-languages",
+      "grammar_topic": "g-pronouns",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Biz Toshkentdanmiz.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Wir kommen aus Taschkent.",
+      "accepted_answers": [
+        "Wir sind aus Taschkent."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "biz — wir; \"-danmiz\" — kommen aus.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

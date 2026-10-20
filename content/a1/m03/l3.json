@@ -1,0 +1,846 @@
+{
+  "id": "a1-m03-l3",
+  "version": 1,
+  "level": "A1",
+  "module": 3,
+  "order": 3,
+  "title": "Manzil va email",
+  "title_de": "Adresse und E-Mail",
+  "goal": "Dars oxirida manzilingizni (ko'cha, uy raqami, indeks, shahar) va email manzilingizni nemischa aytib yozasiz, oddiy anketani to'ldirasiz hamda muntazam fe'llarni hozirgi zamonda tuslaysiz.",
+  "skill_focus": [
+    "writing",
+    "listening",
+    "grammar"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Nemis manzili tartibi: avval ko'cha va uy raqami, keyin pochta indeksi (5 raqam) va shahar: Goethestraße 12, 04109 Leipzig. Og'zaki: \"Ich wohne in der Goethestraße 12.\""
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Belgi",
+        "Nemischa o'qilishi",
+        "Misol"
+      ],
+      "rows": [
+        [
+          "@",
+          "ät",
+          "anna@web.de — anna ät web punkt de"
+        ],
+        [
+          ".",
+          "Punkt",
+          "web.de — web punkt de"
+        ],
+        [
+          "-",
+          "Bindestrich",
+          "anna-lang — anna Bindestrich lang"
+        ],
+        [
+          "_",
+          "Unterstrich",
+          "anna_lang — anna Unterstrich lang"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Tartib sonlar (der/die/das erste, zweite, dritte) qavat va sanada ishlatiladi: \"Ich wohne in der ersten Etage.\" (birinchi qavatda). Hozircha \"in der ersten / zweiten / dritten Etage\" iborasini tayyor holda yodlang."
+    },
+    {
+      "type": "p",
+      "text": "Muntazam fe'llar hozirgi zamonda bir xil qo'shimchalar oladi: ich wohn-e, du wohn-st, er wohn-t, wir wohn-en, ihr wohn-t, sie/Sie wohn-en."
+    },
+    {
+      "type": "tip",
+      "text": "\"@\" belgisini o'zbekcha \"kuchukcha\" yoki ruscha \"sobaka\" demang — nemischa \"ät\"."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-die-adresse",
+      "de": "Adresse",
+      "uz": "manzil",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Adressen",
+      "forms": null,
+      "example_de": "Wie ist Ihre Adresse?",
+      "example_uz": "Manzilingiz qanday?",
+      "topic": "contact"
+    },
+    {
+      "id": "v-die-hausnummer",
+      "de": "Hausnummer",
+      "uz": "uy raqami",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Hausnummern",
+      "forms": null,
+      "example_de": "Die Hausnummer ist 12.",
+      "example_uz": "Uy raqami 12.",
+      "topic": "contact"
+    },
+    {
+      "id": "v-die-postleitzahl",
+      "de": "Postleitzahl",
+      "uz": "pochta indeksi",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Postleitzahlen",
+      "forms": null,
+      "example_de": "Die Postleitzahl ist 04109.",
+      "example_uz": "Pochta indeksi 04109.",
+      "topic": "contact"
+    },
+    {
+      "id": "v-die-e-mail",
+      "de": "E-Mail",
+      "uz": "elektron xat; email",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die E-Mails",
+      "forms": null,
+      "example_de": "Ich schicke eine E-Mail.",
+      "example_uz": "Men email yuboraman.",
+      "topic": "contact"
+    },
+    {
+      "id": "v-der-punkt",
+      "de": "Punkt",
+      "uz": "nuqta",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Punkte",
+      "forms": null,
+      "example_de": "anna Punkt lang ät web Punkt de",
+      "example_uz": "anna nuqta lang ät web nuqta de",
+      "topic": "contact"
+    },
+    {
+      "id": "v-die-etage",
+      "de": "Etage",
+      "uz": "qavat",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Etagen",
+      "forms": null,
+      "example_de": "Ich wohne in der dritten Etage.",
+      "example_uz": "Men uchinchi qavatda yashayman.",
+      "topic": "home"
+    },
+    {
+      "id": "v-erste",
+      "de": "erste",
+      "uz": "birinchi",
+      "pos": "numeral",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Ich wohne in der ersten Etage.",
+      "example_uz": "Men birinchi qavatda yashayman.",
+      "topic": "numbers"
+    },
+    {
+      "id": "v-zweite",
+      "de": "zweite",
+      "uz": "ikkinchi",
+      "pos": "numeral",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Das ist die zweite Straße.",
+      "example_uz": "Bu ikkinchi ko'cha.",
+      "topic": "numbers"
+    },
+    {
+      "id": "v-dritte",
+      "de": "dritte",
+      "uz": "uchinchi",
+      "pos": "numeral",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Das ist mein dritter Kurs.",
+      "example_uz": "Bu mening uchinchi kursim.",
+      "topic": "numbers"
+    },
+    {
+      "id": "v-schicken",
+      "de": "schicken",
+      "uz": "yubormoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "praesens_3sg": "schickt",
+        "partizip2": "geschickt",
+        "perfekt_aux": "haben"
+      },
+      "example_de": "Wir schicken die Informationen per E-Mail.",
+      "example_uz": "Ma'lumotni email orqali yuboramiz.",
+      "topic": "contact"
+    },
+    {
+      "id": "v-ausfüllen",
+      "de": "ausfüllen",
+      "uz": "to'ldirmoq (anketani)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "praesens_3sg": "füllt aus",
+        "partizip2": "ausgefüllt",
+        "perfekt_aux": "haben"
+      },
+      "example_de": "Füllen Sie bitte das Formular aus.",
+      "example_uz": "Iltimos, anketani to'ldiring.",
+      "topic": "services"
+    },
+    {
+      "id": "v-der-wohnort",
+      "de": "Wohnort",
+      "uz": "yashash joyi (shahar)",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Wohnorte",
+      "forms": null,
+      "example_de": "Wohnort: Leipzig",
+      "example_uz": "Yashash joyi: Leyptsig",
+      "topic": "contact"
+    },
+    {
+      "id": "v-die-unterschrift",
+      "de": "Unterschrift",
+      "uz": "imzo",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Unterschriften",
+      "forms": null,
+      "example_de": "Ihre Unterschrift, bitte.",
+      "example_uz": "Imzoingiz, iltimos.",
+      "topic": "services"
+    }
+  ],
+  "review_vocabulary": [
+    "v-die-straße",
+    "v-das-formular",
+    "v-wohnen",
+    "v-schreiben",
+    "v-buchstabieren",
+    "v-null",
+    "v-die-nummer",
+    "v-die-telefonnummer",
+    "v-richtig",
+    "v-der-name",
+    "v-der-vorname",
+    "v-der-nachname",
+    "v-die-stadt",
+    "v-in",
+    "v-wo"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-praesens",
+      "rule": "Muntazam fe'llarda o'zak o'zgarmaydi, faqat oxiriga shaxsga mos qo'shimcha qo'shiladi: -e, -st, -t, -en, -t, -en.",
+      "when": "Har kungi harakatlar haqida gapirganda: qayerda yashaysiz, nima yozasiz, nima yuborasiz.",
+      "structure": "o'zak + qo'shimcha:  ich wohn-e | du wohn-st | er/sie wohn-t | wir wohn-en | ihr wohn-t | sie/Sie wohn-en",
+      "examples": [
+        {
+          "de": "Ich wohne in der Goethestraße 12.",
+          "uz": "Men Gyote ko'chasi 12-uyda yashayman."
+        },
+        {
+          "de": "Du schreibst die Adresse.",
+          "uz": "Sen manzilni yozasan."
+        },
+        {
+          "de": "Sie schickt eine E-Mail.",
+          "uz": "U (ayol) email yuboradi."
+        },
+        {
+          "de": "Wir wohnen in der zweiten Etage.",
+          "uz": "Biz ikkinchi qavatda yashaymiz."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Er wohnen in Köln.",
+          "right": "Er wohnt in Köln.",
+          "why": "er/sie/es bilan -t: er wohnt. -en — faqat wir, sie (ular), Sie bilan."
+        },
+        {
+          "wrong": "Du schreibt eine E-Mail.",
+          "right": "Du schreibst eine E-Mail.",
+          "why": "du bilan qo'shimcha -st."
+        },
+        {
+          "wrong": "Ich wohnen in Leipzig.",
+          "right": "Ich wohne in Leipzig.",
+          "why": "ich bilan qo'shimcha -e. Infinitiv (wohnen) tuslanmagan shakl."
+        }
+      ],
+      "check": [
+        "a1-m03-l3-e04",
+        "a1-m03-l3-e05",
+        "a1-m03-l3-e06"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Til maktabidan qo'ng'iroq",
+    "lines": [
+      {
+        "speaker": "Frau Lang",
+        "de": "Guten Tag, Frau Saidova! Wie ist Ihre Adresse?",
+        "uz": "Assalomu alaykum, Saidova xonim! Manzilingiz qanday?"
+      },
+      {
+        "speaker": "Nodira",
+        "de": "Goethestraße zwölf, null-vier-eins-null-neun Leipzig.",
+        "uz": "Gyote ko'chasi 12, 04109 Leyptsig."
+      },
+      {
+        "speaker": "Frau Lang",
+        "de": "Danke. Und Ihre E-Mail-Adresse?",
+        "uz": "Rahmat. Email manzilingiz-chi?"
+      },
+      {
+        "speaker": "Nodira",
+        "de": "nodira Punkt saidova ät web Punkt de.",
+        "uz": "nodira nuqta saidova ät web nuqta de."
+      },
+      {
+        "speaker": "Frau Lang",
+        "de": "Gut. Wir schicken die Informationen per E-Mail.",
+        "uz": "Yaxshi. Ma'lumotni email orqali yuboramiz."
+      }
+    ],
+    "questions": [
+      "a1-m03-l3-e02",
+      "a1-m03-l3-e03"
+    ]
+  },
+  "situation": {
+    "title": "Ro'yxatdan o'tish idorasida",
+    "context_uz": "Siz Germaniyada yangi kvartiraga ko'chdingiz va shahar idorasida (Bürgeramt) ro'yxatdan o'tyapsiz.",
+    "lines": [
+      {
+        "speaker": "Beamtin",
+        "de": "Füllen Sie bitte das Formular aus. Wie ist Ihre Adresse?",
+        "uz": "Iltimos, anketani to'ldiring. Manzilingiz qanday?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Schillerstraße 5, 53111 Bonn.",
+        "uz": "Shiller ko'chasi 5, 53111 Bonn."
+      },
+      {
+        "speaker": "Beamtin",
+        "de": "In welcher Etage wohnen Sie?",
+        "uz": "Nechanchi qavatda yashaysiz?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "In der dritten Etage.",
+        "uz": "Uchinchi qavatda."
+      },
+      {
+        "speaker": "Beamtin",
+        "de": "Und Ihre E-Mail-Adresse?",
+        "uz": "Email manzilingiz-chi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "shahzoda Punkt t ät gmx Punkt de.",
+        "uz": "shahzoda nuqta t ät gmx nuqta de."
+      },
+      {
+        "speaker": "Beamtin",
+        "de": "Danke. Ihre Unterschrift, bitte — hier.",
+        "uz": "Rahmat. Imzoingiz, iltimos — mana bu yerga."
+      }
+    ],
+    "task_uz": "Xodimning savollariga o'z manzilingiz (yoki o'ylab topilgan nemis manzili) va email'ingiz bilan javob bering. Email'ni nemischa harflab va belgilarni (ät, Punkt) to'g'ri aytib bering."
+  },
+  "exercises": [
+    {
+      "id": "a1-m03-l3-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "contact",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "So'zni ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "die Straße",
+          "ko'cha"
+        ],
+        [
+          "die Hausnummer",
+          "uy raqami"
+        ],
+        [
+          "die Postleitzahl",
+          "pochta indeksi"
+        ],
+        [
+          "der Wohnort",
+          "yashash joyi"
+        ],
+        [
+          "die Unterschrift",
+          "imzo"
+        ]
+      ],
+      "correct_answer": {
+        "die Straße": "ko'cha",
+        "die Hausnummer": "uy raqami",
+        "die Postleitzahl": "pochta indeksi",
+        "der Wohnort": "yashash joyi",
+        "die Unterschrift": "imzo"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Bular anketadagi asosiy so'zlar.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m03-l3-e02",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "contact",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Nodiraning uy raqami nechchi?",
+      "prompt_de": null,
+      "options": [
+        "2",
+        "12",
+        "20"
+      ],
+      "pairs": null,
+      "correct_answer": "12",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "zwölf — 12.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Goethestraße zwölf, null-vier-eins-null-neun Leipzig."
+    },
+    {
+      "id": "a1-m03-l3-e03",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "contact",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang va email manzilini yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "nodira.saidova@web.de",
+      "accepted_answers": [
+        "nodira.saidova@web.de"
+      ],
+      "criteria": null,
+      "hint": "Punkt — nuqta (.), ät — @.",
+      "explanation": "nodira Punkt saidova ät web Punkt de = nodira.saidova@web.de",
+      "error_type": "spelling",
+      "points": 2,
+      "audio_text": "nodira Punkt saidova ät web Punkt de."
+    },
+    {
+      "id": "a1-m03-l3-e04",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "contact",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "\"schicken\" fe'lini tuslang: Ich ___ eine E-Mail.",
+      "prompt_de": "Ich ___ eine E-Mail.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "schicke",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "ich + -e: ich schicke.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m03-l3-e05",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "\"wohnen\" fe'lini tuslang: Er ___ in der Goethestraße.",
+      "prompt_de": "Er ___ in der Goethestraße.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "wohnt",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "er + -t: er wohnt.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m03-l3-e06",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "contact",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "Gapdagi xato so'zni toping: \"Du schreibt die Adresse.\"",
+      "prompt_de": "Du schreibt die Adresse.",
+      "options": [
+        "Du",
+        "schreibt",
+        "die",
+        "Adresse"
+      ],
+      "pairs": null,
+      "correct_answer": "schreibt",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "du bilan -st: Du schreibst die Adresse.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m03-l3-e07",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "contact",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "\"@\" belgisi nemischa qanday o'qiladi?",
+      "prompt_de": null,
+      "options": [
+        "ät",
+        "Sobaka",
+        "Punkt"
+      ],
+      "pairs": null,
+      "correct_answer": "ät",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "@ — \"ät\". Punkt — nuqta (.).",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m03-l3-e08",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "contact",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Anketani o'qing. Nodira qaysi shaharda yashaydi?",
+      "prompt_de": "Name: Saidova | Vorname: Nodira | Straße, Hausnummer: Goethestraße 12 | PLZ, Wohnort: 04109 Leipzig | E-Mail: nodira.saidova@web.de",
+      "options": [
+        "Leipzig",
+        "Goethestraße",
+        "04109"
+      ],
+      "pairs": null,
+      "correct_answer": "Leipzig",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Wohnort — yashash joyi: Leipzig. 04109 — pochta indeksi (PLZ), Goethestraße — ko'cha.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m03-l3-e09",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Ich wohne in der ___ Etage. (3-qavat)",
+      "prompt_de": "Ich wohne in der ___ Etage.",
+      "options": [
+        "ersten",
+        "zweiten",
+        "dritten"
+      ],
+      "pairs": null,
+      "correct_answer": "dritten",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "3-qavat — die dritte Etage → in der dritten Etage.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m03-l3-e10",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 3,
+      "question": "Nemis tiliga tarjima qiling: \"Men Shiller ko'chasi 5-uyda yashayman.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich wohne in der Schillerstraße 5.",
+      "accepted_answers": [
+        "Ich wohne in der Schillerstraße fünf.",
+        "Ich wohne Schillerstraße 5."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ich wohne in der + ko'cha + uy raqami. Ko'cha nomi ayol jinsida (die Straße), shuning uchun \"in der\".",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m03-l3-e11",
+      "version": 1,
+      "type": "short_text",
+      "skill": "writing",
+      "topic": "contact",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Manzilingiz va email'ingizni 2 gap bilan yozing (o'ylab topilgan bo'lishi mumkin).",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 8,
+        "required_words": [
+          "wohne"
+        ],
+        "sample": "Ich wohne in der Goethestraße 12, 04109 Leipzig. Meine E-Mail-Adresse ist nodira.saidova@web.de."
+      },
+      "hint": null,
+      "explanation": "1-gap: Ich wohne in der ... (ko'cha, uy raqami, indeks, shahar). 2-gap: Meine E-Mail-Adresse ist ...",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a1-m03-l3-t01",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "contact",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "\"schreiben\" fe'lini tuslang: Wir ___ eine E-Mail.",
+      "prompt_de": "Wir ___ eine E-Mail.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "schreiben",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "wir + -en: wir schreiben.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m03-l3-t02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "contact",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "\"die Postleitzahl\" nima?",
+      "prompt_de": null,
+      "options": [
+        "uy raqami",
+        "pochta indeksi",
+        "telefon kodi"
+      ],
+      "pairs": null,
+      "correct_answer": "pochta indeksi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Postleitzahl (PLZ) — 5 raqamli pochta indeksi.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m03-l3-t03",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "contact",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Uy raqami nechchi?",
+      "prompt_de": null,
+      "options": [
+        "12",
+        "21",
+        "20"
+      ],
+      "pairs": null,
+      "correct_answer": "21",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "einundzwanzig = 21.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Meine Adresse ist Bahnhofstraße einundzwanzig."
+    },
+    {
+      "id": "a1-m03-l3-t04",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "contact",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang va email manzilini yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "anna.lang@gmx.de",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "anna Punkt lang ät gmx Punkt de = anna.lang@gmx.de",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": "anna Punkt lang ät gmx Punkt de."
+    },
+    {
+      "id": "a1-m03-l3-t05",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "vocabulary",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Bo'sh joyni to'ldiring (1-qavat): Ich wohne in der ___ Etage.",
+      "prompt_de": "Ich wohne in der ___ Etage.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "ersten",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "birinchi — erste → in der ersten Etage.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m03-l3-t06",
+      "version": 1,
+      "type": "plural",
+      "skill": "grammar",
+      "topic": "contact",
+      "grammar_topic": "g-plural",
+      "difficulty": 1,
+      "question": "Ko'plik shaklini yozing: die Adresse → die ___",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Adressen",
+      "accepted_answers": [
+        "die Adressen"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "-e bilan tugaydigan ayol jinsidagi otlar ko'plikda -n oladi: Adressen.",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m03-l3-t07",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "services",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Idora xodimi \"Ihre Unterschrift, bitte.\" dedi. Nima qilasiz?",
+      "prompt_de": null,
+      "options": [
+        "Anketaga imzo chekaman.",
+        "Manzilimni aytaman.",
+        "Telefon raqamimni yozaman."
+      ],
+      "pairs": null,
+      "correct_answer": "Anketaga imzo chekaman.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Unterschrift — imzo.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m03-l3-t08",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "\"wohnen\" fe'lini tuslang: Wo ___ ihr?",
+      "prompt_de": "Wo ___ ihr?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "wohnt",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "ihr + -t: ihr wohnt.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

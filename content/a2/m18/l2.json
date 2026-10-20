@@ -1,0 +1,854 @@
+{
+  "id": "a2-m18-l2",
+  "version": 1,
+  "level": "A2",
+  "module": 18,
+  "order": 2,
+  "title": "Shifokor nima dedi?",
+  "title_de": "Was darf ich, was soll ich?",
+  "goal": "Dars oxirida shifokorning ko'rsatmalarini tushuna olasiz va boshqalarga yetkaza olasiz: \"dürfen\" — ruxsat/taqiq, \"sollen\" — boshqa odamning maslahati (Der Arzt sagt, ich soll ...).",
+  "skill_focus": [
+    "listening",
+    "grammar",
+    "speaking"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Shifokor ko'rikdan keyin ko'rsatmalar beradi: nima qilish mumkin, nima mumkin emas, nima qilish kerak. Kasallik tufayli ishga bora olmasangiz, shifokor \"Krankschreibung\" (kasallik varaqasi) beradi — uni ish beruvchingizga yuborasiz."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Modal fe'l",
+        "Ma'nosi",
+        "Misol"
+      ],
+      "rows": [
+        [
+          "dürfen",
+          "ruxsat bor, mumkin",
+          "Sie dürfen morgen wieder arbeiten."
+        ],
+        [
+          "nicht/kein ... dürfen",
+          "mumkin emas, taqiqlangan",
+          "Sie dürfen keinen Sport machen."
+        ],
+        [
+          "sollen",
+          "boshqa odam aytgan vazifa/maslahat",
+          "Der Arzt sagt, ich soll viel schlafen."
+        ],
+        [
+          "Soll ich ...?",
+          "...-aymi? (maslahat so'rash)",
+          "Soll ich morgen wiederkommen?"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Shaxs",
+        "dürfen",
+        "sollen"
+      ],
+      "rows": [
+        [
+          "ich",
+          "darf",
+          "soll"
+        ],
+        [
+          "du",
+          "darfst",
+          "sollst"
+        ],
+        [
+          "er / sie / es",
+          "darf",
+          "soll"
+        ],
+        [
+          "wir",
+          "dürfen",
+          "sollen"
+        ],
+        [
+          "ihr",
+          "dürft",
+          "sollt"
+        ],
+        [
+          "sie / Sie",
+          "dürfen",
+          "sollen"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Otdan oldin \"nicht\" emas, \"kein\" ishlatiladi (A1 qoidasi): \"Sie dürfen KEINEN Kaffee trinken\", lekin \"Sie dürfen NICHT rauchen\" (fe'l)."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-untersuchen",
+      "de": "untersuchen",
+      "uz": "tekshirmoq, ko'rikdan o'tkazmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "untersucht",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "untersucht"
+      },
+      "example_de": "Die Ärztin untersucht den Patienten.",
+      "example_uz": "Shifokor bemorni tekshiryapti.",
+      "topic": "health"
+    },
+    {
+      "id": "v-die-krankschreibung",
+      "de": "Krankschreibung",
+      "uz": "kasallik varaqasi (ishga bormaslik uchun)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Krankschreibungen",
+      "forms": null,
+      "example_de": "Ich schicke die Krankschreibung an meinen Chef.",
+      "example_uz": "Kasallik varaqasini boshlig'imga yuboraman.",
+      "topic": "work"
+    },
+    {
+      "id": "v-krankschreiben",
+      "de": "krankschreiben",
+      "uz": "kasallik varaqasi bermoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "krankgeschrieben",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "schreibt krank"
+      },
+      "example_de": "Ich schreibe Sie bis Freitag krank.",
+      "example_uz": "Sizga jumagacha kasallik varaqasi beraman.",
+      "topic": "health"
+    },
+    {
+      "id": "v-der-blutdruck",
+      "de": "Blutdruck",
+      "uz": "qon bosimi",
+      "pos": "noun",
+      "article": "der",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Ihr Blutdruck ist zu hoch.",
+      "example_uz": "Qon bosimingiz juda baland.",
+      "topic": "health"
+    },
+    {
+      "id": "v-messen",
+      "de": "messen",
+      "uz": "o'lchamoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "gemessen",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "misst"
+      },
+      "example_de": "Die Krankenschwester misst das Fieber.",
+      "example_uz": "Hamshira isitmani o'lchayapti.",
+      "topic": "health"
+    },
+    {
+      "id": "v-die-überweisung",
+      "de": "Überweisung",
+      "uz": "yo'llanma (boshqa shifokorga)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Überweisungen",
+      "forms": null,
+      "example_de": "Sie bekommen eine Überweisung zum Facharzt.",
+      "example_uz": "Mutaxassis shifokorga yo'llanma olasiz.",
+      "topic": "health"
+    },
+    {
+      "id": "v-der-facharzt",
+      "de": "Facharzt",
+      "uz": "mutaxassis shifokor",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Fachärzte",
+      "forms": null,
+      "example_de": "Für das Knie müssen Sie zum Facharzt.",
+      "example_uz": "Tizza uchun mutaxassisga borishingiz kerak.",
+      "topic": "health"
+    },
+    {
+      "id": "v-rauchen",
+      "de": "rauchen",
+      "uz": "chekmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "geraucht",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "raucht"
+      },
+      "example_de": "Sie dürfen nicht mehr rauchen.",
+      "example_uz": "Endi chekishingiz mumkin emas.",
+      "topic": "health"
+    },
+    {
+      "id": "v-die-ruhe",
+      "de": "Ruhe",
+      "uz": "tinchlik, dam olish",
+      "pos": "noun",
+      "article": "die",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Sie brauchen jetzt viel Ruhe.",
+      "example_uz": "Sizga hozir ko'p dam olish kerak.",
+      "topic": "health"
+    },
+    {
+      "id": "v-tief",
+      "de": "tief",
+      "uz": "chuqur",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Bitte atmen Sie tief ein.",
+      "example_uz": "Iltimos, chuqur nafas oling.",
+      "topic": "body"
+    },
+    {
+      "id": "v-einatmen",
+      "de": "einatmen",
+      "uz": "nafas olmoq (ichga)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "eingeatmet",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "atmet ein"
+      },
+      "example_de": "Atmen Sie bitte ein — und wieder aus.",
+      "example_uz": "Iltimos, nafas oling — va chiqaring.",
+      "topic": "body"
+    }
+  ],
+  "review_vocabulary": [
+    "v-das-rezept",
+    "v-die-sprechstunde",
+    "v-wehtun",
+    "v-der-husten",
+    "v-die-erkältung",
+    "v-seit",
+    "v-die-grippe"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-modal-verbs",
+      "rule": "\"dürfen\" — ruxsat (mumkin); inkor bilan — taqiq (mumkin emas). \"sollen\" — boshqa odamning (shifokor, boshliq) ko'rsatmasi yoki maslahati; savolda \"Soll ich ...?\" — maslahat so'rash. Ikkalasida ham Infinitiv gap oxirida.",
+      "when": "Shifokor ko'rsatmalarini tushunish va boshqalarga yetkazish, ruxsat so'rash.",
+      "structure": "Subyekt + darf/soll + ... + Infinitiv.  Der Arzt sagt, ich soll + ... + Infinitiv.",
+      "examples": [
+        {
+          "de": "Sie dürfen drei Tage nicht arbeiten.",
+          "uz": "Uch kun ishlashingiz mumkin emas."
+        },
+        {
+          "de": "Darf ich wieder Sport machen?",
+          "uz": "Yana sport bilan shug'ullansam bo'ladimi?"
+        },
+        {
+          "de": "Die Ärztin sagt, ich soll viel Wasser trinken.",
+          "uz": "Shifokor ko'p suv ichishim kerakligini aytyapti."
+        },
+        {
+          "de": "Soll ich morgen wiederkommen?",
+          "uz": "Ertaga yana kelaymi?"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Mein Vater darft nicht rauchen.",
+          "right": "Mein Vater darf nicht rauchen.",
+          "why": "Modal fe'llarda \"er\" shaklida -t yo'q: er darf, er soll."
+        },
+        {
+          "wrong": "Sie dürfen nicht Kaffee trinken.",
+          "right": "Sie dürfen keinen Kaffee trinken.",
+          "why": "Artiklsiz otni inkor qilish uchun \"kein\" ishlatiladi."
+        },
+        {
+          "wrong": "Der Arzt sagt, ich soll trinken viel Wasser.",
+          "right": "Der Arzt sagt, ich soll viel Wasser trinken.",
+          "why": "Infinitiv (trinken) gap oxirida."
+        }
+      ],
+      "check": [
+        "a2-m18-l2-e02",
+        "a2-m18-l2-e03",
+        "a2-m18-l2-e04",
+        "a2-m18-l2-e05"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Ko'rikdan keyin",
+    "lines": [
+      {
+        "speaker": "Dr. Hartmann",
+        "de": "So, ich habe Sie untersucht. Sie haben eine Grippe.",
+        "uz": "Xo'sh, sizni tekshirdim. Sizda gripp."
+      },
+      {
+        "speaker": "Frau Ismoilova",
+        "de": "Oh nein. Darf ich morgen arbeiten?",
+        "uz": "Voy. Ertaga ishlasam bo'ladimi?"
+      },
+      {
+        "speaker": "Dr. Hartmann",
+        "de": "Nein, Sie dürfen diese Woche nicht arbeiten. Ich schreibe Sie bis Freitag krank.",
+        "uz": "Yo'q, bu hafta ishlashingiz mumkin emas. Sizga jumagacha kasallik varaqasi beraman."
+      },
+      {
+        "speaker": "Frau Ismoilova",
+        "de": "Was soll ich machen?",
+        "uz": "Nima qilishim kerak?"
+      },
+      {
+        "speaker": "Dr. Hartmann",
+        "de": "Sie sollen viel schlafen und viel trinken. Hier ist ein Rezept für Fiebertabletten.",
+        "uz": "Ko'p uxlashingiz va ko'p suyuqlik ichishingiz kerak. Mana isitma tabletkalari uchun retsept."
+      },
+      {
+        "speaker": "Frau Ismoilova",
+        "de": "Soll ich nächste Woche wiederkommen?",
+        "uz": "Kelasi hafta yana kelaymi?"
+      },
+      {
+        "speaker": "Dr. Hartmann",
+        "de": "Nur wenn es nicht besser wird.",
+        "uz": "Faqat yaxshilanmasa."
+      }
+    ],
+    "questions": [
+      "a2-m18-l2-e06"
+    ]
+  },
+  "situation": {
+    "title": "Boshliqqa qo'ng'iroq",
+    "context_uz": "Siz shifokordan qaytdingiz va boshlig'ingiz Herr Braunga qo'ng'iroq qilib, shifokor nima deganini aytyapsiz.",
+    "lines": [
+      {
+        "speaker": "Herr Braun",
+        "de": "Braun. Hallo?",
+        "uz": "Braun. Allo?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Guten Morgen, Herr Braun, hier ist Nodir. Ich war beim Arzt. Ich habe eine Grippe.",
+        "uz": "Xayrli tong, Braun janoblari, bu Nodir. Shifokorda bo'ldim. Menda gripp."
+      },
+      {
+        "speaker": "Herr Braun",
+        "de": "Oh, das tut mir leid. Wie lange sind Sie krank?",
+        "uz": "Voy, afsus. Qancha vaqt kasal bo'lasiz?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Der Arzt hat mich bis Freitag krankgeschrieben. Ich soll im Bett bleiben.",
+        "uz": "Shifokor menga jumagacha kasallik varaqasi berdi. To'shakda yotishim kerak."
+      },
+      {
+        "speaker": "Herr Braun",
+        "de": "Gut. Schicken Sie mir bitte die Krankschreibung. Gute Besserung!",
+        "uz": "Yaxshi. Kasallik varaqasini menga yuboring. Tezroq tuzaling!"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Danke, mache ich.",
+        "uz": "Rahmat, yuboraman."
+      }
+    ],
+    "task_uz": "Boshliq yoki o'qituvchingizga qo'ng'iroqni o'ynang: kasalligingiz, shifokor nima dedi (Ich soll ..., Ich darf nicht ...) va qachongacha kasallik varaqangiz bor."
+  },
+  "exercises": [
+    {
+      "id": "a2-m18-l2-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemischa so'zni o'zbekcha ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "das Rezept",
+          "retsept"
+        ],
+        [
+          "die Überweisung",
+          "yo'llanma"
+        ],
+        [
+          "die Krankschreibung",
+          "kasallik varaqasi"
+        ],
+        [
+          "der Blutdruck",
+          "qon bosimi"
+        ],
+        [
+          "der Facharzt",
+          "mutaxassis shifokor"
+        ]
+      ],
+      "correct_answer": {
+        "das Rezept": "retsept",
+        "die Überweisung": "yo'llanma",
+        "die Krankschreibung": "kasallik varaqasi",
+        "der Blutdruck": "qon bosimi",
+        "der Facharzt": "mutaxassis shifokor"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Rezept — dorixona uchun retsept, Überweisung — boshqa shifokorga yo'llanma, Krankschreibung — ishga bormaslik uchun hujjat, Blutdruck — qon bosimi, Facharzt — mutaxassis.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l2-e02",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "\"dürfen\" fe'lini \"er\" uchun tuslang: Er ___ heute nach Hause gehen.",
+      "prompt_de": "Er ___ heute nach Hause gehen.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "darf",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "dürfen: ich darf, du darfst, er darf (-t yo'q).",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l2-e03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 2,
+      "question": "Ma'no bo'yicha to'g'ri modal fe'lni tanlang: Ihr Blutdruck ist zu hoch. Sie ___ nicht so viel Salz essen.",
+      "prompt_de": null,
+      "options": [
+        "dürfen",
+        "müssen",
+        "möchten"
+      ],
+      "pairs": null,
+      "correct_answer": "dürfen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Shifokor taqiqlayapti.",
+      "explanation": "Taqiq — \"nicht dürfen\". \"nicht müssen\" esa \"shart emas\" degani, bu yerda mantiqsiz.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l2-e04",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (sollen): Der Arzt sagt, ich ___ viel Wasser trinken.",
+      "prompt_de": "Der Arzt sagt, ich ___ viel Wasser trinken.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "soll",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Boshqa odamning (shifokorning) ko'rsatmasi — \"sollen\": ich soll.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l2-e05",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 2,
+      "question": "Gapdagi xato so'zni toping: \"Mein Vater darft nicht mehr rauchen.\"",
+      "prompt_de": "Mein Vater darft nicht mehr rauchen.",
+      "options": [
+        "Mein",
+        "Vater",
+        "darft",
+        "nicht",
+        "mehr",
+        "rauchen"
+      ],
+      "pairs": null,
+      "correct_answer": "darft",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: \"darf\". Modal fe'llarning \"er\" shaklida -t qo'shilmaydi.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l2-e06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Frau Ismoilova qachongacha ishlamaydi?",
+      "prompt_de": null,
+      "options": [
+        "Jumagacha",
+        "Ertagacha",
+        "Kelasi haftagacha"
+      ],
+      "pairs": null,
+      "correct_answer": "Jumagacha",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"bis Freitag krank\" — jumagacha kasallik varaqasi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Nein, Sie dürfen diese Woche nicht arbeiten. Ich schreibe Sie bis Freitag krank."
+    },
+    {
+      "id": "a2-m18-l2-e07",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 2,
+      "question": "So'zlarni to'g'ri tartibda joylashtiring: \"Siz uch kun to'shakda yotishingiz kerak (shifokor ko'rsatmasi).\"",
+      "prompt_de": null,
+      "options": [
+        "drei",
+        "sollen",
+        "im",
+        "Tage",
+        "Sie",
+        "bleiben",
+        "Bett"
+      ],
+      "pairs": null,
+      "correct_answer": "Sie sollen drei Tage im Bett bleiben",
+      "accepted_answers": [
+        "Drei Tage sollen Sie im Bett bleiben"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"sollen\" 2-o'rinda, \"bleiben\" oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l2-e08",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Dialogni davom ettiring. Bemor: — Darf ich morgen wieder arbeiten?",
+      "prompt_de": "Darf ich morgen wieder arbeiten?",
+      "options": [
+        "Nein, Sie sollen noch zwei Tage zu Hause bleiben.",
+        "Ja, Sie dürfen keinen Sport.",
+        "Ich darf morgen arbeiten."
+      ],
+      "pairs": null,
+      "correct_answer": "Nein, Sie sollen noch zwei Tage zu Hause bleiben.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Shifokor ruxsat bermaydi va ko'rsatma beradi: \"Sie sollen ... bleiben\".",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l2-e09",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "health",
+      "grammar_topic": "g-perfekt",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Shifokor qon bosimimni o'lchadi.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Der Arzt hat meinen Blutdruck gemessen.",
+      "accepted_answers": [
+        "Die Ärztin hat meinen Blutdruck gemessen.",
+        "Der Doktor hat meinen Blutdruck gemessen."
+      ],
+      "criteria": null,
+      "hint": "messen → gemessen",
+      "explanation": "Perfekt: hat ... gemessen. \"der Blutdruck\" Akkusativda: meinen Blutdruck.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l2-e10",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Shifokor eslatmasini o'qing. Qaysi gap to'g'ri?",
+      "prompt_de": "Hinweise für Herrn Saidov: Sie haben eine starke Erkältung. Sie sind bis Mittwoch krankgeschrieben. Sie sollen viel trinken und schlafen. Sie dürfen eine Woche keinen Sport machen. Rezept: Hustensaft, dreimal täglich.",
+      "options": [
+        "Bemor 1 hafta sport qilmasligi kerak",
+        "Bemor ertaga ishga borishi mumkin",
+        "Bemor retseptsiz qoldi"
+      ],
+      "pairs": null,
+      "correct_answer": "Bemor 1 hafta sport qilmasligi kerak",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Sie dürfen eine Woche keinen Sport machen\" — bir hafta sport mumkin emas. Chorshanbagacha ishlamaydi, retsept bor.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l2-e11",
+      "version": 1,
+      "type": "plural",
+      "skill": "vocabulary",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Ko'plik shaklini yozing: das Rezept → ?",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "die Rezepte",
+      "accepted_answers": [
+        "Rezepte"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "das Rezept → die Rezepte (-e).",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a2-m18-l2-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "\"die Überweisung\" shifokorda nimani bildiradi?",
+      "prompt_de": null,
+      "options": [
+        "boshqa shifokorga yo'llanma",
+        "dori uchun retsept",
+        "kasallik varaqasi"
+      ],
+      "pairs": null,
+      "correct_answer": "boshqa shifokorga yo'llanma",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Überweisung — Facharzt (mutaxassis)ga yo'llanma.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l2-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (dürfen): Hier ___ man nicht rauchen.",
+      "prompt_de": "Hier ___ man nicht rauchen.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "darf",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"man\" — 3-shaxs birlik: darf. \"nicht dürfen\" — taqiq.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l2-t03",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 2,
+      "question": "\"sollen\" fe'lini \"du\" uchun tuslang: Du ___ mehr schlafen.",
+      "prompt_de": "Du ___ mehr schlafen.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "sollst",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "sollen: ich soll, du sollst, er soll.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l2-t04",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Boshlig'ingiz so'rayapti: \"Wie lange sind Sie krank?\" Shifokor sizga chorshanbagacha varaqa berdi. Nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Der Arzt hat mich bis Mittwoch krankgeschrieben.",
+        "Der Arzt ist bis Mittwoch krank.",
+        "Ich darf bis Mittwoch arbeiten."
+      ],
+      "pairs": null,
+      "correct_answer": "Der Arzt hat mich bis Mittwoch krankgeschrieben.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"krankschreiben\" — kasallik varaqasi bermoq: Der Arzt hat mich ... krankgeschrieben.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l2-t05",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "reading",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Soll ich morgen wiederkommen?\"",
+      "prompt_de": "Soll ich morgen wiederkommen?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ertaga yana kelaymi?",
+      "accepted_answers": [
+        "Ertaga qaytib kelaymi?",
+        "Ertaga yana kelishim kerakmi?",
+        "Men ertaga yana kelaymi?"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Soll ich ...?\" — maslahat so'rash: ...-aymi? / ... kerakmi?",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l2-t06",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "To'g'ri artiklni tanlang: ___ Rezept",
+      "prompt_de": null,
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "das",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "das Rezept, ko'pligi: die Rezepte.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l2-t07",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang. Bemorga nima mumkin emas?",
+      "prompt_de": null,
+      "options": [
+        "Bir hafta sport qilish",
+        "Choy ichish",
+        "Uyda qolish"
+      ],
+      "pairs": null,
+      "correct_answer": "Bir hafta sport qilish",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Sie dürfen eine Woche keinen Sport machen\" — bir hafta sport mumkin emas. Choy esa ko'p ichish kerak.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Atmen Sie bitte tief ein. Gut. Sie dürfen eine Woche keinen Sport machen, aber Sie sollen viel Tee trinken."
+    }
+  ]
+}

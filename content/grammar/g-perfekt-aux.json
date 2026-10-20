@@ -1,0 +1,326 @@
+{
+  "id": "g-perfekt-aux",
+  "version": 1,
+  "level": "A2",
+  "order": 17,
+  "title": "Perfekt: haben yoki sein?",
+  "prerequisites": [
+    "g-perfekt",
+    "g-sein-haben"
+  ],
+  "next": [
+    "g-praeteritum"
+  ],
+  "rule": "Ko'pchilik fe'llar Perfektni haben bilan yasaydi. sein bilan: joydan joyga harakat (gehen, fahren, kommen, fliegen), holat o'zgarishi (aufstehen, einschlafen, werden) va sein, bleiben, passieren.",
+  "when": "O'tgan voqeani aytayotganda yordamchi fe'lni to'g'ri tanlash uchun.",
+  "structure": "harakat / holat o'zgarishi → sein + Partizip II | qolgan fe'llar → haben + Partizip II",
+  "explanation": [
+    {
+      "type": "table",
+      "headers": [
+        "Guruh",
+        "Fe'llar",
+        "Misol"
+      ],
+      "rows": [
+        [
+          "A → B harakat",
+          "gehen, fahren, fliegen, kommen, laufen",
+          "Ich bin nach Samarkand gefahren."
+        ],
+        [
+          "holat o'zgarishi",
+          "aufstehen, einschlafen, aufwachen, werden",
+          "Er ist um 6 Uhr aufgestanden."
+        ],
+        [
+          "istisnolar",
+          "sein, bleiben, passieren",
+          "Wir sind zu Hause geblieben."
+        ],
+        [
+          "qolgan hammasi",
+          "machen, essen, lernen, schlafen, arbeiten",
+          "Ich habe gut geschlafen."
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Olmosh",
+        "sein + gehen",
+        "haben + essen"
+      ],
+      "rows": [
+        [
+          "ich",
+          "bin gegangen",
+          "habe gegessen"
+        ],
+        [
+          "du",
+          "bist gegangen",
+          "hast gegessen"
+        ],
+        [
+          "er / sie / es",
+          "ist gegangen",
+          "hat gegessen"
+        ],
+        [
+          "wir",
+          "sind gegangen",
+          "haben gegessen"
+        ],
+        [
+          "ihr",
+          "seid gegangen",
+          "habt gegessen"
+        ],
+        [
+          "sie / Sie",
+          "sind gegangen",
+          "haben gegessen"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "schlafen — joy o'zgarmaydi → haben (Ich habe geschlafen). einschlafen — holat o'zgaradi → sein (Ich bin eingeschlafen)."
+    }
+  ],
+  "examples": [
+    {
+      "de": "Ich bin gestern ins Kino gegangen.",
+      "uz": "Kecha kinoga bordim."
+    },
+    {
+      "de": "Wir sind mit dem Zug nach Buchara gefahren.",
+      "uz": "Biz poyezdda Buxoroga bordik."
+    },
+    {
+      "de": "Was ist passiert?",
+      "uz": "Nima bo'ldi?"
+    },
+    {
+      "de": "Sie ist Ärztin geworden.",
+      "uz": "U shifokor bo'ldi."
+    },
+    {
+      "de": "Ich habe heute lange geschlafen.",
+      "uz": "Bugun uzoq uxladim."
+    },
+    {
+      "de": "Am Sonntag sind wir zu Hause geblieben.",
+      "uz": "Yakshanba kuni uyda qoldik."
+    }
+  ],
+  "common_mistakes": [
+    {
+      "wrong": "Ich habe nach Hause gegangen.",
+      "right": "Ich bin nach Hause gegangen.",
+      "why": "gehen — harakat, sein bilan."
+    },
+    {
+      "wrong": "Wir haben zu Hause geblieben.",
+      "right": "Wir sind zu Hause geblieben.",
+      "why": "bleiben — istisno, sein bilan."
+    },
+    {
+      "wrong": "Ich bin gut geschlafen.",
+      "right": "Ich habe gut geschlafen.",
+      "why": "schlafen — harakat ham, holat o'zgarishi ham emas → haben."
+    },
+    {
+      "wrong": "Was hat passiert?",
+      "right": "Was ist passiert?",
+      "why": "passieren — sein bilan."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "g-perfekt-aux-e01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "past-events",
+      "grammar_topic": "g-perfekt-aux",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: \"Ich ___ nach Hause gegangen.\"",
+      "prompt_de": "Ich ___ nach Hause gegangen.",
+      "options": [
+        "bin",
+        "habe"
+      ],
+      "pairs": null,
+      "correct_answer": "bin",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "gehen — harakat → sein: ich bin gegangen.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-perfekt-aux-e02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-perfekt-aux",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: \"Wir ___ Pizza gegessen.\"",
+      "prompt_de": "Wir ___ Pizza gegessen.",
+      "options": [
+        "haben",
+        "sind"
+      ],
+      "pairs": null,
+      "correct_answer": "haben",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "essen — harakat emas → haben.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-perfekt-aux-e03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "daily-routine",
+      "grammar_topic": "g-perfekt-aux",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: \"Er ___ heute um 6 Uhr aufgestanden.\"",
+      "prompt_de": "Er ___ heute um 6 Uhr aufgestanden.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "ist",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "aufstehen — holat o'zgarishi → sein: er ist aufgestanden.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-perfekt-aux-e04",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "daily-routine",
+      "grammar_topic": "g-perfekt-aux",
+      "difficulty": 2,
+      "question": "Bo'sh joyni to'ldiring: \"___ du gut geschlafen?\"",
+      "prompt_de": "___ du gut geschlafen?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Hast",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "schlafen → haben: Hast du gut geschlafen?",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-perfekt-aux-e05",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "past-events",
+      "grammar_topic": "g-perfekt-aux",
+      "difficulty": 2,
+      "question": "Bo'sh joyni to'ldiring: \"Was ___ passiert?\"",
+      "prompt_de": "Was ___ passiert?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "ist",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "passieren — sein bilan: Was ist passiert?",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-perfekt-aux-e06",
+      "version": 1,
+      "type": "match",
+      "skill": "grammar",
+      "topic": "past-events",
+      "grammar_topic": "g-perfekt-aux",
+      "difficulty": 1,
+      "question": "Fe'lni Perfekt shakli bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "gehen",
+          "ist gegangen"
+        ],
+        [
+          "essen",
+          "hat gegessen"
+        ],
+        [
+          "bleiben",
+          "ist geblieben"
+        ],
+        [
+          "lernen",
+          "hat gelernt"
+        ]
+      ],
+      "correct_answer": {
+        "gehen": "ist gegangen",
+        "essen": "hat gegessen",
+        "bleiben": "ist geblieben",
+        "lernen": "hat gelernt"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "gehen, bleiben — sein; essen, lernen — haben.",
+      "error_type": "tense",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "g-perfekt-aux-e07",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "travel",
+      "grammar_topic": "g-perfekt-aux",
+      "difficulty": 2,
+      "question": "Xato so'zni toping: \"Letztes Jahr habe ich nach Deutschland geflogen.\"",
+      "prompt_de": "Letztes Jahr habe ich nach Deutschland geflogen.",
+      "options": [
+        "Letztes",
+        "Jahr",
+        "habe",
+        "ich",
+        "nach",
+        "Deutschland",
+        "geflogen"
+      ],
+      "pairs": null,
+      "correct_answer": "habe",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "fliegen — harakat → sein: Letztes Jahr bin ich nach Deutschland geflogen.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

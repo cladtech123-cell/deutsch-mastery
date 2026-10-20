@@ -1,0 +1,935 @@
+{
+  "id": "a1-m07-l3",
+  "version": 2,
+  "level": "A1",
+  "module": 7,
+  "order": 3,
+  "title": "Restoranda buyurtma",
+  "title_de": "Im Restaurant",
+  "goal": "Dars oxirida restoranda \"Ich möchte ...\" bilan ichimlik va taom buyurtma qilasiz, menyu va hisobni so'raysiz hamda \"Zusammen oder getrennt?\" savoliga javob bera olasiz.",
+  "skill_focus": [
+    "speaking",
+    "listening",
+    "grammar"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Restoranda eng kerakli fe'l — möchten (xohlamoq). U muloyim shakl: \"Ich möchte einen Tee\" — \"Men bitta choy xohlardim\". \"Ich will\" (xohlayman) restoranda qo'pol eshitiladi."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Shaxs",
+        "möchten"
+      ],
+      "rows": [
+        [
+          "ich",
+          "möchte"
+        ],
+        [
+          "du",
+          "möchtest"
+        ],
+        [
+          "er / sie / es",
+          "möchte"
+        ],
+        [
+          "wir",
+          "möchten"
+        ],
+        [
+          "ihr",
+          "möchtet"
+        ],
+        [
+          "sie / Sie",
+          "möchten"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "möchten ikki xil ishlatiladi: 1) ot bilan (Akkusativ!): Ich möchte einen Salat. 2) boshqa fe'l bilan — u infinitivda gap oxiriga o'tadi: Wir möchten bestellen. Ich möchte bezahlen."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Nemischa",
+        "O'zbekcha",
+        "Kim aytadi"
+      ],
+      "rows": [
+        [
+          "Was möchten Sie trinken?",
+          "Nima ichasiz?",
+          "ofitsiant"
+        ],
+        [
+          "Die Speisekarte, bitte.",
+          "Menyuni bering, iltimos.",
+          "mehmon"
+        ],
+        [
+          "Ich möchte einen Kaffee, bitte.",
+          "Menga bitta qahva, iltimos.",
+          "mehmon"
+        ],
+        [
+          "Die Rechnung, bitte.",
+          "Hisobni bering, iltimos.",
+          "mehmon"
+        ],
+        [
+          "Zusammen oder getrennt?",
+          "Birga to'laysizmi yoki alohida?",
+          "ofitsiant"
+        ],
+        [
+          "Stimmt so.",
+          "Qaytimi kerak emas.",
+          "mehmon"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "\"ich möchte\" va \"er möchte\" bir xil — oxirida -t yo'q. \"möchtet\" faqat \"ihr\" bilan."
+    },
+    {
+      "type": "tip",
+      "text": "Germaniyada choychaqa (Trinkgeld) odatda 5–10%. Hisob 18,50 € bo'lsa, 20 € berib \"Stimmt so\" deyish mumkin."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-das-restaurant",
+      "de": "Restaurant",
+      "uz": "restoran",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Restaurants",
+      "forms": null,
+      "example_de": "Wir essen heute im Restaurant.",
+      "example_uz": "Bugun biz restoranda ovqatlanamiz.",
+      "topic": "restaurant"
+    },
+    {
+      "id": "v-die-speisekarte",
+      "de": "Speisekarte",
+      "uz": "menyu",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Speisekarten",
+      "forms": null,
+      "example_de": "Die Speisekarte, bitte!",
+      "example_uz": "Menyuni bering, iltimos!",
+      "topic": "restaurant"
+    },
+    {
+      "id": "v-der-kellner",
+      "de": "Kellner",
+      "uz": "ofitsiant",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Kellner",
+      "forms": null,
+      "example_de": "Der Kellner fragt: \"Was möchten Sie?\"",
+      "example_uz": "Ofitsiant so'raydi: \"Nima xohlaysiz?\"",
+      "topic": "restaurant"
+    },
+    {
+      "id": "v-die-kellnerin",
+      "de": "Kellnerin",
+      "uz": "ofitsiant (ayol)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Kellnerinnen",
+      "forms": null,
+      "example_de": "Die Kellnerin bringt die Rechnung.",
+      "example_uz": "Ofitsiant ayol hisobni olib keladi.",
+      "topic": "restaurant"
+    },
+    {
+      "id": "v-die-suppe",
+      "de": "Suppe",
+      "uz": "sho'rva",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Suppen",
+      "forms": null,
+      "example_de": "Ich möchte eine Suppe, bitte.",
+      "example_uz": "Menga bitta sho'rva, iltimos.",
+      "topic": "restaurant"
+    },
+    {
+      "id": "v-der-salat",
+      "de": "Salat",
+      "uz": "salat",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Salate",
+      "forms": null,
+      "example_de": "Der Salat ist sehr lecker.",
+      "example_uz": "Salat juda mazali.",
+      "topic": "restaurant"
+    },
+    {
+      "id": "v-der-kaffee",
+      "de": "Kaffee",
+      "uz": "qahva",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Kaffees",
+      "forms": null,
+      "example_de": "Möchtest du einen Kaffee?",
+      "example_uz": "Qahva ichasanmi?",
+      "topic": "restaurant"
+    },
+    {
+      "id": "v-die-rechnung",
+      "de": "Rechnung",
+      "uz": "hisob (to'lov qog'ozi)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Rechnungen",
+      "forms": null,
+      "example_de": "Die Rechnung, bitte!",
+      "example_uz": "Hisobni bering, iltimos!",
+      "topic": "restaurant"
+    },
+    {
+      "id": "v-das-glas",
+      "de": "Glas",
+      "uz": "stakan",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Gläser",
+      "forms": null,
+      "example_de": "Ein Glas Wasser, bitte.",
+      "example_uz": "Bir stakan suv, iltimos.",
+      "topic": "restaurant"
+    },
+    {
+      "id": "v-bestellen",
+      "de": "bestellen",
+      "uz": "buyurtma bermoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "bestellt",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "bestellt"
+      },
+      "example_de": "Wir möchten bestellen.",
+      "example_uz": "Biz buyurtma bermoqchimiz.",
+      "topic": "restaurant"
+    },
+    {
+      "id": "v-bezahlen",
+      "de": "bezahlen",
+      "uz": "to'lamoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "bezahlt",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "bezahlt"
+      },
+      "example_de": "Ich möchte bezahlen, bitte.",
+      "example_uz": "Men to'lamoqchiman.",
+      "topic": "restaurant"
+    },
+    {
+      "id": "v-möchten",
+      "de": "möchten",
+      "uz": "xohlamoq (muloyim); o'tgan zamonda wollen ishlatiladi: wollte, hat gewollt",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "gewollt",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "möchte",
+        "praeteritum": "wollte"
+      },
+      "example_de": "Was möchten Sie trinken?",
+      "example_uz": "Nima ichishni xohlaysiz?",
+      "topic": "restaurant"
+    },
+    {
+      "id": "v-lecker",
+      "de": "lecker",
+      "uz": "mazali",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Das Essen ist sehr lecker!",
+      "example_uz": "Taom juda mazali!",
+      "topic": "restaurant"
+    }
+  ],
+  "review_vocabulary": [
+    "v-der-tee",
+    "v-der-saft",
+    "v-das-fleisch",
+    "v-der-fisch",
+    "v-das-hähnchen",
+    "v-die-kartoffel",
+    "v-trinken",
+    "v-nehmen",
+    "v-der-kuchen",
+    "v-der-reis",
+    "v-zusammen"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-modal-verbs",
+      "rule": "möchten — muloyim xohishni bildiradigan modal fe'l. U ot bilan (Akkusativ) yoki gap oxiridagi infinitiv bilan ishlatiladi.",
+      "when": "Restoran, kafe, do'konda biror narsa so'raganda, buyurtma berganda, muloyim xohish bildirganda.",
+      "structure": "Ega + möchte + Akkusativ: Ich möchte einen Salat.\nEga + möchte + ... + infinitiv (oxirida): Wir möchten jetzt bestellen.",
+      "examples": [
+        {
+          "de": "Ich möchte einen Kaffee, bitte.",
+          "uz": "Menga bitta qahva, iltimos."
+        },
+        {
+          "de": "Was möchten Sie essen?",
+          "uz": "Nima yeyishni xohlaysiz?"
+        },
+        {
+          "de": "Mein Sohn möchte eine Suppe.",
+          "uz": "O'g'lim sho'rva xohlaydi."
+        },
+        {
+          "de": "Wir möchten bezahlen.",
+          "uz": "Biz to'lamoqchimiz."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Ich möchte bestellen einen Salat.",
+          "right": "Ich möchte einen Salat bestellen.",
+          "why": "Ikkinchi fe'l (infinitiv) doim gap oxiriga o'tadi."
+        },
+        {
+          "wrong": "Er möchtet einen Tee.",
+          "right": "Er möchte einen Tee.",
+          "why": "er/sie/es bilan ham \"möchte\" — oxiriga -t qo'shilmaydi."
+        },
+        {
+          "wrong": "Ich möchte ein Kaffee.",
+          "right": "Ich möchte einen Kaffee.",
+          "why": "Kaffee — der. möchten dan keyin Akkusativ: einen Kaffee."
+        }
+      ],
+      "check": [
+        "a1-m07-l3-e03",
+        "a1-m07-l3-e04",
+        "a1-m07-l3-e05",
+        "a1-m07-l3-e12"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Restoranda kechki ovqat",
+    "lines": [
+      {
+        "speaker": "Kellner",
+        "de": "Guten Abend! Was möchten Sie trinken?",
+        "uz": "Xayrli kech! Nima ichasiz?"
+      },
+      {
+        "speaker": "Frau Karimova",
+        "de": "Ich möchte ein Glas Wasser, bitte.",
+        "uz": "Bir stakan suv, iltimos."
+      },
+      {
+        "speaker": "Kellner",
+        "de": "Und was möchten Sie essen?",
+        "uz": "Nima yeysiz?"
+      },
+      {
+        "speaker": "Frau Karimova",
+        "de": "Ich nehme eine Suppe und einen Salat.",
+        "uz": "Men bitta sho'rva va bitta salat olaman."
+      },
+      {
+        "speaker": "Frau Karimova",
+        "de": "Die Rechnung, bitte.",
+        "uz": "Hisobni bering, iltimos."
+      },
+      {
+        "speaker": "Kellner",
+        "de": "Das macht 14,80 Euro.",
+        "uz": "Jami 14 evro 80 sent."
+      },
+      {
+        "speaker": "Frau Karimova",
+        "de": "15 Euro. Stimmt so.",
+        "uz": "15 evro. Qaytimi kerak emas."
+      },
+      {
+        "speaker": "Kellner",
+        "de": "Vielen Dank!",
+        "uz": "Katta rahmat!"
+      }
+    ],
+    "questions": [
+      "a1-m07-l3-e08",
+      "a1-m07-l3-e09"
+    ]
+  },
+  "situation": {
+    "title": "Kafeda do'st bilan",
+    "context_uz": "Siz do'stingiz Timur bilan Berlindagi kafedasiz. Ofitsiant ayol keldi.",
+    "lines": [
+      {
+        "speaker": "Kellnerin",
+        "de": "Hallo! Möchten Sie bestellen?",
+        "uz": "Salom! Buyurtma berasizmi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ja. Ich möchte einen Tee und einen Kuchen, bitte.",
+        "uz": "Ha. Menga bitta choy va bitta pirog, iltimos."
+      },
+      {
+        "speaker": "Timur",
+        "de": "Und ich möchte einen Kaffee.",
+        "uz": "Menga esa bitta qahva."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Die Rechnung, bitte.",
+        "uz": "Hisobni bering, iltimos."
+      },
+      {
+        "speaker": "Kellnerin",
+        "de": "Zusammen oder getrennt?",
+        "uz": "Birgami yoki alohida?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Zusammen, bitte.",
+        "uz": "Birga, iltimos."
+      },
+      {
+        "speaker": "Kellnerin",
+        "de": "Das macht 9,60 Euro.",
+        "uz": "Jami 9 evro 60 sent."
+      },
+      {
+        "speaker": "Siz",
+        "de": "10 Euro. Stimmt so.",
+        "uz": "10 evro. Qaytimi kerak emas."
+      }
+    ],
+    "task_uz": "Rollarni almashtiring: o'zingiz va do'stingiz uchun boshqa ichimlik va taom buyurtma qiling (\"Ich möchte ...\", \"Mein Freund möchte ...\"), keyin alohida to'lashni so'rang: \"Getrennt, bitte.\""
+  },
+  "exercises": [
+    {
+      "id": "a1-m07-l3-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "restaurant",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "So'zlarni juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "Speisekarte",
+          "menyu"
+        ],
+        [
+          "Rechnung",
+          "hisob"
+        ],
+        [
+          "Kellner",
+          "ofitsiant"
+        ],
+        [
+          "Suppe",
+          "sho'rva"
+        ],
+        [
+          "Glas",
+          "stakan"
+        ]
+      ],
+      "correct_answer": {
+        "Speisekarte": "menyu",
+        "Rechnung": "hisob",
+        "Kellner": "ofitsiant",
+        "Suppe": "sho'rva",
+        "Glas": "stakan"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Speisekarte — menyu, Rechnung — hisob, Kellner — ofitsiant, Suppe — sho'rva, Glas — stakan.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l3-e02",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "restaurant",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Artiklni tanlang: ___ Rechnung",
+      "prompt_de": "___ Rechnung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "die",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "-ung → doim die",
+      "explanation": "-ung bilan tugaydigan otlar doim ayol jinsida: die Rechnung.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l3-e03",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "restaurant",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "Fe'lni tuslang: Was ___ (möchten) du trinken?",
+      "prompt_de": "Was ___ (möchten) du trinken?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "möchtest",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "du → möchtest. Savolda: Was möchtest du trinken?",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l3-e04",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "restaurant",
+      "grammar_topic": "g-akkusativ",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (\"bitta\"): Ich möchte ___ Salat.",
+      "prompt_de": "Ich möchte ___ Salat.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "einen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Salat → möchten dan keyin Akkusativ: einen Salat.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l3-e05",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "restaurant",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "So'zlarni tartiblang: \"Biz hozir buyurtma bermoqchimiz.\"",
+      "prompt_de": null,
+      "options": [
+        "Wir",
+        "jetzt",
+        "möchten",
+        "bestellen"
+      ],
+      "pairs": null,
+      "correct_answer": "Wir möchten jetzt bestellen",
+      "accepted_answers": [
+        "Jetzt möchten wir bestellen"
+      ],
+      "criteria": null,
+      "hint": "Infinitiv oxirida.",
+      "explanation": "möchten 2-o'rinda, infinitiv \"bestellen\" — gap oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l3-e06",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "restaurant",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Ovqatlanib bo'ldingiz va to'lamoqchisiz. Ofitsiantga nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Die Rechnung, bitte!",
+        "Die Speisekarte, bitte!",
+        "Guten Appetit!"
+      ],
+      "pairs": null,
+      "correct_answer": "Die Rechnung, bitte!",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'lash uchun hisob so'raladi: \"Die Rechnung, bitte!\" Speisekarte — menyu, \"Guten Appetit\" — yoqimli ishtaha.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l3-e07",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "restaurant",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Ofitsiant so'radi: \"Zusammen oder getrennt?\" Siz faqat o'zingiz uchun to'laysiz. Qaysi javob mos?",
+      "prompt_de": "Zusammen oder getrennt?",
+      "options": [
+        "Getrennt, bitte.",
+        "Ich möchte eine Suppe.",
+        "Die Speisekarte ist lecker."
+      ],
+      "pairs": null,
+      "correct_answer": "Getrennt, bitte.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"getrennt\" — alohida. Har kim o'zi to'lasa, \"Getrennt, bitte\" deyiladi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l3-e08",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "restaurant",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni tinglang. Karimova xonim nima ichadi?",
+      "prompt_de": null,
+      "options": [
+        "Suv",
+        "Qahva",
+        "Choy"
+      ],
+      "pairs": null,
+      "correct_answer": "Suv",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Ich möchte ein Glas Wasser\" — u bir stakan suv so'radi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Guten Abend! Was möchten Sie trinken? Ich möchte ein Glas Wasser, bitte. Und was möchten Sie essen? Ich nehme eine Suppe und einen Salat. Die Rechnung, bitte. Das macht 14,80 Euro. 15 Euro. Stimmt so. Vielen Dank!"
+    },
+    {
+      "id": "a1-m07-l3-e09",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "restaurant",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Dialogni tinglang. Hisob qancha?",
+      "prompt_de": null,
+      "options": [
+        "14,80 €",
+        "15,80 €",
+        "4,80 €"
+      ],
+      "pairs": null,
+      "correct_answer": "14,80 €",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ofitsiant: \"Das macht 14,80 Euro.\" Mehmon 15 evro beradi va \"Stimmt so\" deydi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Guten Abend! Was möchten Sie trinken? Ich möchte ein Glas Wasser, bitte. Und was möchten Sie essen? Ich nehme eine Suppe und einen Salat. Die Rechnung, bitte. Das macht 14,80 Euro. 15 Euro. Stimmt so. Vielen Dank!"
+    },
+    {
+      "id": "a1-m07-l3-e10",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "restaurant",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Menga bir stakan suv, iltimos.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich möchte ein Glas Wasser, bitte.",
+      "accepted_answers": [
+        "Ein Glas Wasser, bitte.",
+        "Ich möchte bitte ein Glas Wasser.",
+        "Ich nehme ein Glas Wasser, bitte.",
+        "Ich hätte gern ein Glas Wasser.",
+        "Ich möchte ein Glas Wasser.",
+        "Ich nehme ein Glas Wasser."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Muloyim so'rov: Ich möchte ... bitte. Glas — das, Akkusativda ham ein Glas.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l3-e11",
+      "version": 1,
+      "type": "speak",
+      "skill": "speaking",
+      "topic": "restaurant",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Ovoz chiqarib ayting: restoranda ichimlik va taom buyurtma qiling, keyin hisobni so'rang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 8,
+        "required_words": [
+          "möchte",
+          "Rechnung"
+        ],
+        "sample": "Ich möchte einen Tee und eine Suppe, bitte. Die Rechnung, bitte."
+      },
+      "hint": null,
+      "explanation": "Namuna: \"Ich möchte einen Tee und eine Suppe, bitte. Die Rechnung, bitte.\" möchten + Akkusativ ishlating.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l3-e12",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "restaurant",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "Xato so'zni toping: \"Er möchtet einen Kaffee.\"",
+      "prompt_de": "Er möchtet einen Kaffee.",
+      "options": [
+        "Er",
+        "möchtet",
+        "einen",
+        "Kaffee"
+      ],
+      "pairs": null,
+      "correct_answer": "möchtet",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: \"Er möchte einen Kaffee.\" er/sie/es bilan \"möchte\".",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a1-m07-l3-t01",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "restaurant",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Restoranga kirdingiz, menyuni ko'rmoqchisiz. Nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Die Speisekarte, bitte.",
+        "Die Rechnung, bitte.",
+        "Zusammen, bitte."
+      ],
+      "pairs": null,
+      "correct_answer": "Die Speisekarte, bitte.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Speisekarte — menyu.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l3-t02",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "restaurant",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "Fe'lni tuslang: Meine Eltern ___ (möchten) Tee.",
+      "prompt_de": "Meine Eltern ___ (möchten) Tee.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "möchten",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Meine Eltern = sie (ko'plik) → möchten.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l3-t03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "restaurant",
+      "grammar_topic": "g-akkusativ",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (\"bitta\"): Ich möchte ___ Kaffee.",
+      "prompt_de": "Ich möchte ___ Kaffee.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "einen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Kaffee → einen Kaffee (Akkusativ).",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l3-t04",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "restaurant",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "So'zlarni tartiblang: \"Do'stim bitta salat xohlaydi.\"",
+      "prompt_de": null,
+      "options": [
+        "einen",
+        "Mein",
+        "möchte",
+        "Salat",
+        "Freund"
+      ],
+      "pairs": null,
+      "correct_answer": "Mein Freund möchte einen Salat",
+      "accepted_answers": [
+        "Einen Salat möchte mein Freund"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ega + möchte + Akkusativ.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l3-t05",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "restaurant",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Das Essen ist sehr lecker.\"",
+      "prompt_de": "Das Essen ist sehr lecker.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ovqat juda mazali.",
+      "accepted_answers": [
+        "Taom juda mazali",
+        "Ovqat juda mazali ekan",
+        "Taom juda mazali ekan"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "lecker — mazali.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m07-l3-t06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "restaurant",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Mehmon nimani buyurtma qildi?",
+      "prompt_de": null,
+      "options": [
+        "Qahva va pirog",
+        "Choy va pirog",
+        "Qahva va salat"
+      ],
+      "pairs": null,
+      "correct_answer": "Qahva va pirog",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"einen Kaffee und einen Kuchen\" — qahva va pirog.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Ich möchte einen Kaffee und einen Kuchen, bitte."
+    },
+    {
+      "id": "a1-m07-l3-t07",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "restaurant",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Ofitsiant: \"Was möchten Sie trinken?\" Qaysi javob mos?",
+      "prompt_de": "Was möchten Sie trinken?",
+      "options": [
+        "Einen Tee, bitte.",
+        "Die Rechnung, bitte.",
+        "Ich bin Tee."
+      ],
+      "pairs": null,
+      "correct_answer": "Einen Tee, bitte.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ichimlik so'raldi — ichimlik aytiladi: \"Einen Tee, bitte.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

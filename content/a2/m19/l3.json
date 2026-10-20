@@ -1,0 +1,822 @@
+{
+  "id": "a2-m19-l3",
+  "version": 1,
+  "level": "A2",
+  "module": 19,
+  "order": 3,
+  "title": "Almashtirish, qaytarish va shikoyat",
+  "title_de": "Umtausch, Rückgabe und Beschwerde",
+  "goal": "Dars oxirida do'konda yoki telefonda muammoni (\"zu klein\", \"funktioniert nicht\") tushuntirib, mahsulotni almashtirish yoki pulni qaytarishni muloyim so'ray olasiz.",
+  "skill_focus": [
+    "speaking",
+    "listening",
+    "grammar"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Internetdan olingan narsani qonun bo'yicha 14 kun ichida qaytarish mumkin. Do'kondan olingan narsani qaytarish do'kon qoidasiga bog'liq: ko'p do'konlar 14–30 kun beradi. Kassa chekini (der Kassenbon) albatta saqlang!"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Muammo",
+        "Nemischa",
+        "O'zbekcha"
+      ],
+      "rows": [
+        [
+          "O'lcham mos emas",
+          "Die Hose ist zu klein. Haben Sie sie eine Nummer größer?",
+          "Shim juda kichik. Bir o'lcham kattarog'i bormi?"
+        ],
+        [
+          "Narsa ishlamaydi",
+          "Der Wasserkocher funktioniert nicht.",
+          "Elektr choynak ishlamayapti."
+        ],
+        [
+          "Nuqsoni bor",
+          "Die Jacke hat einen Fehler.",
+          "Kurtkaning nuqsoni bor."
+        ],
+        [
+          "Pulni qaytarish",
+          "Ich möchte mein Geld zurück.",
+          "Pulimni qaytarib olmoqchiman."
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Shikoyatda avval Perfekt bilan nima bo'lganini ayting (Ich habe ... gekauft / bestellt), keyin muammoni (zu + sifat), oxirida istagingizni (möchten + infinitiv)."
+    },
+    {
+      "type": "tip",
+      "text": "Shikoyatni muloyim boshlang: \"Entschuldigung, ich habe ein Problem.\" Nemis do'konlarida xotirjam va aniq gapirish eng yaxshi natija beradi."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-der-umtausch",
+      "de": "Umtausch",
+      "uz": "almashtirish",
+      "pos": "noun",
+      "article": "der",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Ein Umtausch ist nur mit Kassenbon möglich.",
+      "example_uz": "Almashtirish faqat chek bilan mumkin.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-die-rückgabe",
+      "de": "Rückgabe",
+      "uz": "qaytarish (mahsulotni)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Rückgaben",
+      "forms": null,
+      "example_de": "Die Rückgabe ist 30 Tage möglich.",
+      "example_uz": "Qaytarish 30 kun davomida mumkin.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-die-beschwerde",
+      "de": "Beschwerde",
+      "uz": "shikoyat",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Beschwerden",
+      "forms": null,
+      "example_de": "Ich habe eine Beschwerde.",
+      "example_uz": "Mening shikoyatim bor.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-der-kassenbon",
+      "de": "Kassenbon",
+      "uz": "kassa cheki",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Kassenbons",
+      "forms": null,
+      "example_de": "Haben Sie noch den Kassenbon?",
+      "example_uz": "Kassa cheki hali sizdami?",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-der-fehler",
+      "de": "Fehler",
+      "uz": "nuqson; xato",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Fehler",
+      "forms": null,
+      "example_de": "Der Pullover hat einen Fehler.",
+      "example_uz": "Sviterning nuqsoni bor.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-die-garantie",
+      "de": "Garantie",
+      "uz": "kafolat",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Garantien",
+      "forms": null,
+      "example_de": "Das Handy hat zwei Jahre Garantie.",
+      "example_uz": "Telefonning ikki yillik kafolati bor.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-der-gutschein",
+      "de": "Gutschein",
+      "uz": "vaucher, sovg'a kartasi",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Gutscheine",
+      "forms": null,
+      "example_de": "Sie bekommen einen Gutschein über 25 Euro.",
+      "example_uz": "Siz 25 yevrolik vaucher olasiz.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-der-kundenservice",
+      "de": "Kundenservice",
+      "uz": "mijozlarga xizmat ko'rsatish bo'limi",
+      "pos": "noun",
+      "article": "der",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Rufen Sie bitte den Kundenservice an.",
+      "example_uz": "Iltimos, mijozlarga xizmat bo'limiga qo'ng'iroq qiling.",
+      "topic": "services"
+    },
+    {
+      "id": "v-umtauschen",
+      "de": "umtauschen",
+      "uz": "almashtirmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "umgetauscht",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "tauscht um"
+      },
+      "example_de": "Kann ich die Hose umtauschen?",
+      "example_uz": "Shimni almashtirsam bo'ladimi?",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-zurückgeben",
+      "de": "zurückgeben",
+      "uz": "qaytarib bermoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "zurückgegeben",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "gibt zurück",
+        "praeteritum": "gab zurück"
+      },
+      "example_de": "Ich möchte die Schuhe zurückgeben.",
+      "example_uz": "Poyabzalni qaytarib bermoqchiman.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-defekt",
+      "de": "defekt",
+      "uz": "nosoz, buzuq",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Das Gerät ist defekt.",
+      "example_uz": "Qurilma nosoz.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-eng",
+      "de": "eng",
+      "uz": "tor (kiyim)",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Die Schuhe sind zu eng.",
+      "example_uz": "Poyabzal juda tor.",
+      "topic": "clothes"
+    }
+  ],
+  "review_vocabulary": [
+    "v-das-modell",
+    "v-günstig",
+    "v-das-paket",
+    "v-beliebt",
+    "v-kostenlos",
+    "v-am-besten",
+    "v-funktionieren"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-adjectives",
+      "rule": "\"zu\" + sifat = \"haddan tashqari, kerakdan ortiq\" (salbiy ma'no). Muammoni aytish uchun \"zu\", yechim so'rash uchun komparativ ishlatiladi: zu klein → größer.",
+      "when": "Kiyim yoki narsa mos kelmaganda, shikoyat va almashtirishda.",
+      "structure": "Muammo: A + ist/sind + zu + sifat.   Yechim: Haben Sie ... eine Nummer + komparativ?",
+      "examples": [
+        {
+          "de": "Die Schuhe sind zu eng. Haben Sie sie eine Nummer größer?",
+          "uz": "Poyabzal juda tor. Bir o'lcham kattarog'i bormi?"
+        },
+        {
+          "de": "Der Mantel ist mir zu teuer.",
+          "uz": "Palto men uchun juda qimmat."
+        },
+        {
+          "de": "Das Kleid ist zu lang. Ich möchte es umtauschen.",
+          "uz": "Ko'ylak juda uzun. Uni almashtirmoqchiman."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Die Hose ist sehr klein, ich möchte sie umtauschen.",
+          "right": "Die Hose ist zu klein, ich möchte sie umtauschen.",
+          "why": "\"sehr\" — shunchaki \"juda\". Mos kelmasligini aytish uchun \"zu\" kerak."
+        },
+        {
+          "wrong": "Haben Sie die Hose mehr groß?",
+          "right": "Haben Sie die Hose eine Nummer größer?",
+          "why": "Komparativ -er bilan yasaladi: größer."
+        },
+        {
+          "wrong": "Ich möchte umtauschen die Schuhe.",
+          "right": "Ich möchte die Schuhe umtauschen.",
+          "why": "Modal fe'l (möchte) bilan infinitiv gap oxirida turadi."
+        }
+      ],
+      "check": [
+        "a2-m19-l3-e03",
+        "a2-m19-l3-e04",
+        "a2-m19-l3-e05"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Do'konda shikoyat",
+    "lines": [
+      {
+        "speaker": "Verkäufer",
+        "de": "Guten Tag, wie kann ich Ihnen helfen?",
+        "uz": "Assalomu alaykum, sizga qanday yordam bera olaman?"
+      },
+      {
+        "speaker": "Frau Karimova",
+        "de": "Guten Tag. Ich habe letzte Woche diesen Wasserkocher gekauft, aber er funktioniert nicht.",
+        "uz": "Assalomu alaykum. O'tgan hafta shu elektr choynakni sotib oldim, lekin u ishlamayapti."
+      },
+      {
+        "speaker": "Verkäufer",
+        "de": "Oh, das tut mir leid. Haben Sie den Kassenbon?",
+        "uz": "Voy, uzr. Kassa chekingiz bormi?"
+      },
+      {
+        "speaker": "Frau Karimova",
+        "de": "Ja, hier ist er. Kann ich den Wasserkocher umtauschen?",
+        "uz": "Ha, mana. Choynakni almashtirsam bo'ladimi?"
+      },
+      {
+        "speaker": "Verkäufer",
+        "de": "Leider haben wir dieses Modell nicht mehr. Sie können ein anderes Modell nehmen oder Sie bekommen einen Gutschein.",
+        "uz": "Afsuski, bu model bizda qolmadi. Boshqa model olishingiz yoki vaucher olishingiz mumkin."
+      },
+      {
+        "speaker": "Frau Karimova",
+        "de": "Ich möchte lieber mein Geld zurück.",
+        "uz": "Men pulimni qaytarib olganim ma'qul."
+      },
+      {
+        "speaker": "Verkäufer",
+        "de": "Kein Problem. Das Gerät hat ja zwei Jahre Garantie. Sie bekommen 25 Euro zurück.",
+        "uz": "Muammo yo'q. Qurilmaning ikki yillik kafolati bor. Siz 25 yevroni qaytarib olasiz."
+      }
+    ],
+    "questions": [
+      "a2-m19-l3-e06",
+      "a2-m19-l3-e07"
+    ]
+  },
+  "situation": {
+    "title": "Internet do'konga qo'ng'iroq",
+    "context_uz": "Siz internetdan poyabzal buyurtma qildingiz, lekin u tor chiqdi. Mijozlarga xizmat bo'limiga qo'ng'iroq qilyapsiz.",
+    "lines": [
+      {
+        "speaker": "Herr Berger",
+        "de": "Kundenservice SchuhPlus, mein Name ist Berger. Was kann ich für Sie tun?",
+        "uz": "SchuhPlus mijozlarga xizmat bo'limi, ismim Berger. Siz uchun nima qila olaman?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Guten Tag. Ich habe vor einer Woche Schuhe bestellt. Sie sind leider zu eng.",
+        "uz": "Assalomu alaykum. Bir hafta oldin poyabzal buyurtma qilgandim. Afsuski, ular tor."
+      },
+      {
+        "speaker": "Herr Berger",
+        "de": "Möchten Sie die Schuhe umtauschen oder zurückgeben?",
+        "uz": "Poyabzalni almashtirmoqchimisiz yoki qaytarmoqchimisiz?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ich möchte sie umtauschen. Haben Sie die Schuhe eine Nummer größer?",
+        "uz": "Almashtirmoqchiman. Poyabzalning bir o'lcham kattarog'i bormi?"
+      },
+      {
+        "speaker": "Herr Berger",
+        "de": "Ja, Größe 43 haben wir. Schicken Sie das Paket bitte zurück. Das ist kostenlos.",
+        "uz": "Ha, 43-o'lcham bor. Iltimos, posilkani qaytarib yuboring. Bu bepul."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Super, vielen Dank!",
+        "uz": "Zo'r, katta rahmat!"
+      }
+    ],
+    "task_uz": "Dialogni rollarda o'qing. Keyin boshqa muammo bilan qayta o'ynang: kurtkaning nuqsoni bor va siz pulingizni qaytarib olmoqchisiz."
+  },
+  "exercises": [
+    {
+      "id": "a2-m19-l3-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemischa so'zni o'zbekcha ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "der Umtausch",
+          "almashtirish"
+        ],
+        [
+          "die Rückgabe",
+          "qaytarish"
+        ],
+        [
+          "der Kassenbon",
+          "kassa cheki"
+        ],
+        [
+          "die Garantie",
+          "kafolat"
+        ],
+        [
+          "der Gutschein",
+          "vaucher"
+        ]
+      ],
+      "correct_answer": {
+        "der Umtausch": "almashtirish",
+        "die Rückgabe": "qaytarish",
+        "der Kassenbon": "kassa cheki",
+        "die Garantie": "kafolat",
+        "der Gutschein": "vaucher"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Umtausch — almashtirish, Rückgabe — qaytarish, Kassenbon — kassa cheki, Garantie — kafolat, Gutschein — vaucher.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m19-l3-e02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "clothes",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Mos so'zni tanlang: \"Ich kann die Schuhe nicht anziehen. Sie sind zu ___.\"",
+      "prompt_de": "Sie sind zu ___.",
+      "options": [
+        "eng",
+        "günstig",
+        "beliebt"
+      ],
+      "pairs": null,
+      "correct_answer": "eng",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "eng — tor. Poyabzal tor bo'lsa, kiyib bo'lmaydi. günstig — arzon, beliebt — mashhur (bular muammo emas).",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m19-l3-e03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "clothes",
+      "grammar_topic": "g-adjectives",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: \"Die Jacke ist ___ groß. Ich brauche Größe M, nicht L.\"",
+      "prompt_de": "Die Jacke ist ___ groß.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "zu",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "haddan tashqari = ?",
+      "explanation": "Kerakdan katta — \"zu groß\". \"sehr groß\" faqat \"juda katta\" degani, mos emasligini bildirmaydi.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m19-l3-e04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "clothes",
+      "grammar_topic": "g-comparison",
+      "difficulty": 1,
+      "question": "To'g'ri shaklni tanlang: \"Die Schuhe sind zu klein. Haben Sie sie eine Nummer ___?\"",
+      "prompt_de": null,
+      "options": [
+        "größer",
+        "kleiner",
+        "am größten"
+      ],
+      "pairs": null,
+      "correct_answer": "größer",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Kichik bo'lsa, kattarog'i kerak: komparativ größer. \"am größten\" — eng katta, bu yerda mos emas.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m19-l3-e05",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "shopping",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "Gapni tuzing: \"Men poyabzalni almashtirmoqchiman.\"",
+      "prompt_de": null,
+      "options": [
+        "Ich",
+        "Schuhe",
+        "die",
+        "möchte",
+        "umtauschen"
+      ],
+      "pairs": null,
+      "correct_answer": "Ich möchte die Schuhe umtauschen.",
+      "accepted_answers": [
+        "Die Schuhe möchte ich umtauschen."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "möchte — ikkinchi o'rinda, infinitiv umtauschen — gap oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m19-l3-e06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Muammo nima?",
+      "prompt_de": null,
+      "options": [
+        "Elektr choynak ishlamayapti",
+        "Elektr choynak juda qimmat",
+        "Elektr choynak juda kichik"
+      ],
+      "pairs": null,
+      "correct_answer": "Elektr choynak ishlamayapti",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"er funktioniert nicht\" — u ishlamayapti.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Ich habe letzte Woche diesen Wasserkocher gekauft, aber er funktioniert nicht."
+    },
+    {
+      "id": "a2-m19-l3-e07",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang. Xaridor nimani tanlaydi?",
+      "prompt_de": null,
+      "options": [
+        "Pulini qaytarib olishni",
+        "Vaucherni",
+        "Boshqa modelni"
+      ],
+      "pairs": null,
+      "correct_answer": "Pulini qaytarib olishni",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Ich möchte lieber mein Geld zurück\" — pulimni qaytarib olganim ma'qul.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Sie können ein anderes Modell nehmen oder Sie bekommen einen Gutschein. — Ich möchte lieber mein Geld zurück."
+    },
+    {
+      "id": "a2-m19-l3-e08",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni davom ettiring. Sotuvchi: \"Haben Sie den Kassenbon?\"",
+      "prompt_de": "Haben Sie den Kassenbon?",
+      "options": [
+        "Ja, hier ist er.",
+        "Nein, ich habe keine Größe.",
+        "Ja, das Paket ist kostenlos."
+      ],
+      "pairs": null,
+      "correct_answer": "Ja, hier ist er.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Chekni so'rashdi — \"Ja, hier ist er\" (der Kassenbon → er). Boshqa javoblar savolga mos emas.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m19-l3-e09",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Men pulimni qaytarib olmoqchiman.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich möchte mein Geld zurück.",
+      "accepted_answers": [
+        "Ich möchte mein Geld zurückbekommen.",
+        "Ich möchte mein Geld zurückhaben.",
+        "Ich hätte gern mein Geld zurück.",
+        "Ich möchte gern mein Geld zurück.",
+        "Ich möchte gerne mein Geld zurück.",
+        "Ich will mein Geld zurück.",
+        "Ich möchte mein Geld zurück haben."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Muloyim istak: Ich möchte ... ; pulni qaytarish — Geld zurück(bekommen).",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m19-l3-e10",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "technology",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang va eshitganingizni yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Der Wasserkocher funktioniert nicht.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Uch so'z va inkor.",
+      "explanation": "Wasserkocher — bitta so'z, katta harf bilan (ot). funktioniert — \"er\" shakli.",
+      "error_type": "spelling",
+      "points": 2,
+      "audio_text": "Der Wasserkocher funktioniert nicht."
+    },
+    {
+      "id": "a2-m19-l3-e11",
+      "version": 1,
+      "type": "speak",
+      "skill": "speaking",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Ovoz chiqarib ayting: do'konda shikoyat qiling. Nima sotib olganingizni (Perfekt), muammoni (zu + sifat yoki funktioniert nicht) va istagingizni ayting.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 12,
+        "required_words": [
+          "gekauft"
+        ],
+        "sample": "Guten Tag. Ich habe gestern diese Hose gekauft. Sie ist leider zu klein. Kann ich sie umtauschen?"
+      },
+      "hint": null,
+      "explanation": "Yaxshi javobda uch qism bor: nima bo'ldi (Perfekt), muammo, istak (möchte + infinitiv).",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a2-m19-l3-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Do'kon pulni qaytarmasa, nima beradi? \"Sie bekommen ___.\"",
+      "prompt_de": null,
+      "options": [
+        "einen Gutschein",
+        "einen Kassenbon",
+        "eine Beschwerde"
+      ],
+      "pairs": null,
+      "correct_answer": "einen Gutschein",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Gutschein — vaucher: u bilan keyin shu do'kondan boshqa narsa olasiz.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m19-l3-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "clothes",
+      "grammar_topic": "g-adjectives",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: \"Das Kleid ist ___ lang. Ich möchte es umtauschen.\"",
+      "prompt_de": "Das Kleid ist ___ lang.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "zu",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Muammo — kerakdan uzun: zu lang.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m19-l3-t03",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "shopping",
+      "grammar_topic": "g-perfekt",
+      "difficulty": 1,
+      "question": "Yordamchi fe'lni tuslang (haben): Ich ___ die Jacke online bestellt.",
+      "prompt_de": "Ich ___ die Jacke online bestellt.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "habe",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "bestellen Perfektda haben bilan: ich habe ... bestellt.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m19-l3-t04",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "technology",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Siz shu do'kondan olgan telefon ishlamayapti. Sotuvchiga nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Entschuldigung, mein Handy funktioniert nicht. Ich habe es hier gekauft.",
+        "Mein Handy ist am besten.",
+        "Ich möchte ein Handy funktionieren."
+      ],
+      "pairs": null,
+      "correct_answer": "Entschuldigung, mein Handy funktioniert nicht. Ich habe es hier gekauft.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Muammo + qayerdan olganingiz (Perfekt) — aniq va muloyim.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m19-l3-t05",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "clothes",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Die Schuhe sind zu eng.\"",
+      "prompt_de": "Die Schuhe sind zu eng.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Poyabzal juda tor.",
+      "accepted_answers": [
+        "Poyabzal tor.",
+        "Tufli juda tor.",
+        "Oyoq kiyim juda tor.",
+        "Poyabzallar juda tor.",
+        "Poyabzal haddan tashqari tor."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "zu eng — juda (haddan tashqari) tor.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m19-l3-t06",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "technology",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "Xato so'zni toping: \"Der Wasserkocher funktionieren nicht.\"",
+      "prompt_de": "Der Wasserkocher funktionieren nicht.",
+      "options": [
+        "Der",
+        "Wasserkocher",
+        "funktionieren",
+        "nicht"
+      ],
+      "pairs": null,
+      "correct_answer": "funktionieren",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ega birlikda (der Wasserkocher = er), shuning uchun: funktioniert.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m19-l3-t07",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "E'lonni o'qing. Chegirmadagi (reduzierte) mahsulot bilan nima qilish mumkin?",
+      "prompt_de": "Rückgabe: Sie können Ihre Ware innerhalb von 30 Tagen zurückgeben. Bitte bringen Sie den Kassenbon mit. Reduzierte Ware können Sie nicht zurückgeben, aber umtauschen.",
+      "options": [
+        "Faqat almashtirish mumkin",
+        "30 kun ichida qaytarish mumkin",
+        "Hech narsa qilib bo'lmaydi"
+      ],
+      "pairs": null,
+      "correct_answer": "Faqat almashtirish mumkin",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Reduzierte Ware können Sie nicht zurückgeben, aber umtauschen.\" — qaytarib bo'lmaydi, lekin almashtirsa bo'ladi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

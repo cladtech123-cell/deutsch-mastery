@@ -1,0 +1,927 @@
+{
+  "id": "a1-m06-l1",
+  "version": 1,
+  "level": "A1",
+  "module": 6,
+  "order": 1,
+  "title": "Hafta kunlari va kunning qismlari",
+  "title_de": "Wochentage und Tageszeiten",
+  "goal": "Dars oxirida hafta kunlari va kunning qismlarini aytasiz, \"am Montag\", \"am Abend\", \"in der Nacht\" iboralarini to'g'ri ishlatasiz va haftalik rejangiz haqida gapira olasiz.",
+  "skill_focus": [
+    "vocabulary",
+    "grammar",
+    "listening"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Hafta kunlarining barchasi erkak jinsida (der) va -tag bilan tugaydi (Mittwoch bundan mustasno): der Montag, der Dienstag ... Kunning qismlari ham asosan erkak jinsida: der Morgen, der Mittag, der Abend; faqat die Nacht — ayol jinsida."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Nemischa",
+        "O'zbekcha",
+        "Qachon?"
+      ],
+      "rows": [
+        [
+          "der Montag",
+          "dushanba",
+          "am Montag"
+        ],
+        [
+          "der Dienstag",
+          "seshanba",
+          "am Dienstag"
+        ],
+        [
+          "der Mittwoch",
+          "chorshanba",
+          "am Mittwoch"
+        ],
+        [
+          "der Donnerstag",
+          "payshanba",
+          "am Donnerstag"
+        ],
+        [
+          "der Freitag",
+          "juma",
+          "am Freitag"
+        ],
+        [
+          "der Samstag",
+          "shanba",
+          "am Samstag"
+        ],
+        [
+          "der Sonntag",
+          "yakshanba",
+          "am Sonntag"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Kun qismi",
+        "O'zbekcha",
+        "Qachon?"
+      ],
+      "rows": [
+        [
+          "der Morgen",
+          "tong, ertalab",
+          "am Morgen"
+        ],
+        [
+          "der Vormittag",
+          "tushgacha",
+          "am Vormittag"
+        ],
+        [
+          "der Mittag",
+          "tush payti",
+          "am Mittag"
+        ],
+        [
+          "der Nachmittag",
+          "tushdan keyin",
+          "am Nachmittag"
+        ],
+        [
+          "der Abend",
+          "kechqurun",
+          "am Abend"
+        ],
+        [
+          "die Nacht",
+          "tun",
+          "in der Nacht"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "\"morgen\" (kichik harf) — ertaga; \"der Morgen\" (katta harf) — tong. \"morgen früh\" — ertaga ertalab."
+    },
+    {
+      "type": "tip",
+      "text": "Rus tilidagi \"в понедельник\" ga qarab \"in Montag\" demang: nemis tilida kun bilan doim \"am\" — am Montag."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-der-montag",
+      "de": "Montag",
+      "uz": "dushanba",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Montage",
+      "forms": null,
+      "example_de": "Am Montag arbeite ich.",
+      "example_uz": "Dushanba kuni ishlayman.",
+      "topic": "time"
+    },
+    {
+      "id": "v-der-dienstag",
+      "de": "Dienstag",
+      "uz": "seshanba",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Dienstage",
+      "forms": null,
+      "example_de": "Am Dienstag habe ich einen Kurs.",
+      "example_uz": "Seshanba kuni kursim bor.",
+      "topic": "time"
+    },
+    {
+      "id": "v-der-mittwoch",
+      "de": "Mittwoch",
+      "uz": "chorshanba",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Mittwoche",
+      "forms": null,
+      "example_de": "Am Mittwoch koche ich Plov.",
+      "example_uz": "Chorshanba kuni palov pishiraman.",
+      "topic": "time"
+    },
+    {
+      "id": "v-der-donnerstag",
+      "de": "Donnerstag",
+      "uz": "payshanba",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Donnerstage",
+      "forms": null,
+      "example_de": "Am Donnerstag lerne ich Deutsch.",
+      "example_uz": "Payshanba kuni nemis tilini o'rganaman.",
+      "topic": "time"
+    },
+    {
+      "id": "v-der-freitag",
+      "de": "Freitag",
+      "uz": "juma",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Freitage",
+      "forms": null,
+      "example_de": "Am Freitag gehe ich in die Moschee.",
+      "example_uz": "Juma kuni masjidga boraman.",
+      "topic": "time"
+    },
+    {
+      "id": "v-der-samstag",
+      "de": "Samstag",
+      "uz": "shanba",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Samstage",
+      "forms": null,
+      "example_de": "Am Samstag habe ich frei.",
+      "example_uz": "Shanba kuni dam olaman.",
+      "topic": "time"
+    },
+    {
+      "id": "v-der-sonntag",
+      "de": "Sonntag",
+      "uz": "yakshanba",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Sonntage",
+      "forms": null,
+      "example_de": "Am Sonntag besuche ich meine Eltern.",
+      "example_uz": "Yakshanba kuni ota-onamni ko'rgani boraman.",
+      "topic": "time"
+    },
+    {
+      "id": "v-die-woche",
+      "de": "Woche",
+      "uz": "hafta",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Wochen",
+      "forms": null,
+      "example_de": "Die Woche hat sieben Tage.",
+      "example_uz": "Haftada yetti kun bor.",
+      "topic": "time"
+    },
+    {
+      "id": "v-das-wochenende",
+      "de": "Wochenende",
+      "uz": "dam olish kunlari (shanba-yakshanba)",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Wochenenden",
+      "forms": null,
+      "example_de": "Am Wochenende habe ich Zeit.",
+      "example_uz": "Dam olish kunlari vaqtim bor.",
+      "topic": "time"
+    },
+    {
+      "id": "v-der-tag",
+      "de": "Tag",
+      "uz": "kun",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Tage",
+      "forms": null,
+      "example_de": "Der Tag ist lang.",
+      "example_uz": "Kun uzun.",
+      "topic": "time"
+    },
+    {
+      "id": "v-der-morgen",
+      "de": "Morgen",
+      "uz": "tong, ertalab",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Morgen",
+      "forms": null,
+      "example_de": "Am Morgen trinke ich Tee.",
+      "example_uz": "Ertalab choy ichaman.",
+      "topic": "time"
+    },
+    {
+      "id": "v-der-mittag",
+      "de": "Mittag",
+      "uz": "tush payti",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Mittage",
+      "forms": null,
+      "example_de": "Am Mittag esse ich in der Kantine.",
+      "example_uz": "Tushlikda oshxonada ovqatlanaman.",
+      "topic": "time"
+    },
+    {
+      "id": "v-der-abend",
+      "de": "Abend",
+      "uz": "kechqurun, oqshom",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Abende",
+      "forms": null,
+      "example_de": "Am Abend lese ich.",
+      "example_uz": "Kechqurun kitob o'qiyman.",
+      "topic": "time"
+    },
+    {
+      "id": "v-die-nacht",
+      "de": "Nacht",
+      "uz": "tun",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Nächte",
+      "forms": null,
+      "example_de": "In der Nacht schlafe ich.",
+      "example_uz": "Tunda uxlayman.",
+      "topic": "time"
+    }
+  ],
+  "review_vocabulary": [
+    "v-morgen",
+    "v-heute",
+    "v-arbeiten",
+    "v-haben",
+    "v-die-zeit",
+    "v-lernen",
+    "v-das-deutsch",
+    "v-kochen",
+    "v-lesen",
+    "v-trinken",
+    "v-der-tee",
+    "v-der-kurs",
+    "v-sieben",
+    "v-guten-morgen",
+    "v-guten-abend",
+    "v-gute-nacht",
+    "v-aber"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-time-prepositions",
+      "rule": "Hafta kunlari va kunning qismlari bilan \"am\" (an + dem) ishlatiladi: am Montag, am Abend, am Wochenende. Istisno: in der Nacht.",
+      "when": "Biror ish qaysi kunda yoki kunning qaysi qismida bo'lishini aytganda.",
+      "structure": "am + kun / kun qismi:  Am Montag arbeite ich.  |  in der Nacht",
+      "examples": [
+        {
+          "de": "Am Montag arbeite ich im Büro.",
+          "uz": "Dushanba kuni ofisda ishlayman."
+        },
+        {
+          "de": "Am Abend lese ich ein Buch.",
+          "uz": "Kechqurun kitob o'qiyman."
+        },
+        {
+          "de": "Am Wochenende habe ich Zeit.",
+          "uz": "Dam olish kunlari vaqtim bor."
+        },
+        {
+          "de": "In der Nacht schlafe ich.",
+          "uz": "Tunda uxlayman."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "in Montag",
+          "right": "am Montag",
+          "why": "Rus tilidagi \"в\" ga qarab in qo'yilmaydi: kunlar bilan doim am."
+        },
+        {
+          "wrong": "am Nacht",
+          "right": "in der Nacht",
+          "why": "Nacht — istisno: in der Nacht."
+        },
+        {
+          "wrong": "Am Montag ich arbeite.",
+          "right": "Am Montag arbeite ich.",
+          "why": "Gap vaqt bilan boshlansa, fe'l ikkinchi o'rinda, ega undan keyin."
+        }
+      ],
+      "check": [
+        "a1-m06-l1-e02",
+        "a1-m06-l1-e03",
+        "a1-m06-l1-e06",
+        "a1-m06-l1-e07",
+        "a1-m06-l1-e09"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Haftalik reja",
+    "lines": [
+      {
+        "speaker": "Lena",
+        "de": "Aziz, wann hast du Deutschkurs?",
+        "uz": "Aziz, nemis tili kursing qachon?"
+      },
+      {
+        "speaker": "Aziz",
+        "de": "Am Montag und am Mittwoch, am Abend.",
+        "uz": "Dushanba va chorshanba kunlari, kechqurun."
+      },
+      {
+        "speaker": "Lena",
+        "de": "Und am Freitag?",
+        "uz": "Juma kuni-chi?"
+      },
+      {
+        "speaker": "Aziz",
+        "de": "Am Freitag arbeite ich bis zum Abend.",
+        "uz": "Juma kuni kechgacha ishlayman."
+      },
+      {
+        "speaker": "Lena",
+        "de": "Hast du am Wochenende Zeit?",
+        "uz": "Dam olish kunlari vaqting bormi?"
+      },
+      {
+        "speaker": "Aziz",
+        "de": "Am Samstag nicht, aber am Sonntag habe ich Zeit.",
+        "uz": "Shanba kuni yo'q, lekin yakshanba kuni vaqtim bor."
+      }
+    ],
+    "questions": [
+      "a1-m06-l1-e04",
+      "a1-m06-l1-e05"
+    ]
+  },
+  "situation": {
+    "title": "Uchrashuv kunini tanlash",
+    "context_uz": "Do'stingiz Paul siz bilan bu hafta uchrashmoqchi. Siz haftalik rejangizni ko'rib javob berasiz.",
+    "lines": [
+      {
+        "speaker": "Paul",
+        "de": "Hast du am Dienstag Zeit?",
+        "uz": "Seshanba kuni vaqting bormi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Am Dienstag habe ich Kurs. Aber am Donnerstag habe ich Zeit.",
+        "uz": "Seshanba kuni kursim bor. Lekin payshanba kuni vaqtim bor."
+      },
+      {
+        "speaker": "Paul",
+        "de": "Am Morgen oder am Abend?",
+        "uz": "Ertalabmi yoki kechqurun?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Am Abend. Am Morgen arbeite ich.",
+        "uz": "Kechqurun. Ertalab ishlayman."
+      },
+      {
+        "speaker": "Paul",
+        "de": "Super, dann am Donnerstagabend!",
+        "uz": "Zo'r, unda payshanba kuni kechqurun!"
+      }
+    ],
+    "task_uz": "O'z haftalik rejangizni ayting va Paul bilan uchrashuv kunini kelishing. Har bir gapda am + kun yoki am + kun qismini ishlating."
+  },
+  "exercises": [
+    {
+      "id": "a1-m06-l1-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "time",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Hafta kunini o'zbekcha nomi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "Montag",
+          "dushanba"
+        ],
+        [
+          "Dienstag",
+          "seshanba"
+        ],
+        [
+          "Mittwoch",
+          "chorshanba"
+        ],
+        [
+          "Donnerstag",
+          "payshanba"
+        ],
+        [
+          "Freitag",
+          "juma"
+        ],
+        [
+          "Samstag",
+          "shanba"
+        ],
+        [
+          "Sonntag",
+          "yakshanba"
+        ]
+      ],
+      "correct_answer": {
+        "Montag": "dushanba",
+        "Dienstag": "seshanba",
+        "Mittwoch": "chorshanba",
+        "Donnerstag": "payshanba",
+        "Freitag": "juma",
+        "Samstag": "shanba",
+        "Sonntag": "yakshanba"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Montag — dushanba, Dienstag — seshanba, Mittwoch — chorshanba, Donnerstag — payshanba, Freitag — juma, Samstag — shanba, Sonntag — yakshanba.",
+      "error_type": "vocabulary",
+      "points": 3,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l1-e02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "time",
+      "grammar_topic": "g-time-prepositions",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: Ich arbeite ___ Montag.",
+      "prompt_de": "Ich arbeite ___ Montag.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "am",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Hafta kunlari bilan am: am Montag.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l1-e03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "time",
+      "grammar_topic": "g-time-prepositions",
+      "difficulty": 1,
+      "question": "___ der Nacht schlafe ich.",
+      "prompt_de": "___ der Nacht schlafe ich.",
+      "options": [
+        "Am",
+        "In",
+        "Um"
+      ],
+      "pairs": null,
+      "correct_answer": "In",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Nacht — istisno: in der Nacht.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l1-e04",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "time",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Azizning kursi qaysi kunlari?",
+      "prompt_de": null,
+      "options": [
+        "dushanba va chorshanba",
+        "seshanba va payshanba",
+        "shanba va yakshanba"
+      ],
+      "pairs": null,
+      "correct_answer": "dushanba va chorshanba",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "am Montag — dushanba, am Mittwoch — chorshanba.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Am Montag und am Mittwoch, am Abend."
+    },
+    {
+      "id": "a1-m06-l1-e05",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "time",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Aziz qachon bo'sh?",
+      "prompt_de": null,
+      "options": [
+        "shanba kuni",
+        "yakshanba kuni",
+        "juma kuni"
+      ],
+      "pairs": null,
+      "correct_answer": "yakshanba kuni",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"am Sonntag habe ich Zeit\" — yakshanba kuni vaqtim bor.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Am Samstag nicht, aber am Sonntag habe ich Zeit."
+    },
+    {
+      "id": "a1-m06-l1-e06",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "time",
+      "grammar_topic": "g-time-prepositions",
+      "difficulty": 1,
+      "question": "So'zlarni tartiblang (gap \"Am\" bilan boshlansin): \"Yakshanba kuni men palov pishiraman.\"",
+      "prompt_de": null,
+      "options": [
+        "Am",
+        "koche",
+        "ich",
+        "Plov",
+        "Sonntag"
+      ],
+      "pairs": null,
+      "correct_answer": "Am Sonntag koche ich Plov.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Am Sonntag (1) + koche (2) + ich + Plov.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l1-e07",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "time",
+      "grammar_topic": "g-time-prepositions",
+      "difficulty": 1,
+      "question": "Gapdagi xato so'zni toping: \"Ich lerne in Dienstag Deutsch.\"",
+      "prompt_de": "Ich lerne in Dienstag Deutsch.",
+      "options": [
+        "Ich",
+        "lerne",
+        "in",
+        "Dienstag",
+        "Deutsch"
+      ],
+      "pairs": null,
+      "correct_answer": "in",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Kunlar bilan am: Ich lerne am Dienstag Deutsch.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l1-e08",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "time",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Qaysi kun \"Wochenende\" ga kiradi?",
+      "prompt_de": null,
+      "options": [
+        "Mittwoch",
+        "Samstag",
+        "Donnerstag"
+      ],
+      "pairs": null,
+      "correct_answer": "Samstag",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Wochenende — shanba va yakshanba.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l1-e09",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "time",
+      "grammar_topic": "g-time-prepositions",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Kechqurun men kitob o'qiyman.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Am Abend lese ich ein Buch.",
+      "accepted_answers": [
+        "Ich lese am Abend ein Buch.",
+        "Abends lese ich ein Buch.",
+        "Ich lese abends ein Buch.",
+        "Am Abend lese ich Bücher."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "am Abend — kechqurun; vaqt birinchi bo'lsa, fe'l ikkinchi: Am Abend lese ich ...",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l1-e10",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "time",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Do'stingiz \"Hast du am Wochenende Zeit?\" dedi. Shanba kuni bandsiz, yakshanba bo'shsiz.",
+      "prompt_de": null,
+      "options": [
+        "Am Samstag nicht, aber am Sonntag habe ich Zeit.",
+        "Am Sonntag ich habe Zeit.",
+        "Ja, am Montag."
+      ],
+      "pairs": null,
+      "correct_answer": "Am Samstag nicht, aber am Sonntag habe ich Zeit.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'ri mazmun va tartib: ... aber am Sonntag habe ich Zeit.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l1-e11",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "time",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Rejani o'qing. Malika qachon sportga boradi?",
+      "prompt_de": "Malikas Woche: Montag — Deutschkurs. Dienstag — Arbeit. Mittwoch — Sport. Donnerstag — Arbeit. Freitag — Familie. Wochenende — frei!",
+      "options": [
+        "dushanba",
+        "chorshanba",
+        "juma"
+      ],
+      "pairs": null,
+      "correct_answer": "chorshanba",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Mittwoch — Sport: chorshanba kuni.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l1-e12",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "time",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang va gapni yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Am Donnerstag lerne ich Deutsch.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Donnerstag — katta harf (ot); am + kun; fe'l ikkinchi o'rinda.",
+      "error_type": "spelling",
+      "points": 2,
+      "audio_text": "Am Donnerstag lerne ich Deutsch."
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a1-m06-l1-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "time",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Montag, Dienstag, ___, Donnerstag ...",
+      "prompt_de": null,
+      "options": [
+        "Mittwoch",
+        "Freitag",
+        "Sonntag"
+      ],
+      "pairs": null,
+      "correct_answer": "Mittwoch",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Chorshanba — Mittwoch.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l1-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "time",
+      "grammar_topic": "g-time-prepositions",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: ___ Wochenende habe ich Zeit.",
+      "prompt_de": "___ Wochenende habe ich Zeit.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Am",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "am Wochenende.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l1-t03",
+      "version": 1,
+      "type": "article",
+      "skill": "grammar",
+      "topic": "time",
+      "grammar_topic": "g-articles",
+      "difficulty": 1,
+      "question": "To'g'ri artiklni tanlang: ___ Woche",
+      "prompt_de": "___ Woche",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "die",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Woche.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l1-t04",
+      "version": 1,
+      "type": "plural",
+      "skill": "grammar",
+      "topic": "time",
+      "grammar_topic": "g-plural",
+      "difficulty": 1,
+      "question": "Ko'plik shaklini yozing: der Tag → die ___",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Tage",
+      "accepted_answers": [
+        "die Tage"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Tag → die Tage (-e).",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l1-t05",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "time",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Kurs qaysi kunlari?",
+      "prompt_de": null,
+      "options": [
+        "seshanba va payshanba",
+        "dushanba va chorshanba",
+        "juma va shanba"
+      ],
+      "pairs": null,
+      "correct_answer": "seshanba va payshanba",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Dienstag — seshanba, Donnerstag — payshanba.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Der Kurs ist am Dienstag und am Donnerstag."
+    },
+    {
+      "id": "a1-m06-l1-t06",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "time",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Am Morgen trinke ich Tee.\"",
+      "prompt_de": "Am Morgen trinke ich Tee.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ertalab choy ichaman.",
+      "accepted_answers": [
+        "Men ertalab choy ichaman",
+        "Ertalab men choy ichaman",
+        "Tongda choy ichaman"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "am Morgen — ertalab.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l1-t07",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "time",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "\"Ich arbeite morgen.\" qanday tarjima qilinadi?",
+      "prompt_de": "Ich arbeite morgen.",
+      "options": [
+        "Men ertaga ishlayman.",
+        "Men ertalab ishlayman.",
+        "Men har kuni ishlayman."
+      ],
+      "pairs": null,
+      "correct_answer": "Men ertaga ishlayman.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "kichik harfli morgen — ertaga. Ertalab — am Morgen.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

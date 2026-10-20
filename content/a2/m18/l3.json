@@ -1,0 +1,810 @@
+{
+  "id": "a2-m18-l3",
+  "version": 1,
+  "level": "A2",
+  "module": 18,
+  "order": 3,
+  "title": "Dorixonada",
+  "title_de": "In der Apotheke",
+  "goal": "Dars oxirida dorixonada dori so'ray olasiz, dori qanday ichilishini tushunasiz va \"nicht müssen\" (shart emas) bilan \"nicht dürfen\" (mumkin emas)ni farqlaysiz.",
+  "skill_focus": [
+    "listening",
+    "reading",
+    "grammar"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Germaniyada oddiy dorilar (masalan, bosh og'rig'i tabletkalari) retseptsiz (rezeptfrei) sotiladi, lekin faqat dorixonada (Apotheke). Kuchliroq dorilar uchun shifokor retsepti kerak. Farmatsevt doimo qanday ichishni tushuntiradi — buni yaxshi tushunish juda muhim."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Modal",
+        "Ma'nosi",
+        "Misol"
+      ],
+      "rows": [
+        [
+          "müssen",
+          "kerak, shart",
+          "Sie müssen die Tabletten nach dem Essen nehmen."
+        ],
+        [
+          "nicht müssen",
+          "shart emas",
+          "Sie müssen nicht zum Arzt gehen. Das Medikament ist rezeptfrei."
+        ],
+        [
+          "dürfen",
+          "mumkin",
+          "Sie dürfen zwei Tabletten pro Tag nehmen."
+        ],
+        [
+          "nicht / kein ... dürfen",
+          "mumkin emas!",
+          "Sie dürfen keinen Alkohol trinken."
+        ],
+        [
+          "sollen",
+          "maslahat, ko'rsatma",
+          "Sie sollen viel trinken."
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Eng xavfli xato: \"Sie müssen nicht Auto fahren\" = \"Mashina haydashingiz SHART EMAS\". Agar dori uyquni keltirsa va haydash taqiqlansa: \"Sie dürfen nicht Auto fahren\" (mumkin emas) deyiladi."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-die-salbe",
+      "de": "Salbe",
+      "uz": "surtma dori, malham",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Salben",
+      "forms": null,
+      "example_de": "Die Salbe hilft gegen den Ausschlag.",
+      "example_uz": "Bu malham toshmaga qarshi yordam beradi.",
+      "topic": "health"
+    },
+    {
+      "id": "v-der-hustensaft",
+      "de": "Hustensaft",
+      "uz": "yo'tal siropi",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Hustensäfte",
+      "forms": null,
+      "example_de": "Haben Sie einen Hustensaft für Kinder?",
+      "example_uz": "Bolalar uchun yo'tal siropingiz bormi?",
+      "topic": "health"
+    },
+    {
+      "id": "v-die-packungsbeilage",
+      "de": "Packungsbeilage",
+      "uz": "dori yo'riqnomasi",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Packungsbeilagen",
+      "forms": null,
+      "example_de": "Lesen Sie bitte die Packungsbeilage.",
+      "example_uz": "Iltimos, yo'riqnomani o'qing.",
+      "topic": "health"
+    },
+    {
+      "id": "v-die-nebenwirkung",
+      "de": "Nebenwirkung",
+      "uz": "nojo'ya ta'sir",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Nebenwirkungen",
+      "forms": null,
+      "example_de": "Das Medikament kann müde machen. Das ist eine Nebenwirkung.",
+      "example_uz": "Dori charchoq keltirishi mumkin. Bu — nojo'ya ta'sir.",
+      "topic": "health"
+    },
+    {
+      "id": "v-einnehmen",
+      "de": "einnehmen",
+      "uz": "(dori) ichmoq, qabul qilmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "eingenommen",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "nimmt ein"
+      },
+      "example_de": "Wie oft soll ich die Tabletten einnehmen?",
+      "example_uz": "Tabletkalarni necha marta ichishim kerak?",
+      "topic": "health"
+    },
+    {
+      "id": "v-rezeptfrei",
+      "de": "rezeptfrei",
+      "uz": "retseptsiz sotiladigan",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Dieses Medikament ist rezeptfrei.",
+      "example_uz": "Bu dori retseptsiz sotiladi.",
+      "topic": "health"
+    },
+    {
+      "id": "v-täglich",
+      "de": "täglich",
+      "uz": "har kuni, kuniga",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Nehmen Sie den Saft dreimal täglich.",
+      "example_uz": "Siropni kuniga uch marta iching.",
+      "topic": "time"
+    },
+    {
+      "id": "v-gute-besserung",
+      "de": "Gute Besserung",
+      "uz": "Tezroq tuzaling!",
+      "pos": "phrase",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Du bist krank? Gute Besserung!",
+      "example_uz": "Kasalmisan? Tezroq tuzal!",
+      "topic": "politeness"
+    },
+    {
+      "id": "v-das-pflaster",
+      "de": "Pflaster",
+      "uz": "plastir",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Pflaster",
+      "forms": null,
+      "example_de": "Ich brauche ein Pflaster für meinen Finger.",
+      "example_uz": "Barmog'im uchun plastir kerak.",
+      "topic": "health"
+    },
+    {
+      "id": "v-der-tropfen",
+      "de": "Tropfen",
+      "uz": "tomchi; tomchi dori",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Tropfen",
+      "forms": null,
+      "example_de": "Nehmen Sie zehn Tropfen mit etwas Wasser.",
+      "example_uz": "O'n tomchini ozgina suv bilan iching.",
+      "topic": "health"
+    },
+    {
+      "id": "v-das-fieberthermometer",
+      "de": "Fieberthermometer",
+      "uz": "termometr (isitma o'lchagich)",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Fieberthermometer",
+      "forms": null,
+      "example_de": "Haben Sie ein Fieberthermometer?",
+      "example_uz": "Termometringiz bormi?",
+      "topic": "health"
+    }
+  ],
+  "review_vocabulary": [
+    "v-die-apotheke",
+    "v-das-medikament",
+    "v-die-tablette",
+    "v-die-packung",
+    "v-das-rezept",
+    "v-der-husten",
+    "v-die-allergie",
+    "v-die-halsschmerzen",
+    "v-wehtun",
+    "v-die-ruhe"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-modal-verbs",
+      "rule": "\"nicht müssen\" — shart emas (majburiyat yo'q). \"nicht dürfen\" / \"kein ... dürfen\" — mumkin emas (taqiq). Ma'nosi butunlay boshqa! \"sollen\" — farmatsevt yoki shifokorning maslahati.",
+      "when": "Dorixonada, yo'riqnomada va shifokor ko'rsatmalarida nima majburiy, nima ixtiyoriy, nima taqiqlanganini tushunish uchun.",
+      "structure": "Sie müssen nicht + Infinitiv (= shart emas).  Sie dürfen nicht / kein ... + Infinitiv (= mumkin emas).",
+      "examples": [
+        {
+          "de": "Sie müssen nicht zum Arzt gehen. Die Salbe ist rezeptfrei.",
+          "uz": "Shifokorga borishingiz shart emas. Malham retseptsiz."
+        },
+        {
+          "de": "Mit diesem Medikament dürfen Sie keinen Alkohol trinken.",
+          "uz": "Bu dori bilan spirtli ichimlik ichish mumkin emas."
+        },
+        {
+          "de": "Sie dürfen höchstens drei Tabletten pro Tag nehmen.",
+          "uz": "Kuniga ko'pi bilan uchta tabletka ichishingiz mumkin."
+        },
+        {
+          "de": "Sie sollen den Saft nach dem Essen nehmen.",
+          "uz": "Siropni ovqatdan keyin ichishingiz kerak (tavsiya)."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Sie müssen nicht Alkohol trinken. (taqiq ma'nosida)",
+          "right": "Sie dürfen keinen Alkohol trinken.",
+          "why": "Taqiq — \"nicht/kein ... dürfen\". \"nicht müssen\" faqat \"shart emas\" degani."
+        },
+        {
+          "wrong": "Wie oft soll ich nehmen die Tabletten?",
+          "right": "Wie oft soll ich die Tabletten nehmen?",
+          "why": "Infinitiv gap oxirida."
+        },
+        {
+          "wrong": "Ich muss nicht ein Rezept.",
+          "right": "Ich brauche kein Rezept.",
+          "why": "Ot bilan \"brauchen\" + \"kein\" ishlatiladi: Ich brauche kein Rezept."
+        }
+      ],
+      "check": [
+        "a2-m18-l3-e02",
+        "a2-m18-l3-e03",
+        "a2-m18-l3-e04",
+        "a2-m18-l3-e06"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Dorixonada",
+    "lines": [
+      {
+        "speaker": "Apothekerin",
+        "de": "Guten Tag! Was kann ich für Sie tun?",
+        "uz": "Assalomu alaykum! Sizga qanday yordam bera olaman?"
+      },
+      {
+        "speaker": "Herr Jo'rayev",
+        "de": "Ich habe seit gestern Husten und Halsschmerzen. Haben Sie etwas dagegen?",
+        "uz": "Kechadan beri yo'talim bor va tomog'im og'riyapti. Shunga qarshi biror narsangiz bormi?"
+      },
+      {
+        "speaker": "Apothekerin",
+        "de": "Haben Sie Fieber? Oder Allergien?",
+        "uz": "Isitmangiz bormi? Yoki allergiyangiz?"
+      },
+      {
+        "speaker": "Herr Jo'rayev",
+        "de": "Nein, kein Fieber und keine Allergien.",
+        "uz": "Yo'q, isitma ham, allergiya ham yo'q."
+      },
+      {
+        "speaker": "Apothekerin",
+        "de": "Dann empfehle ich diesen Hustensaft. Er ist rezeptfrei. Nehmen Sie ihn dreimal täglich nach dem Essen.",
+        "uz": "Unda shu yo'tal siropini tavsiya qilaman. U retseptsiz. Kuniga uch marta ovqatdan keyin iching."
+      },
+      {
+        "speaker": "Herr Jo'rayev",
+        "de": "Gibt es Nebenwirkungen?",
+        "uz": "Nojo'ya ta'sirlari bormi?"
+      },
+      {
+        "speaker": "Apothekerin",
+        "de": "Er kann müde machen. Sie dürfen danach nicht Auto fahren. Gute Besserung!",
+        "uz": "U uyqu keltirishi mumkin. Ichgandan keyin mashina haydash mumkin emas. Tezroq tuzaling!"
+      }
+    ],
+    "questions": [
+      "a2-m18-l3-e05"
+    ]
+  },
+  "situation": {
+    "title": "Bosh og'rig'iga dori so'rash",
+    "context_uz": "Ishxonada boshingiz qattiq og'riyapti. Tushlik paytida dorixonaga kirdingiz.",
+    "lines": [
+      {
+        "speaker": "Apotheker",
+        "de": "Guten Tag, bitte schön?",
+        "uz": "Assalomu alaykum, marhamat?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ich habe starke Kopfschmerzen. Ich brauche etwas dagegen. Ich habe kein Rezept.",
+        "uz": "Boshim qattiq og'riyapti. Shunga qarshi biror narsa kerak. Retseptim yo'q."
+      },
+      {
+        "speaker": "Apotheker",
+        "de": "Sie müssen kein Rezept haben. Diese Tabletten sind rezeptfrei. Haben Sie Allergien?",
+        "uz": "Retsept shart emas. Bu tabletkalar retseptsiz. Allergiyangiz bormi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Nein. Wie oft darf ich sie nehmen?",
+        "uz": "Yo'q. Ularni necha marta ichsam bo'ladi?"
+      },
+      {
+        "speaker": "Apotheker",
+        "de": "Höchstens dreimal täglich eine Tablette. Und Sie sollen viel Wasser trinken.",
+        "uz": "Kuniga ko'pi bilan uch marta bittadan. Va ko'p suv ichishingiz kerak."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Vielen Dank!",
+        "uz": "Katta rahmat!"
+      }
+    ],
+    "task_uz": "Farmatsevt bilan dialogni o'ynang: siz boshqa muammo bilan keldingiz (yo'tal, tumov yoki barmoq kesilgan). Qachondan beri ekanini ayting va \"Wie oft soll/darf ich ...?\" deb so'rang."
+  },
+  "exercises": [
+    {
+      "id": "a2-m18-l3-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemischa so'zni o'zbekcha ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "die Tablette",
+          "tabletka"
+        ],
+        [
+          "die Salbe",
+          "malham"
+        ],
+        [
+          "der Hustensaft",
+          "yo'tal siropi"
+        ],
+        [
+          "das Pflaster",
+          "plastir"
+        ],
+        [
+          "die Nebenwirkung",
+          "nojo'ya ta'sir"
+        ]
+      ],
+      "correct_answer": {
+        "die Tablette": "tabletka",
+        "die Salbe": "malham",
+        "der Hustensaft": "yo'tal siropi",
+        "das Pflaster": "plastir",
+        "die Nebenwirkung": "nojo'ya ta'sir"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Tablette — tabletka, Salbe — surtma dori, Hustensaft — yo'tal siropi, Pflaster — plastir, Nebenwirkung — nojo'ya ta'sir.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l3-e02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 2,
+      "question": "\"Sie müssen nicht kommen\" nimani bildiradi?",
+      "prompt_de": null,
+      "options": [
+        "Kelishingiz shart emas",
+        "Kelishingiz mumkin emas",
+        "Kelishingiz kerak"
+      ],
+      "pairs": null,
+      "correct_answer": "Kelishingiz shart emas",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"nicht müssen\" — shart emas, majburiyat yo'q. \"mumkin emas\" — \"nicht dürfen\".",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l3-e03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 2,
+      "question": "To'g'ri modal fe'lni tanlang: Mit diesem Medikament ___ Sie keinen Alkohol trinken.",
+      "prompt_de": null,
+      "options": [
+        "dürfen",
+        "müssen",
+        "möchten"
+      ],
+      "pairs": null,
+      "correct_answer": "dürfen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Bu taqiq.",
+      "explanation": "Taqiq — \"kein ... dürfen\". \"keinen Alkohol trinken müssen\" = spirtli ichimlik ichish shart emas — ma'no noto'g'ri.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l3-e04",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 2,
+      "question": "Bo'sh joyni to'ldiring: Das Medikament ist rezeptfrei. Sie ___ nicht zum Arzt gehen.",
+      "prompt_de": "Das Medikament ist rezeptfrei. Sie ___ nicht zum Arzt gehen.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "müssen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Shifokorga borish shart emas.",
+      "explanation": "Dori retseptsiz — shifokorga borish shart emas: \"Sie müssen nicht ...\". \"Sie dürfen nicht\" desangiz — \"borish mumkin emas\" bo'lib qoladi.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l3-e05",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Siropni qanday ichish kerak?",
+      "prompt_de": null,
+      "options": [
+        "Kuniga uch marta, ovqatdan keyin",
+        "Kuniga ikki marta, ovqatdan oldin",
+        "Kuniga bir marta, kechqurun"
+      ],
+      "pairs": null,
+      "correct_answer": "Kuniga uch marta, ovqatdan keyin",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"dreimal täglich\" — kuniga uch marta, \"nach dem Essen\" — ovqatdan keyin.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Nehmen Sie ihn dreimal täglich nach dem Essen."
+    },
+    {
+      "id": "a2-m18-l3-e06",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 2,
+      "question": "So'zlarni to'g'ri tartibda joylashtiring: \"Tabletkalarni necha marta ichishim kerak?\"",
+      "prompt_de": null,
+      "options": [
+        "oft",
+        "Wie",
+        "Tabletten",
+        "die",
+        "soll",
+        "nehmen",
+        "ich"
+      ],
+      "pairs": null,
+      "correct_answer": "Wie oft soll ich die Tabletten nehmen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "W-savol, \"nehmen\" oxirida.",
+      "explanation": "Wie oft (1) soll (2) ich ... nehmen (oxir).",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l3-e07",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-perfekt",
+      "difficulty": 2,
+      "question": "\"einnehmen\" fe'lining Partizip II shaklini yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "eingenommen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "nehmen → genommen",
+      "explanation": "ein + ge + nommen = eingenommen. Haben Sie heute schon Medikamente eingenommen?",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l3-e08",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Bu dori retseptsiz sotiladimi?\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ist das Medikament rezeptfrei?",
+      "accepted_answers": [
+        "Ist dieses Medikament rezeptfrei?",
+        "Gibt es das Medikament ohne Rezept?",
+        "Bekomme ich das Medikament ohne Rezept?",
+        "Ist das Medikament ohne Rezept?"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"rezeptfrei\" — retseptsiz sotiladigan. Ha/yo'q savoli: Ist ...?",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l3-e09",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Yo'riqnomadan parchani o'qing. Qaysi gap to'g'ri?",
+      "prompt_de": "Dosierung: Erwachsene nehmen 1 Tablette bis zu 3-mal täglich. Nehmen Sie die Tablette nach dem Essen mit einem Glas Wasser. Kinder unter 12 Jahren dürfen das Medikament nicht nehmen. Nebenwirkungen: Müdigkeit, selten Bauchschmerzen.",
+      "options": [
+        "Kattalar kuniga ko'pi bilan 3 ta tabletka ichishi mumkin",
+        "Tabletkani och qoringa ichish kerak",
+        "Bolalar ham bu dorini ichishi mumkin"
+      ],
+      "pairs": null,
+      "correct_answer": "Kattalar kuniga ko'pi bilan 3 ta tabletka ichishi mumkin",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"bis zu 3-mal täglich\" — kuniga 3 martagacha.",
+      "explanation": "Kattalar — kuniga 3 martagacha bittadan. Ovqatdan keyin ichiladi. 12 yoshdan kichik bolalarga mumkin emas.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l3-e10",
+      "version": 1,
+      "type": "short_text",
+      "skill": "writing",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 3,
+      "question": "Hamkasbingizga qisqa xabar yozing: kasalsiz, shifokorda bo'ldingiz, u nima dedi (müssen, dürfen, sollen ishlating) va qachon ishga qaytasiz.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 30,
+        "required_words": [
+          "soll"
+        ],
+        "sample": "Hallo Markus, ich bin leider krank. Ich war heute beim Arzt. Ich habe eine Grippe. Ich soll viel schlafen und Tee trinken. Ich darf bis Freitag nicht arbeiten. Am Montag komme ich wieder. Viele Grüße, Aziz"
+      },
+      "hint": "Ich war beim Arzt. / Ich soll ... / Ich darf nicht ... / Ich muss ...",
+      "explanation": "Yaxshi xabarda: kasallik, shifokor ko'rsatmasi (soll), taqiq (darf nicht) va qaytish vaqti bo'ladi.",
+      "error_type": "other",
+      "points": 3,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l3-e11",
+      "version": 1,
+      "type": "speak",
+      "skill": "speaking",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Ovoz chiqarib gapiring: dorixonada alomatlaringizni ayting (qachondan beri) va dori qanday ichilishini so'rang (3–4 gap).",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 15,
+        "required_words": [
+          "seit"
+        ],
+        "sample": "Guten Tag, ich habe seit zwei Tagen Schnupfen und Halsschmerzen. Haben Sie etwas dagegen? Wie oft soll ich das Medikament nehmen?"
+      },
+      "hint": null,
+      "explanation": "Dorixonada: alomat + seit + \"Haben Sie etwas dagegen?\" + \"Wie oft soll ich ... nehmen?\".",
+      "error_type": "other",
+      "points": 2,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a2-m18-l3-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "\"die Packungsbeilage\" nima?",
+      "prompt_de": null,
+      "options": [
+        "dori yo'riqnomasi",
+        "dori qutisi",
+        "retsept"
+      ],
+      "pairs": null,
+      "correct_answer": "dori yo'riqnomasi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Packungsbeilage — qutining ichidagi yo'riqnoma.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l3-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (dürfen): Mit dem Medikament ___ Sie keinen Alkohol trinken.",
+      "prompt_de": "Mit dem Medikament ___ Sie keinen Alkohol trinken.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "dürfen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Taqiq: kein ... dürfen. Sie → dürfen.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l3-t03",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 3,
+      "question": "Farmatsevt dori uyqu keltirishini aytmoqchi. Ma'nosi noto'g'ri so'zni toping: \"Sie müssen danach nicht Auto fahren.\"",
+      "prompt_de": "Sie müssen danach nicht Auto fahren.",
+      "options": [
+        "Sie",
+        "müssen",
+        "danach",
+        "nicht",
+        "Auto",
+        "fahren"
+      ],
+      "pairs": null,
+      "correct_answer": "müssen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Taqiq kerak: \"Sie dürfen danach nicht Auto fahren.\" \"müssen nicht\" = shart emas — xavfli noto'g'ri ma'no.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l3-t04",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "politeness",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Do'stingiz grippga chalinganini aytdi. Nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Oh, das tut mir leid. Gute Besserung!",
+        "Herzlichen Glückwunsch!",
+        "Guten Appetit!"
+      ],
+      "pairs": null,
+      "correct_answer": "Oh, das tut mir leid. Gute Besserung!",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Kasal odamga: \"Gute Besserung!\" — Tezroq tuzal!",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l3-t05",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "reading",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "O'zbek tiliga tarjima qiling: \"Nehmen Sie die Tabletten dreimal täglich nach dem Essen.\"",
+      "prompt_de": "Nehmen Sie die Tabletten dreimal täglich nach dem Essen.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Tabletkalarni kuniga uch marta ovqatdan keyin iching.",
+      "accepted_answers": [
+        "Tabletkalarni kuniga uch mahal ovqatdan keyin iching.",
+        "Tabletkalarni har kuni uch marta ovqatdan keyin iching.",
+        "Kuniga uch marta ovqatdan keyin tabletkalarni iching."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"dreimal täglich\" — kuniga uch marta, \"nach dem Essen\" — ovqatdan keyin.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l3-t06",
+      "version": 1,
+      "type": "plural",
+      "skill": "vocabulary",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Ko'plik shaklini yozing: die Tablette → ?",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "die Tabletten",
+      "accepted_answers": [
+        "Tabletten"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Tablette → die Tabletten (-n).",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m18-l3-t07",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang va eshitganingizni yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich brauche etwas gegen Kopfschmerzen.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"gegen\" — qarshi. \"Kopfschmerzen\" — bitta so'z, katta harf bilan.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": "Ich brauche etwas gegen Kopfschmerzen."
+    }
+  ]
+}

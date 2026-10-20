@@ -1,0 +1,880 @@
+{
+  "id": "a1-m03-l1",
+  "version": 1,
+  "level": "A1",
+  "module": 3,
+  "order": 1,
+  "title": "Sonlar va yosh",
+  "title_de": "Zahlen und Alter",
+  "goal": "Dars oxirida 1 dan 29 gacha sonlarni aytasiz va eshitib taniysiz, \"Wie alt bist du?\" deb so'raysiz va \"Ich bin ... Jahre alt.\" bilan yoshingizni to'g'ri aytasiz.",
+  "skill_focus": [
+    "vocabulary",
+    "listening",
+    "speaking"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "1 dan 12 gacha sonlarni yod olish kerak. 13 dan 19 gacha qoida oddiy: birlik + zehn (o'n). 21 dan boshlab sonlar o'zbek tilidagidan teskari aytiladi: avval birlik, keyin \"und\", keyin o'nlik: einundzwanzig = bir va yigirma = 21."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Son",
+        "Nemischa",
+        "Diqqat"
+      ],
+      "rows": [
+        [
+          "0",
+          "null",
+          ""
+        ],
+        [
+          "1",
+          "eins",
+          "sanashda eins; \"ein\" — bitta (ot oldidan)"
+        ],
+        [
+          "2",
+          "zwei",
+          "telefonda ko'pincha \"zwo\""
+        ],
+        [
+          "13",
+          "dreizehn",
+          "drei + zehn"
+        ],
+        [
+          "16",
+          "sechzehn",
+          "sechs → sech (s tushadi)"
+        ],
+        [
+          "17",
+          "siebzehn",
+          "sieben → sieb (en tushadi)"
+        ],
+        [
+          "20",
+          "zwanzig",
+          ""
+        ],
+        [
+          "21",
+          "einundzwanzig",
+          "ein + und + zwanzig (eins emas!)"
+        ],
+        [
+          "25",
+          "fünfundzwanzig",
+          "5 + und + 20"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Yoshni so'rash: \"Wie alt bist du?\" (do'stga), \"Wie alt sind Sie?\" (rasmiy). Javob \"sein\" fe'li bilan: \"Ich bin zwanzig Jahre alt.\" yoki qisqa: \"Ich bin zwanzig.\""
+    },
+    {
+      "type": "tip",
+      "text": "O'zbekcha \"20 yoshim bor\" deb o'ylab \"Ich habe 20 Jahre\" demang! Nemis tilida yosh \"sein\" bilan aytiladi: Ich bin 20 Jahre alt."
+    },
+    {
+      "type": "tip",
+      "text": "Germaniyada notanish kattalardan yoshini so'rash odobsizlik hisoblanishi mumkin. Bolalar, do'stlar va rasmiy anketalarda esa yosh so'raladi."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-eins",
+      "de": "eins",
+      "uz": "bir",
+      "pos": "numeral",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Eins, zwei, drei — los!",
+      "example_uz": "Bir, ikki, uch — boshladik!",
+      "topic": "numbers"
+    },
+    {
+      "id": "v-zwei",
+      "de": "zwei",
+      "uz": "ikki",
+      "pos": "numeral",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Ich habe zwei Kinder.",
+      "example_uz": "Mening ikkita farzandim bor.",
+      "topic": "numbers"
+    },
+    {
+      "id": "v-drei",
+      "de": "drei",
+      "uz": "uch",
+      "pos": "numeral",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Ich spreche drei Sprachen.",
+      "example_uz": "Men uchta tilda gaplashaman.",
+      "topic": "numbers"
+    },
+    {
+      "id": "v-vier",
+      "de": "vier",
+      "uz": "to'rt",
+      "pos": "numeral",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Das Kind ist vier Jahre alt.",
+      "example_uz": "Bola to'rt yoshda.",
+      "topic": "numbers"
+    },
+    {
+      "id": "v-fünf",
+      "de": "fünf",
+      "uz": "besh",
+      "pos": "numeral",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Mein Sohn ist fünf.",
+      "example_uz": "O'g'lim besh yoshda.",
+      "topic": "numbers"
+    },
+    {
+      "id": "v-sechs",
+      "de": "sechs",
+      "uz": "olti",
+      "pos": "numeral",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Wir sind sechs Personen.",
+      "example_uz": "Biz olti kishimiz.",
+      "topic": "numbers"
+    },
+    {
+      "id": "v-sieben",
+      "de": "sieben",
+      "uz": "yetti",
+      "pos": "numeral",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Die Woche hat sieben Tage.",
+      "example_uz": "Haftada yetti kun bor.",
+      "topic": "numbers"
+    },
+    {
+      "id": "v-acht",
+      "de": "acht",
+      "uz": "sakkiz",
+      "pos": "numeral",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Lola ist acht Jahre alt.",
+      "example_uz": "Lola sakkiz yoshda.",
+      "topic": "numbers"
+    },
+    {
+      "id": "v-neun",
+      "de": "neun",
+      "uz": "to'qqiz",
+      "pos": "numeral",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Der Kurs beginnt um neun.",
+      "example_uz": "Kurs to'qqizda boshlanadi.",
+      "topic": "numbers"
+    },
+    {
+      "id": "v-zehn",
+      "de": "zehn",
+      "uz": "o'n",
+      "pos": "numeral",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Ich lerne zehn Wörter.",
+      "example_uz": "Men o'nta so'z o'rganyapman.",
+      "topic": "numbers"
+    },
+    {
+      "id": "v-elf",
+      "de": "elf",
+      "uz": "o'n bir",
+      "pos": "numeral",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Mia ist elf.",
+      "example_uz": "Miya o'n bir yoshda.",
+      "topic": "numbers"
+    },
+    {
+      "id": "v-zwölf",
+      "de": "zwölf",
+      "uz": "o'n ikki",
+      "pos": "numeral",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Tim ist zwölf Jahre alt.",
+      "example_uz": "Tim o'n ikki yoshda.",
+      "topic": "numbers"
+    },
+    {
+      "id": "v-alt",
+      "de": "alt",
+      "uz": "keksa; eski; (yosh haqida) ... yoshda",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Wie alt bist du?",
+      "example_uz": "Necha yoshdasan?",
+      "topic": "people"
+    },
+    {
+      "id": "v-das-jahr",
+      "de": "Jahr",
+      "uz": "yil; yosh",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Jahre",
+      "forms": null,
+      "example_de": "Ich bin zwanzig Jahre alt.",
+      "example_uz": "Men yigirma yoshdaman.",
+      "topic": "time"
+    }
+  ],
+  "review_vocabulary": [
+    "v-sein",
+    "v-wie",
+    "v-du",
+    "v-sie",
+    "v-er",
+    "v-wir",
+    "v-ihr",
+    "v-hallo",
+    "v-ich",
+    "v-ja"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-sein-haben",
+      "rule": "Yosh nemis tilida \"sein\" fe'li bilan aytiladi: kim + sein + son + Jahre alt. \"Jahre alt\" ni tushirib qoldirish mumkin, lekin \"alt\" siz \"Jahre\" qolmaydi.",
+      "when": "Yoshingizni yoki boshqa odamning yoshini aytganda va so'raganda.",
+      "structure": "Ich bin + son + Jahre alt.  |  Wie alt + sein + ega?",
+      "examples": [
+        {
+          "de": "Ich bin neunzehn Jahre alt.",
+          "uz": "Men o'n to'qqiz yoshdaman."
+        },
+        {
+          "de": "Wie alt bist du? — Ich bin zwölf.",
+          "uz": "Necha yoshdasan? — O'n ikki yoshdaman."
+        },
+        {
+          "de": "Mein Bruder ist einundzwanzig.",
+          "uz": "Akam yigirma bir yoshda."
+        },
+        {
+          "de": "Wie alt sind Sie? — Ich bin achtundzwanzig Jahre alt.",
+          "uz": "Necha yoshdasiz? — Yigirma sakkiz yoshdaman."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Ich habe 20 Jahre.",
+          "right": "Ich bin 20 Jahre alt.",
+          "why": "O'zbekcha \"20 yoshim bor\" ga qarab haben ishlatilmaydi — yosh doim sein bilan."
+        },
+        {
+          "wrong": "Ich bin 20 Jahre.",
+          "right": "Ich bin 20 Jahre alt. / Ich bin 20.",
+          "why": "\"Jahre\" ishlatilsa, oxirida \"alt\" bo'lishi shart."
+        },
+        {
+          "wrong": "zwanzigeins",
+          "right": "einundzwanzig",
+          "why": "21–99 da avval birlik, keyin und, keyin o'nlik aytiladi; 1 bu yerda \"ein\" bo'ladi."
+        }
+      ],
+      "check": [
+        "a1-m03-l1-e04",
+        "a1-m03-l1-e05",
+        "a1-m03-l1-e08",
+        "a1-m03-l1-e09",
+        "a1-m03-l1-e10"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "O'yin maydonchasida",
+    "lines": [
+      {
+        "speaker": "Ben",
+        "de": "Hallo! Ich bin Ben. Wie alt bist du?",
+        "uz": "Salom! Men Benman. Necha yoshdasan?"
+      },
+      {
+        "speaker": "Lola",
+        "de": "Ich bin acht. Und du?",
+        "uz": "Sakkiz yoshdaman. Sen-chi?"
+      },
+      {
+        "speaker": "Ben",
+        "de": "Ich bin sieben. Und das ist Mia. Sie ist elf.",
+        "uz": "Men yetti yoshdaman. Bu Miya. U o'n bir yoshda."
+      },
+      {
+        "speaker": "Lola",
+        "de": "Und wer ist das?",
+        "uz": "Anavi kim?"
+      },
+      {
+        "speaker": "Ben",
+        "de": "Das ist Tim. Er ist zwölf Jahre alt.",
+        "uz": "Bu Tim. U o'n ikki yoshda."
+      }
+    ],
+    "questions": [
+      "a1-m03-l1-e02",
+      "a1-m03-l1-e03"
+    ]
+  },
+  "situation": {
+    "title": "Shifokor qabulxonasida",
+    "context_uz": "Siz farzandingiz bilan shifokorga keldingiz. Qabulxona xodimi anketani to'ldiryapti.",
+    "lines": [
+      {
+        "speaker": "Praxis",
+        "de": "Wie alt sind Sie, Frau Rahimova?",
+        "uz": "Necha yoshdasiz, Rahimova xonim?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ich bin siebenundzwanzig Jahre alt.",
+        "uz": "Yigirma yetti yoshdaman."
+      },
+      {
+        "speaker": "Praxis",
+        "de": "Und Ihr Sohn? Wie alt ist er?",
+        "uz": "O'g'lingiz-chi? U necha yoshda?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Er ist fünf.",
+        "uz": "U besh yoshda."
+      },
+      {
+        "speaker": "Praxis",
+        "de": "Fünf? Danke!",
+        "uz": "Beshmi? Rahmat!"
+      }
+    ],
+    "task_uz": "Dialogni o'z yoshingiz bilan takrorlang. Keyin oila a'zolaringizdan birining yoshini ayting (Er/Sie ist ...)."
+  },
+  "exercises": [
+    {
+      "id": "a1-m03-l1-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "numbers",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Raqamni nemischa so'z bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "3",
+          "drei"
+        ],
+        [
+          "6",
+          "sechs"
+        ],
+        [
+          "7",
+          "sieben"
+        ],
+        [
+          "11",
+          "elf"
+        ],
+        [
+          "12",
+          "zwölf"
+        ]
+      ],
+      "correct_answer": {
+        "3": "drei",
+        "6": "sechs",
+        "7": "sieben",
+        "11": "elf",
+        "12": "zwölf"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "3 — drei, 6 — sechs, 7 — sieben, 11 — elf, 12 — zwölf.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m03-l1-e02",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "numbers",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Lola necha yoshda?",
+      "prompt_de": null,
+      "options": [
+        "6",
+        "8",
+        "11"
+      ],
+      "pairs": null,
+      "correct_answer": "8",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "acht — 8.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Ich bin acht. Und du?"
+    },
+    {
+      "id": "a1-m03-l1-e03",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "numbers",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Tim necha yoshda?",
+      "prompt_de": null,
+      "options": [
+        "2",
+        "11",
+        "12"
+      ],
+      "pairs": null,
+      "correct_answer": "12",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "zwölf — 12. zwei (2) bilan adashtirmang.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Das ist Tim. Er ist zwölf Jahre alt."
+    },
+    {
+      "id": "a1-m03-l1-e04",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "people",
+      "grammar_topic": "g-sein-haben",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: Ich ___ zwanzig Jahre alt.",
+      "prompt_de": "Ich ___ zwanzig Jahre alt.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "bin",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Yosh qaysi fe'l bilan aytiladi?",
+      "explanation": "Yosh sein bilan: Ich bin zwanzig Jahre alt.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m03-l1-e05",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "people",
+      "grammar_topic": "g-sein-haben",
+      "difficulty": 1,
+      "question": "Gapdagi xato so'zni toping: \"Ich habe zwanzig Jahre alt.\"",
+      "prompt_de": "Ich habe zwanzig Jahre alt.",
+      "options": [
+        "Ich",
+        "habe",
+        "zwanzig",
+        "Jahre",
+        "alt"
+      ],
+      "pairs": null,
+      "correct_answer": "habe",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Yosh haben emas, sein bilan: Ich bin zwanzig Jahre alt.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m03-l1-e06",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "numbers",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang va sonni raqam bilan yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "15",
+      "accepted_answers": [
+        "fünfzehn"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "fünf + zehn = fünfzehn = 15.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "fünfzehn"
+    },
+    {
+      "id": "a1-m03-l1-e07",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "numbers",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "25 nemischa qanday aytiladi?",
+      "prompt_de": null,
+      "options": [
+        "zwanzigfünf",
+        "fünfundzwanzig",
+        "fünfzwanzig"
+      ],
+      "pairs": null,
+      "correct_answer": "fünfundzwanzig",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Avval birlik, keyin und, keyin o'nlik.",
+      "explanation": "25 = fünf + und + zwanzig = fünfundzwanzig.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m03-l1-e08",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "people",
+      "grammar_topic": "g-sein-haben",
+      "difficulty": 1,
+      "question": "So'zlarni tartiblab savol tuzing: \"Necha yoshdasan?\"",
+      "prompt_de": null,
+      "options": [
+        "du",
+        "bist",
+        "alt",
+        "Wie"
+      ],
+      "pairs": null,
+      "correct_answer": "Wie alt bist du?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Wie alt (savol so'zi) + bist (fe'l) + du.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m03-l1-e09",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "people",
+      "grammar_topic": "g-sein-haben",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"U (qiz) o'n bir yoshda.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Sie ist elf Jahre alt.",
+      "accepted_answers": [
+        "Sie ist elf.",
+        "Sie ist 11 Jahre alt.",
+        "Sie ist 11."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "U (ayol) — sie; yosh — sein: Sie ist elf (Jahre alt).",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m03-l1-e10",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "people",
+      "grammar_topic": "g-sein-haben",
+      "difficulty": 1,
+      "question": "\"sein\" fe'lini tuslang: Wie alt ___ ihr? — Wir sind zwölf.",
+      "prompt_de": "Wie alt ___ ihr?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "seid",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "ihr seid: Wie alt seid ihr?",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m03-l1-e11",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "people",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Qabulxonada \"Wie alt sind Sie?\" deb so'rashdi. Siz 27 yoshdasiz. Nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Ich habe siebenundzwanzig Jahre.",
+        "Ich bin siebenundzwanzig Jahre alt.",
+        "Ich bin zweiundsiebzig Jahre alt."
+      ],
+      "pairs": null,
+      "correct_answer": "Ich bin siebenundzwanzig Jahre alt.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "27 = sieben + und + zwanzig; yosh sein bilan. zweiundsiebzig — 72.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m03-l1-e12",
+      "version": 1,
+      "type": "speak",
+      "skill": "speaking",
+      "topic": "people",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zingizning va ikki tanishingizning yoshini ayting.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 9,
+        "required_words": [
+          "bin",
+          "alt"
+        ],
+        "sample": "Ich bin zwanzig Jahre alt. Mein Bruder ist zwölf. Meine Freundin ist einundzwanzig."
+      },
+      "hint": null,
+      "explanation": "Ich bin ... Jahre alt. / Er ist ... / Sie ist ... — yosh har doim sein bilan.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a1-m03-l1-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "numbers",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "acht + drei = ?",
+      "prompt_de": null,
+      "options": [
+        "zehn",
+        "elf",
+        "zwölf"
+      ],
+      "pairs": null,
+      "correct_answer": "elf",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "8 + 3 = 11 = elf.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m03-l1-t02",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "numbers",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Qaysi son aytildi?",
+      "prompt_de": null,
+      "options": [
+        "7",
+        "17",
+        "70"
+      ],
+      "pairs": null,
+      "correct_answer": "17",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "siebzehn = 17 (sieben + zehn, -en tushadi).",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "siebzehn"
+    },
+    {
+      "id": "a1-m03-l1-t03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "people",
+      "grammar_topic": "g-sein-haben",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: Wie alt ___ du? — Ich bin neun.",
+      "prompt_de": "Wie alt ___ du?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "bist",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "du bist: Wie alt bist du?",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m03-l1-t04",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "people",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Ich bin zweiundzwanzig Jahre alt.\"",
+      "prompt_de": "Ich bin zweiundzwanzig Jahre alt.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Men yigirma ikki yoshdaman.",
+      "accepted_answers": [
+        "Men 22 yoshdaman",
+        "Yigirma ikki yoshdaman",
+        "22 yoshdaman",
+        "Mening yoshim yigirma ikkida",
+        "Mening yoshim 22 da"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "zweiundzwanzig = 22; \"Jahre alt\" — ... yoshda.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m03-l1-t05",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "numbers",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang va sonni raqam bilan yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "19",
+      "accepted_answers": [
+        "neunzehn"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "neun + zehn = 19.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "neunzehn"
+    },
+    {
+      "id": "a1-m03-l1-t06",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "numbers",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "16 qaysi variantda to'g'ri yozilgan?",
+      "prompt_de": null,
+      "options": [
+        "sechzehn",
+        "sechszehn",
+        "sechzig"
+      ],
+      "pairs": null,
+      "correct_answer": "sechzehn",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "16 — sechzehn (sechs dagi s tushadi). sechzig — 60.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m03-l1-t07",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "people",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni davom ettiring. — Wie alt ist Tim?",
+      "prompt_de": "Wie alt ist Tim?",
+      "options": [
+        "Er ist zehn.",
+        "Er ist in Berlin.",
+        "Ich bin zehn."
+      ],
+      "pairs": null,
+      "correct_answer": "Er ist zehn.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Tim haqida so'ralyapti → Er ist zehn.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

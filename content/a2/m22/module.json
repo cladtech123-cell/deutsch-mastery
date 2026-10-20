@@ -1,0 +1,303 @@
+{
+  "id": "a2-m22",
+  "version": 1,
+  "level": "A2",
+  "number": 22,
+  "title": "Texnologiya va kundalik media",
+  "title_de": "Technik und Medien im Alltag",
+  "goals": [
+    "Ilova, akkaunt va onlayn xizmatlardan foydalanish bosqichlarini tushuntirish",
+    "Texnika muammosini sodda gaplar bilan (seit, Perfekt) bayon qilish va yechim so'rash",
+    "Qaytishli fe'llarni (mich, dich, sich, uns, euch) hozirgi zamon, Perfekt, modal fe'l va buyruqda ishlatish",
+    "Media odatlari va qiziqishlar haqida gapirish, qisqa intervyu va matnlarni tushunish"
+  ],
+  "lessons": [
+    "a2-m22-l1",
+    "a2-m22-l2",
+    "a2-m22-l3"
+  ],
+  "module_test": [
+    {
+      "id": "mtest-a2-m22-01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "daily-routine",
+      "grammar_topic": "g-reflexive",
+      "difficulty": 1,
+      "question": "To'g'ri olmoshni tanlang: \"Ich muss ___ beeilen.\"",
+      "prompt_de": null,
+      "options": [
+        "mich",
+        "sich",
+        "dich"
+      ],
+      "pairs": null,
+      "correct_answer": "mich",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "ich bilan — mich.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m22-02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "technology",
+      "grammar_topic": "g-reflexive",
+      "difficulty": 1,
+      "question": "Qaytish olmoshini yozing: \"Habt ihr ___ schon angemeldet?\"",
+      "prompt_de": "Habt ihr ___ schon angemeldet?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "euch",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "ihr bilan — euch.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m22-03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "communication",
+      "grammar_topic": "g-reflexive",
+      "difficulty": 1,
+      "question": "Yordamchi fe'lni tanlang: \"Ich ___ mich gestern sehr geärgert.\"",
+      "prompt_de": null,
+      "options": [
+        "habe",
+        "bin",
+        "ist"
+      ],
+      "pairs": null,
+      "correct_answer": "habe",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Qaytishli fe'llar Perfektda haben bilan.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m22-04",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "media",
+      "grammar_topic": "g-reflexive",
+      "difficulty": 1,
+      "question": "Predlogni yozing: \"Sie interessiert sich ___ Musik.\"",
+      "prompt_de": "Sie interessiert sich ___ Musik.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "für",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "sich interessieren für.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m22-05",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "technology",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "So'zlarni juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "der Akku",
+          "batareya"
+        ],
+        [
+          "herunterladen",
+          "yuklab olmoq"
+        ],
+        [
+          "die Werbung",
+          "reklama"
+        ],
+        [
+          "das Passwort",
+          "parol"
+        ]
+      ],
+      "correct_answer": {
+        "der Akku": "batareya",
+        "herunterladen": "yuklab olmoq",
+        "die Werbung": "reklama",
+        "das Passwort": "parol"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Akku — batareya, herunterladen — yuklab olmoq, Werbung — reklama, Passwort — parol.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m22-06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "phone",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Ovozli xabarni tinglang. Nega u qo'ng'iroq qila olmaydi?",
+      "prompt_de": null,
+      "options": [
+        "Batareyasi deyarli tugagan",
+        "Signal yo'q",
+        "Telefoni yo'qolgan"
+      ],
+      "pairs": null,
+      "correct_answer": "Batareyasi deyarli tugagan",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"mein Akku ist fast leer\" — batareyam deyarli tugadi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Hallo Tim, ich kann dich nicht anrufen, mein Akku ist fast leer. Ich schreibe dir später eine Nachricht."
+    },
+    {
+      "id": "mtest-a2-m22-07",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "E'lonni o'qing. Muammo bo'lsa nima qilish kerak?",
+      "prompt_de": "Hinweis: Ab Montag gibt es ein neues Passwort für das WLAN im Büro. Sie finden es in Ihrer E-Mail. Bitte melden Sie sich bis Freitag mit dem neuen Passwort an. Bei Problemen rufen Sie die IT unter 245 an.",
+      "options": [
+        "IT bo'limiga 245 raqami orqali qo'ng'iroq qilish",
+        "Email yozish",
+        "Juma kuni ofisga kelish"
+      ],
+      "pairs": null,
+      "correct_answer": "IT bo'limiga 245 raqami orqali qo'ng'iroq qilish",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Bei Problemen rufen Sie die IT unter 245 an.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m22-08",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "technology",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Telefoningiz yangilanishdan keyin ishlamayapti. Do'kondagi sotuvchiga nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Seit dem Update funktioniert mein Handy nicht mehr.",
+        "Mein Handy hat sich seit dem Update funktioniert.",
+        "Seit das Update mein Handy funktioniert nicht."
+      ],
+      "pairs": null,
+      "correct_answer": "Seit dem Update funktioniert mein Handy nicht mehr.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "seit + Dativ (dem Update), keyin fe'l (funktioniert) 2-o'rinda. funktionieren qaytishli emas.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m22-09",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "media",
+      "grammar_topic": "g-reflexive",
+      "difficulty": 3,
+      "question": "Nemis tiliga tarjima qiling: \"Biz film haqida suhbatlashdik.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Wir haben uns über den Film unterhalten.",
+      "accepted_answers": [
+        "Wir unterhielten uns über den Film."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "sich unterhalten über; Perfekt: haben + uns + ... + unterhalten.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m22-10",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "technology",
+      "grammar_topic": "g-reflexive",
+      "difficulty": 2,
+      "question": "So'zlarni tartiblang: \"Parolim bilan tizimga kirdim.\"",
+      "prompt_de": null,
+      "options": [
+        "meinem",
+        "angemeldet",
+        "Passwort",
+        "habe",
+        "Ich",
+        "mich",
+        "mit"
+      ],
+      "pairs": null,
+      "correct_answer": "Ich habe mich mit meinem Passwort angemeldet.",
+      "accepted_answers": [
+        "Mit meinem Passwort habe ich mich angemeldet."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Perfekt: habe (2-o'rin) + mich + ... + angemeldet (oxirda).",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "writing_task": {
+    "id": "w-a2-m22",
+    "title": "Blog: \"Mein Medientag\"",
+    "task_uz": "Blogingiz uchun qisqa matn yozing: kuningizda telefon, internet va boshqa media'dan qanday foydalanasiz; nimaga qiziqasiz (sich interessieren für); yangiliklarni qayerdan bilasiz (sich informieren); yaqinda qanday texnika muammosi bo'ldi (Perfekt); media haqida fikringiz (dass/weil).",
+    "required_words": [
+      "mich"
+    ],
+    "min_words": 40,
+    "max_words": 100,
+    "criteria": [
+      "Kamida 3 ta qaytishli fe'l to'g'ri olmosh bilan",
+      "sich interessieren für / sich informieren über predlogi bilan",
+      "Texnika muammosi Perfektda aytilgan",
+      "Fikr dass yoki weil bilan, fe'l oxirida",
+      "Matn mantiqan bog'langan (morgens, dann, abends)"
+    ],
+    "sample_answer": "Morgens lese ich die Nachrichten auf meinem Handy. Ich informiere mich meistens über eine App. Ich interessiere mich besonders für Sport und Technik. Gestern ist meine App abgestürzt und ich habe mich sehr geärgert. Ich habe das Handy neu gestartet, dann hat es wieder funktioniert. Abends entspanne ich mich mit einem Podcast. Ich finde, dass soziale Medien nützlich sind, aber man braucht auch Pausen."
+  }
+}

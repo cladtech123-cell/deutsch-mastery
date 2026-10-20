@@ -1,0 +1,226 @@
+{
+  "id": "a1-m01",
+  "version": 1,
+  "level": "A1",
+  "number": 1,
+  "title": "Tanishuv",
+  "title_de": "Kennenlernen",
+  "goals": [
+    "Salomlashish"
+  ],
+  "lessons": [
+    "a1-m01-l1",
+    "a1-m01-l2",
+    "a1-m01-l3"
+  ],
+  "module_test": [
+    {
+      "id": "mtest-a1-m01-01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "greetings",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Savol 1",
+      "prompt_de": null,
+      "options": [
+        "Guten Morgen!",
+        "Gute Nacht!"
+      ],
+      "pairs": null,
+      "correct_answer": "Guten Morgen!",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Izoh: Guten Morgen!",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a1-m01-02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "greetings",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Savol 2",
+      "prompt_de": null,
+      "options": [
+        "Hallo!",
+        "Tschüs!"
+      ],
+      "pairs": null,
+      "correct_answer": "Hallo!",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Izoh: Hallo!",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a1-m01-03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "greetings",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Savol 3",
+      "prompt_de": null,
+      "options": [
+        "Guten Abend!",
+        "Guten Morgen!"
+      ],
+      "pairs": null,
+      "correct_answer": "Guten Abend!",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Izoh: Guten Abend!",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a1-m01-04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "greetings",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Savol 4",
+      "prompt_de": null,
+      "options": [
+        "Auf Wiedersehen!",
+        "Hallo!"
+      ],
+      "pairs": null,
+      "correct_answer": "Auf Wiedersehen!",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Izoh: Auf Wiedersehen!",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a1-m01-05",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "greetings",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Savol 5",
+      "prompt_de": null,
+      "options": [
+        "Guten Morgen!",
+        "Gute Nacht!"
+      ],
+      "pairs": null,
+      "correct_answer": "Guten Morgen!",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Izoh: Guten Morgen!",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a1-m01-06",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "greetings",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Savol 6",
+      "prompt_de": null,
+      "options": [
+        "Hallo!",
+        "Tschüs!"
+      ],
+      "pairs": null,
+      "correct_answer": "Hallo!",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Izoh: Hallo!",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a1-m01-07",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "greetings",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Savol 7",
+      "prompt_de": null,
+      "options": [
+        "Guten Abend!",
+        "Guten Morgen!"
+      ],
+      "pairs": null,
+      "correct_answer": "Guten Abend!",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Izoh: Guten Abend!",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a1-m01-08",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "greetings",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Savol 8",
+      "prompt_de": null,
+      "options": [
+        "Auf Wiedersehen!",
+        "Hallo!"
+      ],
+      "pairs": null,
+      "correct_answer": "Auf Wiedersehen!",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Izoh: Auf Wiedersehen!",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "writing_task": {
+    "id": "w-a1-m01",
+    "title": "O'zingiz haqingizda",
+    "task_uz": "O'zingizni tanishtiring.",
+    "required_words": [
+      "ich",
+      "bin"
+    ],
+    "min_words": 5,
+    "max_words": 40,
+    "criteria": [
+      "Salomlashish bor",
+      "Ism aytilgan"
+    ],
+    "sample_answer": "Hallo! Ich bin Aziz. Ich komme aus Usbekistan."
+  }
+}

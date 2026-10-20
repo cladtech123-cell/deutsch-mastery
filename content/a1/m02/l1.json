@@ -1,0 +1,967 @@
+{
+  "id": "a1-m02-l1",
+  "version": 1,
+  "level": "A1",
+  "module": 2,
+  "order": 1,
+  "title": "Kimsiz va qayerdansiz?",
+  "title_de": "Wer sind Sie und woher kommen Sie?",
+  "goal": "Dars oxirida \"sein\" fe'lini barcha shaxslarda to'g'ri tuslaysiz, shaxs olmoshlarini (ich, du, er, sie ...) ishlatasiz va qayerdan ekaningiz hamda qayerda yashashingizni ayta olasiz.",
+  "skill_focus": [
+    "grammar",
+    "speaking",
+    "listening"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "\"sein\" (bo'lmoq) — nemis tilidagi eng muhim fe'l. O'zbek tilida \"Men talabaman\", \"Biz Toshkentdanmiz\" deganda alohida fe'l yo'q — faqat qo'shimcha (-man, -miz). Nemis tilida esa fe'l majburiy: Ich bin ..., Wir sind ..."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Olmosh",
+        "sein",
+        "O'zbekcha"
+      ],
+      "rows": [
+        [
+          "ich",
+          "bin",
+          "men ...man"
+        ],
+        [
+          "du",
+          "bist",
+          "sen ...san"
+        ],
+        [
+          "er / sie / es",
+          "ist",
+          "u ..."
+        ],
+        [
+          "wir",
+          "sind",
+          "biz ...miz"
+        ],
+        [
+          "ihr",
+          "seid",
+          "sizlar ...sizlar (do'stlar)"
+        ],
+        [
+          "sie",
+          "sind",
+          "ular ...lar"
+        ],
+        [
+          "Sie",
+          "sind",
+          "Siz ...siz (rasmiy)"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Qayerdan ekaningizni aytish: \"Woher kommen Sie?\" — \"Ich komme aus Usbekistan.\" (yoki \"Ich bin aus Usbekistan.\"). Qayerda yashashingizni aytish: \"Wo wohnen Sie?\" — \"Ich wohne in Berlin.\""
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Mamlakat",
+        "O'zbekcha",
+        "Qayerdan?"
+      ],
+      "rows": [
+        [
+          "Usbekistan",
+          "O'zbekiston",
+          "aus Usbekistan"
+        ],
+        [
+          "Deutschland",
+          "Germaniya",
+          "aus Deutschland"
+        ],
+        [
+          "Österreich",
+          "Avstriya",
+          "aus Österreich"
+        ],
+        [
+          "Russland",
+          "Rossiya",
+          "aus Russland"
+        ],
+        [
+          "Kasachstan",
+          "Qozog'iston",
+          "aus Kasachstan"
+        ],
+        [
+          "die Türkei",
+          "Turkiya",
+          "aus der Türkei"
+        ],
+        [
+          "die Schweiz",
+          "Shveytsariya",
+          "aus der Schweiz"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "\"sie\" (kichik harf) — \"u (ayol)\" yoki \"ular\"; \"Sie\" (katta harf) — \"Siz\". Fe'l yordam beradi: sie ist — u (ayol), sie sind — ular."
+    },
+    {
+      "type": "tip",
+      "text": "woher — qayerdan, wo — qayerda. Javobda ham farq bor: aus Taschkent (Toshkentdan), in Taschkent (Toshkentda)."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-sein",
+      "de": "sein",
+      "uz": "bo'lmoq; ...dir",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "praesens_3sg": "ist",
+        "partizip2": "gewesen",
+        "perfekt_aux": "sein"
+      },
+      "example_de": "Ich bin aus Usbekistan.",
+      "example_uz": "Men O'zbekistondanman.",
+      "topic": "personal-info"
+    },
+    {
+      "id": "v-er",
+      "de": "er",
+      "uz": "u (erkak)",
+      "pos": "pronoun",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Das ist Jasur. Er kommt aus Buchara.",
+      "example_uz": "Bu Jasur. U Buxorodan.",
+      "topic": "people"
+    },
+    {
+      "id": "v-wir",
+      "de": "wir",
+      "uz": "biz",
+      "pos": "pronoun",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Wir sind aus Taschkent.",
+      "example_uz": "Biz Toshkentdanmiz.",
+      "topic": "people"
+    },
+    {
+      "id": "v-ihr",
+      "de": "ihr",
+      "uz": "sizlar (do'stlar, oila a'zolariga)",
+      "pos": "pronoun",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Woher kommt ihr?",
+      "example_uz": "Sizlar qayerdansizlar?",
+      "topic": "people"
+    },
+    {
+      "id": "v-kommen",
+      "de": "kommen",
+      "uz": "kelmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "praesens_3sg": "kommt",
+        "partizip2": "gekommen",
+        "perfekt_aux": "sein"
+      },
+      "example_de": "Ich komme aus Usbekistan.",
+      "example_uz": "Men O'zbekistondanman.",
+      "topic": "countries-languages"
+    },
+    {
+      "id": "v-aus",
+      "de": "aus",
+      "uz": "...dan (joydan)",
+      "pos": "preposition",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Sie kommt aus Samarkand.",
+      "example_uz": "U Samarqanddan.",
+      "topic": "countries-languages"
+    },
+    {
+      "id": "v-woher",
+      "de": "woher",
+      "uz": "qayerdan",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Woher kommen Sie?",
+      "example_uz": "Siz qayerdansiz?",
+      "topic": "countries-languages"
+    },
+    {
+      "id": "v-wohnen",
+      "de": "wohnen",
+      "uz": "yashamoq, istiqomat qilmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "praesens_3sg": "wohnt",
+        "partizip2": "gewohnt",
+        "perfekt_aux": "haben"
+      },
+      "example_de": "Ich wohne in Berlin.",
+      "example_uz": "Men Berlinda yashayman.",
+      "topic": "home"
+    },
+    {
+      "id": "v-wo",
+      "de": "wo",
+      "uz": "qayerda",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Wo wohnst du?",
+      "example_uz": "Sen qayerda yashaysan?",
+      "topic": "home"
+    },
+    {
+      "id": "v-in",
+      "de": "in",
+      "uz": "...da (ichida)",
+      "pos": "preposition",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Wir wohnen in München.",
+      "example_uz": "Biz Myunxenda yashaymiz.",
+      "topic": "city"
+    },
+    {
+      "id": "v-die-stadt",
+      "de": "Stadt",
+      "uz": "shahar",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Städte",
+      "forms": null,
+      "example_de": "Buchara ist eine alte Stadt.",
+      "example_uz": "Buxoro — qadimiy shahar.",
+      "topic": "city"
+    },
+    {
+      "id": "v-das-land",
+      "de": "Land",
+      "uz": "mamlakat, davlat",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Länder",
+      "forms": null,
+      "example_de": "Usbekistan ist ein Land in Asien.",
+      "example_uz": "O'zbekiston — Osiyodagi mamlakat.",
+      "topic": "countries-languages"
+    },
+    {
+      "id": "v-der-herr",
+      "de": "Herr",
+      "uz": "janob",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Herren",
+      "forms": null,
+      "example_de": "Das ist Herr Braun.",
+      "example_uz": "Bu Braun janoblari.",
+      "topic": "people"
+    },
+    {
+      "id": "v-die-frau",
+      "de": "Frau",
+      "uz": "ayol; xonim",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Frauen",
+      "forms": null,
+      "example_de": "Frau Koch kommt aus Wien.",
+      "example_uz": "Kox xonim Venadan.",
+      "topic": "people"
+    }
+  ],
+  "review_vocabulary": [
+    "v-ich",
+    "v-du",
+    "v-sie",
+    "v-heißen",
+    "v-wie",
+    "v-guten-tag",
+    "v-guten-morgen",
+    "v-hallo",
+    "v-ja",
+    "v-nein",
+    "v-sprechen"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-pronouns",
+      "rule": "Nemis tilida shaxs olmoshlari: ich, du, er, sie, es, wir, ihr, sie, Sie. Uchinchi shaxs birlikda jinsga qarab er (erkak), sie (ayol), es (o'rta jins) tanlanadi.",
+      "when": "Odam haqida gapirganda ismni takrorlamaslik uchun va murojaat qilganda: do'stga du, notanish kattaga Sie.",
+      "structure": "Jasur → er  |  Malika → sie  |  Jasur und Malika → sie  |  Herr Braun (murojaat) → Sie",
+      "examples": [
+        {
+          "de": "Das ist Jasur. Er kommt aus Buchara.",
+          "uz": "Bu Jasur. U Buxorodan."
+        },
+        {
+          "de": "Das ist Malika. Sie wohnt in Berlin.",
+          "uz": "Bu Malika. U Berlinda yashaydi."
+        },
+        {
+          "de": "Herr Braun, woher kommen Sie?",
+          "uz": "Braun janoblari, Siz qayerdansiz?"
+        },
+        {
+          "de": "Jasur und Malika? Sie sind aus Usbekistan.",
+          "uz": "Jasur va Malikami? Ular O'zbekistondan."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Malika? Er kommt aus Namangan.",
+          "right": "Malika? Sie kommt aus Namangan.",
+          "why": "O'zbek tilidagi \"u\" ikkala jins uchun bitta, nemis tilida ayol uchun sie, erkak uchun er."
+        },
+        {
+          "wrong": "Herr Braun, woher kommst du?",
+          "right": "Herr Braun, woher kommen Sie?",
+          "why": "Notanish kattalarga Sie bilan murojaat qilinadi."
+        }
+      ],
+      "check": [
+        "a1-m02-l1-e03",
+        "a1-m02-l1-e04"
+      ]
+    },
+    {
+      "topic_id": "g-sein-haben",
+      "rule": "\"sein\" — noto'g'ri fe'l: har bir shaxs uchun shakli alohida, uni yod olish kerak (bin, bist, ist, sind, seid, sind).",
+      "when": "Kimligingiz, qayerdanligingiz va holatingizni aytganda: Ich bin Aziz. Ich bin aus Usbekistan.",
+      "structure": "olmosh + sein shakli + ism / aus + joy:  Wir sind aus Taschkent.",
+      "examples": [
+        {
+          "de": "Ich bin Malika.",
+          "uz": "Men Malikaman."
+        },
+        {
+          "de": "Du bist aus Samarkand.",
+          "uz": "Sen Samarqanddansan."
+        },
+        {
+          "de": "Wir sind aus Usbekistan.",
+          "uz": "Biz O'zbekistondanmiz."
+        },
+        {
+          "de": "Ihr seid in Berlin.",
+          "uz": "Sizlar Berlindasizlar."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Ich aus Usbekistan.",
+          "right": "Ich bin aus Usbekistan.",
+          "why": "O'zbek tilida \"-man\" qo'shimchasi yetarli, nemis tilida esa fe'l (bin) albatta kerak."
+        },
+        {
+          "wrong": "Wir seid aus Taschkent.",
+          "right": "Wir sind aus Taschkent.",
+          "why": "wir bilan sind; seid — faqat ihr uchun."
+        },
+        {
+          "wrong": "Ich komme von Usbekistan.",
+          "right": "Ich komme aus Usbekistan.",
+          "why": "Mamlakat yoki shahardan ekanini aytganda aus ishlatiladi, von emas."
+        }
+      ],
+      "check": [
+        "a1-m02-l1-e01",
+        "a1-m02-l1-e02",
+        "a1-m02-l1-e09",
+        "a1-m02-l1-e10"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Til kursida birinchi kun",
+    "lines": [
+      {
+        "speaker": "Frau Koch",
+        "de": "Guten Morgen! Ich bin Frau Koch. Wie heißen Sie?",
+        "uz": "Xayrli tong! Men Kox xonimman. Ismingiz nima?"
+      },
+      {
+        "speaker": "Jasur",
+        "de": "Ich bin Jasur. Ich komme aus Usbekistan, aus Buchara.",
+        "uz": "Men Jasurman. O'zbekistondanman, Buxorodan."
+      },
+      {
+        "speaker": "Frau Koch",
+        "de": "Und wo wohnen Sie jetzt?",
+        "uz": "Hozir qayerda yashaysiz?"
+      },
+      {
+        "speaker": "Jasur",
+        "de": "Jetzt wohne ich in Leipzig.",
+        "uz": "Hozir Leyptsigda yashayman."
+      },
+      {
+        "speaker": "Frau Koch",
+        "de": "Und Sie? Woher kommen Sie?",
+        "uz": "Siz-chi? Qayerdansiz?"
+      },
+      {
+        "speaker": "Elena",
+        "de": "Ich bin Elena. Ich komme aus Russland. Ich wohne auch in Leipzig.",
+        "uz": "Men Elenaman. Rossiyadanman. Men ham Leyptsigda yashayman."
+      }
+    ],
+    "questions": [
+      "a1-m02-l1-e05",
+      "a1-m02-l1-e06"
+    ]
+  },
+  "situation": {
+    "title": "Poyezdda tanishuv",
+    "context_uz": "Siz Myunxenga poyezdda ketyapsiz. Yoningizdagi odam siz bilan tanishmoqchi.",
+    "lines": [
+      {
+        "speaker": "Herr Braun",
+        "de": "Guten Tag! Ich bin Thomas Braun. Und Sie?",
+        "uz": "Assalomu alaykum! Men Tomas Braunman. Siz-chi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Guten Tag! Ich heiße Malika Rahimova.",
+        "uz": "Assalomu alaykum! Mening ismim Malika Rahimova."
+      },
+      {
+        "speaker": "Herr Braun",
+        "de": "Woher kommen Sie, Frau Rahimova?",
+        "uz": "Qayerdansiz, Rahimova xonim?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ich komme aus Usbekistan, aus Namangan. Und Sie?",
+        "uz": "O'zbekistondanman, Namangandan. Siz-chi?"
+      },
+      {
+        "speaker": "Herr Braun",
+        "de": "Ich komme aus Österreich, aus Wien. Aber ich wohne in München.",
+        "uz": "Men Avstriyadanman, Venadan. Lekin Myunxenda yashayman."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ich wohne auch in München!",
+        "uz": "Men ham Myunxenda yashayman!"
+      }
+    ],
+    "task_uz": "Dialogni o'z ma'lumotlaringiz bilan qayta tuzing: qaysi shahar va mamlakatdan ekaningizni, hozir qayerda yashashingizni ayting. Keyin sherigingizdan xuddi shunday so'rang (Sie bilan)."
+  },
+  "exercises": [
+    {
+      "id": "a1-m02-l1-e01",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "countries-languages",
+      "grammar_topic": "g-sein-haben",
+      "difficulty": 1,
+      "question": "\"sein\" fe'lini tuslang: Wir ___ aus Usbekistan.",
+      "prompt_de": "Wir ___ aus Usbekistan.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "sind",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "wir — biz.",
+      "explanation": "wir sind. Eslab qoling: ich bin, du bist, er ist, wir sind, ihr seid, sie/Sie sind.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l1-e02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "countries-languages",
+      "grammar_topic": "g-sein-haben",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: ___ du aus Samarkand? — Ja, ich bin aus Samarkand.",
+      "prompt_de": "___ du aus Samarkand?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Bist",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Savolda fe'l birinchi o'rinda; du bilan.",
+      "explanation": "du bist → savolda: Bist du aus Samarkand?",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l1-e03",
+      "version": 1,
+      "type": "match",
+      "skill": "grammar",
+      "topic": "people",
+      "grammar_topic": "g-pronouns",
+      "difficulty": 1,
+      "question": "Olmoshni ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "ich",
+          "men"
+        ],
+        [
+          "du",
+          "sen"
+        ],
+        [
+          "er",
+          "u (erkak)"
+        ],
+        [
+          "wir",
+          "biz"
+        ],
+        [
+          "ihr",
+          "sizlar (do'stlar)"
+        ]
+      ],
+      "correct_answer": {
+        "ich": "men",
+        "du": "sen",
+        "er": "u (erkak)",
+        "wir": "biz",
+        "ihr": "sizlar (do'stlar)"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "ich — men, du — sen, er — u (erkak), wir — biz, ihr — sizlar (norasmiy ko'plik).",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l1-e04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "people",
+      "grammar_topic": "g-pronouns",
+      "difficulty": 1,
+      "question": "Anna ist aus Wien. → ___ ist aus Wien. Qaysi olmosh to'g'ri?",
+      "prompt_de": "___ ist aus Wien.",
+      "options": [
+        "Er",
+        "Sie",
+        "Es"
+      ],
+      "pairs": null,
+      "correct_answer": "Sie",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Anna — ayol.",
+      "explanation": "Ayol haqida — sie: Sie ist aus Wien. Er — erkak uchun.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l1-e05",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "countries-languages",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Jasur qaysi shahardan?",
+      "prompt_de": null,
+      "options": [
+        "Taschkent",
+        "Buchara",
+        "Leipzig"
+      ],
+      "pairs": null,
+      "correct_answer": "Buchara",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"aus Buchara\" — Buxorodan. Leipzig — u hozir yashaydigan shahar.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Ich bin Jasur. Ich komme aus Usbekistan, aus Buchara."
+    },
+    {
+      "id": "a1-m02-l1-e06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Jasur hozir qayerda yashaydi?",
+      "prompt_de": null,
+      "options": [
+        "Leipzig",
+        "Buchara",
+        "Berlin"
+      ],
+      "pairs": null,
+      "correct_answer": "Leipzig",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Jetzt wohne ich in Leipzig\" — hozir Leyptsigda yashayman.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Und wo wohnen Sie jetzt? — Jetzt wohne ich in Leipzig."
+    },
+    {
+      "id": "a1-m02-l1-e07",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "vocabulary",
+      "topic": "countries-languages",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: Ich komme ___ Usbekistan.",
+      "prompt_de": "Ich komme ___ Usbekistan.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "aus",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Qayerdan? — ...dan.",
+      "explanation": "kommen aus + mamlakat/shahar: Ich komme aus Usbekistan. \"von\" emas!",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l1-e08",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "countries-languages",
+      "grammar_topic": "g-questions",
+      "difficulty": 1,
+      "question": "So'zlarni tartiblang: \"Siz qayerdansiz?\"",
+      "prompt_de": null,
+      "options": [
+        "Sie",
+        "kommen",
+        "Woher"
+      ],
+      "pairs": null,
+      "correct_answer": "Woher kommen Sie?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "W-savol: Woher (1) + fe'l kommen (2) + Sie.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l1-e09",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "countries-languages",
+      "grammar_topic": "g-sein-haben",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Biz Toshkentdanmiz.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Wir sind aus Taschkent.",
+      "accepted_answers": [
+        "Wir kommen aus Taschkent.",
+        "Wir sind aus Tashkent.",
+        "Wir kommen aus Tashkent."
+      ],
+      "criteria": null,
+      "hint": "biz — wir; sein yoki kommen + aus.",
+      "explanation": "Wir sind aus Taschkent / Wir kommen aus Taschkent — ikkalasi ham to'g'ri. Nemischa yozilishi: Taschkent.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l1-e10",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "countries-languages",
+      "grammar_topic": "g-sein-haben",
+      "difficulty": 1,
+      "question": "Gapdagi xato so'zni toping: \"Ihr sind aus Deutschland.\"",
+      "prompt_de": "Ihr sind aus Deutschland.",
+      "options": [
+        "Ihr",
+        "sind",
+        "aus",
+        "Deutschland"
+      ],
+      "pairs": null,
+      "correct_answer": "sind",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "ihr bilan seid: Ihr seid aus Deutschland. sind — wir, sie, Sie uchun.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l1-e11",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "countries-languages",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni davom ettiring. — Woher kommen Sie?",
+      "prompt_de": "Woher kommen Sie?",
+      "options": [
+        "Ich wohne hier.",
+        "Ich komme aus Usbekistan.",
+        "Ich heiße Aziz."
+      ],
+      "pairs": null,
+      "correct_answer": "Ich komme aus Usbekistan.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Woher?\" — qayerdan? Javob: Ich komme aus ...",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l1-e12",
+      "version": 1,
+      "type": "speak",
+      "skill": "speaking",
+      "topic": "personal-info",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zingiz haqingizda 3 ta gap ayting: ismingiz, qayerdan ekaningiz, qayerda yashashingiz.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 9,
+        "required_words": [
+          "komme",
+          "wohne"
+        ],
+        "sample": "Ich heiße Malika. Ich komme aus Usbekistan, aus Namangan. Ich wohne jetzt in München."
+      },
+      "hint": null,
+      "explanation": "Tuzilma: Ich heiße ... / Ich komme aus ... / Ich wohne in ... Fe'l har doim ikkinchi o'rinda.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a1-m02-l1-t01",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "countries-languages",
+      "grammar_topic": "g-sein-haben",
+      "difficulty": 1,
+      "question": "\"sein\" fe'lini tuslang: Ihr ___ aus Österreich.",
+      "prompt_de": "Ihr ___ aus Österreich.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "seid",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "ihr seid — sizlar ...siz. (seit bilan adashtirmang!)",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l1-t02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "people",
+      "grammar_topic": "g-sein-haben",
+      "difficulty": 1,
+      "question": "Herr Weber ___ aus Berlin.",
+      "prompt_de": "Herr Weber ___ aus Berlin.",
+      "options": [
+        "bin",
+        "ist",
+        "sind"
+      ],
+      "pairs": null,
+      "correct_answer": "ist",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Herr Weber = er → ist.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l1-t03",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "\"wohnen\" fe'lini tuslang: Wo ___ du?",
+      "prompt_de": "Wo ___ du?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "wohnst",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "du + -st: du wohnst.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l1-t04",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "countries-languages",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Woher kommst du?\"",
+      "prompt_de": "Woher kommst du?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Qayerdansan?",
+      "accepted_answers": [
+        "Sen qayerdansan?",
+        "Qayerdan kelgansan?",
+        "Sen qayerdan kelgansan?",
+        "Qayerliksan?",
+        "Sen qayerliksan?"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Woher — qayerdan, kommst du — kelasan. Tabiiy tarjima: Qayerdansan?",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l1-t05",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Yangi hamkasbingiz (rasmiy) qayerda yashashini bilmoqchisiz. Nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Wo wohnst du?",
+        "Woher kommen Sie?",
+        "Wo wohnen Sie?"
+      ],
+      "pairs": null,
+      "correct_answer": "Wo wohnen Sie?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Qayerda yashash — wo + wohnen; rasmiy — Sie: Wo wohnen Sie?",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l1-t06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "city",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Ahmedova xonim qayerda yashaydi?",
+      "prompt_de": null,
+      "options": [
+        "Samarkand",
+        "München",
+        "Berlin"
+      ],
+      "pairs": null,
+      "correct_answer": "München",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"kommt aus Samarkand\" — Samarqanddan, \"wohnt in München\" — Myunxenda yashaydi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Das ist Frau Ahmedova. Sie kommt aus Samarkand und wohnt in München."
+    },
+    {
+      "id": "a1-m02-l1-t07",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "Mos fe'lni yozing (yashamoq): Wir ___ in Hamburg.",
+      "prompt_de": "Wir ___ in Hamburg.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "wohnen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "wir wohnen — biz yashaymiz. wir bilan fe'l infinitivga o'xshaydi (-en).",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

@@ -1,0 +1,903 @@
+{
+  "id": "a1-m02-l3",
+  "version": 1,
+  "level": "A1",
+  "module": 2,
+  "order": 3,
+  "title": "W-savollar va shaxsiy ma'lumot",
+  "title_de": "W-Fragen und persönliche Daten",
+  "goal": "Dars oxirida wer, was, wo, woher, wie savollarini to'g'ri tuzasiz, anketa savollariga (ism, kelib chiqish, yashash joyi, oilaviy holat) javob berasiz va yangi odam bilan tanishuv suhbatini o'tkaza olasiz.",
+  "skill_focus": [
+    "grammar",
+    "speaking",
+    "reading"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "W-savollar W harfi bilan boshlanadigan so'roq so'zlari bilan tuziladi. Tartib doim bir xil: W-so'z (1) + fe'l (2) + ega (3) + qolgan qism."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "W-so'z",
+        "Ma'nosi",
+        "Misol"
+      ],
+      "rows": [
+        [
+          "wer",
+          "kim",
+          "Wer ist das?"
+        ],
+        [
+          "was",
+          "nima",
+          "Was lernst du?"
+        ],
+        [
+          "wo",
+          "qayerda",
+          "Wo wohnen Sie?"
+        ],
+        [
+          "woher",
+          "qayerdan",
+          "Woher kommst du?"
+        ],
+        [
+          "wie",
+          "qanday",
+          "Wie heißen Sie?"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Idorada anketa (das Formular) to'ldirganda ko'pincha shunday so'rashadi: Wie ist Ihr Name? — Woher kommen Sie? — Wo wohnen Sie? — Sind Sie verheiratet? (Ha: \"Ja, ich bin verheiratet.\" Yo'q: \"Nein, ich bin ledig.\")"
+    },
+    {
+      "type": "tip",
+      "text": "Soxta do'st: \"wer\" ingliz tilidagi \"where\" ga o'xshaydi, lekin ma'nosi \"kim\"! \"Qayerda\" — wo."
+    },
+    {
+      "type": "tip",
+      "text": "Tanishganda \"Freut mich!\" (Tanishganimdan xursandman!) deyish odob hisoblanadi."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-wer",
+      "de": "wer",
+      "uz": "kim",
+      "pos": "pronoun",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Wer ist das? — Das ist Timur.",
+      "example_uz": "Bu kim? — Bu Timur.",
+      "topic": "people"
+    },
+    {
+      "id": "v-was",
+      "de": "was",
+      "uz": "nima",
+      "pos": "pronoun",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Was lernst du?",
+      "example_uz": "Nima o'rganyapsan?",
+      "topic": "general"
+    },
+    {
+      "id": "v-verheiratet",
+      "de": "verheiratet",
+      "uz": "uylangan / turmushga chiqqan",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Sind Sie verheiratet?",
+      "example_uz": "Siz oilalimisiz?",
+      "topic": "personal-info"
+    },
+    {
+      "id": "v-ledig",
+      "de": "ledig",
+      "uz": "bo'ydoq / turmush qurmagan",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Nein, ich bin ledig.",
+      "example_uz": "Yo'q, men turmush qurmaganman.",
+      "topic": "personal-info"
+    },
+    {
+      "id": "v-der-student",
+      "de": "Student",
+      "uz": "talaba (yigit)",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Studenten",
+      "forms": null,
+      "example_de": "Timur ist Student.",
+      "example_uz": "Timur talaba.",
+      "topic": "education"
+    },
+    {
+      "id": "v-die-studentin",
+      "de": "Studentin",
+      "uz": "talaba (qiz)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Studentinnen",
+      "forms": null,
+      "example_de": "Sevara ist Studentin in Köln.",
+      "example_uz": "Sevara Kyolnda talaba.",
+      "topic": "education"
+    },
+    {
+      "id": "v-der-freund",
+      "de": "Freund",
+      "uz": "do'st (erkak)",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Freunde",
+      "forms": null,
+      "example_de": "Das ist Paul, ein Freund aus Berlin.",
+      "example_uz": "Bu Paul, Berlindagi do'stim.",
+      "topic": "people"
+    },
+    {
+      "id": "v-die-freundin",
+      "de": "Freundin",
+      "uz": "dugona; do'st (ayol)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Freundinnen",
+      "forms": null,
+      "example_de": "Lola ist eine Freundin.",
+      "example_uz": "Lola — dugonam.",
+      "topic": "people"
+    },
+    {
+      "id": "v-neu",
+      "de": "neu",
+      "uz": "yangi",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Ich bin neu hier.",
+      "example_uz": "Men bu yerda yangiman.",
+      "topic": "general"
+    },
+    {
+      "id": "v-hier",
+      "de": "hier",
+      "uz": "bu yerda",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Wohnen Sie hier?",
+      "example_uz": "Siz shu yerda yashaysizmi?",
+      "topic": "general"
+    },
+    {
+      "id": "v-jetzt",
+      "de": "jetzt",
+      "uz": "hozir",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Jetzt wohne ich in Dresden.",
+      "example_uz": "Hozir Drezdenda yashayman.",
+      "topic": "time"
+    },
+    {
+      "id": "v-das-formular",
+      "de": "Formular",
+      "uz": "anketa, blanka",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Formulare",
+      "forms": null,
+      "example_de": "Bitte schreiben Sie hier im Formular.",
+      "example_uz": "Iltimos, anketaning shu yeriga yozing.",
+      "topic": "services"
+    },
+    {
+      "id": "v-der-kurs",
+      "de": "Kurs",
+      "uz": "kurs",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Kurse",
+      "forms": null,
+      "example_de": "Der Deutschkurs ist gut.",
+      "example_uz": "Nemis tili kursi yaxshi.",
+      "topic": "education"
+    },
+    {
+      "id": "v-freut-mich",
+      "de": "Freut mich!",
+      "uz": "Tanishganimdan xursandman!",
+      "pos": "phrase",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Ich bin Anna. — Freut mich! Ich bin Timur.",
+      "example_uz": "Men Annaman. — Tanishganimdan xursandman! Men Timurman.",
+      "topic": "greetings"
+    }
+  ],
+  "review_vocabulary": [
+    "v-wie",
+    "v-wo",
+    "v-woher",
+    "v-heißen",
+    "v-kommen",
+    "v-wohnen",
+    "v-sein",
+    "v-lernen",
+    "v-der-name",
+    "v-der-vorname",
+    "v-der-nachname",
+    "v-das-deutsch",
+    "v-nicht",
+    "v-sie",
+    "v-du",
+    "v-er"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-questions",
+      "rule": "W-savolda W-so'z birinchi, fe'l ikkinchi, ega uchinchi o'rinda turadi. Fe'l egaga mos tuslanadi.",
+      "when": "Aniq ma'lumot so'raganda: kim, nima, qayerda, qayerdan, qanday.",
+      "structure": "W-so'z + fe'l + ega + ...?  →  Wo wohnst du?",
+      "examples": [
+        {
+          "de": "Wer ist das? — Das ist Timur.",
+          "uz": "Bu kim? — Bu Timur."
+        },
+        {
+          "de": "Was lernst du? — Ich lerne Deutsch.",
+          "uz": "Nima o'rganyapsan? — Nemis tilini o'rganyapman."
+        },
+        {
+          "de": "Wo wohnt ihr? — Wir wohnen in Köln.",
+          "uz": "Sizlar qayerda yashaysizlar? — Biz Kyolnda yashaymiz."
+        },
+        {
+          "de": "Wie heißen Sie? — Ich heiße Sevara Alimova.",
+          "uz": "Ismingiz nima? — Mening ismim Sevara Alimova."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Wo du wohnst?",
+          "right": "Wo wohnst du?",
+          "why": "O'zbek tilida fe'l gap oxirida, nemis tilida esa W-so'zdan keyin darhol fe'l keladi."
+        },
+        {
+          "wrong": "Wer kommst du?",
+          "right": "Woher kommst du?",
+          "why": "wer — kim. Qayerdan — woher."
+        },
+        {
+          "wrong": "Was heißt du?",
+          "right": "Wie heißt du?",
+          "why": "Ism so'ralganda \"Wie\" (qanday) ishlatiladi, \"Was\" emas."
+        }
+      ],
+      "check": [
+        "a1-m02-l3-e01",
+        "a1-m02-l3-e02",
+        "a1-m02-l3-e03",
+        "a1-m02-l3-e04",
+        "a1-m02-l3-e08"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Kursga yangi talaba",
+    "lines": [
+      {
+        "speaker": "Frau Koch",
+        "de": "Guten Morgen! Wer ist neu hier?",
+        "uz": "Xayrli tong! Bu yerda kim yangi?"
+      },
+      {
+        "speaker": "Timur",
+        "de": "Ich! Ich heiße Timur.",
+        "uz": "Men! Mening ismim Timur."
+      },
+      {
+        "speaker": "Frau Koch",
+        "de": "Freut mich, Timur! Woher kommen Sie?",
+        "uz": "Tanishganimdan xursandman, Timur! Qayerdansiz?"
+      },
+      {
+        "speaker": "Timur",
+        "de": "Aus Usbekistan. Ich bin Student.",
+        "uz": "O'zbekistondan. Men talabaman."
+      },
+      {
+        "speaker": "Frau Koch",
+        "de": "Und was lernen Sie hier?",
+        "uz": "Bu yerda nima o'rganyapsiz?"
+      },
+      {
+        "speaker": "Timur",
+        "de": "Ich lerne Deutsch. Jetzt wohne ich in Dresden.",
+        "uz": "Nemis tilini o'rganyapman. Hozir Drezdenda yashayman."
+      }
+    ],
+    "questions": [
+      "a1-m02-l3-e05",
+      "a1-m02-l3-e06"
+    ]
+  },
+  "situation": {
+    "title": "Til maktabida anketa",
+    "context_uz": "Siz til maktabiga yozilyapsiz. Kotib anketani siz bilan birga to'ldiryapti.",
+    "lines": [
+      {
+        "speaker": "Sekretär",
+        "de": "Wie ist Ihr Vorname?",
+        "uz": "Ismingiz nima?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Shahzoda.",
+        "uz": "Shahzoda."
+      },
+      {
+        "speaker": "Sekretär",
+        "de": "Und Ihr Nachname?",
+        "uz": "Familiyangiz-chi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Tursunova. T – U – R – S – U – N – O – V – A.",
+        "uz": "Tursunova. T – U – R – S – U – N – O – V – A."
+      },
+      {
+        "speaker": "Sekretär",
+        "de": "Woher kommen Sie? Und wo wohnen Sie jetzt?",
+        "uz": "Qayerdansiz? Hozir qayerda yashaysiz?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ich komme aus Usbekistan. Jetzt wohne ich in Bonn.",
+        "uz": "O'zbekistondanman. Hozir Bonnda yashayman."
+      },
+      {
+        "speaker": "Sekretär",
+        "de": "Sind Sie verheiratet?",
+        "uz": "Turmush qurganmisiz?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Nein, ich bin ledig.",
+        "uz": "Yo'q, turmush qurmaganman."
+      }
+    ],
+    "task_uz": "Kotibning savollariga o'z ma'lumotlaringiz bilan javob bering. Keyin sherigingizga xuddi shu savollarni \"du\" bilan bering: Wie heißt du? Woher kommst du? Wo wohnst du? Bist du verheiratet?"
+  },
+  "exercises": [
+    {
+      "id": "a1-m02-l3-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "grammar",
+      "topic": "general",
+      "grammar_topic": "g-questions",
+      "difficulty": 1,
+      "question": "So'roq so'zini ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "wer",
+          "kim"
+        ],
+        [
+          "was",
+          "nima"
+        ],
+        [
+          "wo",
+          "qayerda"
+        ],
+        [
+          "woher",
+          "qayerdan"
+        ],
+        [
+          "wie",
+          "qanday"
+        ]
+      ],
+      "correct_answer": {
+        "wer": "kim",
+        "was": "nima",
+        "wo": "qayerda",
+        "woher": "qayerdan",
+        "wie": "qanday"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "wer — kim, was — nima, wo — qayerda, woher — qayerdan, wie — qanday. \"wer\" ni ingliz tilidagi \"where\" bilan adashtirmang!",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l3-e02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "people",
+      "grammar_topic": "g-questions",
+      "difficulty": 1,
+      "question": "___ ist das? — Das ist Frau Koch.",
+      "prompt_de": "___ ist das?",
+      "options": [
+        "Wer",
+        "Was",
+        "Wo"
+      ],
+      "pairs": null,
+      "correct_answer": "Wer",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Javob — odam.",
+      "explanation": "Odam haqida — Wer (kim). Was — narsa haqida, Wo — joy haqida.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l3-e03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-questions",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: ___ wohnst du? — In Dresden.",
+      "prompt_de": "___ wohnst du?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Wo",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Javob — joy (qayerda?).",
+      "explanation": "\"In Dresden\" — qayerda? → Wo wohnst du?",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l3-e04",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "language-learning",
+      "grammar_topic": "g-questions",
+      "difficulty": 1,
+      "question": "So'zlarni tartiblang: \"Sen bu yerda nima o'rganyapsan?\"",
+      "prompt_de": null,
+      "options": [
+        "Was",
+        "hier",
+        "lernst",
+        "du"
+      ],
+      "pairs": null,
+      "correct_answer": "Was lernst du hier?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Was (1) + lernst (2) + du + hier. Fe'l doim ikkinchi o'rinda.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l3-e05",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "education",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Timur kim?",
+      "prompt_de": null,
+      "options": [
+        "o'qituvchi",
+        "talaba",
+        "kotib"
+      ],
+      "pairs": null,
+      "correct_answer": "talaba",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Ich bin Student\" — men talabaman.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Aus Usbekistan. Ich bin Student."
+    },
+    {
+      "id": "a1-m02-l3-e06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "language-learning",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Timur nima o'rganyapti?",
+      "prompt_de": null,
+      "options": [
+        "Englisch",
+        "Russisch",
+        "Deutsch"
+      ],
+      "pairs": null,
+      "correct_answer": "Deutsch",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Ich lerne Deutsch\" — nemis tilini o'rganyapman.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Und was lernen Sie hier? — Ich lerne Deutsch."
+    },
+    {
+      "id": "a1-m02-l3-e07",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "personal-info",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Matnni o'qing. Sevara turmush qurganmi?",
+      "prompt_de": "Ich heiße Sevara Alimova. Ich komme aus Andischan. Jetzt wohne ich in Köln. Ich bin Studentin. Ich bin nicht verheiratet.",
+      "options": [
+        "Ha, turmush qurgan.",
+        "Yo'q, turmush qurmagan.",
+        "Matnda aytilmagan."
+      ],
+      "pairs": null,
+      "correct_answer": "Yo'q, turmush qurmagan.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Ich bin nicht verheiratet\" — turmush qurmaganman (= ledig).",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l3-e08",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "personal-info",
+      "grammar_topic": "g-questions",
+      "difficulty": 1,
+      "question": "Gapdagi xato so'zni toping: \"Was heißen Sie?\"",
+      "prompt_de": "Was heißen Sie?",
+      "options": [
+        "Was",
+        "heißen",
+        "Sie"
+      ],
+      "pairs": null,
+      "correct_answer": "Was",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ism so'raganda: Wie heißen Sie? Nemis tilida ism \"qanday\" so'zi bilan so'raladi.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l3-e09",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "greetings",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni davom ettiring. — Hallo, ich bin Timur.",
+      "prompt_de": "Hallo, ich bin Timur.",
+      "options": [
+        "Freut mich! Ich bin Anna.",
+        "Wer ist das?",
+        "Ich bin verheiratet."
+      ],
+      "pairs": null,
+      "correct_answer": "Freut mich! Ich bin Anna.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Kimdir o'zini tanishtirsa: Freut mich! + o'zingizni tanishtirasiz.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l3-e10",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "home",
+      "grammar_topic": "g-questions",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Siz qayerda yashaysiz?\" (rasmiy)",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Wo wohnen Sie?",
+      "accepted_answers": [
+        "Wo wohnen Sie denn?"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "qayerda — wo, yashamoq — wohnen, Siz — Sie: Wo wohnen Sie?",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l3-e11",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "people",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Wer ist das?\"",
+      "prompt_de": "Wer ist das?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Bu kim?",
+      "accepted_answers": [
+        "Kim bu?",
+        "U kim?"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "wer — kim, das — bu: Bu kim?",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l3-e12",
+      "version": 1,
+      "type": "speak",
+      "skill": "speaking",
+      "topic": "personal-info",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Sherigingizga 4 ta W-savol bering: ismi, qayerdan, qayerda yashaydi, nima o'rganadi.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 10,
+        "required_words": [
+          "Wie",
+          "Woher",
+          "Was"
+        ],
+        "sample": "Wie heißt du? Woher kommst du? Wo wohnst du? Was lernst du?"
+      },
+      "hint": null,
+      "explanation": "Har bir savolda W-so'z birinchi, fe'l ikkinchi: Wie heißt du? Woher kommst du? Wo wohnst du? Was lernst du?",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a1-m02-l3-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "countries-languages",
+      "grammar_topic": "g-questions",
+      "difficulty": 1,
+      "question": "___ kommen Sie? — Aus Kasachstan.",
+      "prompt_de": "___ kommen Sie?",
+      "options": [
+        "Wo",
+        "Woher",
+        "Wer"
+      ],
+      "pairs": null,
+      "correct_answer": "Woher",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Aus Kasachstan\" — qayerdan? → Woher.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l3-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "personal-info",
+      "grammar_topic": "g-questions",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: ___ heißt du? — Timur.",
+      "prompt_de": "___ heißt du?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Wie",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ism so'raganda — Wie heißt du?",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l3-t03",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "personal-info",
+      "grammar_topic": "g-sein-haben",
+      "difficulty": 1,
+      "question": "\"sein\" fe'lini tuslang: ___ Sie verheiratet?",
+      "prompt_de": "___ Sie verheiratet?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Sind",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Sie sind → savolda: Sind Sie verheiratet?",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l3-t04",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "people",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Kursda notanish odamni ko'rdingiz. Dugonangizdan uning kimligini so'raysiz.",
+      "prompt_de": null,
+      "options": [
+        "Wer ist das?",
+        "Was ist das?",
+        "Wo ist das?"
+      ],
+      "pairs": null,
+      "correct_answer": "Wer ist das?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Odam haqida — Wer ist das? \"Was ist das?\" — narsa haqida.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l3-t05",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "countries-languages",
+      "grammar_topic": "g-questions",
+      "difficulty": 1,
+      "question": "So'zlarni tartiblang: \"Sizlar qayerdansizlar?\"",
+      "prompt_de": null,
+      "options": [
+        "ihr",
+        "kommt",
+        "Woher"
+      ],
+      "pairs": null,
+      "correct_answer": "Woher kommt ihr?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Woher + kommt (ihr shakli) + ihr.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l3-t06",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "education",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemis tiliga tarjima qiling (gapiruvchi — qiz): \"Men talabaman.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich bin Studentin.",
+      "accepted_answers": [
+        "Ich bin eine Studentin."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Qiz talaba — Studentin. Kasb va maqomda artikl odatda qo'yilmaydi: Ich bin Studentin.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l3-t07",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "people",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Matnni o'qing. Jasur qayerdan?",
+      "prompt_de": "A: Wer ist das? B: Das ist Jasur. Er ist neu hier. Er ist Student und kommt aus Buchara.",
+      "options": [
+        "Toshkentdan",
+        "Buxorodan",
+        "Matnda aytilmagan"
+      ],
+      "pairs": null,
+      "correct_answer": "Buxorodan",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Er kommt aus Buchara\" — u Buxorodan.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l3-t08",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang va savolni yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Wo wohnen Sie jetzt?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Wo wohnen Sie jetzt? — Hozir qayerda yashaysiz? Sie — katta harf bilan.",
+      "error_type": "spelling",
+      "points": 2,
+      "audio_text": "Wo wohnen Sie jetzt?"
+    }
+  ]
+}

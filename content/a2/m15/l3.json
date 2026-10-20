@@ -1,0 +1,791 @@
+{
+  "id": "a2-m15-l3",
+  "version": 1,
+  "level": "A2",
+  "module": 15,
+  "order": 3,
+  "title": "Qobiliyatlarim va ishga ariza",
+  "title_de": "Meine Stärken und die Bewerbung",
+  "goal": "Dars oxirida ish suhbatida o'zingizni 5–6 gapda tanishtira olasiz: tajribangiz, nimalarni qila olishingiz (Ich kann ...), kuchli tomonlaringiz va qanday ish xohlashingiz (Ich möchte als ... arbeiten).",
+  "skill_focus": [
+    "speaking",
+    "writing",
+    "grammar"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Ishga joylashish uchun odatda ariza (Bewerbung) yuboriladi: unda tarjimai hol (Lebenslauf) va qisqa xat bo'ladi. Keyin ish suhbatiga (Vorstellungsgespräch) taklif qilinasiz. U yerda deyarli har doim \"Erzählen Sie etwas über sich\" (O'zingiz haqingizda gapirib bering) deb so'rashadi."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Nima aytasiz",
+        "Namuna"
+      ],
+      "rows": [
+        [
+          "Qobiliyat",
+          "Ich kann gut mit Kunden sprechen. Ich kann Auto fahren."
+        ],
+        [
+          "Til",
+          "Ich spreche fließend Usbekisch und Russisch. Ich kann schon gut Deutsch verstehen."
+        ],
+        [
+          "Xislat",
+          "Ich bin zuverlässig, pünktlich und flexibel."
+        ],
+        [
+          "Xohish",
+          "Ich möchte gern als Lagerist arbeiten."
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "\"können\" va \"möchten\" bilan asosiy fe'l gap OXIRIGA ketadi: \"Ich kann gut im Team arbeiten.\" \"er/sie\" shakli \"-t\" siz: er kann, sie möchte."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-die-stelle",
+      "de": "Stelle",
+      "uz": "ish o'rni, vakansiya",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Stellen",
+      "forms": null,
+      "example_de": "Ich suche eine Stelle als Fahrer.",
+      "example_uz": "Haydovchi sifatida ish o'rni qidiryapman.",
+      "topic": "work"
+    },
+    {
+      "id": "v-die-bewerbung",
+      "de": "Bewerbung",
+      "uz": "ishga ariza",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Bewerbungen",
+      "forms": null,
+      "example_de": "Ich habe meine Bewerbung per E-Mail geschickt.",
+      "example_uz": "Arizamni elektron pochta orqali yubordim.",
+      "topic": "work"
+    },
+    {
+      "id": "v-der-lebenslauf",
+      "de": "Lebenslauf",
+      "uz": "tarjimai hol, rezyume",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Lebensläufe",
+      "forms": null,
+      "example_de": "Im Lebenslauf stehen Ausbildung und Erfahrung.",
+      "example_uz": "Tarjimai holda ta'lim va tajriba yoziladi.",
+      "topic": "work"
+    },
+    {
+      "id": "v-das-vorstellungsgespräch",
+      "de": "Vorstellungsgespräch",
+      "uz": "ish suhbati (intervyu)",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Vorstellungsgespräche",
+      "forms": null,
+      "example_de": "Morgen habe ich ein Vorstellungsgespräch.",
+      "example_uz": "Ertaga ish suhbatim bor.",
+      "topic": "work"
+    },
+    {
+      "id": "v-die-stärke",
+      "de": "Stärke",
+      "uz": "kuchli tomon",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Stärken",
+      "forms": null,
+      "example_de": "Meine Stärke ist die Geduld.",
+      "example_uz": "Mening kuchli tomonim — sabr.",
+      "topic": "work"
+    },
+    {
+      "id": "v-zuverlässig",
+      "de": "zuverlässig",
+      "uz": "ishonchli",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Unsere neue Kollegin ist sehr zuverlässig.",
+      "example_uz": "Yangi hamkasbimiz juda ishonchli.",
+      "topic": "people"
+    },
+    {
+      "id": "v-flexibel",
+      "de": "flexibel",
+      "uz": "moslashuvchan",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Ich bin flexibel und kann auch am Wochenende arbeiten.",
+      "example_uz": "Men moslashuvchanman, dam olish kunlari ham ishlay olaman.",
+      "topic": "work"
+    },
+    {
+      "id": "v-der-führerschein",
+      "de": "Führerschein",
+      "uz": "haydovchilik guvohnomasi",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Führerscheine",
+      "forms": null,
+      "example_de": "Für die Stelle brauchen Sie einen Führerschein.",
+      "example_uz": "Bu ish o'rni uchun haydovchilik guvohnomasi kerak.",
+      "topic": "work"
+    },
+    {
+      "id": "v-die-kenntnis",
+      "de": "Kenntnis",
+      "uz": "bilim (ko'pincha ko'plikda)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Kenntnisse",
+      "forms": null,
+      "example_de": "Ich habe gute Computerkenntnisse.",
+      "example_uz": "Kompyuterni yaxshi bilaman.",
+      "topic": "work"
+    },
+    {
+      "id": "v-fließend",
+      "de": "fließend",
+      "uz": "erkin, ravon (til haqida)",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Er spricht fließend Englisch.",
+      "example_uz": "U ingliz tilida erkin gaplashadi.",
+      "topic": "language-learning"
+    },
+    {
+      "id": "v-der-arbeitgeber",
+      "de": "Arbeitgeber",
+      "uz": "ish beruvchi",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Arbeitgeber",
+      "forms": null,
+      "example_de": "Mein Arbeitgeber bezahlt den Deutschkurs.",
+      "example_uz": "Ish beruvchim nemis tili kursini to'laydi.",
+      "topic": "work"
+    }
+  ],
+  "review_vocabulary": [
+    "v-pünktlich",
+    "v-die-erfahrung",
+    "v-das-praktikum",
+    "v-die-ausbildung",
+    "v-seit",
+    "v-der-kunde",
+    "v-die-schicht"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-modal-verbs",
+      "rule": "\"können\" — qobiliyat va imkoniyat (qila olaman), \"möchten\" — muloyim xohish. Modal fe'l 2-o'rinda tuslanadi, asosiy fe'l Infinitivda gap oxirida turadi.",
+      "when": "Ish suhbatida va arizada nimani qila olishingiz va qanday ish xohlashingizni aytganda.",
+      "structure": "Subyekt + kann/möchte + ... + Infinitiv.  Masalan: Ich kann gut mit Menschen arbeiten.",
+      "examples": [
+        {
+          "de": "Ich kann gut mit Computern arbeiten.",
+          "uz": "Kompyuter bilan yaxshi ishlay olaman."
+        },
+        {
+          "de": "Mein Mann kann fließend Englisch sprechen.",
+          "uz": "Erim ingliz tilida erkin gapira oladi."
+        },
+        {
+          "de": "Ich möchte gern als Krankenpflegerin arbeiten.",
+          "uz": "Hamshira bo'lib ishlashni xohlardim."
+        },
+        {
+          "de": "Können Sie auch nachts arbeiten?",
+          "uz": "Kechasi ham ishlay olasizmi?"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Ich kann sprechen gut Deutsch.",
+          "right": "Ich kann gut Deutsch sprechen.",
+          "why": "Modal fe'l bilan asosiy fe'l (sprechen) doim oxirda."
+        },
+        {
+          "wrong": "Er kannt Auto fahren.",
+          "right": "Er kann Auto fahren.",
+          "why": "Modal fe'llarda \"er/sie/es\" shaklida -t qo'shilmaydi: er kann, er möchte."
+        },
+        {
+          "wrong": "Ich möchte arbeiten als Koch.",
+          "right": "Ich möchte als Koch arbeiten.",
+          "why": "Infinitiv \"arbeiten\" gap oxiriga o'tadi."
+        }
+      ],
+      "check": [
+        "a2-m15-l3-e02",
+        "a2-m15-l3-e03",
+        "a2-m15-l3-e04",
+        "a2-m15-l3-e07"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Ish suhbati",
+    "lines": [
+      {
+        "speaker": "Frau Lang",
+        "de": "Guten Tag, Herr Tursunov. Erzählen Sie bitte etwas über sich.",
+        "uz": "Assalomu alaykum, Tursunov janoblari. O'zingiz haqingizda gapirib bering."
+      },
+      {
+        "speaker": "Herr Tursunov",
+        "de": "Ich bin 29 Jahre alt und komme aus Namangan. Ich habe sechs Jahre als Fahrer gearbeitet.",
+        "uz": "Men 29 yoshdaman, Namangandanman. Olti yil haydovchi bo'lib ishlaganman."
+      },
+      {
+        "speaker": "Frau Lang",
+        "de": "Welche Sprachen sprechen Sie?",
+        "uz": "Qaysi tillarda gaplashasiz?"
+      },
+      {
+        "speaker": "Herr Tursunov",
+        "de": "Ich spreche fließend Usbekisch und Russisch. Deutsch lerne ich seit einem Jahr.",
+        "uz": "O'zbek va rus tillarida erkin gaplashaman. Nemis tilini bir yildan beri o'rganyapman."
+      },
+      {
+        "speaker": "Frau Lang",
+        "de": "Was sind Ihre Stärken?",
+        "uz": "Kuchli tomonlaringiz nima?"
+      },
+      {
+        "speaker": "Herr Tursunov",
+        "de": "Ich bin zuverlässig und pünktlich. Und ich kann auch am Wochenende arbeiten.",
+        "uz": "Men ishonchli va vaqtga rioya qilaman. Dam olish kunlari ham ishlay olaman."
+      }
+    ],
+    "questions": [
+      "a2-m15-l3-e05"
+    ]
+  },
+  "situation": {
+    "title": "Ish suhbatida o'zingizni tanishtirish",
+    "context_uz": "Siz supermarketdagi \"Verkäufer/in\" ish o'rniga ariza yubordingiz va suhbatga taklif qilindingiz. Rahbar sizdan savol so'rayapti.",
+    "lines": [
+      {
+        "speaker": "Chefin",
+        "de": "Warum möchten Sie bei uns arbeiten?",
+        "uz": "Nega bizda ishlamoqchisiz?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ich arbeite gern mit Menschen und ich habe schon Erfahrung im Verkauf.",
+        "uz": "Odamlar bilan ishlashni yaxshi ko'raman va savdoda tajribam bor."
+      },
+      {
+        "speaker": "Chefin",
+        "de": "Können Sie auch in der Spätschicht arbeiten?",
+        "uz": "Kechki smenada ham ishlay olasizmi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ja, ich bin flexibel. Nur sonntags kann ich leider nicht.",
+        "uz": "Ha, men moslashuvchanman. Faqat yakshanba kunlari afsuski ololmayman."
+      },
+      {
+        "speaker": "Chefin",
+        "de": "Gut. Haben Sie Fragen an uns?",
+        "uz": "Yaxshi. Bizga savollaringiz bormi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ja: Gibt es auch einen Deutschkurs für Mitarbeiter?",
+        "uz": "Ha: xodimlar uchun nemis tili kursi ham bormi?"
+      }
+    ],
+    "task_uz": "Rahbarning \"Erzählen Sie etwas über sich\" savoliga 5–6 gapda javob bering: kasb/tajriba (seit/vor), 2 ta qobiliyat (Ich kann ...), 1 ta xislat va xohishingiz (Ich möchte als ... arbeiten)."
+  },
+  "exercises": [
+    {
+      "id": "a2-m15-l3-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemischa so'zni o'zbekcha ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "der Lebenslauf",
+          "tarjimai hol"
+        ],
+        [
+          "die Bewerbung",
+          "ishga ariza"
+        ],
+        [
+          "das Vorstellungsgespräch",
+          "ish suhbati"
+        ],
+        [
+          "der Führerschein",
+          "haydovchilik guvohnomasi"
+        ],
+        [
+          "die Stelle",
+          "ish o'rni"
+        ]
+      ],
+      "correct_answer": {
+        "der Lebenslauf": "tarjimai hol",
+        "die Bewerbung": "ishga ariza",
+        "das Vorstellungsgespräch": "ish suhbati",
+        "der Führerschein": "haydovchilik guvohnomasi",
+        "die Stelle": "ish o'rni"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Lebenslauf — \"hayot yo'li\", ya'ni tarjimai hol; Bewerbung — ariza; Vorstellungsgespräch — ish suhbati; Führerschein — haydovchilik guvohnomasi; Stelle — ish o'rni.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l3-e02",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "work",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 2,
+      "question": "So'zlarni to'g'ri tartibda joylashtiring: \"Men jamoada yaxshi ishlay olaman.\"",
+      "prompt_de": null,
+      "options": [
+        "im",
+        "gut",
+        "arbeiten",
+        "Team",
+        "kann",
+        "Ich"
+      ],
+      "pairs": null,
+      "correct_answer": "Ich kann gut im Team arbeiten",
+      "accepted_answers": [
+        "Ich kann im Team gut arbeiten"
+      ],
+      "criteria": null,
+      "hint": "\"arbeiten\" — oxirida.",
+      "explanation": "Modal fe'l \"kann\" 2-o'rinda, Infinitiv \"arbeiten\" oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l3-e03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "language-learning",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "To'g'ri shaklni tanlang: Mein Bruder ___ fließend Russisch sprechen.",
+      "prompt_de": null,
+      "options": [
+        "kann",
+        "kannst",
+        "können"
+      ],
+      "pairs": null,
+      "correct_answer": "kann",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Mein Bruder\" = er → kann (-t qo'shilmaydi). kannst — du uchun, können — wir/sie uchun.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l3-e04",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "work",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (ishlamoq): Ich möchte gern als Krankenpfleger ___.",
+      "prompt_de": "Ich möchte gern als Krankenpfleger ___.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "arbeiten",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"möchte\" bilan asosiy fe'l Infinitivda va oxirida: arbeiten.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l3-e05",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "language-learning",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Herr Tursunov qaysi tillarda erkin gaplashadi?",
+      "prompt_de": null,
+      "options": [
+        "O'zbek va rus tillarida",
+        "O'zbek va nemis tillarida",
+        "Faqat nemis tilida"
+      ],
+      "pairs": null,
+      "correct_answer": "O'zbek va rus tillarida",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"fließend Usbekisch und Russisch\" — o'zbek va rus tillarida erkin. Nemis tilini esa bir yildan beri o'rganyapti.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Ich spreche fließend Usbekisch und Russisch. Deutsch lerne ich seit einem Jahr."
+    },
+    {
+      "id": "a2-m15-l3-e06",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni davom ettiring. — Was sind Ihre Stärken?",
+      "prompt_de": "Was sind Ihre Stärken?",
+      "options": [
+        "Ich bin zuverlässig und kann gut im Team arbeiten.",
+        "Ich habe keine Stärken, danke.",
+        "Meine Stärke ist 25 Jahre alt."
+      ],
+      "pairs": null,
+      "correct_answer": "Ich bin zuverlässig und kann gut im Team arbeiten.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Kuchli tomonlar: xislat (zuverlässig) va qobiliyat (kann ... arbeiten).",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l3-e07",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "transport",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 2,
+      "question": "Gapdagi xato so'zni toping: \"Mein Kollege können gut Auto fahren.\"",
+      "prompt_de": "Mein Kollege können gut Auto fahren.",
+      "options": [
+        "Mein",
+        "Kollege",
+        "können",
+        "gut",
+        "Auto",
+        "fahren"
+      ],
+      "pairs": null,
+      "correct_answer": "können",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Mein Kollege\" = er → \"kann\": Mein Kollege kann gut Auto fahren.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l3-e08",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemis tiliga tarjima qiling: \"Mening haydovchilik guvohnomam bor.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich habe einen Führerschein.",
+      "accepted_answers": [
+        "Ich habe den Führerschein.",
+        "Ich besitze einen Führerschein."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"der Führerschein\" — Akkusativda \"einen Führerschein\".",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l3-e09",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "E'lonni o'qing. Bu ish uchun nima shart?",
+      "prompt_de": "Bäckerei Sonne sucht ab sofort eine/n Fahrer/in in Teilzeit (20 Std./Woche). Arbeitszeit: Montag bis Freitag von 4 bis 8 Uhr. Sie brauchen einen Führerschein Klasse B. Sie sind zuverlässig und pünktlich. Bewerbung mit Lebenslauf an: job@baeckerei-sonne.de",
+      "options": [
+        "Haydovchilik guvohnomasi va erta turish",
+        "Oliy ma'lumot va ingliz tili",
+        "Faqat dam olish kunlari ishlash"
+      ],
+      "pairs": null,
+      "correct_answer": "Haydovchilik guvohnomasi va erta turish",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"Sie brauchen ...\" va ish vaqtiga qarang.",
+      "explanation": "Guvohnoma kerak (Sie brauchen einen Führerschein) va ish soat 4 dan 8 gacha — erta turish kerak. Oliy ma'lumot talab qilinmagan, ish dushanba–juma.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l3-e10",
+      "version": 1,
+      "type": "short_text",
+      "skill": "writing",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 3,
+      "question": "Ish suhbati uchun o'zingiz haqingizda 5–6 gaplik tanishtiruv yozing: kasb/tajriba, tillar, qobiliyatlar va qanday ish xohlaysiz.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 35,
+        "required_words": [
+          "kann",
+          "möchte"
+        ],
+        "sample": "Ich heiße Dilshod Karimov und bin 31 Jahre alt. Ich bin Elektriker von Beruf und habe acht Jahre Erfahrung. Seit zwei Jahren wohne ich in Köln. Ich spreche fließend Usbekisch und Russisch und kann schon gut Deutsch verstehen. Ich bin zuverlässig und kann gut im Team arbeiten. Ich möchte gern als Elektriker in einem Betrieb arbeiten."
+      },
+      "hint": "Ich bin ... / Ich habe ... Erfahrung / Ich kann ... / Ich möchte als ... arbeiten.",
+      "explanation": "Yaxshi tanishtiruvda: tajriba (seit/vor), til, qobiliyat (kann + Infinitiv oxirida), xislat va xohish (möchte ... arbeiten) bo'ladi.",
+      "error_type": "other",
+      "points": 3,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l3-e11",
+      "version": 1,
+      "type": "speak",
+      "skill": "speaking",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 3,
+      "question": "Ovoz chiqarib javob bering: \"Erzählen Sie etwas über sich.\" (4–5 gap, tajribangiz va kuchli tomonlaringiz haqida)",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 25,
+        "required_words": [
+          "Erfahrung"
+        ],
+        "sample": "Ich komme aus Fergana und wohne seit einem Jahr in Deutschland. Ich habe fünf Jahre Erfahrung als Verkäuferin. Ich bin freundlich und flexibel. Ich kann auch am Wochenende arbeiten. Ich möchte gern in Ihrem Supermarkt arbeiten."
+      },
+      "hint": null,
+      "explanation": "Ish suhbatida qisqa va aniq gapiring: kimsiz, qanday tajribangiz bor, qanday xislatlaringiz bor, nima xohlaysiz.",
+      "error_type": "other",
+      "points": 2,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a2-m15-l3-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "people",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "\"zuverlässig\" nimani bildiradi?",
+      "prompt_de": null,
+      "options": [
+        "ishonchli",
+        "dangasa",
+        "kechikadigan"
+      ],
+      "pairs": null,
+      "correct_answer": "ishonchli",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "zuverlässig — ishonchli, unga suyanish mumkin.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l3-t02",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "work",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "\"können\" fe'lini \"du\" uchun tuslang: Du ___ gut kochen.",
+      "prompt_de": "Du ___ gut kochen.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "kannst",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "können: ich kann, du kannst, er kann, wir können, ihr könnt, sie können.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l3-t03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "language-learning",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: Ich ___ leider noch nicht gut Deutsch schreiben.",
+      "prompt_de": "Ich ___ leider noch nicht gut Deutsch schreiben.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "kann",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Qobiliyat — \"können\", ich → kann. \"schreiben\" oxirida.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l3-t04",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Ish suhbatida so'rashdi: \"Warum möchten Sie bei uns arbeiten?\" Eng yaxshi javob qaysi?",
+      "prompt_de": null,
+      "options": [
+        "Ich habe Erfahrung in der Pflege und möchte gern in einem guten Team arbeiten.",
+        "Ich weiß nicht. Ich brauche Geld.",
+        "Ich möchte nicht arbeiten."
+      ],
+      "pairs": null,
+      "correct_answer": "Ich habe Erfahrung in der Pflege und möchte gern in einem guten Team arbeiten.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Yaxshi javob tajribani va ijobiy motivatsiyani ko'rsatadi.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l3-t05",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "reading",
+      "topic": "language-learning",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "O'zbek tiliga tarjima qiling: \"Ich spreche fließend Usbekisch und Russisch.\"",
+      "prompt_de": "Ich spreche fließend Usbekisch und Russisch.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Men o'zbek va rus tillarida erkin gaplashaman.",
+      "accepted_answers": [
+        "O'zbek va rus tillarida erkin gaplashaman.",
+        "Men o'zbek va rus tillarida ravon gaplashaman.",
+        "Men o'zbekcha va ruscha erkin gapiraman.",
+        "O'zbekcha va ruschani erkin gapiraman."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"fließend\" — erkin, ravon.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l3-t06",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "To'g'ri artiklni tanlang: ___ Lebenslauf",
+      "prompt_de": null,
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "der",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Qo'shma otda oxirgi so'zga qarang: der Lauf.",
+      "explanation": "Leben + Lauf: \"der Lauf\", shuning uchun \"der Lebenslauf\".",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l3-t07",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang va eshitganingizni yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich kann gut im Team arbeiten.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "kann (2-o'rin) ... arbeiten (oxir). \"Team\" — katta harf bilan.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": "Ich kann gut im Team arbeiten."
+    }
+  ]
+}

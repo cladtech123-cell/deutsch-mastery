@@ -1,0 +1,301 @@
+{
+  "id": "a2-m19",
+  "version": 1,
+  "level": "A2",
+  "number": 19,
+  "title": "Xaridlar va taqqoslash",
+  "title_de": "Einkaufen und Vergleichen",
+  "goals": [
+    "Ikki mahsulotni komparativ (-er als, so ... wie) bilan solishtirish",
+    "Eng yaxshi variantni superlativ (am ...sten) bilan tanlash va tavsiya berish",
+    "Internet do'kon sharhi va qaytarish qoidalarini tushunish",
+    "Mahsulotni almashtirish, qaytarish va muloyim shikoyat qilish"
+  ],
+  "lessons": [
+    "a2-m19-l1",
+    "a2-m19-l2",
+    "a2-m19-l3"
+  ],
+  "module_test": [
+    {
+      "id": "mtest-a2-m19-01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "transport",
+      "grammar_topic": "g-comparison",
+      "difficulty": 1,
+      "question": "To'g'ri shaklni tanlang: \"Der Bus ist langsam, aber das Fahrrad ist noch ___.\"",
+      "prompt_de": null,
+      "options": [
+        "langsamer",
+        "am langsamer",
+        "mehr langsam"
+      ],
+      "pairs": null,
+      "correct_answer": "langsamer",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ikki narsa solishtirilmoqda — komparativ: langsamer.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m19-02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "technology",
+      "grammar_topic": "g-comparison",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (neu): Mein Handy ist ___ als dein Handy.",
+      "prompt_de": "Mein Handy ist ___ als dein Handy.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "neuer",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "neu + er = neuer.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m19-03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "time",
+      "grammar_topic": "g-comparison",
+      "difficulty": 3,
+      "question": "Bo'sh joyni to'ldiring (kurz): Im Dezember sind die Tage am ___.",
+      "prompt_de": "Im Dezember sind die Tage am ___.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "kürzesten",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "kurz → kürzer → am kürzesten (-z bilan tugagani uchun -esten).",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m19-04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-comparison",
+      "difficulty": 1,
+      "question": "To'g'ri variantni tanlang: \"Ich esse ___ Plov.\" (eng ko'p yoqtirib)",
+      "prompt_de": null,
+      "options": [
+        "am liebsten",
+        "am besten gern",
+        "lieber am"
+      ],
+      "pairs": null,
+      "correct_answer": "am liebsten",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "gern → lieber → am liebsten.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m19-05",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "So'zlarni juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "das Angebot",
+          "aksiya"
+        ],
+        [
+          "die Lieferung",
+          "yetkazib berish"
+        ],
+        [
+          "der Kassenbon",
+          "chek"
+        ],
+        [
+          "umtauschen",
+          "almashtirmoq"
+        ]
+      ],
+      "correct_answer": {
+        "das Angebot": "aksiya",
+        "die Lieferung": "yetkazib berish",
+        "der Kassenbon": "chek",
+        "umtauschen": "almashtirmoq"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Angebot — aksiya, Lieferung — yetkazib berish, Kassenbon — chek, umtauschen — almashtirmoq.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m19-06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Qaysi ryukzak kattaroq?",
+      "prompt_de": null,
+      "options": [
+        "Qizil ryukzak",
+        "Ko'k ryukzak",
+        "Ikkalasi bir xil"
+      ],
+      "pairs": null,
+      "correct_answer": "Qizil ryukzak",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"der rote ist größer\" — qizili kattaroq; ko'ki esa arzonroq.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Der rote Rucksack kostet 40 Euro, der blaue 35 Euro. Der blaue ist billiger, aber der rote ist größer."
+    },
+    {
+      "id": "mtest-a2-m19-07",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Matnni o'qing. Qaysi do'konda jinsi shim eng arzon?",
+      "prompt_de": "Bei Mode-Max kostet die Jeans 60 Euro. Bei Jeans-Land kostet sie 45 Euro, aber die Lieferung dauert zwei Wochen. Bei Style24 kostet sie 50 Euro, und das Paket ist schon am nächsten Tag da.",
+      "options": [
+        "Jeans-Land",
+        "Mode-Max",
+        "Style24"
+      ],
+      "pairs": null,
+      "correct_answer": "Jeans-Land",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Jeans-Land — 45 yevro, Style24 — 50, Mode-Max — 60. Eng arzoni Jeans-Land, lekin yetkazish ikki hafta.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m19-08",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Sotib olgan kurtkangizda nuqson bor. Do'konda nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Die Jacke hat einen Fehler. Ich möchte sie umtauschen.",
+        "Die Jacke ist am billigsten.",
+        "Ich möchte die Jacke kaufen umtauschen."
+      ],
+      "pairs": null,
+      "correct_answer": "Die Jacke hat einen Fehler. Ich möchte sie umtauschen.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Muammo + istak, to'g'ri so'z tartibi bilan.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m19-09",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Bu model eskisidan yaxshiroq.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Dieses Modell ist besser als das alte.",
+      "accepted_answers": [
+        "Das Modell ist besser als das alte.",
+        "Dieses Modell ist besser als das alte Modell.",
+        "Das Modell ist besser als das alte Modell."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "gut → besser; solishtirishda \"als\".",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m19-10",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "technology",
+      "grammar_topic": "g-comparison",
+      "difficulty": 1,
+      "question": "Xato so'zni toping: \"Das Tablet ist teurer wie das Handy.\"",
+      "prompt_de": "Das Tablet ist teurer wie das Handy.",
+      "options": [
+        "Tablet",
+        "ist",
+        "teurer",
+        "wie",
+        "Handy"
+      ],
+      "pairs": null,
+      "correct_answer": "wie",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Komparativdan keyin \"als\": Das Tablet ist teurer als das Handy.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "writing_task": {
+    "id": "w-a2-m19",
+    "title": "Internet do'konga shikoyat xati",
+    "task_uz": "Siz internet do'kondan narsa buyurtma qildingiz, lekin muammo bor (o'lcham mos emas yoki nuqsoni bor). Mijozlarga xizmat bo'limiga qisqa email yozing: nima va qachon buyurtma qilganingiz (Perfekt), muammo nima (zu + sifat yoki funktioniert nicht), nima xohlaysiz (umtauschen yoki Geld zurück).",
+    "required_words": [
+      "bestellt"
+    ],
+    "min_words": 35,
+    "max_words": 80,
+    "criteria": [
+      "Rasmiy murojaat bilan boshlangan (Sehr geehrte Damen und Herren)",
+      "Nima va qachon buyurtma qilingani Perfektda aytilgan",
+      "Muammo aniq aytilgan (zu + sifat yoki funktioniert nicht)",
+      "Istak aytilgan: almashtirish yoki pulni qaytarish",
+      "Rasmiy xayrlashuv: Mit freundlichen Grüßen + ism"
+    ],
+    "sample_answer": "Sehr geehrte Damen und Herren, ich habe am 3. Mai bei Ihnen eine Jacke bestellt. Die Bestellnummer ist 4521. Die Jacke ist leider zu klein, und ein Knopf fehlt. Ich möchte die Jacke zurückgeben und mein Geld zurückbekommen. Können Sie mir bitte schreiben, wie das funktioniert? Mit freundlichen Grüßen Aziza Karimova"
+  }
+}

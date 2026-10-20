@@ -1,0 +1,902 @@
+{
+  "id": "a1-m11-l2",
+  "version": 1,
+  "level": "A1",
+  "module": 11,
+  "order": 2,
+  "title": "Dam olish rejalari: wollen",
+  "title_de": "Was willst du am Wochenende machen?",
+  "goal": "Dars oxirida \"wollen\" fe'lini tuslaysiz, dam olish kunlari rejalaringizni aytasiz (Am Samstag will ich ...), \"Lust haben\" bilan xohishingizni bildirasiz va \"wollen\" bilan \"möchten\" farqini bilasiz.",
+  "skill_focus": [
+    "grammar",
+    "speaking",
+    "listening"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "\"wollen\" — xohlamoq, niyat qilmoq. U qat'iy xohish yoki rejani bildiradi: Am Samstag will ich joggen. Boshqa modal fe'llar kabi ikkinchi fe'l gap oxirida turadi."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Shaxs",
+        "wollen",
+        "möchten (eslatma)"
+      ],
+      "rows": [
+        [
+          "ich",
+          "will",
+          "möchte"
+        ],
+        [
+          "du",
+          "willst",
+          "möchtest"
+        ],
+        [
+          "er / sie / es",
+          "will",
+          "möchte"
+        ],
+        [
+          "wir",
+          "wollen",
+          "möchten"
+        ],
+        [
+          "ihr",
+          "wollt",
+          "möchtet"
+        ],
+        [
+          "sie / Sie",
+          "wollen",
+          "möchten"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Do'kon va restoranda \"Ich will einen Kaffee!\" qo'pol eshitiladi — u yerda \"Ich möchte ...\" deng. wollen esa reja va maqsad uchun: Ich will Deutsch lernen."
+    },
+    {
+      "type": "p",
+      "text": "Qayerga borishni aytish uchun tayyor iboralar: ins Kino, ins Schwimmbad, ins Konzert, ins Theater, ins Fitnessstudio (in + das = ins); in den Park; zu + odam: zu meiner Oma. Dam olish faoliyatlari: Sport machen, joggen, Rad fahren, einen Ausflug machen."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Ibora",
+        "O'zbekcha"
+      ],
+      "rows": [
+        [
+          "Ich habe Lust.",
+          "Xohishim bor, ko'nglim tusayapti."
+        ],
+        [
+          "Ich habe keine Lust.",
+          "Xohishim yo'q."
+        ],
+        [
+          "Ich habe Lust auf ein Konzert.",
+          "Konsertga borgim kelyapti."
+        ],
+        [
+          "Hast du Lust?",
+          "Xohlaysanmi? Ko'ngling tusayaptimi?"
+        ]
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-wollen",
+      "de": "wollen",
+      "uz": "xohlamoq, niyat qilmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "gewollt",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "will"
+      },
+      "example_de": "Am Samstag will ich joggen.",
+      "example_uz": "Shanba kuni yugurmoqchiman.",
+      "topic": "leisure"
+    },
+    {
+      "id": "v-der-sport",
+      "de": "Sport",
+      "uz": "sport",
+      "pos": "noun",
+      "article": "der",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Ich mache jeden Tag Sport.",
+      "example_uz": "Men har kuni sport bilan shug'ullanaman.",
+      "topic": "sports"
+    },
+    {
+      "id": "v-joggen",
+      "de": "joggen",
+      "uz": "yugurmoq (sport uchun)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "gejoggt",
+        "perfekt_aux": "sein",
+        "praesens_3sg": "joggt"
+      },
+      "example_de": "Er joggt jeden Morgen im Park.",
+      "example_uz": "U har ertalab parkda yuguradi.",
+      "topic": "sports"
+    },
+    {
+      "id": "v-rad-fahren",
+      "de": "Rad fahren",
+      "uz": "velosiped haydamoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "Rad gefahren",
+        "perfekt_aux": "sein",
+        "praesens_3sg": "fährt Rad"
+      },
+      "example_de": "Am Sonntag wollen wir Rad fahren.",
+      "example_uz": "Yakshanba kuni velosiped haydamoqchimiz.",
+      "topic": "sports"
+    },
+    {
+      "id": "v-das-schwimmbad",
+      "de": "Schwimmbad",
+      "uz": "basseyn",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Schwimmbäder",
+      "forms": null,
+      "example_de": "Das Schwimmbad ist am Montag geschlossen.",
+      "example_uz": "Basseyn dushanba kuni yopiq.",
+      "topic": "sports"
+    },
+    {
+      "id": "v-das-fitnessstudio",
+      "de": "Fitnessstudio",
+      "uz": "sport zali, fitnes klub",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Fitnessstudios",
+      "forms": null,
+      "example_de": "Ich gehe zweimal pro Woche ins Fitnessstudio.",
+      "example_uz": "Men haftasiga ikki marta sport zaliga boraman.",
+      "topic": "sports"
+    },
+    {
+      "id": "v-das-konzert",
+      "de": "Konzert",
+      "uz": "konsert",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Konzerte",
+      "forms": null,
+      "example_de": "Das Konzert beginnt um acht Uhr.",
+      "example_uz": "Konsert soat sakkizda boshlanadi.",
+      "topic": "leisure"
+    },
+    {
+      "id": "v-das-theater",
+      "de": "Theater",
+      "uz": "teatr",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Theater",
+      "forms": null,
+      "example_de": "Wir gehen heute ins Theater.",
+      "example_uz": "Bugun biz teatrga boramiz.",
+      "topic": "leisure"
+    },
+    {
+      "id": "v-der-ausflug",
+      "de": "Ausflug",
+      "uz": "sayohat, ekskursiya (bir kunlik)",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Ausflüge",
+      "forms": null,
+      "example_de": "Am Sonntag machen wir einen Ausflug.",
+      "example_uz": "Yakshanba kuni biz sayohatga chiqamiz.",
+      "topic": "leisure"
+    },
+    {
+      "id": "v-die-party",
+      "de": "Party",
+      "uz": "ziyofat, bazm",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Partys",
+      "forms": null,
+      "example_de": "Am Freitag gibt es eine Party.",
+      "example_uz": "Juma kuni ziyofat bor.",
+      "topic": "leisure"
+    },
+    {
+      "id": "v-besuchen",
+      "de": "besuchen",
+      "uz": "ko'rgani bormoq, tashrif buyurmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "besucht",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "besucht"
+      },
+      "example_de": "Ich besuche meine Oma.",
+      "example_uz": "Men buvimni ko'rgani boraman.",
+      "topic": "leisure"
+    },
+    {
+      "id": "v-treffen",
+      "de": "treffen",
+      "uz": "uchrashmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "getroffen",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "trifft"
+      },
+      "example_de": "Er trifft seine Freunde im Café.",
+      "example_uz": "U do'stlari bilan kafeda uchrashadi.",
+      "topic": "leisure"
+    },
+    {
+      "id": "v-die-lust",
+      "de": "Lust",
+      "uz": "xohish, ishtiyoq",
+      "pos": "noun",
+      "article": "die",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Ich habe keine Lust.",
+      "example_uz": "Xohishim yo'q.",
+      "topic": "leisure"
+    }
+  ],
+  "review_vocabulary": [
+    "v-das-kino",
+    "v-der-park",
+    "v-der-fußball",
+    "v-spielen",
+    "v-schwimmen",
+    "v-möchten",
+    "v-können",
+    "v-die-freizeit"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-modal-verbs",
+      "rule": "wollen — qat'iy xohish yoki reja. ich will va er will bir xil (-t yo'q). Ikkinchi fe'l infinitivda gap oxirida turadi. Muloyim so'rovda wollen emas, möchten ishlatiladi.",
+      "when": "Rejalar, maqsadlar va kuchli xohish haqida gapirganda: dam olish kunlari, ta'til, kelajak rejalari.",
+      "structure": "Ega + will/willst/wollen + ... + infinitiv (oxirida): Ich will am Samstag joggen.\nVaqt bilan boshlash: Am Samstag will ich joggen.",
+      "examples": [
+        {
+          "de": "Am Samstag will ich ins Schwimmbad gehen.",
+          "uz": "Shanba kuni basseynga bormoqchiman."
+        },
+        {
+          "de": "Willst du mit uns Fußball spielen?",
+          "uz": "Biz bilan futbol o'ynashni xohlaysanmi?"
+        },
+        {
+          "de": "Meine Freunde wollen ein Konzert besuchen.",
+          "uz": "Do'stlarim konsertga bormoqchi."
+        },
+        {
+          "de": "Wir wollen am Sonntag einen Ausflug machen.",
+          "uz": "Biz yakshanba kuni sayohatga chiqmoqchimiz."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Ich will gehen ins Kino.",
+          "right": "Ich will ins Kino gehen.",
+          "why": "Ikkinchi fe'l (gehen) gap oxiriga o'tadi."
+        },
+        {
+          "wrong": "Er willt joggen.",
+          "right": "Er will joggen.",
+          "why": "er/sie/es bilan \"will\" — oxiriga -t qo'shilmaydi."
+        },
+        {
+          "wrong": "Ich will einen Kaffee!",
+          "right": "Ich möchte einen Kaffee, bitte.",
+          "why": "Restoran va do'konda \"will\" qo'pol eshitiladi, muloyim shakl — möchte."
+        }
+      ],
+      "check": [
+        "a1-m11-l2-e02",
+        "a1-m11-l2-e03",
+        "a1-m11-l2-e04",
+        "a1-m11-l2-e05",
+        "a1-m11-l2-e06"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Dam olish kunlari rejasi",
+    "lines": [
+      {
+        "speaker": "Jasur",
+        "de": "Hallo Eva! Was willst du am Wochenende machen?",
+        "uz": "Salom Eva! Dam olish kunlari nima qilmoqchisan?"
+      },
+      {
+        "speaker": "Eva",
+        "de": "Am Samstag will ich joggen und dann ins Schwimmbad gehen.",
+        "uz": "Shanba kuni yugurmoqchiman, keyin basseynga bormoqchiman."
+      },
+      {
+        "speaker": "Jasur",
+        "de": "Und am Sonntag?",
+        "uz": "Yakshanba kuni-chi?"
+      },
+      {
+        "speaker": "Eva",
+        "de": "Am Sonntag besuche ich meine Oma. Und du?",
+        "uz": "Yakshanba kuni buvimni ko'rgani boraman. Sen-chi?"
+      },
+      {
+        "speaker": "Jasur",
+        "de": "Ich will mit Freunden Fußball spielen. Am Abend gibt es ein Konzert im Park.",
+        "uz": "Do'stlarim bilan futbol o'ynamoqchiman. Kechqurun parkda konsert bor."
+      },
+      {
+        "speaker": "Eva",
+        "de": "Oh, ich habe Lust auf ein Konzert! Wann beginnt es?",
+        "uz": "Voy, konsertga borgim kelyapti! U qachon boshlanadi?"
+      },
+      {
+        "speaker": "Jasur",
+        "de": "Um acht Uhr.",
+        "uz": "Soat sakkizda."
+      }
+    ],
+    "questions": [
+      "a1-m11-l2-e07",
+      "a1-m11-l2-e08"
+    ]
+  },
+  "situation": {
+    "title": "Shanba kuni nima qilamiz?",
+    "context_uz": "Siz kursdoshingiz Ben bilan shanba kunini rejalashtiryapsiz.",
+    "lines": [
+      {
+        "speaker": "Ben",
+        "de": "Was wollen wir am Samstag machen?",
+        "uz": "Shanba kuni nima qilamiz?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ich will einen Ausflug machen. Wir können nach Potsdam fahren.",
+        "uz": "Men sayohatga chiqmoqchiman. Potsdamga borishimiz mumkin."
+      },
+      {
+        "speaker": "Ben",
+        "de": "Gute Idee! Aber ich will auch Sport machen.",
+        "uz": "Yaxshi fikr! Lekin men sport bilan ham shug'ullanmoqchiman."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Kein Problem. Wir können dort Rad fahren!",
+        "uz": "Muammo yo'q. U yerda velosiped haydashimiz mumkin!"
+      },
+      {
+        "speaker": "Ben",
+        "de": "Super, ich habe Lust!",
+        "uz": "Zo'r, xohlayman!"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Dann treffen wir uns um zehn Uhr am Bahnhof.",
+        "uz": "Unda soat o'nda vokzalda uchrashamiz."
+      }
+    ],
+    "task_uz": "Dam olish kunlaringizni rejalashtiring: \"will\" bilan 3 ta gap (Am Samstag will ich ...) va sherigingizga bitta taklif ayting (Wir können ...). Sherigingiz \"Ich habe Lust\" yoki \"Ich habe keine Lust\" bilan javob bersin."
+  },
+  "exercises": [
+    {
+      "id": "a1-m11-l2-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "leisure",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "So'zlarni juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "Schwimmbad",
+          "basseyn"
+        ],
+        [
+          "Konzert",
+          "konsert"
+        ],
+        [
+          "Ausflug",
+          "sayohat"
+        ],
+        [
+          "Fitnessstudio",
+          "sport zali"
+        ],
+        [
+          "Theater",
+          "teatr"
+        ]
+      ],
+      "correct_answer": {
+        "Schwimmbad": "basseyn",
+        "Konzert": "konsert",
+        "Ausflug": "sayohat",
+        "Fitnessstudio": "sport zali",
+        "Theater": "teatr"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Schwimmbad — basseyn, Konzert — konsert, Ausflug — bir kunlik sayohat, Fitnessstudio — sport zali, Theater — teatr.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l2-e02",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "leisure",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "Fe'lni tuslang: Was ___ (wollen) du am Samstag machen?",
+      "prompt_de": "Was ___ (wollen) du am Samstag machen?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "willst",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "du → willst.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l2-e03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "sports",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (wollen): Mein Bruder ___ Fußball spielen.",
+      "prompt_de": "Mein Bruder ___ Fußball spielen.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "will",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Mein Bruder = er → will (oxirida -t yo'q).",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l2-e04",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "leisure",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 2,
+      "question": "So'zlarni tartiblang: \"Yakshanba kuni buvimni ko'rgani bormoqchiman.\"",
+      "prompt_de": null,
+      "options": [
+        "meine",
+        "Sonntag",
+        "Am",
+        "Oma",
+        "besuchen",
+        "will",
+        "ich"
+      ],
+      "pairs": null,
+      "correct_answer": "Am Sonntag will ich meine Oma besuchen",
+      "accepted_answers": [
+        "Ich will am Sonntag meine Oma besuchen"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "will 2-o'rinda, infinitiv (besuchen) oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l2-e05",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "leisure",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "Xato so'zni toping: \"Er willt ins Kino gehen.\"",
+      "prompt_de": "Er willt ins Kino gehen.",
+      "options": [
+        "Er",
+        "willt",
+        "ins",
+        "Kino",
+        "gehen"
+      ],
+      "pairs": null,
+      "correct_answer": "willt",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: \"Er will ins Kino gehen.\"",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l2-e06",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "restaurant",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "Kafedasiz. Ofitsiantga qanday aytish to'g'ri va muloyim?",
+      "prompt_de": null,
+      "options": [
+        "Ich möchte einen Tee, bitte.",
+        "Ich will einen Tee!",
+        "Tee!"
+      ],
+      "pairs": null,
+      "correct_answer": "Ich möchte einen Tee, bitte.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Restoranda \"möchte\" ishlatiladi. \"Ich will einen Tee!\" — qo'pol, talab qilgandek eshitiladi.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l2-e07",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "leisure",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni tinglang. Eva yakshanba kuni nima qiladi?",
+      "prompt_de": null,
+      "options": [
+        "Buvisini ko'rgani boradi",
+        "Basseynga boradi",
+        "Futbol o'ynaydi"
+      ],
+      "pairs": null,
+      "correct_answer": "Buvisini ko'rgani boradi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Am Sonntag besuche ich meine Oma.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Hallo Eva! Was willst du am Wochenende machen? Am Samstag will ich joggen und dann ins Schwimmbad gehen. Und am Sonntag? Am Sonntag besuche ich meine Oma. Und du? Ich will mit Freunden Fußball spielen. Am Abend gibt es ein Konzert im Park. Oh, ich habe Lust auf ein Konzert! Wann beginnt es? Um acht Uhr."
+    },
+    {
+      "id": "a1-m11-l2-e08",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "leisure",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni tinglang. Konsert soat nechada boshlanadi?",
+      "prompt_de": null,
+      "options": [
+        "Soat 8 da",
+        "Soat 6 da",
+        "Soat 9 da"
+      ],
+      "pairs": null,
+      "correct_answer": "Soat 8 da",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Um acht Uhr.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Hallo Eva! Was willst du am Wochenende machen? Am Samstag will ich joggen und dann ins Schwimmbad gehen. Und am Sonntag? Am Sonntag besuche ich meine Oma. Und du? Ich will mit Freunden Fußball spielen. Am Abend gibt es ein Konzert im Park. Oh, ich habe Lust auf ein Konzert! Wann beginnt es? Um acht Uhr."
+    },
+    {
+      "id": "a1-m11-l2-e09",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "sports",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Men sport bilan shug'ullanmoqchiman.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich will Sport machen.",
+      "accepted_answers": [
+        "Ich möchte Sport machen.",
+        "Ich will Sport treiben.",
+        "Ich möchte Sport treiben."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Sport bilan shug'ullanmoq — Sport machen. Niyat — wollen.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l2-e10",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "leisure",
+      "grammar_topic": "g-praesens",
+      "difficulty": 2,
+      "question": "Fe'lni tuslang: Wann ___ (treffen) du deine Freunde?",
+      "prompt_de": "Wann ___ (treffen) du deine Freunde?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "triffst",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "treffen nomuntazam: du triffst, er trifft (e → i, ff).",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l2-e11",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "leisure",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "\"Ich habe keine Lust.\" nimani bildiradi?",
+      "prompt_de": null,
+      "options": [
+        "Xohishim yo'q",
+        "Vaqtim yo'q",
+        "Pulim yo'q"
+      ],
+      "pairs": null,
+      "correct_answer": "Xohishim yo'q",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Lust — xohish. keine Lust — xohish yo'q.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l2-e12",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "sports",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang va yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Wir wollen Rad fahren.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Rad\" — ot, katta harf bilan; \"fahren\" — infinitiv, oxirida.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": "Wir wollen Rad fahren."
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a1-m11-l2-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "leisure",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "To'g'ri shaklni tanlang: Sie (u, ayol) ___ ins Theater gehen.",
+      "prompt_de": "Sie ___ ins Theater gehen.",
+      "options": [
+        "will",
+        "willst",
+        "wollen"
+      ],
+      "pairs": null,
+      "correct_answer": "will",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "sie (u) → will.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l2-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "leisure",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (wollen): Wir ___ am Sonntag einen Ausflug machen.",
+      "prompt_de": "Wir ___ am Sonntag einen Ausflug machen.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "wollen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "wir → wollen.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l2-t03",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "sports",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "So'zlarni tartiblang: \"Biz bilan yugurishni xohlaysanmi?\"",
+      "prompt_de": null,
+      "options": [
+        "joggen",
+        "mit",
+        "uns",
+        "Willst",
+        "du"
+      ],
+      "pairs": null,
+      "correct_answer": "Willst du mit uns joggen?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ha/yo'q savoli: fe'l birinchi, infinitiv oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l2-t04",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "leisure",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Ich habe keine Lust.\"",
+      "prompt_de": "Ich habe keine Lust.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Xohishim yo'q.",
+      "accepted_answers": [
+        "Mening xohishim yo'q",
+        "Istagim yo'q",
+        "Ko'nglim tusamayapti",
+        "Xohlamayman"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "keine Lust — xohish yo'q.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l2-t05",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "sports",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Shanba kuni u qayerga bormoqchi?",
+      "prompt_de": null,
+      "options": [
+        "Sport zaliga",
+        "Basseynga",
+        "Teatrga"
+      ],
+      "pairs": null,
+      "correct_answer": "Sport zaliga",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"ins Fitnessstudio\" — sport zaliga.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Am Samstag will ich ins Fitnessstudio gehen."
+    },
+    {
+      "id": "a1-m11-l2-t06",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "leisure",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Artiklni tanlang: ___ Ausflug",
+      "prompt_de": "___ Ausflug",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "der",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Ausflug — erkak jinsi.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m11-l2-t07",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "leisure",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "Fe'lni tuslang: Er ___ (treffen) seine Freunde im Café.",
+      "prompt_de": "Er ___ (treffen) seine Freunde im Café.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "trifft",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "treffen → er trifft.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

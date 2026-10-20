@@ -1,0 +1,858 @@
+{
+  "id": "a2-m13-l2",
+  "version": 1,
+  "level": "A2",
+  "module": 13,
+  "order": 2,
+  "title": "Qayerga bordingiz? Perfekt \"sein\" bilan",
+  "title_de": "Wohin bist du gefahren?",
+  "goal": "Dars oxirida harakat va holat o'zgarishini bildiruvchi fe'llar bilan Perfektni \"sein\" orqali to'g'ri tuza olasiz va \"haben\" yoki \"sein\"ni tanlay olasiz.",
+  "skill_focus": [
+    "grammar",
+    "listening",
+    "speaking"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Ba'zi fe'llar Perfektda \"haben\" emas, \"sein\" bilan ishlatiladi. Bu — asosan bir joydan boshqa joyga harakatni (A → B) yoki holat o'zgarishini bildiruvchi fe'llar."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Guruh",
+        "Fe'llar",
+        "Misol"
+      ],
+      "rows": [
+        [
+          "Harakat A → B",
+          "gehen, fahren, fliegen, laufen, kommen, wandern",
+          "Ich bin nach Hause gegangen."
+        ],
+        [
+          "Holat o'zgarishi",
+          "aufwachen, einschlafen, aufstehen, umziehen",
+          "Er ist früh aufgewacht."
+        ],
+        [
+          "Istisnolar",
+          "sein, bleiben, passieren",
+          "Wir sind zu Hause geblieben. Was ist passiert?"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Shaxs",
+        "sein",
+        "Misol"
+      ],
+      "rows": [
+        [
+          "ich",
+          "bin",
+          "Ich bin geflogen."
+        ],
+        [
+          "du",
+          "bist",
+          "Bist du gelaufen?"
+        ],
+        [
+          "er/sie/es",
+          "ist",
+          "Sie ist umgezogen."
+        ],
+        [
+          "wir",
+          "sind",
+          "Wir sind gewandert."
+        ],
+        [
+          "ihr",
+          "seid",
+          "Seid ihr gefahren?"
+        ],
+        [
+          "sie/Sie",
+          "sind",
+          "Sie sind geblieben."
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Oddiy test: fe'l \"qayerga?\" yoki \"nima bo'ldi?\" savoliga javob bersa — ko'pincha \"sein\". Akkusativ to'ldiruvchisi bor fe'llar (Ich habe das Zimmer aufgeräumt) — \"haben\"."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-fliegen",
+      "de": "fliegen",
+      "uz": "uchmoq, samolyotda bormoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "geflogen",
+        "perfekt_aux": "sein",
+        "praesens_3sg": "fliegt"
+      },
+      "example_de": "Letzten Sommer bin ich nach Taschkent geflogen.",
+      "example_uz": "O'tgan yozda Toshkentga uchib bordim.",
+      "topic": "travel"
+    },
+    {
+      "id": "v-laufen",
+      "de": "laufen",
+      "uz": "yugurmoq; piyoda yurmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "gelaufen",
+        "perfekt_aux": "sein",
+        "praesens_3sg": "läuft"
+      },
+      "example_de": "Heute Morgen bin ich fünf Kilometer gelaufen.",
+      "example_uz": "Bugun ertalab besh kilometr yugurdim.",
+      "topic": "sports"
+    },
+    {
+      "id": "v-bleiben",
+      "de": "bleiben",
+      "uz": "qolmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "geblieben",
+        "perfekt_aux": "sein",
+        "praesens_3sg": "bleibt"
+      },
+      "example_de": "Ich war krank und bin zu Hause geblieben.",
+      "example_uz": "Kasal edim va uyda qoldim.",
+      "topic": "past-events"
+    },
+    {
+      "id": "v-passieren",
+      "de": "passieren",
+      "uz": "sodir bo'lmoq, bo'lmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "passiert",
+        "perfekt_aux": "sein",
+        "praesens_3sg": "passiert"
+      },
+      "example_de": "Was ist passiert?",
+      "example_uz": "Nima bo'ldi?",
+      "topic": "past-events"
+    },
+    {
+      "id": "v-umziehen",
+      "de": "umziehen",
+      "uz": "ko'chib o'tmoq (yangi uyga)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "umgezogen",
+        "perfekt_aux": "sein",
+        "praesens_3sg": "zieht um"
+      },
+      "example_de": "Wir sind letztes Jahr nach München umgezogen.",
+      "example_uz": "O'tgan yili Myunxenga ko'chib o'tdik.",
+      "topic": "home"
+    },
+    {
+      "id": "v-einschlafen",
+      "de": "einschlafen",
+      "uz": "uxlab qolmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "eingeschlafen",
+        "perfekt_aux": "sein",
+        "praesens_3sg": "schläft ein"
+      },
+      "example_de": "Das Kind ist sofort eingeschlafen.",
+      "example_uz": "Bola darrov uxlab qoldi.",
+      "topic": "daily-routine"
+    },
+    {
+      "id": "v-aufwachen",
+      "de": "aufwachen",
+      "uz": "uyg'onmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "aufgewacht",
+        "perfekt_aux": "sein",
+        "praesens_3sg": "wacht auf"
+      },
+      "example_de": "Heute bin ich um sechs Uhr aufgewacht.",
+      "example_uz": "Bugun soat oltida uyg'ondim.",
+      "topic": "daily-routine"
+    },
+    {
+      "id": "v-der-unfall",
+      "de": "Unfall",
+      "uz": "baxtsiz hodisa, avariya",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Unfälle",
+      "forms": null,
+      "example_de": "Auf der Straße ist ein Unfall passiert.",
+      "example_uz": "Ko'chada avariya sodir bo'ldi.",
+      "topic": "past-events"
+    },
+    {
+      "id": "v-der-berg",
+      "de": "Berg",
+      "uz": "tog'",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Berge",
+      "forms": null,
+      "example_de": "Wir sind auf einen Berg gewandert.",
+      "example_uz": "Biz tog'ga piyoda chiqdik.",
+      "topic": "travel"
+    },
+    {
+      "id": "v-die-wanderung",
+      "de": "Wanderung",
+      "uz": "piyoda sayr (tabiatda)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Wanderungen",
+      "forms": null,
+      "example_de": "Die Wanderung hat fünf Stunden gedauert.",
+      "example_uz": "Piyoda sayr besh soat davom etdi.",
+      "topic": "leisure"
+    },
+    {
+      "id": "v-hinfallen",
+      "de": "hinfallen",
+      "uz": "yiqilib tushmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "hingefallen",
+        "perfekt_aux": "sein",
+        "praesens_3sg": "fällt hin"
+      },
+      "example_de": "Ich bin auf der Treppe hingefallen.",
+      "example_uz": "Zinapoyada yiqilib tushdim.",
+      "topic": "past-events"
+    },
+    {
+      "id": "v-der-rucksack",
+      "de": "Rucksack",
+      "uz": "ryukzak",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Rucksäcke",
+      "forms": null,
+      "example_de": "Ich habe meinen Rucksack im Zug vergessen.",
+      "example_uz": "Ryukzagimni poyezdda unutib qoldirdim.",
+      "topic": "travel"
+    }
+  ],
+  "review_vocabulary": [
+    "v-wandern",
+    "v-zu-fuß",
+    "v-der-see",
+    "v-letzte-woche",
+    "v-vorgestern",
+    "v-erzählen"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-perfekt-aux",
+      "rule": "Harakat (A → B), holat o'zgarishi va \"sein, bleiben, passieren\" fe'llari Perfektni \"sein\" bilan yasaydi. Qolgan ko'pchilik fe'llar — \"haben\" bilan.",
+      "when": "Qayerga borganingiz, qachon uyg'onganingiz, nima sodir bo'lganini aytganda.",
+      "structure": "Subyekt + bin/bist/ist/sind/seid + ... + Partizip II.  Masalan: Wir sind nach Samarkand gefahren.",
+      "examples": [
+        {
+          "de": "Ich bin letzte Woche nach Berlin geflogen.",
+          "uz": "O'tgan hafta Berlinga uchib bordim."
+        },
+        {
+          "de": "Bist du heute zu Fuß gekommen?",
+          "uz": "Bugun piyoda keldingmi?"
+        },
+        {
+          "de": "Das Baby ist um acht Uhr eingeschlafen.",
+          "uz": "Chaqaloq soat sakkizda uxlab qoldi."
+        },
+        {
+          "de": "Gestern ist ein Unfall passiert.",
+          "uz": "Kecha avariya sodir bo'ldi."
+        },
+        {
+          "de": "Wir sind am Wochenende zu Hause geblieben.",
+          "uz": "Dam olish kunlari uyda qoldik."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Ich habe nach Taschkent geflogen.",
+          "right": "Ich bin nach Taschkent geflogen.",
+          "why": "\"fliegen\" — joydan joyga harakat, shuning uchun \"sein\"."
+        },
+        {
+          "wrong": "Was hat passiert?",
+          "right": "Was ist passiert?",
+          "why": "\"passieren\" doim \"sein\" bilan ishlatiladi."
+        },
+        {
+          "wrong": "Ich habe zu Hause geblieben.",
+          "right": "Ich bin zu Hause geblieben.",
+          "why": "\"bleiben\" harakatni bildirmasa ham — \"sein\" bilan. Buni yodlab olish kerak."
+        }
+      ],
+      "check": [
+        "a2-m13-l2-e01",
+        "a2-m13-l2-e02",
+        "a2-m13-l2-e04",
+        "a2-m13-l2-e09"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Nega kechikding?",
+    "lines": [
+      {
+        "speaker": "Lena",
+        "de": "Timur, du kommst zu spät! Was ist passiert?",
+        "uz": "Timur, kechikding! Nima bo'ldi?"
+      },
+      {
+        "speaker": "Timur",
+        "de": "Ich bin zu spät aufgewacht. Mein Handy war leer.",
+        "uz": "Kech uyg'ondim. Telefonim o'chib qolgan edi."
+      },
+      {
+        "speaker": "Lena",
+        "de": "Und der Bus?",
+        "uz": "Avtobus-chi?"
+      },
+      {
+        "speaker": "Timur",
+        "de": "Der Bus ist schon abgefahren. Dann bin ich zu Fuß gelaufen.",
+        "uz": "Avtobus allaqachon jo'nab ketgan ekan. Keyin piyoda yugurib keldim."
+      },
+      {
+        "speaker": "Lena",
+        "de": "Zu Fuß? Das sind doch drei Kilometer!",
+        "uz": "Piyoda? Axir bu uch kilometr-ku!"
+      },
+      {
+        "speaker": "Timur",
+        "de": "Ja, ich bin sehr schnell gelaufen.",
+        "uz": "Ha, juda tez yugurdim."
+      }
+    ],
+    "questions": [
+      "a2-m13-l2-e07"
+    ]
+  },
+  "situation": {
+    "title": "Qo'shni bilan suhbat",
+    "context_uz": "Shanba kuni kechqurun. Qo'shningiz Frau Krüger zinapoyada sizdan kun qanday o'tganini so'rayapti. Siz kun bo'yi tashqarida bo'ldingiz.",
+    "lines": [
+      {
+        "speaker": "Frau Krüger",
+        "de": "Guten Abend! Sie waren heute nicht zu Hause, oder?",
+        "uz": "Xayrli kech! Bugun uyda bo'lmadingiz, shundaymi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Nein, wir sind an den See gefahren.",
+        "uz": "Yo'q, biz ko'lga bordik."
+      },
+      {
+        "speaker": "Frau Krüger",
+        "de": "Schön! Sind Sie auch geschwommen?",
+        "uz": "Zo'r! Suzdingizmi ham?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Nein, das Wasser ist zu kalt. Aber wir sind zwei Stunden gewandert.",
+        "uz": "Yo'q, suv juda sovuq. Lekin ikki soat piyoda sayr qildik."
+      },
+      {
+        "speaker": "Frau Krüger",
+        "de": "Dann sind Sie sicher müde!",
+        "uz": "Unda charchagan bo'lsangiz kerak!"
+      }
+    ],
+    "task_uz": "Frau Krügerga o'tgan dam olish kuningiz haqida 3 ta gap ayting. Kamida 2 ta fe'l \"sein\" bilan bo'lsin (gefahren, gewandert, geblieben, aufgewacht...)."
+  },
+  "exercises": [
+    {
+      "id": "a2-m13-l2-e01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "travel",
+      "grammar_topic": "g-perfekt-aux",
+      "difficulty": 1,
+      "question": "To'g'ri yordamchi fe'lni tanlang: Wir ___ am Sonntag in die Berge gefahren.",
+      "prompt_de": null,
+      "options": [
+        "sind",
+        "haben",
+        "seid"
+      ],
+      "pairs": null,
+      "correct_answer": "sind",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"fahren\" — harakat A → B.",
+      "explanation": "\"fahren\" — bir joydan boshqa joyga harakat, shuning uchun \"sein\". \"wir\" bilan: sind. \"seid\" — \"ihr\" uchun.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l2-e02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "daily-routine",
+      "grammar_topic": "g-perfekt-aux",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: Ich ___ heute um 7 Uhr aufgewacht.",
+      "prompt_de": "Ich ___ heute um 7 Uhr aufgewacht.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "bin",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Holat o'zgarishi: uyqu → uyg'oqlik.",
+      "explanation": "\"aufwachen\" — holat o'zgarishi, shuning uchun \"sein\": Ich bin aufgewacht.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l2-e03",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "travel",
+      "grammar_topic": "g-perfekt",
+      "difficulty": 2,
+      "question": "\"fliegen\" fe'lining Partizip II shaklini yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "geflogen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Nomuntazam fe'l: unli o'zgaradi, oxiri -en.",
+      "explanation": "fliegen → geflogen (ie → o). Masalan: Ich bin nach Istanbul geflogen.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l2-e04",
+      "version": 1,
+      "type": "match",
+      "skill": "grammar",
+      "topic": "past-events",
+      "grammar_topic": "g-perfekt-aux",
+      "difficulty": 2,
+      "question": "Infinitivni Partizip II bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "laufen",
+          "gelaufen"
+        ],
+        [
+          "bleiben",
+          "geblieben"
+        ],
+        [
+          "einschlafen",
+          "eingeschlafen"
+        ],
+        [
+          "umziehen",
+          "umgezogen"
+        ],
+        [
+          "wandern",
+          "gewandert"
+        ]
+      ],
+      "correct_answer": {
+        "laufen": "gelaufen",
+        "bleiben": "geblieben",
+        "einschlafen": "eingeschlafen",
+        "umziehen": "umgezogen",
+        "wandern": "gewandert"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Ajraladigan fe'llarda \"ge\" o'rtada.",
+      "explanation": "laufen → gelaufen, bleiben → geblieben, einschlafen → eingeschlafen, umziehen → umgezogen, wandern → gewandert. Hammasi Perfektda \"sein\" bilan.",
+      "error_type": "conjugation",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l2-e05",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "past-events",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "To'g'ri artiklni tanlang: ___ Unfall",
+      "prompt_de": null,
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "der",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Ko'pchilik bir bo'g'inli \"-fall\" otlari erkak jinsida.",
+      "explanation": "\"der Unfall\" — erkak jinsi, ko'pligi: die Unfälle.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l2-e06",
+      "version": 1,
+      "type": "plural",
+      "skill": "vocabulary",
+      "topic": "travel",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Ko'plik shaklini yozing: der Berg → ?",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "die Berge",
+      "accepted_answers": [
+        "Berge"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Berg → die Berge (oxiriga -e qo'shiladi).",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l2-e07",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "transport",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Timur ishga qanday keldi?",
+      "prompt_de": null,
+      "options": [
+        "Piyoda",
+        "Avtobusda",
+        "Velosipedda"
+      ],
+      "pairs": null,
+      "correct_answer": "Piyoda",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"zu Fuß\" nimani anglatadi?",
+      "explanation": "\"Dann bin ich zu Fuß gelaufen\" — keyin piyoda yugurdim. Avtobus ketib qolgan edi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Der Bus ist schon abgefahren. Dann bin ich zu Fuß gelaufen."
+    },
+    {
+      "id": "a2-m13-l2-e08",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "past-events",
+      "grammar_topic": "g-perfekt-aux",
+      "difficulty": 2,
+      "question": "Gapdagi xato so'zni toping: \"Was hat passiert?\"",
+      "prompt_de": "Was hat passiert?",
+      "options": [
+        "Was",
+        "hat",
+        "passiert"
+      ],
+      "pairs": null,
+      "correct_answer": "hat",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: \"Was ist passiert?\" — \"passieren\" Perfektda doim \"sein\" bilan.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l2-e09",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "travel",
+      "grammar_topic": "g-perfekt-aux",
+      "difficulty": 2,
+      "question": "So'zlarni to'g'ri tartibda joylashtiring: \"O'tgan hafta biz Samarqandga uchib bordik.\"",
+      "prompt_de": null,
+      "options": [
+        "Woche",
+        "Wir",
+        "letzte",
+        "Samarkand",
+        "nach",
+        "geflogen",
+        "sind"
+      ],
+      "pairs": null,
+      "correct_answer": "Wir sind letzte Woche nach Samarkand geflogen",
+      "accepted_answers": [
+        "Letzte Woche sind wir nach Samarkand geflogen"
+      ],
+      "criteria": null,
+      "hint": "\"sind\" — 2-o'rinda, \"geflogen\" — oxirida.",
+      "explanation": "Yordamchi fe'l \"sind\" 2-o'rinda, Partizip II \"geflogen\" oxirida. \"Letzte Woche\" bilan boshlasangiz: Letzte Woche sind wir ...",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l2-e10",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "past-events",
+      "grammar_topic": "g-perfekt-aux",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Men kecha uyda qoldim.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich bin gestern zu Hause geblieben.",
+      "accepted_answers": [
+        "Gestern bin ich zu Hause geblieben.",
+        "Ich bin gestern daheim geblieben."
+      ],
+      "criteria": null,
+      "hint": "uyda = zu Hause; qolmoq = bleiben",
+      "explanation": "\"bleiben\" Perfektda \"sein\" bilan: Ich bin ... geblieben.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l2-e11",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Ishga kechikdingiz. Boshlig'ingiz so'rayapti: \"Was ist passiert?\" Qaysi javob to'g'ri?",
+      "prompt_de": null,
+      "options": [
+        "Entschuldigung, ich bin zu spät aufgewacht.",
+        "Entschuldigung, ich habe zu spät aufgewacht.",
+        "Entschuldigung, ich wache zu spät auf."
+      ],
+      "pairs": null,
+      "correct_answer": "Entschuldigung, ich bin zu spät aufgewacht.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"aufwachen\" Perfektda \"sein\" bilan. Uchinchi variant hozirgi zamonda — bo'lib o'tgan voqeaga mos emas.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a2-m13-l2-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "sports",
+      "grammar_topic": "g-perfekt-aux",
+      "difficulty": 1,
+      "question": "To'g'ri variantni tanlang: Ich ___ gestern zehn Kilometer gelaufen.",
+      "prompt_de": null,
+      "options": [
+        "bin",
+        "habe"
+      ],
+      "pairs": null,
+      "correct_answer": "bin",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"laufen\" — harakat, \"sein\" bilan: Ich bin gelaufen.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l2-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-perfekt-aux",
+      "difficulty": 2,
+      "question": "Bo'sh joyni to'ldiring: Wann ___ ihr nach Deutschland umgezogen?",
+      "prompt_de": "Wann ___ ihr nach Deutschland umgezogen?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "seid",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"umziehen\" — \"sein\" bilan, \"ihr\" uchun shakl: seid.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l2-t03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "past-events",
+      "grammar_topic": "g-perfekt-aux",
+      "difficulty": 2,
+      "question": "Qaysi fe'l Perfektda \"haben\" bilan ishlatiladi?",
+      "prompt_de": null,
+      "options": [
+        "aufräumen",
+        "einschlafen",
+        "fliegen"
+      ],
+      "pairs": null,
+      "correct_answer": "aufräumen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"aufräumen\" — harakat ham, holat o'zgarishi ham emas: Ich habe aufgeräumt. \"einschlafen\" va \"fliegen\" — \"sein\" bilan.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l2-t04",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "daily-routine",
+      "grammar_topic": "g-perfekt",
+      "difficulty": 2,
+      "question": "\"einschlafen\" fe'lining Partizip II shaklini yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "eingeschlafen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ajraladigan fe'l: ein + ge + schlafen = eingeschlafen.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l2-t05",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "leisure",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "\"ko'l\" ma'nosida to'g'ri artiklni tanlang: ___ See",
+      "prompt_de": null,
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "der",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"die See\" boshqa ma'noni beradi.",
+      "explanation": "\"der See\" — ko'l. \"die See\" — dengiz (das Meer bilan bir ma'noda). Darsimizda \"der See\".",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l2-t06",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "past-events",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Was ist passiert?\"",
+      "prompt_de": "Was ist passiert?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Nima bo'ldi?",
+      "accepted_answers": [
+        "Nima sodir bo'ldi?",
+        "Nima yuz berdi?",
+        "Nima gap?"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"passieren\" — sodir bo'lmoq. \"Was ist passiert?\" — Nima bo'ldi?",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m13-l2-t07",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "travel",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang va eshitganingizni yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Wir sind in die Berge gefahren.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"fahren\" — \"sein\" bilan: Wir sind ... gefahren. \"Berge\" — ko'plik.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": "Wir sind in die Berge gefahren."
+    }
+  ]
+}

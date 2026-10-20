@@ -1,0 +1,894 @@
+{
+  "id": "a1-m01-l3",
+  "version": 1,
+  "level": "A1",
+  "module": 1,
+  "order": 3,
+  "title": "Umlautlar va harf birikmalari",
+  "title_de": "Umlaute und Buchstabenkombinationen",
+  "goal": "Dars oxirida ä, ö, ü, ß va sch, ch, ei, ie, eu, sp, st birikmalarini to'g'ri o'qiysiz, ularni eshitib ajratasiz va bunday so'zlarni xatosiz yoza olasiz.",
+  "skill_focus": [
+    "listening",
+    "vocabulary",
+    "writing"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Umlaut — unli harf ustidagi ikki nuqta (ä, ö, ü). U tovushni o'zgartiradi va so'z ma'nosini ham o'zgartirishi mumkin: schon — allaqachon, schön — chiroyli."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Harf",
+        "Qanday o'qiladi",
+        "Misol"
+      ],
+      "rows": [
+        [
+          "ä",
+          "o'zbekcha \"e\" ga yaqin",
+          "Mädchen, Käse"
+        ],
+        [
+          "ö",
+          "lablarni \"o\" holatida tutib \"e\" deysiz (o'zbek tilida yo'q)",
+          "schön"
+        ],
+        [
+          "ü",
+          "lablarni \"u\" holatida tutib \"i\" deysiz (o'zbek tilida yo'q)",
+          "Tür, Bücher"
+        ],
+        [
+          "ß",
+          "jarangsiz \"s\" (ikki s kabi)",
+          "Straße, heißen"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Birikma",
+        "Qanday o'qiladi",
+        "Misol"
+      ],
+      "rows": [
+        [
+          "sch",
+          "\"sh\"",
+          "Schule, Tschüs"
+        ],
+        [
+          "ch (a, o, u dan keyin)",
+          "bo'g'izdan \"x\"",
+          "Buch"
+        ],
+        [
+          "ch (i, e, ä, ö, ü va l dan keyin)",
+          "yumshoq \"x\" (\"sh\" ga yaqin)",
+          "ich, Milch"
+        ],
+        [
+          "ei",
+          "\"ay\"",
+          "Ei, nein, heißen"
+        ],
+        [
+          "ie",
+          "uzun \"i\"",
+          "spielen, Sie"
+        ],
+        [
+          "eu / äu",
+          "\"oy\"",
+          "heute, Häuser"
+        ],
+        [
+          "sp / st (so'z boshida)",
+          "\"shp\" / \"sht\"",
+          "sprechen, Straße, Stuhl"
+        ],
+        [
+          "w",
+          "\"v\"",
+          "Wasser"
+        ],
+        [
+          "z",
+          "\"ts\"",
+          "Zeit"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "\"ei\" va \"ie\" ni adashtirmang: ei → \"ay\" (nein), ie → uzun \"i\" (spielen)."
+    },
+    {
+      "type": "tip",
+      "text": "Klaviaturada umlaut bo'lmasa, shunday yozish mumkin: ä = ae, ö = oe, ü = ue, ß = ss (Strasse, schoen). Lekin imkon bo'lsa, asl harflardan foydalaning."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-die-straße",
+      "de": "Straße",
+      "uz": "ko'cha",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Straßen",
+      "forms": null,
+      "example_de": "Wie heißt die Straße?",
+      "example_uz": "Ko'chaning nomi nima?",
+      "topic": "city"
+    },
+    {
+      "id": "v-schön",
+      "de": "schön",
+      "uz": "chiroyli; yoqimli",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Das ist schön!",
+      "example_uz": "Bu chiroyli!",
+      "topic": "general"
+    },
+    {
+      "id": "v-das-mädchen",
+      "de": "Mädchen",
+      "uz": "qiz bola",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Mädchen",
+      "forms": null,
+      "example_de": "Das Mädchen heißt Lola.",
+      "example_uz": "Qizning ismi Lola.",
+      "topic": "people"
+    },
+    {
+      "id": "v-die-tür",
+      "de": "Tür",
+      "uz": "eshik",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Türen",
+      "forms": null,
+      "example_de": "Die Tür ist zu.",
+      "example_uz": "Eshik yopiq.",
+      "topic": "home"
+    },
+    {
+      "id": "v-die-schule",
+      "de": "Schule",
+      "uz": "maktab",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Schulen",
+      "forms": null,
+      "example_de": "Die Schule ist groß.",
+      "example_uz": "Maktab katta.",
+      "topic": "education"
+    },
+    {
+      "id": "v-das-ei",
+      "de": "Ei",
+      "uz": "tuxum",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Eier",
+      "forms": null,
+      "example_de": "Ich esse ein Ei.",
+      "example_uz": "Men bitta tuxum yeyman.",
+      "topic": "food"
+    },
+    {
+      "id": "v-spielen",
+      "de": "spielen",
+      "uz": "o'ynamoq; chalmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "praesens_3sg": "spielt",
+        "partizip2": "gespielt",
+        "perfekt_aux": "haben"
+      },
+      "example_de": "Das Mädchen spielt.",
+      "example_uz": "Qiz o'ynayapti.",
+      "topic": "leisure"
+    },
+    {
+      "id": "v-sprechen",
+      "de": "sprechen",
+      "uz": "gapirmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "praesens_3sg": "spricht",
+        "partizip2": "gesprochen",
+        "perfekt_aux": "haben"
+      },
+      "example_de": "Ich spreche Usbekisch.",
+      "example_uz": "Men o'zbekcha gapiraman.",
+      "topic": "communication"
+    },
+    {
+      "id": "v-der-stuhl",
+      "de": "Stuhl",
+      "uz": "stul",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Stühle",
+      "forms": null,
+      "example_de": "Der Stuhl ist neu.",
+      "example_uz": "Stul yangi.",
+      "topic": "home"
+    },
+    {
+      "id": "v-heute",
+      "de": "heute",
+      "uz": "bugun",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Heute ist Montag.",
+      "example_uz": "Bugun dushanba.",
+      "topic": "time"
+    },
+    {
+      "id": "v-das-haus",
+      "de": "Haus",
+      "uz": "uy",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Häuser",
+      "forms": null,
+      "example_de": "Das Haus ist schön.",
+      "example_uz": "Uy chiroyli.",
+      "topic": "home"
+    },
+    {
+      "id": "v-das-buch",
+      "de": "Buch",
+      "uz": "kitob",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Bücher",
+      "forms": null,
+      "example_de": "Das Buch ist gut.",
+      "example_uz": "Kitob yaxshi.",
+      "topic": "education"
+    },
+    {
+      "id": "v-die-milch",
+      "de": "Milch",
+      "uz": "sut",
+      "pos": "noun",
+      "article": "die",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Die Milch ist frisch.",
+      "example_uz": "Sut yangi (toza).",
+      "topic": "food"
+    },
+    {
+      "id": "v-das-wasser",
+      "de": "Wasser",
+      "uz": "suv",
+      "pos": "noun",
+      "article": "das",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Ein Wasser, bitte!",
+      "example_uz": "Bitta suv, iltimos!",
+      "topic": "food"
+    }
+  ],
+  "review_vocabulary": [
+    "v-tschüs",
+    "v-gute-nacht",
+    "v-ich",
+    "v-nein",
+    "v-danke",
+    "v-bitte",
+    "v-guten-morgen",
+    "v-buchstabieren",
+    "v-schreiben",
+    "v-wie-bitte",
+    "v-langsam",
+    "v-sie"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-alphabet",
+      "rule": "ä, ö, ü — alohida unlilar; ular so'z ma'nosini va ko'plik shaklini o'zgartiradi (Buch → Bücher). ß uzun unli yoki ei/au dan keyin yoziladi, qisqa unlidan keyin esa ss: Straße, heißen — lekin Wasser.",
+      "when": "So'zni eshitib yozganda, talaffuz qilganda va o'xshash so'zlarni (schon/schön) farqlaganda.",
+      "structure": "uzun unli / ei / au + ß: Straße, heißen  |  qisqa unli + ss: Wasser  |  sp-, st- (so'z boshida) = \"shp\", \"sht\"",
+      "examples": [
+        {
+          "de": "Die Straße ist schön.",
+          "uz": "Ko'cha chiroyli."
+        },
+        {
+          "de": "Das Mädchen spielt heute.",
+          "uz": "Qiz bugun o'ynayapti."
+        },
+        {
+          "de": "Ich spreche nicht schnell.",
+          "uz": "Men tez gapirmayman."
+        },
+        {
+          "de": "Das Buch ist neu, die Bücher sind alt.",
+          "uz": "Kitob yangi, kitoblar esa eski."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Strase",
+          "right": "Straße",
+          "why": "Uzun \"a\" dan keyin jarangsiz \"s\" — ß bilan yoziladi. Bitta s unlilar orasida jarangli \"z\" kabi o'qiladi."
+        },
+        {
+          "wrong": "sprechen → [s-prexen]",
+          "right": "sprechen → [shprexen]",
+          "why": "So'z boshida sp va st — \"shp\" va \"sht\" deb o'qiladi."
+        },
+        {
+          "wrong": "Ei → [ey]",
+          "right": "Ei → [ay]",
+          "why": "ei birikmasi doim \"ay\" deb o'qiladi: Ei, nein, heißen."
+        },
+        {
+          "wrong": "Das ist schon. (chiroyli ma'nosida)",
+          "right": "Das ist schön.",
+          "why": "Umlautni tashlab ketish ma'noni o'zgartiradi: schon — allaqachon, schön — chiroyli."
+        }
+      ],
+      "check": [
+        "a1-m01-l3-e01",
+        "a1-m01-l3-e05",
+        "a1-m01-l3-e06"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Talaffuz darsi",
+    "lines": [
+      {
+        "speaker": "Frau Schmidt",
+        "de": "Guten Morgen! Heute sprechen wir: ä, ö, ü.",
+        "uz": "Xayrli tong! Bugun talaffuz qilamiz: ä, ö, ü."
+      },
+      {
+        "speaker": "Aziz",
+        "de": "Wie bitte? Langsam, bitte!",
+        "uz": "Nima dedingiz? Sekinroq, iltimos!"
+      },
+      {
+        "speaker": "Frau Schmidt",
+        "de": "Ä wie Mädchen, Ö wie schön, Ü wie Tür.",
+        "uz": "Ä — Mädchen dagi kabi, Ö — schön dagi kabi, Ü — Tür dagi kabi."
+      },
+      {
+        "speaker": "Aziz",
+        "de": "Und ß?",
+        "uz": "ß-chi?"
+      },
+      {
+        "speaker": "Frau Schmidt",
+        "de": "ß wie Straße. Schreiben Sie: S – T – R – A – ß – E.",
+        "uz": "ß — Straße dagi kabi. Yozing: S – T – R – A – ß – E."
+      },
+      {
+        "speaker": "Aziz",
+        "de": "Danke! Das ist schön.",
+        "uz": "Rahmat! Bu ajoyib."
+      }
+    ],
+    "questions": [
+      "a1-m01-l3-e02",
+      "a1-m01-l3-e03"
+    ]
+  },
+  "situation": {
+    "title": "Taksida manzil aytish",
+    "context_uz": "Siz Berlinda taksiga o'tirdingiz. Haydovchiga ko'cha nomini aytishingiz kerak. \"Wohin?\" — \"Qayerga?\" degani.",
+    "lines": [
+      {
+        "speaker": "Taxifahrer",
+        "de": "Guten Abend! Wohin?",
+        "uz": "Xayrli kech! Qayerga?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Guten Abend! Schillerstraße, bitte.",
+        "uz": "Xayrli kech! Shillershtrasse, iltimos."
+      },
+      {
+        "speaker": "Taxifahrer",
+        "de": "Wie bitte? Schillerstraße?",
+        "uz": "Nima dedingiz? Shillershtrasse?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ja. S – C – H – I – L – L – E – R – Straße.",
+        "uz": "Ha. S – C – H – I – L – L – E – R – Straße."
+      },
+      {
+        "speaker": "Taxifahrer",
+        "de": "Gut, danke!",
+        "uz": "Yaxshi, rahmat!"
+      }
+    ],
+    "task_uz": "Dialogni ovoz chiqarib o'qing: \"sch\" — \"sh\", \"st\" — \"sht\", \"ß\" — jarangsiz \"s\". Keyin boshqa ko'cha nomi bilan takrorlang (masalan, Goethestraße yoki Mozartstraße) va uni harflab ayting."
+  },
+  "exercises": [
+    {
+      "id": "a1-m01-l3-e01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "alphabet",
+      "grammar_topic": "g-alphabet",
+      "difficulty": 1,
+      "question": "\"sch\" birikmasi qanday o'qiladi? (Schule)",
+      "prompt_de": null,
+      "options": [
+        "\"s\" + \"x\"",
+        "\"sh\"",
+        "\"sk\""
+      ],
+      "pairs": null,
+      "correct_answer": "\"sh\"",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "sch — doim \"sh\": Schule [shule], Tschüs [chüs].",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m01-l3-e02",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "general",
+      "grammar_topic": "g-alphabet",
+      "difficulty": 1,
+      "question": "Tinglang. Qaysi so'z aytildi?",
+      "prompt_de": null,
+      "options": [
+        "schon",
+        "schön",
+        "Schein"
+      ],
+      "pairs": null,
+      "correct_answer": "schön",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Lablar yumaloq bo'ldimi?",
+      "explanation": "Lablar yumaloq, \"ö\" eshitildi — schön (chiroyli). schon — oddiy \"o\" bilan.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "schön"
+    },
+    {
+      "id": "a1-m01-l3-e03",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "alphabet",
+      "grammar_topic": "g-alphabet",
+      "difficulty": 1,
+      "question": "Tinglang. Ustoz qaysi harfni misol bilan aytdi?",
+      "prompt_de": null,
+      "options": [
+        "U",
+        "I",
+        "Ü"
+      ],
+      "pairs": null,
+      "correct_answer": "Ü",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Ü wie Tür\" — ü harfi, Tür so'zidagi kabi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Ü wie Tür."
+    },
+    {
+      "id": "a1-m01-l3-e04",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "general",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "So'zni ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "die Straße",
+          "ko'cha"
+        ],
+        [
+          "die Tür",
+          "eshik"
+        ],
+        [
+          "das Mädchen",
+          "qiz bola"
+        ],
+        [
+          "das Buch",
+          "kitob"
+        ],
+        [
+          "der Stuhl",
+          "stul"
+        ]
+      ],
+      "correct_answer": {
+        "die Straße": "ko'cha",
+        "die Tür": "eshik",
+        "das Mädchen": "qiz bola",
+        "das Buch": "kitob",
+        "der Stuhl": "stul"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Straße — ko'cha, Tür — eshik, Mädchen — qiz bola, Buch — kitob, Stuhl — stul.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m01-l3-e05",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "people",
+      "grammar_topic": "g-alphabet",
+      "difficulty": 1,
+      "question": "Bo'sh joyga to'g'ri harfni yozing: Das M___dchen spielt.",
+      "prompt_de": "Das M___dchen spielt.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "ä",
+      "accepted_answers": [
+        "ae"
+      ],
+      "criteria": null,
+      "hint": "O'zbekcha \"e\" ga yaqin tovush.",
+      "explanation": "Mädchen — ä bilan. ä o'zbekcha \"e\" ga yaqin o'qiladi.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m01-l3-e06",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "city",
+      "grammar_topic": "g-alphabet",
+      "difficulty": 1,
+      "question": "\"Ko'cha\" so'zi qaysi variantda to'g'ri yozilgan?",
+      "prompt_de": null,
+      "options": [
+        "Strase",
+        "Straße",
+        "Schtraße"
+      ],
+      "pairs": null,
+      "correct_answer": "Straße",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"a\" uzun o'qiladi.",
+      "explanation": "Straße — uzun \"a\" dan keyin ß. \"st\" o'zi \"sht\" o'qiladi, \"scht\" deb yozilmaydi.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m01-l3-e07",
+      "version": 1,
+      "type": "plural",
+      "skill": "grammar",
+      "topic": "education",
+      "grammar_topic": "g-plural",
+      "difficulty": 2,
+      "question": "Ko'plik shaklini yozing: das Buch → die ___",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Bücher",
+      "accepted_answers": [
+        "die Bücher"
+      ],
+      "criteria": null,
+      "hint": "Ko'plikda u → ü bo'ladi va -er qo'shiladi.",
+      "explanation": "das Buch → die Bücher. Ko'plikda ko'pincha umlaut paydo bo'ladi: Haus → Häuser, Stuhl → Stühle.",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m01-l3-e08",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang va gapni yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Das Haus ist schön.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"au\" — \"au\", \"ö\" — umlaut.",
+      "explanation": "Das Haus ist schön. Haus — otdir, katta harf bilan; schön — ö bilan.",
+      "error_type": "spelling",
+      "points": 2,
+      "audio_text": "Das Haus ist schön."
+    },
+    {
+      "id": "a1-m01-l3-e09",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "people",
+      "grammar_topic": "g-alphabet",
+      "difficulty": 1,
+      "question": "Gapdagi xato yozilgan so'zni toping: \"Das Medchen spielt.\"",
+      "prompt_de": "Das Medchen spielt.",
+      "options": [
+        "Das",
+        "Medchen",
+        "spielt"
+      ],
+      "pairs": null,
+      "correct_answer": "Medchen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: Mädchen (ä bilan). \"e\" deb eshitilsa ham, yozuvda ä.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m01-l3-e10",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "education",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Das Buch ist schön.\"",
+      "prompt_de": "Das Buch ist schön.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Kitob chiroyli.",
+      "accepted_answers": [
+        "Bu kitob chiroyli",
+        "Kitob go'zal",
+        "Kitob chiroyli ekan"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "das Buch — kitob, schön — chiroyli. \"ist\" tarjimada ko'pincha tushib qoladi.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m01-l3-e11",
+      "version": 1,
+      "type": "short_text",
+      "skill": "writing",
+      "topic": "alphabet",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "ä, ö, ü yoki ß harflaridan biri bor 4 ta so'z yozing (vergul bilan ajrating).",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 4,
+        "required_words": [],
+        "sample": "schön, Mädchen, Tür, Straße"
+      },
+      "hint": null,
+      "explanation": "Masalan: schön, Mädchen, Tür, Straße, Bücher, Häuser, Stühle, heißen.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a1-m01-l3-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "alphabet",
+      "grammar_topic": "g-alphabet",
+      "difficulty": 1,
+      "question": "\"ei\" qanday o'qiladi? (nein, Ei)",
+      "prompt_de": null,
+      "options": [
+        "\"ay\"",
+        "\"ey\"",
+        "\"i\""
+      ],
+      "pairs": null,
+      "correct_answer": "\"ay\"",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "ei — doim \"ay\": nein [nayn], Ei [ay].",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m01-l3-t02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "alphabet",
+      "grammar_topic": "g-alphabet",
+      "difficulty": 1,
+      "question": "\"ie\" qanday o'qiladi? (spielen, Sie)",
+      "prompt_de": null,
+      "options": [
+        "\"ay\"",
+        "\"i-e\"",
+        "uzun \"i\""
+      ],
+      "pairs": null,
+      "correct_answer": "uzun \"i\"",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "ie — uzun \"i\": spielen [shpiilen], Sie [zii].",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m01-l3-t03",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "time",
+      "grammar_topic": "g-alphabet",
+      "difficulty": 1,
+      "question": "Tinglang. Qaysi so'z aytildi?",
+      "prompt_de": null,
+      "options": [
+        "Haus",
+        "heute",
+        "heiße"
+      ],
+      "pairs": null,
+      "correct_answer": "heute",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"oy\" tovushi eshitildi — eu: heute (bugun).",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "heute"
+    },
+    {
+      "id": "a1-m01-l3-t04",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "vocabulary",
+      "topic": "food",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemis tiliga tarjima qiling: \"suv\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Wasser",
+      "accepted_answers": [
+        "das Wasser"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "suv — das Wasser. W — \"v\" deb o'qiladi.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m01-l3-t05",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "city",
+      "grammar_topic": "g-alphabet",
+      "difficulty": 2,
+      "question": "Tinglang va so'zni yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Straße",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Straße: \"sht\" — st, uzun a dan keyin ß. Ot bo'lgani uchun katta harf bilan.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": "Straße"
+    },
+    {
+      "id": "a1-m01-l3-t06",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "education",
+      "grammar_topic": "g-alphabet",
+      "difficulty": 1,
+      "question": "Gapdagi xato so'zni toping (ma'nosi: \"Maktab chiroyli.\"): \"Die Schule ist schon.\"",
+      "prompt_de": "Die Schule ist schon.",
+      "options": [
+        "Die",
+        "Schule",
+        "ist",
+        "schon"
+      ],
+      "pairs": null,
+      "correct_answer": "schon",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"chiroyli\" — schön (ö bilan). schon — \"allaqachon\" degani.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m01-l3-t07",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "city",
+      "grammar_topic": "g-alphabet",
+      "difficulty": 2,
+      "question": "Sizdan \"Wie schreibt man Straße?\" deb so'rashdi. To'g'ri javobni tanlang.",
+      "prompt_de": null,
+      "options": [
+        "S – C – H – T – R – A – S – E",
+        "S – T – R – A – ß – E",
+        "S – T – R – A – S – E"
+      ],
+      "pairs": null,
+      "correct_answer": "S – T – R – A – ß – E",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Straße: S – T – R – A – ß – E. \"sht\" deb o'qilsa ham, \"st\" yoziladi; uzun a dan keyin ß.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

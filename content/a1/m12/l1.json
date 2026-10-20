@@ -1,0 +1,873 @@
+{
+  "id": "a1-m12-l1",
+  "version": 1,
+  "level": "A1",
+  "module": 12,
+  "order": 1,
+  "title": "Tana va shikoyatlar",
+  "title_de": "Der Körper: Was tut weh?",
+  "goal": "Dars oxirida 10 ta tana a'zosini artikli bilan aytasiz va qayeringiz og'riyotganini to'g'ri ayta olasiz: Mein Kopf tut weh. Meine Augen tun weh. Ich habe Fieber.",
+  "skill_focus": [
+    "vocabulary",
+    "grammar",
+    "speaking"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Og'riq haqida gapirishning ikki usuli bor: 1) egalik so'zi + tana a'zosi + tut weh: Mein Kopf tut weh (Boshim og'riyapti). 2) Ich habe + ...schmerzen: Ich habe Kopfschmerzen."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Tana a'zosi",
+        "Og'riq (1-usul)",
+        "Og'riq (2-usul)"
+      ],
+      "rows": [
+        [
+          "der Kopf — bosh",
+          "Mein Kopf tut weh.",
+          "Ich habe Kopfschmerzen."
+        ],
+        [
+          "der Bauch — qorin",
+          "Mein Bauch tut weh.",
+          "Ich habe Bauchschmerzen."
+        ],
+        [
+          "der Hals — tomoq, bo'yin",
+          "Mein Hals tut weh.",
+          "Ich habe Halsschmerzen."
+        ],
+        [
+          "der Rücken — bel, orqa",
+          "Mein Rücken tut weh.",
+          "Ich habe Rückenschmerzen."
+        ],
+        [
+          "der Zahn — tish",
+          "Mein Zahn tut weh.",
+          "Ich habe Zahnschmerzen."
+        ],
+        [
+          "die Augen — ko'zlar",
+          "Meine Augen tun weh.",
+          "—"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Fe'l egaga moslashadi: bitta a'zo — tut weh, ko'plik (Augen, Ohren, Beine) — tun weh. Egalik so'zi jinsga qarab: mein Kopf (der), mein Bein (das), meine Hand (die), meine Augen (ko'plik)."
+    },
+    {
+      "type": "tip",
+      "text": "Boshqa umumiy holatlar: Ich bin krank. (Kasalman.) Ich habe Fieber. (Isitmam bor.) Kasal odamga: \"Gute Besserung!\" — \"Tezroq tuzaling!\""
+    },
+    {
+      "type": "tip",
+      "text": "O'zbekcha \"boshim og'riyapti\"ni so'zma-so'z tarjima qilmang: \"Ich habe Kopf weh\" xato. To'g'risi: \"Mein Kopf tut weh\" yoki \"Ich habe Kopfschmerzen\"."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-der-kopf",
+      "de": "Kopf",
+      "uz": "bosh",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Köpfe",
+      "forms": null,
+      "example_de": "Mein Kopf tut weh.",
+      "example_uz": "Boshim og'riyapti.",
+      "topic": "body"
+    },
+    {
+      "id": "v-der-bauch",
+      "de": "Bauch",
+      "uz": "qorin",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Bäuche",
+      "forms": null,
+      "example_de": "Nach dem Essen tut mein Bauch weh.",
+      "example_uz": "Ovqatdan keyin qornim og'riydi.",
+      "topic": "body"
+    },
+    {
+      "id": "v-der-hals",
+      "de": "Hals",
+      "uz": "tomoq, bo'yin",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Hälse",
+      "forms": null,
+      "example_de": "Mein Hals tut weh.",
+      "example_uz": "Tomog'im og'riyapti.",
+      "topic": "body"
+    },
+    {
+      "id": "v-der-rücken",
+      "de": "Rücken",
+      "uz": "bel, orqa",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Rücken",
+      "forms": null,
+      "example_de": "Sein Rücken tut weh.",
+      "example_uz": "Uning beli og'riyapti.",
+      "topic": "body"
+    },
+    {
+      "id": "v-das-auge",
+      "de": "Auge",
+      "uz": "ko'z",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Augen",
+      "forms": null,
+      "example_de": "Sie hat blaue Augen.",
+      "example_uz": "Uning ko'zlari ko'k.",
+      "topic": "body"
+    },
+    {
+      "id": "v-das-ohr",
+      "de": "Ohr",
+      "uz": "quloq",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Ohren",
+      "forms": null,
+      "example_de": "Mein Ohr tut weh.",
+      "example_uz": "Qulog'im og'riyapti.",
+      "topic": "body"
+    },
+    {
+      "id": "v-der-arm",
+      "de": "Arm",
+      "uz": "qo'l (yelkadan kaftgacha)",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Arme",
+      "forms": null,
+      "example_de": "Nach dem Sport tut mein Arm weh.",
+      "example_uz": "Sportdan keyin qo'lim og'riydi.",
+      "topic": "body"
+    },
+    {
+      "id": "v-das-bein",
+      "de": "Bein",
+      "uz": "oyoq",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Beine",
+      "forms": null,
+      "example_de": "Nach dem Sport tun meine Beine weh.",
+      "example_uz": "Sportdan keyin oyoqlarim og'riydi.",
+      "topic": "body"
+    },
+    {
+      "id": "v-die-hand",
+      "de": "Hand",
+      "uz": "qo'l (kaft)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Hände",
+      "forms": null,
+      "example_de": "Gib mir deine Hand!",
+      "example_uz": "Qo'lingni ber!",
+      "topic": "body"
+    },
+    {
+      "id": "v-der-zahn",
+      "de": "Zahn",
+      "uz": "tish",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Zähne",
+      "forms": null,
+      "example_de": "Mein Zahn tut sehr weh.",
+      "example_uz": "Tishim qattiq og'riyapti.",
+      "topic": "body"
+    },
+    {
+      "id": "v-der-schmerz",
+      "de": "Schmerz",
+      "uz": "og'riq",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Schmerzen",
+      "forms": null,
+      "example_de": "Ich habe Schmerzen im Rücken.",
+      "example_uz": "Belimda og'riq bor.",
+      "topic": "health"
+    },
+    {
+      "id": "v-das-fieber",
+      "de": "Fieber",
+      "uz": "isitma",
+      "pos": "noun",
+      "article": "das",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Das Kind hat Fieber.",
+      "example_uz": "Bolaning isitmasi bor.",
+      "topic": "health"
+    },
+    {
+      "id": "v-krank",
+      "de": "krank",
+      "uz": "kasal",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Ich bin krank.",
+      "example_uz": "Men kasalman.",
+      "topic": "health"
+    },
+    {
+      "id": "v-wehtun",
+      "de": "wehtun",
+      "uz": "og'rimoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "wehgetan",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "tut weh"
+      },
+      "example_de": "Meine Augen tun weh.",
+      "example_uz": "Ko'zlarim og'riyapti.",
+      "topic": "health"
+    }
+  ],
+  "review_vocabulary": [
+    "v-brauchen",
+    "v-die-apotheke",
+    "v-das-krankenhaus"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-possessive",
+      "rule": "Shikoyatda egalik so'zi tana a'zosining jinsiga moslashadi: mein (der/das), meine (die va ko'plik). wehtun fe'li esa egaga moslashadi: bitta a'zo — tut weh, ko'plik — tun weh.",
+      "when": "Qayeringiz og'riyotganini aytganda (shifokorda, dorixonada, ishda).",
+      "structure": "mein/dein/sein + der/das-a'zo + tut weh: Mein Kopf tut weh.\nmeine/deine/seine + ko'plik + tun weh: Meine Augen tun weh.\nSavol: Tut dein Bauch weh?",
+      "examples": [
+        {
+          "de": "Mein Kopf tut weh.",
+          "uz": "Boshim og'riyapti."
+        },
+        {
+          "de": "Meine Augen tun weh.",
+          "uz": "Ko'zlarim og'riyapti."
+        },
+        {
+          "de": "Tut dein Bauch weh?",
+          "uz": "Qorning og'riyaptimi?"
+        },
+        {
+          "de": "Sein Rücken tut weh.",
+          "uz": "Uning beli og'riyapti."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Meine Kopf tut weh.",
+          "right": "Mein Kopf tut weh.",
+          "why": "der Kopf — erkak jinsi: mein (-e yo'q)."
+        },
+        {
+          "wrong": "Meine Augen tut weh.",
+          "right": "Meine Augen tun weh.",
+          "why": "Augen — ko'plik, shuning uchun fe'l ham ko'plikda: tun."
+        },
+        {
+          "wrong": "Ich habe Kopf weh.",
+          "right": "Ich habe Kopfschmerzen. / Mein Kopf tut weh.",
+          "why": "O'zbekcha iborani so'zma-so'z ko'chirmang."
+        }
+      ],
+      "check": [
+        "a1-m12-l1-e04",
+        "a1-m12-l1-e05",
+        "a1-m12-l1-e06",
+        "a1-m12-l1-e09"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Timur kasal",
+    "lines": [
+      {
+        "speaker": "Mutter",
+        "de": "Timur, bist du krank?",
+        "uz": "Timur, kasalmisan?"
+      },
+      {
+        "speaker": "Timur",
+        "de": "Ja, Mama. Mein Kopf tut weh und mein Hals auch.",
+        "uz": "Ha, oyi. Boshim og'riyapti, tomog'im ham."
+      },
+      {
+        "speaker": "Mutter",
+        "de": "Hast du Fieber?",
+        "uz": "Isitmang bormi?"
+      },
+      {
+        "speaker": "Timur",
+        "de": "Ja, ich glaube, 38,5 Grad.",
+        "uz": "Ha, menimcha, 38,5 daraja."
+      },
+      {
+        "speaker": "Mutter",
+        "de": "Und dein Bauch?",
+        "uz": "Qorning-chi?"
+      },
+      {
+        "speaker": "Timur",
+        "de": "Nein, mein Bauch tut nicht weh.",
+        "uz": "Yo'q, qornim og'rimayapti."
+      },
+      {
+        "speaker": "Mutter",
+        "de": "Dann bleibst du heute zu Hause.",
+        "uz": "Unda bugun uyda qolasan."
+      }
+    ],
+    "questions": [
+      "a1-m12-l1-e07",
+      "a1-m12-l1-e08"
+    ]
+  },
+  "situation": {
+    "title": "Ishga qo'ng'iroq",
+    "context_uz": "Ertalab o'zingizni yomon his qilyapsiz. Ishxonangizdagi rahbar Berger xonimga qo'ng'iroq qilib, kasal ekaningizni aytasiz.",
+    "lines": [
+      {
+        "speaker": "Siz",
+        "de": "Guten Morgen, Frau Berger. Hier ist Aziz Karimov.",
+        "uz": "Xayrli tong, Berger xonim. Men Aziz Karimov."
+      },
+      {
+        "speaker": "Frau Berger",
+        "de": "Guten Morgen, Herr Karimov. Was ist los?",
+        "uz": "Xayrli tong, Karimov janoblari. Nima bo'ldi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ich bin krank. Ich habe Fieber und mein Rücken tut weh.",
+        "uz": "Kasalman. Isitmam bor va belim og'riyapti."
+      },
+      {
+        "speaker": "Frau Berger",
+        "de": "Oh, das tut mir leid! Gehen Sie zum Arzt.",
+        "uz": "Voy, achinarli! Shifokorga boring."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ja, ich habe um zehn Uhr einen Termin.",
+        "uz": "Ha, soat o'nda qabulga yozilganman."
+      },
+      {
+        "speaker": "Frau Berger",
+        "de": "Gute Besserung!",
+        "uz": "Tezroq tuzaling!"
+      }
+    ],
+    "task_uz": "Ishxona yoki kursga qo'ng'iroq qilib, kasal ekaningizni ayting: o'zingizni tanishtiring, ikkita shikoyat ayting (Mein ... tut weh / Ich habe ...) va shifokorga borishingizni ayting."
+  },
+  "exercises": [
+    {
+      "id": "a1-m12-l1-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "body",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tana a'zolarini juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "Kopf",
+          "bosh"
+        ],
+        [
+          "Bauch",
+          "qorin"
+        ],
+        [
+          "Hals",
+          "tomoq"
+        ],
+        [
+          "Rücken",
+          "bel"
+        ],
+        [
+          "Zahn",
+          "tish"
+        ],
+        [
+          "Bein",
+          "oyoq"
+        ]
+      ],
+      "correct_answer": {
+        "Kopf": "bosh",
+        "Bauch": "qorin",
+        "Hals": "tomoq",
+        "Rücken": "bel",
+        "Zahn": "tish",
+        "Bein": "oyoq"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Kopf — bosh, Bauch — qorin, Hals — tomoq, Rücken — bel/orqa, Zahn — tish, Bein — oyoq.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l1-e02",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "body",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Artiklni tanlang: ___ Auge",
+      "prompt_de": "___ Auge",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "das",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "das Auge — o'rta jins, ko'pligi die Augen.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l1-e03",
+      "version": 1,
+      "type": "plural",
+      "skill": "vocabulary",
+      "topic": "body",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Ko'plik shaklini yozing: die Hand → die ___",
+      "prompt_de": "die Hand",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Hände",
+      "accepted_answers": [
+        "die Hände"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Hand → die Hände (a → ä, -e).",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l1-e04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-possessive",
+      "difficulty": 1,
+      "question": "To'g'ri variantni tanlang: ___ Kopf tut weh.",
+      "prompt_de": "___ Kopf tut weh.",
+      "options": [
+        "Mein",
+        "Meine"
+      ],
+      "pairs": null,
+      "correct_answer": "Mein",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Kopf → mein Kopf.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l1-e05",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-possessive",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (wehtun): Meine Ohren ___ weh.",
+      "prompt_de": "Meine Ohren ___ weh.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "tun",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ohren — ko'plik → tun weh.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l1-e06",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-possessive",
+      "difficulty": 1,
+      "question": "Xato so'zni toping: \"Meine Augen tut weh.\"",
+      "prompt_de": "Meine Augen tut weh.",
+      "options": [
+        "Meine",
+        "Augen",
+        "tut",
+        "weh"
+      ],
+      "pairs": null,
+      "correct_answer": "tut",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: \"Meine Augen tun weh.\" Augen — ko'plik.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l1-e07",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni tinglang. Timurning nimasi og'rimayapti?",
+      "prompt_de": null,
+      "options": [
+        "Qorni",
+        "Boshi",
+        "Tomog'i"
+      ],
+      "pairs": null,
+      "correct_answer": "Qorni",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Nein, mein Bauch tut nicht weh.\" Boshi va tomog'i og'riyapti.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Timur, bist du krank? Ja, Mama. Mein Kopf tut weh und mein Hals auch. Hast du Fieber? Ja, ich glaube, 38,5 Grad. Und dein Bauch? Nein, mein Bauch tut nicht weh. Dann bleibst du heute zu Hause."
+    },
+    {
+      "id": "a1-m12-l1-e08",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Dialogni tinglang. Timurning isitmasi qancha?",
+      "prompt_de": null,
+      "options": [
+        "38,5 daraja",
+        "37,5 daraja",
+        "39,5 daraja"
+      ],
+      "pairs": null,
+      "correct_answer": "38,5 daraja",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Ich glaube, 38,5 Grad.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Timur, bist du krank? Ja, Mama. Mein Kopf tut weh und mein Hals auch. Hast du Fieber? Ja, ich glaube, 38,5 Grad. Und dein Bauch? Nein, mein Bauch tut nicht weh. Dann bleibst du heute zu Hause."
+    },
+    {
+      "id": "a1-m12-l1-e09",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "health",
+      "grammar_topic": "g-possessive",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Tishim og'riyapti.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Mein Zahn tut weh.",
+      "accepted_answers": [
+        "Ich habe Zahnschmerzen.",
+        "Meine Zähne tun weh."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Zahn → mein Zahn tut weh. Yoki: Ich habe Zahnschmerzen.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l1-e10",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Do'stingiz kasal bo'lib qoldi. Unga nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Gute Besserung!",
+        "Guten Appetit!",
+        "Herzlichen Glückwunsch!"
+      ],
+      "pairs": null,
+      "correct_answer": "Gute Besserung!",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Kasal odamga \"Gute Besserung!\" (tezroq tuzaling) deyiladi. \"Guten Appetit\" — yoqimli ishtaha, \"Herzlichen Glückwunsch\" — tabrik.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l1-e11",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang va yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich habe Fieber.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Fieber\" — ot, katta harf bilan; ie — uzun [i:].",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": "Ich habe Fieber."
+    },
+    {
+      "id": "a1-m12-l1-e12",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "\"Ich habe Halsschmerzen.\" — qayeri og'riyapti?",
+      "prompt_de": null,
+      "options": [
+        "Tomog'i",
+        "Boshi",
+        "Qorni"
+      ],
+      "pairs": null,
+      "correct_answer": "Tomog'i",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Hals — tomoq, Schmerzen — og'riq.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a1-m12-l1-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "body",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "\"das Bein\" nima degani?",
+      "prompt_de": null,
+      "options": [
+        "oyoq",
+        "qo'l",
+        "bosh"
+      ],
+      "pairs": null,
+      "correct_answer": "oyoq",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Bein — oyoq, Arm — qo'l, Kopf — bosh.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l1-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-possessive",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (mening): ___ Hand tut weh.",
+      "prompt_de": "___ Hand tut weh.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Meine",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Hand → meine Hand.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l1-t03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-possessive",
+      "difficulty": 1,
+      "question": "To'g'ri shaklni tanlang: Mein Rücken ___ weh.",
+      "prompt_de": "Mein Rücken ___ weh.",
+      "options": [
+        "tut",
+        "tun"
+      ],
+      "pairs": null,
+      "correct_answer": "tut",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Bitta a'zo → tut weh.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l1-t04",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Ich bin krank.\"",
+      "prompt_de": "Ich bin krank.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Men kasalman.",
+      "accepted_answers": [
+        "Kasalman",
+        "Men betobman",
+        "Betobman"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "krank — kasal.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l1-t05",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Qayeri og'riyapti?",
+      "prompt_de": null,
+      "options": [
+        "Qorni",
+        "Boshi",
+        "Tishi"
+      ],
+      "pairs": null,
+      "correct_answer": "Qorni",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Mein Bauch tut weh\" — qornim og'riyapti.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Mein Bauch tut weh."
+    },
+    {
+      "id": "a1-m12-l1-t06",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "body",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Artiklni tanlang: ___ Zahn",
+      "prompt_de": "___ Zahn",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "der",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Zahn — erkak jinsi, ko'pligi die Zähne.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l1-t07",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Shifokor so'radi: \"Was ist los?\" (Nima bo'ldi?) Qaysi javob mos?",
+      "prompt_de": "Was ist los?",
+      "options": [
+        "Ich habe Kopfschmerzen.",
+        "Gute Besserung!",
+        "Ich bin Kopf."
+      ],
+      "pairs": null,
+      "correct_answer": "Ich habe Kopfschmerzen.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Was ist los?\" savoliga muammoingizni aytasiz.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

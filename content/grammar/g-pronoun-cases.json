@@ -1,0 +1,328 @@
+{
+  "id": "g-pronoun-cases",
+  "version": 1,
+  "level": "A2",
+  "order": 20,
+  "title": "Kishilik olmoshlarining kelishik shakllari",
+  "prerequisites": [
+    "g-pronouns",
+    "g-akkusativ",
+    "g-dativ"
+  ],
+  "next": [
+    "g-reflexive"
+  ],
+  "rule": "Kishilik olmoshlari kelishikka qarab o'zgaradi: ich → mich (Akkusativ) → mir (Dativ). Fe'l yoki predlog qaysi kelishikni talab qilsa, o'sha shakl ishlatiladi.",
+  "when": "\"Meni\", \"menga\", \"sen bilan\", \"u uchun\" kabi ifodalarda: Ich rufe dich an. Kannst du mir helfen?",
+  "structure": "Akkusativ fe'l/predlog + mich, dich, ihn ... | Dativ fe'l/predlog + mir, dir, ihm ...",
+  "explanation": [
+    {
+      "type": "table",
+      "headers": [
+        "Nominativ",
+        "Akkusativ (kimni?)",
+        "Dativ (kimga?)"
+      ],
+      "rows": [
+        [
+          "ich",
+          "mich",
+          "mir"
+        ],
+        [
+          "du",
+          "dich",
+          "dir"
+        ],
+        [
+          "er",
+          "ihn",
+          "ihm"
+        ],
+        [
+          "sie",
+          "sie",
+          "ihr"
+        ],
+        [
+          "es",
+          "es",
+          "ihm"
+        ],
+        [
+          "wir",
+          "uns",
+          "uns"
+        ],
+        [
+          "ihr",
+          "euch",
+          "euch"
+        ],
+        [
+          "sie",
+          "sie",
+          "ihnen"
+        ],
+        [
+          "Sie",
+          "Sie",
+          "Ihnen"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Akkusativ bilan",
+        "Dativ bilan"
+      ],
+      "rows": [
+        [
+          "sehen, kennen, lieben, besuchen, anrufen, fragen",
+          "helfen, danken, gefallen, gehören, schmecken, antworten"
+        ],
+        [
+          "für, ohne, gegen, durch, um",
+          "mit, bei, zu, von, nach, aus, seit"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Ikki olmosh bo'lsa, Akkusativ oldin: Ich gebe es dir. Ot va olmosh bo'lsa, olmosh oldin: Ich gebe dir das Buch."
+    }
+  ],
+  "examples": [
+    {
+      "de": "Ich rufe dich morgen an.",
+      "uz": "Ertaga senga qo'ng'iroq qilaman."
+    },
+    {
+      "de": "Kannst du mir helfen?",
+      "uz": "Menga yordam bera olasanmi?"
+    },
+    {
+      "de": "Ich sehe ihn jeden Tag.",
+      "uz": "Men uni har kuni ko'raman."
+    },
+    {
+      "de": "Wie geht es Ihnen?",
+      "uz": "Ahvolingiz qanday?"
+    },
+    {
+      "de": "Das Essen schmeckt uns.",
+      "uz": "Ovqat bizga yoqyapti."
+    },
+    {
+      "de": "Das Geschenk ist für sie.",
+      "uz": "Sovg'a u (ayol) uchun."
+    }
+  ],
+  "common_mistakes": [
+    {
+      "wrong": "Ich liebe dir.",
+      "right": "Ich liebe dich.",
+      "why": "lieben + Akkusativ."
+    },
+    {
+      "wrong": "Kannst du mich helfen?",
+      "right": "Kannst du mir helfen?",
+      "why": "helfen + Dativ."
+    },
+    {
+      "wrong": "Das gefällt ich.",
+      "right": "Das gefällt mir.",
+      "why": "gefallen + Dativ: Das gefällt mir — Bu menga yoqadi."
+    },
+    {
+      "wrong": "für ihm",
+      "right": "für ihn",
+      "why": "für — Akkusativ predlogi."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "g-pronoun-cases-e01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-pronoun-cases",
+      "difficulty": 1,
+      "question": "To'g'ri shaklni tanlang: \"Ich liebe ___.\"",
+      "prompt_de": "Ich liebe ___.",
+      "options": [
+        "dich",
+        "dir",
+        "du"
+      ],
+      "pairs": null,
+      "correct_answer": "dich",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "lieben + Akkusativ: dich.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-pronoun-cases-e02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "communication",
+      "grammar_topic": "g-pronoun-cases",
+      "difficulty": 1,
+      "question": "To'g'ri shaklni tanlang: \"Kannst du ___ helfen?\"",
+      "prompt_de": "Kannst du ___ helfen?",
+      "options": [
+        "mir",
+        "mich",
+        "ich"
+      ],
+      "pairs": null,
+      "correct_answer": "mir",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "helfen + Dativ: mir.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-pronoun-cases-e03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "greetings",
+      "grammar_topic": "g-pronoun-cases",
+      "difficulty": 1,
+      "question": "Hurmat shaklini yozing: \"Wie geht es ___?\"",
+      "prompt_de": "Wie geht es ___?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ihnen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Sie → Dativ: Ihnen. Wie geht es Ihnen?",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-pronoun-cases-e04",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "people",
+      "grammar_topic": "g-pronoun-cases",
+      "difficulty": 2,
+      "question": "Bo'sh joyni to'ldiring: \"Das ist Tom. Ich kenne ___ gut.\"",
+      "prompt_de": "Ich kenne ___ gut.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "ihn",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "kennen + Akkusativ; er → ihn.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-pronoun-cases-e05",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "clothes",
+      "grammar_topic": "g-pronoun-cases",
+      "difficulty": 2,
+      "question": "Bo'sh joyni to'ldiring (menga): \"Die Jacke gefällt ___ sehr.\"",
+      "prompt_de": "Die Jacke gefällt ___ sehr.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "mir",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "gefallen + Dativ: mir.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-pronoun-cases-e06",
+      "version": 1,
+      "type": "match",
+      "skill": "grammar",
+      "topic": "people",
+      "grammar_topic": "g-pronoun-cases",
+      "difficulty": 1,
+      "question": "Olmoshni Dativ shakli bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "ich",
+          "mir"
+        ],
+        [
+          "du",
+          "dir"
+        ],
+        [
+          "er",
+          "ihm"
+        ],
+        [
+          "wir",
+          "uns"
+        ]
+      ],
+      "correct_answer": {
+        "ich": "mir",
+        "du": "dir",
+        "er": "ihm",
+        "wir": "uns"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "ich → mir, du → dir, er → ihm, wir → uns.",
+      "error_type": "case",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "g-pronoun-cases-e07",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "invitations",
+      "grammar_topic": "g-pronoun-cases",
+      "difficulty": 1,
+      "question": "Xato so'zni toping: \"Ich komme mit dich.\"",
+      "prompt_de": "Ich komme mit dich.",
+      "options": [
+        "Ich",
+        "komme",
+        "mit",
+        "dich"
+      ],
+      "pairs": null,
+      "correct_answer": "dich",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "mit + Dativ: Ich komme mit dir.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

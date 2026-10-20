@@ -1,0 +1,879 @@
+{
+  "id": "a1-m09-l1",
+  "version": 1,
+  "level": "A1",
+  "module": 9,
+  "order": 1,
+  "title": "Mening uyim: xonalar",
+  "title_de": "Meine Wohnung",
+  "goal": "Dars oxirida uyingizdagi xonalarni artikli bilan nomlaysiz, ularni \"hell, dunkel, gemütlich\" kabi sifatlar bilan tasvirlaysiz va \"mein/unser/sein/ihr\" bilan kimning uyi ekanini aytasiz.",
+  "skill_focus": [
+    "vocabulary",
+    "grammar",
+    "speaking"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Germaniyada ko'pchilik kvartirada (Wohnung) yashaydi. E'lonlarda xonalar soni yoziladi: \"3-Zimmer-Wohnung\" — bunga yotoqxona va mehmonxona kiradi, oshxona va hammom esa kirmaydi."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Nemischa",
+        "O'zbekcha"
+      ],
+      "rows": [
+        [
+          "die Wohnung",
+          "kvartira"
+        ],
+        [
+          "das Zimmer",
+          "xona"
+        ],
+        [
+          "die Küche",
+          "oshxona"
+        ],
+        [
+          "das Bad",
+          "hammom, vannaxona"
+        ],
+        [
+          "das Schlafzimmer",
+          "yotoqxona"
+        ],
+        [
+          "das Wohnzimmer",
+          "mehmonxona (yashash xonasi)"
+        ],
+        [
+          "der Flur",
+          "dahliz, koridor"
+        ],
+        [
+          "der Balkon",
+          "balkon"
+        ],
+        [
+          "der Garten",
+          "bog', hovli"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Qo'shma so'zning artikli oxirgi qismidan olinadi: das Zimmer → das Schlafzimmer, das Wohnzimmer, das Kinderzimmer."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Kim?",
+        "der / das ot oldida",
+        "die / ko'plik oldida"
+      ],
+      "rows": [
+        [
+          "ich",
+          "mein Balkon",
+          "meine Wohnung"
+        ],
+        [
+          "du",
+          "dein Zimmer",
+          "deine Küche"
+        ],
+        [
+          "er",
+          "sein Zimmer",
+          "seine Wohnung"
+        ],
+        [
+          "sie (u, ayol)",
+          "ihr Zimmer",
+          "ihre Wohnung"
+        ],
+        [
+          "wir",
+          "unser Haus",
+          "unsere Wohnung"
+        ],
+        [
+          "ihr",
+          "euer Garten",
+          "eure Küche"
+        ],
+        [
+          "sie (ular) / Sie",
+          "ihr / Ihr Haus",
+          "ihre / Ihre Wohnung"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "\"ihr\" uch xil ma'noda keladi: ihr Haus — uning (ayolning) uyi yoki ularning uyi; Ihr Haus (katta harf bilan) — Sizning uyingiz."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-die-wohnung",
+      "de": "Wohnung",
+      "uz": "kvartira",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Wohnungen",
+      "forms": null,
+      "example_de": "Unsere Wohnung hat drei Zimmer.",
+      "example_uz": "Bizning kvartiramiz uch xonali.",
+      "topic": "home"
+    },
+    {
+      "id": "v-das-zimmer",
+      "de": "Zimmer",
+      "uz": "xona",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Zimmer",
+      "forms": null,
+      "example_de": "Mein Zimmer ist klein, aber hell.",
+      "example_uz": "Xonam kichik, lekin yorug'.",
+      "topic": "home"
+    },
+    {
+      "id": "v-die-küche",
+      "de": "Küche",
+      "uz": "oshxona",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Küchen",
+      "forms": null,
+      "example_de": "Die Küche ist neu.",
+      "example_uz": "Oshxona yangi.",
+      "topic": "home"
+    },
+    {
+      "id": "v-das-bad",
+      "de": "Bad",
+      "uz": "hammom, vannaxona",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Bäder",
+      "forms": null,
+      "example_de": "Das Bad ist klein.",
+      "example_uz": "Hammom kichkina.",
+      "topic": "home"
+    },
+    {
+      "id": "v-das-schlafzimmer",
+      "de": "Schlafzimmer",
+      "uz": "yotoqxona",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Schlafzimmer",
+      "forms": null,
+      "example_de": "Das Schlafzimmer ist dunkel.",
+      "example_uz": "Yotoqxona qorong'i.",
+      "topic": "home"
+    },
+    {
+      "id": "v-das-wohnzimmer",
+      "de": "Wohnzimmer",
+      "uz": "mehmonxona (yashash xonasi)",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Wohnzimmer",
+      "forms": null,
+      "example_de": "Das Wohnzimmer ist groß.",
+      "example_uz": "Mehmonxona katta.",
+      "topic": "home"
+    },
+    {
+      "id": "v-der-balkon",
+      "de": "Balkon",
+      "uz": "balkon",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Balkone",
+      "forms": null,
+      "example_de": "Die Wohnung hat einen Balkon.",
+      "example_uz": "Kvartiraning balkoni bor.",
+      "topic": "home"
+    },
+    {
+      "id": "v-der-garten",
+      "de": "Garten",
+      "uz": "bog', hovli",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Gärten",
+      "forms": null,
+      "example_de": "Die Kinder spielen im Garten.",
+      "example_uz": "Bolalar bog'da o'ynayapti.",
+      "topic": "home"
+    },
+    {
+      "id": "v-der-flur",
+      "de": "Flur",
+      "uz": "dahliz, koridor",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Flure",
+      "forms": null,
+      "example_de": "Die Schuhe stehen im Flur.",
+      "example_uz": "Poyabzallar dahlizda turibdi.",
+      "topic": "home"
+    },
+    {
+      "id": "v-die-miete",
+      "de": "Miete",
+      "uz": "ijara haqi",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Mieten",
+      "forms": null,
+      "example_de": "Die Miete ist 800 Euro im Monat.",
+      "example_uz": "Ijara haqi oyiga 800 evro.",
+      "topic": "home"
+    },
+    {
+      "id": "v-hell",
+      "de": "hell",
+      "uz": "yorug'",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Das Wohnzimmer ist sehr hell.",
+      "example_uz": "Mehmonxona juda yorug'.",
+      "topic": "home"
+    },
+    {
+      "id": "v-dunkel",
+      "de": "dunkel",
+      "uz": "qorong'i",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Der Flur ist dunkel.",
+      "example_uz": "Dahliz qorong'i.",
+      "topic": "home"
+    },
+    {
+      "id": "v-gemütlich",
+      "de": "gemütlich",
+      "uz": "shinam, qulay",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Unsere Küche ist klein, aber gemütlich.",
+      "example_uz": "Oshxonamiz kichik, lekin shinam.",
+      "topic": "home"
+    }
+  ],
+  "review_vocabulary": [
+    "v-teuer",
+    "v-günstig",
+    "v-kochen",
+    "v-das-geld",
+    "v-das-haus"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-possessive",
+      "rule": "Egalik so'zi otning jinsiga moslashadi: der/das oldida — mein, dein, sein, ihr, unser, euer, Ihr; die va ko'plik oldida -e qo'shiladi: meine, seine, unsere, eure.",
+      "when": "Kimning uyi, xonasi yoki narsasi ekanini aytganda.",
+      "structure": "mein/unser + der/das ot: unser Balkon, mein Zimmer\nmeine/unsere + die ot yoki ko'plik: unsere Wohnung, meine Zimmer",
+      "examples": [
+        {
+          "de": "Das ist unsere Wohnung.",
+          "uz": "Bu bizning kvartiramiz."
+        },
+        {
+          "de": "Sein Zimmer ist klein.",
+          "uz": "Uning (o'g'il bolaning) xonasi kichik."
+        },
+        {
+          "de": "Ist das Ihr Garten, Frau Weber?",
+          "uz": "Bu Sizning bog'ingizmi, Veber xonim?"
+        },
+        {
+          "de": "Eure Küche ist sehr gemütlich!",
+          "uz": "Sizlarning oshxonangiz juda shinam!"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Unser Wohnung ist groß.",
+          "right": "Unsere Wohnung ist groß.",
+          "why": "Wohnung — die, shuning uchun -e qo'shiladi: unsere."
+        },
+        {
+          "wrong": "Anna zeigt sein Zimmer.",
+          "right": "Anna zeigt ihr Zimmer.",
+          "why": "Anna — ayol, shuning uchun \"ihr\" (uning). \"sein\" — egasi erkak bo'lganda."
+        },
+        {
+          "wrong": "Euere Küche ist schön.",
+          "right": "Eure Küche ist schön.",
+          "why": "euer + -e → eure (o'rtadagi e tushib qoladi)."
+        }
+      ],
+      "check": [
+        "a1-m09-l1-e04",
+        "a1-m09-l1-e05",
+        "a1-m09-l1-e06",
+        "a1-m09-l1-e10"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Yangi kvartira",
+    "lines": [
+      {
+        "speaker": "Zarina",
+        "de": "Hallo Ali! Wie ist deine neue Wohnung?",
+        "uz": "Salom Ali! Yangi kvartirang qanday?"
+      },
+      {
+        "speaker": "Ali",
+        "de": "Sie ist super! Sie hat zwei Zimmer, eine Küche und ein Bad.",
+        "uz": "Zo'r! Ikki xona, oshxona va hammom bor."
+      },
+      {
+        "speaker": "Zarina",
+        "de": "Ist die Wohnung hell?",
+        "uz": "Kvartira yorug'mi?"
+      },
+      {
+        "speaker": "Ali",
+        "de": "Ja, das Wohnzimmer ist sehr hell. Aber das Schlafzimmer ist ein bisschen dunkel.",
+        "uz": "Ha, mehmonxona juda yorug'. Lekin yotoqxona biroz qorong'i."
+      },
+      {
+        "speaker": "Zarina",
+        "de": "Und hat die Wohnung einen Balkon?",
+        "uz": "Kvartiraning balkoni bormi?"
+      },
+      {
+        "speaker": "Ali",
+        "de": "Ja, und der Balkon ist groß!",
+        "uz": "Ha, balkoni ham katta!"
+      },
+      {
+        "speaker": "Zarina",
+        "de": "Und die Miete?",
+        "uz": "Ijara haqi-chi?"
+      },
+      {
+        "speaker": "Ali",
+        "de": "Die Miete ist 650 Euro. Das ist günstig für München.",
+        "uz": "Ijara 650 evro. Myunxen uchun bu arzon."
+      }
+    ],
+    "questions": [
+      "a1-m09-l1-e07",
+      "a1-m09-l1-e08"
+    ]
+  },
+  "situation": {
+    "title": "Uyimga xush kelibsiz",
+    "context_uz": "Nemis kursdoshingiz Julia birinchi marta uyingizga keldi. Siz unga kvartirani ko'rsatyapsiz.",
+    "lines": [
+      {
+        "speaker": "Julia",
+        "de": "Wow, deine Wohnung ist schön! Wie viele Zimmer hat sie?",
+        "uz": "Voy, kvartirang chiroyli ekan! Nechta xonasi bor?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Drei Zimmer. Das ist mein Zimmer, und das ist das Zimmer von Timur.",
+        "uz": "Uchta xona. Bu mening xonam, bu esa Timurning xonasi."
+      },
+      {
+        "speaker": "Julia",
+        "de": "Und die Küche?",
+        "uz": "Oshxona-chi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Hier. Unsere Küche ist klein, aber gemütlich.",
+        "uz": "Mana. Oshxonamiz kichik, lekin shinam."
+      },
+      {
+        "speaker": "Julia",
+        "de": "Habt ihr auch einen Balkon?",
+        "uz": "Balkoningiz ham bormi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Nein, wir haben keinen Balkon. Aber wir haben einen Garten!",
+        "uz": "Yo'q, balkonimiz yo'q. Lekin bog'imiz bor!"
+      }
+    ],
+    "task_uz": "Do'stingizga o'z uyingizni (yoki orzuingizdagi uyni) tasvirlab bering: nechta xona, qanday xonalar, ular qanday (hell, dunkel, groß, klein, gemütlich). Kamida 2 marta \"mein/meine\" yoki \"unser/unsere\" ishlating."
+  },
+  "exercises": [
+    {
+      "id": "a1-m09-l1-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Xonalarni juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "Küche",
+          "oshxona"
+        ],
+        [
+          "Bad",
+          "hammom"
+        ],
+        [
+          "Schlafzimmer",
+          "yotoqxona"
+        ],
+        [
+          "Wohnzimmer",
+          "mehmonxona"
+        ],
+        [
+          "Flur",
+          "dahliz"
+        ]
+      ],
+      "correct_answer": {
+        "Küche": "oshxona",
+        "Bad": "hammom",
+        "Schlafzimmer": "yotoqxona",
+        "Wohnzimmer": "mehmonxona",
+        "Flur": "dahliz"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Küche — oshxona, Bad — hammom, Schlafzimmer — yotoqxona, Wohnzimmer — mehmonxona, Flur — dahliz.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l1-e02",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Artiklni tanlang: ___ Schlafzimmer",
+      "prompt_de": "___ Schlafzimmer",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "das",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Oxirgi qismga qarang: Zimmer",
+      "explanation": "Qo'shma so'z artiklini oxirgi qismidan oladi: das Zimmer → das Schlafzimmer.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l1-e03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "\"hell\" so'zining qarama-qarshisi qaysi?",
+      "prompt_de": null,
+      "options": [
+        "dunkel",
+        "gemütlich",
+        "teuer"
+      ],
+      "pairs": null,
+      "correct_answer": "dunkel",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "hell — yorug', dunkel — qorong'i.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l1-e04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-possessive",
+      "difficulty": 1,
+      "question": "To'g'ri variantni tanlang (biz): Das ist ___ Wohnung.",
+      "prompt_de": "Das ist ___ Wohnung.",
+      "options": [
+        "unser",
+        "unsere",
+        "unseren"
+      ],
+      "pairs": null,
+      "correct_answer": "unsere",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Wohnung — die, shuning uchun unser + e = unsere.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l1-e05",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-possessive",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (uning — Tomning): Tom hat ein Zimmer. ___ Zimmer ist groß.",
+      "prompt_de": "___ Zimmer ist groß.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Sein",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "er → sein",
+      "explanation": "Tom — erkak, das Zimmer → sein Zimmer.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l1-e06",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-possessive",
+      "difficulty": 2,
+      "question": "Xato so'zni toping: \"Anna zeigt sein Zimmer.\" (zeigen — ko'rsatmoq)",
+      "prompt_de": "Anna zeigt sein Zimmer.",
+      "options": [
+        "Anna",
+        "zeigt",
+        "sein",
+        "Zimmer"
+      ],
+      "pairs": null,
+      "correct_answer": "sein",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: \"Anna zeigt ihr Zimmer.\" Anna — ayol, shuning uchun ihr.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l1-e07",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni tinglang. Qaysi xona biroz qorong'i?",
+      "prompt_de": null,
+      "options": [
+        "Yotoqxona",
+        "Mehmonxona",
+        "Oshxona"
+      ],
+      "pairs": null,
+      "correct_answer": "Yotoqxona",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Aber das Schlafzimmer ist ein bisschen dunkel.\" Mehmonxona esa juda yorug'.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Hallo Ali! Wie ist deine neue Wohnung? Sie ist super! Sie hat zwei Zimmer, eine Küche und ein Bad. Ist die Wohnung hell? Ja, das Wohnzimmer ist sehr hell. Aber das Schlafzimmer ist ein bisschen dunkel. Und hat die Wohnung einen Balkon? Ja, und der Balkon ist groß! Und die Miete? Die Miete ist 650 Euro. Das ist günstig für München."
+    },
+    {
+      "id": "a1-m09-l1-e08",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Dialogni tinglang. Ijara haqi qancha?",
+      "prompt_de": null,
+      "options": [
+        "650 €",
+        "560 €",
+        "615 €"
+      ],
+      "pairs": null,
+      "correct_answer": "650 €",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Die Miete ist 650 Euro.\" sechshundertfünfzig = 650.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Hallo Ali! Wie ist deine neue Wohnung? Sie ist super! Sie hat zwei Zimmer, eine Küche und ein Bad. Ist die Wohnung hell? Ja, das Wohnzimmer ist sehr hell. Aber das Schlafzimmer ist ein bisschen dunkel. Und hat die Wohnung einen Balkon? Ja, und der Balkon ist groß! Und die Miete? Die Miete ist 650 Euro. Das ist günstig für München."
+    },
+    {
+      "id": "a1-m09-l1-e09",
+      "version": 1,
+      "type": "plural",
+      "skill": "vocabulary",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Ko'plik shaklini yozing: das Haus → die ___",
+      "prompt_de": "das Haus",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Häuser",
+      "accepted_answers": [
+        "die Häuser"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "das Haus → die Häuser (a → ä, -er).",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l1-e10",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "home",
+      "grammar_topic": "g-possessive",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Bizning oshxonamiz kichik, lekin shinam.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Unsere Küche ist klein, aber gemütlich.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Küche → unsere Küche. \"lekin\" — aber.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l1-e11",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "E'lonni o'qing. Kvartirada nima yo'q?",
+      "prompt_de": "Schöne 2-Zimmer-Wohnung in Köln: 55 m², Küche, Bad, Balkon. Die Wohnung ist hell und ruhig. Miete: 720 Euro. Kein Garten.",
+      "options": [
+        "Bog'",
+        "Balkon",
+        "Hammom"
+      ],
+      "pairs": null,
+      "correct_answer": "Bog'",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Kein Garten\" — bog' yo'q. Oshxona, hammom va balkon bor.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a1-m09-l1-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Qaysi xonada uxlaysiz?",
+      "prompt_de": null,
+      "options": [
+        "das Schlafzimmer",
+        "die Küche",
+        "der Flur"
+      ],
+      "pairs": null,
+      "correct_answer": "das Schlafzimmer",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "schlafen — uxlamoq, das Schlafzimmer — yotoqxona.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l1-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-possessive",
+      "difficulty": 2,
+      "question": "Bo'sh joyni to'ldiring (ularning): Herr und Frau Weber haben ein Haus. ___ Haus ist alt.",
+      "prompt_de": "___ Haus ist alt.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ihr",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "sie (ular) → ihr; das Haus → ihr Haus. Gap boshida katta harf bilan.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l1-t03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-possessive",
+      "difficulty": 1,
+      "question": "To'g'ri variantni tanlang: ___ Balkon ist groß. (mening)",
+      "prompt_de": "___ Balkon ist groß.",
+      "options": [
+        "Mein",
+        "Meine"
+      ],
+      "pairs": null,
+      "correct_answer": "Mein",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Balkon → mein Balkon (der oldida -e yo'q).",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l1-t04",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Artiklni tanlang: ___ Miete",
+      "prompt_de": "___ Miete",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "die",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Miete — ayol jinsi.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l1-t05",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Mein Zimmer ist hell.\"",
+      "prompt_de": "Mein Zimmer ist hell.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Mening xonam yorug'.",
+      "accepted_answers": [
+        "Xonam yorug'",
+        "Mening xonam yorug'"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "hell — yorug'.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l1-t06",
+      "version": 1,
+      "type": "plural",
+      "skill": "vocabulary",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Ko'plik shaklini yozing: der Garten → die ___",
+      "prompt_de": "der Garten",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Gärten",
+      "accepted_answers": [
+        "die Gärten"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Garten → die Gärten (a → ä).",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l1-t07",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Kvartirada nechta xona bor?",
+      "prompt_de": null,
+      "options": [
+        "Uchta",
+        "Ikkita",
+        "To'rtta"
+      ],
+      "pairs": null,
+      "correct_answer": "Uchta",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"drei Zimmer\" — uchta xona.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Unsere Wohnung hat drei Zimmer und einen Balkon."
+    }
+  ]
+}

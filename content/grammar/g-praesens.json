@@ -1,0 +1,373 @@
+{
+  "id": "g-praesens",
+  "version": 1,
+  "level": "A1",
+  "order": 8,
+  "title": "Hozirgi zamon (Präsens)",
+  "prerequisites": [
+    "g-pronouns",
+    "g-sein-haben"
+  ],
+  "next": [
+    "g-verb-position",
+    "g-separable-verbs",
+    "g-modal-verbs",
+    "g-imperative",
+    "g-perfekt"
+  ],
+  "rule": "Fe'l o'zak + shaxs qo'shimchasidan iborat: wohn- + -e = wohne. Ba'zi muhim fe'llar du va er/sie/es shaklida o'zak unlisini o'zgartiradi (sprechen → spricht).",
+  "when": "Hozir bo'layotgan yoki doimiy ish-harakat haqida, shuningdek vaqt so'zi bilan kelajak haqida: Morgen fahre ich nach Buchara.",
+  "structure": "Ega + o'zak + qo'shimcha: ich wohne, du wohnst, er wohnt ...",
+  "explanation": [
+    {
+      "type": "table",
+      "headers": [
+        "Olmosh",
+        "Qo'shimcha",
+        "wohnen",
+        "arbeiten",
+        "sprechen"
+      ],
+      "rows": [
+        [
+          "ich",
+          "-e",
+          "wohne",
+          "arbeite",
+          "spreche"
+        ],
+        [
+          "du",
+          "-st",
+          "wohnst",
+          "arbeitest",
+          "sprichst"
+        ],
+        [
+          "er / sie / es",
+          "-t",
+          "wohnt",
+          "arbeitet",
+          "spricht"
+        ],
+        [
+          "wir",
+          "-en",
+          "wohnen",
+          "arbeiten",
+          "sprechen"
+        ],
+        [
+          "ihr",
+          "-t",
+          "wohnt",
+          "arbeitet",
+          "sprecht"
+        ],
+        [
+          "sie / Sie",
+          "-en",
+          "wohnen",
+          "arbeiten",
+          "sprechen"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "O'zak -t yoki -d bilan tugasa, talaffuz oson bo'lishi uchun -e- qo'shiladi: du arbeitest, er findet. O'zak -s, -ß, -z bilan tugasa, du shaklida faqat -t: du heißt, du tanzt."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Infinitiv",
+        "du",
+        "er / sie / es",
+        "O'zbekcha"
+      ],
+      "rows": [
+        [
+          "sprechen (e → i)",
+          "sprichst",
+          "spricht",
+          "gapirmoq"
+        ],
+        [
+          "essen (e → i)",
+          "isst",
+          "isst",
+          "yemoq"
+        ],
+        [
+          "helfen (e → i)",
+          "hilfst",
+          "hilft",
+          "yordam bermoq"
+        ],
+        [
+          "lesen (e → ie)",
+          "liest",
+          "liest",
+          "o'qimoq"
+        ],
+        [
+          "sehen (e → ie)",
+          "siehst",
+          "sieht",
+          "ko'rmoq"
+        ],
+        [
+          "fahren (a → ä)",
+          "fährst",
+          "fährt",
+          "(transportda) bormoq"
+        ],
+        [
+          "schlafen (a → ä)",
+          "schläfst",
+          "schläft",
+          "uxlamoq"
+        ],
+        [
+          "nehmen",
+          "nimmst",
+          "nimmt",
+          "olmoq"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Unli faqat du va er/sie/es da o'zgaradi. ich, wir, ihr, sie shakllari muntazam: ich spreche, ihr sprecht."
+    }
+  ],
+  "examples": [
+    {
+      "de": "Ich wohne in Taschkent.",
+      "uz": "Men Toshkentda yashayman."
+    },
+    {
+      "de": "Du lernst schnell Deutsch.",
+      "uz": "Sen nemis tilini tez o'rganyapsan."
+    },
+    {
+      "de": "Mein Bruder arbeitet in einer Bank.",
+      "uz": "Akam bankda ishlaydi."
+    },
+    {
+      "de": "Sprichst du Englisch?",
+      "uz": "Inglizcha gapirasanmi?"
+    },
+    {
+      "de": "Anna fährt mit dem Bus.",
+      "uz": "Anna avtobusda boradi."
+    },
+    {
+      "de": "Wir essen um sieben Uhr.",
+      "uz": "Biz soat yettida ovqatlanamiz."
+    }
+  ],
+  "common_mistakes": [
+    {
+      "wrong": "Er sprecht Deutsch.",
+      "right": "Er spricht Deutsch.",
+      "why": "sprechen — e → i: du sprichst, er spricht."
+    },
+    {
+      "wrong": "Du fahrst nach Hause.",
+      "right": "Du fährst nach Hause.",
+      "why": "fahren — a → ä: du fährst, er fährt."
+    },
+    {
+      "wrong": "Ich wohnen in Taschkent.",
+      "right": "Ich wohne in Taschkent.",
+      "why": "Infinitiv emas, ich-shakli kerak: -e."
+    },
+    {
+      "wrong": "Du arbeitst viel.",
+      "right": "Du arbeitest viel.",
+      "why": "-t bilan tugagan o'zakdan keyin -e- qo'shiladi."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "g-praesens-e01",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "language-learning",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "Fe'lni tuslang (lernen): \"Du ___ Deutsch.\"",
+      "prompt_de": "Du ___ Deutsch.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "lernst",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "du → -st: du lernst.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-praesens-e02",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "work",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "Fe'lni tuslang (arbeiten): \"Er ___ in Hamburg.\"",
+      "prompt_de": "Er ___ in Hamburg.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "arbeitet",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "-t bilan tugagan o'zak: arbeit + e + t = arbeitet.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-praesens-e03",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "leisure",
+      "grammar_topic": "g-praesens",
+      "difficulty": 2,
+      "question": "Fe'lni tuslang (lesen): \"Meine Mutter ___ gern Bücher.\"",
+      "prompt_de": "Meine Mutter ___ gern Bücher.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "liest",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "lesen — e → ie: sie liest.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-praesens-e04",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "transport",
+      "grammar_topic": "g-praesens",
+      "difficulty": 2,
+      "question": "Fe'lni tuslang (fahren): \"Du ___ mit dem Auto.\"",
+      "prompt_de": "Du ___ mit dem Auto.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "fährst",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "fahren — a → ä: du fährst.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-praesens-e05",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "countries-languages",
+      "grammar_topic": "g-praesens",
+      "difficulty": 2,
+      "question": "To'g'ri shaklni tanlang: \"Ihr ___ sehr gut Deutsch.\"",
+      "prompt_de": "Ihr ___ sehr gut Deutsch.",
+      "options": [
+        "sprecht",
+        "spricht",
+        "sprechen"
+      ],
+      "pairs": null,
+      "correct_answer": "sprecht",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "ihr shaklida unli o'zgarmaydi: ihr sprecht.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-praesens-e06",
+      "version": 1,
+      "type": "match",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "Olmoshni \"wohnen\" fe'lining shakli bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "ich",
+          "wohne"
+        ],
+        [
+          "du",
+          "wohnst"
+        ],
+        [
+          "er",
+          "wohnt"
+        ],
+        [
+          "wir",
+          "wohnen"
+        ]
+      ],
+      "correct_answer": {
+        "ich": "wohne",
+        "du": "wohnst",
+        "er": "wohnt",
+        "wir": "wohnen"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "ich wohne, du wohnst, er wohnt, wir wohnen.",
+      "error_type": "conjugation",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "g-praesens-e07",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-praesens",
+      "difficulty": 2,
+      "question": "Xato so'zni toping: \"Mein Vater essen gern Plov.\"",
+      "prompt_de": "Mein Vater essen gern Plov.",
+      "options": [
+        "Mein",
+        "Vater",
+        "essen",
+        "gern",
+        "Plov"
+      ],
+      "pairs": null,
+      "correct_answer": "essen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Mein Vater = er → isst: Mein Vater isst gern Plov.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

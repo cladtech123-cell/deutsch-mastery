@@ -1,0 +1,919 @@
+{
+  "id": "a1-m02-l2",
+  "version": 1,
+  "level": "A1",
+  "module": 2,
+  "order": 2,
+  "title": "Tillar va millat",
+  "title_de": "Sprachen und Nationalitäten",
+  "goal": "Dars oxirida qaysi tillarda gapirishingiz va millatingizni ayta olasiz, \"Sprechen Sie ...?\" kabi ha/yo'q savollarini tuza olasiz va ularga javob berasiz.",
+  "skill_focus": [
+    "grammar",
+    "speaking",
+    "listening"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Til nomlari nemis tilida ot, shuning uchun katta harf bilan yoziladi: Deutsch, Englisch, Usbekisch, Russisch. Til haqida gapirishda \"sprechen\" (gapirmoq) fe'li ishlatiladi; uning \"du\" va \"er/sie\" shakllarida unli o'zgaradi: e → i."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Olmosh",
+        "sprechen",
+        "lernen"
+      ],
+      "rows": [
+        [
+          "ich",
+          "spreche",
+          "lerne"
+        ],
+        [
+          "du",
+          "sprichst",
+          "lernst"
+        ],
+        [
+          "er / sie",
+          "spricht",
+          "lernt"
+        ],
+        [
+          "wir",
+          "sprechen",
+          "lernen"
+        ],
+        [
+          "ihr",
+          "sprecht",
+          "lernt"
+        ],
+        [
+          "sie / Sie",
+          "sprechen",
+          "lernen"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Mamlakat",
+        "Erkak",
+        "Ayol",
+        "Til"
+      ],
+      "rows": [
+        [
+          "Usbekistan",
+          "Usbeke",
+          "Usbekin",
+          "Usbekisch"
+        ],
+        [
+          "Deutschland",
+          "Deutscher",
+          "Deutsche",
+          "Deutsch"
+        ],
+        [
+          "Russland",
+          "Russe",
+          "Russin",
+          "Russisch"
+        ],
+        [
+          "die Türkei",
+          "Türke",
+          "Türkin",
+          "Türkisch"
+        ],
+        [
+          "England",
+          "Engländer",
+          "Engländerin",
+          "Englisch"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Ha/yo'q savolida fe'l birinchi o'ringa chiqadi: \"Sprichst du Deutsch?\" — \"Ja, ein bisschen.\" / \"Nein, ich spreche Englisch.\" O'zbek tilidagi \"-mi\" qo'shimchasi o'rniga nemis tilida so'z tartibi o'zgaradi."
+    },
+    {
+      "type": "tip",
+      "text": "Millatni aytganda artikl ishlatilmaydi: Ich bin Usbeke. Ayol: Ich bin Usbekin."
+    },
+    {
+      "type": "tip",
+      "text": "Tushunmasangiz: \"Ich verstehe nicht. Bitte langsam!\" — bu juda foydali ibora."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-die-sprache",
+      "de": "Sprache",
+      "uz": "til",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Sprachen",
+      "forms": null,
+      "example_de": "Ich spreche drei Sprachen.",
+      "example_uz": "Men uchta tilda gaplashaman.",
+      "topic": "countries-languages"
+    },
+    {
+      "id": "v-das-deutsch",
+      "de": "Deutsch",
+      "uz": "nemis tili",
+      "pos": "noun",
+      "article": "das",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Ich lerne Deutsch.",
+      "example_uz": "Men nemis tilini o'rganyapman.",
+      "topic": "countries-languages"
+    },
+    {
+      "id": "v-das-englisch",
+      "de": "Englisch",
+      "uz": "ingliz tili",
+      "pos": "noun",
+      "article": "das",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Sprechen Sie Englisch?",
+      "example_uz": "Siz inglizcha gapirasizmi?",
+      "topic": "countries-languages"
+    },
+    {
+      "id": "v-das-usbekisch",
+      "de": "Usbekisch",
+      "uz": "o'zbek tili",
+      "pos": "noun",
+      "article": "das",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Wir sprechen zu Hause Usbekisch.",
+      "example_uz": "Biz uyda o'zbekcha gaplashamiz.",
+      "topic": "countries-languages"
+    },
+    {
+      "id": "v-das-russisch",
+      "de": "Russisch",
+      "uz": "rus tili",
+      "pos": "noun",
+      "article": "das",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Er spricht auch Russisch.",
+      "example_uz": "U ruscha ham gapiradi.",
+      "topic": "countries-languages"
+    },
+    {
+      "id": "v-lernen",
+      "de": "lernen",
+      "uz": "o'rganmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "praesens_3sg": "lernt",
+        "partizip2": "gelernt",
+        "perfekt_aux": "haben"
+      },
+      "example_de": "Wir lernen Deutsch.",
+      "example_uz": "Biz nemis tilini o'rganyapmiz.",
+      "topic": "language-learning"
+    },
+    {
+      "id": "v-ein-bisschen",
+      "de": "ein bisschen",
+      "uz": "ozgina, biroz",
+      "pos": "phrase",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Ich spreche ein bisschen Deutsch.",
+      "example_uz": "Men ozgina nemischa gapiraman.",
+      "topic": "language-learning"
+    },
+    {
+      "id": "v-gut",
+      "de": "gut",
+      "uz": "yaxshi",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Sie spricht gut Englisch.",
+      "example_uz": "U inglizchani yaxshi gapiradi.",
+      "topic": "general"
+    },
+    {
+      "id": "v-auch",
+      "de": "auch",
+      "uz": "ham",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Ich lerne auch Deutsch.",
+      "example_uz": "Men ham nemis tilini o'rganyapman.",
+      "topic": "general"
+    },
+    {
+      "id": "v-verstehen",
+      "de": "verstehen",
+      "uz": "tushunmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "praesens_3sg": "versteht",
+        "partizip2": "verstanden",
+        "perfekt_aux": "haben"
+      },
+      "example_de": "Verstehen Sie Usbekisch?",
+      "example_uz": "Siz o'zbekchani tushunasizmi?",
+      "topic": "communication"
+    },
+    {
+      "id": "v-der-usbeke",
+      "de": "Usbeke",
+      "uz": "o'zbek (erkak)",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Usbeken",
+      "forms": null,
+      "example_de": "Jasur ist Usbeke.",
+      "example_uz": "Jasur o'zbek.",
+      "topic": "countries-languages"
+    },
+    {
+      "id": "v-die-usbekin",
+      "de": "Usbekin",
+      "uz": "o'zbek (ayol)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Usbekinnen",
+      "forms": null,
+      "example_de": "Malika ist Usbekin.",
+      "example_uz": "Malika o'zbek.",
+      "topic": "countries-languages"
+    },
+    {
+      "id": "v-sehr",
+      "de": "sehr",
+      "uz": "juda",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Sie spricht sehr gut Deutsch.",
+      "example_uz": "U nemischani juda yaxshi gapiradi.",
+      "topic": "general"
+    },
+    {
+      "id": "v-nicht",
+      "de": "nicht",
+      "uz": "emas; -ma (inkor)",
+      "pos": "particle",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Ich verstehe das nicht.",
+      "example_uz": "Men buni tushunmayapman.",
+      "topic": "communication"
+    }
+  ],
+  "review_vocabulary": [
+    "v-sprechen",
+    "v-ich",
+    "v-du",
+    "v-sie",
+    "v-er",
+    "v-wir",
+    "v-sein",
+    "v-kommen",
+    "v-aus",
+    "v-ja",
+    "v-nein",
+    "v-wie-bitte",
+    "v-langsam",
+    "v-bitte",
+    "v-hallo"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-questions",
+      "rule": "Ha/yo'q savolida fe'l birinchi o'rinda, ega ikkinchi o'rinda turadi. Javob \"Ja, ...\" yoki \"Nein, ...\" bilan boshlanadi.",
+      "when": "Biror narsani tasdiqlash yoki inkor qilishni so'raganda: tilni bilasizmi, o'zbekmisiz, nemis tilini o'rganyapsizmi.",
+      "structure": "Fe'l + ega + ...?  →  Ja, ... / Nein, ...",
+      "examples": [
+        {
+          "de": "Sprechen Sie Englisch? — Ja, ein bisschen.",
+          "uz": "Siz inglizcha gapirasizmi? — Ha, ozgina."
+        },
+        {
+          "de": "Bist du Usbekin? — Ja, ich komme aus Fergana.",
+          "uz": "Sen o'zbekmisan? — Ha, men Farg'onadanman."
+        },
+        {
+          "de": "Lernst du Deutsch? — Ja, ich lerne Deutsch.",
+          "uz": "Sen nemis tilini o'rganyapsanmi? — Ha, o'rganyapman."
+        },
+        {
+          "de": "Ist Herr Braun aus Wien? — Nein, er ist aus Graz.",
+          "uz": "Braun janoblari Venadanmi? — Yo'q, u Gratsdan."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Du sprichst Deutsch?",
+          "right": "Sprichst du Deutsch?",
+          "why": "Og'zaki nutqda intonatsiya bilan ham so'raladi, lekin standart savolda fe'l birinchi turadi."
+        },
+        {
+          "wrong": "Sprechen du Deutsch?",
+          "right": "Sprichst du Deutsch?",
+          "why": "Fe'l birinchi o'ringa o'tsa ham ega bilan moslashadi: du sprichst."
+        },
+        {
+          "wrong": "Ich bin ein Usbeke.",
+          "right": "Ich bin Usbeke.",
+          "why": "Millatni aytganda artikl ishlatilmaydi."
+        },
+        {
+          "wrong": "Ich spreche usbekisch.",
+          "right": "Ich spreche Usbekisch.",
+          "why": "Til nomi ot sifatida katta harf bilan yoziladi."
+        }
+      ],
+      "check": [
+        "a1-m02-l2-e03",
+        "a1-m02-l2-e04",
+        "a1-m02-l2-e09"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Kafeda tanishuv",
+    "lines": [
+      {
+        "speaker": "Tom",
+        "de": "Hallo! Ich bin Tom. Und du?",
+        "uz": "Salom! Men Tomman. Sen-chi?"
+      },
+      {
+        "speaker": "Dilnoza",
+        "de": "Ich heiße Dilnoza. Ich bin Usbekin.",
+        "uz": "Mening ismim Dilnoza. Men o'zbekman."
+      },
+      {
+        "speaker": "Tom",
+        "de": "Sprichst du Deutsch?",
+        "uz": "Nemischa gapirasanmi?"
+      },
+      {
+        "speaker": "Dilnoza",
+        "de": "Ja, ein bisschen. Ich lerne Deutsch.",
+        "uz": "Ha, ozgina. Nemis tilini o'rganyapman."
+      },
+      {
+        "speaker": "Tom",
+        "de": "Sprichst du auch Englisch?",
+        "uz": "Inglizcha ham gapirasanmi?"
+      },
+      {
+        "speaker": "Dilnoza",
+        "de": "Ja, sehr gut. Und Russisch auch.",
+        "uz": "Ha, juda yaxshi. Ruschani ham."
+      }
+    ],
+    "questions": [
+      "a1-m02-l2-e05",
+      "a1-m02-l2-e06"
+    ]
+  },
+  "situation": {
+    "title": "Ish suhbati",
+    "context_uz": "Siz kafega yarim kunlik ishga (Minijob) murojaat qildingiz. Rahbar tillar haqida so'rayapti.",
+    "lines": [
+      {
+        "speaker": "Chefin",
+        "de": "Sprechen Sie Deutsch?",
+        "uz": "Nemischa gapirasizmi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ja, ein bisschen. Ich lerne Deutsch.",
+        "uz": "Ha, ozgina. Nemis tilini o'rganyapman."
+      },
+      {
+        "speaker": "Chefin",
+        "de": "Verstehen Sie Englisch?",
+        "uz": "Inglizchani tushunasizmi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ja, ich spreche gut Englisch. Und ich spreche auch Usbekisch und Russisch.",
+        "uz": "Ha, inglizchani yaxshi gapiraman. O'zbekcha va ruscha ham gapiraman."
+      },
+      {
+        "speaker": "Chefin",
+        "de": "Sehr gut!",
+        "uz": "Juda yaxshi!"
+      }
+    ],
+    "task_uz": "Rahbarning savollariga o'zingiz haqingizda haqqoniy javob bering: qaysi tillarni qanchalik bilasiz (sehr gut / gut / ein bisschen). Keyin rahbarga bitta ha/yo'q savol bering."
+  },
+  "exercises": [
+    {
+      "id": "a1-m02-l2-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "countries-languages",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tilni o'zbekcha nomi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "Deutsch",
+          "nemis tili"
+        ],
+        [
+          "Englisch",
+          "ingliz tili"
+        ],
+        [
+          "Usbekisch",
+          "o'zbek tili"
+        ],
+        [
+          "Russisch",
+          "rus tili"
+        ]
+      ],
+      "correct_answer": {
+        "Deutsch": "nemis tili",
+        "Englisch": "ingliz tili",
+        "Usbekisch": "o'zbek tili",
+        "Russisch": "rus tili"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Til nomlari -isch bilan tugaydi (Deutsch bundan mustasno) va katta harf bilan yoziladi.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l2-e02",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "countries-languages",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "\"sprechen\" fe'lini tuslang: Du ___ sehr gut Deutsch.",
+      "prompt_de": "Du ___ sehr gut Deutsch.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "sprichst",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "du va er/sie shakllarida e → i.",
+      "explanation": "sprechen: ich spreche, du sprichst, er spricht. du shaklida e → i o'zgaradi.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l2-e03",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "countries-languages",
+      "grammar_topic": "g-questions",
+      "difficulty": 1,
+      "question": "So'zlarni tartiblab savol tuzing: \"Sen inglizcha gapirasanmi?\"",
+      "prompt_de": null,
+      "options": [
+        "Englisch",
+        "du",
+        "Sprichst"
+      ],
+      "pairs": null,
+      "correct_answer": "Sprichst du Englisch?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Ha/yo'q savolida fe'l birinchi.",
+      "explanation": "Sprichst (1) du (2) Englisch? — fe'l birinchi o'rinda.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l2-e04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "language-learning",
+      "grammar_topic": "g-questions",
+      "difficulty": 1,
+      "question": "Qaysi gap — ha/yo'q savoli?",
+      "prompt_de": null,
+      "options": [
+        "Sie verstehen Deutsch.",
+        "Verstehen Sie Deutsch?",
+        "Woher kommen Sie?"
+      ],
+      "pairs": null,
+      "correct_answer": "Verstehen Sie Deutsch?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ha/yo'q savoli fe'l bilan boshlanadi: Verstehen Sie Deutsch? \"Woher ...?\" — W-savol.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l2-e05",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "countries-languages",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Dilnoza qaysi tilni juda yaxshi gapiradi?",
+      "prompt_de": null,
+      "options": [
+        "Deutsch",
+        "Englisch",
+        "Usbekisch"
+      ],
+      "pairs": null,
+      "correct_answer": "Englisch",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Sprichst du auch Englisch? — Ja, sehr gut.\" — inglizchani juda yaxshi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Sprichst du auch Englisch? — Ja, sehr gut."
+    },
+    {
+      "id": "a1-m02-l2-e06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "language-learning",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Dilnoza nemis tilini qanchalik biladi?",
+      "prompt_de": null,
+      "options": [
+        "juda yaxshi",
+        "ozgina",
+        "umuman bilmaydi"
+      ],
+      "pairs": null,
+      "correct_answer": "ozgina",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"ein bisschen\" — ozgina.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Sprichst du Deutsch? — Ja, ein bisschen. Ich lerne Deutsch."
+    },
+    {
+      "id": "a1-m02-l2-e07",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "vocabulary",
+      "topic": "countries-languages",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: Malika kommt aus Taschkent. Sie ist ___.",
+      "prompt_de": "Malika kommt aus Taschkent. Sie ist ___.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Usbekin",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Malika — ayol.",
+      "explanation": "Ayol o'zbek — Usbekin, erkak — Usbeke. Artiklsiz: Sie ist Usbekin.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l2-e08",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "countries-languages",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni davom ettiring. — Sprechen Sie Usbekisch?",
+      "prompt_de": "Sprechen Sie Usbekisch?",
+      "options": [
+        "Ja, ich heiße Aziz.",
+        "Ja, sehr gut.",
+        "Nein, ich wohne in Berlin."
+      ],
+      "pairs": null,
+      "correct_answer": "Ja, sehr gut.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ha/yo'q savoliga mos javob: Ja, sehr gut. Boshqa javoblar savolga mos emas.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l2-e09",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "countries-languages",
+      "grammar_topic": "g-questions",
+      "difficulty": 1,
+      "question": "Gapdagi xato so'zni toping: \"Sprechen du Russisch?\"",
+      "prompt_de": "Sprechen du Russisch?",
+      "options": [
+        "Sprechen",
+        "du",
+        "Russisch"
+      ],
+      "pairs": null,
+      "correct_answer": "Sprechen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "du bilan: Sprichst du Russisch? Fe'l birinchi o'rinda bo'lsa ham egaga mos tuslanadi.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l2-e10",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "language-learning",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Men ozgina nemischa gapiraman.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich spreche ein bisschen Deutsch.",
+      "accepted_answers": [
+        "Ich spreche etwas Deutsch.",
+        "Ich spreche ein wenig Deutsch.",
+        "Ein bisschen Deutsch spreche ich."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ich spreche ein bisschen Deutsch. \"etwas\" yoki \"ein wenig\" ham to'g'ri.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l2-e11",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "communication",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemis sizga juda tez gapiryapti va siz tushunmayapsiz. Nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Ich spreche sehr gut Deutsch.",
+        "Ich verstehe nicht. Bitte langsam!",
+        "Ich bin Usbeke."
+      ],
+      "pairs": null,
+      "correct_answer": "Ich verstehe nicht. Bitte langsam!",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Tushunmaganda: Ich verstehe nicht. Bitte langsam! (Tushunmayapman. Iltimos, sekinroq!)",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l2-e12",
+      "version": 1,
+      "type": "short_text",
+      "skill": "writing",
+      "topic": "countries-languages",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Qaysi tillarda gapirasiz va qaysi tilni o'rganyapsiz? 2–3 gap yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 8,
+        "required_words": [
+          "spreche"
+        ],
+        "sample": "Ich spreche Usbekisch und Russisch. Ich lerne Deutsch. Ich spreche ein bisschen Englisch."
+      },
+      "hint": null,
+      "explanation": "Foydali tuzilmalar: Ich spreche ... / Ich lerne ... / Ich spreche gut / ein bisschen ...",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a1-m02-l2-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "countries-languages",
+      "grammar_topic": "g-questions",
+      "difficulty": 1,
+      "question": "___ Sie Englisch? — Ja, ein bisschen.",
+      "prompt_de": "___ Sie Englisch?",
+      "options": [
+        "Sprechen",
+        "Spricht",
+        "Sprichst"
+      ],
+      "pairs": null,
+      "correct_answer": "Sprechen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Sie bilan: Sprechen Sie ...?",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l2-t02",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "communication",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "\"verstehen\" fe'lini tuslang: ___ du Russisch?",
+      "prompt_de": "___ du Russisch?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Verstehst",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "du verstehst → savolda: Verstehst du Russisch?",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l2-t03",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "language-learning",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Ich lerne Deutsch.\"",
+      "prompt_de": "Ich lerne Deutsch.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Men nemis tilini o'rganyapman.",
+      "accepted_answers": [
+        "Men nemis tilini o'rganaman",
+        "Nemis tilini o'rganyapman",
+        "Nemis tilini o'rganaman",
+        "Men nemischa o'rganyapman"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Nemis tilida hozirgi zamon ham \"o'rganaman\", ham \"o'rganyapman\" ma'nosini beradi.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l2-t04",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "vocabulary",
+      "topic": "countries-languages",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: Jasur kommt aus Buchara. Er ist ___.",
+      "prompt_de": "Er ist ___.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Usbeke",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Erkak o'zbek — Usbeke (artiklsiz).",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l2-t05",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "countries-languages",
+      "grammar_topic": "g-questions",
+      "difficulty": 1,
+      "question": "So'zlarni tartiblab savol tuzing: \"Kox xonim Venadanmi?\"",
+      "prompt_de": null,
+      "options": [
+        "Wien",
+        "Frau",
+        "Koch",
+        "Ist",
+        "aus"
+      ],
+      "pairs": null,
+      "correct_answer": "Ist Frau Koch aus Wien?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ha/yo'q savoli: Ist (fe'l) + Frau Koch (ega) + aus Wien?",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m02-l2-t06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "countries-languages",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Bu odam nechta tilda gapiradi?",
+      "prompt_de": null,
+      "options": [
+        "ikkita",
+        "uchta",
+        "to'rtta"
+      ],
+      "pairs": null,
+      "correct_answer": "uchta",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Usbekisch, Russisch va Deutsch — uchta til.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Ich spreche Usbekisch, Russisch und ein bisschen Deutsch."
+    },
+    {
+      "id": "a1-m02-l2-t07",
+      "version": 1,
+      "type": "find_error",
+      "skill": "writing",
+      "topic": "countries-languages",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Gapdagi xato so'zni toping: \"Ich spreche usbekisch.\"",
+      "prompt_de": "Ich spreche usbekisch.",
+      "options": [
+        "Ich",
+        "spreche",
+        "usbekisch"
+      ],
+      "pairs": null,
+      "correct_answer": "usbekisch",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Til nomi — ot: Ich spreche Usbekisch (katta harf).",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

@@ -1,0 +1,696 @@
+{
+  "id": "mid-a1",
+  "version": 1,
+  "kind": "midterm",
+  "level": "A1",
+  "title": "A1 oraliq nazorat (1–6-modullar)",
+  "pass_percent": 60,
+  "sections": [
+    {
+      "skill": "reading",
+      "title": "Lesen — o'qish",
+      "exercises": [
+        {
+          "id": "mid-a1-01",
+          "version": 1,
+          "type": "reading",
+          "skill": "reading",
+          "topic": "contact",
+          "grammar_topic": null,
+          "difficulty": 1,
+          "question": "Xabarni o'qing. Olga hozir qayerda?",
+          "prompt_de": "Hallo Mira, ich bin jetzt in Hamburg! Meine Adresse ist Lindenstraße 12. Meine neue Telefonnummer ist 0176 4459832. Ab Montag arbeite ich in einem Hotel. Ruf mich am Abend an! Liebe Grüße, Olga",
+          "options": [
+            "In Hamburg",
+            "In München",
+            "In Köln"
+          ],
+          "pairs": null,
+          "correct_answer": "In Hamburg",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "Xabarda: \"ich bin jetzt in Hamburg!\"",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "mid-a1-02",
+          "version": 1,
+          "type": "reading",
+          "skill": "reading",
+          "topic": "work",
+          "grammar_topic": null,
+          "difficulty": 1,
+          "question": "Xabarni o'qing. Olga dushanbadan qayerda ishlaydi?",
+          "prompt_de": "Hallo Mira, ich bin jetzt in Hamburg! Meine Adresse ist Lindenstraße 12. Meine neue Telefonnummer ist 0176 4459832. Ab Montag arbeite ich in einem Hotel. Ruf mich am Abend an! Liebe Grüße, Olga",
+          "options": [
+            "In einem Hotel",
+            "In einer Schule",
+            "In einem Café"
+          ],
+          "pairs": null,
+          "correct_answer": "In einem Hotel",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "Xabarda: \"Ab Montag arbeite ich in einem Hotel.\"",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "mid-a1-03",
+          "version": 1,
+          "type": "reading",
+          "skill": "reading",
+          "topic": "phone",
+          "grammar_topic": null,
+          "difficulty": 2,
+          "question": "Xabarni o'qing. Mira qachon qo'ng'iroq qilishi kerak?",
+          "prompt_de": "Hallo Mira, ich bin jetzt in Hamburg! Meine Adresse ist Lindenstraße 12. Meine neue Telefonnummer ist 0176 4459832. Ab Montag arbeite ich in einem Hotel. Ruf mich am Abend an! Liebe Grüße, Olga",
+          "options": [
+            "Am Abend",
+            "Am Morgen",
+            "Am Montag"
+          ],
+          "pairs": null,
+          "correct_answer": "Am Abend",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "Xabarda: \"Ruf mich am Abend an!\" — kechqurun.",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "mid-a1-04",
+          "version": 1,
+          "type": "reading",
+          "skill": "reading",
+          "topic": "professions",
+          "grammar_topic": null,
+          "difficulty": 1,
+          "question": "Matnni o'qing. Nodira kim bo'lib ishlaydi?",
+          "prompt_de": "Das ist Familie Rahimov. Herr Rahimov ist Ingenieur. Seine Frau Nodira ist Lehrerin. Sie haben zwei Kinder: Timur ist acht und Sevara ist fünf Jahre alt. Die Familie wohnt in Köln. Am Sonntag frühstückt die Familie immer zusammen.",
+          "options": [
+            "Lehrerin",
+            "Ingenieurin",
+            "Ärztin"
+          ],
+          "pairs": null,
+          "correct_answer": "Lehrerin",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "Matnda: \"Seine Frau Nodira ist Lehrerin.\" Ingenieur — Herr Rahimov.",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "mid-a1-05",
+          "version": 1,
+          "type": "reading",
+          "skill": "reading",
+          "topic": "family",
+          "grammar_topic": null,
+          "difficulty": 2,
+          "question": "Matnni o'qing. Sevara necha yoshda?",
+          "prompt_de": "Das ist Familie Rahimov. Herr Rahimov ist Ingenieur. Seine Frau Nodira ist Lehrerin. Sie haben zwei Kinder: Timur ist acht und Sevara ist fünf Jahre alt. Die Familie wohnt in Köln. Am Sonntag frühstückt die Familie immer zusammen.",
+          "options": [
+            "5",
+            "8",
+            "2"
+          ],
+          "pairs": null,
+          "correct_answer": "5",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "Matnda: \"Sevara ist fünf Jahre alt.\" Sakkiz yoshda — Timur.",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": null
+        }
+      ]
+    },
+    {
+      "skill": "listening",
+      "title": "Hören — tinglash",
+      "exercises": [
+        {
+          "id": "mid-a1-06",
+          "version": 1,
+          "type": "listen_choice",
+          "skill": "listening",
+          "topic": "countries-languages",
+          "grammar_topic": null,
+          "difficulty": 1,
+          "question": "Tinglang. Ben qayerdan?",
+          "prompt_de": null,
+          "options": [
+            "Österreich",
+            "Deutschland",
+            "Schweiz"
+          ],
+          "pairs": null,
+          "correct_answer": "Österreich",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "\"Ich komme aus Österreich, aus Wien.\"",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": "Hallo, ich bin Ben. Ich komme aus Österreich, aus Wien."
+        },
+        {
+          "id": "mid-a1-07",
+          "version": 1,
+          "type": "listen_choice",
+          "skill": "listening",
+          "topic": "numbers",
+          "grammar_topic": null,
+          "difficulty": 2,
+          "question": "Tinglang. Qaysi raqamni eshitdingiz?",
+          "prompt_de": null,
+          "options": [
+            "0152 3789",
+            "0152 3798",
+            "0125 3789"
+          ],
+          "pairs": null,
+          "correct_answer": "0152 3789",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "null-eins-fünf-zwei = 0152, drei-sieben-acht-neun = 3789.",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": "Meine Telefonnummer ist null eins fünf zwei, drei sieben acht neun."
+        },
+        {
+          "id": "mid-a1-08",
+          "version": 1,
+          "type": "listen_choice",
+          "skill": "listening",
+          "topic": "time",
+          "grammar_topic": null,
+          "difficulty": 2,
+          "question": "Tinglang. Kurs qachon boshlanadi?",
+          "prompt_de": null,
+          "options": [
+            "Seshanba, 8:30",
+            "Seshanba, 9:30",
+            "Payshanba, 8:30"
+          ],
+          "pairs": null,
+          "correct_answer": "Seshanba, 8:30",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "\"am Dienstag um halb neun\" — seshanba, 8:30 (halb neun = to'qqizning yarmi = 8:30).",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": "Der Deutschkurs beginnt am Dienstag um halb neun."
+        },
+        {
+          "id": "mid-a1-09",
+          "version": 1,
+          "type": "listen_choice",
+          "skill": "listening",
+          "topic": "alphabet",
+          "grammar_topic": null,
+          "difficulty": 1,
+          "question": "Tinglang. Familiya qanday yoziladi?",
+          "prompt_de": null,
+          "options": [
+            "Karimov",
+            "Kamirov",
+            "Karimow"
+          ],
+          "pairs": null,
+          "correct_answer": "Karimov",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "Harflar: K-A-R-I-M-O-V.",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": "— Wie schreibt man Ihren Namen? — K-A-R-I-M-O-V."
+        },
+        {
+          "id": "mid-a1-10",
+          "version": 1,
+          "type": "listen_choice",
+          "skill": "listening",
+          "topic": "daily-routine",
+          "grammar_topic": null,
+          "difficulty": 1,
+          "question": "Tinglang. U soat nechada turadi?",
+          "prompt_de": null,
+          "options": [
+            "6:00",
+            "7:00",
+            "8:00"
+          ],
+          "pairs": null,
+          "correct_answer": "6:00",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "\"Ich stehe jeden Tag um sechs Uhr auf\" — 6 da turadi, 7 da nonushta qiladi.",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": "Ich stehe jeden Tag um sechs Uhr auf und frühstücke um sieben."
+        }
+      ]
+    },
+    {
+      "skill": "grammar",
+      "title": "Grammatik — grammatika",
+      "exercises": [
+        {
+          "id": "mid-a1-11",
+          "version": 1,
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "topic": "countries-languages",
+          "grammar_topic": "g-praesens",
+          "difficulty": 1,
+          "question": "Bo'sh joyni to'ldiring: \"Wir ___ aus Usbekistan.\"",
+          "prompt_de": "Wir ___ aus Usbekistan.",
+          "options": [
+            "kommen",
+            "kommt",
+            "kommst"
+          ],
+          "pairs": null,
+          "correct_answer": "kommen",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "wir → -en: wir kommen.",
+          "error_type": "conjugation",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "mid-a1-12",
+          "version": 1,
+          "type": "fill_blank",
+          "skill": "grammar",
+          "topic": "family",
+          "grammar_topic": "g-possessive",
+          "difficulty": 1,
+          "question": "Bo'sh joyni to'ldiring (mening): \"Das ist ___ Schwester.\"",
+          "prompt_de": "Das ist ___ Schwester.",
+          "options": null,
+          "pairs": null,
+          "correct_answer": "meine",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "die Schwester — ayol jinsi: meine.",
+          "error_type": "article",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "mid-a1-13",
+          "version": 1,
+          "type": "article",
+          "skill": "grammar",
+          "topic": "home",
+          "grammar_topic": "g-articles",
+          "difficulty": 1,
+          "question": "Artiklni tanlang: ___ Wohnung",
+          "prompt_de": "___ Wohnung",
+          "options": [
+            "der",
+            "die",
+            "das"
+          ],
+          "pairs": null,
+          "correct_answer": "die",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "-ung bilan tugagan otlar — die.",
+          "error_type": "article",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "mid-a1-14",
+          "version": 1,
+          "type": "order_words",
+          "skill": "grammar",
+          "topic": "time",
+          "grammar_topic": "g-verb-position",
+          "difficulty": 1,
+          "question": "So'zlardan gap tuzing: \"Kurs dushanba kuni boshlanadi.\"",
+          "prompt_de": null,
+          "options": [
+            "Kurs",
+            "der",
+            "beginnt",
+            "Montag",
+            "Am"
+          ],
+          "pairs": null,
+          "correct_answer": "Am Montag beginnt der Kurs.",
+          "accepted_answers": [
+            "Der Kurs beginnt am Montag."
+          ],
+          "criteria": null,
+          "hint": null,
+          "explanation": "Am Montag (1) + beginnt (2) + der Kurs.",
+          "error_type": "word_order",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "mid-a1-15",
+          "version": 1,
+          "type": "plural",
+          "skill": "grammar",
+          "topic": "education",
+          "grammar_topic": "g-plural",
+          "difficulty": 1,
+          "question": "Ko'plik shaklini yozing: das Buch",
+          "prompt_de": "das Buch",
+          "options": null,
+          "pairs": null,
+          "correct_answer": "die Bücher",
+          "accepted_answers": [
+            "Bücher"
+          ],
+          "criteria": null,
+          "hint": null,
+          "explanation": "das Buch – die Bücher.",
+          "error_type": "plural",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "mid-a1-16",
+          "version": 1,
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "topic": "transport",
+          "grammar_topic": "g-separable-verbs",
+          "difficulty": 2,
+          "question": "Bo'sh joyni to'ldiring: \"Der Zug kommt um 9 Uhr ___.\"",
+          "prompt_de": "Der Zug kommt um 9 Uhr ___.",
+          "options": [
+            "an",
+            "auf",
+            "ein"
+          ],
+          "pairs": null,
+          "correct_answer": "an",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "ankommen — yetib kelmoq: kommt ... an.",
+          "error_type": "vocabulary",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "mid-a1-17",
+          "version": 1,
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "topic": "time",
+          "grammar_topic": "g-time-prepositions",
+          "difficulty": 1,
+          "question": "Bo'sh joyni to'ldiring: \"___ Freitag habe ich frei.\"",
+          "prompt_de": "___ Freitag habe ich frei.",
+          "options": [
+            "Am",
+            "Um",
+            "Im"
+          ],
+          "pairs": null,
+          "correct_answer": "Am",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "Hafta kuni bilan am.",
+          "error_type": "preposition",
+          "points": 1,
+          "audio_text": null
+        }
+      ]
+    },
+    {
+      "skill": "vocabulary",
+      "title": "Wortschatz — lug'at",
+      "exercises": [
+        {
+          "id": "mid-a1-18",
+          "version": 1,
+          "type": "match",
+          "skill": "vocabulary",
+          "topic": "time",
+          "grammar_topic": null,
+          "difficulty": 1,
+          "question": "Hafta kunlarini juftlang.",
+          "prompt_de": null,
+          "options": null,
+          "pairs": [
+            [
+              "Montag",
+              "dushanba"
+            ],
+            [
+              "Mittwoch",
+              "chorshanba"
+            ],
+            [
+              "Samstag",
+              "shanba"
+            ],
+            [
+              "Sonntag",
+              "yakshanba"
+            ]
+          ],
+          "correct_answer": {
+            "Montag": "dushanba",
+            "Mittwoch": "chorshanba",
+            "Samstag": "shanba",
+            "Sonntag": "yakshanba"
+          },
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "Montag — dushanba, Mittwoch — chorshanba, Samstag — shanba, Sonntag — yakshanba.",
+          "error_type": "vocabulary",
+          "points": 2,
+          "audio_text": null
+        },
+        {
+          "id": "mid-a1-19",
+          "version": 1,
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "topic": "professions",
+          "grammar_topic": null,
+          "difficulty": 1,
+          "question": "\"der Arzt\" kim?",
+          "prompt_de": null,
+          "options": [
+            "shifokor",
+            "o'qituvchi",
+            "sotuvchi"
+          ],
+          "pairs": null,
+          "correct_answer": "shifokor",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "der Arzt / die Ärztin — shifokor.",
+          "error_type": "vocabulary",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "mid-a1-20",
+          "version": 1,
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "topic": "numbers",
+          "grammar_topic": null,
+          "difficulty": 2,
+          "question": "\"dreiundzwanzig\" qaysi son?",
+          "prompt_de": null,
+          "options": [
+            "23",
+            "32",
+            "33"
+          ],
+          "pairs": null,
+          "correct_answer": "23",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "Nemischada birlar oldin aytiladi: drei-und-zwanzig = 23.",
+          "error_type": "vocabulary",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "mid-a1-21",
+          "version": 1,
+          "type": "situation_choice",
+          "skill": "vocabulary",
+          "topic": "greetings",
+          "grammar_topic": null,
+          "difficulty": 1,
+          "question": "Soat 19:00. Do'konga kirdingiz. Nima deysiz?",
+          "prompt_de": null,
+          "options": [
+            "Guten Abend!",
+            "Guten Morgen!",
+            "Gute Nacht!"
+          ],
+          "pairs": null,
+          "correct_answer": "Guten Abend!",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "Kechqurun — Guten Abend.",
+          "error_type": "vocabulary",
+          "points": 1,
+          "audio_text": null
+        }
+      ]
+    },
+    {
+      "skill": "writing",
+      "title": "Schreiben — yozish",
+      "exercises": [
+        {
+          "id": "mid-a1-22",
+          "version": 1,
+          "type": "short_text",
+          "skill": "writing",
+          "topic": "personal-info",
+          "grammar_topic": null,
+          "difficulty": 1,
+          "question": "Til kursi uchun o'zingizni tanishtiring: ism, yosh, qayerdansiz, qayerda yashaysiz, kasbingiz. Kamida 25 so'z.",
+          "prompt_de": null,
+          "options": null,
+          "pairs": null,
+          "correct_answer": null,
+          "accepted_answers": [],
+          "criteria": {
+            "min_words": 25,
+            "required_words": [
+              "ich"
+            ],
+            "sample": "Hallo! Ich heiße Aziz Karimov. Ich bin 24 Jahre alt und komme aus Usbekistan, aus Samarkand. Jetzt wohne ich in Taschkent. Ich bin Ingenieur. Ich spreche Usbekisch, Russisch und ein bisschen Deutsch."
+          },
+          "hint": null,
+          "explanation": "Baholash: so'z soni, kerakli so'zlar va namunaga yaqinlik. Namuna javobni o'zingiznikiga solishtiring.",
+          "error_type": "other",
+          "points": 5,
+          "audio_text": null
+        },
+        {
+          "id": "mid-a1-23",
+          "version": 1,
+          "type": "short_text",
+          "skill": "writing",
+          "topic": "daily-routine",
+          "grammar_topic": null,
+          "difficulty": 2,
+          "question": "Do'stingizga qisqa xabar yozing: ertangi kun tartibingiz (soat nechada turasiz, ishlaysiz, uyga qaytasiz). Kamida 20 so'z.",
+          "prompt_de": null,
+          "options": null,
+          "pairs": null,
+          "correct_answer": null,
+          "accepted_answers": [],
+          "criteria": {
+            "min_words": 20,
+            "required_words": [
+              "um",
+              "Uhr"
+            ],
+            "sample": "Hallo Malika, morgen stehe ich um sechs Uhr auf. Um acht Uhr fange ich mit der Arbeit an. Um fünf Uhr gehe ich nach Hause. Am Abend habe ich Zeit. Bis morgen!"
+          },
+          "hint": null,
+          "explanation": "Baholash: so'z soni, kerakli so'zlar va namunaga yaqinlik. Namuna javobni o'zingiznikiga solishtiring.",
+          "error_type": "other",
+          "points": 5,
+          "audio_text": null
+        }
+      ]
+    },
+    {
+      "skill": "speaking",
+      "title": "Sprechen — gapirish",
+      "exercises": [
+        {
+          "id": "mid-a1-24",
+          "version": 1,
+          "type": "speak",
+          "skill": "speaking",
+          "topic": "family",
+          "grammar_topic": null,
+          "difficulty": 1,
+          "question": "Oilangiz haqida gapiring: kimlar bor, ismlari, yoshi, kasbi. Kamida 4 ta gap.",
+          "prompt_de": null,
+          "options": null,
+          "pairs": null,
+          "correct_answer": null,
+          "accepted_answers": [],
+          "criteria": {
+            "min_words": 20,
+            "required_words": [
+              "mein"
+            ],
+            "sample": "Meine Familie ist groß. Mein Vater heißt Rustam, er ist Fahrer. Meine Mutter heißt Gulnora, sie ist Lehrerin. Ich habe einen Bruder und zwei Schwestern."
+          },
+          "hint": null,
+          "explanation": "Gapirish o'z-o'zini baholash bilan tekshiriladi va umumiy foizga kirmaydi. Namuna bilan solishtiring.",
+          "error_type": "other",
+          "points": 2,
+          "audio_text": null
+        },
+        {
+          "id": "mid-a1-25",
+          "version": 1,
+          "type": "speak",
+          "skill": "speaking",
+          "topic": "contact",
+          "grammar_topic": null,
+          "difficulty": 1,
+          "question": "Savolga javob bering: \"Wie ist Ihre Telefonnummer?\" Raqamingizni nemischa ayting.",
+          "prompt_de": null,
+          "options": null,
+          "pairs": null,
+          "correct_answer": null,
+          "accepted_answers": [],
+          "criteria": {
+            "min_words": 6,
+            "required_words": [
+              "Telefonnummer"
+            ],
+            "sample": "Meine Telefonnummer ist null eins sieben sechs, zwei drei vier, fünf sechs sieben acht."
+          },
+          "hint": null,
+          "explanation": "Gapirish o'z-o'zini baholash bilan tekshiriladi va umumiy foizga kirmaydi. Namuna bilan solishtiring.",
+          "error_type": "other",
+          "points": 2,
+          "audio_text": null
+        }
+      ]
+    }
+  ]
+}

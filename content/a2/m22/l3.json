@@ -1,0 +1,838 @@
+{
+  "id": "a2-m22-l3",
+  "version": 1,
+  "level": "A2",
+  "module": 22,
+  "order": 3,
+  "title": "Media va yangiliklar",
+  "title_de": "Medien im Alltag",
+  "goal": "Dars oxirida yangiliklarni qayerdan bilishingiz, nimaga qiziqishingiz va qanday dam olishingiz haqida sich interessieren für, sich informieren über, sich unterhalten über bilan gapira olasiz va media haqidagi qisqa matn va intervyuni tushunasiz.",
+  "skill_focus": [
+    "reading",
+    "listening",
+    "speaking"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Zamonaviy media: gazeta, televizor, podkast, ijtimoiy tarmoqlar. Nemislar ko'pincha so'raydi: \"Wie informierst du dich?\" — yangiliklarni qayerdan bilasan?"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Fe'l + predlog",
+        "Ma'nosi",
+        "Misol"
+      ],
+      "rows": [
+        [
+          "sich interessieren für",
+          "...ga qiziqmoq",
+          "Ich interessiere mich für Sport."
+        ],
+        [
+          "sich informieren über",
+          "... haqida ma'lumot olmoq",
+          "Ich informiere mich online über das Wetter."
+        ],
+        [
+          "sich unterhalten über",
+          "... haqida suhbatlashmoq",
+          "Wir unterhalten uns über Filme."
+        ],
+        [
+          "sich entspannen",
+          "dam olmoq, bo'shashmoq",
+          "Ich entspanne mich mit Musik."
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Savol shakli: Wofür interessierst du dich? — Nimaga qiziqasan? / Worüber habt ihr euch unterhalten? — Nima haqida gaplashdinglar?"
+    },
+    {
+      "type": "tip",
+      "text": "Fikringizni oldingi modul bilan bog'lang: Ich finde, dass soziale Medien nützlich sind, weil man sich schnell informieren kann."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-die-zeitung",
+      "de": "Zeitung",
+      "uz": "gazeta",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Zeitungen",
+      "forms": null,
+      "example_de": "Mein Vater liest jeden Morgen die Zeitung.",
+      "example_uz": "Otam har ertalab gazeta o'qiydi.",
+      "topic": "media"
+    },
+    {
+      "id": "v-die-sendung",
+      "de": "Sendung",
+      "uz": "ko'rsatuv, eshittirish",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Sendungen",
+      "forms": null,
+      "example_de": "Die Sendung beginnt um 20 Uhr.",
+      "example_uz": "Ko'rsatuv soat 20 da boshlanadi.",
+      "topic": "media"
+    },
+    {
+      "id": "v-der-artikel",
+      "de": "Artikel",
+      "uz": "maqola",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Artikel",
+      "forms": null,
+      "example_de": "Ich habe einen interessanten Artikel gelesen.",
+      "example_uz": "Qiziqarli maqola o'qidim.",
+      "topic": "media"
+    },
+    {
+      "id": "v-der-podcast",
+      "de": "Podcast",
+      "uz": "podkast",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Podcasts",
+      "forms": null,
+      "example_de": "Ich höre beim Kochen einen Podcast.",
+      "example_uz": "Ovqat pishirayotib podkast tinglayman.",
+      "topic": "media"
+    },
+    {
+      "id": "v-die-werbung",
+      "de": "Werbung",
+      "uz": "reklama",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Werbungen",
+      "forms": null,
+      "example_de": "Im Fernsehen gibt es zu viel Werbung.",
+      "example_uz": "Televizorda reklama juda ko'p.",
+      "topic": "media"
+    },
+    {
+      "id": "v-der-kommentar",
+      "de": "Kommentar",
+      "uz": "izoh, sharh",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Kommentare",
+      "forms": null,
+      "example_de": "Unter dem Video gibt es viele Kommentare.",
+      "example_uz": "Video ostida ko'p izoh bor.",
+      "topic": "media"
+    },
+    {
+      "id": "v-soziale-medien",
+      "de": "soziale Medien",
+      "uz": "ijtimoiy tarmoqlar",
+      "pos": "phrase",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Viele junge Leute informieren sich über soziale Medien.",
+      "example_uz": "Ko'p yoshlar ijtimoiy tarmoqlardan ma'lumot oladi.",
+      "topic": "media"
+    },
+    {
+      "id": "v-sich-interessieren",
+      "de": "sich interessieren",
+      "uz": "qiziqmoq (für + Akkusativ)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "interessiert",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "interessiert sich"
+      },
+      "example_de": "Ich interessiere mich für Technik.",
+      "example_uz": "Men texnikaga qiziqaman.",
+      "topic": "media"
+    },
+    {
+      "id": "v-sich-informieren",
+      "de": "sich informieren",
+      "uz": "ma'lumot olmoq (über + Akkusativ)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "informiert",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "informiert sich"
+      },
+      "example_de": "Ich informiere mich im Internet.",
+      "example_uz": "Internetdan ma'lumot olaman.",
+      "topic": "media"
+    },
+    {
+      "id": "v-sich-unterhalten",
+      "de": "sich unterhalten",
+      "uz": "suhbatlashmoq (über + Akkusativ)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "unterhalten",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "unterhält sich",
+        "praeteritum": "unterhielt sich"
+      },
+      "example_de": "Wir haben uns lange unterhalten.",
+      "example_uz": "Uzoq suhbatlashdik.",
+      "topic": "communication"
+    },
+    {
+      "id": "v-sich-entspannen",
+      "de": "sich entspannen",
+      "uz": "dam olmoq, hordiq chiqarmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "entspannt",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "entspannt sich"
+      },
+      "example_de": "Am Wochenende entspanne ich mich.",
+      "example_uz": "Dam olish kunlari hordiq chiqaraman.",
+      "topic": "leisure"
+    },
+    {
+      "id": "v-teilen",
+      "de": "teilen",
+      "uz": "ulashmoq (post, surat)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "geteilt",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "teilt"
+      },
+      "example_de": "Sie hat das Video mit allen geteilt.",
+      "example_uz": "U videoni hamma bilan ulashdi.",
+      "topic": "media"
+    },
+    {
+      "id": "v-aktuell",
+      "de": "aktuell",
+      "uz": "dolzarb, eng yangi",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Hier finden Sie aktuelle Nachrichten.",
+      "example_uz": "Bu yerda eng so'nggi yangiliklarni topasiz.",
+      "topic": "media"
+    }
+  ],
+  "review_vocabulary": [
+    "v-deshalb",
+    "v-online"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-reflexive",
+      "rule": "Ko'p qaytishli fe'llar ma'lum predlog bilan keladi — ularni birga yodlang: sich interessieren für + Akk., sich informieren über + Akk., sich unterhalten über + Akk. Savolda: Wofür ...? / Worüber ...?",
+      "when": "Qiziqishlar, axborot olish va suhbat mavzusi haqida gapirganda.",
+      "structure": "Ega + fe'l + olmosh + predlog + Akkusativ.   Wofür interessierst du dich? — Für Politik.",
+      "examples": [
+        {
+          "de": "Ich interessiere mich für Technik.",
+          "uz": "Men texnikaga qiziqaman."
+        },
+        {
+          "de": "Wie informierst du dich über aktuelle Nachrichten?",
+          "uz": "So'nggi yangiliklar haqida qanday ma'lumot olasan?"
+        },
+        {
+          "de": "Wir haben uns lange über den Film unterhalten.",
+          "uz": "Film haqida uzoq suhbatlashdik."
+        },
+        {
+          "de": "Am Abend entspanne ich mich mit einem Podcast.",
+          "uz": "Kechqurun podkast tinglab dam olaman."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Ich interessiere mich an Fußball.",
+          "right": "Ich interessiere mich für Fußball.",
+          "why": "sich interessieren doim \"für\" bilan."
+        },
+        {
+          "wrong": "Ich interessiere für Musik.",
+          "right": "Ich interessiere mich für Musik.",
+          "why": "Qaytish olmoshi (mich) tushib qolmaydi."
+        },
+        {
+          "wrong": "Wir haben uns über den Film unterhaltet.",
+          "right": "Wir haben uns über den Film unterhalten.",
+          "why": "unterhalten ning Partizip II shakli infinitiv bilan bir xil: unterhalten."
+        }
+      ],
+      "check": [
+        "a2-m22-l3-e03",
+        "a2-m22-l3-e04",
+        "a2-m22-l3-e05",
+        "a2-m22-l3-e09"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Ko'chadagi so'rov: yangiliklarni qayerdan bilasiz?",
+    "lines": [
+      {
+        "speaker": "Reporterin",
+        "de": "Entschuldigung, wie informieren Sie sich über aktuelle Nachrichten?",
+        "uz": "Kechirasiz, so'nggi yangiliklarni qayerdan bilasiz?"
+      },
+      {
+        "speaker": "Herr Braun",
+        "de": "Ich lese jeden Morgen die Zeitung. Online lese ich nur selten.",
+        "uz": "Har ertalab gazeta o'qiyman. Internetda kamdan-kam o'qiyman."
+      },
+      {
+        "speaker": "Reporterin",
+        "de": "Und Sie?",
+        "uz": "Siz-chi?"
+      },
+      {
+        "speaker": "Mia",
+        "de": "Ich informiere mich nur über soziale Medien und Podcasts. Eine Zeitung habe ich nicht.",
+        "uz": "Men faqat ijtimoiy tarmoqlar va podkastlardan ma'lumot olaman. Gazetam yo'q."
+      },
+      {
+        "speaker": "Reporterin",
+        "de": "Ist das nicht manchmal gefährlich?",
+        "uz": "Bu ba'zan xavfli emasmi?"
+      },
+      {
+        "speaker": "Mia",
+        "de": "Doch, manchmal. Deshalb lese ich auch die Kommentare und vergleiche verschiedene Seiten.",
+        "uz": "Ha, ba'zan. Shuning uchun izohlarni ham o'qiyman va turli saytlarni solishtiraman."
+      },
+      {
+        "speaker": "Frau Yilmaz",
+        "de": "Ich sehe abends die Nachrichten im Fernsehen. Dabei entspanne ich mich.",
+        "uz": "Men kechqurun televizorda yangiliklarni ko'raman. Shu payt dam ham olaman."
+      }
+    ],
+    "questions": [
+      "a2-m22-l3-e06",
+      "a2-m22-l3-e07"
+    ]
+  },
+  "situation": {
+    "title": "Serial haqida suhbat",
+    "context_uz": "Kvartiradoshingiz Lukas bilan kecha ko'rgan serial va media odatlari haqida gaplashyapsiz.",
+    "lines": [
+      {
+        "speaker": "Lukas",
+        "de": "Hast du gestern die neue Serie gesehen?",
+        "uz": "Kecha yangi serialni ko'rdingmi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ja! Ich interessiere mich sehr für Krimis. Die erste Folge war super.",
+        "uz": "Ha! Men detektivlarga juda qiziqaman. Birinchi qismi zo'r edi."
+      },
+      {
+        "speaker": "Lukas",
+        "de": "Ich auch. Aber die Werbung nervt mich. Alle zehn Minuten!",
+        "uz": "Men ham. Lekin reklama jonga tegdi. Har o'n daqiqada!"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Stimmt. Deshalb sehe ich Serien lieber im Internet, ohne Werbung.",
+        "uz": "To'g'ri. Shuning uchun seriallarni internetda reklamasiz ko'rishni afzal ko'raman."
+      },
+      {
+        "speaker": "Lukas",
+        "de": "Wollen wir heute Abend die zweite Folge zusammen sehen?",
+        "uz": "Bugun kechqurun ikkinchi qismini birga ko'ramizmi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Gern! Ich freue mich darauf.",
+        "uz": "Bajonidil! Intiqlik bilan kutaman."
+      }
+    ],
+    "task_uz": "Do'stingiz bilan media odatlaringiz haqida gaplashing: nimaga qiziqasiz (sich interessieren für), yangiliklarni qayerdan bilasiz (sich informieren), qanday dam olasiz (sich entspannen). Fikringizni dass yoki weil bilan asoslang."
+  },
+  "exercises": [
+    {
+      "id": "a2-m22-l3-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "media",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemischa so'zni o'zbekcha ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "die Zeitung",
+          "gazeta"
+        ],
+        [
+          "die Sendung",
+          "ko'rsatuv"
+        ],
+        [
+          "die Werbung",
+          "reklama"
+        ],
+        [
+          "der Artikel",
+          "maqola"
+        ],
+        [
+          "der Kommentar",
+          "izoh"
+        ]
+      ],
+      "correct_answer": {
+        "die Zeitung": "gazeta",
+        "die Sendung": "ko'rsatuv",
+        "die Werbung": "reklama",
+        "der Artikel": "maqola",
+        "der Kommentar": "izoh"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Zeitung — gazeta, Sendung — ko'rsatuv, Werbung — reklama, Artikel — maqola, Kommentar — izoh.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m22-l3-e02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "media",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Mos fe'lni tanlang: \"Ich ___ das Foto mit meinen Freunden.\" (ijtimoiy tarmoqda)",
+      "prompt_de": "Ich ___ das Foto mit meinen Freunden.",
+      "options": [
+        "teile",
+        "lösche",
+        "speichere"
+      ],
+      "pairs": null,
+      "correct_answer": "teile",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "teilen — ulashmoq. löschen — o'chirmoq, speichern — saqlamoq: ular \"mit meinen Freunden\" bilan mos emas.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m22-l3-e03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "media",
+      "grammar_topic": "g-reflexive",
+      "difficulty": 1,
+      "question": "Predlogni yozing: \"Ich interessiere mich ___ Politik.\"",
+      "prompt_de": "Ich interessiere mich ___ Politik.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "für",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "sich interessieren für + Akkusativ.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m22-l3-e04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "communication",
+      "grammar_topic": "g-reflexive",
+      "difficulty": 1,
+      "question": "To'g'ri olmoshni tanlang: \"Worüber habt ihr ___ unterhalten?\"",
+      "prompt_de": null,
+      "options": [
+        "euch",
+        "sich",
+        "uns"
+      ],
+      "pairs": null,
+      "correct_answer": "euch",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "ihr bilan qaytish olmoshi — euch.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m22-l3-e05",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "weather",
+      "grammar_topic": "g-reflexive",
+      "difficulty": 1,
+      "question": "Fe'lni tuslang (sich informieren): Wie ___ du dich über das Wetter?",
+      "prompt_de": "Wie ___ du dich über das Wetter?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "informierst",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "du bilan -st: du informierst dich.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m22-l3-e06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "media",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Herr Braun yangiliklarni qayerdan biladi?",
+      "prompt_de": null,
+      "options": [
+        "Har ertalab gazetadan",
+        "Ijtimoiy tarmoqlardan",
+        "Televizordan"
+      ],
+      "pairs": null,
+      "correct_answer": "Har ertalab gazetadan",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Ich lese jeden Morgen die Zeitung.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Ich lese jeden Morgen die Zeitung. Online lese ich nur selten."
+    },
+    {
+      "id": "a2-m22-l3-e07",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "media",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang. Mia noto'g'ri ma'lumotdan qanday saqlanadi?",
+      "prompt_de": null,
+      "options": [
+        "Izohlarni o'qiydi va turli saytlarni solishtiradi",
+        "Faqat gazeta o'qiydi",
+        "Internetdan foydalanmaydi"
+      ],
+      "pairs": null,
+      "correct_answer": "Izohlarni o'qiydi va turli saytlarni solishtiradi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Deshalb lese ich auch die Kommentare und vergleiche verschiedene Seiten.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Ist das nicht manchmal gefährlich? — Doch, manchmal. Deshalb lese ich auch die Kommentare und vergleiche verschiedene Seiten."
+    },
+    {
+      "id": "a2-m22-l3-e08",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "technology",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Blogni o'qing. Muallif kechqurun nima qildi?",
+      "prompt_de": "Mein Tag ohne Handy: Am Morgen war es schwer. Ich wollte die Nachrichten lesen und meinen Freunden schreiben. Am Nachmittag habe ich mich aber entspannt: Ich habe ein Buch gelesen und bin spazieren gegangen. Am Abend habe ich mich mit meiner Nachbarin unterhalten. Mein Fazit: Ein Tag ohne Handy ist gut für den Kopf!",
+      "options": [
+        "Qo'shnisi bilan suhbatlashdi",
+        "Yangiliklarni o'qidi",
+        "Kitob o'qidi"
+      ],
+      "pairs": null,
+      "correct_answer": "Qo'shnisi bilan suhbatlashdi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Am Abend habe ich mich mit meiner Nachbarin unterhalten.\" Kitobni esa tushdan keyin o'qigan.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m22-l3-e09",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "sports",
+      "grammar_topic": "g-reflexive",
+      "difficulty": 1,
+      "question": "Xato so'zni toping: \"Ich interessiere mich an Fußball.\"",
+      "prompt_de": "Ich interessiere mich an Fußball.",
+      "options": [
+        "interessiere",
+        "mich",
+        "an",
+        "Fußball"
+      ],
+      "pairs": null,
+      "correct_answer": "an",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: \"Ich interessiere mich für Fußball.\"",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m22-l3-e10",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "leisure",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Am Abend entspanne ich mich mit einem Podcast.\"",
+      "prompt_de": "Am Abend entspanne ich mich mit einem Podcast.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Kechqurun podkast tinglab dam olaman.",
+      "accepted_answers": [
+        "Kechqurun podkast bilan dam olaman.",
+        "Kechqurunlari podkast tinglab dam olaman.",
+        "Kechqurun podkast tinglab hordiq chiqaraman.",
+        "Kechqurun men podkast tinglab dam olaman."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "sich entspannen — dam olmoq; mit einem Podcast — podkast bilan (tinglab).",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m22-l3-e11",
+      "version": 1,
+      "type": "short_text",
+      "skill": "writing",
+      "topic": "media",
+      "grammar_topic": null,
+      "difficulty": 3,
+      "question": "Ijtimoiy tarmoqlar haqida nima deb o'ylaysiz? 4–5 gap yozing: yaxshi va yomon tomoni, dass/weil va kamida bitta qaytishli fe'l bilan.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 30,
+        "required_words": [
+          "dass"
+        ],
+        "sample": "Ich finde, dass soziale Medien praktisch sind, weil man sich schnell informieren kann. Ich interessiere mich für Sport und Technik. Aber es gibt auch viel Werbung. Ich glaube, dass man nicht alles glauben darf. Deshalb vergleiche ich oft verschiedene Seiten."
+      },
+      "hint": null,
+      "explanation": "Yaxshi javobda fikr (dass), sabab (weil) va qaytishli fe'l (sich informieren/interessieren) bor.",
+      "error_type": "vocabulary",
+      "points": 3,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a2-m22-l3-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "media",
+      "grammar_topic": "g-reflexive",
+      "difficulty": 1,
+      "question": "To'g'ri olmoshni tanlang: \"Wir unterhalten ___ über den neuen Film.\"",
+      "prompt_de": null,
+      "options": [
+        "uns",
+        "sich",
+        "euch"
+      ],
+      "pairs": null,
+      "correct_answer": "uns",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "wir bilan — uns.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m22-l3-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "technology",
+      "grammar_topic": "g-reflexive",
+      "difficulty": 1,
+      "question": "Predlogni yozing: \"Interessierst du dich ___ Technik?\"",
+      "prompt_de": "Interessierst du dich ___ Technik?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "für",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "sich interessieren für.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m22-l3-t03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "media",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Mos so'zni tanlang: \"In der Sendung gibt es so viel ___! Alle zehn Minuten!\"",
+      "prompt_de": null,
+      "options": [
+        "Werbung",
+        "Zeitung",
+        "Kommentar"
+      ],
+      "pairs": null,
+      "correct_answer": "Werbung",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Har o'n daqiqada keladigan narsa — reklama (Werbung).",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m22-l3-t04",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "media",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Frau Yilmaz kechqurun nima qiladi?",
+      "prompt_de": null,
+      "options": [
+        "Televizorda yangiliklar ko'rib dam oladi",
+        "Gazeta o'qiydi",
+        "Podkast tinglaydi"
+      ],
+      "pairs": null,
+      "correct_answer": "Televizorda yangiliklar ko'rib dam oladi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Ich sehe abends die Nachrichten im Fernsehen. Dabei entspanne ich mich.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Ich sehe abends die Nachrichten im Fernsehen. Dabei entspanne ich mich."
+    },
+    {
+      "id": "a2-m22-l3-t05",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "media",
+      "grammar_topic": "g-reflexive",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Men musiqaga qiziqaman.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich interessiere mich für Musik.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "sich interessieren für + Akkusativ; ich bilan — mich.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m22-l3-t06",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "media",
+      "grammar_topic": "g-reflexive",
+      "difficulty": 1,
+      "question": "Savol tuzing: \"Sen nimaga qiziqasan?\"",
+      "prompt_de": null,
+      "options": [
+        "Wofür",
+        "interessierst",
+        "dich",
+        "du"
+      ],
+      "pairs": null,
+      "correct_answer": "Wofür interessierst du dich?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Savol so'zi (wofür) birinchi, fe'l ikkinchi, keyin ega va olmosh.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m22-l3-t07",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "invitations",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Do'stingiz kechqurun birga serial ko'rishni taklif qildi. Xursandligingizni bildiring.",
+      "prompt_de": null,
+      "options": [
+        "Gern! Ich freue mich darauf.",
+        "Gern! Ich freue darauf.",
+        "Gern! Ich freue mich auf."
+      ],
+      "pairs": null,
+      "correct_answer": "Gern! Ich freue mich darauf.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "sich freuen auf + ... → \"darauf\" (bunga). Olmosh (mich) va \"darauf\" ikkalasi kerak.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

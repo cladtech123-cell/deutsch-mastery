@@ -1,0 +1,814 @@
+{
+  "id": "a2-m15-l1",
+  "version": 1,
+  "level": "A2",
+  "module": 15,
+  "order": 1,
+  "title": "Kasbim va vazifalarim",
+  "title_de": "Mein Beruf und meine Aufgaben",
+  "goal": "Dars oxirida kasbingizni va ish kuningizdagi 3–4 vazifani aytib bera olasiz, gapni vaqt yoki joy bilan boshlaganda fe'lni 2-o'rinda saqlaysiz (Im Büro beantworte ich E-Mails).",
+  "skill_focus": [
+    "speaking",
+    "vocabulary",
+    "grammar"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "A1 da \"Ich bin Lehrer\" deb kasbingizni aytishni o'rgandingiz. Endi esa ish kuningizni batafsil tasvirlaymiz: qayerda ishlaysiz, nima qilasiz, kim bilan ishlaysiz, to'liq yoki yarim stavkadami."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Savol",
+        "Javob namunasi"
+      ],
+      "rows": [
+        [
+          "Was machen Sie beruflich?",
+          "Ich bin Krankenpfleger. / Ich arbeite als Verkäuferin."
+        ],
+        [
+          "Wo arbeiten Sie?",
+          "Ich arbeite bei einer Baufirma / im Krankenhaus."
+        ],
+        [
+          "Was sind Ihre Aufgaben?",
+          "Ich berate Kunden und beantworte E-Mails."
+        ],
+        [
+          "Arbeiten Sie Vollzeit?",
+          "Nein, ich arbeite in Teilzeit, 25 Stunden pro Woche."
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Kasb aytganda artikl ishlatilmaydi: \"Ich bin Ingenieur\", \"Ich arbeite als Köchin\". \"Ich bin ein Ingenieur\" deyish odatiy emas. Ayol kishi uchun kasb nomiga \"-in\" qo'shiladi: Lehrer → Lehrerin."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-der-chef",
+      "de": "Chef",
+      "uz": "boshliq, rahbar",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Chefs",
+      "forms": null,
+      "example_de": "Mein Chef ist sehr freundlich.",
+      "example_uz": "Boshlig'im juda xushmuomala.",
+      "topic": "work"
+    },
+    {
+      "id": "v-die-aufgabe",
+      "de": "Aufgabe",
+      "uz": "vazifa",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Aufgaben",
+      "forms": null,
+      "example_de": "Meine Aufgabe ist die Kundenberatung.",
+      "example_uz": "Mening vazifam — mijozlarga maslahat berish.",
+      "topic": "work"
+    },
+    {
+      "id": "v-die-besprechung",
+      "de": "Besprechung",
+      "uz": "yig'ilish, majlis (ishda)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Besprechungen",
+      "forms": null,
+      "example_de": "Am Montag haben wir immer eine Besprechung.",
+      "example_uz": "Dushanba kuni har doim yig'ilishimiz bo'ladi.",
+      "topic": "work"
+    },
+    {
+      "id": "v-beantworten",
+      "de": "beantworten",
+      "uz": "javob bermoq (xat, savolga)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "beantwortet",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "beantwortet"
+      },
+      "example_de": "Im Büro beantworte ich E-Mails.",
+      "example_uz": "Ofisda elektron xatlarga javob beraman.",
+      "topic": "work"
+    },
+    {
+      "id": "v-verdienen",
+      "de": "verdienen",
+      "uz": "maosh olmoq, pul ishlab topmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "verdient",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "verdient"
+      },
+      "example_de": "Als Azubi verdient man nicht viel.",
+      "example_uz": "Shogird sifatida ko'p pul topilmaydi.",
+      "topic": "work"
+    },
+    {
+      "id": "v-die-schicht",
+      "de": "Schicht",
+      "uz": "smena",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Schichten",
+      "forms": null,
+      "example_de": "Diese Woche habe ich Nachtschicht.",
+      "example_uz": "Bu hafta tungi smenadaman.",
+      "topic": "work"
+    },
+    {
+      "id": "v-die-teilzeit",
+      "de": "Teilzeit",
+      "uz": "yarim stavka, to'liq bo'lmagan ish vaqti",
+      "pos": "noun",
+      "article": "die",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Ich arbeite in Teilzeit, 20 Stunden pro Woche.",
+      "example_uz": "Yarim stavkada ishlayman, haftasiga 20 soat.",
+      "topic": "work"
+    },
+    {
+      "id": "v-die-vollzeit",
+      "de": "Vollzeit",
+      "uz": "to'liq stavka",
+      "pos": "noun",
+      "article": "die",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Mein Mann arbeitet in Vollzeit.",
+      "example_uz": "Erim to'liq stavkada ishlaydi.",
+      "topic": "work"
+    },
+    {
+      "id": "v-die-abteilung",
+      "de": "Abteilung",
+      "uz": "bo'lim (korxonada)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Abteilungen",
+      "forms": null,
+      "example_de": "Ich arbeite in der Abteilung Verkauf.",
+      "example_uz": "Savdo bo'limida ishlayman.",
+      "topic": "work"
+    },
+    {
+      "id": "v-das-gehalt",
+      "de": "Gehalt",
+      "uz": "maosh, oylik",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Gehälter",
+      "forms": null,
+      "example_de": "Das Gehalt kommt am Monatsende.",
+      "example_uz": "Maosh oy oxirida keladi.",
+      "topic": "work"
+    },
+    {
+      "id": "v-die-überstunde",
+      "de": "Überstunde",
+      "uz": "qo'shimcha ish soati",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Überstunden",
+      "forms": null,
+      "example_de": "Diese Woche habe ich fünf Überstunden gemacht.",
+      "example_uz": "Bu hafta besh soat qo'shimcha ishladim.",
+      "topic": "work"
+    },
+    {
+      "id": "v-der-feierabend",
+      "de": "Feierabend",
+      "uz": "ish kunining tugashi",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Feierabende",
+      "forms": null,
+      "example_de": "Um 17 Uhr habe ich Feierabend.",
+      "example_uz": "Soat 17 da ishim tugaydi.",
+      "topic": "work"
+    }
+  ],
+  "review_vocabulary": [
+    "v-der-kollege",
+    "v-die-kollegin",
+    "v-die-firma",
+    "v-der-kunde",
+    "v-telefonieren",
+    "v-reparieren",
+    "v-zuerst",
+    "v-danach"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-verb-position",
+      "rule": "Darak gapda tuslangan fe'l doim 2-o'rinda. 1-o'rinda subyekt emas, vaqt yoki joy (Montags, Im Büro, Dann) tursa, subyekt fe'ldan KEYIN keladi (inversiya).",
+      "when": "Ish kuningizni tasvirlaganda: qachon va qayerda nima qilishingizni aytganda.",
+      "structure": "Vaqt/joy (1) + fe'l (2) + subyekt (3) + boshqa qismlar.  Masalan: Montags habe ich eine Besprechung.",
+      "examples": [
+        {
+          "de": "Im Büro beantworte ich E-Mails.",
+          "uz": "Ofisda elektron xatlarga javob beraman."
+        },
+        {
+          "de": "Montags haben wir eine Besprechung.",
+          "uz": "Dushanbalari yig'ilishimiz bo'ladi."
+        },
+        {
+          "de": "Dann berate ich Kunden.",
+          "uz": "Keyin mijozlarga maslahat beraman."
+        },
+        {
+          "de": "In meiner Firma arbeiten 40 Leute.",
+          "uz": "Firmamda 40 kishi ishlaydi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Montags ich habe eine Besprechung.",
+          "right": "Montags habe ich eine Besprechung.",
+          "why": "1-o'rin \"Montags\" bilan band — fe'l \"habe\" darhol 2-o'rinda, keyin \"ich\"."
+        },
+        {
+          "wrong": "Im Büro ich beantworte E-Mails.",
+          "right": "Im Büro beantworte ich E-Mails.",
+          "why": "\"Im Büro\" — bitta bo'lak (1-o'rin). Fe'l uni darhol kuzatadi."
+        }
+      ],
+      "check": [
+        "a2-m15-l1-e02",
+        "a2-m15-l1-e03"
+      ]
+    },
+    {
+      "topic_id": "g-articles",
+      "rule": "Kasb haqida gapirganda \"sein\" yoki \"als\" dan keyin artikl ishlatilmaydi: Ich bin Koch. Ich arbeite als Köchin.",
+      "when": "O'zingizni yoki boshqalarni kasbi bilan tanishtirganda.",
+      "structure": "Ich bin + kasb (artiklsiz).  Ich arbeite als + kasb (artiklsiz).",
+      "examples": [
+        {
+          "de": "Ich bin Krankenpfleger.",
+          "uz": "Men hamshiraman (erkak)."
+        },
+        {
+          "de": "Meine Schwester arbeitet als Verkäuferin.",
+          "uz": "Opam sotuvchi bo'lib ishlaydi."
+        },
+        {
+          "de": "Er ist Elektriker von Beruf.",
+          "uz": "U kasbi bo'yicha elektrik."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Ich arbeite als ein Koch.",
+          "right": "Ich arbeite als Koch.",
+          "why": "\"als\" + kasb — artiklsiz."
+        },
+        {
+          "wrong": "Sie ist Lehrer.",
+          "right": "Sie ist Lehrerin.",
+          "why": "Ayol kishi haqida kasb nomiga \"-in\" qo'shiladi."
+        }
+      ],
+      "check": [
+        "a2-m15-l1-e04"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Ziyofatdagi suhbat",
+    "lines": [
+      {
+        "speaker": "Anja",
+        "de": "Und was machen Sie beruflich, Herr Yusupov?",
+        "uz": "Siz-chi, Yusupov janoblari, kasbingiz nima?"
+      },
+      {
+        "speaker": "Herr Yusupov",
+        "de": "Ich bin Krankenpfleger. Ich arbeite im Klinikum Nord.",
+        "uz": "Men hamshiraman. Shimoliy klinikada ishlayman."
+      },
+      {
+        "speaker": "Anja",
+        "de": "Arbeiten Sie auch nachts?",
+        "uz": "Kechasi ham ishlaysizmi?"
+      },
+      {
+        "speaker": "Herr Yusupov",
+        "de": "Ja, wir arbeiten in drei Schichten. Diese Woche habe ich Frühschicht.",
+        "uz": "Ha, biz uch smenada ishlaymiz. Bu hafta ertalabki smenadaman."
+      },
+      {
+        "speaker": "Anja",
+        "de": "Und gefällt Ihnen die Arbeit?",
+        "uz": "Ish sizga yoqadimi?"
+      },
+      {
+        "speaker": "Herr Yusupov",
+        "de": "Ja, sehr! Meine Kollegen sind nett, aber die Arbeit ist anstrengend.",
+        "uz": "Ha, juda! Hamkasblarim yaxshi, lekin ish og'ir."
+      }
+    ],
+    "questions": [
+      "a2-m15-l1-e05"
+    ]
+  },
+  "situation": {
+    "title": "Yangi ish joyida birinchi kun",
+    "context_uz": "Siz logistika firmasida birinchi kun ishlayapsiz. Yangi hamkasbingiz Markus siz bilan tanishmoqchi.",
+    "lines": [
+      {
+        "speaker": "Markus",
+        "de": "Hallo, ich bin Markus. Du bist neu hier, oder?",
+        "uz": "Salom, men Markusman. Sen bu yerda yangisan, shundaymi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ja, ich heiße Jasur. Ich arbeite ab heute im Lager.",
+        "uz": "Ha, ismim Jasur. Bugundan boshlab omborda ishlayman."
+      },
+      {
+        "speaker": "Markus",
+        "de": "Super! Arbeitest du Vollzeit?",
+        "uz": "Zo'r! To'liq stavkadami?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Nein, in Teilzeit. Vormittags lerne ich Deutsch.",
+        "uz": "Yo'q, yarim stavkada. Tushgacha nemis tilini o'qiyman."
+      },
+      {
+        "speaker": "Markus",
+        "de": "Verstehe. Unser Chef ist Herr Braun. Um zehn haben wir eine kurze Besprechung.",
+        "uz": "Tushundim. Boshlig'imiz — Braun janoblari. Soat o'nda qisqa yig'ilishimiz bor."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Danke für die Info!",
+        "uz": "Ma'lumot uchun rahmat!"
+      }
+    ],
+    "task_uz": "Markusga o'zingiz haqingizda ayting: kasbingiz, qayerda ishlaysiz (yoki ishlagansiz), to'liq/yarim stavka va 2 ta vazifangiz. Gaplarni vaqt yoki joy bilan boshlang (Morgens ..., Im Büro ...)."
+  },
+  "exercises": [
+    {
+      "id": "a2-m15-l1-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemischa so'zni o'zbekcha ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "der Kunde",
+          "mijoz"
+        ],
+        [
+          "die Besprechung",
+          "yig'ilish"
+        ],
+        [
+          "die Schicht",
+          "smena"
+        ],
+        [
+          "die Aufgabe",
+          "vazifa"
+        ],
+        [
+          "der Chef",
+          "boshliq"
+        ]
+      ],
+      "correct_answer": {
+        "der Kunde": "mijoz",
+        "die Besprechung": "yig'ilish",
+        "die Schicht": "smena",
+        "die Aufgabe": "vazifa",
+        "der Chef": "boshliq"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Kunde — mijoz, Besprechung — ishdagi yig'ilish, Schicht — smena, Aufgabe — vazifa, Chef — boshliq.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l1-e02",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "work",
+      "grammar_topic": "g-verb-position",
+      "difficulty": 2,
+      "question": "So'zlarni to'g'ri tartibda joylashtiring: \"Ofisda men ko'p elektron xatlarga javob beraman.\"",
+      "prompt_de": null,
+      "options": [
+        "viele",
+        "ich",
+        "Im",
+        "E-Mails",
+        "beantworte",
+        "Büro"
+      ],
+      "pairs": null,
+      "correct_answer": "Im Büro beantworte ich viele E-Mails",
+      "accepted_answers": [
+        "Ich beantworte im Büro viele E-Mails"
+      ],
+      "criteria": null,
+      "hint": "Fe'l 2-o'rinda.",
+      "explanation": "\"Im Büro\" (1) beantworte (2) ich (3). Yoki: Ich (1) beantworte (2) im Büro ...",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l1-e03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "work",
+      "grammar_topic": "g-verb-position",
+      "difficulty": 1,
+      "question": "Qaysi gap to'g'ri?",
+      "prompt_de": null,
+      "options": [
+        "Am Montag habe ich eine Besprechung.",
+        "Am Montag ich habe eine Besprechung.",
+        "Am Montag eine Besprechung ich habe."
+      ],
+      "pairs": null,
+      "correct_answer": "Am Montag habe ich eine Besprechung.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Am Montag\" 1-o'rinda, shuning uchun fe'l \"habe\" 2-o'rinda, keyin \"ich\".",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l1-e04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "professions",
+      "grammar_topic": "g-articles",
+      "difficulty": 1,
+      "question": "Ziyofatda o'zingizni tanishtiryapsiz. Eng tabiiy gap qaysi?",
+      "prompt_de": null,
+      "options": [
+        "Ich bin Krankenpfleger.",
+        "Ich bin der Krankenpfleger.",
+        "Ich bin eine Krankenpfleger."
+      ],
+      "pairs": null,
+      "correct_answer": "Ich bin Krankenpfleger.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Kasb bilan artikl ishlatilmaydi: Ich bin Krankenpfleger. \"der\" — aniq bir hamshira haqida, \"eine\" esa erkak jinsi so'z bilan noto'g'ri.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l1-e05",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Herr Yusupov bu hafta qaysi smenada ishlaydi?",
+      "prompt_de": null,
+      "options": [
+        "Ertalabki smenada",
+        "Tungi smenada",
+        "Kechki smenada"
+      ],
+      "pairs": null,
+      "correct_answer": "Ertalabki smenada",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"Früh\" — erta.",
+      "explanation": "\"Frühschicht\" — ertalabki smena (früh = erta). Tungi smena — Nachtschicht.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Ja, wir arbeiten in drei Schichten. Diese Woche habe ich Frühschicht."
+    },
+    {
+      "id": "a2-m15-l1-e06",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "work",
+      "grammar_topic": "g-praesens",
+      "difficulty": 2,
+      "question": "\"beantworten\" fe'lini \"er\" uchun hozirgi zamonda tuslang: Er ___ die Frage.",
+      "prompt_de": "Er ___ die Frage.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "beantwortet",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "O'zak \"-t\" bilan tugaydi.",
+      "explanation": "O'zak -t bilan tugasa, \"er\" shaklida -et qo'shiladi: er beantwortet.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l1-e07",
+      "version": 1,
+      "type": "plural",
+      "skill": "vocabulary",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Ko'plik shaklini yozing: der Kunde → ?",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "die Kunden",
+      "accepted_answers": [
+        "Kunden"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"-e\" bilan tugaydigan erkak jinsi otlari ko'pincha \"-n\" oladi: der Kunde → die Kunden.",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l1-e08",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Men yarim stavkada ishlayman.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich arbeite in Teilzeit.",
+      "accepted_answers": [
+        "Ich arbeite Teilzeit.",
+        "Ich arbeite halbtags."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"yarim stavka\" — Teilzeit: Ich arbeite in Teilzeit. \"halbtags\" (yarim kun) ham to'g'ri.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l1-e09",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "professions",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Ziyofatda kimdir so'rayapti: \"Was machen Sie beruflich?\" Qaysi javob mos?",
+      "prompt_de": null,
+      "options": [
+        "Ich bin Ingenieurin und arbeite bei einer Baufirma.",
+        "Ich mache gern Sport.",
+        "Ich habe beruflich."
+      ],
+      "pairs": null,
+      "correct_answer": "Ich bin Ingenieurin und arbeite bei einer Baufirma.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"beruflich\" — kasb bo'yicha. Savol kasb haqida, shuning uchun kasbingizni va ish joyingizni aytasiz.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l1-e10",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "reading",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "O'zbek tiliga tarjima qiling: \"Mein Chef ist nett, aber ich verdiene wenig.\"",
+      "prompt_de": "Mein Chef ist nett, aber ich verdiene wenig.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Boshlig'im yaxshi, lekin men kam maosh olaman.",
+      "accepted_answers": [
+        "Boshlig'im yaxshi, lekin kam maosh olaman.",
+        "Boshlig'im yaxshi, lekin men kam pul topaman.",
+        "Boshlig'im yoqimli, lekin kam maosh olaman.",
+        "Boshlig'im xushmuomala, lekin men kam maosh olaman."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"verdienen\" — maosh olmoq, pul ishlab topmoq. \"wenig\" — kam.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a2-m15-l1-t01",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "To'g'ri artiklni tanlang: ___ Firma",
+      "prompt_de": null,
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "die",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Firma, ko'pligi: die Firmen.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l1-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "work",
+      "grammar_topic": "g-verb-position",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (haben): Montags ___ ich immer eine Besprechung.",
+      "prompt_de": "Montags ___ ich immer eine Besprechung.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "habe",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Montags\" 1-o'rinda, fe'l 2-o'rinda: habe. Keyin \"ich\".",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l1-t03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "\"die Schicht\" nima?",
+      "prompt_de": null,
+      "options": [
+        "smena",
+        "maosh",
+        "yig'ilish"
+      ],
+      "pairs": null,
+      "correct_answer": "smena",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Schicht — smena (Frühschicht, Nachtschicht). Maosh — das Gehalt, yig'ilish — die Besprechung.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l1-t04",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "work",
+      "grammar_topic": "g-verb-position",
+      "difficulty": 2,
+      "question": "So'zlarni to'g'ri tartibda joylashtiring: \"Bugun mening mijozlarim ko'p.\"",
+      "prompt_de": null,
+      "options": [
+        "viele",
+        "Kunden",
+        "Heute",
+        "habe",
+        "ich"
+      ],
+      "pairs": null,
+      "correct_answer": "Heute habe ich viele Kunden",
+      "accepted_answers": [
+        "Ich habe heute viele Kunden"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Heute\" 1-o'rinda → \"habe\" 2-o'rinda → \"ich\".",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l1-t05",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni davom ettiring. — Arbeiten Sie in Vollzeit?",
+      "prompt_de": "Arbeiten Sie in Vollzeit?",
+      "options": [
+        "Nein, in Teilzeit, 20 Stunden pro Woche.",
+        "Ja, ich bin Vollzeit.",
+        "Nein, ich habe keine Zeit."
+      ],
+      "pairs": null,
+      "correct_answer": "Nein, in Teilzeit, 20 Stunden pro Woche.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Vollzeit/Teilzeit haqidagi savolga ish soatlari bilan javob beriladi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m15-l1-t06",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang va eshitganingizni yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich beantworte jeden Tag viele E-Mails.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"beantworte\" — \"be\" + \"antworte\". \"E-Mails\" — chiziqcha bilan.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": "Ich beantworte jeden Tag viele E-Mails."
+    },
+    {
+      "id": "a2-m15-l1-t07",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Hamkasblarim juda yoqimli.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Meine Kollegen sind sehr nett.",
+      "accepted_answers": [
+        "Meine Kolleginnen sind sehr nett.",
+        "Meine Kollegen sind sehr freundlich.",
+        "Meine Kollegen sind sehr sympathisch.",
+        "Meine Kolleginnen sind sehr freundlich."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"hamkasblarim\" — meine Kollegen (ko'plik), \"yoqimli\" — nett/freundlich/sympathisch.",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

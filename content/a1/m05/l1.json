@@ -1,0 +1,862 @@
+{
+  "id": "a1-m05-l1",
+  "version": 1,
+  "level": "A1",
+  "module": 5,
+  "order": 1,
+  "title": "Kasblar va ish joyi",
+  "title_de": "Berufe und Arbeitsplatz",
+  "goal": "Dars oxirida 10 ga yaqin kasbni erkak va ayol shaklida aytasiz, \"Was sind Sie von Beruf?\" savoliga \"Ich bin ... / Ich arbeite als ...\" bilan javob berasiz va \"arbeiten\" fe'lini to'g'ri tuslaysiz.",
+  "skill_focus": [
+    "vocabulary",
+    "grammar",
+    "speaking"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Kasbni so'rash: \"Was sind Sie von Beruf?\" (rasmiy) yoki \"Was bist du von Beruf?\". Javob ikki xil: \"Ich bin Lehrer.\" yoki \"Ich arbeite als Lehrer.\" Kasb oldidan artikl qo'yilmaydi!"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Erkak",
+        "Ayol",
+        "O'zbekcha"
+      ],
+      "rows": [
+        [
+          "der Lehrer",
+          "die Lehrerin",
+          "o'qituvchi"
+        ],
+        [
+          "der Arzt",
+          "die Ärztin",
+          "shifokor"
+        ],
+        [
+          "der Ingenieur",
+          "die Ingenieurin",
+          "muhandis"
+        ],
+        [
+          "der Verkäufer",
+          "die Verkäuferin",
+          "sotuvchi"
+        ],
+        [
+          "der Fahrer",
+          "die Fahrerin",
+          "haydovchi"
+        ],
+        [
+          "der Koch",
+          "die Köchin",
+          "oshpaz"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Ayol shakli ko'pincha -in qo'shimchasi bilan yasaladi, ba'zan unli ham o'zgaradi: Arzt → Ärztin, Koch → Köchin. Ayol shaklining ko'pligi -innen: Lehrerinnen."
+    },
+    {
+      "type": "p",
+      "text": "\"arbeiten\" fe'lining o'zagi -t bilan tugaydi, shuning uchun du, er/sie, ihr shakllarida talaffuz oson bo'lishi uchun -e- qo'shiladi: du arbeitest, er arbeitet, ihr arbeitet."
+    },
+    {
+      "type": "tip",
+      "text": "Ish joyi: \"Ich arbeite im Krankenhaus / in einer Firma / bei Siemens.\" Hozircha bu iboralarni tayyor holda yodlang."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-der-beruf",
+      "de": "Beruf",
+      "uz": "kasb",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Berufe",
+      "forms": null,
+      "example_de": "Was sind Sie von Beruf?",
+      "example_uz": "Kasbingiz nima?",
+      "topic": "professions"
+    },
+    {
+      "id": "v-arbeiten",
+      "de": "arbeiten",
+      "uz": "ishlamoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "praesens_3sg": "arbeitet",
+        "partizip2": "gearbeitet",
+        "perfekt_aux": "haben"
+      },
+      "example_de": "Ich arbeite als Fahrer.",
+      "example_uz": "Men haydovchi bo'lib ishlayman.",
+      "topic": "work"
+    },
+    {
+      "id": "v-der-lehrer",
+      "de": "Lehrer",
+      "uz": "o'qituvchi (erkak)",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Lehrer",
+      "forms": null,
+      "example_de": "Herr Braun ist Lehrer.",
+      "example_uz": "Braun janoblari o'qituvchi.",
+      "topic": "professions"
+    },
+    {
+      "id": "v-die-lehrerin",
+      "de": "Lehrerin",
+      "uz": "o'qituvchi (ayol)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Lehrerinnen",
+      "forms": null,
+      "example_de": "Frau Koch ist Lehrerin.",
+      "example_uz": "Kox xonim o'qituvchi.",
+      "topic": "professions"
+    },
+    {
+      "id": "v-der-arzt",
+      "de": "Arzt",
+      "uz": "shifokor (erkak)",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Ärzte",
+      "forms": null,
+      "example_de": "Mein Bruder ist Arzt.",
+      "example_uz": "Akam shifokor.",
+      "topic": "professions"
+    },
+    {
+      "id": "v-die-ärztin",
+      "de": "Ärztin",
+      "uz": "shifokor (ayol)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Ärztinnen",
+      "forms": null,
+      "example_de": "Sie arbeitet als Ärztin.",
+      "example_uz": "U shifokor bo'lib ishlaydi.",
+      "topic": "professions"
+    },
+    {
+      "id": "v-der-ingenieur",
+      "de": "Ingenieur",
+      "uz": "muhandis",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Ingenieure",
+      "forms": null,
+      "example_de": "Jasur ist Ingenieur bei Siemens.",
+      "example_uz": "Jasur Siemensda muhandis.",
+      "topic": "professions"
+    },
+    {
+      "id": "v-der-verkäufer",
+      "de": "Verkäufer",
+      "uz": "sotuvchi (erkak)",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Verkäufer",
+      "forms": null,
+      "example_de": "Der Verkäufer ist sehr nett.",
+      "example_uz": "Sotuvchi juda xushmuomala.",
+      "topic": "professions"
+    },
+    {
+      "id": "v-die-verkäuferin",
+      "de": "Verkäuferin",
+      "uz": "sotuvchi (ayol)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Verkäuferinnen",
+      "forms": null,
+      "example_de": "Meine Schwester ist Verkäuferin.",
+      "example_uz": "Opam sotuvchi.",
+      "topic": "professions"
+    },
+    {
+      "id": "v-der-fahrer",
+      "de": "Fahrer",
+      "uz": "haydovchi",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Fahrer",
+      "forms": null,
+      "example_de": "Der Fahrer kommt aus Polen.",
+      "example_uz": "Haydovchi Polshadan.",
+      "topic": "professions"
+    },
+    {
+      "id": "v-der-koch",
+      "de": "Koch",
+      "uz": "oshpaz",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Köche",
+      "forms": null,
+      "example_de": "Mein Onkel ist Koch.",
+      "example_uz": "Amakim oshpaz.",
+      "topic": "professions"
+    },
+    {
+      "id": "v-die-firma",
+      "de": "Firma",
+      "uz": "firma, kompaniya",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Firmen",
+      "forms": null,
+      "example_de": "Ich arbeite in einer Firma.",
+      "example_uz": "Men bir firmada ishlayman.",
+      "topic": "work"
+    },
+    {
+      "id": "v-das-krankenhaus",
+      "de": "Krankenhaus",
+      "uz": "kasalxona",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Krankenhäuser",
+      "forms": null,
+      "example_de": "Die Ärztin arbeitet im Krankenhaus.",
+      "example_uz": "Shifokor ayol kasalxonada ishlaydi.",
+      "topic": "work"
+    },
+    {
+      "id": "v-als",
+      "de": "als",
+      "uz": "... sifatida, ... bo'lib",
+      "pos": "preposition",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Er arbeitet als Koch.",
+      "example_uz": "U oshpaz bo'lib ishlaydi.",
+      "topic": "work"
+    }
+  ],
+  "review_vocabulary": [
+    "v-sein",
+    "v-was",
+    "v-wo",
+    "v-der-student",
+    "v-die-studentin",
+    "v-der-onkel",
+    "v-die-tante",
+    "v-der-bruder",
+    "v-die-schwester",
+    "v-sehr",
+    "v-nett"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-praesens",
+      "rule": "Hozirgi zamonda fe'l o'zagiga shaxs qo'shimchasi qo'shiladi. O'zagi -t yoki -d bilan tugagan fe'llarda (arbeiten) du, er/sie/es va ihr shakllarida qo'shimchadan oldin -e- qo'shiladi.",
+      "when": "Kasbingiz, ish joyingiz va har kungi ishingiz haqida gapirganda.",
+      "structure": "ich arbeit-e | du arbeit-est | er/sie arbeit-et | wir arbeit-en | ihr arbeit-et | sie/Sie arbeit-en",
+      "examples": [
+        {
+          "de": "Ich arbeite als Ingenieur.",
+          "uz": "Men muhandis bo'lib ishlayman."
+        },
+        {
+          "de": "Du arbeitest im Krankenhaus.",
+          "uz": "Sen kasalxonada ishlaysan."
+        },
+        {
+          "de": "Sie arbeitet als Verkäuferin.",
+          "uz": "U sotuvchi bo'lib ishlaydi."
+        },
+        {
+          "de": "Was sind Sie von Beruf? — Ich bin Koch.",
+          "uz": "Kasbingiz nima? — Men oshpazman."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Du arbeitst im Büro.",
+          "right": "Du arbeitest im Büro.",
+          "why": "O'zak -t bilan tugasa, -st dan oldin -e- qo'shiladi."
+        },
+        {
+          "wrong": "Sie arbeitet als eine Ärztin.",
+          "right": "Sie arbeitet als Ärztin.",
+          "why": "Kasb oldidan (ayniqsa \"als\" dan keyin) artikl qo'yilmaydi."
+        },
+        {
+          "wrong": "Malika ist Lehrer.",
+          "right": "Malika ist Lehrerin.",
+          "why": "Ayol uchun kasbning ayol shakli (-in) ishlatiladi."
+        }
+      ],
+      "check": [
+        "a1-m05-l1-e03",
+        "a1-m05-l1-e04",
+        "a1-m05-l1-e07"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Ish haqida suhbat",
+    "lines": [
+      {
+        "speaker": "Paul",
+        "de": "Was bist du von Beruf, Malika?",
+        "uz": "Kasbing nima, Malika?"
+      },
+      {
+        "speaker": "Malika",
+        "de": "Ich bin Ärztin. Ich arbeite im Krankenhaus.",
+        "uz": "Men shifokorman. Kasalxonada ishlayman."
+      },
+      {
+        "speaker": "Paul",
+        "de": "Und dein Mann?",
+        "uz": "Ering-chi?"
+      },
+      {
+        "speaker": "Malika",
+        "de": "Jasur ist Ingenieur. Er arbeitet in einer Firma.",
+        "uz": "Jasur muhandis. U bir firmada ishlaydi."
+      },
+      {
+        "speaker": "Paul",
+        "de": "Ich bin Koch. Ich arbeite in einem Restaurant.",
+        "uz": "Men oshpazman. Restoranda ishlayman."
+      }
+    ],
+    "questions": [
+      "a1-m05-l1-e05",
+      "a1-m05-l1-e06"
+    ]
+  },
+  "situation": {
+    "title": "Ish yarmarkasida",
+    "context_uz": "Siz ish yarmarkasidasiz. Firma vakili siz bilan qisqa suhbat qilyapti.",
+    "lines": [
+      {
+        "speaker": "Frau Schulz",
+        "de": "Guten Tag! Was sind Sie von Beruf?",
+        "uz": "Assalomu alaykum! Kasbingiz nima?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ich bin Fahrer. Jetzt arbeite ich als Taxifahrer.",
+        "uz": "Men haydovchiman. Hozir taksi haydovchisi bo'lib ishlayman."
+      },
+      {
+        "speaker": "Frau Schulz",
+        "de": "Und wo arbeiten Sie?",
+        "uz": "Qayerda ishlaysiz?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "In Köln, bei City-Taxi.",
+        "uz": "Kyolnda, City-Taxi firmasida."
+      },
+      {
+        "speaker": "Frau Schulz",
+        "de": "Sehr gut. Wir suchen Fahrer!",
+        "uz": "Juda yaxshi. Bizga haydovchilar kerak!"
+      }
+    ],
+    "task_uz": "Frau Schulzning savollariga o'z kasbingiz (yoki orzu qilgan kasbingiz) bilan javob bering: Ich bin ... / Ich arbeite als ... / Ich arbeite in ..."
+  },
+  "exercises": [
+    {
+      "id": "a1-m05-l1-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "professions",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Kasbni ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "der Lehrer",
+          "o'qituvchi"
+        ],
+        [
+          "der Arzt",
+          "shifokor"
+        ],
+        [
+          "der Verkäufer",
+          "sotuvchi"
+        ],
+        [
+          "der Fahrer",
+          "haydovchi"
+        ],
+        [
+          "der Koch",
+          "oshpaz"
+        ]
+      ],
+      "correct_answer": {
+        "der Lehrer": "o'qituvchi",
+        "der Arzt": "shifokor",
+        "der Verkäufer": "sotuvchi",
+        "der Fahrer": "haydovchi",
+        "der Koch": "oshpaz"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Lehrer — o'qituvchi, Arzt — shifokor, Verkäufer — sotuvchi, Fahrer — haydovchi, Koch — oshpaz.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l1-e02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "professions",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "\"der Arzt\" ning ayol shakli qaysi?",
+      "prompt_de": null,
+      "options": [
+        "Arztin",
+        "Ärztin",
+        "Ärzterin"
+      ],
+      "pairs": null,
+      "correct_answer": "Ärztin",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Arzt → Ärztin: -in qo'shiladi va a → ä bo'ladi.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l1-e03",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "work",
+      "grammar_topic": "g-praesens",
+      "difficulty": 2,
+      "question": "\"arbeiten\" fe'lini tuslang: Du ___ im Krankenhaus.",
+      "prompt_de": "Du ___ im Krankenhaus.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "arbeitest",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "O'zak -t bilan tugaydi.",
+      "explanation": "du arbeit-e-st: -e- qo'shiladi.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l1-e04",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "work",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "\"arbeiten\" fe'lini tuslang: Er ___ als Koch.",
+      "prompt_de": "Er ___ als Koch.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "arbeitet",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "er arbeit-e-t.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l1-e05",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "professions",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Malikaning kasbi nima?",
+      "prompt_de": null,
+      "options": [
+        "o'qituvchi",
+        "shifokor",
+        "muhandis"
+      ],
+      "pairs": null,
+      "correct_answer": "shifokor",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ärztin — shifokor (ayol).",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Ich bin Ärztin. Ich arbeite im Krankenhaus."
+    },
+    {
+      "id": "a1-m05-l1-e06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Jasur qayerda ishlaydi?",
+      "prompt_de": null,
+      "options": [
+        "kasalxonada",
+        "restoranda",
+        "firmada"
+      ],
+      "pairs": null,
+      "correct_answer": "firmada",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"in einer Firma\" — firmada.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Jasur ist Ingenieur. Er arbeitet in einer Firma."
+    },
+    {
+      "id": "a1-m05-l1-e07",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "professions",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "Gapdagi ortiqcha so'zni toping: \"Sie arbeitet als eine Ärztin.\"",
+      "prompt_de": "Sie arbeitet als eine Ärztin.",
+      "options": [
+        "Sie",
+        "arbeitet",
+        "als",
+        "eine",
+        "Ärztin"
+      ],
+      "pairs": null,
+      "correct_answer": "eine",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Kasb oldidan artikl qo'yilmaydi: Sie arbeitet als Ärztin.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l1-e08",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "vocabulary",
+      "topic": "professions",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: Was sind Sie von ___? — Ich bin Ingenieur.",
+      "prompt_de": "Was sind Sie von ___?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Beruf",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Was sind Sie von Beruf? — Kasbingiz nima? (so'zma-so'z: kasbdan nimasiz?)",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l1-e09",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "professions",
+      "grammar_topic": "g-verb-position",
+      "difficulty": 1,
+      "question": "So'zlarni tartiblang: \"Akam haydovchi bo'lib ishlaydi.\"",
+      "prompt_de": null,
+      "options": [
+        "Bruder",
+        "Fahrer",
+        "als",
+        "Mein",
+        "arbeitet"
+      ],
+      "pairs": null,
+      "correct_answer": "Mein Bruder arbeitet als Fahrer.",
+      "accepted_answers": [
+        "Als Fahrer arbeitet mein Bruder."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ega (Mein Bruder) + fe'l (arbeitet) + als Fahrer.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l1-e10",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "professions",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemis tiliga tarjima qiling (gapiruvchi — erkak): \"Men shifokorman.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich bin Arzt.",
+      "accepted_answers": [
+        "Ich arbeite als Arzt.",
+        "Ich bin ein Arzt.",
+        "Ich bin von Beruf Arzt."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ich bin Arzt — artiklsiz eng tabiiy shakl.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l1-e11",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "professions",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Siz yangi tanishingizning (rasmiy) kasbini bilmoqchisiz. Nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Was sind Sie von Beruf?",
+        "Wo wohnen Sie?",
+        "Wie alt sind Sie?"
+      ],
+      "pairs": null,
+      "correct_answer": "Was sind Sie von Beruf?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Kasb so'rash: Was sind Sie von Beruf?",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l1-e12",
+      "version": 1,
+      "type": "speak",
+      "skill": "speaking",
+      "topic": "professions",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Kasbingiz va qayerda ishlashingiz (yoki o'qishingiz) haqida 2–3 gap ayting.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 8,
+        "required_words": [
+          "Ich"
+        ],
+        "sample": "Ich bin Ingenieur von Beruf. Ich arbeite in einer Firma in Taschkent."
+      },
+      "hint": null,
+      "explanation": "Ich bin ... (artiklsiz) / Ich arbeite als ... / Ich arbeite in ... Talaba bo'lsangiz: Ich bin Student(in).",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a1-m05-l1-t01",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "professions",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Matnni o'qing. Lang xonimning kasbi nima?",
+      "prompt_de": "Frau Lang arbeitet in einer Schule. Ihre Schüler lernen Deutsch und Englisch.",
+      "options": [
+        "o'qituvchi",
+        "oshpaz",
+        "haydovchi"
+      ],
+      "pairs": null,
+      "correct_answer": "o'qituvchi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Maktabda ishlaydi, o'quvchilari bor — demak, o'qituvchi (Lehrerin).",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l1-t02",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "work",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "\"arbeiten\" fe'lini tuslang: Ihr ___ viel.",
+      "prompt_de": "Ihr ___ viel.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "arbeitet",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "ihr arbeit-e-t.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l1-t03",
+      "version": 1,
+      "type": "plural",
+      "skill": "grammar",
+      "topic": "professions",
+      "grammar_topic": "g-plural",
+      "difficulty": 1,
+      "question": "Ko'plik shaklini yozing: der Lehrer → die ___",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Lehrer",
+      "accepted_answers": [
+        "die Lehrer"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "-er bilan tugaydigan erkak otlar ko'plikda o'zgarmaydi: die Lehrer.",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l1-t04",
+      "version": 1,
+      "type": "article",
+      "skill": "grammar",
+      "topic": "work",
+      "grammar_topic": "g-articles",
+      "difficulty": 1,
+      "question": "To'g'ri artiklni tanlang: ___ Firma",
+      "prompt_de": "___ Firma",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "die",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Firma.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l1-t05",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "professions",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Bu ayolning kasbi nima?",
+      "prompt_de": null,
+      "options": [
+        "sotuvchi",
+        "shifokor",
+        "oshpaz"
+      ],
+      "pairs": null,
+      "correct_answer": "sotuvchi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Verkäuferin — sotuvchi (ayol).",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Ich bin Verkäuferin von Beruf."
+    },
+    {
+      "id": "a1-m05-l1-t06",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "professions",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Er arbeitet als Fahrer.\"",
+      "prompt_de": "Er arbeitet als Fahrer.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "U haydovchi bo'lib ishlaydi.",
+      "accepted_answers": [
+        "U haydovchi",
+        "U haydovchilik qiladi",
+        "U haydovchi bo'lib ishlayapti"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "als Fahrer — haydovchi bo'lib.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l1-t07",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "vocabulary",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: Ich arbeite ___ Ingenieur bei Siemens.",
+      "prompt_de": "Ich arbeite ___ Ingenieur bei Siemens.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "als",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "arbeiten als + kasb.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

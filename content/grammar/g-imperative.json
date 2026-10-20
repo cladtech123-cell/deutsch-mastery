@@ -1,0 +1,302 @@
+{
+  "id": "g-imperative",
+  "version": 1,
+  "level": "A1",
+  "order": 15,
+  "title": "Buyruq mayli (Imperativ) va muloyim buyruq",
+  "prerequisites": [
+    "g-praesens",
+    "g-separable-verbs"
+  ],
+  "next": [
+    "g-polite-requests"
+  ],
+  "rule": "Imperativ — buyruq, iltimos yoki maslahat. Uch shakli bor: du (Komm!), ihr (Kommt!), Sie (Kommen Sie!).",
+  "when": "Yo'l ko'rsatish, retsept, maslahat, darsdagi ko'rsatmalar va iltimoslarda. \"bitte\" bilan muloyimroq bo'ladi.",
+  "structure": "du: o'zak (+ e) ...! | ihr: ihr-shakl ...! | Sie: infinitiv + Sie ...!",
+  "explanation": [
+    {
+      "type": "table",
+      "headers": [
+        "Infinitiv",
+        "du",
+        "ihr",
+        "Sie"
+      ],
+      "rows": [
+        [
+          "kommen",
+          "Komm!",
+          "Kommt!",
+          "Kommen Sie!"
+        ],
+        [
+          "machen",
+          "Mach!",
+          "Macht!",
+          "Machen Sie!"
+        ],
+        [
+          "warten",
+          "Warte!",
+          "Wartet!",
+          "Warten Sie!"
+        ],
+        [
+          "sprechen",
+          "Sprich!",
+          "Sprecht!",
+          "Sprechen Sie!"
+        ],
+        [
+          "nehmen",
+          "Nimm!",
+          "Nehmt!",
+          "Nehmen Sie!"
+        ],
+        [
+          "fahren",
+          "Fahr!",
+          "Fahrt!",
+          "Fahren Sie!"
+        ],
+        [
+          "aufstehen",
+          "Steh auf!",
+          "Steht auf!",
+          "Stehen Sie auf!"
+        ],
+        [
+          "sein",
+          "Sei!",
+          "Seid!",
+          "Seien Sie!"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "du-shakl: \"du kommst\" dan -st va du ni olib tashlang → Komm! e → i o'zgarishi saqlanadi (du sprichst → Sprich!), a → ä esa yo'qoladi (du fährst → Fahr!)."
+    },
+    {
+      "type": "tip",
+      "text": "Muloyim qilish uchun: bitte, mal, doch. Komm bitte mal her! Ajraladigan prefiks oxirida: Mach das Fenster auf!"
+    }
+  ],
+  "examples": [
+    {
+      "de": "Komm bitte!",
+      "uz": "Kel, iltimos!"
+    },
+    {
+      "de": "Mach bitte das Fenster auf!",
+      "uz": "Derazani och, iltimos!"
+    },
+    {
+      "de": "Sprechen Sie bitte langsam.",
+      "uz": "Iltimos, sekin gapiring."
+    },
+    {
+      "de": "Wartet hier!",
+      "uz": "Shu yerda kutinglar!"
+    },
+    {
+      "de": "Nimm einen Regenschirm mit!",
+      "uz": "Soyabon olib ol!"
+    },
+    {
+      "de": "Seien Sie bitte pünktlich.",
+      "uz": "Iltimos, o'z vaqtida keling."
+    }
+  ],
+  "common_mistakes": [
+    {
+      "wrong": "Du komm!",
+      "right": "Komm!",
+      "why": "du-imperativda olmosh ishlatilmaydi."
+    },
+    {
+      "wrong": "Sprech langsam!",
+      "right": "Sprich langsam!",
+      "why": "sprechen — e → i: du sprichst → Sprich!"
+    },
+    {
+      "wrong": "Fähr langsam!",
+      "right": "Fahr langsam!",
+      "why": "a → ä o'zgarishi imperativda yo'qoladi."
+    },
+    {
+      "wrong": "Kommen! (Sizga)",
+      "right": "Kommen Sie!",
+      "why": "Sie-shaklda olmosh fe'ldan keyin majburiy."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "g-imperative-e01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "communication",
+      "grammar_topic": "g-imperative",
+      "difficulty": 1,
+      "question": "Do'stingizga ayting: \"Sekinroq gapir!\"",
+      "prompt_de": null,
+      "options": [
+        "Sprich langsam!",
+        "Sprech langsam!",
+        "Sprichst langsam!"
+      ],
+      "pairs": null,
+      "correct_answer": "Sprich langsam!",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "sprechen → du sprichst → Sprich!",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-imperative-e02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "services",
+      "grammar_topic": "g-imperative",
+      "difficulty": 1,
+      "question": "Sie-shakl (warten): \"___ Sie bitte hier!\"",
+      "prompt_de": "___ Sie bitte hier!",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Warten",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Sie-imperativ: infinitiv + Sie: Warten Sie!",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-imperative-e03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-imperative",
+      "difficulty": 1,
+      "question": "du-shakl (aufmachen): \"___ bitte das Fenster auf!\"",
+      "prompt_de": "___ bitte das Fenster auf!",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Mach",
+      "accepted_answers": [
+        "Mache"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "aufmachen → du machst auf → Mach ... auf!",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-imperative-e04",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "daily-routine",
+      "grammar_topic": "g-imperative",
+      "difficulty": 2,
+      "question": "So'zlardan gap tuzing: \"Iltimos, turing!\" (Sie)",
+      "prompt_de": null,
+      "options": [
+        "auf",
+        "bitte",
+        "Sie",
+        "Stehen"
+      ],
+      "pairs": null,
+      "correct_answer": "Stehen Sie bitte auf!",
+      "accepted_answers": [
+        "Bitte stehen Sie auf!"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Sie-imperativ: Stehen Sie ..., prefiks auf oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-imperative-e05",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-imperative",
+      "difficulty": 1,
+      "question": "Siz shifokorsiz. Bemorga (Sie) tabletkalarni ichishni aytasiz.",
+      "prompt_de": null,
+      "options": [
+        "Nehmen Sie die Tabletten!",
+        "Nimm die Tabletten!",
+        "Nehmt die Tabletten!"
+      ],
+      "pairs": null,
+      "correct_answer": "Nehmen Sie die Tabletten!",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Rasmiy murojaat — Sie-imperativ: Nehmen Sie ...!",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-imperative-e06",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "education",
+      "grammar_topic": "g-imperative",
+      "difficulty": 2,
+      "question": "ihr-shakl (sein): \"___ bitte leise!\"",
+      "prompt_de": "___ bitte leise!",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Seid",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "sein — ihr-imperativ: Seid!",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-imperative-e07",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "grammar",
+      "topic": "general",
+      "grammar_topic": "g-imperative",
+      "difficulty": 1,
+      "question": "Nemis tiliga tarjima qiling (du): \"Kel!\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Komm!",
+      "accepted_answers": [
+        "Komm her!"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "kommen → du kommst → Komm!",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

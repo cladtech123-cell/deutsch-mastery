@@ -1,0 +1,869 @@
+{
+  "id": "a1-m03-l2",
+  "version": 1,
+  "level": "A1",
+  "module": 3,
+  "order": 2,
+  "title": "Telefon raqami",
+  "title_de": "Die Telefonnummer",
+  "goal": "Dars oxirida 100 gacha sonlarni ayta olasiz, telefon raqamingizni nemischa aytib berasiz, eshitgan raqamni xatosiz yozib olasiz va \"Wie ist Ihre Telefonnummer?\" deb so'raysiz.",
+  "skill_focus": [
+    "listening",
+    "speaking",
+    "vocabulary"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "O'nliklar asosan -zig bilan tugaydi: zwanzig (20), vierzig (40), fünfzig (50). Istisnolar: dreißig (30, ß bilan), sechzig (60), siebzig (70). 21–99 sonlar: birlik + und + o'nlik: dreiundvierzig = 43."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Son",
+        "Nemischa"
+      ],
+      "rows": [
+        [
+          "20",
+          "zwanzig"
+        ],
+        [
+          "30",
+          "dreißig"
+        ],
+        [
+          "40",
+          "vierzig"
+        ],
+        [
+          "50",
+          "fünfzig"
+        ],
+        [
+          "60",
+          "sechzig"
+        ],
+        [
+          "70",
+          "siebzig"
+        ],
+        [
+          "80",
+          "achtzig"
+        ],
+        [
+          "90",
+          "neunzig"
+        ],
+        [
+          "100",
+          "(ein)hundert"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Telefon raqamini nemislar ko'pincha raqamma-raqam aytadi: 0176 — null, eins, sieben, sechs. Ba'zan juft-juft: 23 45 — dreiundzwanzig, fünfundvierzig. Shahar kodi — die Vorwahl."
+    },
+    {
+      "type": "tip",
+      "text": "Telefonda \"zwei\" o'rniga ko'pincha \"zwo\" deyiladi, \"drei\" bilan adashtirmaslik uchun."
+    },
+    {
+      "type": "tip",
+      "text": "Raqamni so'rash: \"Wie ist Ihre Telefonnummer?\" (rasmiy) / \"Wie ist deine Handynummer?\" (do'stga). O'zbekcha \"necha?\" ga qarab \"Wie viel?\" demang."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-null",
+      "de": "null",
+      "uz": "nol",
+      "pos": "numeral",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Die Vorwahl beginnt mit null.",
+      "example_uz": "Shahar kodi noldan boshlanadi.",
+      "topic": "numbers"
+    },
+    {
+      "id": "v-zwanzig",
+      "de": "zwanzig",
+      "uz": "yigirma",
+      "pos": "numeral",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Ich bin zwanzig Jahre alt.",
+      "example_uz": "Men yigirma yoshdaman.",
+      "topic": "numbers"
+    },
+    {
+      "id": "v-dreißig",
+      "de": "dreißig",
+      "uz": "o'ttiz",
+      "pos": "numeral",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Der Kurs hat dreißig Stunden.",
+      "example_uz": "Kurs o'ttiz soatdan iborat.",
+      "topic": "numbers"
+    },
+    {
+      "id": "v-hundert",
+      "de": "hundert",
+      "uz": "yuz",
+      "pos": "numeral",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Das Haus ist hundert Jahre alt.",
+      "example_uz": "Uy yuz yillik.",
+      "topic": "numbers"
+    },
+    {
+      "id": "v-die-telefonnummer",
+      "de": "Telefonnummer",
+      "uz": "telefon raqami",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Telefonnummern",
+      "forms": null,
+      "example_de": "Wie ist Ihre Telefonnummer?",
+      "example_uz": "Telefon raqamingiz qanday?",
+      "topic": "contact"
+    },
+    {
+      "id": "v-das-handy",
+      "de": "Handy",
+      "uz": "mobil telefon",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Handys",
+      "forms": null,
+      "example_de": "Mein Handy ist neu.",
+      "example_uz": "Telefonim yangi.",
+      "topic": "technology"
+    },
+    {
+      "id": "v-die-nummer",
+      "de": "Nummer",
+      "uz": "raqam",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Nummern",
+      "forms": null,
+      "example_de": "Die Nummer ist falsch.",
+      "example_uz": "Raqam noto'g'ri.",
+      "topic": "contact"
+    },
+    {
+      "id": "v-die-vorwahl",
+      "de": "Vorwahl",
+      "uz": "telefon kodi (shahar/mamlakat kodi)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Vorwahlen",
+      "forms": null,
+      "example_de": "Die Vorwahl von Berlin ist 030.",
+      "example_uz": "Berlinning telefon kodi 030.",
+      "topic": "contact"
+    },
+    {
+      "id": "v-wiederholen",
+      "de": "wiederholen",
+      "uz": "takrorlamoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "praesens_3sg": "wiederholt",
+        "partizip2": "wiederholt",
+        "perfekt_aux": "haben"
+      },
+      "example_de": "Wiederholen Sie bitte!",
+      "example_uz": "Iltimos, takrorlang!",
+      "topic": "communication"
+    },
+    {
+      "id": "v-richtig",
+      "de": "richtig",
+      "uz": "to'g'ri",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Ist die Nummer richtig?",
+      "example_uz": "Raqam to'g'rimi?",
+      "topic": "general"
+    },
+    {
+      "id": "v-falsch",
+      "de": "falsch",
+      "uz": "noto'g'ri, xato",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Das ist falsch.",
+      "example_uz": "Bu noto'g'ri.",
+      "topic": "general"
+    },
+    {
+      "id": "v-anrufen",
+      "de": "anrufen",
+      "uz": "qo'ng'iroq qilmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "praesens_3sg": "ruft an",
+        "partizip2": "angerufen",
+        "perfekt_aux": "haben"
+      },
+      "example_de": "Ich rufe heute an.",
+      "example_uz": "Men bugun qo'ng'iroq qilaman.",
+      "topic": "phone"
+    },
+    {
+      "id": "v-zwo",
+      "de": "zwo",
+      "uz": "ikki (telefonda aytiladi)",
+      "pos": "numeral",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Null, eins, sieben, zwo ...",
+      "example_uz": "Nol, bir, yetti, ikki ...",
+      "topic": "phone"
+    }
+  ],
+  "review_vocabulary": [
+    "v-eins",
+    "v-zwei",
+    "v-drei",
+    "v-vier",
+    "v-fünf",
+    "v-sechs",
+    "v-sieben",
+    "v-acht",
+    "v-neun",
+    "v-zehn",
+    "v-wie",
+    "v-wie-bitte",
+    "v-noch-einmal",
+    "v-langsam",
+    "v-danke",
+    "v-bitte",
+    "v-alt",
+    "v-das-jahr"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-questions",
+      "rule": "Telefon raqami, manzil, ism kabi ma'lumot \"Wie ist ...?\" savoli bilan so'raladi. W-so'z + fe'l + ega tartibi saqlanadi.",
+      "when": "Telefon raqami, email yoki manzilni so'raganda; tushunmaganda qayta so'raganda.",
+      "structure": "Wie + ist + Ihre/deine + Telefonnummer?  →  Meine Nummer ist ...",
+      "examples": [
+        {
+          "de": "Wie ist Ihre Telefonnummer? — 0176 23 45 89.",
+          "uz": "Telefon raqamingiz qanday? — 0176 23 45 89."
+        },
+        {
+          "de": "Wie ist die Vorwahl von Berlin? — Null, drei, null.",
+          "uz": "Berlinning kodi qanday? — Nol, uch, nol."
+        },
+        {
+          "de": "Wie ist deine Handynummer? — Null, eins, fünf, eins ...",
+          "uz": "Mobil raqaming qanday? — Nol, bir, besh, bir ..."
+        },
+        {
+          "de": "Ist die Nummer richtig? — Ja, richtig.",
+          "uz": "Raqam to'g'rimi? — Ha, to'g'ri."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Wie viel ist Ihre Telefonnummer?",
+          "right": "Wie ist Ihre Telefonnummer?",
+          "why": "O'zbekcha \"raqamingiz necha?\" ga qarab \"wie viel\" qo'yilmaydi: wie viel — miqdor uchun."
+        },
+        {
+          "wrong": "Wie Ihre Telefonnummer ist?",
+          "right": "Wie ist Ihre Telefonnummer?",
+          "why": "Savolda fe'l (ist) ikkinchi o'rinda turadi, oxirida emas."
+        }
+      ],
+      "check": [
+        "a1-m03-l2-e04",
+        "a1-m03-l2-e06"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Telefon raqamini almashish",
+    "lines": [
+      {
+        "speaker": "Paul",
+        "de": "Wie ist deine Handynummer, Aziz?",
+        "uz": "Mobil raqaming qanday, Aziz?"
+      },
+      {
+        "speaker": "Aziz",
+        "de": "Null, eins, sieben, sechs — dreiundzwanzig, fünfundvierzig, neunundachtzig.",
+        "uz": "Nol, bir, yetti, olti — yigirma uch, qirq besh, sakson to'qqiz."
+      },
+      {
+        "speaker": "Paul",
+        "de": "Wie bitte? Noch einmal, bitte!",
+        "uz": "Nima? Yana bir marta, iltimos!"
+      },
+      {
+        "speaker": "Aziz",
+        "de": "0176 – 23 – 45 – 89.",
+        "uz": "0176 – 23 – 45 – 89."
+      },
+      {
+        "speaker": "Paul",
+        "de": "0176 23 45 89. Richtig?",
+        "uz": "0176 23 45 89. To'g'rimi?"
+      },
+      {
+        "speaker": "Aziz",
+        "de": "Ja, richtig! Ruf mich an!",
+        "uz": "Ha, to'g'ri! Menga qo'ng'iroq qil!"
+      }
+    ],
+    "questions": [
+      "a1-m03-l2-e02",
+      "a1-m03-l2-e03"
+    ]
+  },
+  "situation": {
+    "title": "Raqamni yozib olish",
+    "context_uz": "Siz kvartira bo'yicha e'lon ko'rdingiz va uy egasiga telefon qildingiz. U sizning raqamingizni so'rayapti.",
+    "lines": [
+      {
+        "speaker": "Vermieter",
+        "de": "Wie ist Ihre Telefonnummer?",
+        "uz": "Telefon raqamingiz qanday?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Null, eins, fünf, eins — zweiunddreißig, siebzehn, null, sechs.",
+        "uz": "Nol, bir, besh, bir — o'ttiz ikki, o'n yetti, nol, olti."
+      },
+      {
+        "speaker": "Vermieter",
+        "de": "Langsam, bitte! Null, eins, fünf, eins ...",
+        "uz": "Sekinroq, iltimos! Nol, bir, besh, bir ..."
+      },
+      {
+        "speaker": "Siz",
+        "de": "... drei, zwo, eins, sieben, null, sechs.",
+        "uz": "... uch, ikki, bir, yetti, nol, olti."
+      },
+      {
+        "speaker": "Vermieter",
+        "de": "Danke! Ich rufe heute an.",
+        "uz": "Rahmat! Bugun qo'ng'iroq qilaman."
+      }
+    ],
+    "task_uz": "O'z telefon raqamingizni (yoki o'ylab topilgan raqamni) ikki usulda ayting: raqamma-raqam va juft-juft. Sherigingiz yozib olsin va \"Richtig?\" deb tekshirsin."
+  },
+  "exercises": [
+    {
+      "id": "a1-m03-l2-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "numbers",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Raqamni nemischa so'z bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "20",
+          "zwanzig"
+        ],
+        [
+          "30",
+          "dreißig"
+        ],
+        [
+          "40",
+          "vierzig"
+        ],
+        [
+          "70",
+          "siebzig"
+        ],
+        [
+          "100",
+          "hundert"
+        ]
+      ],
+      "correct_answer": {
+        "20": "zwanzig",
+        "30": "dreißig",
+        "40": "vierzig",
+        "70": "siebzig",
+        "100": "hundert"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "30 — dreißig (ß bilan), 70 — siebzig (en tushadi).",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m03-l2-e02",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "phone",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang. Aziz qaysi raqamni aytdi?",
+      "prompt_de": null,
+      "options": [
+        "0176 32 54 98",
+        "0176 23 45 89",
+        "0167 23 45 89"
+      ],
+      "pairs": null,
+      "correct_answer": "0176 23 45 89",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "dreiundzwanzig — avval 3, keyin 20.",
+      "explanation": "dreiundzwanzig = 23, fünfundvierzig = 45, neunundachtzig = 89. Teskari tartibga e'tibor bering!",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Null, eins, sieben, sechs — dreiundzwanzig, fünfundvierzig, neunundachtzig."
+    },
+    {
+      "id": "a1-m03-l2-e03",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "phone",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang va raqamni probelsiz, raqamlar bilan yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "01762345",
+      "accepted_answers": [
+        "0176 2345",
+        "0176 23 45"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "null-eins-sieben-sechs-zwo-drei-vier-fünf = 01762345. \"zwo\" — 2.",
+      "error_type": "comprehension",
+      "points": 2,
+      "audio_text": "Null, eins, sieben, sechs, zwo, drei, vier, fünf."
+    },
+    {
+      "id": "a1-m03-l2-e04",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "contact",
+      "grammar_topic": "g-questions",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: ___ ist Ihre Telefonnummer?",
+      "prompt_de": "___ ist Ihre Telefonnummer?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Wie",
+      "accepted_answers": [
+        "Was"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Standart savol: Wie ist Ihre Telefonnummer? (So'zlashuvda \"Was ist ...?\" ham eshitiladi.)",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m03-l2-e05",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "phone",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Telefonda \"zwo\" qaysi raqamni bildiradi?",
+      "prompt_de": null,
+      "options": [
+        "2",
+        "3",
+        "10"
+      ],
+      "pairs": null,
+      "correct_answer": "2",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "zwo = zwei = 2. Telefonda \"drei\" bilan adashtirmaslik uchun aytiladi.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m03-l2-e06",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "contact",
+      "grammar_topic": "g-questions",
+      "difficulty": 1,
+      "question": "Gapdagi ortiqcha (xato) so'zni toping: \"Wie viel ist Ihre Telefonnummer?\"",
+      "prompt_de": "Wie viel ist Ihre Telefonnummer?",
+      "options": [
+        "Wie",
+        "viel",
+        "ist",
+        "Ihre",
+        "Telefonnummer"
+      ],
+      "pairs": null,
+      "correct_answer": "viel",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: Wie ist Ihre Telefonnummer? \"wie viel\" — miqdor (qancha) uchun.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m03-l2-e07",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "phone",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni davom ettiring. — Wie ist Ihre Handynummer?",
+      "prompt_de": "Wie ist Ihre Handynummer?",
+      "options": [
+        "Ich wohne in Köln.",
+        "Null, eins, sieben, sechs, zwo, drei ...",
+        "Ich bin zwanzig."
+      ],
+      "pairs": null,
+      "correct_answer": "Null, eins, sieben, sechs, zwo, drei ...",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Raqam so'ralyapti — raqamni aytasiz.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m03-l2-e08",
+      "version": 1,
+      "type": "plural",
+      "skill": "grammar",
+      "topic": "contact",
+      "grammar_topic": "g-plural",
+      "difficulty": 1,
+      "question": "Ko'plik shaklini yozing: die Nummer → die ___",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Nummern",
+      "accepted_answers": [
+        "die Nummern"
+      ],
+      "criteria": null,
+      "hint": "-er bilan tugagan ayol jinsidagi otlar.",
+      "explanation": "die Nummer → die Nummern (-n qo'shiladi).",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m03-l2-e09",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "communication",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling (rasmiy): \"Iltimos, takrorlang!\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Wiederholen Sie bitte!",
+      "accepted_answers": [
+        "Bitte wiederholen Sie!",
+        "Wiederholen Sie das bitte!",
+        "Bitte wiederholen Sie das!",
+        "Noch einmal, bitte!",
+        "Bitte noch einmal!"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Rasmiy iltimos: fe'l + Sie + bitte: Wiederholen Sie bitte! \"Noch einmal, bitte!\" ham shu ma'noda.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m03-l2-e10",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "phone",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Raqamni yozib oldingiz va to'g'ri yozganingizni tekshirmoqchisiz. Nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "0176 23 45 89 — richtig?",
+        "Falsch, danke!",
+        "Tschüs!"
+      ],
+      "pairs": null,
+      "correct_answer": "0176 23 45 89 — richtig?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Tekshirish uchun raqamni takrorlab \"richtig?\" deb so'raysiz.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m03-l2-e11",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "contact",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Vizitkani o'qing. Annaning mobil raqami qaysi?",
+      "prompt_de": "Dr. Anna Lang – Zahnärztin – Telefon: 030 48 52 17 – Handy: 0151 39 06 44",
+      "options": [
+        "030 48 52 17",
+        "0151 39 06 44",
+        "0151 48 52 17"
+      ],
+      "pairs": null,
+      "correct_answer": "0151 39 06 44",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Handy — mobil telefon: 0151 39 06 44. 030 — Berlin kodi bilan shahar telefoni.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m03-l2-e12",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "communication",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "\"wiederholen\" fe'lini tuslang: Du ___ die Nummer.",
+      "prompt_de": "Du ___ die Nummer.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "wiederholst",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "du + -st: du wiederholst.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a1-m03-l2-t01",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "numbers",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Qaysi son aytildi?",
+      "prompt_de": null,
+      "options": [
+        "44",
+        "40",
+        "14"
+      ],
+      "pairs": null,
+      "correct_answer": "44",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "vier + und + vierzig = 44.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "vierundvierzig"
+    },
+    {
+      "id": "a1-m03-l2-t02",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "numbers",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang va sonni raqam bilan yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "30",
+      "accepted_answers": [
+        "dreißig"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "dreißig = 30.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "dreißig"
+    },
+    {
+      "id": "a1-m03-l2-t03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "numbers",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Qaysi so'z 63 ni bildiradi?",
+      "prompt_de": null,
+      "options": [
+        "sechsunddreißig",
+        "dreiundsechzig",
+        "dreisechzig"
+      ],
+      "pairs": null,
+      "correct_answer": "dreiundsechzig",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "63 = drei + und + sechzig. sechsunddreißig — 36.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m03-l2-t04",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "vocabulary",
+      "topic": "communication",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: ___ Sie bitte die Nummer! (takrorlang)",
+      "prompt_de": "___ Sie bitte die Nummer!",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Wiederholen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "wiederholen — takrorlamoq: Wiederholen Sie bitte die Nummer!",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m03-l2-t05",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "general",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Das ist falsch.\"",
+      "prompt_de": "Das ist falsch.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Bu noto'g'ri.",
+      "accepted_answers": [
+        "Bu xato",
+        "Noto'g'ri",
+        "Xato"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "falsch — noto'g'ri, xato.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m03-l2-t06",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "contact",
+      "grammar_topic": "g-questions",
+      "difficulty": 1,
+      "question": "So'zlarni tartiblab savol tuzing: \"Telefon raqamingiz qanday?\"",
+      "prompt_de": null,
+      "options": [
+        "ist",
+        "Telefonnummer",
+        "Ihre",
+        "Wie"
+      ],
+      "pairs": null,
+      "correct_answer": "Wie ist Ihre Telefonnummer?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Wie + ist + Ihre Telefonnummer?",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m03-l2-t07",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "phone",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Kimdir telefon raqamini juda tez aytdi, siz eshitmadingiz. Nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Richtig!",
+        "Noch einmal, bitte!",
+        "Danke, gut!"
+      ],
+      "pairs": null,
+      "correct_answer": "Noch einmal, bitte!",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Qayta so'rash: Noch einmal, bitte!",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

@@ -1,0 +1,950 @@
+{
+  "id": "a1-m09-l3",
+  "version": 1,
+  "level": "A1",
+  "module": 9,
+  "order": 3,
+  "title": "Qayerda? Joy ifodalari",
+  "title_de": "Wo ist das?",
+  "goal": "Dars oxirida \"Wo ist ...?\" savoliga javob berasiz: narsa qayerda turgani, yotgani yoki osilib turganini \"auf/unter/neben/hinter/an/in + dem/der\" bilan aytasiz.",
+  "skill_focus": [
+    "grammar",
+    "listening",
+    "speaking"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Joyni aytish uchun predlog va artikl kerak. \"Wo?\" (qayerda?) savoliga javobda artikl o'zgaradi — bu Dativ (A2 da batafsil o'rganamiz). Hozir uni tayyor shakl sifatida yodlang:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Jins",
+        "Asl shakl",
+        "Wo? (qayerda?)"
+      ],
+      "rows": [
+        [
+          "der",
+          "der Tisch",
+          "auf dem Tisch"
+        ],
+        [
+          "das",
+          "das Bett",
+          "unter dem Bett"
+        ],
+        [
+          "die",
+          "die Tür",
+          "neben der Tür"
+        ],
+        [
+          "in + das/der",
+          "das Zimmer",
+          "im Zimmer (in + dem)"
+        ],
+        [
+          "in + die",
+          "die Küche",
+          "in der Küche"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Predlog",
+        "Ma'nosi",
+        "Misol"
+      ],
+      "rows": [
+        [
+          "auf",
+          "ustida",
+          "auf dem Tisch — stol ustida"
+        ],
+        [
+          "unter",
+          "ostida",
+          "unter dem Bett — karavot ostida"
+        ],
+        [
+          "neben",
+          "yonida",
+          "neben dem Sofa — divan yonida"
+        ],
+        [
+          "hinter",
+          "orqasida",
+          "hinter dem Haus — uy orqasida"
+        ],
+        [
+          "an",
+          "(devorda, deraza oldida)",
+          "an der Wand — devorda"
+        ],
+        [
+          "in",
+          "ichida",
+          "im Schrank — shkafda"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Uchta fe'lga e'tibor bering: liegen — yotmoq (kitob, telefon, gilam), stehen — turmoq (stul, shkaf, shisha), hängen — osilib turmoq (rasm, lampa, kurtka)."
+    },
+    {
+      "type": "tip",
+      "text": "O'zbek tilida joy qo'shimchasi so'z oxirida keladi (stol ustida), nemis tilida esa predlog so'z oldida: auf dem Tisch. Yana: links — chapda, rechts — o'ngda."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-auf",
+      "de": "auf",
+      "uz": "ustida",
+      "pos": "preposition",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Das Handy liegt auf dem Tisch.",
+      "example_uz": "Telefon stol ustida yotibdi.",
+      "topic": "home"
+    },
+    {
+      "id": "v-unter",
+      "de": "unter",
+      "uz": "ostida",
+      "pos": "preposition",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Die Katze ist unter dem Bett.",
+      "example_uz": "Mushuk karavot ostida.",
+      "topic": "home"
+    },
+    {
+      "id": "v-neben",
+      "de": "neben",
+      "uz": "yonida",
+      "pos": "preposition",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Der Stuhl steht neben dem Schrank.",
+      "example_uz": "Stul shkafning yonida turibdi.",
+      "topic": "home"
+    },
+    {
+      "id": "v-hinter",
+      "de": "hinter",
+      "uz": "orqasida",
+      "pos": "preposition",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Der Garten ist hinter dem Haus.",
+      "example_uz": "Bog' uyning orqasida.",
+      "topic": "home"
+    },
+    {
+      "id": "v-links",
+      "de": "links",
+      "uz": "chapda, chapga",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Die Küche ist links.",
+      "example_uz": "Oshxona chapda.",
+      "topic": "directions"
+    },
+    {
+      "id": "v-rechts",
+      "de": "rechts",
+      "uz": "o'ngda, o'ngga",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Das Bad ist rechts.",
+      "example_uz": "Hammom o'ngda.",
+      "topic": "directions"
+    },
+    {
+      "id": "v-die-wand",
+      "de": "Wand",
+      "uz": "devor",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Wände",
+      "forms": null,
+      "example_de": "Das Bild hängt an der Wand.",
+      "example_uz": "Rasm devorda osilib turibdi.",
+      "topic": "home"
+    },
+    {
+      "id": "v-der-boden",
+      "de": "Boden",
+      "uz": "pol",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Böden",
+      "forms": null,
+      "example_de": "Der Teppich liegt auf dem Boden.",
+      "example_uz": "Gilam polda yotibdi.",
+      "topic": "home"
+    },
+    {
+      "id": "v-der-keller",
+      "de": "Keller",
+      "uz": "yerto'la",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Keller",
+      "forms": null,
+      "example_de": "Das Fahrrad ist im Keller.",
+      "example_uz": "Velosiped yerto'lada.",
+      "topic": "home"
+    },
+    {
+      "id": "v-die-treppe",
+      "de": "Treppe",
+      "uz": "zinapoya",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Treppen",
+      "forms": null,
+      "example_de": "Die Treppe ist neben der Tür.",
+      "example_uz": "Zinapoya eshikning yonida.",
+      "topic": "home"
+    },
+    {
+      "id": "v-liegen",
+      "de": "liegen",
+      "uz": "yotmoq (narsa)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "gelegen",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "liegt"
+      },
+      "example_de": "Das Buch liegt auf dem Regal.",
+      "example_uz": "Kitob javonda yotibdi.",
+      "topic": "home"
+    },
+    {
+      "id": "v-stehen",
+      "de": "stehen",
+      "uz": "turmoq (tik holda)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "gestanden",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "steht"
+      },
+      "example_de": "Die Lampe steht neben dem Sofa.",
+      "example_uz": "Chiroq divan yonida turibdi.",
+      "topic": "home"
+    },
+    {
+      "id": "v-hängen",
+      "de": "hängen",
+      "uz": "osilib turmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "gehangen",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "hängt"
+      },
+      "example_de": "Die Jacke hängt im Flur.",
+      "example_uz": "Kurtka dahlizda osilib turibdi.",
+      "topic": "home"
+    }
+  ],
+  "review_vocabulary": [
+    "v-der-tisch",
+    "v-das-bett",
+    "v-der-schrank",
+    "v-das-sofa",
+    "v-die-lampe",
+    "v-das-regal",
+    "v-der-teppich",
+    "v-die-küche",
+    "v-das-bad",
+    "v-der-flur",
+    "v-die-jacke",
+    "v-die-tür",
+    "v-der-kühlschrank"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-place-prepositions",
+      "rule": "auf, unter, neben, hinter, an, in — \"Wo?\" (qayerda?) savoliga javob beradi. Ulardan keyin artikl o'zgaradi: der/das → dem, die → der. in + dem = im.",
+      "when": "Narsa yoki odam qayerda ekanini aytganda: uyda, xonada, shaharda.",
+      "structure": "Ot + liegt/steht/hängt/ist + predlog + dem/der + ot:\nDas Buch liegt auf dem Tisch. Die Lampe hängt an der Wand. Der Schrank ist im Zimmer.",
+      "examples": [
+        {
+          "de": "Das Handy liegt auf dem Tisch.",
+          "uz": "Telefon stol ustida yotibdi."
+        },
+        {
+          "de": "Die Schuhe stehen unter dem Bett.",
+          "uz": "Poyabzal karavot ostida turibdi."
+        },
+        {
+          "de": "Das Bild hängt an der Wand.",
+          "uz": "Rasm devorda osilib turibdi."
+        },
+        {
+          "de": "Der Kühlschrank ist in der Küche.",
+          "uz": "Muzlatgich oshxonada."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Das Buch liegt auf der Tisch.",
+          "right": "Das Buch liegt auf dem Tisch.",
+          "why": "der Tisch → \"Wo?\" savolida dem: auf dem Tisch."
+        },
+        {
+          "wrong": "Ich bin in dem Zimmer.",
+          "right": "Ich bin im Zimmer.",
+          "why": "in + dem odatda qisqartiriladi: im."
+        },
+        {
+          "wrong": "Das Bild liegt an der Wand.",
+          "right": "Das Bild hängt an der Wand.",
+          "why": "Devordagi narsa osilib turadi — hängen. liegen — gorizontal yotish."
+        }
+      ],
+      "check": [
+        "a1-m09-l3-e02",
+        "a1-m09-l3-e03",
+        "a1-m09-l3-e04",
+        "a1-m09-l3-e05",
+        "a1-m09-l3-e06"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Telefon qayerda?",
+    "lines": [
+      {
+        "speaker": "Kamol",
+        "de": "Mama, wo ist mein Handy?",
+        "uz": "Oyi, telefonim qayerda?"
+      },
+      {
+        "speaker": "Mama",
+        "de": "Liegt es auf dem Tisch in der Küche?",
+        "uz": "Oshxonadagi stol ustida yotmaganmi?"
+      },
+      {
+        "speaker": "Kamol",
+        "de": "Nein, auf dem Tisch liegt es nicht.",
+        "uz": "Yo'q, stol ustida yo'q."
+      },
+      {
+        "speaker": "Mama",
+        "de": "Vielleicht im Wohnzimmer, neben dem Sofa?",
+        "uz": "Balki mehmonxonada, divan yonidadir?"
+      },
+      {
+        "speaker": "Kamol",
+        "de": "Nein ... Ah, hier! Es liegt unter dem Sofa!",
+        "uz": "Yo'q... A, mana! Divan ostida yotibdi!"
+      },
+      {
+        "speaker": "Mama",
+        "de": "Und deine Jacke hängt nicht im Flur. Sie liegt auf dem Boden!",
+        "uz": "Kurtkang esa dahlizda osilmagan. U polda yotibdi!"
+      },
+      {
+        "speaker": "Kamol",
+        "de": "Entschuldigung, Mama!",
+        "uz": "Kechirasiz, oyi!"
+      }
+    ],
+    "questions": [
+      "a1-m09-l3-e08",
+      "a1-m09-l3-e09"
+    ]
+  },
+  "situation": {
+    "title": "Yangi kvartiraga ko'chish",
+    "context_uz": "Siz yangi kvartiraga ko'chyapsiz. Yuk tashuvchi (Möbelpacker) har bir mebelni qayerga qo'yishni so'rayapti.",
+    "lines": [
+      {
+        "speaker": "Möbelpacker",
+        "de": "Wo steht das Sofa?",
+        "uz": "Divan qayerda turadi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Das Sofa steht im Wohnzimmer, links neben dem Fenster.",
+        "uz": "Divan mehmonxonada, chapda, deraza yonida turadi."
+      },
+      {
+        "speaker": "Möbelpacker",
+        "de": "Und der Schrank?",
+        "uz": "Shkaf-chi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Der Schrank steht im Schlafzimmer, rechts.",
+        "uz": "Shkaf yotoqxonada, o'ngda turadi."
+      },
+      {
+        "speaker": "Möbelpacker",
+        "de": "Und die Lampe?",
+        "uz": "Chiroq-chi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Die Lampe hängt im Flur.",
+        "uz": "Chiroq dahlizda osilib turadi."
+      },
+      {
+        "speaker": "Möbelpacker",
+        "de": "Und der Teppich?",
+        "uz": "Gilam-chi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Der Teppich liegt im Wohnzimmer, unter dem Tisch.",
+        "uz": "Gilam mehmonxonada, stol ostida yotadi."
+      }
+    ],
+    "task_uz": "Xonangiz rejasini chizing (yoki tasavvur qiling) va 5 ta gap ayting: har bir mebel qayerda turadi, yotadi yoki osilib turadi. auf, unter, neben, hinter, an, im / in der ishlating."
+  },
+  "exercises": [
+    {
+      "id": "a1-m09-l3-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Predloglarni ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "auf",
+          "ustida"
+        ],
+        [
+          "unter",
+          "ostida"
+        ],
+        [
+          "neben",
+          "yonida"
+        ],
+        [
+          "hinter",
+          "orqasida"
+        ],
+        [
+          "links",
+          "chapda"
+        ],
+        [
+          "rechts",
+          "o'ngda"
+        ]
+      ],
+      "correct_answer": {
+        "auf": "ustida",
+        "unter": "ostida",
+        "neben": "yonida",
+        "hinter": "orqasida",
+        "links": "chapda",
+        "rechts": "o'ngda"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "auf — ustida, unter — ostida, neben — yonida, hinter — orqasida, links — chapda, rechts — o'ngda.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l3-e02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-place-prepositions",
+      "difficulty": 1,
+      "question": "Rasm devorda. Qaysi fe'l to'g'ri? Das Bild ___ an der Wand.",
+      "prompt_de": "Das Bild ___ an der Wand.",
+      "options": [
+        "hängt",
+        "liegt",
+        "steht"
+      ],
+      "pairs": null,
+      "correct_answer": "hängt",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Devordagi rasm osilib turadi — hängen.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l3-e03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-place-prepositions",
+      "difficulty": 1,
+      "question": "To'g'ri variantni tanlang: Das Buch liegt auf ___ Tisch.",
+      "prompt_de": "Das Buch liegt auf ___ Tisch.",
+      "options": [
+        "dem",
+        "der",
+        "den"
+      ],
+      "pairs": null,
+      "correct_answer": "dem",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Tisch → \"Wo?\" savolida dem: auf dem Tisch.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l3-e04",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-place-prepositions",
+      "difficulty": 2,
+      "question": "Bo'sh joyni to'ldiring: Die Lampe steht neben ___ Tür.",
+      "prompt_de": "Die Lampe steht neben ___ Tür.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "der",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "die → der",
+      "explanation": "die Tür → \"Wo?\" savolida der: neben der Tür.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l3-e05",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-place-prepositions",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (in + dem): Mein Bruder ist ___ Keller.",
+      "prompt_de": "Mein Bruder ist ___ Keller.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "im",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "in + dem = im: im Keller (yerto'lada).",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l3-e06",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-place-prepositions",
+      "difficulty": 2,
+      "question": "Xato so'zni toping: \"Die Schuhe stehen unter der Bett.\"",
+      "prompt_de": "Die Schuhe stehen unter der Bett.",
+      "options": [
+        "Die",
+        "Schuhe",
+        "stehen",
+        "unter",
+        "der",
+        "Bett"
+      ],
+      "pairs": null,
+      "correct_answer": "der",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: \"unter dem Bett\". das Bett → dem.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l3-e07",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "Fe'lni tuslang: Das Handy ___ (liegen) auf dem Sofa.",
+      "prompt_de": "Das Handy ___ (liegen) auf dem Sofa.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "liegt",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "das Handy = es → liegt.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l3-e08",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni tinglang. Telefon qayerda edi?",
+      "prompt_de": null,
+      "options": [
+        "Divan ostida",
+        "Stol ustida",
+        "Divan yonida"
+      ],
+      "pairs": null,
+      "correct_answer": "Divan ostida",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Es liegt unter dem Sofa!\" unter — ostida.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Mama, wo ist mein Handy? Liegt es auf dem Tisch in der Küche? Nein, auf dem Tisch liegt es nicht. Vielleicht im Wohnzimmer, neben dem Sofa? Nein ... Ah, hier! Es liegt unter dem Sofa! Und deine Jacke hängt nicht im Flur. Sie liegt auf dem Boden! Entschuldigung, Mama!"
+    },
+    {
+      "id": "a1-m09-l3-e09",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Dialogni tinglang. Kamolning kurtkasi qayerda?",
+      "prompt_de": null,
+      "options": [
+        "Polda",
+        "Dahlizda osilgan",
+        "Shkafda"
+      ],
+      "pairs": null,
+      "correct_answer": "Polda",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Sie liegt auf dem Boden!\" der Boden — pol.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Mama, wo ist mein Handy? Liegt es auf dem Tisch in der Küche? Nein, auf dem Tisch liegt es nicht. Vielleicht im Wohnzimmer, neben dem Sofa? Nein ... Ah, hier! Es liegt unter dem Sofa! Und deine Jacke hängt nicht im Flur. Sie liegt auf dem Boden! Entschuldigung, Mama!"
+    },
+    {
+      "id": "a1-m09-l3-e10",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "home",
+      "grammar_topic": "g-place-prepositions",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Muzlatgich oshxonada.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Der Kühlschrank ist in der Küche.",
+      "accepted_answers": [
+        "Der Kühlschrank steht in der Küche."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Küche → in der Küche.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l3-e11",
+      "version": 1,
+      "type": "speak",
+      "skill": "speaking",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Ovoz chiqarib ayting: xonangizdagi kamida 3 ta narsa qayerda?",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 12,
+        "required_words": [
+          "auf",
+          "neben"
+        ],
+        "sample": "Das Bett steht links. Der Tisch steht neben dem Fenster. Mein Handy liegt auf dem Tisch. Das Bild hängt an der Wand."
+      },
+      "hint": null,
+      "explanation": "Namuna: \"Das Bett steht links. Der Tisch steht neben dem Fenster. Mein Handy liegt auf dem Tisch.\" liegen/stehen/hängen ni to'g'ri tanlang.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l3-e12",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-place-prepositions",
+      "difficulty": 1,
+      "question": "So'zlarni tartiblang: \"Rasm devorda osilib turibdi.\"",
+      "prompt_de": null,
+      "options": [
+        "der",
+        "Das",
+        "hängt",
+        "Wand",
+        "Bild",
+        "an"
+      ],
+      "pairs": null,
+      "correct_answer": "Das Bild hängt an der Wand",
+      "accepted_answers": [
+        "An der Wand hängt das Bild"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ega + fe'l + joy. Joy bilan boshlash ham mumkin: An der Wand hängt das Bild.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a1-m09-l3-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-place-prepositions",
+      "difficulty": 1,
+      "question": "To'g'ri variantni tanlang: Das Sofa steht ___ Wohnzimmer.",
+      "prompt_de": "Das Sofa steht ___ Wohnzimmer.",
+      "options": [
+        "im",
+        "in der",
+        "auf dem"
+      ],
+      "pairs": null,
+      "correct_answer": "im",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "das Wohnzimmer → im Wohnzimmer (in + dem).",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l3-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-place-prepositions",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: Die Katze schläft unter ___ Tisch.",
+      "prompt_de": "Die Katze schläft unter ___ Tisch.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "dem",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Tisch → unter dem Tisch.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l3-t03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-place-prepositions",
+      "difficulty": 1,
+      "question": "To'g'ri fe'lni tanlang: Der Teppich ___ auf dem Boden.",
+      "prompt_de": "Der Teppich ___ auf dem Boden.",
+      "options": [
+        "liegt",
+        "hängt",
+        "steht"
+      ],
+      "pairs": null,
+      "correct_answer": "liegt",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Gilam polda yotadi — liegen.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l3-t04",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "directions",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Das Bad ist rechts.\"",
+      "prompt_de": "Das Bad ist rechts.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Hammom o'ngda.",
+      "accepted_answers": [
+        "Vannaxona o'ngda",
+        "Hammom o'ng tomonda"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "rechts — o'ngda.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l3-t05",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Oshxona qayerda?",
+      "prompt_de": null,
+      "options": [
+        "Chapda",
+        "O'ngda",
+        "Yerto'lada"
+      ],
+      "pairs": null,
+      "correct_answer": "Chapda",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Die Küche ist links\" — chapda.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Die Küche ist links, das Bad ist rechts."
+    },
+    {
+      "id": "a1-m09-l3-t06",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-place-prepositions",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: Das Bild hängt an ___ Wand.",
+      "prompt_de": "Das Bild hängt an ___ Wand.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "der",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Wand → an der Wand.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l3-t07",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Mehmon so'raydi: \"Wo ist das Bad?\" Hammom dahlizda, o'ng tomonda. Nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Im Flur, rechts.",
+        "Auf dem Tisch.",
+        "Unter dem Bett, links."
+      ],
+      "pairs": null,
+      "correct_answer": "Im Flur, rechts.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Flur → im Flur; rechts — o'ngda.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m09-l3-t08",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Matnni o'qing. Kitoblar qayerda?",
+      "prompt_de": "Mein Zimmer ist klein, aber gemütlich. Das Bett steht links. Rechts steht ein Schrank. Der Tisch steht neben dem Fenster. Auf dem Tisch liegen meine Bücher.",
+      "options": [
+        "Stol ustida",
+        "Shkafda",
+        "Karavot ostida"
+      ],
+      "pairs": null,
+      "correct_answer": "Stol ustida",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Auf dem Tisch liegen meine Bücher.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

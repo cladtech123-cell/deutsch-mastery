@@ -1,0 +1,803 @@
+{
+  "id": "a2-m14-l1",
+  "version": 1,
+  "level": "A2",
+  "module": 14,
+  "order": 1,
+  "title": "Mehmonxonada xona bron qilish",
+  "title_de": "Ein Zimmer buchen",
+  "goal": "Dars oxirida telefonda yoki qabulxonada muloyim shaklda xona bron qila olasiz: xona turi, kechalar soni va nonushta haqida so'raysiz (Ich hätte gern ..., Ist ... inklusive?).",
+  "skill_focus": [
+    "speaking",
+    "vocabulary",
+    "listening"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Mehmonxonada, kassada yoki ofisda nemislar xohishni muloyim aytadi. \"Ich will ...\" (men xohlayman) qo'pol eshitiladi. Uning o'rniga \"Ich hätte gern ...\" yoki \"Ich möchte ...\" ishlatiladi."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Nima kerak?",
+        "Nemischa ibora",
+        "O'zbekcha"
+      ],
+      "rows": [
+        [
+          "Xona so'rash",
+          "Ich hätte gern ein Einzelzimmer.",
+          "Menga bir kishilik xona kerak edi."
+        ],
+        [
+          "Bron qilish",
+          "Ich möchte ein Doppelzimmer für zwei Nächte buchen.",
+          "Ikki kechaga ikki kishilik xona bron qilmoqchiman."
+        ],
+        [
+          "Mavjudlikni so'rash",
+          "Haben Sie noch ein Zimmer frei?",
+          "Yana bo'sh xonangiz bormi?"
+        ],
+        [
+          "Narxga kirishi",
+          "Ist das Frühstück inklusive?",
+          "Nonushta narxga kiritilganmi?"
+        ],
+        [
+          "Narx",
+          "Was kostet eine Übernachtung?",
+          "Bir kecha qancha turadi?"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "\"Ich hätte gern\" dan keyin Akkusativ keladi: ein Einzelzimmer (das), einen Parkplatz (der), eine Nacht (die). A1 dagi Akkusativ qoidasini eslang: faqat erkak jinsi o'zgaradi (ein → einen)."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-die-unterkunft",
+      "de": "Unterkunft",
+      "uz": "turar joy, yashash joyi (safarda)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Unterkünfte",
+      "forms": null,
+      "example_de": "Wir suchen eine günstige Unterkunft in Wien.",
+      "example_uz": "Vena'da arzon turar joy qidiryapmiz.",
+      "topic": "hotel"
+    },
+    {
+      "id": "v-das-einzelzimmer",
+      "de": "Einzelzimmer",
+      "uz": "bir kishilik xona",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Einzelzimmer",
+      "forms": null,
+      "example_de": "Ich hätte gern ein Einzelzimmer.",
+      "example_uz": "Menga bir kishilik xona kerak edi.",
+      "topic": "hotel"
+    },
+    {
+      "id": "v-das-doppelzimmer",
+      "de": "Doppelzimmer",
+      "uz": "ikki kishilik xona",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Doppelzimmer",
+      "forms": null,
+      "example_de": "Das Doppelzimmer kostet 90 Euro pro Nacht.",
+      "example_uz": "Ikki kishilik xona bir kechaga 90 yevro turadi.",
+      "topic": "hotel"
+    },
+    {
+      "id": "v-die-übernachtung",
+      "de": "Übernachtung",
+      "uz": "tunash, bir kecha qolish",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Übernachtungen",
+      "forms": null,
+      "example_de": "Was kostet eine Übernachtung mit Frühstück?",
+      "example_uz": "Nonushta bilan bir kecha qancha turadi?",
+      "topic": "hotel"
+    },
+    {
+      "id": "v-buchen",
+      "de": "buchen",
+      "uz": "bron qilmoq, buyurtma qilmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "gebucht",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "bucht"
+      },
+      "example_de": "Ich habe online ein Zimmer gebucht.",
+      "example_uz": "Internet orqali xona bron qildim.",
+      "topic": "travel"
+    },
+    {
+      "id": "v-reservieren",
+      "de": "reservieren",
+      "uz": "oldindan band qilmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "reserviert",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "reserviert"
+      },
+      "example_de": "Ich möchte einen Tisch für vier Personen reservieren.",
+      "example_uz": "To'rt kishilik stol band qilmoqchiman.",
+      "topic": "hotel"
+    },
+    {
+      "id": "v-die-rezeption",
+      "de": "Rezeption",
+      "uz": "qabulxona (mehmonxonada)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Rezeptionen",
+      "forms": null,
+      "example_de": "Den Schlüssel bekommen Sie an der Rezeption.",
+      "example_uz": "Kalitni qabulxonadan olasiz.",
+      "topic": "hotel"
+    },
+    {
+      "id": "v-der-aufzug",
+      "de": "Aufzug",
+      "uz": "lift",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Aufzüge",
+      "forms": null,
+      "example_de": "Der Aufzug ist leider kaputt.",
+      "example_uz": "Afsuski, lift ishlamayapti.",
+      "topic": "hotel"
+    },
+    {
+      "id": "v-der-gast",
+      "de": "Gast",
+      "uz": "mehmon",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Gäste",
+      "forms": null,
+      "example_de": "Das Hotel hat heute viele Gäste.",
+      "example_uz": "Bugun mehmonxonada mehmonlar ko'p.",
+      "topic": "hotel"
+    },
+    {
+      "id": "v-das-wlan",
+      "de": "WLAN",
+      "uz": "Wi-Fi, simsiz internet",
+      "pos": "noun",
+      "article": "das",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Gibt es im Zimmer WLAN?",
+      "example_uz": "Xonada Wi-Fi bormi?",
+      "topic": "technology"
+    },
+    {
+      "id": "v-inklusive",
+      "de": "inklusive",
+      "uz": "ichiga kiritilgan, bilan birga",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Das Frühstück ist inklusive.",
+      "example_uz": "Nonushta narxga kiritilgan.",
+      "topic": "hotel"
+    }
+  ],
+  "review_vocabulary": [
+    "v-ausfüllen",
+    "v-bleiben",
+    "v-fliegen"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-polite-requests",
+      "rule": "Xohish va iltimosni muloyim aytish uchun \"Ich hätte gern + Akkusativ\" yoki \"Ich möchte + ... + Infinitiv (oxirida)\" ishlatiladi. Savol: \"Haben Sie ...?\", \"Gibt es ...?\".",
+      "when": "Mehmonxona, restoran, kassa, ofis — notanish odamlar bilan rasmiy vaziyatlarda.",
+      "structure": "Ich hätte gern + ein/einen/eine + ot.  Ich möchte + ot + Infinitiv.  Gibt es + Akkusativ?",
+      "examples": [
+        {
+          "de": "Ich hätte gern ein Doppelzimmer mit Balkon.",
+          "uz": "Menga balkonli ikki kishilik xona kerak edi."
+        },
+        {
+          "de": "Ich möchte zwei Nächte bleiben.",
+          "uz": "Ikki kecha qolmoqchiman."
+        },
+        {
+          "de": "Gibt es einen Parkplatz am Hotel?",
+          "uz": "Mehmonxona yonida avtoturargoh bormi?"
+        },
+        {
+          "de": "Haben Sie noch ein Einzelzimmer frei?",
+          "uz": "Yana bo'sh bir kishilik xonangiz bormi?"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Ich will ein Zimmer.",
+          "right": "Ich hätte gern ein Zimmer.",
+          "why": "\"Ich will\" buyruqdek, qo'pol eshitiladi. Rasmiy vaziyatda \"Ich hätte gern\" yoki \"Ich möchte\"."
+        },
+        {
+          "wrong": "Ich möchte buchen ein Zimmer.",
+          "right": "Ich möchte ein Zimmer buchen.",
+          "why": "Modal fe'l bilan ikkinchi fe'l (Infinitiv) gap oxiriga o'tadi."
+        },
+        {
+          "wrong": "Ich hätte gern einen Doppelzimmer.",
+          "right": "Ich hätte gern ein Doppelzimmer.",
+          "why": "\"Zimmer\" — das, Akkusativda o'zgarmaydi: ein Doppelzimmer."
+        }
+      ],
+      "check": [
+        "a2-m14-l1-e03",
+        "a2-m14-l1-e04",
+        "a2-m14-l1-e05"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Telefon orqali bron",
+    "lines": [
+      {
+        "speaker": "Hotel",
+        "de": "Hotel Lindenhof, guten Tag! Was kann ich für Sie tun?",
+        "uz": "Lindenhof mehmonxonasi, assalomu alaykum! Sizga qanday yordam bera olaman?"
+      },
+      {
+        "speaker": "Herr Rahimov",
+        "de": "Guten Tag! Ich möchte ein Doppelzimmer für drei Nächte reservieren.",
+        "uz": "Assalomu alaykum! Uch kechaga ikki kishilik xona band qilmoqchiman."
+      },
+      {
+        "speaker": "Hotel",
+        "de": "Gern. Ab wann?",
+        "uz": "Mamnuniyat bilan. Qachondan boshlab?"
+      },
+      {
+        "speaker": "Herr Rahimov",
+        "de": "Ab Freitag. Was kostet eine Übernachtung?",
+        "uz": "Jumadan. Bir kecha qancha turadi?"
+      },
+      {
+        "speaker": "Hotel",
+        "de": "95 Euro pro Nacht. Das Frühstück ist inklusive.",
+        "uz": "Bir kechaga 95 yevro. Nonushta narxga kiritilgan."
+      },
+      {
+        "speaker": "Herr Rahimov",
+        "de": "Sehr gut. Gibt es auch WLAN?",
+        "uz": "Juda yaxshi. Wi-Fi ham bormi?"
+      },
+      {
+        "speaker": "Hotel",
+        "de": "Ja, natürlich, kostenlos.",
+        "uz": "Ha, albatta, bepul."
+      }
+    ],
+    "questions": [
+      "a2-m14-l1-e06",
+      "a2-m14-l1-e07"
+    ]
+  },
+  "situation": {
+    "title": "Qabulxonada ro'yxatdan o'tish",
+    "context_uz": "Siz Myunxendagi mehmonxonaga keldingiz. Xonani internet orqali bron qilgansiz. Qabulxonadagi xodim bilan gaplashyapsiz.",
+    "lines": [
+      {
+        "speaker": "Rezeption",
+        "de": "Guten Abend! Haben Sie eine Reservierung?",
+        "uz": "Xayrli kech! Bron qilganmisiz?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ja, auf den Namen Karimova. Ich habe ein Einzelzimmer gebucht.",
+        "uz": "Ha, Karimova nomiga. Bir kishilik xona bron qilganman."
+      },
+      {
+        "speaker": "Rezeption",
+        "de": "Einen Moment ... Ja, zwei Nächte. Bitte füllen Sie das Formular aus.",
+        "uz": "Bir daqiqa... Ha, ikki kecha. Iltimos, blankani to'ldiring."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Gern. Ist das Frühstück inklusive?",
+        "uz": "Mayli. Nonushta narxga kiritilganmi?"
+      },
+      {
+        "speaker": "Rezeption",
+        "de": "Ja, von 7 bis 10 Uhr. Hier ist Ihr Schlüssel. Der Aufzug ist links.",
+        "uz": "Ha, soat 7 dan 10 gacha. Mana kalitingiz. Lift chap tomonda."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Vielen Dank!",
+        "uz": "Katta rahmat!"
+      }
+    ],
+    "task_uz": "Dialogni rol bo'yicha o'qing. Keyin o'zgartiring: siz ikki kishilik xonani 3 kechaga bron qilgansiz va Wi-Fi haqida so'raysiz."
+  },
+  "exercises": [
+    {
+      "id": "a2-m14-l1-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "hotel",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemischa so'zni o'zbekcha ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "das Einzelzimmer",
+          "bir kishilik xona"
+        ],
+        [
+          "das Doppelzimmer",
+          "ikki kishilik xona"
+        ],
+        [
+          "die Übernachtung",
+          "bir kecha qolish"
+        ],
+        [
+          "der Aufzug",
+          "lift"
+        ],
+        [
+          "die Rezeption",
+          "qabulxona"
+        ]
+      ],
+      "correct_answer": {
+        "das Einzelzimmer": "bir kishilik xona",
+        "das Doppelzimmer": "ikki kishilik xona",
+        "die Übernachtung": "bir kecha qolish",
+        "der Aufzug": "lift",
+        "die Rezeption": "qabulxona"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Einzel- = bitta, Doppel- = ikki baravar. Übernachtung — \"Nacht\" (tun) so'zidan: tunab qolish.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l1-e02",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "hotel",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "To'g'ri artiklni tanlang: ___ Doppelzimmer",
+      "prompt_de": null,
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "das",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Qo'shma otning artikli oxirgi so'zdan olinadi.",
+      "explanation": "Doppel + Zimmer: oxirgi qism \"das Zimmer\", shuning uchun \"das Doppelzimmer\".",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l1-e03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "hotel",
+      "grammar_topic": "g-polite-requests",
+      "difficulty": 1,
+      "question": "Qabulxonada qaysi gap eng muloyim va to'g'ri?",
+      "prompt_de": null,
+      "options": [
+        "Ich hätte gern ein Einzelzimmer für zwei Nächte.",
+        "Ich will ein Einzelzimmer für zwei Nächte.",
+        "Gib mir ein Einzelzimmer!"
+      ],
+      "pairs": null,
+      "correct_answer": "Ich hätte gern ein Einzelzimmer für zwei Nächte.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Rasmiy vaziyat, notanish odam.",
+      "explanation": "\"Ich hätte gern\" — muloyim. \"Ich will\" qo'pol eshitiladi, \"Gib mir!\" — \"du\" bilan buyruq, mehmonxonada mos emas.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l1-e04",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "hotel",
+      "grammar_topic": "g-polite-requests",
+      "difficulty": 2,
+      "question": "So'zlarni to'g'ri tartibda joylashtiring: \"Men ikki kishilik xona bron qilmoqchiman.\"",
+      "prompt_de": null,
+      "options": [
+        "ein",
+        "Doppelzimmer",
+        "Ich",
+        "möchte",
+        "buchen"
+      ],
+      "pairs": null,
+      "correct_answer": "Ich möchte ein Doppelzimmer buchen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"möchte\" bilan ikkinchi fe'l oxirida.",
+      "explanation": "\"möchte\" — 2-o'rinda, \"buchen\" (Infinitiv) — gap oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l1-e05",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "hotel",
+      "grammar_topic": "g-polite-requests",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: Ich hätte ___ ein Zimmer mit Balkon.",
+      "prompt_de": "Ich hätte ___ ein Zimmer mit Balkon.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "gern",
+      "accepted_answers": [
+        "gerne"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Muloyim ibora: \"Ich hätte gern ...\". \"gerne\" ham to'g'ri.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l1-e06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "hotel",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Herr Rahimov necha kechaga xona band qilyapti?",
+      "prompt_de": null,
+      "options": [
+        "Uch kechaga",
+        "Ikki kechaga",
+        "Besh kechaga"
+      ],
+      "pairs": null,
+      "correct_answer": "Uch kechaga",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"für drei Nächte\" — uch kechaga.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Ich möchte ein Doppelzimmer für drei Nächte reservieren."
+    },
+    {
+      "id": "a2-m14-l1-e07",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "hotel",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang. Narx haqida qaysi gap to'g'ri?",
+      "prompt_de": null,
+      "options": [
+        "95 yevro, nonushta bilan",
+        "95 yevro, nonushtasiz",
+        "59 yevro, nonushta bilan"
+      ],
+      "pairs": null,
+      "correct_answer": "95 yevro, nonushta bilan",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"fünfundneunzig\" = 5 + 90.",
+      "explanation": "\"95 Euro pro Nacht. Das Frühstück ist inklusive\" — bir kechaga 95 yevro, nonushta kiritilgan.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "95 Euro pro Nacht. Das Frühstück ist inklusive."
+    },
+    {
+      "id": "a2-m14-l1-e08",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "hotel",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni davom ettiring. — Guten Abend! Haben Sie eine Reservierung?",
+      "prompt_de": "Guten Abend! Haben Sie eine Reservierung?",
+      "options": [
+        "Ja, auf den Namen Karimov.",
+        "Ja, ich habe ein Zimmer gemacht.",
+        "Nein, ich bin die Rezeption."
+      ],
+      "pairs": null,
+      "correct_answer": "Ja, auf den Namen Karimov.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Bron haqida so'rashganda ism aytiladi: \"auf den Namen ...\" — ... nomiga.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l1-e09",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "hotel",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Nonushta narxga kiritilganmi?\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ist das Frühstück inklusive?",
+      "accepted_answers": [
+        "Ist Frühstück inklusive?",
+        "Ist das Frühstück im Preis inklusive?",
+        "Ist das Frühstück im Preis enthalten?",
+        "Ist das Frühstück dabei?"
+      ],
+      "criteria": null,
+      "hint": "inklusive",
+      "explanation": "Ha/yo'q savolida fe'l birinchi: Ist das Frühstück inklusive?",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l1-e10",
+      "version": 1,
+      "type": "plural",
+      "skill": "vocabulary",
+      "topic": "hotel",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Ko'plik shaklini yozing: die Übernachtung → ?",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "die Übernachtungen",
+      "accepted_answers": [
+        "Übernachtungen"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"-ung\" bilan tugaydigan otlar ko'plikda \"-en\" oladi: die Übernachtungen.",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l1-e11",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "reading",
+      "topic": "services",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Bitte füllen Sie das Formular aus.\"",
+      "prompt_de": "Bitte füllen Sie das Formular aus.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Iltimos, blankani to'ldiring.",
+      "accepted_answers": [
+        "Iltimos, anketani to'ldiring.",
+        "Iltimos, formani to'ldiring.",
+        "Blankani to'ldiring, iltimos.",
+        "Iltimos, shaklni to'ldiring."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"ausfüllen\" — to'ldirmoq (ajraladigan fe'l: füllen ... aus). \"das Formular\" — blanka, anketa.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a2-m14-l1-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "hotel",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "\"der Aufzug\" nima?",
+      "prompt_de": null,
+      "options": [
+        "lift",
+        "zinapoya",
+        "qabulxona"
+      ],
+      "pairs": null,
+      "correct_answer": "lift",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Aufzug — lift. Zinapoya — die Treppe, qabulxona — die Rezeption.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l1-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "vocabulary",
+      "topic": "hotel",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (bron qilmoq): Ich möchte ein Zimmer ___.",
+      "prompt_de": "Ich möchte ein Zimmer ___.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "buchen",
+      "accepted_answers": [
+        "reservieren"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"buchen\" yoki \"reservieren\" — bron qilmoq. \"möchte\" bilan Infinitiv oxirida.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l1-t03",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "services",
+      "grammar_topic": "g-perfekt",
+      "difficulty": 2,
+      "question": "\"ausfüllen\" fe'lining Partizip II shaklini yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "ausgefüllt",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ajraladigan fe'l: aus + ge + füllt = ausgefüllt. Ich habe das Formular ausgefüllt.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l1-t04",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "technology",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Xonada internetga ulanmoqchisiz. Qabulxonada nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Entschuldigung, wie ist das WLAN-Passwort?",
+        "Ich will WLAN!",
+        "Haben Sie ein Doppelzimmer?"
+      ],
+      "pairs": null,
+      "correct_answer": "Entschuldigung, wie ist das WLAN-Passwort?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Muloyim murojaat \"Entschuldigung\" bilan boshlanadi. \"Ich will WLAN!\" — qo'pol.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l1-t05",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "hotel",
+      "grammar_topic": "g-polite-requests",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Menga bir kishilik xona kerak edi.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich hätte gern ein Einzelzimmer.",
+      "accepted_answers": [
+        "Ich hätte gerne ein Einzelzimmer.",
+        "Ich möchte ein Einzelzimmer.",
+        "Ich möchte gern ein Einzelzimmer."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Muloyim so'rov: Ich hätte gern / Ich möchte + ein Einzelzimmer (das).",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l1-t06",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "hotel",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang va eshitganingizni yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Wir haben ein Doppelzimmer gebucht.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"buchen\" → gebucht (Perfekt, haben).",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": "Wir haben ein Doppelzimmer gebucht."
+    },
+    {
+      "id": "a2-m14-l1-t07",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "hotel",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "To'g'ri artiklni tanlang: ___ Gast",
+      "prompt_de": null,
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "der",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Gast — mehmon, ko'pligi: die Gäste.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

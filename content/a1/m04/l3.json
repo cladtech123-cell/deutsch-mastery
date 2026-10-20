@@ -1,0 +1,902 @@
+{
+  "id": "a1-m04-l3",
+  "version": 1,
+  "level": "A1",
+  "module": 4,
+  "order": 3,
+  "title": "Mening oilam: egalik so'zlari",
+  "title_de": "Meine Familie: mein, dein, unser",
+  "goal": "Dars oxirida mein, dein, sein, ihr, unser, euer, Ihr so'zlarini otning jinsiga mos (mein/meine) ishlatasiz va oilangiz haqida 5–6 gaplik qisqa hikoya aytib yoza olasiz.",
+  "skill_focus": [
+    "grammar",
+    "writing",
+    "speaking"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Egalik so'zi \"kimning?\" savoliga javob beradi: mening, sening, uning ... O'zbek tilida bu qo'shimcha bilan (-im, -ing), nemis tilida esa ot oldidagi so'z bilan ifodalanadi: mein Vater — otam."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Kim?",
+        "der / das otlar",
+        "die otlar va ko'plik"
+      ],
+      "rows": [
+        [
+          "ich",
+          "mein Vater",
+          "meine Mutter, meine Eltern"
+        ],
+        [
+          "du",
+          "dein Bruder",
+          "deine Schwester"
+        ],
+        [
+          "er",
+          "sein Sohn",
+          "seine Tochter"
+        ],
+        [
+          "sie (u, ayol)",
+          "ihr Mann",
+          "ihre Kinder"
+        ],
+        [
+          "wir",
+          "unser Opa",
+          "unsere Oma"
+        ],
+        [
+          "ihr",
+          "euer Hund",
+          "eure Katze"
+        ],
+        [
+          "Sie",
+          "Ihr Kind",
+          "Ihre Familie"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Qoida oddiy: egalik so'zi \"ein\" kabi o'zgaradi — die-ot va ko'plik oldida oxiriga -e qo'shiladi: mein → meine, unser → unsere, euer → eure."
+    },
+    {
+      "type": "tip",
+      "text": "O'zbekcha \"uning\" ikkala jins uchun bitta, nemis tilida esa egasiga qarab tanlanadi: Jasur und sein Sohn (Jasur va uning o'g'li), Malika und ihr Sohn (Malika va uning o'g'li)."
+    },
+    {
+      "type": "tip",
+      "text": "\"Ihr\" (katta harf) — Sizning (rasmiy): Ist das Ihr Hund? \"ihr\" (kichik harf) — uning (ayol) yoki ularning."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-mein",
+      "de": "mein",
+      "uz": "mening",
+      "pos": "pronoun",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Das ist mein Vater.",
+      "example_uz": "Bu mening otam.",
+      "topic": "family"
+    },
+    {
+      "id": "v-dein",
+      "de": "dein",
+      "uz": "sening",
+      "pos": "pronoun",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Wie heißt deine Schwester?",
+      "example_uz": "Singlingning ismi nima?",
+      "topic": "family"
+    },
+    {
+      "id": "v-unser",
+      "de": "unser",
+      "uz": "bizning",
+      "pos": "pronoun",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Unsere Oma wohnt in Samarkand.",
+      "example_uz": "Buvimiz Samarqandda yashaydi.",
+      "topic": "family"
+    },
+    {
+      "id": "v-euer",
+      "de": "euer",
+      "uz": "sizlarning",
+      "pos": "pronoun",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Ist das euer Hund?",
+      "example_uz": "Bu sizlarning itingizmi?",
+      "topic": "family"
+    },
+    {
+      "id": "v-die-ehefrau",
+      "de": "Ehefrau",
+      "uz": "xotin, rafiqa",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Ehefrauen",
+      "forms": null,
+      "example_de": "Das ist meine Ehefrau Malika.",
+      "example_uz": "Bu mening rafiqam Malika.",
+      "topic": "family"
+    },
+    {
+      "id": "v-der-ehemann",
+      "de": "Ehemann",
+      "uz": "er, turmush o'rtoq",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Ehemänner",
+      "forms": null,
+      "example_de": "Ihr Ehemann heißt Jasur.",
+      "example_uz": "Uning erining ismi Jasur.",
+      "topic": "family"
+    },
+    {
+      "id": "v-der-hund",
+      "de": "Hund",
+      "uz": "it",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Hunde",
+      "forms": null,
+      "example_de": "Unser Hund ist klein.",
+      "example_uz": "Bizning itimiz kichik.",
+      "topic": "family"
+    },
+    {
+      "id": "v-die-katze",
+      "de": "Katze",
+      "uz": "mushuk",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Katzen",
+      "forms": null,
+      "example_de": "Die Katze heißt Mimi.",
+      "example_uz": "Mushukning ismi Mimi.",
+      "topic": "family"
+    },
+    {
+      "id": "v-lieben",
+      "de": "lieben",
+      "uz": "sevmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "praesens_3sg": "liebt",
+        "partizip2": "geliebt",
+        "perfekt_aux": "haben"
+      },
+      "example_de": "Ich liebe meine Familie.",
+      "example_uz": "Men oilamni yaxshi ko'raman.",
+      "topic": "family"
+    },
+    {
+      "id": "v-zusammen",
+      "de": "zusammen",
+      "uz": "birga",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Wir wohnen zusammen.",
+      "example_uz": "Biz birga yashaymiz.",
+      "topic": "family"
+    },
+    {
+      "id": "v-die-großeltern",
+      "de": "Großeltern",
+      "uz": "bobo va buvi (faqat ko'plikda)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Großeltern",
+      "forms": null,
+      "example_de": "Meine Großeltern wohnen in Buchara.",
+      "example_uz": "Bobom va buvim Buxoroda yashaydi.",
+      "topic": "family"
+    },
+    {
+      "id": "v-das-enkelkind",
+      "de": "Enkelkind",
+      "uz": "nevara",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Enkelkinder",
+      "forms": null,
+      "example_de": "Die Oma hat fünf Enkelkinder.",
+      "example_uz": "Buvining beshta nevarasi bor.",
+      "topic": "family"
+    },
+    {
+      "id": "v-geschieden",
+      "de": "geschieden",
+      "uz": "ajrashgan",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Meine Eltern sind geschieden.",
+      "example_uz": "Ota-onam ajrashgan.",
+      "topic": "personal-info"
+    }
+  ],
+  "review_vocabulary": [
+    "v-der-vater",
+    "v-die-mutter",
+    "v-der-bruder",
+    "v-die-schwester",
+    "v-das-kind",
+    "v-der-sohn",
+    "v-die-tochter",
+    "v-die-eltern",
+    "v-die-familie",
+    "v-der-mann",
+    "v-die-frau",
+    "v-verheiratet",
+    "v-ledig",
+    "v-groß",
+    "v-klein",
+    "v-nett",
+    "v-lustig",
+    "v-wohnen",
+    "v-heißen",
+    "v-der-name"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-possessive",
+      "rule": "Egalik so'zlari: mein, dein, sein, ihr, unser, euer, Ihr. Ular otning jinsiga qarab o'zgaradi: der/das-ot oldida asosiy shakl (mein), die-ot va ko'plik oldida -e bilan (meine).",
+      "when": "Kimgadir yoki nimagadir egalikni bildirganda: oilangiz, uyingiz, narsalaringiz haqida.",
+      "structure": "mein/dein/sein ... + der/das-ot  |  meine/deine/seine ... + die-ot yoki ko'plik",
+      "examples": [
+        {
+          "de": "Das ist meine Familie: mein Mann, meine Tochter und mein Sohn.",
+          "uz": "Bu mening oilam: erim, qizim va o'g'lim."
+        },
+        {
+          "de": "Wie heißt dein Hund?",
+          "uz": "Itingning ismi nima?"
+        },
+        {
+          "de": "Malika und ihr Mann wohnen in Bonn.",
+          "uz": "Malika va uning eri Bonnda yashaydi."
+        },
+        {
+          "de": "Unsere Großeltern sind sehr nett.",
+          "uz": "Bobo-buvimiz juda mehribon."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "mein Mutter",
+          "right": "meine Mutter",
+          "why": "Mutter — die-ot, shuning uchun meine."
+        },
+        {
+          "wrong": "Malika und sein Mann",
+          "right": "Malika und ihr Mann",
+          "why": "Ega ayol (Malika) — ihr. sein — ega erkak bo'lganda."
+        },
+        {
+          "wrong": "Meine Eltern ist nett.",
+          "right": "Meine Eltern sind nett.",
+          "why": "Eltern — ko'plik → sind."
+        }
+      ],
+      "check": [
+        "a1-m04-l3-e01",
+        "a1-m04-l3-e02",
+        "a1-m04-l3-e03",
+        "a1-m04-l3-e04",
+        "a1-m04-l3-e07"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Video qo'ng'iroq",
+    "lines": [
+      {
+        "speaker": "Anna",
+        "de": "Hallo Malika! Wer ist das neben dir?",
+        "uz": "Salom, Malika! Yoningdagi kim?"
+      },
+      {
+        "speaker": "Malika",
+        "de": "Das ist mein Mann Jasur. Und das sind unsere Kinder.",
+        "uz": "Bu erim Jasur. Bular esa bolalarimiz."
+      },
+      {
+        "speaker": "Anna",
+        "de": "Wie heißen eure Kinder?",
+        "uz": "Bolalaringizning ismi nima?"
+      },
+      {
+        "speaker": "Malika",
+        "de": "Unsere Tochter heißt Lola und unser Sohn heißt Ali.",
+        "uz": "Qizimizning ismi Lola, o'g'limizning ismi Ali."
+      },
+      {
+        "speaker": "Anna",
+        "de": "Und die Katze? Ist das eure Katze?",
+        "uz": "Mushuk-chi? Bu sizlarning mushugingizmi?"
+      },
+      {
+        "speaker": "Malika",
+        "de": "Nein, das ist die Katze von Lola. Sie liebt ihre Katze!",
+        "uz": "Yo'q, bu Lolaning mushugi. U mushugini juda yaxshi ko'radi!"
+      }
+    ],
+    "questions": [
+      "a1-m04-l3-e05",
+      "a1-m04-l3-e06"
+    ]
+  },
+  "situation": {
+    "title": "Hamkasb bilan suhbat",
+    "context_uz": "Ishxonada hamkasbingiz Herr Becker telefonidagi suratni ko'rsatyapti. Siz rasmiy (Sie) gaplashasiz.",
+    "lines": [
+      {
+        "speaker": "Herr Becker",
+        "de": "Schauen Sie, das ist meine Familie.",
+        "uz": "Qarang, bu mening oilam."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Oh, schön! Ist das Ihre Frau?",
+        "uz": "Voy, ajoyib! Bu rafiqangizmi?"
+      },
+      {
+        "speaker": "Herr Becker",
+        "de": "Ja, das ist meine Frau Sabine. Und das sind unsere Enkelkinder.",
+        "uz": "Ha, bu rafiqam Sabine. Bular esa nevaralarimiz."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Wie alt sind Ihre Enkelkinder?",
+        "uz": "Nevaralaringiz necha yoshda?"
+      },
+      {
+        "speaker": "Herr Becker",
+        "de": "Drei und sechs. Und Sie? Haben Sie Familie?",
+        "uz": "Uch va olti yoshda. Siz-chi? Oilangiz bormi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ja, meine Familie wohnt in Usbekistan.",
+        "uz": "Ha, oilam O'zbekistonda yashaydi."
+      }
+    ],
+    "task_uz": "Herr Beckerga o'z oilangiz haqida 3–4 gap bilan javob bering (mein/meine, unser/unsere). Keyin unga yana bitta savol bering (Ihr/Ihre bilan)."
+  },
+  "exercises": [
+    {
+      "id": "a1-m04-l3-e01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-possessive",
+      "difficulty": 1,
+      "question": "___ Mutter heißt Gulnora. (mening)",
+      "prompt_de": "___ Mutter heißt Gulnora.",
+      "options": [
+        "Mein",
+        "Meine",
+        "Meinen"
+      ],
+      "pairs": null,
+      "correct_answer": "Meine",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Mutter → meine Mutter.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l3-e02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-possessive",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (mening): Das ist ___ Vater.",
+      "prompt_de": "Das ist ___ Vater.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "mein",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Vater → mein Vater.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l3-e03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-possessive",
+      "difficulty": 2,
+      "question": "\"Malika va uning eri Jasur.\" → Malika und ___ Mann Jasur.",
+      "prompt_de": "Malika und ___ Mann Jasur.",
+      "options": [
+        "sein",
+        "ihr",
+        "ihre"
+      ],
+      "pairs": null,
+      "correct_answer": "ihr",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Ega kim — erkakmi, ayolmi? Mann qaysi jinsda?",
+      "explanation": "Ega ayol (Malika) → ihr; Mann — der → ihr (ihre emas).",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l3-e04",
+      "version": 1,
+      "type": "match",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-possessive",
+      "difficulty": 1,
+      "question": "Olmoshni egalik so'zi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "ich",
+          "mein"
+        ],
+        [
+          "du",
+          "dein"
+        ],
+        [
+          "er",
+          "sein"
+        ],
+        [
+          "wir",
+          "unser"
+        ],
+        [
+          "ihr",
+          "euer"
+        ]
+      ],
+      "correct_answer": {
+        "ich": "mein",
+        "du": "dein",
+        "er": "sein",
+        "wir": "unser",
+        "ihr": "euer"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "ich → mein, du → dein, er → sein, wir → unser, ihr → euer.",
+      "error_type": "other",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l3-e05",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "family",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Jasur kim?",
+      "prompt_de": null,
+      "options": [
+        "Malikaning akasi",
+        "Malikaning eri",
+        "Malikaning o'g'li"
+      ],
+      "pairs": null,
+      "correct_answer": "Malikaning eri",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"mein Mann\" — mening erim.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Das ist mein Mann Jasur. Und das sind unsere Kinder."
+    },
+    {
+      "id": "a1-m04-l3-e06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "family",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Mushuk kimniki?",
+      "prompt_de": null,
+      "options": [
+        "Annaniki",
+        "Malikaniki",
+        "Lolaniki"
+      ],
+      "pairs": null,
+      "correct_answer": "Lolaniki",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"die Katze von Lola\" — Lolaning mushugi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Nein, das ist die Katze von Lola. Sie liebt ihre Katze!"
+    },
+    {
+      "id": "a1-m04-l3-e07",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-possessive",
+      "difficulty": 1,
+      "question": "Gapdagi xato so'zni toping: \"Das ist mein Frau.\"",
+      "prompt_de": "Das ist mein Frau.",
+      "options": [
+        "Das",
+        "ist",
+        "mein",
+        "Frau"
+      ],
+      "pairs": null,
+      "correct_answer": "mein",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Frau → meine Frau.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l3-e08",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-possessive",
+      "difficulty": 1,
+      "question": "So'zlarni tartiblang: \"Bobo-buvimiz Samarqandda yashaydi.\"",
+      "prompt_de": null,
+      "options": [
+        "wohnen",
+        "Großeltern",
+        "in",
+        "Samarkand",
+        "Unsere"
+      ],
+      "pairs": null,
+      "correct_answer": "Unsere Großeltern wohnen in Samarkand.",
+      "accepted_answers": [
+        "In Samarkand wohnen unsere Großeltern."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ega (Unsere Großeltern) + fe'l (wohnen) + joy. Ko'plik → unsere.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l3-e09",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "family",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Matnni o'qing. Shahzodaning ota-onasi qayerda yashaydi?",
+      "prompt_de": "Hallo! Ich heiße Shahzoda. Ich bin verheiratet. Mein Mann heißt Timur. Wir wohnen zusammen in Bonn. Unsere Tochter ist drei Jahre alt. Meine Eltern wohnen in Taschkent, meine Schwester auch.",
+      "options": [
+        "Bonnda",
+        "Toshkentda",
+        "Matnda aytilmagan"
+      ],
+      "pairs": null,
+      "correct_answer": "Toshkentda",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Meine Eltern wohnen in Taschkent\" — ota-onam Toshkentda yashaydi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l3-e10",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "family",
+      "grammar_topic": "g-possessive",
+      "difficulty": 1,
+      "question": "Nemis tiliga tarjima qiling: \"Bu mening itim.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Das ist mein Hund.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Hund → mein Hund.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l3-e11",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "\"lieben\" fe'lini tuslang: Wir ___ unsere Katze.",
+      "prompt_de": "Wir ___ unsere Katze.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "lieben",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "wir + -en: wir lieben.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l3-e12",
+      "version": 1,
+      "type": "short_text",
+      "skill": "writing",
+      "topic": "family",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Oilangiz haqida 4 ta gap yozing. mein/meine va unser/unsere so'zlarini ishlating.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 16,
+        "required_words": [
+          "mein"
+        ],
+        "sample": "Meine Familie ist groß. Mein Vater heißt Bahodir und meine Mutter heißt Gulnora. Ich habe zwei Brüder. Unsere Oma wohnt zusammen mit uns."
+      },
+      "hint": null,
+      "explanation": "der/das-ot — mein, die-ot va ko'plik — meine. Masalan: mein Vater, meine Mutter, meine Eltern.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a1-m04-l3-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-possessive",
+      "difficulty": 1,
+      "question": "Wie heißt ___ Schwester? (sening)",
+      "prompt_de": "Wie heißt ___ Schwester?",
+      "options": [
+        "dein",
+        "deine",
+        "ihr"
+      ],
+      "pairs": null,
+      "correct_answer": "deine",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Schwester → deine Schwester.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l3-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-possessive",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (bizning): Das sind ___ Kinder.",
+      "prompt_de": "Das sind ___ Kinder.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "unsere",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ko'plik → unsere Kinder.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l3-t03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-possessive",
+      "difficulty": 2,
+      "question": "\"Veber janob va uning rafiqasi\" → Herr Weber und ___ Frau.",
+      "prompt_de": "Herr Weber und ___ Frau.",
+      "options": [
+        "ihr",
+        "seine",
+        "sein"
+      ],
+      "pairs": null,
+      "correct_answer": "seine",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ega erkak → sein; Frau — die → seine.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l3-t04",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "family",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Ist das euer Hund?\"",
+      "prompt_de": "Ist das euer Hund?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Bu sizlarning itingizmi?",
+      "accepted_answers": [
+        "Bu sizning itingizmi",
+        "Bu itingizmi",
+        "Bu sizlarning itlaringizmi"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "euer — sizlarning (norasmiy ko'plik).",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l3-t05",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "family",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Tim kim?",
+      "prompt_de": null,
+      "options": [
+        "Lolaning akasi yoki ukasi",
+        "Lolaning otasi",
+        "Lolaning eri"
+      ],
+      "pairs": null,
+      "correct_answer": "Lolaning akasi yoki ukasi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"ihr Bruder\" — uning (Lolaning) akasi/ukasi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Das ist Lola, und das ist ihr Bruder Tim."
+    },
+    {
+      "id": "a1-m04-l3-t06",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "family",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang va gapni yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Meine Familie ist groß.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Familie → meine Familie; groß — ß bilan.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": "Meine Familie ist groß."
+    },
+    {
+      "id": "a1-m04-l3-t07",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "family",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Rasmiy suhbatdoshingiz surat ko'rsatdi. Suratdagi ayol uning rafiqasimi, deb so'ramoqchisiz.",
+      "prompt_de": null,
+      "options": [
+        "Ist das Ihre Frau?",
+        "Ist das deine Frau?",
+        "Ist das seine Frau?"
+      ],
+      "pairs": null,
+      "correct_answer": "Ist das Ihre Frau?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Rasmiy murojaat — Ihr/Ihre: Ist das Ihre Frau?",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l3-t08",
+      "version": 1,
+      "type": "article",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-articles",
+      "difficulty": 1,
+      "question": "To'g'ri artiklni tanlang: ___ Ehemann",
+      "prompt_de": "___ Ehemann",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "der",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Mann → der Ehemann. Qo'shma otning artikli oxirgi qismga qarab belgilanadi.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

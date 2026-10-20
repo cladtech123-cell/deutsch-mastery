@@ -1,0 +1,832 @@
+{
+  "id": "a1-m08-l2",
+  "version": 2,
+  "level": "A1",
+  "module": 8,
+  "order": 2,
+  "title": "Kiyimlar: nicht va kein",
+  "title_de": "Kleidung: nicht oder kein?",
+  "goal": "Dars oxirida 11 ta kiyim va do'kon so'zini aytasiz hamda \"nicht\" yoki \"kein\"ni to'g'ri tanlab inkor gap tuzasiz: Das ist kein Hemd. Die Hose ist nicht teuer.",
+  "skill_focus": [
+    "grammar",
+    "vocabulary",
+    "listening"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Nemis tilida inkor ikki xil: kein — otni inkor qiladi (ein o'rniga keladi); nicht — fe'l, sifat, aniq artiklli ot yoki butun gapni inkor qiladi."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Ijobiy",
+        "Inkor",
+        "Qoida"
+      ],
+      "rows": [
+        [
+          "Das ist ein Rock.",
+          "Das ist kein Rock.",
+          "ein → kein"
+        ],
+        [
+          "Das ist eine Jacke.",
+          "Das ist keine Jacke.",
+          "eine → keine"
+        ],
+        [
+          "Ich habe Schuhe.",
+          "Ich habe keine Schuhe.",
+          "artiklsiz ot → kein(e)"
+        ],
+        [
+          "Die Hose ist teuer.",
+          "Die Hose ist nicht teuer.",
+          "sifat → nicht"
+        ],
+        [
+          "Die Jacke passt.",
+          "Die Jacke passt nicht.",
+          "fe'l → nicht (oxirida)"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Oddiy qoida: ot oldida \"ein/eine\" bo'lsa yoki artikl bo'lmasa — kein. Qolgan hollarda — nicht."
+    },
+    {
+      "type": "p",
+      "text": "kein xuddi ein kabi o'zgaradi: kein (der/das), keine (die va ko'plik). Akkusativda erkak jinsi: keinen — Ich habe keinen Pullover."
+    },
+    {
+      "type": "tip",
+      "text": "O'zbekcha \"yo'q\" va \"emas\"ga qarang: \"Sumkam yo'q\" — Ich habe keine Tasche (kein). \"Ko'ylak qimmat emas\" — Das Kleid ist nicht teuer (nicht)."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-die-hose",
+      "de": "Hose",
+      "uz": "shim",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Hosen",
+      "forms": null,
+      "example_de": "Die Hose ist zu lang.",
+      "example_uz": "Shim juda uzun.",
+      "topic": "clothes"
+    },
+    {
+      "id": "v-das-hemd",
+      "de": "Hemd",
+      "uz": "ko'ylak (erkaklar)",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Hemden",
+      "forms": null,
+      "example_de": "Das Hemd kostet 30 Euro.",
+      "example_uz": "Ko'ylak 30 evro turadi.",
+      "topic": "clothes"
+    },
+    {
+      "id": "v-der-pullover",
+      "de": "Pullover",
+      "uz": "sviter",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Pullover",
+      "forms": null,
+      "example_de": "Ich brauche einen Pullover.",
+      "example_uz": "Menga sviter kerak.",
+      "topic": "clothes"
+    },
+    {
+      "id": "v-die-jacke",
+      "de": "Jacke",
+      "uz": "kurtka",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Jacken",
+      "forms": null,
+      "example_de": "Die Jacke ist sehr schön.",
+      "example_uz": "Kurtka juda chiroyli.",
+      "topic": "clothes"
+    },
+    {
+      "id": "v-das-kleid",
+      "de": "Kleid",
+      "uz": "ko'ylak (ayollar), plat'ye",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Kleider",
+      "forms": null,
+      "example_de": "Das Kleid ist nicht teuer.",
+      "example_uz": "Ko'ylak qimmat emas.",
+      "topic": "clothes"
+    },
+    {
+      "id": "v-der-schuh",
+      "de": "Schuh",
+      "uz": "tufli, poyabzal",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Schuhe",
+      "forms": null,
+      "example_de": "Die Schuhe sind neu.",
+      "example_uz": "Poyabzal yangi.",
+      "topic": "clothes"
+    },
+    {
+      "id": "v-die-tasche",
+      "de": "Tasche",
+      "uz": "sumka",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Taschen",
+      "forms": null,
+      "example_de": "Ich habe keine Tasche.",
+      "example_uz": "Mening sumkam yo'q.",
+      "topic": "clothes"
+    },
+    {
+      "id": "v-das-t-shirt",
+      "de": "T-Shirt",
+      "uz": "futbolka",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die T-Shirts",
+      "forms": null,
+      "example_de": "Ein T-Shirt kostet nur 8 Euro.",
+      "example_uz": "Futbolka atigi 8 evro turadi.",
+      "topic": "clothes"
+    },
+    {
+      "id": "v-der-rock",
+      "de": "Rock",
+      "uz": "yubka",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Röcke",
+      "forms": null,
+      "example_de": "Der Rock ist zu kurz.",
+      "example_uz": "Yubka juda kalta.",
+      "topic": "clothes"
+    },
+    {
+      "id": "v-die-größe",
+      "de": "Größe",
+      "uz": "o'lcham, razmer",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Größen",
+      "forms": null,
+      "example_de": "Welche Größe haben Sie? — Größe M.",
+      "example_uz": "Sizning o'lchamingiz qanday? — M.",
+      "topic": "clothes"
+    },
+    {
+      "id": "v-die-farbe",
+      "de": "Farbe",
+      "uz": "rang",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Farben",
+      "forms": null,
+      "example_de": "Welche Farbe möchten Sie?",
+      "example_uz": "Qaysi rangni xohlaysiz?",
+      "topic": "clothes"
+    },
+    {
+      "id": "v-anprobieren",
+      "de": "anprobieren",
+      "uz": "kiyib ko'rmoq, o'lchab ko'rmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "anprobiert",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "probiert an"
+      },
+      "example_de": "Ich möchte die Jacke anprobieren.",
+      "example_uz": "Men kurtkani kiyib ko'rmoqchiman.",
+      "topic": "clothes"
+    },
+    {
+      "id": "v-passen",
+      "de": "passen",
+      "uz": "to'g'ri kelmoq (o'lchami)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "gepasst",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "passt"
+      },
+      "example_de": "Die Hose passt gut.",
+      "example_uz": "Shim yaxshi to'g'ri keladi.",
+      "topic": "clothes"
+    }
+  ],
+  "review_vocabulary": [
+    "v-teuer",
+    "v-billig",
+    "v-kosten",
+    "v-kaufen",
+    "v-brauchen",
+    "v-möchten",
+    "v-der-euro"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-negation",
+      "rule": "kein/keine — otni inkor qiladi (\"ein/eine\" o'rniga yoki artiklsiz ot oldida). nicht — fe'l, sifat, aniq artiklli ot yoki butun gapni inkor qiladi.",
+      "when": "Biror narsa yo'qligini (Ich habe keine Tasche) yoki biror belgi to'g'ri emasligini (Die Hose ist nicht teuer) aytganda.",
+      "structure": "ein/eine/— + ot → kein/keine + ot: Das ist kein Rock.\nist + nicht + sifat: Die Jacke ist nicht teuer.\nfe'l ... + nicht (oxirida): Die Hose passt nicht.",
+      "examples": [
+        {
+          "de": "Das ist kein Kleid, das ist ein Rock.",
+          "uz": "Bu ko'ylak emas, bu yubka."
+        },
+        {
+          "de": "Ich habe keine Tasche.",
+          "uz": "Mening sumkam yo'q."
+        },
+        {
+          "de": "Der Pullover ist nicht teuer.",
+          "uz": "Sviter qimmat emas."
+        },
+        {
+          "de": "Die Hose passt nicht.",
+          "uz": "Shim to'g'ri kelmaydi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Ich habe nicht Tasche.",
+          "right": "Ich habe keine Tasche.",
+          "why": "Artiklsiz yoki ein/eine bilan keladigan ot \"kein\" bilan inkor qilinadi."
+        },
+        {
+          "wrong": "Die Jacke ist kein teuer.",
+          "right": "Die Jacke ist nicht teuer.",
+          "why": "Sifat (teuer) \"nicht\" bilan inkor qilinadi, \"kein\" faqat ot oldida keladi."
+        },
+        {
+          "wrong": "Das ist nicht ein Hemd.",
+          "right": "Das ist kein Hemd.",
+          "why": "\"nicht ein\" deyilmaydi — uning o'rniga bitta so'z: kein."
+        }
+      ],
+      "check": [
+        "a1-m08-l2-e03",
+        "a1-m08-l2-e04",
+        "a1-m08-l2-e05",
+        "a1-m08-l2-e06"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Kiyim do'konida",
+    "lines": [
+      {
+        "speaker": "Nilufar",
+        "de": "Schau mal, das Kleid! Wie findest du es?",
+        "uz": "Qara, mana bu ko'ylak! Senga qanday ko'rinyapti?"
+      },
+      {
+        "speaker": "Clara",
+        "de": "Das Kleid ist schön, aber es ist nicht billig. 89 Euro!",
+        "uz": "Ko'ylak chiroyli, lekin arzon emas. 89 evro!"
+      },
+      {
+        "speaker": "Nilufar",
+        "de": "Und der Rock hier? Er kostet nur 25 Euro.",
+        "uz": "Bu yubka-chi? U atigi 25 evro."
+      },
+      {
+        "speaker": "Clara",
+        "de": "Der Rock ist toll. Ich möchte den Rock anprobieren.",
+        "uz": "Yubka zo'r. Uni kiyib ko'rmoqchiman."
+      },
+      {
+        "speaker": "Clara",
+        "de": "Hm, der Rock passt nicht. Er ist zu klein.",
+        "uz": "Hm, yubka to'g'ri kelmayapti. U juda kichik."
+      },
+      {
+        "speaker": "Nilufar",
+        "de": "Schade! Hier ist der Rock in Größe 40.",
+        "uz": "Attang! Mana, 40-o'lchamdagisi."
+      }
+    ],
+    "questions": [
+      "a1-m08-l2-e08",
+      "a1-m08-l2-e09"
+    ]
+  },
+  "situation": {
+    "title": "Safarga tayyorgarlik",
+    "context_uz": "Siz Germaniyaga o'qishga ketyapsiz. Onangiz (nemis tilini mashq qilish uchun nemischa gapiryapti) kiyimlaringizni tekshiryapti.",
+    "lines": [
+      {
+        "speaker": "Mama",
+        "de": "Hast du eine Jacke für Berlin?",
+        "uz": "Berlin uchun kurtkang bormi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ja, ich habe eine Jacke. Aber ich habe keinen Pullover.",
+        "uz": "Ha, kurtkam bor. Lekin sviterim yo'q."
+      },
+      {
+        "speaker": "Mama",
+        "de": "Und Schuhe?",
+        "uz": "Poyabzal-chi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Meine Schuhe sind alt. Sie passen nicht gut.",
+        "uz": "Poyabzalim eski. Ular yaxshi to'g'ri kelmaydi."
+      },
+      {
+        "speaker": "Mama",
+        "de": "Dann kaufen wir heute Schuhe und einen Pullover.",
+        "uz": "Unda bugun poyabzal va sviter sotib olamiz."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Super, danke!",
+        "uz": "Zo'r, rahmat!"
+      }
+    ],
+    "task_uz": "Kiyimlaringizni tekshiring va 3 ta gap ayting: nima bor (Ich habe ...), nima yo'q (Ich habe keinen/keine/kein ...) va nima mos emas (... passt nicht / ... ist nicht ...)."
+  },
+  "exercises": [
+    {
+      "id": "a1-m08-l2-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "clothes",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "So'zlarni juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "Hose",
+          "shim"
+        ],
+        [
+          "Jacke",
+          "kurtka"
+        ],
+        [
+          "Schuh",
+          "poyabzal"
+        ],
+        [
+          "Tasche",
+          "sumka"
+        ],
+        [
+          "Rock",
+          "yubka"
+        ]
+      ],
+      "correct_answer": {
+        "Hose": "shim",
+        "Jacke": "kurtka",
+        "Schuh": "poyabzal",
+        "Tasche": "sumka",
+        "Rock": "yubka"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Hose — shim, Jacke — kurtka, Schuh — poyabzal, Tasche — sumka, Rock — yubka.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m08-l2-e02",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "clothes",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Artiklni tanlang: ___ Hemd",
+      "prompt_de": "___ Hemd",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "das",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "das Hemd — o'rta jins. Ko'pligi: die Hemden.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m08-l2-e03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "clothes",
+      "grammar_topic": "g-negation",
+      "difficulty": 1,
+      "question": "To'g'ri variantni tanlang: Das ist ___ Rock, das ist ein Kleid.",
+      "prompt_de": "Das ist ___ Rock, das ist ein Kleid.",
+      "options": [
+        "kein",
+        "keine",
+        "nicht"
+      ],
+      "pairs": null,
+      "correct_answer": "kein",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ot inkor qilinyapti, \"ein Rock\" → \"kein Rock\" (der Rock).",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m08-l2-e04",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "clothes",
+      "grammar_topic": "g-negation",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: Die Hose ist ___ teuer. Sie kostet nur 15 Euro.",
+      "prompt_de": "Die Hose ist ___ teuer.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "nicht",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "teuer — sifat. Sifat \"nicht\" bilan inkor qilinadi.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m08-l2-e05",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "clothes",
+      "grammar_topic": "g-negation",
+      "difficulty": 2,
+      "question": "Inkor qiling: Ich habe ___ Pullover.",
+      "prompt_de": "Ich habe ___ Pullover.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "keinen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "der Pullover, Akkusativ",
+      "explanation": "der Pullover, haben dan keyin Akkusativ: einen → keinen.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m08-l2-e06",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "clothes",
+      "grammar_topic": "g-negation",
+      "difficulty": 1,
+      "question": "Xato so'zni toping: \"Ich habe nicht Tasche.\"",
+      "prompt_de": "Ich habe nicht Tasche.",
+      "options": [
+        "Ich",
+        "habe",
+        "nicht",
+        "Tasche"
+      ],
+      "pairs": null,
+      "correct_answer": "nicht",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: \"Ich habe keine Tasche.\" Artiklsiz ot \"kein/keine\" bilan inkor qilinadi.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m08-l2-e07",
+      "version": 1,
+      "type": "plural",
+      "skill": "vocabulary",
+      "topic": "clothes",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Ko'plik shaklini yozing: der Schuh → die ___",
+      "prompt_de": "der Schuh",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Schuhe",
+      "accepted_answers": [
+        "die Schuhe"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Schuh → die Schuhe (-e). Odatda poyabzal juft bo'lgani uchun ko'plikda ko'p ishlatiladi.",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m08-l2-e08",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "clothes",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni tinglang. Nega Clara ko'ylakni olmaydi?",
+      "prompt_de": null,
+      "options": [
+        "U arzon emas",
+        "U chiroyli emas",
+        "U juda kichik"
+      ],
+      "pairs": null,
+      "correct_answer": "U arzon emas",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Clara: \"Das Kleid ist schön, aber es ist nicht billig. 89 Euro!\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Schau mal, das Kleid! Wie findest du es? Das Kleid ist schön, aber es ist nicht billig. 89 Euro! Und der Rock hier? Er kostet nur 25 Euro. Der Rock ist toll. Ich möchte den Rock anprobieren. Hm, der Rock passt nicht. Er ist zu klein. Schade! Hier ist der Rock in Größe 40."
+    },
+    {
+      "id": "a1-m08-l2-e09",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "clothes",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni tinglang. Yubka bilan qanday muammo bor?",
+      "prompt_de": null,
+      "options": [
+        "U kichkina",
+        "U qimmat",
+        "Uning rangi yomon"
+      ],
+      "pairs": null,
+      "correct_answer": "U kichkina",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Der Rock passt nicht. Er ist zu klein.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Schau mal, das Kleid! Wie findest du es? Das Kleid ist schön, aber es ist nicht billig. 89 Euro! Und der Rock hier? Er kostet nur 25 Euro. Der Rock ist toll. Ich möchte den Rock anprobieren. Hm, der Rock passt nicht. Er ist zu klein. Schade! Hier ist der Rock in Größe 40."
+    },
+    {
+      "id": "a1-m08-l2-e10",
+      "version": 2,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "clothes",
+      "grammar_topic": "g-negation",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Shim to'g'ri kelmaydi.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Die Hose passt nicht.",
+      "accepted_answers": [
+        "Die Hose passt mir nicht."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "passen — o'lchami to'g'ri kelmoq. Fe'lni inkor qilganda \"nicht\" oxirida turadi.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m08-l2-e11",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "clothes",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "So'zlarni tartiblang: \"Men ko'ylakni kiyib ko'rmoqchiman.\"",
+      "prompt_de": null,
+      "options": [
+        "anprobieren",
+        "möchte",
+        "Kleid",
+        "das",
+        "Ich"
+      ],
+      "pairs": null,
+      "correct_answer": "Ich möchte das Kleid anprobieren",
+      "accepted_answers": [
+        "Das Kleid möchte ich anprobieren"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "möchte 2-o'rinda, infinitiv \"anprobieren\" oxirida (u ajralmaydi).",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a1-m08-l2-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "clothes",
+      "grammar_topic": "g-negation",
+      "difficulty": 1,
+      "question": "To'g'ri variantni tanlang: Die Jacke passt ___.",
+      "prompt_de": "Die Jacke passt ___.",
+      "options": [
+        "nicht",
+        "kein",
+        "keine"
+      ],
+      "pairs": null,
+      "correct_answer": "nicht",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Fe'l (passt) inkor qilinadi — \"nicht\" gap oxirida.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m08-l2-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "clothes",
+      "grammar_topic": "g-negation",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: Das ist ___ T-Shirt, das ist ein Hemd.",
+      "prompt_de": "Das ist ___ T-Shirt, das ist ein Hemd.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "kein",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "das T-Shirt: ein T-Shirt → kein T-Shirt.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m08-l2-t03",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "clothes",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Artiklni tanlang: ___ Größe",
+      "prompt_de": "___ Größe",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "die",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Größe — ayol jinsi.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m08-l2-t04",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "clothes",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Ich habe keine Tasche.\"",
+      "prompt_de": "Ich habe keine Tasche.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Mening sumkam yo'q.",
+      "accepted_answers": [
+        "Menda sumka yo'q",
+        "Sumkam yo'q",
+        "Mening sumkam yo'q"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "keine Tasche — sumka yo'q.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m08-l2-t05",
+      "version": 1,
+      "type": "plural",
+      "skill": "vocabulary",
+      "topic": "clothes",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Ko'plik shaklini yozing: das Kleid → die ___",
+      "prompt_de": "das Kleid",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Kleider",
+      "accepted_answers": [
+        "die Kleider"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "das Kleid → die Kleider (-er).",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m08-l2-t06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "clothes",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Poyabzal bilan qanday muammo bor?",
+      "prompt_de": null,
+      "options": [
+        "To'g'ri kelmaydi",
+        "Qimmat",
+        "Chiroyli emas"
+      ],
+      "pairs": null,
+      "correct_answer": "To'g'ri kelmaydi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"sie passen nicht\" — to'g'ri kelmaydi. \"schön\" — chiroyli.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Die Schuhe sind schön, aber sie passen nicht."
+    },
+    {
+      "id": "a1-m08-l2-t07",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "clothes",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Sotuvchi so'raydi: \"Möchten Sie die Jacke anprobieren?\" Siz kurtkani kiyib ko'rmoqchi emassiz. Nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Nein, danke.",
+        "Ja, gern.",
+        "Die Rechnung, bitte."
+      ],
+      "pairs": null,
+      "correct_answer": "Nein, danke.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Muloyim rad etish: \"Nein, danke.\"",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

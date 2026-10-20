@@ -1,0 +1,855 @@
+{
+  "id": "a2-m20-l3",
+  "version": 1,
+  "level": "A2",
+  "module": 20,
+  "order": 3,
+  "title": "Tajribalar haqida hikoya",
+  "title_de": "Erlebnisse erzählen",
+  "goal": "Dars oxirida o'z tajribangiz haqida 5–6 gaplik hikoya qila olasiz: harakatlarni Perfektda, holatni war/hatte bilan, qiyinchilik va istakni konnte, musste, wollte bilan aytasiz.",
+  "skill_focus": [
+    "grammar",
+    "speaking",
+    "writing"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Hikoya qilganda nemislar zamonlarni aralashtiradi: harakatlar — Perfektda (Ich bin geflogen, Ich habe gesehen), holat va modal fe'llar — Präteritumda (Ich war aufgeregt, Ich musste warten)."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Shaxs",
+        "können",
+        "müssen",
+        "wollen"
+      ],
+      "rows": [
+        [
+          "ich",
+          "konnte",
+          "musste",
+          "wollte"
+        ],
+        [
+          "du",
+          "konntest",
+          "musstest",
+          "wolltest"
+        ],
+        [
+          "er / sie / es",
+          "konnte",
+          "musste",
+          "wollte"
+        ],
+        [
+          "wir",
+          "konnten",
+          "mussten",
+          "wollten"
+        ],
+        [
+          "ihr",
+          "konntet",
+          "musstet",
+          "wolltet"
+        ],
+        [
+          "sie / Sie",
+          "konnten",
+          "mussten",
+          "wollten"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Umlaut tushib qoladi: können → konnte, müssen → musste. Belgisi: -te. ich va er/sie/es shakllari yana bir xil."
+    },
+    {
+      "type": "tip",
+      "text": "Hikoya uchun foydali so'zlar: damals (o'sha paytda), früher (ilgari), zum ersten Mal (birinchi marta), dann (keyin), am Ende (oxirida)."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-die-erinnerung",
+      "de": "Erinnerung",
+      "uz": "xotira, esdalik",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Erinnerungen",
+      "forms": null,
+      "example_de": "Ich habe schöne Erinnerungen an meine Schulzeit.",
+      "example_uz": "Maktab davrim haqida chiroyli xotiralarim bor.",
+      "topic": "past-events"
+    },
+    {
+      "id": "v-das-abenteuer",
+      "de": "Abenteuer",
+      "uz": "sarguzasht",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Abenteuer",
+      "forms": null,
+      "example_de": "Die Reise war ein echtes Abenteuer.",
+      "example_uz": "Sayohat haqiqiy sarguzasht bo'ldi.",
+      "topic": "past-events"
+    },
+    {
+      "id": "v-die-kindheit",
+      "de": "Kindheit",
+      "uz": "bolalik",
+      "pos": "noun",
+      "article": "die",
+      "plural": "-",
+      "forms": null,
+      "example_de": "In meiner Kindheit habe ich in Fergana gewohnt.",
+      "example_uz": "Bolaligimda Farg'onada yashaganman.",
+      "topic": "past-events"
+    },
+    {
+      "id": "v-erleben",
+      "de": "erleben",
+      "uz": "boshdan kechirmoq, ko'rmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "erlebt",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "erlebt"
+      },
+      "example_de": "Wir haben viel erlebt.",
+      "example_uz": "Biz ko'p narsani boshdan kechirdik.",
+      "topic": "past-events"
+    },
+    {
+      "id": "v-damals",
+      "de": "damals",
+      "uz": "o'sha paytda, o'shanda",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Damals war ich zehn Jahre alt.",
+      "example_uz": "O'shanda o'n yoshda edim.",
+      "topic": "past-events"
+    },
+    {
+      "id": "v-früher",
+      "de": "früher",
+      "uz": "ilgari, avvallari",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Früher hatte ich keine Zeit für Sport.",
+      "example_uz": "Ilgari sportga vaqtim yo'q edi.",
+      "topic": "past-events"
+    },
+    {
+      "id": "v-zum-ersten-mal",
+      "de": "zum ersten Mal",
+      "uz": "birinchi marta",
+      "pos": "phrase",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Ich war zum ersten Mal in Deutschland.",
+      "example_uz": "Germaniyada birinchi marta edim.",
+      "topic": "past-events"
+    },
+    {
+      "id": "v-aufgeregt",
+      "de": "aufgeregt",
+      "uz": "hayajonlangan",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Vor der Prüfung war ich sehr aufgeregt.",
+      "example_uz": "Imtihondan oldin juda hayajonlangan edim.",
+      "topic": "past-events"
+    },
+    {
+      "id": "v-stolz",
+      "de": "stolz",
+      "uz": "faxrlangan, g'ururlangan",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Meine Eltern waren sehr stolz auf mich.",
+      "example_uz": "Ota-onam men bilan juda faxrlanishdi.",
+      "topic": "people"
+    },
+    {
+      "id": "v-schrecklich",
+      "de": "schrecklich",
+      "uz": "dahshatli",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Das Wetter war schrecklich.",
+      "example_uz": "Ob-havo dahshatli edi.",
+      "topic": "past-events"
+    },
+    {
+      "id": "v-unvergesslich",
+      "de": "unvergesslich",
+      "uz": "unutilmas",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Der Abend war unvergesslich.",
+      "example_uz": "U kecha unutilmas bo'ldi.",
+      "topic": "past-events"
+    }
+  ],
+  "review_vocabulary": [
+    "v-als",
+    "v-die-feier",
+    "v-das-erlebnis"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-praeteritum",
+      "rule": "können → konnte, müssen → musste, wollen → wollte. Umlaut tushadi va -te qo'shiladi. ich va er/sie/es bir xil. Ikkinchi fe'l (infinitiv) gap oxirida turadi — xuddi hozirgi zamondagidek.",
+      "when": "O'tmishdagi imkoniyat, majburiyat yoki istak haqida: Ich konnte nicht kommen. Ich musste arbeiten.",
+      "structure": "Ega + konnte / musste / wollte + ... + infinitiv (oxirda)",
+      "examples": [
+        {
+          "de": "Als Kind wollte ich Pilot werden.",
+          "uz": "Bolaligimda uchuvchi bo'lishni xohlardim."
+        },
+        {
+          "de": "Damals konnte ich kein Deutsch sprechen.",
+          "uz": "O'shanda nemischa gapira olmasdim."
+        },
+        {
+          "de": "Wir mussten am Flughafen drei Stunden warten.",
+          "uz": "Aeroportda uch soat kutishimizga to'g'ri keldi."
+        },
+        {
+          "de": "Warum konntest du nicht kommen?",
+          "uz": "Nega kela olmading?"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Ich müsste gestern arbeiten.",
+          "right": "Ich musste gestern arbeiten.",
+          "why": "müsste (umlaut bilan) — \"kerak bo'lardi\" degan boshqa shakl. O'tgan zamon — musste, umlautsiz."
+        },
+        {
+          "wrong": "Er konntet nicht kommen.",
+          "right": "Er konnte nicht kommen.",
+          "why": "er/sie/es shakli ich bilan bir xil: konnte."
+        },
+        {
+          "wrong": "Damals ich konnte nicht schwimmen.",
+          "right": "Damals konnte ich nicht schwimmen.",
+          "why": "Fe'l ikkinchi o'rinda: damals birinchi bo'lsa, ega fe'ldan keyin."
+        }
+      ],
+      "check": [
+        "a2-m20-l3-e03",
+        "a2-m20-l3-e04",
+        "a2-m20-l3-e05",
+        "a2-m20-l3-e09"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Germaniyadagi birinchi kun",
+    "lines": [
+      {
+        "speaker": "Anna",
+        "de": "Dilshod, wie war dein erster Tag in Deutschland?",
+        "uz": "Dilshod, Germaniyadagi birinchi kuning qanday o'tgan?"
+      },
+      {
+        "speaker": "Dilshod",
+        "de": "Oh, das war ein Abenteuer! Ich bin zum ersten Mal allein geflogen.",
+        "uz": "Oh, bu sarguzasht bo'lgan! Birinchi marta yolg'iz uchganman."
+      },
+      {
+        "speaker": "Anna",
+        "de": "Warst du aufgeregt?",
+        "uz": "Hayajonlanganmiding?"
+      },
+      {
+        "speaker": "Dilshod",
+        "de": "Ja, sehr! Und in Frankfurt musste ich vier Stunden auf meinen Koffer warten.",
+        "uz": "Ha, juda! Frankfurtda esa chamadonimni to'rt soat kutishimga to'g'ri kelgan."
+      },
+      {
+        "speaker": "Anna",
+        "de": "Vier Stunden? Das ist ja schrecklich!",
+        "uz": "To'rt soat? Bu dahshat-ku!"
+      },
+      {
+        "speaker": "Dilshod",
+        "de": "Ja, und ich konnte damals nur wenig Deutsch. Ich wollte nach dem Weg fragen, aber ich habe nichts verstanden.",
+        "uz": "Ha, o'shanda nemischani ozgina bilardim. Yo'l so'ramoqchi edim, lekin hech narsa tushunmadim."
+      },
+      {
+        "speaker": "Anna",
+        "de": "Und heute sprichst du so gut Deutsch! Du kannst stolz sein.",
+        "uz": "Bugun esa nemischada shunaqa yaxshi gapirasan! Faxrlansang arziydi."
+      }
+    ],
+    "questions": [
+      "a2-m20-l3-e06",
+      "a2-m20-l3-e07"
+    ]
+  },
+  "situation": {
+    "title": "Eng chiroyli taassurot",
+    "context_uz": "Tushlik paytida hamkasbingiz Sabine o'tgan yildagi eng yaxshi taassurotingiz haqida so'rayapti.",
+    "lines": [
+      {
+        "speaker": "Sabine",
+        "de": "Was war dein schönstes Erlebnis im letzten Jahr?",
+        "uz": "O'tgan yildagi eng chiroyli taassurotingiz nima edi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ich glaube, die Reise nach Samarkand mit meiner Familie.",
+        "uz": "Menimcha, oilam bilan Samarqandga sayohat."
+      },
+      {
+        "speaker": "Sabine",
+        "de": "Schön! Was habt ihr gemacht?",
+        "uz": "Zo'r! Nima qildinglar?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Wir haben den Registan besucht. Am Abend gab es eine Lichtshow. Das war unvergesslich.",
+        "uz": "Registonni ko'rdik. Kechqurun yorug'lik shousi bo'ldi. Bu unutilmas edi."
+      },
+      {
+        "speaker": "Sabine",
+        "de": "Und wie war das Wetter?",
+        "uz": "Ob-havo qanday edi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Es war sehr heiß. Wir mussten viel Wasser trinken, aber wir hatten eine tolle Zeit.",
+        "uz": "Juda issiq edi. Ko'p suv ichishimizga to'g'ri keldi, lekin vaqtimiz ajoyib o'tdi."
+      }
+    ],
+    "task_uz": "O'zingizning unutilmas tajribangiz haqida 5–6 gaplik hikoya tuzing: qachon, qayerda, nima qildingiz (Perfekt), qanday edi (war/hatte), qanday qiyinchilik bo'ldi (musste/konnte)."
+  },
+  "exercises": [
+    {
+      "id": "a2-m20-l3-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "past-events",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemischa so'zni o'zbekcha ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "das Erlebnis",
+          "taassurot"
+        ],
+        [
+          "die Erinnerung",
+          "xotira"
+        ],
+        [
+          "das Abenteuer",
+          "sarguzasht"
+        ],
+        [
+          "die Kindheit",
+          "bolalik"
+        ],
+        [
+          "stolz",
+          "faxrlangan"
+        ]
+      ],
+      "correct_answer": {
+        "das Erlebnis": "taassurot",
+        "die Erinnerung": "xotira",
+        "das Abenteuer": "sarguzasht",
+        "die Kindheit": "bolalik",
+        "stolz": "faxrlangan"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Erlebnis — taassurot, Erinnerung — xotira, Abenteuer — sarguzasht, Kindheit — bolalik, stolz — faxrlangan.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m20-l3-e02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "past-events",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Imtihondan oldin yuragingiz tez urdi. Mos so'zni tanlang: \"Ich war sehr ___.\"",
+      "prompt_de": "Ich war sehr ___.",
+      "options": [
+        "aufgeregt",
+        "stolz",
+        "unvergesslich"
+      ],
+      "pairs": null,
+      "correct_answer": "aufgeregt",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "aufgeregt — hayajonlangan. stolz — faxrlangan (imtihondan keyin bo'lishi mumkin), unvergesslich odamga emas, voqeaga aytiladi.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m20-l3-e03",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "work",
+      "grammar_topic": "g-praeteritum",
+      "difficulty": 1,
+      "question": "müssen fe'lini Präteritumda yozing: Ich ___ gestern lange arbeiten.",
+      "prompt_de": "Ich ___ gestern lange arbeiten.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "musste",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "müssen → musste (umlaut tushadi, -te).",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m20-l3-e04",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "language-learning",
+      "grammar_topic": "g-praeteritum",
+      "difficulty": 1,
+      "question": "können fe'lini Präteritumda yozing: Damals ___ ich kein Deutsch sprechen.",
+      "prompt_de": "Damals ___ ich kein Deutsch sprechen.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "konnte",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "können → konnte. ich bilan oxirida qo'shimcha yo'q.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m20-l3-e05",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "professions",
+      "grammar_topic": "g-praeteritum",
+      "difficulty": 1,
+      "question": "So'zlarni tartiblang: \"Bolaligimda uchuvchi bo'lishni xohlardim.\"",
+      "prompt_de": null,
+      "options": [
+        "werden",
+        "Kind",
+        "Als",
+        "ich",
+        "wollte",
+        "Pilot"
+      ],
+      "pairs": null,
+      "correct_answer": "Als Kind wollte ich Pilot werden.",
+      "accepted_answers": [
+        "Ich wollte als Kind Pilot werden."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "wollte — ikkinchi o'rinda, infinitiv werden — oxirda.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m20-l3-e06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "travel",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Dilshod Frankfurtda nima qilishi kerak edi?",
+      "prompt_de": null,
+      "options": [
+        "Chamadonini 4 soat kutishi",
+        "4 soat ishlashi",
+        "Boshqa samolyotga chiqishi"
+      ],
+      "pairs": null,
+      "correct_answer": "Chamadonini 4 soat kutishi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"musste ich vier Stunden auf meinen Koffer warten\" — chamadonini to'rt soat kutishi kerak edi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Und in Frankfurt musste ich vier Stunden auf meinen Koffer warten."
+    },
+    {
+      "id": "a2-m20-l3-e07",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "language-learning",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang. Qanday muammo bo'ldi?",
+      "prompt_de": null,
+      "options": [
+        "U yo'l so'ramoqchi edi, lekin hech narsa tushunmadi",
+        "U yo'lni yaxshi bilardi",
+        "Uning telefoni ishlamadi"
+      ],
+      "pairs": null,
+      "correct_answer": "U yo'l so'ramoqchi edi, lekin hech narsa tushunmadi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Ich wollte nach dem Weg fragen, aber ich habe nichts verstanden.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Ich konnte damals nur wenig Deutsch. Ich wollte nach dem Weg fragen, aber ich habe nichts verstanden."
+    },
+    {
+      "id": "a2-m20-l3-e08",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "travel",
+      "grammar_topic": "g-perfekt-aux",
+      "difficulty": 1,
+      "question": "Yordamchi fe'lni tanlang: \"Ich ___ zum ersten Mal allein geflogen.\"",
+      "prompt_de": null,
+      "options": [
+        "bin",
+        "habe",
+        "hatte"
+      ],
+      "pairs": null,
+      "correct_answer": "bin",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "fliegen — harakat fe'li, Perfekt sein bilan: ich bin geflogen.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m20-l3-e09",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "invitations",
+      "grammar_topic": "g-praeteritum",
+      "difficulty": 1,
+      "question": "Xato so'zni toping: \"Er konntet nicht zur Feier kommen.\"",
+      "prompt_de": "Er konntet nicht zur Feier kommen.",
+      "options": [
+        "Er",
+        "konntet",
+        "nicht",
+        "zur",
+        "Feier",
+        "kommen"
+      ],
+      "pairs": null,
+      "correct_answer": "konntet",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: \"Er konnte nicht zur Feier kommen.\" konntet — ihr shakli.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m20-l3-e10",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "past-events",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemis tiliga tarjima qiling: \"Bu unutilmas edi.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Das war unvergesslich.",
+      "accepted_answers": [
+        "Es war unvergesslich."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Holat — sein ning Präteritumi: war.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m20-l3-e11",
+      "version": 1,
+      "type": "short_text",
+      "skill": "writing",
+      "topic": "past-events",
+      "grammar_topic": null,
+      "difficulty": 3,
+      "question": "\"Birinchi marta\": birinchi marta qilgan ishingiz (samolyotda uchish, chet elda bo'lish, ishdagi birinchi kun) haqida 5 gap yozing. Perfekt, war/hatte va musste/konnte ishlating.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 30,
+        "required_words": [
+          "war"
+        ],
+        "sample": "Vor zwei Jahren bin ich zum ersten Mal nach Deutschland geflogen. Ich war sehr aufgeregt. Am Flughafen musste ich lange warten. Ich konnte nur wenig Deutsch, aber die Leute waren sehr nett. Das war ein tolles Erlebnis."
+      },
+      "hint": null,
+      "explanation": "Yaxshi hikoyada: vaqt (vor zwei Jahren, damals), harakatlar Perfektda, holat war/hatte bilan, qiyinchilik musste/konnte bilan.",
+      "error_type": "vocabulary",
+      "points": 3,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m20-l3-e12",
+      "version": 1,
+      "type": "speak",
+      "skill": "speaking",
+      "topic": "past-events",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Ovoz chiqarib ayting: bolaligingiz haqida 3 gap — Als Kind wollte ich ..., Ich konnte ..., Ich musste ...",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 12,
+        "required_words": [
+          "wollte"
+        ],
+        "sample": "Als Kind wollte ich Lehrer werden. Ich konnte sehr gut schwimmen. Ich musste jeden Tag früh aufstehen."
+      },
+      "hint": null,
+      "explanation": "wollte/konnte/musste ikkinchi o'rinda, infinitiv gap oxirida.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a2-m20-l3-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "travel",
+      "grammar_topic": "g-praeteritum",
+      "difficulty": 1,
+      "question": "To'g'ri shaklni tanlang: \"Gestern ___ wir am Flughafen drei Stunden warten.\"",
+      "prompt_de": null,
+      "options": [
+        "mussten",
+        "musste",
+        "müssen"
+      ],
+      "pairs": null,
+      "correct_answer": "mussten",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "gestern — o'tgan zamon; wir bilan: mussten.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m20-l3-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "professions",
+      "grammar_topic": "g-praeteritum",
+      "difficulty": 1,
+      "question": "wollen fe'lini Präteritumda yozing: Als Kind ___ ich Ärztin werden.",
+      "prompt_de": "Als Kind ___ ich Ärztin werden.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "wollte",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "wollen → wollte.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m20-l3-t03",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "past-events",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "O'zbek tiliga tarjima qiling: \"Damals konnte ich nicht schwimmen.\"",
+      "prompt_de": "Damals konnte ich nicht schwimmen.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "O'shanda suza olmasdim.",
+      "accepted_answers": [
+        "O'sha paytda suza olmasdim.",
+        "O'shanda men suza olmasdim.",
+        "O'sha paytda men suza olmasdim.",
+        "O'shanda suzishni bilmasdim.",
+        "O'sha paytda suzishni bilmasdim."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "damals — o'shanda; konnte nicht — ... olmasdim.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m20-l3-t04",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "past-events",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Anna qanday munosabat bildiradi?",
+      "prompt_de": null,
+      "options": [
+        "Buni dahshatli deydi",
+        "Buni kulgili deydi",
+        "Buni unutilmas deydi"
+      ],
+      "pairs": null,
+      "correct_answer": "Buni dahshatli deydi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Das ist ja schrecklich!\" — bu dahshat-ku!",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Vier Stunden? Das ist ja schrecklich!"
+    },
+    {
+      "id": "a2-m20-l3-t05",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "past-events",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "\"zum ersten Mal\" nima degani?",
+      "prompt_de": null,
+      "options": [
+        "birinchi marta",
+        "oxirgi marta",
+        "har doim"
+      ],
+      "pairs": null,
+      "correct_answer": "birinchi marta",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "das Mal — marta; zum ersten Mal — birinchi marta.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m20-l3-t06",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "invitations",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Do'stingiz so'rayapti: \"Warum warst du nicht auf der Party?\" To'g'ri javobni tanlang.",
+      "prompt_de": null,
+      "options": [
+        "Ich musste arbeiten.",
+        "Ich muss gestern arbeiten.",
+        "Ich müsste arbeiten gestern."
+      ],
+      "pairs": null,
+      "correct_answer": "Ich musste arbeiten.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "O'tgan zamon: musste. \"muss gestern\" — zamon mos emas, \"müsste\" — boshqa ma'no va noto'g'ri tartib.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m20-l3-t07",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "daily-routine",
+      "grammar_topic": "g-praeteritum",
+      "difficulty": 1,
+      "question": "So'zlarni tartiblang: \"Kecha uxlay olmadim.\"",
+      "prompt_de": null,
+      "options": [
+        "schlafen",
+        "Gestern",
+        "konnte",
+        "ich",
+        "nicht"
+      ],
+      "pairs": null,
+      "correct_answer": "Gestern konnte ich nicht schlafen.",
+      "accepted_answers": [
+        "Ich konnte gestern nicht schlafen."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Gestern birinchi o'rinda — fe'l (konnte) ikkinchi, ega undan keyin, infinitiv oxirda.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

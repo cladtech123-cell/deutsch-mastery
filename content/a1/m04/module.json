@@ -1,0 +1,351 @@
+{
+  "id": "a1-m04",
+  "version": 2,
+  "level": "A1",
+  "number": 4,
+  "title": "Oila va odamlar",
+  "title_de": "Familie und Menschen",
+  "goals": [
+    "Oila a'zolarini artikli va ko'plik shakli bilan nomlash.",
+    "der/die/das va ein/eine ni to'g'ri tanlash.",
+    "Sondan keyin ko'plik shaklini ishlatish va odamlarni sifatlar bilan tasvirlash.",
+    "mein, dein, sein, ihr, unser, euer, Ihr so'zlarini jinsga mos ishlatib, oila haqida gapirish."
+  ],
+  "lessons": [
+    "a1-m04-l1",
+    "a1-m04-l2",
+    "a1-m04-l3"
+  ],
+  "module_test": [
+    {
+      "id": "mtest-a1-m04-01",
+      "version": 1,
+      "type": "article",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-articles",
+      "difficulty": 1,
+      "question": "To'g'ri artiklni tanlang: ___ Tochter",
+      "prompt_de": "___ Tochter",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "die",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Tochter.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a1-m04-02",
+      "version": 1,
+      "type": "article",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-articles",
+      "difficulty": 1,
+      "question": "To'g'ri artiklni tanlang: ___ Baby",
+      "prompt_de": "___ Baby",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "das",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "das Baby — o'rta jins.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a1-m04-03",
+      "version": 1,
+      "type": "plural",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-plural",
+      "difficulty": 2,
+      "question": "Ko'plik shaklini yozing: der Vater → die ___",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Väter",
+      "accepted_answers": [
+        "die Väter"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Vater → die Väter (a → ä).",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a1-m04-04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-articles",
+      "difficulty": 1,
+      "question": "Das ist ___ Kind. Es heißt Ali.",
+      "prompt_de": "Das ist ___ Kind.",
+      "options": [
+        "eine",
+        "ein",
+        "der"
+      ],
+      "pairs": null,
+      "correct_answer": "ein",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "das Kind → ein Kind.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a1-m04-05",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-possessive",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (mening): ___ Eltern wohnen in Fergana.",
+      "prompt_de": "___ Eltern wohnen in Fergana.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Meine",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ko'plik → meine.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a1-m04-06",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-possessive",
+      "difficulty": 2,
+      "question": "\"Lola va uning akasi\" → Lola und ___ Bruder.",
+      "prompt_de": "Lola und ___ Bruder.",
+      "options": [
+        "sein",
+        "ihr",
+        "ihre"
+      ],
+      "pairs": null,
+      "correct_answer": "ihr",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ega ayol → ihr; Bruder — der → ihr.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a1-m04-07",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "family",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Bu odamning nechta farzandi bor?",
+      "prompt_de": null,
+      "options": [
+        "ikkita",
+        "uchta",
+        "to'rtta"
+      ],
+      "pairs": null,
+      "correct_answer": "uchta",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "drei Kinder — uchta farzand.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Wir haben drei Kinder: zwei Töchter und einen Sohn."
+    },
+    {
+      "id": "mtest-a1-m04-08",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "family",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Matnni o'qing. Kim quvnoq?",
+      "prompt_de": "Das ist mein Onkel Rustam. Er ist groß und schlank. Seine Frau heißt Nilufar. Sie ist klein und sehr lustig.",
+      "options": [
+        "Rustam",
+        "Nilufar",
+        "ikkalasi ham"
+      ],
+      "pairs": null,
+      "correct_answer": "Nilufar",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Sie ist klein und sehr lustig\" — sie = Nilufar.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a1-m04-09",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-plural",
+      "difficulty": 1,
+      "question": "Gapdagi xato so'zni toping: \"Ich habe drei Kind.\"",
+      "prompt_de": "Ich habe drei Kind.",
+      "options": [
+        "Ich",
+        "habe",
+        "drei",
+        "Kind"
+      ],
+      "pairs": null,
+      "correct_answer": "Kind",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Sondan keyin ko'plik: drei Kinder.",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a1-m04-10",
+      "version": 2,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "family",
+      "grammar_topic": "g-plural",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Mening ikkita singlim bor.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich habe zwei Schwestern.",
+      "accepted_answers": [
+        "Ich habe 2 Schwestern."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Sondan keyin ko'plik: zwei Schwestern.",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a1-m04-11",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "family",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni davom ettiring. — Hast du Geschwister?",
+      "prompt_de": "Hast du Geschwister?",
+      "options": [
+        "Ja, ich habe einen Bruder.",
+        "Ja, ich bin verheiratet.",
+        "Ich bin zwanzig."
+      ],
+      "pairs": null,
+      "correct_answer": "Ja, ich habe einen Bruder.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Geschwister — aka-uka, opa-singil. Javobda ularni aytasiz.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a1-m04-12",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "family",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "So'zni ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "die Großeltern",
+          "bobo va buvi"
+        ],
+        [
+          "das Enkelkind",
+          "nevara"
+        ],
+        [
+          "die Tante",
+          "xola, amma"
+        ],
+        [
+          "der Onkel",
+          "amaki, tog'a"
+        ]
+      ],
+      "correct_answer": {
+        "die Großeltern": "bobo va buvi",
+        "das Enkelkind": "nevara",
+        "die Tante": "xola, amma",
+        "der Onkel": "amaki, tog'a"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Großeltern — bobo-buvi, Enkelkind — nevara, Tante — xola/amma, Onkel — amaki/tog'a.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "writing_task": {
+    "id": "w-a1-m04",
+    "title": "Mening oilam",
+    "task_uz": "Nemis do'stingizga oilangiz haqida xat yozing: oilangiz katta yoki kichikligi, 3–4 oila a'zosi (ismi, yoshi, qanday odam), ular qayerda yashashi.",
+    "required_words": [
+      "mein",
+      "meine"
+    ],
+    "min_words": 30,
+    "max_words": 80,
+    "criteria": [
+      "Kamida 3 ta oila a'zosi tilga olingan.",
+      "mein/meine (va boshqa egalik so'zlari) jinsga mos ishlatilgan.",
+      "Sondan keyin ko'plik shakli to'g'ri (zwei Brüder, drei Kinder).",
+      "Har bir odam kamida bitta sifat bilan tasvirlangan.",
+      "Fe'llar egaga mos: ist/sind, wohnt/wohnen."
+    ],
+    "sample_answer": "Hallo Anna! Meine Familie ist groß. Mein Vater heißt Bahodir, er ist fünfzig Jahre alt und sehr nett. Meine Mutter heißt Gulnora, sie ist klein und lustig. Ich habe zwei Brüder und eine Schwester. Meine Brüder sind groß und schlank. Unsere Großeltern wohnen in Buchara. Viele Grüße, Lola"
+  }
+}

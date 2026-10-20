@@ -1,0 +1,890 @@
+{
+  "id": "a2-m23-l1",
+  "version": 1,
+  "level": "A2",
+  "module": 23,
+  "order": 1,
+  "title": "Pochta, bank va xizmatlarda muloyim iltimos",
+  "title_de": "Höflich bitten bei Post, Bank und Co.",
+  "goal": "Dars oxirida pochta, bank va kimyoviy tozalash kabi xizmatlarda Könnten Sie ...?, Würden Sie ...?, Ich hätte gern ... bilan muloyim iltimos qila olasiz va xodim nima so'rayotganini tushunasiz.",
+  "skill_focus": [
+    "speaking",
+    "listening",
+    "grammar"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Germaniyada pochta, bank va idoralarda muloyim gapirish juda muhim. \"Geben Sie mir ...!\" qo'pol eshitiladi. Buning o'rniga: Könnten Sie ...? Würden Sie ...? Ich hätte gern ..."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Oddiy (qo'pol)",
+        "Muloyim",
+        "Eng muloyim"
+      ],
+      "rows": [
+        [
+          "Helfen Sie mir!",
+          "Können Sie mir helfen?",
+          "Könnten Sie mir bitte helfen?"
+        ],
+        [
+          "Ich will zehn Briefmarken.",
+          "Ich möchte zehn Briefmarken.",
+          "Ich hätte gern zehn Briefmarken."
+        ],
+        [
+          "Unterschreiben Sie hier.",
+          "Bitte unterschreiben Sie hier.",
+          "Würden Sie bitte hier unterschreiben?"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Shaxs",
+        "können → könnte",
+        "werden → würde",
+        "haben → hätte"
+      ],
+      "rows": [
+        [
+          "ich",
+          "könnte",
+          "würde",
+          "hätte"
+        ],
+        [
+          "du",
+          "könntest",
+          "würdest",
+          "hättest"
+        ],
+        [
+          "er / sie / es",
+          "könnte",
+          "würde",
+          "hätte"
+        ],
+        [
+          "wir",
+          "könnten",
+          "würden",
+          "hätten"
+        ],
+        [
+          "ihr",
+          "könntet",
+          "würdet",
+          "hättet"
+        ],
+        [
+          "sie / Sie",
+          "könnten",
+          "würden",
+          "hätten"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "konnte (o'tgan zamon: qila oldi) va könnte (muloyim: qila olarmidi) faqat ikki nuqta bilan farq qiladi, lekin ma'nosi butunlay boshqa!"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-die-briefmarke",
+      "de": "Briefmarke",
+      "uz": "pochta markasi",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Briefmarken",
+      "forms": null,
+      "example_de": "Ich brauche eine Briefmarke für diesen Brief.",
+      "example_uz": "Bu xat uchun pochta markasi kerak.",
+      "topic": "services"
+    },
+    {
+      "id": "v-der-umschlag",
+      "de": "Umschlag",
+      "uz": "konvert",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Umschläge",
+      "forms": null,
+      "example_de": "Haben Sie einen großen Umschlag?",
+      "example_uz": "Sizda katta konvert bormi?",
+      "topic": "services"
+    },
+    {
+      "id": "v-der-schalter",
+      "de": "Schalter",
+      "uz": "xizmat oynasi (kassa)",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Schalter",
+      "forms": null,
+      "example_de": "Gehen Sie bitte zu Schalter 3.",
+      "example_uz": "Iltimos, 3-oynaga boring.",
+      "topic": "services"
+    },
+    {
+      "id": "v-die-gebühr",
+      "de": "Gebühr",
+      "uz": "to'lov, yig'im (xizmat haqi)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Gebühren",
+      "forms": null,
+      "example_de": "Die Gebühr beträgt fünf Euro.",
+      "example_uz": "Xizmat haqi besh yevro.",
+      "topic": "services"
+    },
+    {
+      "id": "v-der-ausweis",
+      "de": "Ausweis",
+      "uz": "guvohnoma (shaxsni tasdiqlovchi hujjat)",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Ausweise",
+      "forms": null,
+      "example_de": "Haben Sie Ihren Ausweis dabei?",
+      "example_uz": "Guvohnomangiz yoningizdami?",
+      "topic": "services"
+    },
+    {
+      "id": "v-die-reinigung",
+      "de": "Reinigung",
+      "uz": "kimyoviy tozalash (xizmat)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Reinigungen",
+      "forms": null,
+      "example_de": "Ich bringe den Anzug in die Reinigung.",
+      "example_uz": "Kostyumni kimyoviy tozalashga olib boraman.",
+      "topic": "services"
+    },
+    {
+      "id": "v-die-paketstation",
+      "de": "Paketstation",
+      "uz": "posilka avtomati",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Paketstationen",
+      "forms": null,
+      "example_de": "Mein Paket liegt in der Paketstation.",
+      "example_uz": "Posilkam avtomatda turibdi.",
+      "topic": "services"
+    },
+    {
+      "id": "v-die-öffnungszeit",
+      "de": "Öffnungszeit",
+      "uz": "ish vaqti (ochiq vaqti)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Öffnungszeiten",
+      "forms": null,
+      "example_de": "Wie sind die Öffnungszeiten der Post?",
+      "example_uz": "Pochtaning ish vaqti qanday?",
+      "topic": "services"
+    },
+    {
+      "id": "v-der-absender",
+      "de": "Absender",
+      "uz": "jo'natuvchi",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Absender",
+      "forms": null,
+      "example_de": "Schreiben Sie den Absender oben links.",
+      "example_uz": "Jo'natuvchini yuqori chap tomonga yozing.",
+      "topic": "services"
+    },
+    {
+      "id": "v-der-empfänger",
+      "de": "Empfänger",
+      "uz": "oluvchi (adresat)",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Empfänger",
+      "forms": null,
+      "example_de": "Der Empfänger wohnt in Taschkent.",
+      "example_uz": "Oluvchi Toshkentda yashaydi.",
+      "topic": "services"
+    },
+    {
+      "id": "v-unterschreiben",
+      "de": "unterschreiben",
+      "uz": "imzo chekmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "unterschrieben",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "unterschreibt",
+        "praeteritum": "unterschrieb"
+      },
+      "example_de": "Bitte unterschreiben Sie hier.",
+      "example_uz": "Iltimos, shu yerga imzo cheking.",
+      "topic": "services"
+    },
+    {
+      "id": "v-überweisen",
+      "de": "überweisen",
+      "uz": "pul o'tkazmoq (bank orqali)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "überwiesen",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "überweist",
+        "praeteritum": "überwies"
+      },
+      "example_de": "Ich überweise die Miete jeden Monat.",
+      "example_uz": "Ijara haqini har oy o'tkazaman.",
+      "topic": "services"
+    },
+    {
+      "id": "v-geöffnet",
+      "de": "geöffnet",
+      "uz": "ochiq (ishlayapti)",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Die Post ist bis 18 Uhr geöffnet.",
+      "example_uz": "Pochta soat 18 gacha ochiq.",
+      "topic": "services"
+    }
+  ],
+  "review_vocabulary": [
+    "v-das-paket",
+    "v-die-hochzeit",
+    "v-wiederholen"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-polite-requests",
+      "rule": "Muloyim iltimos uchun Konjunktiv II shakllari ishlatiladi: könnten (Könnten Sie ...?), würden (Würden Sie ...?), hätte gern (Ich hätte gern ...). Ular \"kann / will\" dan yumshoqroq eshitiladi. Infinitiv gap oxirida turadi.",
+      "when": "Rasmiy joylarda (pochta, bank, idora), notanish odamga va iltimos qilganda.",
+      "structure": "Könnten / Würden + Sie + (bitte) + ... + infinitiv?   Ich hätte gern + Akkusativ.",
+      "examples": [
+        {
+          "de": "Könnten Sie mir bitte helfen?",
+          "uz": "Menga yordam bera olarmidingiz?"
+        },
+        {
+          "de": "Würden Sie das Formular bitte unterschreiben?",
+          "uz": "Iltimos, blankaga imzo chekib bersangiz?"
+        },
+        {
+          "de": "Ich hätte gern zehn Briefmarken.",
+          "uz": "O'nta pochta markasi olmoqchi edim."
+        },
+        {
+          "de": "Könnten Sie das bitte langsamer sagen?",
+          "uz": "Buni sekinroq ayta olarmidingiz?"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Konnten Sie mir helfen?",
+          "right": "Könnten Sie mir helfen?",
+          "why": "konnten (umlautsiz) — o'tgan zamon (qila oldingizmi). Muloyim iltimos — könnten."
+        },
+        {
+          "wrong": "Ich habe gern zehn Briefmarken.",
+          "right": "Ich hätte gern zehn Briefmarken.",
+          "why": "\"habe gern\" — yoqtiraman degani. Muloyim istak — hätte gern."
+        },
+        {
+          "wrong": "Könnten Sie bitte unterschreiben das Formular?",
+          "right": "Könnten Sie bitte das Formular unterschreiben?",
+          "why": "Infinitiv (unterschreiben) gap oxirida."
+        }
+      ],
+      "check": [
+        "a2-m23-l1-e03",
+        "a2-m23-l1-e04",
+        "a2-m23-l1-e05",
+        "a2-m23-l1-e09",
+        "a2-m23-l1-e11"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Pochtada",
+    "lines": [
+      {
+        "speaker": "Mitarbeiterin",
+        "de": "Der Nächste, bitte! Was kann ich für Sie tun?",
+        "uz": "Keyingisi, marhamat! Siz uchun nima qila olaman?"
+      },
+      {
+        "speaker": "Rustam",
+        "de": "Guten Tag. Ich möchte dieses Paket nach Usbekistan schicken. Was kostet das?",
+        "uz": "Assalomu alaykum. Bu posilkani O'zbekistonga jo'natmoqchiman. Qancha turadi?"
+      },
+      {
+        "speaker": "Mitarbeiterin",
+        "de": "Das Paket wiegt drei Kilo. Das kostet 42 Euro.",
+        "uz": "Posilka uch kilo. Bu 42 yevro turadi."
+      },
+      {
+        "speaker": "Rustam",
+        "de": "Gut. Und ich hätte gern noch fünf Briefmarken für Briefe in Deutschland.",
+        "uz": "Yaxshi. Yana Germaniya ichidagi xatlar uchun beshta marka olmoqchi edim."
+      },
+      {
+        "speaker": "Mitarbeiterin",
+        "de": "Gern. Würden Sie bitte noch hier den Absender eintragen und unterschreiben?",
+        "uz": "Marhamat. Iltimos, shu yerga jo'natuvchini yozib, imzo chekib bersangiz?"
+      },
+      {
+        "speaker": "Rustam",
+        "de": "Natürlich. Könnten Sie mir bitte auch eine Quittung geben?",
+        "uz": "Albatta. Menga kvitansiya ham bera olarmidingiz?"
+      },
+      {
+        "speaker": "Mitarbeiterin",
+        "de": "Selbstverständlich. Hier, bitte.",
+        "uz": "Albatta. Mana, marhamat."
+      }
+    ],
+    "questions": [
+      "a2-m23-l1-e06",
+      "a2-m23-l1-e07"
+    ]
+  },
+  "situation": {
+    "title": "Kimyoviy tozalashda",
+    "context_uz": "Siz kimyoviy tozalashga (Reinigung) kostyumingizni olib keldingiz. U shanba kungi to'ygacha tayyor bo'lishi kerak.",
+    "lines": [
+      {
+        "speaker": "Mitarbeiter",
+        "de": "Guten Morgen! Was darf es sein?",
+        "uz": "Xayrli tong! Nima xizmat?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Guten Morgen. Könnten Sie diesen Anzug bis Freitag reinigen? Ich habe am Samstag eine Hochzeit.",
+        "uz": "Xayrli tong. Shu kostyumni jumagacha tozalab bera olarmidingiz? Shanba kuni to'yim bor."
+      },
+      {
+        "speaker": "Mitarbeiter",
+        "de": "Bis Freitagmorgen ist es schwierig. Würde Ihnen Freitagnachmittag passen?",
+        "uz": "Juma ertalabgacha qiyin. Juma kuni tushdan keyin to'g'ri kelarmidi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ja, das passt. Wie lange haben Sie am Freitag geöffnet?",
+        "uz": "Ha, to'g'ri keladi. Juma kuni soat nechagacha ochiqsiz?"
+      },
+      {
+        "speaker": "Mitarbeiter",
+        "de": "Bis 18 Uhr. Das kostet 14 Euro.",
+        "uz": "Soat 18 gacha. Bu 14 yevro turadi."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Prima. Würden Sie mir bitte einen Abholschein geben?",
+        "uz": "Zo'r. Iltimos, olib ketish uchun chipta berib yuborasizmi?"
+      },
+      {
+        "speaker": "Mitarbeiter",
+        "de": "Hier, bitte. Bis Freitag!",
+        "uz": "Mana, marhamat. Jumagacha!"
+      }
+    ],
+    "task_uz": "Rollarda o'qing. Keyin boshqa xizmat uchun (pochtada posilka jo'natish yoki bankda pul o'tkazish) 4–5 ta muloyim iltimos tuzing: Könnten Sie ...? Würden Sie ...? Ich hätte gern ..."
+  },
+  "exercises": [
+    {
+      "id": "a2-m23-l1-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "services",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemischa so'zni o'zbekcha ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "die Briefmarke",
+          "pochta markasi"
+        ],
+        [
+          "der Umschlag",
+          "konvert"
+        ],
+        [
+          "der Absender",
+          "jo'natuvchi"
+        ],
+        [
+          "der Empfänger",
+          "oluvchi"
+        ],
+        [
+          "der Schalter",
+          "xizmat oynasi"
+        ]
+      ],
+      "correct_answer": {
+        "die Briefmarke": "pochta markasi",
+        "der Umschlag": "konvert",
+        "der Absender": "jo'natuvchi",
+        "der Empfänger": "oluvchi",
+        "der Schalter": "xizmat oynasi"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Briefmarke — marka, Umschlag — konvert, Absender — jo'natuvchi, Empfänger — oluvchi, Schalter — xizmat oynasi.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m23-l1-e02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "services",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Pochta qachon ochiqligini so'ramoqchisiz: \"Wie sind die ___ der Post?\"",
+      "prompt_de": null,
+      "options": [
+        "Öffnungszeiten",
+        "Gebühren",
+        "Schalter"
+      ],
+      "pairs": null,
+      "correct_answer": "Öffnungszeiten",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Öffnungszeiten — ish vaqti. Gebühren — to'lovlar, Schalter — oynalar.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m23-l1-e03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "services",
+      "grammar_topic": "g-polite-requests",
+      "difficulty": 1,
+      "question": "können ning muloyim shaklini yozing: \"___ Sie mir bitte helfen?\"",
+      "prompt_de": "___ Sie mir bitte helfen?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Könnten",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "ö bilan",
+      "explanation": "Muloyim iltimos: Könnten Sie ...? (umlaut bilan).",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m23-l1-e04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "services",
+      "grammar_topic": "g-polite-requests",
+      "difficulty": 1,
+      "question": "Muloyim istak: \"Ich ___ gern zehn Briefmarken.\"",
+      "prompt_de": null,
+      "options": [
+        "hätte",
+        "habe",
+        "hatte"
+      ],
+      "pairs": null,
+      "correct_answer": "hätte",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "hätte gern — olmoqchi edim (muloyim). habe gern — yoqtiraman, hatte — o'tgan zamon.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m23-l1-e05",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "services",
+      "grammar_topic": "g-polite-requests",
+      "difficulty": 1,
+      "question": "So'zlarni tartiblang: \"Iltimos, shu yerga imzo chekib bersangiz?\"",
+      "prompt_de": null,
+      "options": [
+        "hier",
+        "Sie",
+        "bitte",
+        "unterschreiben",
+        "Würden"
+      ],
+      "pairs": null,
+      "correct_answer": "Würden Sie bitte hier unterschreiben?",
+      "accepted_answers": [
+        "Würden Sie hier bitte unterschreiben?"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Würden birinchi o'rinda (savol), infinitiv (unterschreiben) oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m23-l1-e06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "services",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Posilka necha pul turadi?",
+      "prompt_de": null,
+      "options": [
+        "42 yevro",
+        "24 yevro",
+        "3 yevro"
+      ],
+      "pairs": null,
+      "correct_answer": "42 yevro",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Das kostet 42 Euro.\" (zweiundvierzig)",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Das Paket wiegt drei Kilo. Das kostet 42 Euro."
+    },
+    {
+      "id": "a2-m23-l1-e07",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "services",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Rustam yana nima oladi?",
+      "prompt_de": null,
+      "options": [
+        "5 ta pochta markasi",
+        "Konvert",
+        "Ikkinchi posilka"
+      ],
+      "pairs": null,
+      "correct_answer": "5 ta pochta markasi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"ich hätte gern noch fünf Briefmarken\".",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Und ich hätte gern noch fünf Briefmarken für Briefe in Deutschland."
+    },
+    {
+      "id": "a2-m23-l1-e08",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "services",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Bankda xodim juda tez gapiryapti. Nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Könnten Sie bitte etwas langsamer sprechen?",
+        "Sprechen Sie langsam!",
+        "Konnten Sie langsamer sprechen?"
+      ],
+      "pairs": null,
+      "correct_answer": "Könnten Sie bitte etwas langsamer sprechen?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Muloyim iltimos — Könnten Sie ...? Buyruq (Sprechen Sie ...!) qo'pol, \"Konnten\" esa o'tgan zamon.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m23-l1-e09",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "directions",
+      "grammar_topic": "g-polite-requests",
+      "difficulty": 2,
+      "question": "Xato so'zni toping: \"Konnten Sie mir bitte den Weg zur Post zeigen?\"",
+      "prompt_de": "Konnten Sie mir bitte den Weg zur Post zeigen?",
+      "options": [
+        "Konnten",
+        "Sie",
+        "mir",
+        "bitte",
+        "Weg",
+        "Post",
+        "zeigen"
+      ],
+      "pairs": null,
+      "correct_answer": "Konnten",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Muloyim iltimos: \"Könnten Sie ...?\" Konnten — o'tgan zamon.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m23-l1-e10",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "services",
+      "grammar_topic": "g-polite-requests",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Menga kvitansiya bera olarmidingiz?\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Könnten Sie mir bitte eine Quittung geben?",
+      "accepted_answers": [
+        "Könnten Sie mir eine Quittung geben?",
+        "Würden Sie mir bitte eine Quittung geben?",
+        "Würden Sie mir eine Quittung geben?",
+        "Können Sie mir bitte eine Quittung geben?",
+        "Können Sie mir eine Quittung geben?"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Muloyim iltimos: Könnten/Würden Sie ... geben? (infinitiv oxirida).",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m23-l1-e11",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "politeness",
+      "grammar_topic": "g-polite-requests",
+      "difficulty": 2,
+      "question": "werden ning muloyim shaklini yozing (du): \"___ du mir bitte helfen?\"",
+      "prompt_de": "___ du mir bitte helfen?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Würdest",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "du bilan: würdest (-st).",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a2-m23-l1-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-polite-requests",
+      "difficulty": 1,
+      "question": "To'g'ri shaklni tanlang: \"___ Sie bitte das Fenster schließen?\"",
+      "prompt_de": null,
+      "options": [
+        "Würden",
+        "Wurden",
+        "Hätten"
+      ],
+      "pairs": null,
+      "correct_answer": "Würden",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Muloyim iltimos: Würden Sie ...? Wurden — o'tgan zamon, Hätten bu yerga mos emas.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m23-l1-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "appointments",
+      "grammar_topic": "g-polite-requests",
+      "difficulty": 1,
+      "question": "haben ning muloyim shaklini yozing: \"Ich ___ gern einen Termin.\"",
+      "prompt_de": "Ich ___ gern einen Termin.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "hätte",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Muloyim istak: Ich hätte gern ...",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m23-l1-t03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "services",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Shaxsingizni tasdiqlash kerak: \"Haben Sie Ihren ___ dabei?\"",
+      "prompt_de": null,
+      "options": [
+        "Ausweis",
+        "Umschlag",
+        "Absender"
+      ],
+      "pairs": null,
+      "correct_answer": "Ausweis",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ausweis — guvohnoma (ID karta).",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m23-l1-t04",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "services",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Xodim Rustamdan nima so'raydi?",
+      "prompt_de": null,
+      "options": [
+        "Jo'natuvchini yozib, imzo chekishni",
+        "Pasportini ko'rsatishni",
+        "Naqd to'lashni"
+      ],
+      "pairs": null,
+      "correct_answer": "Jo'natuvchini yozib, imzo chekishni",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"den Absender eintragen und unterschreiben\".",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Würden Sie bitte noch hier den Absender eintragen und unterschreiben?"
+    },
+    {
+      "id": "a2-m23-l1-t05",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "politeness",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Könnten Sie mir bitte helfen?\"",
+      "prompt_de": "Könnten Sie mir bitte helfen?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Menga yordam bera olasizmi?",
+      "accepted_answers": [
+        "Menga yordam bera olarmidingiz?",
+        "Iltimos, menga yordam bera olasizmi?",
+        "Iltimos, menga yordam bera olarmidingiz?",
+        "Menga yordam berib yuborolmaysizmi?",
+        "Iltimos, menga yordam berib yuborolmaysizmi?"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Könnten Sie ...? — ... olarmidingiz / olasizmi? (muloyim).",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m23-l1-t06",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "services",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Pochta oynasida konvert olmoqchisiz. Nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Ich hätte gern einen Umschlag, bitte.",
+        "Ich hatte einen Umschlag.",
+        "Geben Sie Umschlag!"
+      ],
+      "pairs": null,
+      "correct_answer": "Ich hätte gern einen Umschlag, bitte.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Muloyim istak — hätte gern. \"hatte\" — o'tgan zamon, buyruq esa qo'pol.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m23-l1-t07",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "communication",
+      "grammar_topic": "g-polite-requests",
+      "difficulty": 2,
+      "question": "So'zlarni tartiblang: \"Buni yana bir marta takrorlay olarmidingiz?\"",
+      "prompt_de": null,
+      "options": [
+        "Sie",
+        "das",
+        "Könnten",
+        "einmal",
+        "noch",
+        "bitte",
+        "wiederholen"
+      ],
+      "pairs": null,
+      "correct_answer": "Könnten Sie das bitte noch einmal wiederholen?",
+      "accepted_answers": [
+        "Könnten Sie bitte das noch einmal wiederholen?",
+        "Könnten Sie das noch einmal bitte wiederholen?"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Könnten (1) Sie (2) ... infinitiv oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

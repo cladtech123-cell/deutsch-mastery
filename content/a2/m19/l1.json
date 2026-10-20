@@ -1,0 +1,848 @@
+{
+  "id": "a2-m19-l1",
+  "version": 1,
+  "level": "A2",
+  "module": 19,
+  "order": 1,
+  "title": "Mahsulotlarni taqqoslash",
+  "title_de": "Produkte vergleichen",
+  "goal": "Dars oxirida ikki mahsulotni narxi, o'lchami va sifati bo'yicha \"-er als\" va \"so ... wie\" bilan solishtira olasiz va sotuvchidan farqni so'ray olasiz.",
+  "skill_focus": [
+    "grammar",
+    "vocabulary",
+    "speaking"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Do'konda ikki narsani solishtirganda sifatga -er qo'shimchasi qo'shiladi va solishtirilayotgan narsa \"als\" bilan keladi. Bu o'zbek tilidagi \"-roq\" va \"-dan\" ga o'xshaydi: arzonroq — billiger, telefondan — als das Telefon."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Asosiy shakl",
+        "Komparativ",
+        "O'zbekcha"
+      ],
+      "rows": [
+        [
+          "billig",
+          "billiger",
+          "arzonroq"
+        ],
+        [
+          "teuer",
+          "teurer",
+          "qimmatroq"
+        ],
+        [
+          "klein",
+          "kleiner",
+          "kichikroq"
+        ],
+        [
+          "groß",
+          "größer",
+          "kattaroq"
+        ],
+        [
+          "alt",
+          "älter",
+          "eskiroq / kattaroq (yosh)"
+        ],
+        [
+          "gut",
+          "besser",
+          "yaxshiroq"
+        ],
+        [
+          "viel",
+          "mehr",
+          "ko'proq"
+        ],
+        [
+          "gern",
+          "lieber",
+          "ko'proq yoqtirib"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Ikki narsa bir xil bo'lsa \"so + sifat + wie\" ishlatiladi: Das Handy ist so teuer wie das Tablet. — Telefon planshet bilan bir xil qimmat."
+    },
+    {
+      "type": "tip",
+      "text": "Nemis tilida \"mehr billig\" deyilmaydi — har doim bitta so'z: billiger. \"mehr\" faqat miqdor uchun: mehr Geld (ko'proq pul)."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-das-angebot",
+      "de": "Angebot",
+      "uz": "aksiya, maxsus taklif",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Angebote",
+      "forms": null,
+      "example_de": "Diese Woche gibt es ein gutes Angebot für Fernseher.",
+      "example_uz": "Bu hafta televizorlarga yaxshi aksiya bor.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-die-qualität",
+      "de": "Qualität",
+      "uz": "sifat",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Qualitäten",
+      "forms": null,
+      "example_de": "Die Qualität ist wichtiger als der Preis.",
+      "example_uz": "Sifat narxdan muhimroq.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-der-unterschied",
+      "de": "Unterschied",
+      "uz": "farq",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Unterschiede",
+      "forms": null,
+      "example_de": "Was ist der Unterschied zwischen den zwei Modellen?",
+      "example_uz": "Ikki model orasidagi farq nima?",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-das-modell",
+      "de": "Modell",
+      "uz": "model",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Modelle",
+      "forms": null,
+      "example_de": "Dieses Modell ist neuer.",
+      "example_uz": "Bu model yangiroq.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-die-marke",
+      "de": "Marke",
+      "uz": "brend, marka",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Marken",
+      "forms": null,
+      "example_de": "Welche Marke ist besser?",
+      "example_uz": "Qaysi brend yaxshiroq?",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-die-auswahl",
+      "de": "Auswahl",
+      "uz": "tanlov, assortiment",
+      "pos": "noun",
+      "article": "die",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Im Kaufhaus ist die Auswahl größer.",
+      "example_uz": "Univermagda tanlov kattaroq.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-vergleichen",
+      "de": "vergleichen",
+      "uz": "taqqoslamoq, solishtirmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "verglichen",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "vergleicht",
+        "praeteritum": "verglich"
+      },
+      "example_de": "Ich vergleiche die Preise im Internet.",
+      "example_uz": "Men narxlarni internetda solishtiraman.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-sparen",
+      "de": "sparen",
+      "uz": "tejamoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "gespart",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "spart"
+      },
+      "example_de": "Mit dem Angebot spart man 20 Euro.",
+      "example_uz": "Aksiya bilan 20 yevro tejaladi.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-praktisch",
+      "de": "praktisch",
+      "uz": "qulay, amaliy",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Der kleine Koffer ist praktischer.",
+      "example_uz": "Kichik chamadon qulayroq.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-leicht",
+      "de": "leicht",
+      "uz": "yengil; oson",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Das neue Handy ist leichter als das alte.",
+      "example_uz": "Yangi telefon eskisidan yengilroq.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-genauso",
+      "de": "genauso",
+      "uz": "xuddi shunday, bir xil",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Das blaue Modell ist genauso gut wie das rote.",
+      "example_uz": "Ko'k model ham qizilidek yaxshi.",
+      "topic": "shopping"
+    }
+  ],
+  "review_vocabulary": [
+    "v-günstig",
+    "v-als"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-comparison",
+      "rule": "Komparativ: sifat + -er. Solishtirilayotgan narsa \"als\" bilan keladi. Teng bo'lsa: so + sifat + wie. Ko'p bir bo'g'inli sifatlarda a, o, u → ä, ö, ü bo'ladi (alt → älter, groß → größer, jung → jünger). Istisnolar: gut → besser, viel → mehr, gern → lieber.",
+      "when": "Ikki narsa, odam yoki joyni narx, sifat, o'lcham bo'yicha solishtirganda.",
+      "structure": "A + ist + sifat-er + als + B.   A + ist + so + sifat + wie + B.",
+      "examples": [
+        {
+          "de": "Die Jacke ist billiger als der Mantel.",
+          "uz": "Kurtka paltodan arzonroq."
+        },
+        {
+          "de": "Das neue Modell ist besser als das alte.",
+          "uz": "Yangi model eskisidan yaxshiroq."
+        },
+        {
+          "de": "Online ist die Auswahl größer als im Laden.",
+          "uz": "Internetda tanlov do'kondagidan kattaroq."
+        },
+        {
+          "de": "Der Tee ist so teuer wie der Kaffee.",
+          "uz": "Choy qahva bilan bir xil narxda."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Das Handy ist billiger wie das Tablet.",
+          "right": "Das Handy ist billiger als das Tablet.",
+          "why": "Komparativdan keyin \"als\" keladi. \"wie\" faqat tenglikda: so billig wie."
+        },
+        {
+          "wrong": "Der Koffer ist mehr praktisch.",
+          "right": "Der Koffer ist praktischer.",
+          "why": "Nemis tilida \"mehr + sifat\" emas, sifatga -er qo'shiladi."
+        },
+        {
+          "wrong": "Der Fernseher ist teuerer.",
+          "right": "Der Fernseher ist teurer.",
+          "why": "teuer sifatida -er qo'shilganda bitta e tushib qoladi: teurer."
+        },
+        {
+          "wrong": "Das ist guter.",
+          "right": "Das ist besser.",
+          "why": "gut — noto'g'ri sifat: gut → besser."
+        }
+      ],
+      "check": [
+        "a2-m19-l1-e03",
+        "a2-m19-l1-e04",
+        "a2-m19-l1-e05"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Qaysi kofe mashinasi?",
+    "lines": [
+      {
+        "speaker": "Markus",
+        "de": "Schau mal, Dilnoza, hier sind zwei Kaffeemaschinen.",
+        "uz": "Qara, Dilnoza, mana ikkita kofe mashinasi."
+      },
+      {
+        "speaker": "Dilnoza",
+        "de": "Die rote kostet 89 Euro, die schwarze 120 Euro.",
+        "uz": "Qizili 89 yevro, qorasi 120 yevro turadi."
+      },
+      {
+        "speaker": "Markus",
+        "de": "Die schwarze ist teurer, aber die Qualität ist besser.",
+        "uz": "Qorasi qimmatroq, lekin sifati yaxshiroq."
+      },
+      {
+        "speaker": "Dilnoza",
+        "de": "Aber die rote ist kleiner und leichter. Unsere Küche ist nicht groß.",
+        "uz": "Lekin qizili kichikroq va yengilroq. Oshxonamiz katta emas."
+      },
+      {
+        "speaker": "Markus",
+        "de": "Stimmt. Und heute gibt es ein Angebot: Wir sparen zehn Euro.",
+        "uz": "To'g'ri. Bugun aksiya ham bor: o'n yevro tejaymiz."
+      },
+      {
+        "speaker": "Dilnoza",
+        "de": "Gut, dann nehmen wir die rote.",
+        "uz": "Yaxshi, unda qizilini olamiz."
+      }
+    ],
+    "questions": [
+      "a2-m19-l1-e06",
+      "a2-m19-l1-e07"
+    ]
+  },
+  "situation": {
+    "title": "Elektronika do'konida",
+    "context_uz": "Siz elektr choynak (Wasserkocher) sotib olmoqchisiz. Javonda ikki model bor va siz sotuvchidan farqini so'raysiz.",
+    "lines": [
+      {
+        "speaker": "Verkäuferin",
+        "de": "Kann ich Ihnen helfen?",
+        "uz": "Sizga yordam bera olamanmi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ja, ich suche einen Wasserkocher. Was ist der Unterschied zwischen diesen zwei Modellen?",
+        "uz": "Ha, elektr choynak qidiryapman. Bu ikki model orasidagi farq nima?"
+      },
+      {
+        "speaker": "Verkäuferin",
+        "de": "Das Modell von Marke A ist günstiger, es kostet 25 Euro. Das andere ist teurer, aber schneller.",
+        "uz": "A brendining modeli arzonroq, 25 yevro turadi. Boshqasi qimmatroq, lekin tezroq."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ist das andere Modell auch größer?",
+        "uz": "Boshqa model kattaroq hammi?"
+      },
+      {
+        "speaker": "Verkäuferin",
+        "de": "Nein, die zwei Modelle sind genauso groß.",
+        "uz": "Yo'q, ikki model bir xil kattalikda."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Dann nehme ich das Modell von Marke A.",
+        "uz": "Unda A brendining modelini olaman."
+      }
+    ],
+    "task_uz": "Dialogni rollarda o'qing. Keyin boshqa mahsulot (masalan, dazmol yoki fen) bilan o'zingiz dialog tuzing: ikki modelni narx, o'lcham va sifat bo'yicha solishtiring."
+  },
+  "exercises": [
+    {
+      "id": "a2-m19-l1-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemischa so'zni o'zbekcha ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "das Angebot",
+          "aksiya"
+        ],
+        [
+          "die Qualität",
+          "sifat"
+        ],
+        [
+          "der Unterschied",
+          "farq"
+        ],
+        [
+          "die Auswahl",
+          "tanlov"
+        ],
+        [
+          "die Marke",
+          "brend"
+        ]
+      ],
+      "correct_answer": {
+        "das Angebot": "aksiya",
+        "die Qualität": "sifat",
+        "der Unterschied": "farq",
+        "die Auswahl": "tanlov",
+        "die Marke": "brend"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Angebot — aksiya, Qualität — sifat, Unterschied — farq, Auswahl — tanlov, Marke — brend.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m19-l1-e02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Mos fe'lni tanlang: \"Mit dem Angebot ___ man 20 Euro.\"",
+      "prompt_de": "Mit dem Angebot ___ man 20 Euro.",
+      "options": [
+        "spart",
+        "vergleicht",
+        "kostet"
+      ],
+      "pairs": null,
+      "correct_answer": "spart",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Aksiya pulni ... imkon beradi.",
+      "explanation": "\"sparen\" — tejamoq: aksiya bilan 20 yevro tejaladi. \"vergleicht\" — solishtiradi, \"kostet\" esa \"man\" bilan ishlatilmaydi.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m19-l1-e03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "shopping",
+      "grammar_topic": "g-comparison",
+      "difficulty": 1,
+      "question": "Bo'sh joyni komparativ bilan to'ldiring (teuer): Das Handy kostet 300 Euro, das Tablet 400 Euro. Das Tablet ist ___ als das Handy.",
+      "prompt_de": "Das Tablet ist ___ als das Handy.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "teurer",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "teuer + er, lekin bitta e tushadi.",
+      "explanation": "teuer → teurer: -er qo'shilganda ichidagi e tushib qoladi. \"teuerer\" deb yozilmaydi.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m19-l1-e04",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "people",
+      "grammar_topic": "g-comparison",
+      "difficulty": 2,
+      "question": "Bo'sh joyni to'ldiring (alt): Mein Bruder ist 25, ich bin 22. Mein Bruder ist ___ als ich.",
+      "prompt_de": "Mein Bruder ist ___ als ich.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "älter",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "a harfi umlautga aylanadi.",
+      "explanation": "Bir bo'g'inli alt sifatida a → ä bo'ladi: alt → älter.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m19-l1-e05",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "shopping",
+      "grammar_topic": "g-comparison",
+      "difficulty": 1,
+      "question": "To'g'ri so'zni tanlang: \"Die rote Tasche ist so groß ___ die blaue.\"",
+      "prompt_de": "Die rote Tasche ist so groß ___ die blaue.",
+      "options": [
+        "wie",
+        "als",
+        "dann"
+      ],
+      "pairs": null,
+      "correct_answer": "wie",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"so\" ni ko'ryapsizmi?",
+      "explanation": "Tenglikda \"so + sifat + wie\" ishlatiladi. \"als\" faqat komparativ (größer als) bilan.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m19-l1-e06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Qaysi kofe mashinasi qimmatroq?",
+      "prompt_de": null,
+      "options": [
+        "Qora mashina",
+        "Qizil mashina",
+        "Ikkalasi bir xil narxda"
+      ],
+      "pairs": null,
+      "correct_answer": "Qora mashina",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Die schwarze ist teurer\" — qorasi qimmatroq: 120 yevro.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Die rote kostet 89 Euro, die schwarze 120 Euro. Die schwarze ist teurer, aber die Qualität ist besser."
+    },
+    {
+      "id": "a2-m19-l1-e07",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang. Nega ular qizil mashinani oladi?",
+      "prompt_de": null,
+      "options": [
+        "U kichikroq va yengilroq, oshxona esa katta emas",
+        "Uning sifati yaxshiroq",
+        "U qimmatroq"
+      ],
+      "pairs": null,
+      "correct_answer": "U kichikroq va yengilroq, oshxona esa katta emas",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Dilnoza: \"Die rote ist kleiner und leichter. Unsere Küche ist nicht groß.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Aber die rote ist kleiner und leichter. Unsere Küche ist nicht groß. Gut, dann nehmen wir die rote."
+    },
+    {
+      "id": "a2-m19-l1-e08",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "shopping",
+      "grammar_topic": "g-comparison",
+      "difficulty": 1,
+      "question": "So'zlarni tartiblang: \"Yangi model eskisidan yaxshiroq.\"",
+      "prompt_de": null,
+      "options": [
+        "Das",
+        "ist",
+        "das",
+        "besser",
+        "neue",
+        "alte",
+        "Modell",
+        "als"
+      ],
+      "pairs": null,
+      "correct_answer": "Das neue Modell ist besser als das alte.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Fe'l (ist) ikkinchi o'rinda, keyin komparativ (besser) va \"als\" + solishtirilgan narsa.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m19-l1-e09",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "shopping",
+      "grammar_topic": "g-comparison",
+      "difficulty": 2,
+      "question": "Gapdagi ortiqcha/xato so'zni toping: \"Der Koffer ist mehr praktisch als die Tasche.\"",
+      "prompt_de": "Der Koffer ist mehr praktisch als die Tasche.",
+      "options": [
+        "Koffer",
+        "ist",
+        "mehr",
+        "praktisch",
+        "als",
+        "Tasche"
+      ],
+      "pairs": null,
+      "correct_answer": "mehr",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: \"Der Koffer ist praktischer als die Tasche.\" Komparativ \"mehr\" bilan emas, -er bilan yasaladi.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m19-l1-e10",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Bu do'kon arzonroq.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Dieser Laden ist günstiger.",
+      "accepted_answers": [
+        "Dieser Laden ist billiger.",
+        "Dieses Geschäft ist billiger.",
+        "Dieses Geschäft ist günstiger.",
+        "Der Laden ist billiger.",
+        "Der Laden ist günstiger.",
+        "Das Geschäft ist billiger.",
+        "Das Geschäft ist günstiger."
+      ],
+      "criteria": null,
+      "hint": "billig/günstig + er",
+      "explanation": "\"arzonroq\" — billiger yoki günstiger. \"do'kon\" — der Laden yoki das Geschäft.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m19-l1-e11",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Sotuvchidan ikki model orasidagi farqni so'ramoqchisiz. Nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Was ist der Unterschied zwischen den Modellen?",
+        "Wie viel Unterschied haben Sie?",
+        "Ist das Modell der Unterschied?"
+      ],
+      "pairs": null,
+      "correct_answer": "Was ist der Unterschied zwischen den Modellen?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Farqni so'rash: \"Was ist der Unterschied zwischen ...?\" Boshqa variantlar ma'nosiz.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a2-m19-l1-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "transport",
+      "grammar_topic": "g-comparison",
+      "difficulty": 1,
+      "question": "To'g'ri shaklni tanlang: \"Das Fahrrad ist ___ als das Auto.\" (billig)",
+      "prompt_de": null,
+      "options": [
+        "billiger",
+        "mehr billig",
+        "billig"
+      ],
+      "pairs": null,
+      "correct_answer": "billiger",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Komparativ: billig + er = billiger. \"mehr billig\" noto'g'ri.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m19-l1-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-comparison",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (gut): Der Kaffee ist gut, aber der Tee ist ___.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "besser",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "gut — noto'g'ri sifat: gut → besser.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m19-l1-t03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "city",
+      "grammar_topic": "g-comparison",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (groß): Berlin ist ___ als München.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "größer",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "groß → größer: o harfi ö ga aylanadi.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m19-l1-t04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "clothes",
+      "grammar_topic": "g-comparison",
+      "difficulty": 1,
+      "question": "To'g'ri so'zni tanlang: \"Die Hose ist so teuer ___ der Pullover.\"",
+      "prompt_de": null,
+      "options": [
+        "wie",
+        "als",
+        "so"
+      ],
+      "pairs": null,
+      "correct_answer": "wie",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Tenglik: so + sifat + wie.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m19-l1-t05",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Online ist die Auswahl größer.\"",
+      "prompt_de": "Online ist die Auswahl größer.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Internetda tanlov kattaroq.",
+      "accepted_answers": [
+        "Onlayn tanlov kattaroq.",
+        "Internetda tanlov ko'proq.",
+        "Onlayn tanlov ko'proq.",
+        "Internetda assortiment kattaroq.",
+        "Internetda tanlov kengroq."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "online — internetda, die Auswahl — tanlov, größer — kattaroq.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m19-l1-t06",
+      "version": 1,
+      "type": "match",
+      "skill": "grammar",
+      "topic": "shopping",
+      "grammar_topic": "g-comparison",
+      "difficulty": 1,
+      "question": "Asosiy shaklni komparativ bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "billig",
+          "billiger"
+        ],
+        [
+          "gut",
+          "besser"
+        ],
+        [
+          "viel",
+          "mehr"
+        ],
+        [
+          "alt",
+          "älter"
+        ]
+      ],
+      "correct_answer": {
+        "billig": "billiger",
+        "gut": "besser",
+        "viel": "mehr",
+        "alt": "älter"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "billig → billiger, gut → besser, viel → mehr, alt → älter.",
+      "error_type": "other",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m19-l1-t07",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Do'stingiz so'rayapti: \"Welches Handy ist besser?\" Siz qora telefon yaxshiroq deb o'ylaysiz.",
+      "prompt_de": null,
+      "options": [
+        "Das schwarze Handy ist besser.",
+        "Das schwarze Handy ist gut als das andere.",
+        "Das schwarze Handy ist mehr gut."
+      ],
+      "pairs": null,
+      "correct_answer": "Das schwarze Handy ist besser.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"besser\" — gut ning komparativi. \"gut als\" va \"mehr gut\" noto'g'ri.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

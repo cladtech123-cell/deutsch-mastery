@@ -1,0 +1,840 @@
+{
+  "id": "a1-m08-l1",
+  "version": 1,
+  "level": "A1",
+  "module": 8,
+  "order": 1,
+  "title": "Narx va miqdor",
+  "title_de": "Was kostet das?",
+  "goal": "Dars oxirida narxni so'raysiz va tushunasiz (Was kostet ...? / Was kosten ...?), evro va sentni o'qiysiz hamda miqdorni aytasiz: ein Kilo, eine Flasche, 200 Gramm.",
+  "skill_focus": [
+    "vocabulary",
+    "listening",
+    "speaking"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Narx so'rash: \"Was kostet ...?\" — bitta narsa uchun, \"Was kosten ...?\" — ko'plik uchun. Javob: \"Das kostet 2,50 Euro.\" / \"Die Äpfel kosten 3 Euro.\""
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Yozilishi",
+        "O'qilishi"
+      ],
+      "rows": [
+        [
+          "1,50 €",
+          "ein Euro fünfzig"
+        ],
+        [
+          "0,99 €",
+          "neunundneunzig Cent"
+        ],
+        [
+          "12,30 €",
+          "zwölf Euro dreißig"
+        ],
+        [
+          "20,00 €",
+          "zwanzig Euro"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Miqdor so'zidan keyin ot to'g'ridan-to'g'ri keladi, o'rtada boshqa so'z kerak emas: ein Kilo Äpfel, eine Flasche Wasser, 200 Gramm Käse, eine Dose Tomaten, ein Stück Kuchen."
+    },
+    {
+      "type": "tip",
+      "text": "Kilo, Gramm, Euro, Cent ko'plikda o'zgarmaydi: zwei Kilo, drei Euro, 500 Gramm. Flasche, Dose, Packung esa ko'plik oladi: zwei Flaschen, drei Dosen, zwei Packungen."
+    },
+    {
+      "type": "tip",
+      "text": "Nemis tilida o'nlik kasr vergul bilan yoziladi: 2,50 € (2.50 emas). Narx o'qilganda \"Komma\" aytilmaydi: zwei Euro fünfzig."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-der-euro",
+      "de": "Euro",
+      "uz": "evro",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Euro",
+      "forms": null,
+      "example_de": "Das Brot kostet zwei Euro.",
+      "example_uz": "Non ikki evro turadi.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-der-cent",
+      "de": "Cent",
+      "uz": "sent",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Cent",
+      "forms": null,
+      "example_de": "Ein Apfel kostet 50 Cent.",
+      "example_uz": "Bitta olma 50 sent turadi.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-das-kilo",
+      "de": "Kilo",
+      "uz": "kilogramm",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Kilo",
+      "forms": null,
+      "example_de": "Ein Kilo Tomaten, bitte.",
+      "example_uz": "Bir kilo pomidor, iltimos.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-das-gramm",
+      "de": "Gramm",
+      "uz": "gramm",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Gramm",
+      "forms": null,
+      "example_de": "Ich nehme 200 Gramm Käse.",
+      "example_uz": "Men 200 gramm pishloq olaman.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-die-flasche",
+      "de": "Flasche",
+      "uz": "shisha (idish)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Flaschen",
+      "forms": null,
+      "example_de": "Eine Flasche Wasser kostet 80 Cent.",
+      "example_uz": "Bir shisha suv 80 sent turadi.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-die-dose",
+      "de": "Dose",
+      "uz": "banka (konserva)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Dosen",
+      "forms": null,
+      "example_de": "Wir brauchen zwei Dosen Tomaten.",
+      "example_uz": "Bizga ikki banka pomidor kerak.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-die-packung",
+      "de": "Packung",
+      "uz": "qadoq, pachka",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Packungen",
+      "forms": null,
+      "example_de": "Ich kaufe eine Packung Butter.",
+      "example_uz": "Men bir pachka sariyog' sotib olaman.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-das-stück",
+      "de": "Stück",
+      "uz": "bo'lak, dona",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Stücke",
+      "forms": null,
+      "example_de": "Ein Stück Kuchen, bitte.",
+      "example_uz": "Bir bo'lak pirog, iltimos.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-der-supermarkt",
+      "de": "Supermarkt",
+      "uz": "supermarket",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Supermärkte",
+      "forms": null,
+      "example_de": "Der Supermarkt ist sehr groß.",
+      "example_uz": "Supermarket juda katta.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-die-kasse",
+      "de": "Kasse",
+      "uz": "kassa",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Kassen",
+      "forms": null,
+      "example_de": "Bitte zahlen Sie an der Kasse.",
+      "example_uz": "Iltimos, kassada to'lang.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-kosten",
+      "de": "kosten",
+      "uz": "turmoq (narxi)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "gekostet",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "kostet"
+      },
+      "example_de": "Was kostet das?",
+      "example_uz": "Bu qancha turadi?",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-kaufen",
+      "de": "kaufen",
+      "uz": "sotib olmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "gekauft",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "kauft"
+      },
+      "example_de": "Wir kaufen heute Obst.",
+      "example_uz": "Biz bugun meva sotib olamiz.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-teuer",
+      "de": "teuer",
+      "uz": "qimmat",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Der Käse ist teuer.",
+      "example_uz": "Pishloq qimmat.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-billig",
+      "de": "billig",
+      "uz": "arzon",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Die Bananen sind heute billig.",
+      "example_uz": "Bugun banan arzon.",
+      "topic": "shopping"
+    }
+  ],
+  "review_vocabulary": [
+    "v-der-käse",
+    "v-die-tomate",
+    "v-die-kartoffel",
+    "v-der-apfel",
+    "v-das-brot",
+    "v-der-saft",
+    "v-die-butter",
+    "v-brauchen",
+    "v-möchten",
+    "v-nehmen"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-plural",
+      "rule": "Fe'l ega bilan moslashadi: bitta narsa → kostet, ko'plik → kosten. Kilo, Gramm, Euro, Cent ko'plikda o'zgarmaydi; Flasche, Dose, Packung esa ko'plik qo'shimchasini oladi.",
+      "when": "Narx so'raganda va mahsulot miqdorini aytganda.",
+      "structure": "Was kostet + birlik? Was kosten + ko'plik?\nson + Kilo/Gramm + ot: zwei Kilo Kartoffeln\nson + Flaschen/Dosen/Packungen + ot: drei Flaschen Saft",
+      "examples": [
+        {
+          "de": "Was kostet der Käse?",
+          "uz": "Pishloq qancha turadi?"
+        },
+        {
+          "de": "Was kosten die Tomaten?",
+          "uz": "Pomidorlar qancha turadi?"
+        },
+        {
+          "de": "Zwei Kilo Kartoffeln kosten drei Euro.",
+          "uz": "Ikki kilo kartoshka uch evro turadi."
+        },
+        {
+          "de": "Ich nehme drei Flaschen Saft.",
+          "uz": "Men uch shisha sharbat olaman."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Was kostet die Äpfel?",
+          "right": "Was kosten die Äpfel?",
+          "why": "Äpfel — ko'plik, shuning uchun fe'l ham ko'plikda: kosten."
+        },
+        {
+          "wrong": "zwei Kilos Reis",
+          "right": "zwei Kilo Reis",
+          "why": "Kilo, Gramm, Euro ko'plikda o'zgarmaydi."
+        },
+        {
+          "wrong": "zwei Flasche Wasser",
+          "right": "zwei Flaschen Wasser",
+          "why": "Flasche — oddiy ot, ko'plikda -n oladi."
+        }
+      ],
+      "check": [
+        "a1-m08-l1-e04",
+        "a1-m08-l1-e05",
+        "a1-m08-l1-e06",
+        "a1-m08-l1-e11"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Bozorda",
+    "lines": [
+      {
+        "speaker": "Verkäufer",
+        "de": "Guten Tag! Was möchten Sie?",
+        "uz": "Assalomu alaykum! Nima xohlaysiz?"
+      },
+      {
+        "speaker": "Malika",
+        "de": "Ein Kilo Tomaten, bitte. Was kosten die Tomaten?",
+        "uz": "Bir kilo pomidor, iltimos. Pomidor qancha turadi?"
+      },
+      {
+        "speaker": "Verkäufer",
+        "de": "Ein Kilo kostet 2,80 Euro.",
+        "uz": "Bir kilosi 2 evro 80 sent."
+      },
+      {
+        "speaker": "Malika",
+        "de": "Gut. Und 500 Gramm Käse, bitte.",
+        "uz": "Yaxshi. Yana 500 gramm pishloq, iltimos."
+      },
+      {
+        "speaker": "Verkäufer",
+        "de": "Das macht zusammen 7,30 Euro.",
+        "uz": "Hammasi bo'lib 7 evro 30 sent."
+      },
+      {
+        "speaker": "Malika",
+        "de": "Hier sind 10 Euro.",
+        "uz": "Mana 10 evro."
+      },
+      {
+        "speaker": "Verkäufer",
+        "de": "Und 2,70 Euro zurück. Danke!",
+        "uz": "2 evro 70 sent qaytim. Rahmat!"
+      }
+    ],
+    "questions": [
+      "a1-m08-l1-e07",
+      "a1-m08-l1-e08"
+    ]
+  },
+  "situation": {
+    "title": "Kassada",
+    "context_uz": "Siz supermarket kassasidasiz. Kassir hisobni aytdi, lekin narx sizga ko'p ko'rindi.",
+    "lines": [
+      {
+        "speaker": "Kassiererin",
+        "de": "Guten Tag! Das macht 12,40 Euro.",
+        "uz": "Assalomu alaykum! Jami 12 evro 40 sent."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Entschuldigung, was kostet eine Flasche Saft?",
+        "uz": "Kechirasiz, bir shisha sharbat qancha turadi?"
+      },
+      {
+        "speaker": "Kassiererin",
+        "de": "1,99 Euro. Sie haben zwei Flaschen.",
+        "uz": "1 evro 99 sent. Sizda ikki shisha bor."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Das ist teuer. Ich nehme nur eine Flasche, bitte.",
+        "uz": "Bu qimmat. Faqat bir shisha olaman, iltimos."
+      },
+      {
+        "speaker": "Kassiererin",
+        "de": "Kein Problem. Dann macht das 10,41 Euro.",
+        "uz": "Muammo yo'q. Unda 10 evro 41 sent bo'ladi."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Hier, bitte.",
+        "uz": "Mana, marhamat."
+      }
+    ],
+    "task_uz": "Sherigingiz kassir bo'lsin. Har bir mahsulot narxini so'rang (\"Was kostet ...? / Was kosten ...?\") va bitta mahsulot miqdorini o'zgartiring (\"Ich nehme nur ...\")."
+  },
+  "exercises": [
+    {
+      "id": "a1-m08-l1-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "So'zlarni juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "Flasche",
+          "shisha"
+        ],
+        [
+          "Dose",
+          "banka"
+        ],
+        [
+          "Packung",
+          "pachka"
+        ],
+        [
+          "Stück",
+          "bo'lak"
+        ],
+        [
+          "Kasse",
+          "kassa"
+        ]
+      ],
+      "correct_answer": {
+        "Flasche": "shisha",
+        "Dose": "banka",
+        "Packung": "pachka",
+        "Stück": "bo'lak",
+        "Kasse": "kassa"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Flasche — shisha, Dose — banka (konserva), Packung — pachka, Stück — bo'lak/dona, Kasse — kassa.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m08-l1-e02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "\"teuer\" so'zining qarama-qarshisi qaysi?",
+      "prompt_de": null,
+      "options": [
+        "billig",
+        "lecker",
+        "gern"
+      ],
+      "pairs": null,
+      "correct_answer": "billig",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "teuer — qimmat, billig — arzon. lecker — mazali, gern — yaxshi ko'rib.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m08-l1-e03",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "numbers",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang va narxni raqam bilan yozing (masalan: 1,20).",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "3,50",
+      "accepted_answers": [
+        "3,50 €",
+        "3,50 Euro",
+        "3.50",
+        "drei Euro fünfzig"
+      ],
+      "criteria": null,
+      "hint": "Euro ... Cent",
+      "explanation": "\"drei Euro fünfzig\" = 3,50 €. Avval evro, keyin sent aytiladi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Das kostet drei Euro fünfzig."
+    },
+    {
+      "id": "a1-m08-l1-e04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "shopping",
+      "grammar_topic": "g-plural",
+      "difficulty": 1,
+      "question": "To'g'ri shaklni tanlang: Was ___ die Bananen?",
+      "prompt_de": "Was ___ die Bananen?",
+      "options": [
+        "kostet",
+        "kosten",
+        "koste"
+      ],
+      "pairs": null,
+      "correct_answer": "kosten",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Bananen — ko'plik, shuning uchun \"kosten\".",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m08-l1-e05",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "shopping",
+      "grammar_topic": "g-plural",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (Flasche): Ich nehme zwei ___ Wasser.",
+      "prompt_de": "Ich nehme zwei ___ Wasser.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Flaschen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Flasche ko'plikda -n oladi: zwei Flaschen.",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m08-l1-e06",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "shopping",
+      "grammar_topic": "g-plural",
+      "difficulty": 1,
+      "question": "Xato so'zni toping: \"Ich kaufe drei Kilos Kartoffeln.\"",
+      "prompt_de": "Ich kaufe drei Kilos Kartoffeln.",
+      "options": [
+        "Ich",
+        "kaufe",
+        "drei",
+        "Kilos",
+        "Kartoffeln"
+      ],
+      "pairs": null,
+      "correct_answer": "Kilos",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: \"drei Kilo Kartoffeln\". Kilo ko'plikda o'zgarmaydi.",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m08-l1-e07",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Dialogni tinglang. Bir kilo pomidor qancha turadi?",
+      "prompt_de": null,
+      "options": [
+        "2,80 €",
+        "7,30 €",
+        "2,70 €"
+      ],
+      "pairs": null,
+      "correct_answer": "2,80 €",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Sotuvchi: \"Ein Kilo kostet 2,80 Euro.\" 7,30 € — jami summa, 2,70 € — qaytim.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Guten Tag! Was möchten Sie? Ein Kilo Tomaten, bitte. Was kosten die Tomaten? Ein Kilo kostet 2,80 Euro. Gut. Und 500 Gramm Käse, bitte. Das macht zusammen 7,30 Euro. Hier sind 10 Euro. Und 2,70 Euro zurück. Danke!"
+    },
+    {
+      "id": "a1-m08-l1-e08",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni tinglang. Malika qancha pishloq oladi?",
+      "prompt_de": null,
+      "options": [
+        "500 gramm",
+        "1 kilo",
+        "200 gramm"
+      ],
+      "pairs": null,
+      "correct_answer": "500 gramm",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Und 500 Gramm Käse, bitte.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Guten Tag! Was möchten Sie? Ein Kilo Tomaten, bitte. Was kosten die Tomaten? Ein Kilo kostet 2,80 Euro. Gut. Und 500 Gramm Käse, bitte. Das macht zusammen 7,30 Euro. Hier sind 10 Euro. Und 2,70 Euro zurück. Danke!"
+    },
+    {
+      "id": "a1-m08-l1-e09",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemis tiliga tarjima qiling: \"Bu qancha turadi?\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Was kostet das?",
+      "accepted_answers": [
+        "Wie viel kostet das?"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Narx so'rashning eng oddiy usuli: Was kostet das?",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m08-l1-e10",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "E'lonni o'qing. Bir shisha sharbat qancha turadi?",
+      "prompt_de": "Angebote der Woche: Äpfel – 1 Kilo 2,49 €. Käse – 100 Gramm 1,29 €. Saft – 1 Flasche 1,79 €. Brot – 1 Stück 2,10 €.",
+      "options": [
+        "1,79 €",
+        "2,49 €",
+        "2,10 €"
+      ],
+      "pairs": null,
+      "correct_answer": "1,79 €",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Saft: 1 Flasche – 1,79 €\".",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m08-l1-e11",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "shopping",
+      "grammar_topic": "g-plural",
+      "difficulty": 2,
+      "question": "Fe'lni tuslang: Was ___ (kosten) ein Kilo Reis?",
+      "prompt_de": "Was ___ (kosten) ein Kilo Reis?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "kostet",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "ein Kilo — birlik",
+      "explanation": "\"ein Kilo Reis\" — bitta miqdor (birlik), shuning uchun \"kostet\".",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a1-m08-l1-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "\"billig\" nima degani?",
+      "prompt_de": null,
+      "options": [
+        "arzon",
+        "qimmat",
+        "mazali"
+      ],
+      "pairs": null,
+      "correct_answer": "arzon",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "billig — arzon, teuer — qimmat.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m08-l1-t02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "shopping",
+      "grammar_topic": "g-plural",
+      "difficulty": 1,
+      "question": "To'g'ri shaklni tanlang: Was ___ der Käse?",
+      "prompt_de": "Was ___ der Käse?",
+      "options": [
+        "kostet",
+        "kosten"
+      ],
+      "pairs": null,
+      "correct_answer": "kostet",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Käse — birlik, shuning uchun \"kostet\".",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m08-l1-t03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "shopping",
+      "grammar_topic": "g-plural",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (Dose): Wir brauchen drei ___ Tomaten.",
+      "prompt_de": "Wir brauchen drei ___ Tomaten.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Dosen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Dose → die Dosen.",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m08-l1-t04",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang va yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ein Kilo Äpfel kostet zwei Euro.",
+      "accepted_answers": [
+        "Ein Kilo Äpfel kostet 2 Euro."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Äpfel\" — ä bilan, ko'plik. \"ein Kilo\" birlik bo'lgani uchun \"kostet\".",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": "Ein Kilo Äpfel kostet zwei Euro."
+    },
+    {
+      "id": "a1-m08-l1-t05",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Der Käse ist teuer.\"",
+      "prompt_de": "Der Käse ist teuer.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Pishloq qimmat.",
+      "accepted_answers": [
+        "Pishloq qimmat ekan",
+        "Bu pishloq qimmat"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "teuer — qimmat.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m08-l1-t06",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Artiklni tanlang: ___ Flasche",
+      "prompt_de": "___ Flasche",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "die",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Flasche — ayol jinsi, ko'pligi die Flaschen.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m08-l1-t07",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. U nima oladi?",
+      "prompt_de": null,
+      "options": [
+        "200 g pishloq va bir shisha sharbat",
+        "2 kilo pishloq va bir shisha sharbat",
+        "200 g pishloq va bir shisha suv"
+      ],
+      "pairs": null,
+      "correct_answer": "200 g pishloq va bir shisha sharbat",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"200 Gramm Käse und eine Flasche Saft\".",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Ich nehme 200 Gramm Käse und eine Flasche Saft."
+    }
+  ]
+}

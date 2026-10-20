@@ -1,0 +1,21 @@
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+build/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.coverage
+htmlcov/
+playwright-report/
+test-results/
+*.log
+.DS_Store
+
+# local tooling state
+.claude/
+*.sqlite3

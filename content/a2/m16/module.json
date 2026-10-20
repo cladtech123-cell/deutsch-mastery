@@ -1,0 +1,315 @@
+{
+  "id": "a2-m16",
+  "version": 1,
+  "level": "A2",
+  "number": 16,
+  "title": "Uchrashuvlar, telefon va xabarlar",
+  "title_de": "Termine, Telefon und Nachrichten",
+  "goals": [
+    "Uchrashuv vaqtini so'rash, taklif qilish va kelishish",
+    "Telefonda tanishtirish, xabar qoldirish, harflab aytish",
+    "Ajraladigan fe'llar (zurückrufen, ausrichten) bilan to'g'ri gap tuzish",
+    "Uchrashuvni muloyim bekor qilish/ko'chirish va qisqa rasmiy xat yozish"
+  ],
+  "lessons": [
+    "a2-m16-l1",
+    "a2-m16-l2",
+    "a2-m16-l3"
+  ],
+  "module_test": [
+    {
+      "id": "mtest-a2-m16-01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "appointments",
+      "grammar_topic": "g-questions",
+      "difficulty": 1,
+      "question": "Qaysi savol to'g'ri tuzilgan?",
+      "prompt_de": null,
+      "options": [
+        "Wann haben Sie Zeit?",
+        "Wann Sie haben Zeit?",
+        "Sie haben wann Zeit?"
+      ],
+      "pairs": null,
+      "correct_answer": "Wann haben Sie Zeit?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "W-savol: so'roq so'z (1) + fe'l (2) + subyekt.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m16-02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "phone",
+      "grammar_topic": "g-separable-verbs",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: Ich rufe Sie in einer Stunde ___.",
+      "prompt_de": "Ich rufe Sie in einer Stunde ___.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "zurück",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"zurückrufen\": rufe ... zurück.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m16-03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "appointments",
+      "grammar_topic": "g-polite-requests",
+      "difficulty": 2,
+      "question": "Eng muloyim iltimosni tanlang.",
+      "prompt_de": null,
+      "options": [
+        "Könnten Sie mir bitte Bescheid sagen?",
+        "Sagen Sie mir Bescheid!",
+        "Sie sagen mir Bescheid."
+      ],
+      "pairs": null,
+      "correct_answer": "Könnten Sie mir bitte Bescheid sagen?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Könnten Sie ...?\" — Konjunktiv II, eng muloyim shakl.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m16-04",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "phone",
+      "grammar_topic": "g-separable-verbs",
+      "difficulty": 2,
+      "question": "Gapdagi xato so'zni toping: \"Frau Klein hat mich gestern zurückgeruft.\"",
+      "prompt_de": "Frau Klein hat mich gestern zurückgeruft.",
+      "options": [
+        "Frau",
+        "Klein",
+        "hat",
+        "mich",
+        "gestern",
+        "zurückgeruft"
+      ],
+      "pairs": null,
+      "correct_answer": "zurückgeruft",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: \"zurückgerufen\" — \"rufen\" nomuntazam (gerufen).",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m16-05",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "phone",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang. Qo'ng'iroq qiluvchi nima qilmoqchi?",
+      "prompt_de": null,
+      "options": [
+        "Uchrashuvni payshanbaga ko'chirmoqchi",
+        "Uchrashuvni butunlay bekor qilmoqchi",
+        "Yangi mijoz bo'lib yozilmoqchi"
+      ],
+      "pairs": null,
+      "correct_answer": "Uchrashuvni payshanbaga ko'chirmoqchi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Könnten wir ihn auf Donnerstag verschieben?\" — payshanbaga ko'chirish iltimosi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Guten Tag, hier ist Nodira Saidova. Ich habe am Montag einen Termin. Könnten wir ihn auf Donnerstag verschieben?"
+    },
+    {
+      "id": "mtest-a2-m16-06",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "communication",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Fe'lni ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "absagen",
+          "bekor qilmoq"
+        ],
+        [
+          "verschieben",
+          "boshqa vaqtga ko'chirmoq"
+        ],
+        [
+          "vereinbaren",
+          "kelishmoq"
+        ],
+        [
+          "wiederholen",
+          "takrorlamoq"
+        ],
+        [
+          "erreichen",
+          "bog'lanmoq"
+        ]
+      ],
+      "correct_answer": {
+        "absagen": "bekor qilmoq",
+        "verschieben": "boshqa vaqtga ko'chirmoq",
+        "vereinbaren": "kelishmoq",
+        "wiederholen": "takrorlamoq",
+        "erreichen": "bog'lanmoq"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "absagen — bekor qilmoq, verschieben — ko'chirmoq, vereinbaren — kelishmoq, wiederholen — takrorlamoq, erreichen — bog'lanmoq.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m16-07",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "appointments",
+      "grammar_topic": "g-polite-requests",
+      "difficulty": 2,
+      "question": "So'zlarni to'g'ri tartibda joylashtiring: \"Men yangi uchrashuv belgilamoqchi edim.\"",
+      "prompt_de": null,
+      "options": [
+        "einen",
+        "gern",
+        "neuen",
+        "vereinbaren",
+        "würde",
+        "Ich",
+        "Termin"
+      ],
+      "pairs": null,
+      "correct_answer": "Ich würde gern einen neuen Termin vereinbaren",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"würde\" 2-o'rinda, \"vereinbaren\" oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m16-08",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "phone",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Ismingizni harflab ayta olasizmi?\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Können Sie Ihren Namen buchstabieren?",
+      "accepted_answers": [
+        "Können Sie Ihren Namen bitte buchstabieren?",
+        "Könnten Sie Ihren Namen buchstabieren?",
+        "Könnten Sie Ihren Namen bitte buchstabieren?",
+        "Können Sie bitte Ihren Namen buchstabieren?"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"buchstabieren\" — harflab aytmoq. \"der Name\" Akkusativda: Ihren Namen.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m16-09",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "appointments",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "SMSni o'qing. Qaysi gap to'g'ri?",
+      "prompt_de": "Liebe Kursteilnehmer, der Deutschkurs findet heute leider nicht statt. Frau Berger ist krank. Der nächste Unterricht ist am Donnerstag um 18 Uhr wie immer. Viele Grüße, Ihre Sprachschule",
+      "options": [
+        "Kurs bugun bo'lmaydi, keyingi dars payshanba kuni",
+        "Kurs bugun soat 18 da boshqa xonada",
+        "O'qituvchi talabalardan qayta qo'ng'iroq kutyapti"
+      ],
+      "pairs": null,
+      "correct_answer": "Kurs bugun bo'lmaydi, keyingi dars payshanba kuni",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"findet heute nicht statt\" — bugun bo'lmaydi; \"Der nächste Unterricht ist am Donnerstag\" — keyingisi payshanba.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m16-10",
+      "version": 1,
+      "type": "plural",
+      "skill": "vocabulary",
+      "topic": "technology",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Ko'plik shaklini yozing: der Anhang → ?",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "die Anhänge",
+      "accepted_answers": [
+        "Anhänge"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Anhang → die Anhänge (a → ä, -e).",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "writing_task": {
+    "id": "w-a2-m16",
+    "title": "Uchrashuvni ko'chirish haqida xat",
+    "task_uz": "Sizning kelasi dushanba soat 10 da Bürgeramt (fuqarolar idorasi)da uchrashuvingiz bor. Lekin o'sha kuni ishda muhim yig'ilish bor. Idoraga rasmiy elektron xat yozing: mavzu (Betreff), murojaat, sabab, uchrashuvni ko'chirish iltimosi, o'zingizga qulay 2 ta vaqt va rasmiy yakun.",
+    "required_words": [
+      "leider",
+      "verschieben"
+    ],
+    "min_words": 40,
+    "max_words": 90,
+    "criteria": [
+      "Betreff va rasmiy murojaat (Sehr geehrte Damen und Herren,)",
+      "Sabab \"leider\" bilan aniq aytilgan",
+      "Muloyim iltimos Konjunktiv II bilan (Könnten wir ...? / Ich würde gern ...)",
+      "Kamida 2 ta muqobil vaqt (um, am, ab ...)",
+      "Rasmiy yakun (Mit freundlichen Grüßen + ism)"
+    ],
+    "sample_answer": "Betreff: Verschiebung meines Termins am Montag\n\nSehr geehrte Damen und Herren,\nich habe am Montag, 3. Juni, um 10 Uhr einen Termin bei Ihnen. Leider habe ich an diesem Tag eine wichtige Besprechung bei der Arbeit. Könnten wir den Termin verschieben? Ich hätte am Mittwoch ab 14 Uhr oder am Freitag um 9 Uhr Zeit. Bitte sagen Sie mir Bescheid.\n\nMit freundlichen Grüßen\nSardor Tursunov"
+  }
+}

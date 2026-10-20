@@ -1,0 +1,930 @@
+{
+  "id": "a1-m06-l3",
+  "version": 1,
+  "level": "A1",
+  "module": 6,
+  "order": 3,
+  "title": "Kun tartibi va ajraladigan fe'llar",
+  "title_de": "Tagesablauf und trennbare Verben",
+  "goal": "Dars oxirida ajraladigan fe'llarni (aufstehen, einkaufen, fernsehen ...) gapda to'g'ri ishlatasiz va kun tartibingizni vaqtlar bilan 6–8 gapda aytib yoza olasiz.",
+  "skill_focus": [
+    "grammar",
+    "speaking",
+    "writing"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Ba'zi nemis fe'llari ikki qismdan iborat: old qo'shimcha + fe'l: auf|stehen, ein|kaufen, fern|sehen. Gapda fe'l qismi ikkinchi o'rinda tuslanadi, old qo'shimcha esa gap OXIRIGA ketadi."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Infinitiv",
+        "Gapda",
+        "O'zbekcha"
+      ],
+      "rows": [
+        [
+          "aufstehen",
+          "Ich stehe um sieben Uhr auf.",
+          "Men yettida turaman."
+        ],
+        [
+          "einkaufen",
+          "Wir kaufen am Samstag ein.",
+          "Biz shanba kuni xarid qilamiz."
+        ],
+        [
+          "fernsehen",
+          "Er sieht am Abend fern.",
+          "U kechqurun televizor ko'radi."
+        ],
+        [
+          "anfangen",
+          "Der Kurs fängt um neun an.",
+          "Kurs to'qqizda boshlanadi."
+        ],
+        [
+          "abholen",
+          "Ich hole die Kinder um vier ab.",
+          "Bolalarni to'rtda olib kelaman."
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Ajraladigan old qo'shimchalar urg'uli: AUFstehen, EINkaufen. \"frühstücken\" esa ajralmaydi: Ich frühstücke um acht."
+    },
+    {
+      "type": "tip",
+      "text": "nach Hause — uyga (harakat): Ich gehe nach Hause. zu Hause — uyda (joy): Ich bin zu Hause."
+    },
+    {
+      "type": "tip",
+      "text": "Siz allaqachon ikkita ajraladigan fe'lni bilasiz: anrufen (Ich rufe dich an) va ausfüllen (Füllen Sie das Formular aus)."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-aufstehen",
+      "de": "aufstehen",
+      "uz": "o'rnidan turmoq (uyqudan)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "praesens_3sg": "steht auf",
+        "partizip2": "aufgestanden",
+        "perfekt_aux": "sein"
+      },
+      "example_de": "Ich stehe um sechs Uhr auf.",
+      "example_uz": "Men soat oltida turaman.",
+      "topic": "daily-routine"
+    },
+    {
+      "id": "v-frühstücken",
+      "de": "frühstücken",
+      "uz": "nonushta qilmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "praesens_3sg": "frühstückt",
+        "partizip2": "gefrühstückt",
+        "perfekt_aux": "haben"
+      },
+      "example_de": "Wir frühstücken um sieben.",
+      "example_uz": "Biz yettida nonushta qilamiz.",
+      "topic": "daily-routine"
+    },
+    {
+      "id": "v-einkaufen",
+      "de": "einkaufen",
+      "uz": "xarid qilmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "praesens_3sg": "kauft ein",
+        "partizip2": "eingekauft",
+        "perfekt_aux": "haben"
+      },
+      "example_de": "Am Samstag kaufe ich ein.",
+      "example_uz": "Shanba kuni xarid qilaman.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-anfangen",
+      "de": "anfangen",
+      "uz": "boshlamoq, boshlanmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "praesens_3sg": "fängt an",
+        "partizip2": "angefangen",
+        "perfekt_aux": "haben"
+      },
+      "example_de": "Die Arbeit fängt um acht an.",
+      "example_uz": "Ish sakkizda boshlanadi.",
+      "topic": "work"
+    },
+    {
+      "id": "v-aufräumen",
+      "de": "aufräumen",
+      "uz": "yig'ishtirmoq, tartibga keltirmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "praesens_3sg": "räumt auf",
+        "partizip2": "aufgeräumt",
+        "perfekt_aux": "haben"
+      },
+      "example_de": "Am Sonntag räumen wir auf.",
+      "example_uz": "Yakshanba kuni uyni yig'ishtiramiz.",
+      "topic": "household"
+    },
+    {
+      "id": "v-fernsehen",
+      "de": "fernsehen",
+      "uz": "televizor ko'rmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "praesens_3sg": "sieht fern",
+        "partizip2": "ferngesehen",
+        "perfekt_aux": "haben"
+      },
+      "example_de": "Am Abend sehe ich fern.",
+      "example_uz": "Kechqurun televizor ko'raman.",
+      "topic": "leisure"
+    },
+    {
+      "id": "v-schlafen",
+      "de": "schlafen",
+      "uz": "uxlamoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "praesens_3sg": "schläft",
+        "partizip2": "geschlafen",
+        "perfekt_aux": "haben"
+      },
+      "example_de": "Das Baby schläft.",
+      "example_uz": "Chaqaloq uxlayapti.",
+      "topic": "daily-routine"
+    },
+    {
+      "id": "v-gehen",
+      "de": "gehen",
+      "uz": "(piyoda) bormoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "praesens_3sg": "geht",
+        "partizip2": "gegangen",
+        "perfekt_aux": "sein"
+      },
+      "example_de": "Ich gehe um acht aus dem Haus.",
+      "example_uz": "Men sakkizda uydan chiqaman.",
+      "topic": "daily-routine"
+    },
+    {
+      "id": "v-nach-hause",
+      "de": "nach Hause",
+      "uz": "uyga",
+      "pos": "phrase",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Um fünf gehe ich nach Hause.",
+      "example_uz": "Beshda uyga ketaman.",
+      "topic": "home"
+    },
+    {
+      "id": "v-zu-hause",
+      "de": "zu Hause",
+      "uz": "uyda",
+      "pos": "phrase",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Am Sonntag bin ich zu Hause.",
+      "example_uz": "Yakshanba kuni uydaman.",
+      "topic": "home"
+    },
+    {
+      "id": "v-duschen",
+      "de": "duschen",
+      "uz": "dush qabul qilmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "praesens_3sg": "duscht",
+        "partizip2": "geduscht",
+        "perfekt_aux": "haben"
+      },
+      "example_de": "Ich dusche am Morgen.",
+      "example_uz": "Ertalab dush qabul qilaman.",
+      "topic": "daily-routine"
+    },
+    {
+      "id": "v-das-frühstück",
+      "de": "Frühstück",
+      "uz": "nonushta",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Frühstücke",
+      "forms": null,
+      "example_de": "Das Frühstück ist fertig.",
+      "example_uz": "Nonushta tayyor.",
+      "topic": "food"
+    },
+    {
+      "id": "v-abholen",
+      "de": "abholen",
+      "uz": "olib kelmoq, kutib olmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "praesens_3sg": "holt ab",
+        "partizip2": "abgeholt",
+        "perfekt_aux": "haben"
+      },
+      "example_de": "Ich hole meine Tochter ab.",
+      "example_uz": "Qizimni olib kelaman.",
+      "topic": "daily-routine"
+    }
+  ],
+  "review_vocabulary": [
+    "v-anrufen",
+    "v-ausfüllen",
+    "v-um",
+    "v-halb",
+    "v-der-morgen",
+    "v-der-abend",
+    "v-das-wochenende",
+    "v-der-samstag",
+    "v-der-sonntag",
+    "v-früh",
+    "v-spät",
+    "v-zuerst",
+    "v-dann",
+    "v-arbeiten",
+    "v-das-kind",
+    "v-das-baby",
+    "v-die-tochter"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-separable-verbs",
+      "rule": "Ajraladigan fe'lda tuslangan qism gapda ikkinchi o'rinda turadi, old qo'shimcha (auf-, ein-, an-, fern-, ab-) esa gap oxiriga o'tadi.",
+      "when": "Kun tartibi, uy ishlari va rejalar haqida gapirganda — bu fe'llar kundalik nutqda juda ko'p.",
+      "structure": "ega + fe'l qismi (2-o'rin) + ... + old qo'shimcha (oxirida):  Ich stehe um sieben auf.",
+      "examples": [
+        {
+          "de": "Ich stehe um halb sieben auf.",
+          "uz": "Men olti yarimda turaman."
+        },
+        {
+          "de": "Am Samstag kaufen wir ein.",
+          "uz": "Shanba kuni xarid qilamiz."
+        },
+        {
+          "de": "Mein Mann sieht am Abend fern.",
+          "uz": "Erim kechqurun televizor ko'radi."
+        },
+        {
+          "de": "Wann fängt der Kurs an? — Um neun.",
+          "uz": "Kurs qachon boshlanadi? — To'qqizda."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Ich aufstehe um sieben.",
+          "right": "Ich stehe um sieben auf.",
+          "why": "Old qo'shimcha fe'ldan ajralib, gap oxiriga o'tadi."
+        },
+        {
+          "wrong": "Ich stehe auf um sieben.",
+          "right": "Ich stehe um sieben auf.",
+          "why": "auf gap eng oxirida turadi, vaqtdan keyin."
+        },
+        {
+          "wrong": "Er fangt um acht an.",
+          "right": "Er fängt um acht an.",
+          "why": "anfangen: du fängst, er fängt (a → ä)."
+        }
+      ],
+      "check": [
+        "a1-m06-l3-e01",
+        "a1-m06-l3-e02",
+        "a1-m06-l3-e03",
+        "a1-m06-l3-e04",
+        "a1-m06-l3-e07",
+        "a1-m06-l3-e10"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Dilnozaning kuni",
+    "lines": [
+      {
+        "speaker": "Dilnoza",
+        "de": "Ich stehe um halb sieben auf.",
+        "uz": "Men olti yarimda turaman."
+      },
+      {
+        "speaker": "Dilnoza",
+        "de": "Zuerst dusche ich, dann frühstücke ich mit meiner Familie.",
+        "uz": "Avval dush qabul qilaman, keyin oilam bilan nonushta qilaman."
+      },
+      {
+        "speaker": "Dilnoza",
+        "de": "Meine Arbeit fängt um acht an.",
+        "uz": "Ishim sakkizda boshlanadi."
+      },
+      {
+        "speaker": "Dilnoza",
+        "de": "Um vier hole ich meine Tochter ab.",
+        "uz": "To'rtda qizimni olib kelaman."
+      },
+      {
+        "speaker": "Dilnoza",
+        "de": "Dann kaufe ich ein und koche.",
+        "uz": "Keyin xarid qilaman va ovqat pishiraman."
+      },
+      {
+        "speaker": "Dilnoza",
+        "de": "Am Abend sehe ich fern. Um elf schlafe ich.",
+        "uz": "Kechqurun televizor ko'raman. O'n birda uxlayman."
+      }
+    ],
+    "questions": [
+      "a1-m06-l3-e05",
+      "a1-m06-l3-e06"
+    ]
+  },
+  "situation": {
+    "title": "Yangi hamkasb bilan kun tartibi haqida",
+    "context_uz": "Hamkasbingiz Tom ertalab nega charchaganingizni so'rayapti.",
+    "lines": [
+      {
+        "speaker": "Tom",
+        "de": "Du bist müde! Wann stehst du auf?",
+        "uz": "Charchagansan! Qachon turasan?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Um fünf. Ich fahre eine Stunde zur Arbeit.",
+        "uz": "Beshda. Ishga bir soat yo'l yuraman."
+      },
+      {
+        "speaker": "Tom",
+        "de": "Und wann gehst du nach Hause?",
+        "uz": "Uyga qachon ketasan?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Um vier. Dann hole ich die Kinder ab und kaufe ein.",
+        "uz": "To'rtda. Keyin bolalarni olib kelaman va xarid qilaman."
+      },
+      {
+        "speaker": "Tom",
+        "de": "Und am Abend?",
+        "uz": "Kechqurun-chi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Am Abend räume ich auf. Um zehn schlafe ich.",
+        "uz": "Kechqurun uyni yig'ishtiraman. O'nda uxlayman."
+      }
+    ],
+    "task_uz": "Tomning savollariga o'z kun tartibingiz bilan javob bering. Kamida 3 ta ajraladigan fe'l ishlating va old qo'shimchani gap oxiriga qo'ying."
+  },
+  "exercises": [
+    {
+      "id": "a1-m06-l3-e01",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "daily-routine",
+      "grammar_topic": "g-separable-verbs",
+      "difficulty": 2,
+      "question": "So'zlarni tartiblang: \"Men soat yettida turaman.\"",
+      "prompt_de": null,
+      "options": [
+        "auf",
+        "Ich",
+        "um",
+        "Uhr",
+        "sieben",
+        "stehe"
+      ],
+      "pairs": null,
+      "correct_answer": "Ich stehe um sieben Uhr auf.",
+      "accepted_answers": [
+        "Um sieben Uhr stehe ich auf."
+      ],
+      "criteria": null,
+      "hint": "auf — gap oxirida.",
+      "explanation": "Ich (1) stehe (2) um sieben Uhr ... auf (oxirida).",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l3-e02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "shopping",
+      "grammar_topic": "g-separable-verbs",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (einkaufen): Ich kaufe am Samstag ___.",
+      "prompt_de": "Ich kaufe am Samstag ___.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "ein",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "einkaufen → ich kaufe ... ein.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l3-e03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "leisure",
+      "grammar_topic": "g-separable-verbs",
+      "difficulty": 1,
+      "question": "Qaysi gap to'g'ri?",
+      "prompt_de": null,
+      "options": [
+        "Er fernsieht am Abend.",
+        "Er sieht am Abend fern.",
+        "Er sieht fern am Abend."
+      ],
+      "pairs": null,
+      "correct_answer": "Er sieht am Abend fern.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "fernsehen: sieht (2-o'rin) ... fern (oxirida).",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l3-e04",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "work",
+      "grammar_topic": "g-separable-verbs",
+      "difficulty": 2,
+      "question": "\"anfangen\" fe'lining tuslangan qismini yozing: Der Kurs ___ um neun an.",
+      "prompt_de": "Der Kurs ___ um neun an.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "fängt",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "a → ä",
+      "explanation": "anfangen: er fängt ... an.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l3-e05",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "daily-routine",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang. Dilnoza soat nechada turadi?",
+      "prompt_de": null,
+      "options": [
+        "6:30",
+        "7:30",
+        "6:00"
+      ],
+      "pairs": null,
+      "correct_answer": "6:30",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "halb sieben = 6:30.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Ich stehe um halb sieben auf."
+    },
+    {
+      "id": "a1-m06-l3-e06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "daily-routine",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Dilnoza soat to'rtda nima qiladi?",
+      "prompt_de": null,
+      "options": [
+        "xarid qiladi",
+        "qizini olib keladi",
+        "televizor ko'radi"
+      ],
+      "pairs": null,
+      "correct_answer": "qizini olib keladi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "abholen — olib kelmoq: hole ... ab.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Um vier hole ich meine Tochter ab."
+    },
+    {
+      "id": "a1-m06-l3-e07",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "household",
+      "grammar_topic": "g-separable-verbs",
+      "difficulty": 1,
+      "question": "Gapdagi xato so'zni toping: \"Ich aufräume heute.\"",
+      "prompt_de": "Ich aufräume heute.",
+      "options": [
+        "Ich",
+        "aufräume",
+        "heute"
+      ],
+      "pairs": null,
+      "correct_answer": "aufräume",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: Ich räume heute auf. Old qo'shimcha oxiriga o'tadi.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l3-e08",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "daily-routine",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Fe'lni ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "aufstehen",
+          "o'rnidan turmoq"
+        ],
+        [
+          "einkaufen",
+          "xarid qilmoq"
+        ],
+        [
+          "fernsehen",
+          "televizor ko'rmoq"
+        ],
+        [
+          "aufräumen",
+          "yig'ishtirmoq"
+        ],
+        [
+          "abholen",
+          "olib kelmoq"
+        ]
+      ],
+      "correct_answer": {
+        "aufstehen": "o'rnidan turmoq",
+        "einkaufen": "xarid qilmoq",
+        "fernsehen": "televizor ko'rmoq",
+        "aufräumen": "yig'ishtirmoq",
+        "abholen": "olib kelmoq"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "aufstehen — turmoq, einkaufen — xarid qilmoq, fernsehen — televizor ko'rmoq, aufräumen — yig'ishtirmoq, abholen — olib kelmoq.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l3-e09",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "daily-routine",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Matnni o'qing. Timur qachon xarid qiladi?",
+      "prompt_de": "Timur steht um sieben Uhr auf. Er frühstückt nicht, er trinkt nur Tee. Von neun bis fünf arbeitet er. Am Abend kauft er ein und kocht. Am Wochenende räumt er auf.",
+      "options": [
+        "ertalab",
+        "kechqurun",
+        "dam olish kunlari"
+      ],
+      "pairs": null,
+      "correct_answer": "kechqurun",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Am Abend kauft er ein\" — kechqurun xarid qiladi. Dam olish kunlari — yig'ishtiradi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l3-e10",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "daily-routine",
+      "grammar_topic": "g-separable-verbs",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Men soat oltida turaman.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich stehe um sechs Uhr auf.",
+      "accepted_answers": [
+        "Ich stehe um sechs auf.",
+        "Um sechs Uhr stehe ich auf.",
+        "Um sechs stehe ich auf.",
+        "Ich stehe um 6 Uhr auf.",
+        "Um 6 Uhr stehe ich auf."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "aufstehen ajraladi: Ich stehe um sechs Uhr auf.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l3-e11",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "daily-routine",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni davom ettiring. — Wann holst du die Kinder ab?",
+      "prompt_de": "Wann holst du die Kinder ab?",
+      "options": [
+        "Um vier Uhr.",
+        "Am Morgen stehe ich auf.",
+        "Ich abhole die Kinder."
+      ],
+      "pairs": null,
+      "correct_answer": "Um vier Uhr.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Wann?\" — qachon? Javob vaqt bilan: Um vier Uhr.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l3-e12",
+      "version": 1,
+      "type": "short_text",
+      "skill": "writing",
+      "topic": "daily-routine",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Kun tartibingizni 5 ta gapda yozing. Vaqtlarni ko'rsating va kamida 2 ta ajraladigan fe'l ishlating.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 20,
+        "required_words": [
+          "um"
+        ],
+        "sample": "Ich stehe um sieben Uhr auf. Dann frühstücke ich. Die Arbeit fängt um neun an. Am Abend kaufe ich ein. Um elf Uhr schlafe ich."
+      },
+      "hint": null,
+      "explanation": "Vaqt + fe'l (2-o'rin) + ega + ... + old qo'shimcha: Um sieben Uhr stehe ich auf.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a1-m06-l3-t01",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "daily-routine",
+      "grammar_topic": "g-separable-verbs",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (aufstehen): Wann stehst du ___?",
+      "prompt_de": "Wann stehst du ___?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "auf",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "aufstehen → Wann stehst du auf?",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l3-t02",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "daily-routine",
+      "grammar_topic": "g-praesens",
+      "difficulty": 2,
+      "question": "\"schlafen\" fe'lini tuslang: Das Baby ___ viel.",
+      "prompt_de": "Das Baby ___ viel.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "schläft",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "schlafen: es schläft (a → ä).",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l3-t03",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "leisure",
+      "grammar_topic": "g-separable-verbs",
+      "difficulty": 2,
+      "question": "So'zlarni tartiblang (gap \"Am\" bilan boshlansin): \"Kechqurun men televizor ko'raman.\"",
+      "prompt_de": null,
+      "options": [
+        "Am",
+        "ich",
+        "sehe",
+        "Abend",
+        "fern"
+      ],
+      "pairs": null,
+      "correct_answer": "Am Abend sehe ich fern.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Am Abend (1) + sehe (2) + ich + fern (oxirida).",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l3-t04",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "daily-routine",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. U uyga soat nechada qaytadi?",
+      "prompt_de": null,
+      "options": [
+        "8 da",
+        "6 da",
+        "7 da"
+      ],
+      "pairs": null,
+      "correct_answer": "6 da",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"komme um sechs nach Hause\" — oltida uyga qaytaman.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Ich gehe um acht Uhr aus dem Haus und komme um sechs nach Hause."
+    },
+    {
+      "id": "a1-m06-l3-t05",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Ich kaufe heute ein.\"",
+      "prompt_de": "Ich kaufe heute ein.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Bugun xarid qilaman.",
+      "accepted_answers": [
+        "Men bugun xarid qilaman",
+        "Bugun bozorlik qilaman",
+        "Men bugun bozorlik qilaman",
+        "Bugun xarid qilaman"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "einkaufen — xarid qilmoq.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l3-t06",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "daily-routine",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang va gapni yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Wir frühstücken um acht Uhr.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "frühstücken — ajralmaydigan fe'l, ü bilan.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": "Wir frühstücken um acht Uhr."
+    },
+    {
+      "id": "a1-m06-l3-t07",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Ish tugadi. Siz: \"Ich gehe jetzt ___.\"",
+      "prompt_de": "Ich gehe jetzt ___.",
+      "options": [
+        "nach Hause",
+        "zu Hause"
+      ],
+      "pairs": null,
+      "correct_answer": "nach Hause",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Harakat (uyga) — nach Hause; joy (uyda) — zu Hause.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l3-t08",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "phone",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Do'stingiz \"Rufst du mich morgen an?\" deb so'radi. Siz ertaga qo'ng'iroq qilasiz. Nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Ja, ich rufe dich morgen an.",
+        "Ja, ich anrufe dich morgen.",
+        "Ja, ich rufe an dich morgen."
+      ],
+      "pairs": null,
+      "correct_answer": "Ja, ich rufe dich morgen an.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "anrufen: rufe (2-o'rin) ... an (oxirida).",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

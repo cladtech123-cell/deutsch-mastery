@@ -1,0 +1,810 @@
+{
+  "id": "a2-m16-l3",
+  "version": 1,
+  "level": "A2",
+  "module": 16,
+  "order": 3,
+  "title": "Bekor qilish, ko'chirish va xabar yozish",
+  "title_de": "Termine absagen und verschieben",
+  "goal": "Dars oxirida uchrashuvni muloyim bekor qila olasiz yoki boshqa vaqtga ko'chirishni so'raysiz, rasmiy va norasmiy qisqa xat/xabar yoza olasiz (Könnten wir ...? Ich würde gern ...).",
+  "skill_focus": [
+    "writing",
+    "grammar",
+    "reading"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Uchrashuvga bora olmasangiz, Germaniyada oldindan (rechtzeitig) xabar berish shart. Shifokor yoki idoralar ba'zan kelmay qolganlik uchun pul ham oladi. Xabar qisqa, lekin muloyim bo'lishi kerak."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "",
+        "Rasmiy (Sie)",
+        "Norasmiy (du)"
+      ],
+      "rows": [
+        [
+          "Murojaat",
+          "Sehr geehrte Frau Weber, / Sehr geehrte Damen und Herren,",
+          "Liebe Anna, / Lieber Timur, / Hallo Jonas,"
+        ],
+        [
+          "Iltimos",
+          "Könnten wir den Termin verschieben?",
+          "Können wir uns lieber am Freitag treffen?"
+        ],
+        [
+          "Xohish",
+          "Ich würde gern einen neuen Termin vereinbaren.",
+          "Ich würde gern nächste Woche kommen."
+        ],
+        [
+          "Yakun",
+          "Mit freundlichen Grüßen",
+          "Viele Grüße / Liebe Grüße"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "\"könnten\", \"würden\", \"hätten\" — \"können\", \"werden\", \"haben\" ning muloyim shakllari. Ular iltimosni yumshoqroq qiladi: \"Können Sie ...?\" → \"Könnten Sie ...?\". Rasmiy xatlarda aynan shu shakllar ishlatiladi."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-absagen",
+      "de": "absagen",
+      "uz": "bekor qilmoq (uchrashuvni)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "abgesagt",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "sagt ab"
+      },
+      "example_de": "Ich sage den Termin leider ab.",
+      "example_uz": "Afsuski, uchrashuvni bekor qilaman.",
+      "topic": "appointments"
+    },
+    {
+      "id": "v-verschieben",
+      "de": "verschieben",
+      "uz": "boshqa vaqtga ko'chirmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "verschoben",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "verschiebt"
+      },
+      "example_de": "Könnten wir das Treffen auf Montag verschieben?",
+      "example_uz": "Uchrashuvni dushanbaga ko'chira olamizmi?",
+      "topic": "appointments"
+    },
+    {
+      "id": "v-stattfinden",
+      "de": "stattfinden",
+      "uz": "bo'lib o'tmoq (tadbir)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "stattgefunden",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "findet statt"
+      },
+      "example_de": "Der Kurs findet heute nicht statt.",
+      "example_uz": "Kurs bugun bo'lmaydi.",
+      "topic": "events"
+    },
+    {
+      "id": "v-der-betreff",
+      "de": "Betreff",
+      "uz": "mavzu (xatda)",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Betreffe",
+      "forms": null,
+      "example_de": "Im Betreff steht: Terminabsage.",
+      "example_uz": "Mavzuda \"Uchrashuvni bekor qilish\" deb yozilgan.",
+      "topic": "communication"
+    },
+    {
+      "id": "v-sehr-geehrte-damen-und-herren",
+      "de": "Sehr geehrte Damen und Herren",
+      "uz": "Hurmatli xonimlar va janoblar",
+      "pos": "phrase",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Sehr geehrte Damen und Herren, ich habe eine Frage.",
+      "example_uz": "Hurmatli xonimlar va janoblar, mening bir savolim bor.",
+      "topic": "communication"
+    },
+    {
+      "id": "v-mit-freundlichen-grüßen",
+      "de": "Mit freundlichen Grüßen",
+      "uz": "Hurmat bilan (rasmiy xat oxirida)",
+      "pos": "phrase",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Mit freundlichen Grüßen, Aziz Karimov",
+      "example_uz": "Hurmat bilan, Aziz Karimov",
+      "topic": "communication"
+    },
+    {
+      "id": "v-viele-grüße",
+      "de": "Viele Grüße",
+      "uz": "Salom bilan (norasmiy xat oxirida)",
+      "pos": "phrase",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Bis morgen! Viele Grüße, Lena",
+      "example_uz": "Ertagacha! Salom bilan, Lena",
+      "topic": "communication"
+    },
+    {
+      "id": "v-bescheid-sagen",
+      "de": "Bescheid sagen",
+      "uz": "xabar bermoq, ogohlantirmoq",
+      "pos": "phrase",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Bitte sagen Sie mir bis Freitag Bescheid.",
+      "example_uz": "Iltimos, jumagacha menga xabar bering.",
+      "topic": "communication"
+    },
+    {
+      "id": "v-rechtzeitig",
+      "de": "rechtzeitig",
+      "uz": "o'z vaqtida, oldindan",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Bitte sagen Sie den Termin rechtzeitig ab.",
+      "example_uz": "Iltimos, uchrashuvni oldindan bekor qiling.",
+      "topic": "appointments"
+    },
+    {
+      "id": "v-die-antwort",
+      "de": "Antwort",
+      "uz": "javob",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Antworten",
+      "forms": null,
+      "example_de": "Vielen Dank für Ihre schnelle Antwort.",
+      "example_uz": "Tez javobingiz uchun katta rahmat.",
+      "topic": "communication"
+    },
+    {
+      "id": "v-der-anhang",
+      "de": "Anhang",
+      "uz": "ilova (xatga biriktirilgan fayl)",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Anhänge",
+      "forms": null,
+      "example_de": "Im Anhang finden Sie meinen Lebenslauf.",
+      "example_uz": "Ilovada tarjimai holimni topasiz.",
+      "topic": "technology"
+    },
+    {
+      "id": "v-die-absage",
+      "de": "Absage",
+      "uz": "rad javobi, bekor qilish",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Absagen",
+      "forms": null,
+      "example_de": "Ich habe von der Firma eine Absage bekommen.",
+      "example_uz": "Firmadan rad javobi oldim.",
+      "topic": "appointments"
+    }
+  ],
+  "review_vocabulary": [
+    "v-ausfallen",
+    "v-die-verspätung",
+    "v-passen",
+    "v-der-vorschlag",
+    "v-die-nachricht",
+    "v-zurückrufen",
+    "v-der-lebenslauf"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-polite-requests",
+      "rule": "Rasmiy iltimos uchun Konjunktiv II shakllari: könnten (qila olarmidingiz), würden (... qilarmidingiz), hätten (... bormidi). Ular modal fe'l kabi 2-o'rinda (savolda 1-o'rinda) turadi, asosiy fe'l oxirida.",
+      "when": "Uchrashuvni ko'chirish, rasmiy xat yozish, notanish odamdan nimadir so'rash.",
+      "structure": "Könnten + Sie/wir + ... + Infinitiv?  Ich würde gern + ... + Infinitiv.  Hätten Sie + ... + Zeit?",
+      "examples": [
+        {
+          "de": "Könnten wir den Termin auf Donnerstag verschieben?",
+          "uz": "Uchrashuvni payshanbaga ko'chira olarmidik?"
+        },
+        {
+          "de": "Ich würde gern einen neuen Termin vereinbaren.",
+          "uz": "Yangi uchrashuv vaqtini belgilamoqchi edim."
+        },
+        {
+          "de": "Würden Sie mir bitte Bescheid sagen?",
+          "uz": "Menga xabar berib qo'yarmidingiz?"
+        },
+        {
+          "de": "Hätten Sie nächste Woche Zeit?",
+          "uz": "Kelasi hafta vaqtingiz bormidi?"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Wir könnten den Termin verschieben?",
+          "right": "Könnten wir den Termin verschieben?",
+          "why": "Ha/yo'q savolida \"könnten\" birinchi o'rinda turadi."
+        },
+        {
+          "wrong": "Ich würde gern verschieben den Termin.",
+          "right": "Ich würde gern den Termin verschieben.",
+          "why": "Infinitiv (verschieben) gap oxirida."
+        },
+        {
+          "wrong": "Können Sie mir sagen Bescheid?",
+          "right": "Könnten Sie mir Bescheid sagen?",
+          "why": "\"Bescheid sagen\" — birga ishlatiladi, \"sagen\" oxirga ketadi. \"Könnten\" muloyimroq."
+        }
+      ],
+      "check": [
+        "a2-m16-l3-e03",
+        "a2-m16-l3-e04",
+        "a2-m16-l3-e09"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Kursni ko'chirish",
+    "lines": [
+      {
+        "speaker": "Frau Hoffmann",
+        "de": "Sprachschule Lingua, Hoffmann am Apparat.",
+        "uz": "Lingua til maktabi, telefonda Hofman."
+      },
+      {
+        "speaker": "Sevara",
+        "de": "Guten Tag, hier ist Sevara Rasulova. Ich habe morgen um 10 Uhr einen Beratungstermin.",
+        "uz": "Assalomu alaykum, bu Sevara Rasulova. Ertaga soat 10 da maslahat uchrashuvim bor."
+      },
+      {
+        "speaker": "Sevara",
+        "de": "Leider bin ich krank. Könnten wir den Termin verschieben?",
+        "uz": "Afsuski, kasalman. Uchrashuvni ko'chira olarmidik?"
+      },
+      {
+        "speaker": "Frau Hoffmann",
+        "de": "Natürlich. Hätten Sie nächsten Dienstag um 14 Uhr Zeit?",
+        "uz": "Albatta. Kelasi seshanba soat 14 da vaqtingiz bormidi?"
+      },
+      {
+        "speaker": "Sevara",
+        "de": "Ja, das passt. Vielen Dank!",
+        "uz": "Ha, to'g'ri keladi. Katta rahmat!"
+      },
+      {
+        "speaker": "Frau Hoffmann",
+        "de": "Gern. Gute Besserung!",
+        "uz": "Arzimaydi. Tezroq tuzaling!"
+      }
+    ],
+    "questions": [
+      "a2-m16-l3-e06"
+    ]
+  },
+  "situation": {
+    "title": "Do'stga uchrashuvni ko'chirish haqida xabar",
+    "context_uz": "Siz do'stingiz Jonas bilan shanba kuni kinoga bormoqchi edingiz. Lekin shanba kuni ishlashingiz kerak bo'lib qoldi. Unga messenjerda yozasiz.",
+    "lines": [
+      {
+        "speaker": "Siz",
+        "de": "Hallo Jonas, leider muss ich am Samstag arbeiten. Können wir das Kino auf Sonntag verschieben?",
+        "uz": "Salom Jonas, afsuski shanba kuni ishlashim kerak. Kinoni yakshanbaga ko'chira olamizmi?"
+      },
+      {
+        "speaker": "Jonas",
+        "de": "Kein Problem! Sonntag um 18 Uhr?",
+        "uz": "Muammo yo'q! Yakshanba soat 18 da?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Super, einverstanden! Ich kaufe die Karten.",
+        "uz": "Zo'r, roziman! Chiptalarni men olaman."
+      },
+      {
+        "speaker": "Jonas",
+        "de": "Prima. Sag Bescheid, wenn du da bist. Viele Grüße!",
+        "uz": "Ajoyib. Kelganingda xabar ber. Salom!"
+      }
+    ],
+    "task_uz": "Xuddi shunday xabarni o'qituvchingizga yozing (rasmiy, \"Sie\" bilan): darsga kela olmaysiz va boshqa kunni so'raysiz. \"Könnten wir ...?\" va \"Mit freundlichen Grüßen\" ni ishlating."
+  },
+  "exercises": [
+    {
+      "id": "a2-m16-l3-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "communication",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Ifodani o'zbekcha ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "Sehr geehrte Damen und Herren",
+          "Hurmatli xonimlar va janoblar"
+        ],
+        [
+          "Mit freundlichen Grüßen",
+          "Hurmat bilan"
+        ],
+        [
+          "Viele Grüße",
+          "Salom bilan (norasmiy)"
+        ],
+        [
+          "der Betreff",
+          "xat mavzusi"
+        ],
+        [
+          "der Anhang",
+          "ilova"
+        ]
+      ],
+      "correct_answer": {
+        "Sehr geehrte Damen und Herren": "Hurmatli xonimlar va janoblar",
+        "Mit freundlichen Grüßen": "Hurmat bilan",
+        "Viele Grüße": "Salom bilan (norasmiy)",
+        "der Betreff": "xat mavzusi",
+        "der Anhang": "ilova"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Rasmiy xat \"Sehr geehrte ...\" bilan boshlanib, \"Mit freundlichen Grüßen\" bilan tugaydi. \"Viele Grüße\" — do'stlarga. Betreff — mavzu, Anhang — biriktirilgan fayl.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l3-e02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "writing",
+      "topic": "communication",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Siz ismini bilmaydigan idoraga rasmiy xat yozyapsiz. Xatni qanday boshlaysiz?",
+      "prompt_de": null,
+      "options": [
+        "Sehr geehrte Damen und Herren,",
+        "Hallo Leute,",
+        "Liebe Grüße,"
+      ],
+      "pairs": null,
+      "correct_answer": "Sehr geehrte Damen und Herren,",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ism noma'lum bo'lsa, rasmiy murojaat: \"Sehr geehrte Damen und Herren,\". \"Liebe Grüße\" — xat oxirida, norasmiy.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l3-e03",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "appointments",
+      "grammar_topic": "g-polite-requests",
+      "difficulty": 2,
+      "question": "So'zlarni to'g'ri tartibda joylashtiring: \"Uchrashuvni ko'chira olarmidik?\"",
+      "prompt_de": null,
+      "options": [
+        "verschieben",
+        "Termin",
+        "Könnten",
+        "den",
+        "wir"
+      ],
+      "pairs": null,
+      "correct_answer": "Könnten wir den Termin verschieben",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Savol — \"Könnten\" birinchi.",
+      "explanation": "Ha/yo'q savoli: Könnten (1) wir (2) den Termin ... verschieben (oxir).",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l3-e04",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "appointments",
+      "grammar_topic": "g-polite-requests",
+      "difficulty": 2,
+      "question": "Bo'sh joyni to'ldiring (werden → muloyim shakl): Ich ___ den Termin gern auf Freitag verschieben.",
+      "prompt_de": "Ich ___ den Termin gern auf Freitag verschieben.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "würde",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Ich würde gern ...\" — muloyim xohish. \"verschieben\" gap oxirida.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l3-e05",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "appointments",
+      "grammar_topic": "g-perfekt",
+      "difficulty": 2,
+      "question": "\"verschieben\" fe'lining Partizip II shaklini yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "verschoben",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"ver-\" — ge- yo'q; ie → o",
+      "explanation": "verschieben → verschoben. Wir haben den Termin verschoben.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l3-e06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "appointments",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Sevaraning yangi uchrashuvi qachon?",
+      "prompt_de": null,
+      "options": [
+        "Kelasi seshanba, soat 14 da",
+        "Ertaga, soat 10 da",
+        "Kelasi seshanba, soat 10 da"
+      ],
+      "pairs": null,
+      "correct_answer": "Kelasi seshanba, soat 14 da",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"nächsten Dienstag um 14 Uhr\" — kelasi seshanba soat 14 da. Ertangi soat 10 dagisi bekor qilindi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Hätten Sie nächsten Dienstag um 14 Uhr Zeit? — Ja, das passt."
+    },
+    {
+      "id": "a2-m16-l3-e07",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "appointments",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Xatni o'qing. Nega Herr Saidov uchrashuvni ko'chiryapti?",
+      "prompt_de": "Betreff: Termin am 14. Mai\n\nSehr geehrte Frau Krause,\nleider kann ich am Dienstag, 14. Mai, nicht zu unserem Termin kommen. Mein Sohn ist krank und ich bleibe bei ihm zu Hause. Könnten wir den Termin auf nächste Woche verschieben? Ich hätte am Montag oder Mittwoch Zeit. Bitte sagen Sie mir Bescheid.\n\nMit freundlichen Grüßen\nBahrom Saidov",
+      "options": [
+        "Uning farzandi kasal",
+        "U o'zi kasal",
+        "Poyezd bekor bo'ldi"
+      ],
+      "pairs": null,
+      "correct_answer": "Uning farzandi kasal",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"Mein Sohn ist krank\" gapini toping.",
+      "explanation": "\"Mein Sohn ist krank und ich bleibe bei ihm zu Hause\" — o'g'li kasal, u uyda qoladi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l3-e08",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "writing",
+      "topic": "appointments",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Kasalsiz va Bürgeramt dagi uchrashuvga bora olmaysiz. Elektron xatning \"Betreff\" qatoriga nima yozasiz?",
+      "prompt_de": null,
+      "options": [
+        "Absage meines Termins am 12. März",
+        "Hallo!",
+        "Mit freundlichen Grüßen"
+      ],
+      "pairs": null,
+      "correct_answer": "Absage meines Termins am 12. März",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Betreff\" — xat mavzusi, qisqa va aniq bo'lishi kerak: nima haqida va qaysi sana.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l3-e09",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "appointments",
+      "grammar_topic": "g-polite-requests",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Uchrashuvni ko'chira olarmidik?\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Könnten wir den Termin verschieben?",
+      "accepted_answers": [
+        "Können wir den Termin verschieben?",
+        "Könnten wir den Termin bitte verschieben?",
+        "Können wir den Termin bitte verschieben?",
+        "Könnten wir das Treffen verschieben?",
+        "Können wir das Treffen verschieben?"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Muloyim iltimos: Könnten wir ... verschieben? \"Können wir ...?\" ham to'g'ri, lekin kamroq muloyim.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l3-e10",
+      "version": 1,
+      "type": "short_text",
+      "skill": "writing",
+      "topic": "appointments",
+      "grammar_topic": null,
+      "difficulty": 3,
+      "question": "O'qituvchingizga qisqa rasmiy xabar yozing: ertangi darsga kela olmaysiz (sababini ayting) va boshqa vaqtni so'rang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 25,
+        "required_words": [
+          "leider",
+          "Termin"
+        ],
+        "sample": "Sehr geehrte Frau Weber, leider kann ich morgen nicht zum Unterricht kommen. Ich habe einen Termin beim Arzt. Könnten wir den Termin für die Prüfungsberatung auf Freitag verschieben? Mit freundlichen Grüßen, Dilnoza Ahmedova"
+      },
+      "hint": "Murojaat → sabab (leider ...) → iltimos (Könnten wir ...?) → Mit freundlichen Grüßen.",
+      "explanation": "Rasmiy xabarda: rasmiy murojaat, \"leider\" bilan sabab, Konjunktiv II bilan iltimos va rasmiy yakun bo'lishi kerak.",
+      "error_type": "other",
+      "points": 3,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l3-e11",
+      "version": 1,
+      "type": "speak",
+      "skill": "speaking",
+      "topic": "appointments",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Ovoz chiqarib gapiring: shifokor qabulxonasiga qo'ng'iroq qilib, uchrashuvingizni boshqa kunga ko'chirishni so'rang (3–4 gap).",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 15,
+        "required_words": [
+          "verschieben"
+        ],
+        "sample": "Guten Tag, hier ist Aziz Karimov. Ich habe am Donnerstag um 9 Uhr einen Termin. Leider kann ich nicht kommen. Könnten wir den Termin auf nächste Woche verschieben?"
+      },
+      "hint": null,
+      "explanation": "Telefonda: o'zingizni tanishtiring → qaysi uchrashuv → sabab/leider → muloyim iltimos (Könnten wir ... verschieben?).",
+      "error_type": "other",
+      "points": 2,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a2-m16-l3-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "appointments",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "\"einen Termin absagen\" nimani bildiradi?",
+      "prompt_de": null,
+      "options": [
+        "uchrashuvni bekor qilmoq",
+        "uchrashuvni belgilamoq",
+        "uchrashuvga kechikmoq"
+      ],
+      "pairs": null,
+      "correct_answer": "uchrashuvni bekor qilmoq",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "absagen — bekor qilmoq. Belgilamoq — vereinbaren, ko'chirmoq — verschieben.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l3-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "events",
+      "grammar_topic": "g-separable-verbs",
+      "difficulty": 2,
+      "question": "\"stattfinden\" fe'lini to'g'ri shaklda yozing: Der Kurs ___ heute leider nicht statt.",
+      "prompt_de": "Der Kurs ___ heute leider nicht statt.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "findet",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"stattfinden\" ajraladi: findet ... statt.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l3-t03",
+      "version": 1,
+      "type": "find_error",
+      "skill": "writing",
+      "topic": "communication",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Xat oxiridagi xato so'zni toping: \"Mit freundlichen Grüße, Anna Weber\"",
+      "prompt_de": "Mit freundlichen Grüße, Anna Weber",
+      "options": [
+        "Mit",
+        "freundlichen",
+        "Grüße",
+        "Anna",
+        "Weber"
+      ],
+      "pairs": null,
+      "correct_answer": "Grüße",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: \"Mit freundlichen Grüßen\" — \"mit\" dan keyin Dativ ko'plik, -n bilan.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l3-t04",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "appointments",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni davom ettiring. — Hast du morgen um 18 Uhr Zeit?",
+      "prompt_de": "Hast du morgen um 18 Uhr Zeit?",
+      "options": [
+        "Leider nicht. Geht es auch am Donnerstag?",
+        "Mit freundlichen Grüßen.",
+        "Ja, ich habe morgen abgesagt."
+      ],
+      "pairs": null,
+      "correct_answer": "Leider nicht. Geht es auch am Donnerstag?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Bo'sh bo'lmasangiz: \"Leider nicht\" + boshqa vaqt taklifi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l3-t05",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "reading",
+      "topic": "communication",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "O'zbek tiliga tarjima qiling: \"Bitte sagen Sie mir rechtzeitig Bescheid.\"",
+      "prompt_de": "Bitte sagen Sie mir rechtzeitig Bescheid.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Iltimos, menga oldindan xabar bering.",
+      "accepted_answers": [
+        "Iltimos, menga o'z vaqtida xabar bering.",
+        "Iltimos, oldindan xabar bering.",
+        "Iltimos, menga vaqtida xabar bering.",
+        "Iltimos, menga o'z vaqtida aytib qo'ying."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Bescheid sagen\" — xabar bermoq, \"rechtzeitig\" — o'z vaqtida, oldindan.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l3-t06",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "writing",
+      "topic": "communication",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Firmaga rasmiy elektron xat yozdingiz. Uni qanday tugatasiz?",
+      "prompt_de": null,
+      "options": [
+        "Mit freundlichen Grüßen",
+        "Tschüs!",
+        "Hab dich lieb"
+      ],
+      "pairs": null,
+      "correct_answer": "Mit freundlichen Grüßen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Rasmiy xat yakuni: \"Mit freundlichen Grüßen\" + ism-familiya.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l3-t07",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "appointments",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang va eshitganingizni yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Leider kann ich morgen nicht kommen.",
+      "accepted_answers": [
+        "Ich kann morgen leider nicht kommen."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Leider\" 1-o'rinda → \"kann\" 2-o'rinda → \"ich\". \"kommen\" oxirida.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": "Leider kann ich morgen nicht kommen."
+    }
+  ]
+}

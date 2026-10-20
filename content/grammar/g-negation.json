@@ -1,0 +1,314 @@
+{
+  "id": "g-negation",
+  "version": 1,
+  "level": "A1",
+  "order": 13,
+  "title": "Inkor: nicht va kein",
+  "prerequisites": [
+    "g-akkusativ",
+    "g-plural"
+  ],
+  "next": [
+    "g-modal-verbs"
+  ],
+  "rule": "\"kein\" otni inkor qiladi (ein/eine bilan kelgan yoki artiklsiz ot). \"nicht\" fe'l, sifat, ravish va aniq artiklli otni inkor qiladi.",
+  "when": "Biror narsa yo'qligini yoki to'g'ri emasligini aytganda: Ich habe keine Zeit. Das ist nicht teuer.",
+  "structure": "kein + ot | fe'l ... nicht | nicht + sifat",
+  "explanation": [
+    {
+      "type": "table",
+      "headers": [
+        "Jins",
+        "Nominativ",
+        "Akkusativ"
+      ],
+      "rows": [
+        [
+          "erkak",
+          "kein",
+          "keinen"
+        ],
+        [
+          "ayol",
+          "keine",
+          "keine"
+        ],
+        [
+          "o'rta",
+          "kein",
+          "kein"
+        ],
+        [
+          "ko'plik",
+          "keine",
+          "keine"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Ijobiy",
+        "Inkor",
+        "Qoida"
+      ],
+      "rows": [
+        [
+          "Ich habe ein Auto.",
+          "Ich habe kein Auto.",
+          "ein → kein"
+        ],
+        [
+          "Ich habe Zeit.",
+          "Ich habe keine Zeit.",
+          "artiklsiz ot → kein"
+        ],
+        [
+          "Ich komme.",
+          "Ich komme nicht.",
+          "fe'l → nicht oxirida"
+        ],
+        [
+          "Das ist teuer.",
+          "Das ist nicht teuer.",
+          "sifat oldida nicht"
+        ],
+        [
+          "Ich wohne in Berlin.",
+          "Ich wohne nicht in Berlin.",
+          "predlog oldida nicht"
+        ],
+        [
+          "Das ist der Bus.",
+          "Das ist nicht der Bus.",
+          "aniq artikl → nicht"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Inkor savolga ijobiy javob — Doch: Hast du keinen Hunger? — Doch! (Yo'q, ochman.)"
+    }
+  ],
+  "examples": [
+    {
+      "de": "Ich habe keine Zeit.",
+      "uz": "Mening vaqtim yo'q."
+    },
+    {
+      "de": "Das ist kein Problem.",
+      "uz": "Bu muammo emas."
+    },
+    {
+      "de": "Er trinkt keinen Kaffee.",
+      "uz": "U qahva ichmaydi."
+    },
+    {
+      "de": "Ich spreche nicht gut Deutsch.",
+      "uz": "Men nemischani yaxshi gapirmayman."
+    },
+    {
+      "de": "Der Bus kommt heute nicht.",
+      "uz": "Avtobus bugun kelmaydi."
+    },
+    {
+      "de": "Hast du keinen Hunger? — Doch!",
+      "uz": "Och emasmisan? — Yo'q, ochman!"
+    }
+  ],
+  "common_mistakes": [
+    {
+      "wrong": "Ich habe nicht Auto.",
+      "right": "Ich habe kein Auto.",
+      "why": "Otni inkor qilish uchun kein."
+    },
+    {
+      "wrong": "Ich habe keine Bruder.",
+      "right": "Ich habe keinen Bruder.",
+      "why": "kein ham ein kabi o'zgaradi: Akkusativ erkak — keinen."
+    },
+    {
+      "wrong": "Das ist kein teuer.",
+      "right": "Das ist nicht teuer.",
+      "why": "Sifat nicht bilan inkor qilinadi."
+    },
+    {
+      "wrong": "Ich nicht komme.",
+      "right": "Ich komme nicht.",
+      "why": "nicht fe'ldan keyin, ko'pincha gap oxirida."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "g-negation-e01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "time",
+      "grammar_topic": "g-negation",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: \"Ich habe ___ Zeit.\"",
+      "prompt_de": "Ich habe ___ Zeit.",
+      "options": [
+        "keine",
+        "nicht",
+        "kein"
+      ],
+      "pairs": null,
+      "correct_answer": "keine",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Zeit — ot, inkor: keine Zeit.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-negation-e02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "hotel",
+      "grammar_topic": "g-negation",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: \"Das Hotel ist ___ billig.\"",
+      "prompt_de": "Das Hotel ist ___ billig.",
+      "options": [
+        "nicht",
+        "kein",
+        "keine"
+      ],
+      "pairs": null,
+      "correct_answer": "nicht",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "billig — sifat, uni nicht inkor qiladi.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-negation-e03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-negation",
+      "difficulty": 2,
+      "question": "Inkor shaklini yozing: \"Ich trinke ___ Kaffee.\"",
+      "prompt_de": "Ich trinke ___ Kaffee.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "keinen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Kaffee — erkak jinsi, Akkusativ: keinen.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-negation-e04",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-negation",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: \"Ich wohne ___ in Berlin.\"",
+      "prompt_de": "Ich wohne ___ in Berlin.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "nicht",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Predlogli ifoda (in Berlin) nicht bilan inkor qilinadi.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-negation-e05",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-negation",
+      "difficulty": 2,
+      "question": "Do'stingiz so'radi: \"Hast du keinen Hunger?\" Siz ochsiz. Nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Doch!",
+        "Ja!",
+        "Nein!"
+      ],
+      "pairs": null,
+      "correct_answer": "Doch!",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Inkor savolga ijobiy javob — Doch.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-negation-e06",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "appointments",
+      "grammar_topic": "g-negation",
+      "difficulty": 2,
+      "question": "So'zlardan gap tuzing: \"Men bugun kelmayman.\"",
+      "prompt_de": null,
+      "options": [
+        "nicht",
+        "heute",
+        "komme",
+        "Ich"
+      ],
+      "pairs": null,
+      "correct_answer": "Ich komme heute nicht.",
+      "accepted_answers": [
+        "Heute komme ich nicht."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "nicht gap oxirida, fe'ldan keyin.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-negation-e07",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-negation",
+      "difficulty": 1,
+      "question": "Xato so'zni toping: \"Wir haben nicht Kinder.\"",
+      "prompt_de": "Wir haben nicht Kinder.",
+      "options": [
+        "Wir",
+        "haben",
+        "nicht",
+        "Kinder"
+      ],
+      "pairs": null,
+      "correct_answer": "nicht",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Artiklsiz ot kein bilan inkor qilinadi: Wir haben keine Kinder.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

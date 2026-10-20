@@ -1,0 +1,907 @@
+{
+  "id": "a1-m04-l1",
+  "version": 1,
+  "level": "A1",
+  "module": 4,
+  "order": 1,
+  "title": "Oila a'zolari va artikllar",
+  "title_de": "Die Familie: der, die, das",
+  "goal": "Dars oxirida oila a'zolarini nemischa nomlaysiz, har bir otni artikli (der, die, das) bilan aytasiz va \"Das ist ein/eine ...\" bilan odamlarni tanishtira olasiz.",
+  "skill_focus": [
+    "vocabulary",
+    "grammar",
+    "listening"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "O'zbek tilida otlarning jinsi yo'q, nemis tilida esa har bir ot uch jinsdan biriga tegishli: erkak (der), ayol (die), o'rta (das). Odamlarda jins ko'pincha tabiiy: der Vater, die Mutter. Lekin har doim emas: das Kind, das Mädchen, das Baby — o'rta jins."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Jins",
+        "Aniq artikl",
+        "Noaniq artikl",
+        "Misol"
+      ],
+      "rows": [
+        [
+          "erkak",
+          "der",
+          "ein",
+          "der Vater — ein Vater"
+        ],
+        [
+          "ayol",
+          "die",
+          "eine",
+          "die Mutter — eine Mutter"
+        ],
+        [
+          "o'rta",
+          "das",
+          "ein",
+          "das Kind — ein Kind"
+        ],
+        [
+          "ko'plik",
+          "die",
+          "— (artiklsiz)",
+          "die Eltern — Eltern"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "\"ein/eine\" — biror narsani birinchi marta tilga olganda (bitta, qandaydir). \"der/die/das\" — tinglovchiga ma'lum narsa haqida: \"Das ist ein Baby. Das Baby heißt Ali.\""
+    },
+    {
+      "type": "tip",
+      "text": "Har bir otni artikli bilan yodlang: \"Vater\" emas, \"der Vater\". Rang bilan eslab qolish yordam beradi: der — ko'k, die — qizil, das — yashil."
+    },
+    {
+      "type": "tip",
+      "text": "der Bruder — aka yoki uka, die Schwester — opa yoki singil. Kattami-kichikmi aniqlash kerak bo'lsa: älterer Bruder (aka), jüngere Schwester (singil)."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-die-familie",
+      "de": "Familie",
+      "uz": "oila",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Familien",
+      "forms": null,
+      "example_de": "Das ist die Familie Karimov.",
+      "example_uz": "Bu Karimovlar oilasi.",
+      "topic": "family"
+    },
+    {
+      "id": "v-der-vater",
+      "de": "Vater",
+      "uz": "ota",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Väter",
+      "forms": null,
+      "example_de": "Der Vater heißt Bahodir.",
+      "example_uz": "Otaning ismi Bahodir.",
+      "topic": "family"
+    },
+    {
+      "id": "v-die-mutter",
+      "de": "Mutter",
+      "uz": "ona",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Mütter",
+      "forms": null,
+      "example_de": "Die Mutter kommt aus Buchara.",
+      "example_uz": "Ona Buxorodan.",
+      "topic": "family"
+    },
+    {
+      "id": "v-der-bruder",
+      "de": "Bruder",
+      "uz": "aka; uka",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Brüder",
+      "forms": null,
+      "example_de": "Der Bruder ist zwölf.",
+      "example_uz": "Ukasi o'n ikki yoshda.",
+      "topic": "family"
+    },
+    {
+      "id": "v-die-schwester",
+      "de": "Schwester",
+      "uz": "opa; singil",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Schwestern",
+      "forms": null,
+      "example_de": "Die Schwester wohnt in Taschkent.",
+      "example_uz": "Opasi Toshkentda yashaydi.",
+      "topic": "family"
+    },
+    {
+      "id": "v-das-kind",
+      "de": "Kind",
+      "uz": "bola, farzand",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Kinder",
+      "forms": null,
+      "example_de": "Das Kind ist fünf Jahre alt.",
+      "example_uz": "Bola besh yoshda.",
+      "topic": "family"
+    },
+    {
+      "id": "v-der-sohn",
+      "de": "Sohn",
+      "uz": "o'g'il",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Söhne",
+      "forms": null,
+      "example_de": "Der Sohn heißt Ali.",
+      "example_uz": "O'g'lining ismi Ali.",
+      "topic": "family"
+    },
+    {
+      "id": "v-die-tochter",
+      "de": "Tochter",
+      "uz": "qiz (farzand)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Töchter",
+      "forms": null,
+      "example_de": "Die Tochter ist Studentin.",
+      "example_uz": "Qizi talaba.",
+      "topic": "family"
+    },
+    {
+      "id": "v-die-eltern",
+      "de": "Eltern",
+      "uz": "ota-ona (faqat ko'plikda)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Eltern",
+      "forms": null,
+      "example_de": "Die Eltern wohnen in Samarkand.",
+      "example_uz": "Ota-onasi Samarqandda yashaydi.",
+      "topic": "family"
+    },
+    {
+      "id": "v-die-geschwister",
+      "de": "Geschwister",
+      "uz": "aka-uka va opa-singillar (faqat ko'plikda)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Geschwister",
+      "forms": null,
+      "example_de": "Hast du Geschwister?",
+      "example_uz": "Aka-uka, opa-singillaring bormi?",
+      "topic": "family"
+    },
+    {
+      "id": "v-der-mann",
+      "de": "Mann",
+      "uz": "erkak; er",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Männer",
+      "forms": null,
+      "example_de": "Der Mann heißt Jasur.",
+      "example_uz": "Erkakning ismi Jasur.",
+      "topic": "people"
+    },
+    {
+      "id": "v-die-oma",
+      "de": "Oma",
+      "uz": "buvi",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Omas",
+      "forms": null,
+      "example_de": "Die Oma ist sehr nett.",
+      "example_uz": "Buvi juda mehribon.",
+      "topic": "family"
+    },
+    {
+      "id": "v-der-opa",
+      "de": "Opa",
+      "uz": "bobo",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Opas",
+      "forms": null,
+      "example_de": "Der Opa ist achtzig Jahre alt.",
+      "example_uz": "Bobo sakson yoshda.",
+      "topic": "family"
+    },
+    {
+      "id": "v-das-baby",
+      "de": "Baby",
+      "uz": "chaqaloq",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Babys",
+      "forms": null,
+      "example_de": "Das Baby schläft.",
+      "example_uz": "Chaqaloq uxlayapti.",
+      "topic": "family"
+    }
+  ],
+  "review_vocabulary": [
+    "v-das-mädchen",
+    "v-die-frau",
+    "v-der-herr",
+    "v-wer",
+    "v-sein",
+    "v-heißen",
+    "v-alt",
+    "v-das-jahr",
+    "v-wohnen",
+    "v-kommen",
+    "v-aus",
+    "v-er"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-articles",
+      "rule": "Har bir nemis otining jinsi bor: der (erkak), die (ayol), das (o'rta). Ko'plikda doim die. Noaniq artikl: ein (der va das otlar uchun), eine (die otlar uchun).",
+      "when": "ein/eine — birinchi marta yoki \"bitta, qandaydir\" ma'nosida; der/die/das — ma'lum, avval aytilgan yoki yagona narsa haqida.",
+      "structure": "Das ist + ein/eine + ot.  →  Der/Die/Das + ot + fe'l ...",
+      "examples": [
+        {
+          "de": "Das ist ein Kind. Das Kind heißt Ali.",
+          "uz": "Bu bola. Bolaning ismi Ali."
+        },
+        {
+          "de": "Das ist eine Frau. Die Frau ist Lehrerin.",
+          "uz": "Bu ayol. Ayol o'qituvchi."
+        },
+        {
+          "de": "Der Vater kommt aus Fergana.",
+          "uz": "Ota Farg'onadan."
+        },
+        {
+          "de": "Die Eltern wohnen in Samarkand.",
+          "uz": "Ota-ona Samarqandda yashaydi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Das ist eine Kind.",
+          "right": "Das ist ein Kind.",
+          "why": "Kind — o'rta jins (das), shuning uchun ein, eine emas."
+        },
+        {
+          "wrong": "Die Mädchen heißt Lola.",
+          "right": "Das Mädchen heißt Lola.",
+          "why": "Mädchen — grammatik jihatdan o'rta jins: das Mädchen."
+        },
+        {
+          "wrong": "Vater wohnt in Taschkent.",
+          "right": "Der Vater wohnt in Taschkent.",
+          "why": "O'zbek tilida artikl yo'q, nemis tilida esa ot oldida odatda artikl turadi."
+        },
+        {
+          "wrong": "ein Eltern",
+          "right": "die Eltern",
+          "why": "Eltern faqat ko'plikda ishlatiladi; ko'plikda noaniq artikl bo'lmaydi."
+        }
+      ],
+      "check": [
+        "a1-m04-l1-e07",
+        "a1-m04-l1-e08",
+        "a1-m04-l1-e09"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Oilaviy surat",
+    "lines": [
+      {
+        "speaker": "Lola",
+        "de": "Schau mal, das ist die Familie Karimov.",
+        "uz": "Qara, bu Karimovlar oilasi."
+      },
+      {
+        "speaker": "Ben",
+        "de": "Wer ist der Mann?",
+        "uz": "Anavi erkak kim?"
+      },
+      {
+        "speaker": "Lola",
+        "de": "Das ist der Vater, er heißt Bahodir. Und das ist die Mutter, Gulnora.",
+        "uz": "Bu ota, uning ismi Bahodir. Bu esa ona, Gulnora."
+      },
+      {
+        "speaker": "Ben",
+        "de": "Und das Kind?",
+        "uz": "Bola-chi?"
+      },
+      {
+        "speaker": "Lola",
+        "de": "Das ist ein Baby. Das ist Ali, der Sohn.",
+        "uz": "Bu chaqaloq. Bu Ali, ularning o'g'li."
+      },
+      {
+        "speaker": "Ben",
+        "de": "Und die Frau hier?",
+        "uz": "Mana bu ayol-chi?"
+      },
+      {
+        "speaker": "Lola",
+        "de": "Das ist die Oma. Sie ist sehr nett.",
+        "uz": "Bu buvi. U juda mehribon."
+      }
+    ],
+    "questions": [
+      "a1-m04-l1-e05",
+      "a1-m04-l1-e06"
+    ]
+  },
+  "situation": {
+    "title": "Bolalar bog'chasida",
+    "context_uz": "Siz farzandingizni bog'chadan olib ketyapsiz. Tarbiyachi siz bilan kelgan odamlarni tanimayapti.",
+    "lines": [
+      {
+        "speaker": "Erzieherin",
+        "de": "Guten Tag! Wer ist das?",
+        "uz": "Assalomu alaykum! Bu kim?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Das ist die Oma von Ali. Sie heißt Saodat.",
+        "uz": "Bu Alining buvisi. Uning ismi Saodat."
+      },
+      {
+        "speaker": "Erzieherin",
+        "de": "Und der Mann?",
+        "uz": "Erkak-chi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Das ist der Opa. Er wohnt auch hier in Köln.",
+        "uz": "Bu bobosi. U ham shu yerda, Kyolnda yashaydi."
+      },
+      {
+        "speaker": "Erzieherin",
+        "de": "Danke! Tschüs, Ali!",
+        "uz": "Rahmat! Xayr, Ali!"
+      }
+    ],
+    "task_uz": "Dialogni o'qing, keyin o'z oilangizdagi ikki kishini xuddi shu tarzda tanishtiring: Das ist der/die ... Er/Sie heißt ..."
+  },
+  "exercises": [
+    {
+      "id": "a1-m04-l1-e01",
+      "version": 1,
+      "type": "article",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-articles",
+      "difficulty": 1,
+      "question": "To'g'ri artiklni tanlang: ___ Vater",
+      "prompt_de": "___ Vater",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "der",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Vater — erkak: der Vater.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l1-e02",
+      "version": 1,
+      "type": "article",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-articles",
+      "difficulty": 1,
+      "question": "To'g'ri artiklni tanlang: ___ Kind",
+      "prompt_de": "___ Kind",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "das",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Kind — o'rta jins: das Kind. Tabiiy jinsga qaramang!",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l1-e03",
+      "version": 1,
+      "type": "article",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-articles",
+      "difficulty": 1,
+      "question": "To'g'ri artiklni tanlang: ___ Tochter",
+      "prompt_de": "___ Tochter",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "die",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Tochter — ayol: die Tochter.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l1-e04",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "family",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "So'zni ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "der Vater",
+          "ota"
+        ],
+        [
+          "die Mutter",
+          "ona"
+        ],
+        [
+          "der Sohn",
+          "o'g'il"
+        ],
+        [
+          "die Tochter",
+          "qiz (farzand)"
+        ],
+        [
+          "die Oma",
+          "buvi"
+        ],
+        [
+          "der Opa",
+          "bobo"
+        ]
+      ],
+      "correct_answer": {
+        "der Vater": "ota",
+        "die Mutter": "ona",
+        "der Sohn": "o'g'il",
+        "die Tochter": "qiz (farzand)",
+        "die Oma": "buvi",
+        "der Opa": "bobo"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Vater — ota, Mutter — ona, Sohn — o'g'il, Tochter — qiz farzand, Oma — buvi, Opa — bobo.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l1-e05",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "family",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Otaning ismi nima?",
+      "prompt_de": null,
+      "options": [
+        "Bahodir",
+        "Ali",
+        "Gulnora"
+      ],
+      "pairs": null,
+      "correct_answer": "Bahodir",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"der Vater, er heißt Bahodir\" — otaning ismi Bahodir.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Das ist der Vater, er heißt Bahodir."
+    },
+    {
+      "id": "a1-m04-l1-e06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "family",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Ali kim?",
+      "prompt_de": null,
+      "options": [
+        "ota",
+        "o'g'il (chaqaloq)",
+        "bobo"
+      ],
+      "pairs": null,
+      "correct_answer": "o'g'il (chaqaloq)",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"ein Baby ... der Sohn\" — Ali chaqaloq o'g'il.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Das ist ein Baby. Das ist Ali, der Sohn."
+    },
+    {
+      "id": "a1-m04-l1-e07",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-articles",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: Das ist ___ Baby. Das Baby heißt Ali.",
+      "prompt_de": "Das ist ___ Baby. Das Baby heißt Ali.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "ein",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Birinchi marta tilga olinmoqda; Baby — das.",
+      "explanation": "Birinchi marta — noaniq artikl. das Baby → ein Baby.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l1-e08",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-articles",
+      "difficulty": 1,
+      "question": "Das ist ___ Oma. Sie heißt Saodat.",
+      "prompt_de": "Das ist ___ Oma.",
+      "options": [
+        "ein",
+        "eine",
+        "der"
+      ],
+      "pairs": null,
+      "correct_answer": "eine",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Oma — die → noaniq artikl eine. \"der Oma\" noto'g'ri, chunki die Oma.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l1-e09",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-articles",
+      "difficulty": 1,
+      "question": "Gapdagi xato so'zni toping: \"Das ist eine Kind.\"",
+      "prompt_de": "Das ist eine Kind.",
+      "options": [
+        "Das",
+        "ist",
+        "eine",
+        "Kind"
+      ],
+      "pairs": null,
+      "correct_answer": "eine",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "das Kind → ein Kind. eine — faqat die-otlar uchun.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l1-e10",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "family",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Das sind die Eltern von Lola.\"",
+      "prompt_de": "Das sind die Eltern von Lola.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Bular Lolaning ota-onasi.",
+      "accepted_answers": [
+        "Bu Lolaning ota-onasi",
+        "Ular Lolaning ota-onasi",
+        "Bular Lolaning ota-onalari"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Eltern — ota-ona; von Lola — Lolaning.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l1-e11",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "family",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Sizdan rasmdagi buvingiz haqida \"Wer ist das?\" deb so'rashdi. Nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Das ist der Opa.",
+        "Das ist die Oma.",
+        "Das ist das Baby."
+      ],
+      "pairs": null,
+      "correct_answer": "Das ist die Oma.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Buvi — die Oma.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l1-e12",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-articles",
+      "difficulty": 1,
+      "question": "So'zlarni tartiblang: \"Bola besh yoshda.\"",
+      "prompt_de": null,
+      "options": [
+        "fünf",
+        "Das",
+        "alt",
+        "Kind",
+        "ist",
+        "Jahre"
+      ],
+      "pairs": null,
+      "correct_answer": "Das Kind ist fünf Jahre alt.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Das Kind (ega) + ist (fe'l, 2-o'rin) + fünf Jahre alt.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a1-m04-l1-t01",
+      "version": 1,
+      "type": "article",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-articles",
+      "difficulty": 1,
+      "question": "To'g'ri artiklni tanlang: ___ Familie",
+      "prompt_de": "___ Familie",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "die",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Familie — die. -e bilan tugaydigan ko'p otlar ayol jinsida.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l1-t02",
+      "version": 1,
+      "type": "article",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-articles",
+      "difficulty": 1,
+      "question": "To'g'ri artiklni tanlang: ___ Mann",
+      "prompt_de": "___ Mann",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "der",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Mann — der.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l1-t03",
+      "version": 1,
+      "type": "article",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-articles",
+      "difficulty": 2,
+      "question": "To'g'ri artiklni tanlang: ___ Mädchen",
+      "prompt_de": "___ Mädchen",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "das",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "-chen bilan tugaydigan otlar doim das: das Mädchen.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l1-t04",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-articles",
+      "difficulty": 1,
+      "question": "Noaniq artiklni yozing (ein/eine): Das ist ___ Schwester.",
+      "prompt_de": "Das ist ___ Schwester.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "eine",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Schwester → eine Schwester.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l1-t05",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "family",
+      "grammar_topic": "g-articles",
+      "difficulty": 1,
+      "question": "Nemis tiliga tarjima qiling: \"Bu bola.\" (birinchi marta ko'rsatyapsiz)",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Das ist ein Kind.",
+      "accepted_answers": [
+        "Das ist das Kind."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Birinchi marta — ein: Das ist ein Kind.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l1-t06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "family",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Kimlar haqida gapirilyapti?",
+      "prompt_de": null,
+      "options": [
+        "buvi va bobo",
+        "ota va ona",
+        "aka va opa"
+      ],
+      "pairs": null,
+      "correct_answer": "buvi va bobo",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Oma — buvi, Opa — bobo.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Das ist die Oma, und das ist der Opa."
+    },
+    {
+      "id": "a1-m04-l1-t07",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "family",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Qaysi so'z faqat ko'plikda ishlatiladi?",
+      "prompt_de": null,
+      "options": [
+        "Eltern",
+        "Vater",
+        "Kind"
+      ],
+      "pairs": null,
+      "correct_answer": "Eltern",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Eltern (ota-ona) — faqat ko'plik. Birlikda: der Vater yoki die Mutter.",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l1-t08",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "family",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni davom ettiring. — Wer ist das?",
+      "prompt_de": "Wer ist das?",
+      "options": [
+        "Das ist Tim, der Sohn von Anna.",
+        "Er ist zwölf.",
+        "Ich wohne in Köln."
+      ],
+      "pairs": null,
+      "correct_answer": "Das ist Tim, der Sohn von Anna.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Wer?\" — kim? Javobda odamni tanishtirasiz.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

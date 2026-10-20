@@ -1,0 +1,715 @@
+{
+  "id": "a1-m01-l1",
+  "version": 1,
+  "level": "A1",
+  "module": 1,
+  "order": 1,
+  "title": "Salomlashish va xayrlashish",
+  "title_de": "Begrüßung und Abschied",
+  "goal": "Dars oxirida kunning vaqtiga mos salomlasha olasiz, o'zingizni \"Ich bin ...\" bilan tanishtirasiz va rasmiy hamda norasmiy xayrlasha olasiz.",
+  "skill_focus": [
+    "vocabulary",
+    "speaking",
+    "listening"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Nemislar salomlashganda kunning vaqtiga e'tibor beradi. \"Hallo\" — har doim va do'stlar bilan ishlatiladi. Rasmiyroq vaziyatda (do'kon, shifokor, ish) kunning vaqtiga mos ibora aytiladi."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Ibora",
+        "Qachon",
+        "O'zbekcha"
+      ],
+      "rows": [
+        [
+          "Guten Morgen!",
+          "ertalab (taxminan 10:00 gacha)",
+          "Xayrli tong!"
+        ],
+        [
+          "Guten Tag!",
+          "kunduzi",
+          "Xayrli kun! / Assalomu alaykum!"
+        ],
+        [
+          "Guten Abend!",
+          "kechqurun (taxminan 18:00 dan)",
+          "Xayrli kech!"
+        ],
+        [
+          "Gute Nacht!",
+          "uxlashdan oldin, xayrlashganda",
+          "Xayrli tun!"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Xayrlashish ham ikki xil: do'stlar bilan \"Tschüs!\", notanish yoki rasmiy odam bilan \"Auf Wiedersehen!\"."
+    },
+    {
+      "type": "tip",
+      "text": "\"Gute Nacht\" bilan salomlashilmaydi — bu faqat xayrlashganda yoki uxlashga ketayotganda aytiladi."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-hallo",
+      "de": "Hallo",
+      "uz": "Salom",
+      "pos": "interjection",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Hallo, ich bin Anna.",
+      "example_uz": "Salom, men Annaman.",
+      "topic": "greetings"
+    },
+    {
+      "id": "v-guten-morgen",
+      "de": "Guten Morgen",
+      "uz": "Xayrli tong",
+      "pos": "phrase",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Guten Morgen, Herr Weber!",
+      "example_uz": "Xayrli tong, Veber janoblari!",
+      "topic": "greetings"
+    },
+    {
+      "id": "v-guten-tag",
+      "de": "Guten Tag",
+      "uz": "Xayrli kun, assalomu alaykum",
+      "pos": "phrase",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Guten Tag, ich bin Tom Becker.",
+      "example_uz": "Assalomu alaykum, men Tom Bekkerman.",
+      "topic": "greetings"
+    },
+    {
+      "id": "v-guten-abend",
+      "de": "Guten Abend",
+      "uz": "Xayrli kech",
+      "pos": "phrase",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Guten Abend, Frau Schmidt!",
+      "example_uz": "Xayrli kech, Shmidt xonim!",
+      "topic": "greetings"
+    },
+    {
+      "id": "v-gute-nacht",
+      "de": "Gute Nacht",
+      "uz": "Xayrli tun",
+      "pos": "phrase",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Gute Nacht, Mama!",
+      "example_uz": "Xayrli tun, oyi!",
+      "topic": "greetings"
+    },
+    {
+      "id": "v-tschüs",
+      "de": "Tschüs",
+      "uz": "Xayr (norasmiy)",
+      "pos": "interjection",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Tschüs, bis morgen!",
+      "example_uz": "Xayr, ertagacha!",
+      "topic": "greetings"
+    },
+    {
+      "id": "v-auf-wiedersehen",
+      "de": "Auf Wiedersehen",
+      "uz": "Xayr, ko'rishguncha (rasmiy)",
+      "pos": "phrase",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Auf Wiedersehen, Herr Weber!",
+      "example_uz": "Ko'rishguncha xayr, Veber janoblari!",
+      "topic": "greetings"
+    },
+    {
+      "id": "v-ich",
+      "de": "ich",
+      "uz": "men",
+      "pos": "pronoun",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Ich bin Tom.",
+      "example_uz": "Men Tomman.",
+      "topic": "people"
+    },
+    {
+      "id": "v-danke",
+      "de": "danke",
+      "uz": "rahmat",
+      "pos": "interjection",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Danke, Anna!",
+      "example_uz": "Rahmat, Anna!",
+      "topic": "politeness"
+    },
+    {
+      "id": "v-bitte",
+      "de": "bitte",
+      "uz": "iltimos; marhamat; arzimaydi",
+      "pos": "particle",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Danke! — Bitte!",
+      "example_uz": "Rahmat! — Arzimaydi!",
+      "topic": "politeness"
+    },
+    {
+      "id": "v-ja",
+      "de": "ja",
+      "uz": "ha",
+      "pos": "particle",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Bist du Tom? — Ja.",
+      "example_uz": "Sen Tommisan? — Ha.",
+      "topic": "politeness"
+    },
+    {
+      "id": "v-nein",
+      "de": "nein",
+      "uz": "yo'q",
+      "pos": "particle",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Bist du Anna? — Nein, ich bin Lena.",
+      "example_uz": "Sen Annamisan? — Yo'q, men Lenaman.",
+      "topic": "politeness"
+    }
+  ],
+  "review_vocabulary": [],
+  "grammar": [
+    {
+      "topic_id": "g-sein-haben",
+      "rule": "O'zingizni tanishtirish uchun \"Ich bin\" + ism ishlatiladi. \"bin\" — \"sein\" (bo'lmoq) fe'lining \"ich\" shakli.",
+      "when": "Tanishganda, o'zingizni aytganda: \"Men ...man\".",
+      "structure": "Ich + bin + ism.  Masalan: Ich bin Anna.",
+      "examples": [
+        {
+          "de": "Ich bin Anna.",
+          "uz": "Men Annaman."
+        },
+        {
+          "de": "Hallo, ich bin Tom.",
+          "uz": "Salom, men Tomman."
+        },
+        {
+          "de": "Guten Tag, ich bin Frau Schmidt.",
+          "uz": "Assalomu alaykum, men Shmidt xonimman."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Ich Anna.",
+          "right": "Ich bin Anna.",
+          "why": "O'zbek tilida \"Men Annaman\" deyiladi, lekin nemis tilida fe'l (bin) tushib qolmaydi."
+        },
+        {
+          "wrong": "Ich ist Anna.",
+          "right": "Ich bin Anna.",
+          "why": "\"ist\" — u (er/sie) uchun. \"ich\" bilan faqat \"bin\"."
+        }
+      ],
+      "check": [
+        "a1-m01-l1-e03",
+        "a1-m01-l1-e04"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Kursdagi birinchi kun",
+    "lines": [
+      {
+        "speaker": "Anna",
+        "de": "Hallo! Ich bin Anna.",
+        "uz": "Salom! Men Annaman."
+      },
+      {
+        "speaker": "Tom",
+        "de": "Hallo, Anna! Ich bin Tom.",
+        "uz": "Salom, Anna! Men Tomman."
+      },
+      {
+        "speaker": "Frau Schmidt",
+        "de": "Guten Morgen! Ich bin Frau Schmidt.",
+        "uz": "Xayrli tong! Men Shmidt xonimman."
+      },
+      {
+        "speaker": "Anna und Tom",
+        "de": "Guten Morgen, Frau Schmidt!",
+        "uz": "Xayrli tong, Shmidt xonim!"
+      }
+    ],
+    "questions": [
+      "a1-m01-l1-e05"
+    ]
+  },
+  "situation": {
+    "title": "Yangi qo'shni",
+    "context_uz": "Siz Germaniyada yangi uyga ko'chdingiz. Soat 19:00. Zinapoyada qo'shningiz Herr Weber bilan uchrashdingiz.",
+    "lines": [
+      {
+        "speaker": "Herr Weber",
+        "de": "Guten Abend!",
+        "uz": "Xayrli kech!"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Guten Abend! Ich bin Aziz.",
+        "uz": "Xayrli kech! Men Azizman."
+      },
+      {
+        "speaker": "Herr Weber",
+        "de": "Ich bin Herr Weber. Auf Wiedersehen!",
+        "uz": "Men Veber janoblariman. Ko'rishguncha!"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Auf Wiedersehen!",
+        "uz": "Ko'rishguncha!"
+      }
+    ],
+    "task_uz": "Dialogni ovoz chiqarib o'qing, keyin o'z ismingiz bilan takrorlang. Ertalabki uchrashuv uchun salomlashishni o'zgartiring."
+  },
+  "exercises": [
+    {
+      "id": "a1-m01-l1-e01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "greetings",
+      "difficulty": 1,
+      "question": "Soat 08:00. Ishxonada hamkasbingiz bilan qanday salomlashasiz?",
+      "prompt_de": null,
+      "options": [
+        "Guten Morgen!",
+        "Guten Abend!",
+        "Gute Nacht!"
+      ],
+      "pairs": null,
+      "correct_answer": "Guten Morgen!",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"Morgen\" — ertalab.",
+      "explanation": "Ertalab \"Guten Morgen!\" deyiladi. \"Guten Abend\" — kechqurun, \"Gute Nacht\" esa faqat xayrlashganda.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m01-l1-e02",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "greetings",
+      "difficulty": 1,
+      "question": "Nemischa so'zni o'zbekcha ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "Hallo",
+          "Salom"
+        ],
+        [
+          "Tschüs",
+          "Xayr"
+        ],
+        [
+          "Danke",
+          "Rahmat"
+        ],
+        [
+          "Nein",
+          "Yo'q"
+        ]
+      ],
+      "correct_answer": {
+        "Hallo": "Salom",
+        "Tschüs": "Xayr",
+        "Danke": "Rahmat",
+        "Nein": "Yo'q"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Hallo — salom, Tschüs — xayr (norasmiy), Danke — rahmat, Nein — yo'q.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m01-l1-e03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "personal-info",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: Ich ___ Anna.",
+      "prompt_de": "Ich ___ Anna.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "bin",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"ich\" bilan \"sein\" fe'lining shakli.",
+      "explanation": "\"ich\" bilan \"sein\" fe'li \"bin\" bo'ladi: Ich bin Anna.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null,
+      "grammar_topic": "g-sein-haben"
+    },
+    {
+      "id": "a1-m01-l1-e04",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "personal-info",
+      "difficulty": 1,
+      "question": "So'zlarni to'g'ri tartibda joylashtiring: \"Men Tomman.\"",
+      "prompt_de": null,
+      "options": [
+        "bin",
+        "Tom",
+        "Ich"
+      ],
+      "pairs": null,
+      "correct_answer": "Ich bin Tom",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Nemis gapida fe'l ikkinchi o'rinda turadi.",
+      "explanation": "To'g'ri tartib: Ich (1) bin (2) Tom. Darak gapda fe'l doim ikkinchi o'rinda.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null,
+      "grammar_topic": "g-sein-haben"
+    },
+    {
+      "id": "a1-m01-l1-e05",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "greetings",
+      "difficulty": 1,
+      "question": "Tinglang. Bu ibora kunning qaysi vaqtida aytiladi?",
+      "prompt_de": null,
+      "options": [
+        "Ertalab",
+        "Kechqurun",
+        "Faqat uxlashdan oldin"
+      ],
+      "pairs": null,
+      "correct_answer": "Kechqurun",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"Abend\" so'ziga quloq soling.",
+      "explanation": "\"Guten Abend\" — xayrli kech, ya'ni kechqurun aytiladi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Guten Abend, Frau Schmidt!"
+    },
+    {
+      "id": "a1-m01-l1-e06",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "greetings",
+      "difficulty": 1,
+      "question": "Kunduzi universitetda do'stingiz bilan xayrlashyapsiz. Nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Tschüs!",
+        "Hallo!",
+        "Guten Tag!"
+      ],
+      "pairs": null,
+      "correct_answer": "Tschüs!",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Do'st bilan — norasmiy.",
+      "explanation": "Do'st bilan norasmiy xayrlashish: \"Tschüs!\". \"Hallo\" va \"Guten Tag\" — salomlashish iboralari.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m01-l1-e07",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "politeness",
+      "difficulty": 1,
+      "question": "Nemis tiliga tarjima qiling: \"Rahmat!\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Danke!",
+      "accepted_answers": [
+        "Danke schön!",
+        "Vielen Dank!",
+        "Danke sehr!"
+      ],
+      "criteria": null,
+      "hint": "D harfi bilan boshlanadi.",
+      "explanation": "\"Rahmat\" — \"Danke\". Kuchliroq shakllari: \"Danke schön\", \"Vielen Dank\".",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m01-l1-e08",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "greetings",
+      "difficulty": 2,
+      "question": "Tinglang va eshitganingizni yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Auf Wiedersehen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Ikki so'z, ikkinchisi katta harf bilan.",
+      "explanation": "\"Auf Wiedersehen\" — rasmiy xayrlashish. \"Wiedersehen\" — ot sifatida katta harf bilan yoziladi.",
+      "error_type": "spelling",
+      "points": 2,
+      "audio_text": "Auf Wiedersehen!"
+    },
+    {
+      "id": "a1-m01-l1-e09",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "greetings",
+      "difficulty": 2,
+      "question": "Gapdagi xato so'zni toping: \"Guten Nacht, Anna!\"",
+      "prompt_de": "Guten Nacht, Anna!",
+      "options": [
+        "Guten",
+        "Nacht",
+        "Anna"
+      ],
+      "pairs": null,
+      "correct_answer": "Guten",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"Nacht\" — die Nacht.",
+      "explanation": "To'g'risi: \"Gute Nacht\". \"Nacht\" — ayol jinsidagi ot (die Nacht), shuning uchun \"gute\". \"Guten Morgen/Tag/Abend\" esa erkak jinsidagi otlar bilan.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null,
+      "grammar_topic": "g-adjectives"
+    },
+    {
+      "id": "a1-m01-l1-e10",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "greetings",
+      "difficulty": 1,
+      "question": "Dialogni davom ettiring. — Hallo! Ich bin Tom.",
+      "prompt_de": "Hallo! Ich bin Tom.",
+      "options": [
+        "Hallo, Tom! Ich bin Anna.",
+        "Gute Nacht!",
+        "Nein, danke."
+      ],
+      "pairs": null,
+      "correct_answer": "Hallo, Tom! Ich bin Anna.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Tom o'zini tanishtirdi — siz ham tanishtiring.",
+      "explanation": "Kimdir o'zini tanishtirsa, salomlashib o'zingizni aytasiz: \"Hallo, Tom! Ich bin Anna.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a1-m01-l1-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "greetings",
+      "difficulty": 1,
+      "question": "Soat 19:30. Do'konga kirdingiz. Sotuvchiga nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Guten Abend!",
+        "Guten Morgen!",
+        "Tschüs!"
+      ],
+      "pairs": null,
+      "correct_answer": "Guten Abend!",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Kechqurun kirganda \"Guten Abend!\" deyiladi.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m01-l1-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "personal-info",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: ___ bin Lena.",
+      "prompt_de": "___ bin Lena.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"bin\" faqat \"ich\" bilan ishlatiladi: Ich bin Lena.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null,
+      "grammar_topic": "g-sein-haben"
+    },
+    {
+      "id": "a1-m01-l1-t03",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "politeness",
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Danke!\"",
+      "prompt_de": "Danke!",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Rahmat",
+      "accepted_answers": [
+        "Tashakkur",
+        "Raxmat",
+        "Katta rahmat"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Danke\" — rahmat.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m01-l1-t04",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "greetings",
+      "difficulty": 1,
+      "question": "Tinglang. Anna nima qilyapti?",
+      "prompt_de": null,
+      "options": [
+        "Salomlashyapti",
+        "Xayrlashyapti",
+        "Rahmat aytyapti"
+      ],
+      "pairs": null,
+      "correct_answer": "Xayrlashyapti",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Tschüs\" — norasmiy xayrlashish.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Tschüs, Tom!"
+    },
+    {
+      "id": "a1-m01-l1-t05",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "greetings",
+      "difficulty": 1,
+      "question": "Shifokor qabulidan chiqyapsiz. Shifokor bilan qanday xayrlashasiz?",
+      "prompt_de": null,
+      "options": [
+        "Auf Wiedersehen!",
+        "Tschüs!",
+        "Hallo!"
+      ],
+      "pairs": null,
+      "correct_answer": "Auf Wiedersehen!",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Rasmiy vaziyatda \"Auf Wiedersehen!\" deyiladi. \"Tschüs\" — do'stlar uchun.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m01-l1-t06",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "greetings",
+      "difficulty": 1,
+      "question": "Iborani kunning vaqti bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "Guten Morgen",
+          "ertalab"
+        ],
+        [
+          "Guten Tag",
+          "kunduzi"
+        ],
+        [
+          "Guten Abend",
+          "kechqurun"
+        ],
+        [
+          "Gute Nacht",
+          "uxlashdan oldin"
+        ]
+      ],
+      "correct_answer": {
+        "Guten Morgen": "ertalab",
+        "Guten Tag": "kunduzi",
+        "Guten Abend": "kechqurun",
+        "Gute Nacht": "uxlashdan oldin"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Morgen — tong, Tag — kun, Abend — kech, Nacht — tun.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    }
+  ]
+}

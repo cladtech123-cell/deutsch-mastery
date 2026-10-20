@@ -1,0 +1,322 @@
+{
+  "id": "g-akkusativ",
+  "version": 1,
+  "level": "A1",
+  "order": 12,
+  "title": "Akkusativ (tushum kelishigi)",
+  "prerequisites": [
+    "g-articles",
+    "g-praesens"
+  ],
+  "next": [
+    "g-negation",
+    "g-pronoun-cases",
+    "g-dativ"
+  ],
+  "rule": "Akkusativ — to'ldiruvchi kelishigi (Wen? Was? — kimni? nimani?). Faqat erkak jinsidagi artikl o'zgaradi: der → den, ein → einen.",
+  "when": "haben, kaufen, essen, trinken, sehen, brauchen, suchen, nehmen, möchten, es gibt fe'llaridan keyin va für, ohne, durch, gegen, um predloglaridan keyin.",
+  "structure": "Ega + fe'l + Akkusativ: Ich kaufe den Tisch / einen Tisch.",
+  "explanation": [
+    {
+      "type": "table",
+      "headers": [
+        "Jins",
+        "Nominativ",
+        "Akkusativ"
+      ],
+      "rows": [
+        [
+          "erkak",
+          "der / ein / kein / mein",
+          "den / einen / keinen / meinen"
+        ],
+        [
+          "ayol",
+          "die / eine",
+          "die / eine"
+        ],
+        [
+          "o'rta",
+          "das / ein",
+          "das / ein"
+        ],
+        [
+          "ko'plik",
+          "die / —",
+          "die / —"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "O'zbek tilida tushum kelishigi \"-ni\" bilan, lekin ko'pincha qo'shilmaydi: \"Men olma yeyman\". Nemis tilida erkak jinsidagi ot baribir Akkusativda: Ich esse einen Apfel."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Fe'l / predlog",
+        "Misol"
+      ],
+      "rows": [
+        [
+          "haben",
+          "Ich habe einen Bruder."
+        ],
+        [
+          "möchten",
+          "Ich möchte einen Tee."
+        ],
+        [
+          "es gibt",
+          "Es gibt einen Park."
+        ],
+        [
+          "brauchen",
+          "Ich brauche einen Stift."
+        ],
+        [
+          "für",
+          "Das ist für meinen Vater."
+        ],
+        [
+          "ohne",
+          "Kaffee ohne Zucker, bitte."
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Savol bering: Wer? (kim?) — ega, Nominativ; Wen? Was? (kimni? nimani?) — Akkusativ."
+    }
+  ],
+  "examples": [
+    {
+      "de": "Ich habe einen Bruder.",
+      "uz": "Mening bitta akam bor."
+    },
+    {
+      "de": "Wir kaufen den Tisch.",
+      "uz": "Biz stolni sotib olamiz."
+    },
+    {
+      "de": "Möchtest du einen Tee?",
+      "uz": "Choy ichasanmi?"
+    },
+    {
+      "de": "Ich brauche eine Tasche.",
+      "uz": "Menga sumka kerak."
+    },
+    {
+      "de": "Das Geschenk ist für meinen Vater.",
+      "uz": "Sovg'a otam uchun."
+    },
+    {
+      "de": "In der Nähe gibt es einen Park.",
+      "uz": "Yaqinda bog' bor."
+    }
+  ],
+  "common_mistakes": [
+    {
+      "wrong": "Ich habe ein Bruder.",
+      "right": "Ich habe einen Bruder.",
+      "why": "haben dan keyin Akkusativ; der Bruder — erkak jinsi → einen."
+    },
+    {
+      "wrong": "Ich kaufe der Tisch.",
+      "right": "Ich kaufe den Tisch.",
+      "why": "Akkusativda der → den."
+    },
+    {
+      "wrong": "Ich möchte einen Cola.",
+      "right": "Ich möchte eine Cola.",
+      "why": "-en faqat erkak jinsiga qo'shiladi; die Cola — ayol jinsi, o'zgarmaydi."
+    },
+    {
+      "wrong": "für mein Vater",
+      "right": "für meinen Vater",
+      "why": "für dan keyin Akkusativ."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "g-akkusativ-e01",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-akkusativ",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (bir): \"Ich trinke ___ Kaffee.\"",
+      "prompt_de": "Ich trinke ___ Kaffee.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "einen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Kaffee — erkak jinsi, Akkusativ: einen.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-akkusativ-e02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "transport",
+      "grammar_topic": "g-akkusativ",
+      "difficulty": 1,
+      "question": "To'g'ri artiklni tanlang: \"Ich sehe ___ Bus.\"",
+      "prompt_de": "Ich sehe ___ Bus.",
+      "options": [
+        "der",
+        "den",
+        "dem"
+      ],
+      "pairs": null,
+      "correct_answer": "den",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "sehen + Akkusativ; der Bus → den Bus.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-akkusativ-e03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "shopping",
+      "grammar_topic": "g-akkusativ",
+      "difficulty": 2,
+      "question": "To'g'ri artiklni tanlang: \"Wir kaufen ___ Lampe.\"",
+      "prompt_de": "Wir kaufen ___ Lampe.",
+      "options": [
+        "eine",
+        "einen",
+        "einer"
+      ],
+      "pairs": null,
+      "correct_answer": "eine",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Lampe — ayol jinsi, Akkusativda o'zgarmaydi: eine.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-akkusativ-e04",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-akkusativ",
+      "difficulty": 2,
+      "question": "Bo'sh joyni to'ldiring (mein): \"Das ist für ___ Bruder.\"",
+      "prompt_de": "Das ist für ___ Bruder.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "meinen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "für + Akkusativ, der Bruder → meinen Bruder.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-akkusativ-e05",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-akkusativ",
+      "difficulty": 1,
+      "question": "Xato so'zni toping: \"Ich habe ein Hund.\"",
+      "prompt_de": "Ich habe ein Hund.",
+      "options": [
+        "Ich",
+        "habe",
+        "ein",
+        "Hund"
+      ],
+      "pairs": null,
+      "correct_answer": "ein",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Hund — erkak jinsi, haben + Akkusativ: Ich habe einen Hund.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-akkusativ-e06",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-akkusativ",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Men olma yeyman.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich esse einen Apfel.",
+      "accepted_answers": [
+        "Ich esse den Apfel.",
+        "Ich esse Äpfel."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Apfel — erkak jinsi → einen Apfel.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-akkusativ-e07",
+      "version": 1,
+      "type": "match",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-akkusativ",
+      "difficulty": 2,
+      "question": "Nominativni Akkusativ bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "ein Apfel",
+          "einen Apfel"
+        ],
+        [
+          "eine Banane",
+          "eine Banane (o'zgarmaydi)"
+        ],
+        [
+          "ein Brot",
+          "ein Brot (o'zgarmaydi)"
+        ]
+      ],
+      "correct_answer": {
+        "ein Apfel": "einen Apfel",
+        "eine Banane": "eine Banane (o'zgarmaydi)",
+        "ein Brot": "ein Brot (o'zgarmaydi)"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Faqat erkak jinsi o'zgaradi: einen Apfel; eine Banane va ein Brot o'zgarmaydi.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

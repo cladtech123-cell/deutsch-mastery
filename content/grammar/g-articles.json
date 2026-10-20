@@ -1,0 +1,312 @@
+{
+  "id": "g-articles",
+  "version": 1,
+  "level": "A1",
+  "order": 5,
+  "title": "Artikllar: der, die, das, ein, eine",
+  "prerequisites": [],
+  "next": [
+    "g-plural",
+    "g-possessive",
+    "g-akkusativ"
+  ],
+  "rule": "Har bir nemis oti grammatik jinsga ega: erkak (der), ayol (die) yoki o'rta (das). Noaniq artikl: ein (erkak, o'rta), eine (ayol).",
+  "when": "Aniq artikl — ma'lum, avval aytilgan narsa uchun. Noaniq artikl — birinchi marta tilga olingan, \"bir\" ma'nosidagi narsa uchun.",
+  "structure": "artikl + Ot (katta harf bilan): der Tisch, eine Lampe",
+  "explanation": [
+    {
+      "type": "table",
+      "headers": [
+        "Jins",
+        "Aniq",
+        "Noaniq",
+        "Misol"
+      ],
+      "rows": [
+        [
+          "erkak",
+          "der",
+          "ein",
+          "der Mann, ein Tisch"
+        ],
+        [
+          "ayol",
+          "die",
+          "eine",
+          "die Frau, eine Lampe"
+        ],
+        [
+          "o'rta",
+          "das",
+          "ein",
+          "das Kind, ein Buch"
+        ],
+        [
+          "ko'plik",
+          "die",
+          "—",
+          "die Bücher, Bücher"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "O'zbek tilida grammatik jins va artikl yo'q, shuning uchun har bir otni artikli bilan birga yodlang: \"der Tisch\", faqat \"Tisch\" emas. Jins ko'pincha mantiqqa bog'liq emas: das Mädchen (qiz) — o'rta jins."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Belgi",
+        "Jins",
+        "Misol"
+      ],
+      "rows": [
+        [
+          "-ung, -heit, -keit, -ion",
+          "die",
+          "die Wohnung, die Zeitung, die Information"
+        ],
+        [
+          "-chen, -lein",
+          "das",
+          "das Mädchen, das Brötchen"
+        ],
+        [
+          "hafta kunlari, oylar, fasllar",
+          "der",
+          "der Montag, der Mai, der Sommer"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Birinchi marta: Das ist ein Tisch. Keyin: Der Tisch ist neu."
+    }
+  ],
+  "examples": [
+    {
+      "de": "Das ist ein Tisch. Der Tisch ist neu.",
+      "uz": "Bu stol. Stol yangi."
+    },
+    {
+      "de": "Hier ist eine Tasche. Die Tasche ist schwarz.",
+      "uz": "Mana sumka. Sumka qora."
+    },
+    {
+      "de": "Das Kind spielt im Garten.",
+      "uz": "Bola bog'da o'ynayapti."
+    },
+    {
+      "de": "Ich habe ein Handy.",
+      "uz": "Mening telefonim bor."
+    },
+    {
+      "de": "Die Zeitung liegt dort.",
+      "uz": "Gazeta u yerda yotibdi."
+    }
+  ],
+  "common_mistakes": [
+    {
+      "wrong": "Das ist Tisch.",
+      "right": "Das ist ein Tisch.",
+      "why": "O'zbek tilida artikl yo'q, shuning uchun u tushib qoladi. Nemis tilida birlikdagi ot oldida odatda artikl bo'ladi."
+    },
+    {
+      "wrong": "ein Lampe",
+      "right": "eine Lampe",
+      "why": "die Lampe — ayol jinsi, noaniq artikl \"eine\"."
+    },
+    {
+      "wrong": "die Mädchen (birlik)",
+      "right": "das Mädchen",
+      "why": "-chen bilan tugagan otlar doim das."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "g-articles-e01",
+      "version": 1,
+      "type": "article",
+      "skill": "grammar",
+      "topic": "media",
+      "grammar_topic": "g-articles",
+      "difficulty": 1,
+      "question": "Artiklni tanlang: ___ Zeitung",
+      "prompt_de": "___ Zeitung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "die",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "-ung bilan tugagan otlar ayol jinsida: die Zeitung.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-articles-e02",
+      "version": 1,
+      "type": "article",
+      "skill": "grammar",
+      "topic": "people",
+      "grammar_topic": "g-articles",
+      "difficulty": 1,
+      "question": "Artiklni tanlang: ___ Mädchen",
+      "prompt_de": "___ Mädchen",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "das",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "-chen bilan tugagan otlar doim o'rta jinsda: das Mädchen.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-articles-e03",
+      "version": 1,
+      "type": "article",
+      "skill": "grammar",
+      "topic": "time",
+      "grammar_topic": "g-articles",
+      "difficulty": 1,
+      "question": "Artiklni tanlang: ___ Montag",
+      "prompt_de": "___ Montag",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "der",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Hafta kunlari erkak jinsida: der Montag.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-articles-e04",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-articles",
+      "difficulty": 2,
+      "question": "Bo'sh joyni to'ldiring: \"Das ist ___ Lampe. Die Lampe ist neu.\"",
+      "prompt_de": "Das ist ___ Lampe.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "eine",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Birinchi marta tilga olinmoqda va die Lampe ayol jinsi → eine.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-articles-e05",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "education",
+      "grammar_topic": "g-articles",
+      "difficulty": 1,
+      "question": "Qaysi gap to'g'ri?",
+      "prompt_de": null,
+      "options": [
+        "Das ist ein Buch.",
+        "Das ist Buch.",
+        "Das ist eine Buch."
+      ],
+      "pairs": null,
+      "correct_answer": "Das ist ein Buch.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "das Buch — o'rta jins, noaniq artikl \"ein\". Artiklsiz bo'lmaydi.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-articles-e06",
+      "version": 1,
+      "type": "match",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-articles",
+      "difficulty": 1,
+      "question": "Otni artikli bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "Tisch",
+          "der"
+        ],
+        [
+          "Wohnung",
+          "die"
+        ],
+        [
+          "Kind",
+          "das"
+        ]
+      ],
+      "correct_answer": {
+        "Tisch": "der",
+        "Wohnung": "die",
+        "Kind": "das"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Tisch, die Wohnung, das Kind.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-articles-e07",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "shopping",
+      "grammar_topic": "g-articles",
+      "difficulty": 2,
+      "question": "Xato so'zni toping: \"Ich habe ein Tasche.\"",
+      "prompt_de": "Ich habe ein Tasche.",
+      "options": [
+        "Ich",
+        "habe",
+        "ein",
+        "Tasche"
+      ],
+      "pairs": null,
+      "correct_answer": "ein",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Tasche — ayol jinsi: Ich habe eine Tasche.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

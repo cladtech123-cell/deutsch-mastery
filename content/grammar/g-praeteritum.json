@@ -1,0 +1,323 @@
+{
+  "id": "g-praeteritum",
+  "version": 1,
+  "level": "A2",
+  "order": 24,
+  "title": "Präteritum: war, hatte va modal fe'llar",
+  "prerequisites": [
+    "g-perfekt-aux",
+    "g-modal-verbs"
+  ],
+  "next": [
+    "g-subordinate"
+  ],
+  "rule": "sein, haben va modal fe'llar o'tgan zamonda odatda Perfekt emas, Präteritumda ishlatiladi: war, hatte, konnte, musste, wollte, durfte, sollte.",
+  "when": "O'tmishdagi holat, egalik, imkoniyat va majburiyat haqida gapirganda: Gestern war ich krank. Ich musste arbeiten.",
+  "structure": "Ega + war/hatte/konnte ... (2-o'rin) + ... (+ infinitiv oxirida)",
+  "explanation": [
+    {
+      "type": "table",
+      "headers": [
+        "Olmosh",
+        "sein",
+        "haben",
+        "können",
+        "müssen",
+        "wollen"
+      ],
+      "rows": [
+        [
+          "ich",
+          "war",
+          "hatte",
+          "konnte",
+          "musste",
+          "wollte"
+        ],
+        [
+          "du",
+          "warst",
+          "hattest",
+          "konntest",
+          "musstest",
+          "wolltest"
+        ],
+        [
+          "er / sie / es",
+          "war",
+          "hatte",
+          "konnte",
+          "musste",
+          "wollte"
+        ],
+        [
+          "wir",
+          "waren",
+          "hatten",
+          "konnten",
+          "mussten",
+          "wollten"
+        ],
+        [
+          "ihr",
+          "wart",
+          "hattet",
+          "konntet",
+          "musstet",
+          "wolltet"
+        ],
+        [
+          "sie / Sie",
+          "waren",
+          "hatten",
+          "konnten",
+          "mussten",
+          "wollten"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "dürfen → durfte, sollen → sollte. Modal fe'llarda umlaut yo'qoladi: können → konnte, müssen → musste. ich va er/sie/es shakllari bir xil."
+    },
+    {
+      "type": "p",
+      "text": "es gibt → es gab: Früher gab es hier einen Park."
+    },
+    {
+      "type": "tip",
+      "text": "hatte (edi) va hätte (bo'lardi), konnte (oldi edi) va könnte (olardi) — umlaut ma'noni o'zgartiradi!"
+    }
+  ],
+  "examples": [
+    {
+      "de": "Gestern war ich krank.",
+      "uz": "Kecha kasal edim."
+    },
+    {
+      "de": "Wir hatten keine Zeit.",
+      "uz": "Vaqtimiz yo'q edi."
+    },
+    {
+      "de": "Am Samstag musste ich arbeiten.",
+      "uz": "Shanba kuni ishlashim kerak edi."
+    },
+    {
+      "de": "Früher wollte ich Pilot werden.",
+      "uz": "Ilgari uchuvchi bo'lishni xohlardim."
+    },
+    {
+      "de": "Wo warst du gestern Abend?",
+      "uz": "Kecha kechqurun qayerda eding?"
+    },
+    {
+      "de": "Ich konnte nicht schlafen.",
+      "uz": "Uxlay olmadim."
+    }
+  ],
+  "common_mistakes": [
+    {
+      "wrong": "Ich habe krank gewesen.",
+      "right": "Ich war krank.",
+      "why": "sein o'tgan zamonda odatda Präteritum: war."
+    },
+    {
+      "wrong": "Er müsste gestern arbeiten.",
+      "right": "Er musste gestern arbeiten.",
+      "why": "müsste — Konjunktiv II (kerak bo'lardi). O'tgan zamon — musste."
+    },
+    {
+      "wrong": "Wir hätten keine Zeit.",
+      "right": "Wir hatten keine Zeit.",
+      "why": "hätten — Konjunktiv II; o'tgan zamon — hatten."
+    },
+    {
+      "wrong": "Ich warst müde.",
+      "right": "Ich war müde.",
+      "why": "ich bilan war (qo'shimchasiz)."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "g-praeteritum-e01",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "past-events",
+      "grammar_topic": "g-praeteritum",
+      "difficulty": 1,
+      "question": "Fe'lni tuslang (sein, Präteritum): \"Gestern ___ ich müde.\"",
+      "prompt_de": "Gestern ___ ich müde.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "war",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "ich → war.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-praeteritum-e02",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "past-events",
+      "grammar_topic": "g-praeteritum",
+      "difficulty": 1,
+      "question": "Fe'lni tuslang (haben, Präteritum): \"Wir ___ am Wochenende Besuch.\"",
+      "prompt_de": "Wir ___ am Wochenende Besuch.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "hatten",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "wir → hatten.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-praeteritum-e03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "appointments",
+      "grammar_topic": "g-praeteritum",
+      "difficulty": 2,
+      "question": "Bo'sh joyni to'ldiring: \"Ich ___ gestern nicht kommen.\"",
+      "prompt_de": "Ich ___ gestern nicht kommen.",
+      "options": [
+        "konnte",
+        "könnte",
+        "kann"
+      ],
+      "pairs": null,
+      "correct_answer": "konnte",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "O'tgan zamon — konnte (umlautsiz).",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-praeteritum-e04",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "past-events",
+      "grammar_topic": "g-praeteritum",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (sein): \"Wo ___ du gestern Abend?\"",
+      "prompt_de": "Wo ___ du gestern Abend?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "warst",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "du → warst.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-praeteritum-e05",
+      "version": 1,
+      "type": "match",
+      "skill": "grammar",
+      "topic": "past-events",
+      "grammar_topic": "g-praeteritum",
+      "difficulty": 1,
+      "question": "Infinitivni ich-shakli (Präteritum) bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "sein",
+          "war"
+        ],
+        [
+          "haben",
+          "hatte"
+        ],
+        [
+          "müssen",
+          "musste"
+        ],
+        [
+          "können",
+          "konnte"
+        ]
+      ],
+      "correct_answer": {
+        "sein": "war",
+        "haben": "hatte",
+        "müssen": "musste",
+        "können": "konnte"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "sein — war, haben — hatte, müssen — musste, können — konnte.",
+      "error_type": "tense",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "g-praeteritum-e06",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-praeteritum",
+      "difficulty": 2,
+      "question": "Xato so'zni toping: \"Am Montag hattest er Fieber.\"",
+      "prompt_de": "Am Montag hattest er Fieber.",
+      "options": [
+        "Am",
+        "Montag",
+        "hattest",
+        "er",
+        "Fieber"
+      ],
+      "pairs": null,
+      "correct_answer": "hattest",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "er → hatte: Am Montag hatte er Fieber.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-praeteritum-e07",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "grammar",
+      "topic": "past-events",
+      "grammar_topic": "g-praeteritum",
+      "difficulty": 1,
+      "question": "Nemis tiliga tarjima qiling: \"Kecha men uyda edim.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Gestern war ich zu Hause.",
+      "accepted_answers": [
+        "Ich war gestern zu Hause."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "edim — war; uyda — zu Hause.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

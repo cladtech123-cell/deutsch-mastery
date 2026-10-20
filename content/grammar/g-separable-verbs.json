@@ -1,0 +1,298 @@
+{
+  "id": "g-separable-verbs",
+  "version": 1,
+  "level": "A1",
+  "order": 10,
+  "title": "Ajraladigan fe'llar",
+  "prerequisites": [
+    "g-praesens",
+    "g-verb-position"
+  ],
+  "next": [
+    "g-imperative",
+    "g-perfekt"
+  ],
+  "rule": "Ba'zi fe'llar old qo'shimcha (prefiks) + fe'ldan iborat: auf + stehen = aufstehen. Hozirgi zamonda prefiks ajralib, gap OXIRIGA ketadi.",
+  "when": "Kun tartibi va kundalik ishlar haqida gapirganda: aufstehen, einkaufen, anrufen, fernsehen, ankommen.",
+  "structure": "Ega + fe'l (2-o'rin) + ... + prefiks (oxirida): Ich stehe um 7 Uhr auf.",
+  "explanation": [
+    {
+      "type": "table",
+      "headers": [
+        "Infinitiv",
+        "Ma'nosi",
+        "Gapda"
+      ],
+      "rows": [
+        [
+          "aufstehen",
+          "turmoq (o'rindan)",
+          "Ich stehe um 7 Uhr auf."
+        ],
+        [
+          "einkaufen",
+          "xarid qilmoq",
+          "Wir kaufen im Supermarkt ein."
+        ],
+        [
+          "anrufen",
+          "qo'ng'iroq qilmoq",
+          "Er ruft seine Mutter an."
+        ],
+        [
+          "fernsehen",
+          "televizor ko'rmoq",
+          "Sie sieht am Abend fern."
+        ],
+        [
+          "ankommen",
+          "yetib kelmoq",
+          "Der Zug kommt um 9 Uhr an."
+        ],
+        [
+          "mitkommen",
+          "birga bormoq",
+          "Kommst du mit?"
+        ],
+        [
+          "aufräumen",
+          "yig'ishtirmoq",
+          "Ich räume mein Zimmer auf."
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Ajraladi",
+        "Ajralmaydi"
+      ],
+      "rows": [
+        [
+          "an-, auf-, aus-, ein-, mit-, vor-, zu-, fern-, zurück-",
+          "be-, ver-, er-, ge-, ent-, emp-, zer-"
+        ],
+        [
+          "anrufen, aufstehen, einkaufen",
+          "besuchen, verstehen, bekommen"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Modal fe'l bilan ajraladigan fe'l bo'linmaydi va oxirida turadi: Ich muss um 6 Uhr aufstehen. Urg'u prefiksga tushadi: ÁUFstehen, ÉINkaufen."
+    }
+  ],
+  "examples": [
+    {
+      "de": "Ich stehe jeden Tag um sechs Uhr auf.",
+      "uz": "Men har kuni soat oltida turaman."
+    },
+    {
+      "de": "Am Samstag kaufen wir ein.",
+      "uz": "Shanba kuni xarid qilamiz."
+    },
+    {
+      "de": "Rufst du mich heute an?",
+      "uz": "Bugun menga qo'ng'iroq qilasanmi?"
+    },
+    {
+      "de": "Der Bus fährt um 8:15 Uhr ab.",
+      "uz": "Avtobus soat 8:15 da jo'naydi."
+    },
+    {
+      "de": "Wir kommen um zehn Uhr in Berlin an.",
+      "uz": "Biz soat o'nda Berlinga yetib kelamiz."
+    }
+  ],
+  "common_mistakes": [
+    {
+      "wrong": "Ich aufstehe um 7 Uhr.",
+      "right": "Ich stehe um 7 Uhr auf.",
+      "why": "Hozirgi zamonda prefiks ajralib, gap oxiriga ketadi."
+    },
+    {
+      "wrong": "Ich stehe auf um 7 Uhr.",
+      "right": "Ich stehe um 7 Uhr auf.",
+      "why": "Prefiks eng oxirida, vaqt ifodasidan keyin turadi."
+    },
+    {
+      "wrong": "Ich stehe nicht ver.",
+      "right": "Ich verstehe nicht.",
+      "why": "ver- ajralmaydigan prefiks."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "g-separable-verbs-e01",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "daily-routine",
+      "grammar_topic": "g-separable-verbs",
+      "difficulty": 1,
+      "question": "So'zlardan gap tuzing: \"Men soat yettida turaman.\"",
+      "prompt_de": null,
+      "options": [
+        "auf",
+        "Uhr",
+        "sieben",
+        "um",
+        "stehe",
+        "Ich"
+      ],
+      "pairs": null,
+      "correct_answer": "Ich stehe um sieben Uhr auf.",
+      "accepted_answers": [
+        "Um sieben Uhr stehe ich auf."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Fe'l (stehe) 2-o'rinda, prefiks (auf) oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-separable-verbs-e02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "shopping",
+      "grammar_topic": "g-separable-verbs",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (einkaufen): \"Wir kaufen am Samstag ___.\"",
+      "prompt_de": "Wir kaufen am Samstag ___.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "ein",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "einkaufen → wir kaufen ... ein. Prefiks gap oxirida.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-separable-verbs-e03",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "transport",
+      "grammar_topic": "g-separable-verbs",
+      "difficulty": 1,
+      "question": "Fe'lni tuslang (ankommen): \"Der Zug ___ um 9 Uhr an.\"",
+      "prompt_de": "Der Zug ___ um 9 Uhr an.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "kommt",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "ankommen: der Zug kommt ... an.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-separable-verbs-e04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "phone",
+      "grammar_topic": "g-separable-verbs",
+      "difficulty": 1,
+      "question": "Qaysi gap to'g'ri?",
+      "prompt_de": null,
+      "options": [
+        "Er ruft seine Mutter an.",
+        "Er anruft seine Mutter.",
+        "Er ruft an seine Mutter."
+      ],
+      "pairs": null,
+      "correct_answer": "Er ruft seine Mutter an.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "anrufen ajraladi: ruft (2-o'rin) ... an (oxirida).",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-separable-verbs-e05",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "general",
+      "grammar_topic": "g-separable-verbs",
+      "difficulty": 2,
+      "question": "Qaysi fe'l AJRALMAYDI?",
+      "prompt_de": null,
+      "options": [
+        "aufstehen",
+        "einkaufen",
+        "verstehen",
+        "fernsehen"
+      ],
+      "pairs": null,
+      "correct_answer": "verstehen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "ver- ajralmaydigan prefiks: Ich verstehe das.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-separable-verbs-e06",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "grammar",
+      "topic": "invitations",
+      "grammar_topic": "g-separable-verbs",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Sen (biz bilan) borasanmi?\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Kommst du mit?",
+      "accepted_answers": [
+        "Kommst du mit uns?"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "mitkommen: Kommst du mit? — prefiks mit oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-separable-verbs-e07",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "daily-routine",
+      "grammar_topic": "g-separable-verbs",
+      "difficulty": 2,
+      "question": "Xato so'zni toping: \"Wann aufstehst du?\"",
+      "prompt_de": "Wann aufstehst du?",
+      "options": [
+        "Wann",
+        "aufstehst",
+        "du"
+      ],
+      "pairs": null,
+      "correct_answer": "aufstehst",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: Wann stehst du auf? — prefiks ajralib oxiriga ketadi.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

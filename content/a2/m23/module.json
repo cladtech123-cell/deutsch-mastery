@@ -1,0 +1,306 @@
+{
+  "id": "a2-m23",
+  "version": 1,
+  "level": "A2",
+  "number": 23,
+  "title": "Kundalik hayot va xizmatlar",
+  "title_de": "Alltag und Dienstleistungen",
+  "goals": [
+    "Pochta, bank va boshqa xizmatlarda Könnten Sie ...? / Würden Sie ...? / Ich hätte gern ... bilan muloyim iltimos qilish",
+    "Uy yumushlari va chiqindilarni ajratish haqida gapirish, kvartiradoshlarga du-shaklida muloyim iltimos",
+    "Ikki variantni solishtirish: lieber, am liebsten, Ich würde lieber ..., Vorteil/Nachteil",
+    "Xizmat ko'rsatish vaziyatlarida (ustaxona, kimyoviy tozalash) to'liq dialog olib borish"
+  ],
+  "lessons": [
+    "a2-m23-l1",
+    "a2-m23-l2",
+    "a2-m23-l3"
+  ],
+  "module_test": [
+    {
+      "id": "mtest-a2-m23-01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "directions",
+      "grammar_topic": "g-polite-requests",
+      "difficulty": 1,
+      "question": "To'g'ri shaklni tanlang: \"___ Sie mir bitte sagen, wo die Post ist?\"",
+      "prompt_de": null,
+      "options": [
+        "Könnten",
+        "Konnten",
+        "Hätten"
+      ],
+      "pairs": null,
+      "correct_answer": "Könnten",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Muloyim iltimos: Könnten Sie ...? Konnten — o'tgan zamon.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m23-02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "services",
+      "grammar_topic": "g-polite-requests",
+      "difficulty": 2,
+      "question": "Muloyim shaklni yozing: \"Ich ___ gern ein Paket nach Taschkent schicken.\"",
+      "prompt_de": "Ich ___ gern ein Paket nach Taschkent schicken.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "würde",
+      "accepted_answers": [
+        "möchte"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ich würde gern + infinitiv (schicken) — muloyim istak. \"möchte\" ham to'g'ri.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m23-03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-polite-requests",
+      "difficulty": 1,
+      "question": "To'g'ri shaklni tanlang: \"___ du bitte das Fenster aufmachen?\"",
+      "prompt_de": null,
+      "options": [
+        "Würdest",
+        "Würden",
+        "Wurdest"
+      ],
+      "pairs": null,
+      "correct_answer": "Würdest",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "du bilan: würdest.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m23-04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "transport",
+      "grammar_topic": "g-comparison",
+      "difficulty": 1,
+      "question": "To'g'ri so'zni tanlang: \"Ich gehe ___ zu Fuß als mit dem Bus.\"",
+      "prompt_de": null,
+      "options": [
+        "lieber",
+        "gerner",
+        "mehr"
+      ],
+      "pairs": null,
+      "correct_answer": "lieber",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "gern → lieber (... als ...).",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m23-05",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "services",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "So'zlarni juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "die Briefmarke",
+          "pochta markasi"
+        ],
+        [
+          "der Müll",
+          "axlat"
+        ],
+        [
+          "der Vorteil",
+          "afzallik"
+        ],
+        [
+          "die Umwelt",
+          "atrof-muhit"
+        ]
+      ],
+      "correct_answer": {
+        "die Briefmarke": "pochta markasi",
+        "der Müll": "axlat",
+        "der Vorteil": "afzallik",
+        "die Umwelt": "atrof-muhit"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Briefmarke — pochta markasi, Müll — axlat, Vorteil — afzallik, Umwelt — atrof-muhit.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m23-06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "services",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Xabarni tinglang. Posilkani qayerdan olish kerak?",
+      "prompt_de": null,
+      "options": [
+        "Vokzal yonidagi posilka avtomatidan",
+        "Pochta oynasidan",
+        "Qo'shnidan"
+      ],
+      "pairs": null,
+      "correct_answer": "Vokzal yonidagi posilka avtomatidan",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"in der Paketstation am Bahnhof\".",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Guten Tag, Ihr Paket liegt ab morgen in der Paketstation am Bahnhof. Bitte holen Sie es innerhalb von sieben Tagen ab."
+    },
+    {
+      "id": "mtest-a2-m23-07",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "household",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Uy qoidalarini o'qing. Soat 23 da nima qilish mumkin emas?",
+      "prompt_de": "Hausordnung: Bitte trennen Sie den Müll. Papier gehört in die blaue Tonne, Glas in den Glascontainer an der Ecke. Von 22 bis 6 Uhr ist Ruhezeit: Bitte keine laute Musik und kein Staubsaugen. Die Treppe putzt jede Woche eine andere Familie (siehe Putzplan).",
+      "options": [
+        "Changyutgich ishlatish",
+        "Axlatni ajratish",
+        "Kitob o'qish"
+      ],
+      "pairs": null,
+      "correct_answer": "Changyutgich ishlatish",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Von 22 bis 6 Uhr ist Ruhezeit: Bitte keine laute Musik und kein Staubsaugen.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m23-08",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "household",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Kvartiradoshingiz kechasi baland musiqa qo'yyapti. Nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Könntest du die Musik bitte etwas leiser machen?",
+        "Mach die Musik leiser wie!",
+        "Konntest du die Musik leise?"
+      ],
+      "pairs": null,
+      "correct_answer": "Könntest du die Musik bitte etwas leiser machen?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Do'stga muloyim iltimos: Könntest du ...? + komparativ (leiser).",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m23-09",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "transport",
+      "grammar_topic": "g-polite-requests",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Men piyoda borishni afzal ko'rardim.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich würde lieber zu Fuß gehen.",
+      "accepted_answers": [
+        "Ich würde lieber laufen.",
+        "Ich würde lieber zu Fuß laufen."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ich würde lieber + ... + infinitiv.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m23-10",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "services",
+      "grammar_topic": "g-polite-requests",
+      "difficulty": 1,
+      "question": "Xato so'zni toping: \"Würden Sie bitte hier unterschreibt?\"",
+      "prompt_de": "Würden Sie bitte hier unterschreibt?",
+      "options": [
+        "Würden",
+        "Sie",
+        "bitte",
+        "hier",
+        "unterschreibt"
+      ],
+      "pairs": null,
+      "correct_answer": "unterschreibt",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "würden + infinitiv: \"Würden Sie bitte hier unterschreiben?\"",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "writing_task": {
+    "id": "w-a2-m23",
+    "title": "Uy egasiga muloyim xat",
+    "task_uz": "Siz ijarada yashaysiz. Uy egasiga (Herr/Frau ...) muloyim xat yozing: kir yuvish mashinasi buzildi (qachondan beri), ikki variantni solishtiring (ta'mirlash yoki yangisi), Könnten Sie ...? / Würden Sie ...? bilan iltimos qiling va qachon uyda bo'lishingizni ayting.",
+    "required_words": [
+      "Könnten"
+    ],
+    "min_words": 40,
+    "max_words": 100,
+    "criteria": [
+      "Rasmiy murojaat (Sehr geehrte/r ...) va xayrlashuv (Mit freundlichen Grüßen)",
+      "Muammo seit bilan aniq aytilgan",
+      "Kamida 2 ta muloyim iltimos (Könnten / Würden Sie ...?), infinitiv oxirida",
+      "Variantlar komparativ yoki Vorteil/Nachteil bilan solishtirilgan",
+      "Uchrashuv vaqti (am ..., ab ... Uhr) taklif qilingan"
+    ],
+    "sample_answer": "Sehr geehrter Herr Wagner, seit Montag funktioniert unsere Waschmaschine nicht mehr. Könnten Sie bitte einen Handwerker schicken? Ich glaube, eine Reparatur ist billiger als eine neue Maschine. Aber die Maschine ist schon sehr alt, und neue Maschinen sind sparsamer. Würden Sie mir bitte sagen, was Sie lieber möchten? Ich bin am Donnerstag ab 15 Uhr zu Hause. Mit freundlichen Grüßen Dilnoza Rahimova"
+  }
+}

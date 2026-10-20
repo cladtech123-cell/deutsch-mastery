@@ -1,0 +1,847 @@
+{
+  "id": "a2-m22-l2",
+  "version": 1,
+  "level": "A2",
+  "module": 22,
+  "order": 2,
+  "title": "Texnika muammolari",
+  "title_de": "Probleme mit der Technik",
+  "goal": "Dars oxirida telefon, kompyuter yoki printer muammosini sodda gaplar bilan tushuntira olasiz (nima ishlamaydi, qachondan beri, nima qildingiz) va sich ärgern, sich beeilen fe'llarini Perfekt, modal fe'l va buyruqda ishlatasiz.",
+  "skill_focus": [
+    "speaking",
+    "listening",
+    "grammar"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Texnika muammosini sodda gaplar bilan tushuntirish mumkin: nima ishlamayapti, qachondan beri va siz nima qildingiz."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Muammo",
+        "Nemischa"
+      ],
+      "rows": [
+        [
+          "Batareya tugadi",
+          "Der Akku ist leer."
+        ],
+        [
+          "Signal yo'q",
+          "Ich habe keinen Empfang. / Ich habe kein Netz."
+        ],
+        [
+          "Ilova qotib, yopilib qoldi",
+          "Die App ist abgestürzt."
+        ],
+        [
+          "Faylni tasodifan o'chirib yubordim",
+          "Ich habe die Datei aus Versehen gelöscht."
+        ],
+        [
+          "Printer chop etmayapti",
+          "Der Drucker funktioniert nicht."
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Yechim so'rash yoki taklif qilish: Haben Sie das Gerät neu gestartet? — Qurilmani qayta yoqdingizmi? / Starten Sie das Handy neu! — Telefonni qayta yoqing!"
+    },
+    {
+      "type": "tip",
+      "text": "Muammo aytganda \"seit\" qo'shing: seit gestern, seit dem Update (yangilanishdan beri). Bu usta yoki yordam xizmatiga ko'p yordam beradi."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-der-akku",
+      "de": "Akku",
+      "uz": "akkumulyator, batareya (telefon)",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Akkus",
+      "forms": null,
+      "example_de": "Mein Akku ist fast leer.",
+      "example_uz": "Batareyam deyarli tugadi.",
+      "topic": "technology"
+    },
+    {
+      "id": "v-das-ladegerät",
+      "de": "Ladegerät",
+      "uz": "quvvatlagich (zaryadka)",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Ladegeräte",
+      "forms": null,
+      "example_de": "Hast du ein Ladegerät für mich?",
+      "example_uz": "Menga zaryadka topiladimi?",
+      "topic": "technology"
+    },
+    {
+      "id": "v-der-empfang",
+      "de": "Empfang",
+      "uz": "signal, aloqa (telefon)",
+      "pos": "noun",
+      "article": "der",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Im Keller habe ich keinen Empfang.",
+      "example_uz": "Yerto'lada signal yo'q.",
+      "topic": "technology"
+    },
+    {
+      "id": "v-das-netz",
+      "de": "Netz",
+      "uz": "tarmoq, aloqa",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Netze",
+      "forms": null,
+      "example_de": "Im Zug gibt es oft kein Netz.",
+      "example_uz": "Poyezdda ko'pincha aloqa bo'lmaydi.",
+      "topic": "technology"
+    },
+    {
+      "id": "v-das-update",
+      "de": "Update",
+      "uz": "yangilanish (dastur)",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Updates",
+      "forms": null,
+      "example_de": "Nach dem Update ist das Handy langsam.",
+      "example_uz": "Yangilanishdan keyin telefon sekin.",
+      "topic": "technology"
+    },
+    {
+      "id": "v-der-drucker",
+      "de": "Drucker",
+      "uz": "printer",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Drucker",
+      "forms": null,
+      "example_de": "Der Drucker im Büro ist kaputt.",
+      "example_uz": "Ofisdagi printer buzuq.",
+      "topic": "technology"
+    },
+    {
+      "id": "v-aufladen",
+      "de": "aufladen",
+      "uz": "quvvatlamoq (zaryad qilmoq)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "aufgeladen",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "lädt auf",
+        "praeteritum": "lud auf"
+      },
+      "example_de": "Ich lade mein Handy jede Nacht auf.",
+      "example_uz": "Telefonimni har kecha quvvatlayman.",
+      "topic": "technology"
+    },
+    {
+      "id": "v-löschen",
+      "de": "löschen",
+      "uz": "o'chirmoq (fayl, xabar)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "gelöscht",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "löscht"
+      },
+      "example_de": "Ich habe die alten Fotos gelöscht.",
+      "example_uz": "Eski suratlarni o'chirdim.",
+      "topic": "technology"
+    },
+    {
+      "id": "v-abstürzen",
+      "de": "abstürzen",
+      "uz": "qotib qolmoq, ishdan chiqmoq (dastur)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "abgestürzt",
+        "perfekt_aux": "sein",
+        "praesens_3sg": "stürzt ab"
+      },
+      "example_de": "Der Computer ist schon wieder abgestürzt.",
+      "example_uz": "Kompyuter yana qotib qoldi.",
+      "topic": "technology"
+    },
+    {
+      "id": "v-neu-starten",
+      "de": "neu starten",
+      "uz": "qayta yoqmoq (qurilmani)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "neu gestartet",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "startet neu"
+      },
+      "example_de": "Starten Sie den Laptop bitte neu.",
+      "example_uz": "Iltimos, noutbukni qayta yoqing.",
+      "topic": "technology"
+    },
+    {
+      "id": "v-sich-ärgern",
+      "de": "sich ärgern",
+      "uz": "jahli chiqmoq, asabiylashmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "geärgert",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "ärgert sich"
+      },
+      "example_de": "Ich ärgere mich über das langsame Internet.",
+      "example_uz": "Sekin internetdan jahlim chiqyapti.",
+      "topic": "communication"
+    },
+    {
+      "id": "v-sich-beeilen",
+      "de": "sich beeilen",
+      "uz": "shoshilmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "beeilt",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "beeilt sich"
+      },
+      "example_de": "Wir müssen uns beeilen.",
+      "example_uz": "Shoshilishimiz kerak.",
+      "topic": "daily-routine"
+    },
+    {
+      "id": "v-leer",
+      "de": "leer",
+      "uz": "bo'sh; (batareya) tugagan",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Der Akku ist leer.",
+      "example_uz": "Batareya tugadi.",
+      "topic": "technology"
+    }
+  ],
+  "review_vocabulary": [
+    "v-günstig",
+    "v-der-fehler",
+    "v-voll",
+    "v-weil",
+    "v-wenn",
+    "v-die-app",
+    "v-installieren",
+    "v-funktionieren"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-reflexive",
+      "rule": "Perfektda qaytishli fe'llar doim haben bilan: ich habe mich geärgert. Olmosh yordamchi fe'ldan keyin turadi. Modal fe'l bilan: Ich muss mich beeilen. Buyruqda: Beeil dich! / Ärgern Sie sich nicht!",
+      "when": "Muammo va his-tuyg'ularni aytganda: jahl chiqishi, shoshilish.",
+      "structure": "Ich habe mich + ... + Partizip II.   Ich muss mich + ... + infinitiv.   Beeil dich! / Beeilen Sie sich!",
+      "examples": [
+        {
+          "de": "Ich habe mich sehr geärgert, weil der Laptop abgestürzt ist.",
+          "uz": "Noutbuk qotib qolgani uchun juda jahlim chiqdi."
+        },
+        {
+          "de": "Wir müssen uns beeilen, der Akku ist fast leer.",
+          "uz": "Shoshilishimiz kerak, batareya deyarli tugadi."
+        },
+        {
+          "de": "Ärgern Sie sich nicht, ich helfe Ihnen.",
+          "uz": "Asabiylashmang, sizga yordam beraman."
+        },
+        {
+          "de": "Beeil dich, der Bus kommt!",
+          "uz": "Shoshil, avtobus kelyapti!"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Ich bin mich geärgert.",
+          "right": "Ich habe mich geärgert.",
+          "why": "Qaytishli fe'llar Perfektda doim haben bilan."
+        },
+        {
+          "wrong": "Ich muss beeilen mich.",
+          "right": "Ich muss mich beeilen.",
+          "why": "Olmosh modal fe'ldan keyin, infinitiv esa oxirda."
+        },
+        {
+          "wrong": "Beeil sich!",
+          "right": "Beeil dich!",
+          "why": "du ga buyruqda olmosh — dich."
+        }
+      ],
+      "check": [
+        "a2-m22-l2-e03",
+        "a2-m22-l2-e04",
+        "a2-m22-l2-e05"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Texnik yordam xizmati",
+    "lines": [
+      {
+        "speaker": "Hotline",
+        "de": "Technik-Hotline, guten Tag. Was ist das Problem?",
+        "uz": "Texnik yordam xizmati, assalomu alaykum. Muammo nima?"
+      },
+      {
+        "speaker": "Lola",
+        "de": "Guten Tag. Seit dem Update stürzt meine App immer ab.",
+        "uz": "Assalomu alaykum. Yangilanishdan beri ilovam doim qotib qolyapti."
+      },
+      {
+        "speaker": "Hotline",
+        "de": "Haben Sie das Handy schon neu gestartet?",
+        "uz": "Telefonni qayta yoqib ko'rdingizmi?"
+      },
+      {
+        "speaker": "Lola",
+        "de": "Ja, zweimal. Und der Akku ist schon wieder leer. Ich habe ihn heute Morgen aufgeladen.",
+        "uz": "Ha, ikki marta. Batareya ham yana tugadi. Bugun ertalab quvvatlagan edim."
+      },
+      {
+        "speaker": "Hotline",
+        "de": "Das ist ein bekannter Fehler. Löschen Sie die App und installieren Sie sie neu.",
+        "uz": "Bu ma'lum nosozlik. Ilovani o'chiring va qayta o'rnating."
+      },
+      {
+        "speaker": "Lola",
+        "de": "Sind meine Fotos dann weg?",
+        "uz": "Unda suratlarim yo'qolib ketadimi?"
+      },
+      {
+        "speaker": "Hotline",
+        "de": "Nein, keine Sorge. Die Fotos sind gespeichert.",
+        "uz": "Yo'q, xavotir olmang. Suratlar saqlangan."
+      }
+    ],
+    "questions": [
+      "a2-m22-l2-e06",
+      "a2-m22-l2-e07"
+    ]
+  },
+  "situation": {
+    "title": "Ofisda printer ishlamayapti",
+    "context_uz": "Hamkasbingiz Max majlis oldidan taqdimotni chop eta olmayapti va juda asabiy.",
+    "lines": [
+      {
+        "speaker": "Max",
+        "de": "Ich ärgere mich so! Der Drucker funktioniert schon wieder nicht.",
+        "uz": "Jahlim chiqyapti! Printer yana ishlamayapti."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Was ist denn los?",
+        "uz": "Nima bo'ldi?"
+      },
+      {
+        "speaker": "Max",
+        "de": "Ich muss mich beeilen, das Meeting beginnt in zehn Minuten. Und ich brauche die Präsentation auf Papier.",
+        "uz": "Shoshilishim kerak, majlis o'n daqiqadan keyin boshlanadi. Taqdimot qog'ozda kerak."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Hast du den Drucker neu gestartet?",
+        "uz": "Printerni qayta yoqdingmi?"
+      },
+      {
+        "speaker": "Max",
+        "de": "Nein, noch nicht.",
+        "uz": "Yo'q, hali yo'q."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Dann versuch das. Und wenn es nicht geht, schick mir die Datei. Ich drucke sie im Büro nebenan aus.",
+        "uz": "Unda shuni sinab ko'r. Bo'lmasa, faylni menga yubor. Qo'shni xonada chop etib beraman."
+      },
+      {
+        "speaker": "Max",
+        "de": "Danke, du bist super!",
+        "uz": "Rahmat, sen zo'rsan!"
+      }
+    ],
+    "task_uz": "Hamkasbingizga yoki texnik yordamga muammo haqida gapiring: nima ishlamayapti, qachondan beri (seit), nima qildingiz (Perfekt). Kamida bitta qaytishli fe'l ishlating."
+  },
+  "exercises": [
+    {
+      "id": "a2-m22-l2-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "technology",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemischa so'zni o'zbekcha ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "der Akku",
+          "batareya"
+        ],
+        [
+          "das Ladegerät",
+          "zaryadka"
+        ],
+        [
+          "der Empfang",
+          "signal"
+        ],
+        [
+          "der Drucker",
+          "printer"
+        ],
+        [
+          "löschen",
+          "o'chirmoq"
+        ]
+      ],
+      "correct_answer": {
+        "der Akku": "batareya",
+        "das Ladegerät": "zaryadka",
+        "der Empfang": "signal",
+        "der Drucker": "printer",
+        "löschen": "o'chirmoq"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Akku — batareya, Ladegerät — zaryadka, Empfang — signal, Drucker — printer, löschen — o'chirmoq.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m22-l2-e02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "technology",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Telefon batareyasi tugadi. Mos so'zni tanlang: \"Der Akku ist ___.\"",
+      "prompt_de": "Der Akku ist ___.",
+      "options": [
+        "leer",
+        "voll",
+        "neu"
+      ],
+      "pairs": null,
+      "correct_answer": "leer",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "leer — bo'sh, tugagan. voll — to'la (aksi), neu — yangi.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m22-l2-e03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "communication",
+      "grammar_topic": "g-reflexive",
+      "difficulty": 1,
+      "question": "Qaytish olmoshini yozing: \"Ich habe ___ gestern sehr geärgert.\"",
+      "prompt_de": "Ich habe ___ gestern sehr geärgert.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "mich",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "ich bilan — mich; olmosh yordamchi fe'ldan keyin.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m22-l2-e04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "communication",
+      "grammar_topic": "g-reflexive",
+      "difficulty": 1,
+      "question": "Yordamchi fe'lni tanlang: \"Ich ___ mich über den Drucker geärgert.\"",
+      "prompt_de": null,
+      "options": [
+        "habe",
+        "bin",
+        "hat"
+      ],
+      "pairs": null,
+      "correct_answer": "habe",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Qaytishli fe'llar Perfektda haben bilan.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m22-l2-e05",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "daily-routine",
+      "grammar_topic": "g-reflexive",
+      "difficulty": 1,
+      "question": "So'zlarni tartiblang: \"Biz shoshilishimiz kerak.\"",
+      "prompt_de": null,
+      "options": [
+        "Wir",
+        "beeilen",
+        "uns",
+        "müssen"
+      ],
+      "pairs": null,
+      "correct_answer": "Wir müssen uns beeilen.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Modal fe'l 2-o'rinda, olmosh undan keyin, infinitiv oxirda.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m22-l2-e06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "technology",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Lolaning muammosi nima?",
+      "prompt_de": null,
+      "options": [
+        "Yangilanishdan beri ilova qotib qolyapti",
+        "Telefon ekrani singan",
+        "Internet yo'q"
+      ],
+      "pairs": null,
+      "correct_answer": "Yangilanishdan beri ilova qotib qolyapti",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Seit dem Update stürzt meine App immer ab.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Guten Tag. Seit dem Update stürzt meine App immer ab."
+    },
+    {
+      "id": "a2-m22-l2-e07",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "technology",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Mutaxassis nima maslahat beradi?",
+      "prompt_de": null,
+      "options": [
+        "Ilovani o'chirib, qayta o'rnatish",
+        "Yangi telefon olish",
+        "Batareyani quvvatlash"
+      ],
+      "pairs": null,
+      "correct_answer": "Ilovani o'chirib, qayta o'rnatish",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Löschen Sie die App und installieren Sie sie neu.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Das ist ein bekannter Fehler. Löschen Sie die App und installieren Sie sie neu."
+    },
+    {
+      "id": "a2-m22-l2-e08",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "technology",
+      "grammar_topic": "g-separable-verbs",
+      "difficulty": 1,
+      "question": "Fe'lni tuslang (aufladen): Er ___ sein Handy jede Nacht auf.",
+      "prompt_de": "Er ___ sein Handy jede Nacht auf.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "lädt",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "a → ä",
+      "explanation": "aufladen: er lädt ... auf (a → ä, \"auf\" oxirda).",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m22-l2-e09",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "technology",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang va eshitganingizni yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Der Akku ist leer.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Akku — ikki k bilan, katta harf; leer — ikki e.",
+      "error_type": "spelling",
+      "points": 2,
+      "audio_text": "Der Akku ist leer."
+    },
+    {
+      "id": "a2-m22-l2-e10",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "technology",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni davom ettiring. Do'stingiz: \"Mein Laptop ist abgestürzt!\"",
+      "prompt_de": "Mein Laptop ist abgestürzt!",
+      "options": [
+        "Hast du ihn schon neu gestartet?",
+        "Ich habe mich beeilt.",
+        "Der Drucker ist sehr günstig."
+      ],
+      "pairs": null,
+      "correct_answer": "Hast du ihn schon neu gestartet?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Birinchi yechim — qayta yoqish. Boshqa javoblar mavzuga mos emas.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m22-l2-e11",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "communication",
+      "grammar_topic": "g-reflexive",
+      "difficulty": 2,
+      "question": "Do'stingizga nemischa ayting: \"Asabiylashma!\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ärger dich nicht!",
+      "accepted_answers": [
+        "Ärgere dich nicht!",
+        "Ärgere dich doch nicht!",
+        "Ärger dich doch nicht!"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "du ga buyruq: Ärger(e) dich nicht! Olmosh — dich.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a2-m22-l2-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "transport",
+      "grammar_topic": "g-reflexive",
+      "difficulty": 1,
+      "question": "To'g'ri olmoshni tanlang: \"Beeil ___, der Zug fährt gleich!\"",
+      "prompt_de": null,
+      "options": [
+        "dich",
+        "sich",
+        "mich"
+      ],
+      "pairs": null,
+      "correct_answer": "dich",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "du ga buyruq — dich.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m22-l2-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "technology",
+      "grammar_topic": "g-reflexive",
+      "difficulty": 1,
+      "question": "Qaytish olmoshini yozing: \"Mein Bruder hat ___ über das langsame Internet geärgert.\"",
+      "prompt_de": "Mein Bruder hat ___ über das langsame Internet geärgert.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "sich",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "er bilan — sich.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m22-l2-t03",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "technology",
+      "grammar_topic": "g-perfekt-aux",
+      "difficulty": 2,
+      "question": "Yordamchi fe'lni yozing (Perfekt): Der Computer ___ abgestürzt.",
+      "prompt_de": "Der Computer ___ abgestürzt.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "ist",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "abstürzen — holat o'zgarishi, Perfekt sein bilan: ist abgestürzt.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m22-l2-t04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "phone",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Mos so'zni tanlang: \"Mein Handy hat keinen ___. Ich kann nicht telefonieren.\"",
+      "prompt_de": null,
+      "options": [
+        "Empfang",
+        "Drucker",
+        "Update"
+      ],
+      "pairs": null,
+      "correct_answer": "Empfang",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Empfang — signal; signal bo'lmasa qo'ng'iroq qilib bo'lmaydi.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m22-l2-t05",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "technology",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Lola telefonni necha marta qayta yoqdi?",
+      "prompt_de": null,
+      "options": [
+        "Ikki marta",
+        "Bir marta",
+        "Umuman yoqmadi"
+      ],
+      "pairs": null,
+      "correct_answer": "Ikki marta",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Ja, zweimal.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Haben Sie das Handy schon neu gestartet? — Ja, zweimal."
+    },
+    {
+      "id": "a2-m22-l2-t06",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "technology",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "O'zbek tiliga tarjima qiling: \"Ich habe die Datei aus Versehen gelöscht.\"",
+      "prompt_de": "Ich habe die Datei aus Versehen gelöscht.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Faylni tasodifan o'chirib yubordim.",
+      "accepted_answers": [
+        "Men faylni tasodifan o'chirib yubordim.",
+        "Faylni bilmasdan o'chirib yubordim.",
+        "Men faylni bilmasdan o'chirib yubordim.",
+        "Faylni tasodifan o'chirdim.",
+        "Men faylni tasodifan o'chirdim."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "aus Versehen — tasodifan, bilmasdan; löschen — o'chirmoq.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m22-l2-t07",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "technology",
+      "grammar_topic": "g-reflexive",
+      "difficulty": 1,
+      "question": "Xato so'zni toping: \"Ich bin mich über den Drucker geärgert.\"",
+      "prompt_de": "Ich bin mich über den Drucker geärgert.",
+      "options": [
+        "Ich",
+        "bin",
+        "mich",
+        "Drucker",
+        "geärgert"
+      ],
+      "pairs": null,
+      "correct_answer": "bin",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: \"Ich habe mich über den Drucker geärgert.\" Qaytishli fe'llar Perfektda haben bilan.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

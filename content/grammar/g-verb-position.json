@@ -1,0 +1,270 @@
+{
+  "id": "g-verb-position",
+  "version": 1,
+  "level": "A1",
+  "order": 9,
+  "title": "Gapda fe'lning ikkinchi o'rni",
+  "prerequisites": [
+    "g-praesens",
+    "g-questions"
+  ],
+  "next": [
+    "g-separable-verbs",
+    "g-modal-verbs",
+    "g-subordinate"
+  ],
+  "rule": "Nemis darak gapida tuslangan fe'l doim IKKINCHI o'rinda turadi. Birinchi o'rinda ega, vaqt, joy yoki boshqa bo'lak bo'lishi mumkin; agar ega birinchi bo'lmasa, u fe'ldan keyin keladi.",
+  "when": "Har bir darak gapda. Ayniqsa gapni vaqt yoki joy bilan boshlaganda: Heute lerne ich ...",
+  "structure": "1-o'rin (bitta bo'lak) + FE'L + ega + qolgan bo'laklar",
+  "explanation": [
+    {
+      "type": "table",
+      "headers": [
+        "1-o'rin",
+        "2-o'rin (fe'l)",
+        "Qolgani"
+      ],
+      "rows": [
+        [
+          "Ich",
+          "lerne",
+          "heute Deutsch."
+        ],
+        [
+          "Heute",
+          "lerne",
+          "ich Deutsch."
+        ],
+        [
+          "In Taschkent",
+          "wohnt",
+          "meine Familie."
+        ],
+        [
+          "Am Abend",
+          "sehe",
+          "ich fern."
+        ],
+        [
+          "Deutsch",
+          "lerne",
+          "ich seit Mai."
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "O'zbek tilida fe'l gap oxirida: \"Men bugun nemis tilini o'qiyman\". Nemis tilida esa fe'l ikkinchi o'rinda: Ich lerne heute Deutsch."
+    },
+    {
+      "type": "p",
+      "text": "und, aber, oder, denn bog'lovchilari o'rin egallamaydi (0-o'rin): Ich bin müde, aber ich lerne noch."
+    },
+    {
+      "type": "tip",
+      "text": "Fe'lni toping va undan oldingi so'zlarni sanang: oldida faqat BITTA bo'lak bo'lishi kerak (bitta bo'lak bir nechta so'zdan iborat bo'lishi mumkin: Am Montag, In Taschkent)."
+    }
+  ],
+  "examples": [
+    {
+      "de": "Ich arbeite in einem Büro.",
+      "uz": "Men ofisda ishlayman."
+    },
+    {
+      "de": "Morgen arbeite ich nicht.",
+      "uz": "Ertaga ishlamayman."
+    },
+    {
+      "de": "Um acht Uhr beginnt der Kurs.",
+      "uz": "Kurs soat sakkizda boshlanadi."
+    },
+    {
+      "de": "Am Wochenende besuchen wir unsere Oma.",
+      "uz": "Dam olish kunlari buvimiznikiga boramiz."
+    },
+    {
+      "de": "Ich bin müde, aber ich lerne noch.",
+      "uz": "Charchadim, lekin hali o'qiyapman."
+    }
+  ],
+  "common_mistakes": [
+    {
+      "wrong": "Ich heute Deutsch lerne.",
+      "right": "Ich lerne heute Deutsch.",
+      "why": "O'zbekcha tartib: fe'l oxirida. Nemischada fe'l 2-o'rinda."
+    },
+    {
+      "wrong": "Heute ich lerne Deutsch.",
+      "right": "Heute lerne ich Deutsch.",
+      "why": "Heute 1-o'rinni egalladi, shuning uchun fe'l ikkinchi, ega undan keyin."
+    },
+    {
+      "wrong": "Und dann ich gehe nach Hause.",
+      "right": "Und dann gehe ich nach Hause.",
+      "why": "und — 0-o'rin, dann — 1-o'rin, fe'l — 2-o'rin."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "g-verb-position-e01",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "language-learning",
+      "grammar_topic": "g-verb-position",
+      "difficulty": 1,
+      "question": "Gapni \"Heute\" bilan boshlang: \"Bugun men nemis tilini o'rganaman.\"",
+      "prompt_de": null,
+      "options": [
+        "Deutsch",
+        "ich",
+        "lerne",
+        "Heute"
+      ],
+      "pairs": null,
+      "correct_answer": "Heute lerne ich Deutsch.",
+      "accepted_answers": [
+        "Ich lerne heute Deutsch."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Heute (1) + lerne (2) + ich + Deutsch.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-verb-position-e02",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "work",
+      "grammar_topic": "g-verb-position",
+      "difficulty": 1,
+      "question": "So'zlardan gap tuzing: \"Dushanba kuni otam ishlaydi.\"",
+      "prompt_de": null,
+      "options": [
+        "Vater",
+        "mein",
+        "arbeitet",
+        "Montag",
+        "Am"
+      ],
+      "pairs": null,
+      "correct_answer": "Am Montag arbeitet mein Vater.",
+      "accepted_answers": [
+        "Mein Vater arbeitet am Montag."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Am Montag (1) + arbeitet (2) + mein Vater.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-verb-position-e03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "travel",
+      "grammar_topic": "g-verb-position",
+      "difficulty": 1,
+      "question": "Qaysi gap to'g'ri?",
+      "prompt_de": null,
+      "options": [
+        "Morgen fahre ich nach Samarkand.",
+        "Morgen ich fahre nach Samarkand.",
+        "Morgen ich nach Samarkand fahre."
+      ],
+      "pairs": null,
+      "correct_answer": "Morgen fahre ich nach Samarkand.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Morgen — 1-o'rin, fahre — 2-o'rin, keyin ega ich.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-verb-position-e04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "daily-routine",
+      "grammar_topic": "g-verb-position",
+      "difficulty": 1,
+      "question": "Gapni to'ldiring: \"Um sieben Uhr ___ Brot.\"",
+      "prompt_de": "Um sieben Uhr ___ Brot.",
+      "options": [
+        "esse ich",
+        "ich esse",
+        "ich Brot esse"
+      ],
+      "pairs": null,
+      "correct_answer": "esse ich",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Um sieben Uhr 1-o'rinni oldi, demak fe'l (esse), keyin ega (ich).",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-verb-position-e05",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-verb-position",
+      "difficulty": 2,
+      "question": "So'zlardan gap tuzing: \"Toshkentda mening oilam yashaydi.\"",
+      "prompt_de": null,
+      "options": [
+        "Familie",
+        "meine",
+        "wohnt",
+        "Taschkent",
+        "In"
+      ],
+      "pairs": null,
+      "correct_answer": "In Taschkent wohnt meine Familie.",
+      "accepted_answers": [
+        "Meine Familie wohnt in Taschkent."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "In Taschkent (1) + wohnt (2) + meine Familie.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-verb-position-e06",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "grammar",
+      "topic": "leisure",
+      "grammar_topic": "g-verb-position",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Kechqurun men kitob o'qiyman.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Am Abend lese ich ein Buch.",
+      "accepted_answers": [
+        "Ich lese am Abend ein Buch.",
+        "Abends lese ich ein Buch.",
+        "Ich lese abends ein Buch."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Am Abend (1) + lese (2) + ich + ein Buch. Ega bilan boshlash ham to'g'ri.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

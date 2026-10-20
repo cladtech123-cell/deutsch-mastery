@@ -1,0 +1,338 @@
+{
+  "id": "g-sein-haben",
+  "version": 1,
+  "level": "A1",
+  "order": 3,
+  "title": "sein va haben fe'llari",
+  "prerequisites": [
+    "g-pronouns"
+  ],
+  "next": [
+    "g-questions",
+    "g-praesens",
+    "g-perfekt-aux"
+  ],
+  "rule": "\"sein\" (bo'lmoq) va \"haben\" (ega bo'lmoq) — eng muhim ikki fe'l. Ikkalasi ham nomuntazam tuslanadi, shuning uchun yodlash kerak.",
+  "when": "sein: ism, kasb, millat, yosh, holat (Ich bin müde). haben: egalik va ba'zi holatlar (Ich habe Zeit, Hunger, Kopfschmerzen).",
+  "structure": "Ega + bin/bist/ist/sind/seid + ... | Ega + habe/hast/hat/haben/habt + ot",
+  "explanation": [
+    {
+      "type": "table",
+      "headers": [
+        "Olmosh",
+        "sein",
+        "haben"
+      ],
+      "rows": [
+        [
+          "ich",
+          "bin",
+          "habe"
+        ],
+        [
+          "du",
+          "bist",
+          "hast"
+        ],
+        [
+          "er / sie / es",
+          "ist",
+          "hat"
+        ],
+        [
+          "wir",
+          "sind",
+          "haben"
+        ],
+        [
+          "ihr",
+          "seid",
+          "habt"
+        ],
+        [
+          "sie / Sie",
+          "sind",
+          "haben"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "O'zbekcha",
+        "Nemischa",
+        "Fe'l"
+      ],
+      "rows": [
+        [
+          "Men talabaman.",
+          "Ich bin Student.",
+          "sein"
+        ],
+        [
+          "Men 20 yoshdaman.",
+          "Ich bin 20 Jahre alt.",
+          "sein"
+        ],
+        [
+          "Men charchadim.",
+          "Ich bin müde.",
+          "sein"
+        ],
+        [
+          "Mening akam bor.",
+          "Ich habe einen Bruder.",
+          "haben"
+        ],
+        [
+          "Menda vaqt bor.",
+          "Ich habe Zeit.",
+          "haben"
+        ],
+        [
+          "Men ochman.",
+          "Ich habe Hunger.",
+          "haben"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "O'zbekcha \"mening ... bor\" / \"menda ... bor\" → nemischa \"ich habe ...\". Ega — \"ich\", \"mein\" emas."
+    }
+  ],
+  "examples": [
+    {
+      "de": "Ich bin Dilnoza und ich bin Studentin.",
+      "uz": "Men Dilnozaman, talabaman."
+    },
+    {
+      "de": "Bist du müde?",
+      "uz": "Charchadingmi?"
+    },
+    {
+      "de": "Mein Bruder ist 25 Jahre alt.",
+      "uz": "Akam 25 yoshda."
+    },
+    {
+      "de": "Wir haben zwei Kinder.",
+      "uz": "Bizning ikki farzandimiz bor."
+    },
+    {
+      "de": "Hast du heute Zeit?",
+      "uz": "Bugun vaqting bormi?"
+    },
+    {
+      "de": "Sie hat Kopfschmerzen.",
+      "uz": "Uning boshi og'riyapti."
+    }
+  ],
+  "common_mistakes": [
+    {
+      "wrong": "Ich habe 20 Jahre.",
+      "right": "Ich bin 20 Jahre alt.",
+      "why": "Yosh \"sein\" bilan aytiladi: ... Jahre alt."
+    },
+    {
+      "wrong": "Ich Student.",
+      "right": "Ich bin Student.",
+      "why": "O'zbekchadagi \"-man\" qo'shimchasi o'rniga nemischada fe'l (bin) kerak."
+    },
+    {
+      "wrong": "Du hat ein Auto.",
+      "right": "Du hast ein Auto.",
+      "why": "du bilan haben → hast."
+    },
+    {
+      "wrong": "Mein ist ein Auto.",
+      "right": "Ich habe ein Auto.",
+      "why": "\"Mening mashinam bor\" = Ich habe ein Auto."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "g-sein-haben-e01",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "people",
+      "grammar_topic": "g-sein-haben",
+      "difficulty": 1,
+      "question": "\"sein\" fe'lini tuslang: \"Du ___ sehr nett.\"",
+      "prompt_de": "Du ___ sehr nett.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "bist",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "du bilan sein → bist.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-sein-haben-e02",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "transport",
+      "grammar_topic": "g-sein-haben",
+      "difficulty": 1,
+      "question": "\"haben\" fe'lini tuslang: \"Wir ___ ein Auto.\"",
+      "prompt_de": "Wir ___ ein Auto.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "haben",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "wir bilan haben → haben.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-sein-haben-e03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "personal-info",
+      "grammar_topic": "g-sein-haben",
+      "difficulty": 1,
+      "question": "\"Men 30 yoshdaman\" nemischa qanday bo'ladi?",
+      "prompt_de": null,
+      "options": [
+        "Ich bin 30 Jahre alt.",
+        "Ich habe 30 Jahre.",
+        "Ich habe 30 Jahre alt."
+      ],
+      "pairs": null,
+      "correct_answer": "Ich bin 30 Jahre alt.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Yosh \"sein\" + Jahre alt bilan aytiladi.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-sein-haben-e04",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-sein-haben",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: \"Er ___ Hunger.\" (u och)",
+      "prompt_de": "Er ___ Hunger.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "hat",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ochlik nemis tilida \"Hunger haben\": er hat Hunger.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-sein-haben-e05",
+      "version": 1,
+      "type": "match",
+      "skill": "grammar",
+      "topic": "people",
+      "grammar_topic": "g-sein-haben",
+      "difficulty": 1,
+      "question": "Olmoshni \"sein\" shakli bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "ich",
+          "bin"
+        ],
+        [
+          "du",
+          "bist"
+        ],
+        [
+          "ihr",
+          "seid"
+        ],
+        [
+          "wir",
+          "sind"
+        ]
+      ],
+      "correct_answer": {
+        "ich": "bin",
+        "du": "bist",
+        "ihr": "seid",
+        "wir": "sind"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "ich bin, du bist, ihr seid, wir sind.",
+      "error_type": "conjugation",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "g-sein-haben-e06",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "appointments",
+      "grammar_topic": "g-sein-haben",
+      "difficulty": 2,
+      "question": "So'zlardan savol tuzing: \"Bugun vaqting bormi?\"",
+      "prompt_de": null,
+      "options": [
+        "Zeit",
+        "heute",
+        "du",
+        "Hast"
+      ],
+      "pairs": null,
+      "correct_answer": "Hast du heute Zeit?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ha/yo'q savolida fe'l (hast) birinchi o'rinda.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-sein-haben-e07",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-sein-haben",
+      "difficulty": 2,
+      "question": "Xato so'zni toping: \"Meine Schwester hast zwei Kinder.\"",
+      "prompt_de": "Meine Schwester hast zwei Kinder.",
+      "options": [
+        "Meine",
+        "Schwester",
+        "hast",
+        "zwei",
+        "Kinder"
+      ],
+      "pairs": null,
+      "correct_answer": "hast",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Meine Schwester = sie → hat. To'g'risi: Meine Schwester hat zwei Kinder.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

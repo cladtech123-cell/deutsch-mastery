@@ -1,0 +1,916 @@
+{
+  "id": "a1-m08-l3",
+  "version": 2,
+  "level": "A1",
+  "module": 8,
+  "order": 3,
+  "title": "Do'konda: sotuvchi va xaridor",
+  "title_de": "Im Geschäft",
+  "goal": "Dars oxirida do'konda sotuvchi bilan to'liq suhbat qurasiz: nima qidirayotganingizni aytasiz, o'lcham, rang va narxni so'raysiz, \"keinen/keine/kein\" bilan javobni tushunasiz va naqd yoki karta bilan to'laysiz.",
+  "skill_focus": [
+    "speaking",
+    "listening",
+    "grammar"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Do'konda sotuvchi odatda \"Kann ich Ihnen helfen?\" deb so'raydi. Siz: \"Ja, ich suche einen Pullover / eine Jacke / ein Hemd.\" yoki \"Nein, danke, ich schaue nur.\" suchen fe'lidan keyin Akkusativ keladi."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Jins",
+        "Akkusativ (ijobiy)",
+        "Akkusativ (inkor)"
+      ],
+      "rows": [
+        [
+          "der",
+          "einen Pullover",
+          "keinen Pullover"
+        ],
+        [
+          "die",
+          "eine Jacke",
+          "keine Jacke"
+        ],
+        [
+          "das",
+          "ein Hemd",
+          "kein Hemd"
+        ],
+        [
+          "ko'plik",
+          "Schuhe",
+          "keine Schuhe"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Xaridor",
+        "Sotuvchi"
+      ],
+      "rows": [
+        [
+          "Ich suche eine Jacke.",
+          "Kann ich Ihnen helfen?"
+        ],
+        [
+          "Haben Sie das in Größe M?",
+          "Welche Größe haben Sie?"
+        ],
+        [
+          "Haben Sie das auch in Blau?",
+          "Welche Farbe möchten Sie?"
+        ],
+        [
+          "Was kostet der Pullover?",
+          "Er kostet 29 Euro."
+        ],
+        [
+          "Ich nehme den Pullover.",
+          "Zahlen Sie bar oder mit Karte?"
+        ],
+        [
+          "Nein, danke, ich brauche keine Tüte.",
+          "Brauchen Sie eine Tüte?"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Germaniyada ko'p do'konlarda paket (Tüte) pullik — 10–20 sent. O'zingiz bilan sumka olib yuring."
+    },
+    {
+      "type": "tip",
+      "text": "\"Haben Sie ...?\" savoliga inkor javob: \"Nein, wir haben keinen/keine/kein ...\". Bu yerda erkak jinsidagi \"keinen\"ni eshitib tanishni o'rganing."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-der-kunde",
+      "de": "Kunde",
+      "uz": "xaridor, mijoz",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Kunden",
+      "forms": null,
+      "example_de": "Der Kunde sucht einen Pullover.",
+      "example_uz": "Xaridor sviter qidiryapti.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-suchen",
+      "de": "suchen",
+      "uz": "qidirmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "gesucht",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "sucht"
+      },
+      "example_de": "Ich suche eine Jacke.",
+      "example_uz": "Men kurtka qidiryapman.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-helfen",
+      "de": "helfen",
+      "uz": "yordam bermoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "geholfen",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "hilft"
+      },
+      "example_de": "Kann ich Ihnen helfen?",
+      "example_uz": "Sizga yordam bera olamanmi?",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-zahlen",
+      "de": "zahlen",
+      "uz": "to'lamoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "gezahlt",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "zahlt"
+      },
+      "example_de": "Ich zahle bar.",
+      "example_uz": "Men naqd to'layman.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-schauen",
+      "de": "schauen",
+      "uz": "qaramoq, ko'rmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "geschaut",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "schaut"
+      },
+      "example_de": "Danke, ich schaue nur.",
+      "example_uz": "Rahmat, shunchaki ko'ryapman.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-bar",
+      "de": "bar",
+      "uz": "naqd (pul bilan)",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Zahlen Sie bar oder mit Karte?",
+      "example_uz": "Naqd to'laysizmi yoki karta bilan?",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-die-karte",
+      "de": "Karte",
+      "uz": "karta (bank kartasi)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Karten",
+      "forms": null,
+      "example_de": "Ich zahle mit Karte.",
+      "example_uz": "Men karta bilan to'layman.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-das-geld",
+      "de": "Geld",
+      "uz": "pul",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Gelder",
+      "forms": null,
+      "example_de": "Ich habe nicht viel Geld.",
+      "example_uz": "Menda pul ko'p emas.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-die-tüte",
+      "de": "Tüte",
+      "uz": "paket, xalta",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Tüten",
+      "forms": null,
+      "example_de": "Brauchen Sie eine Tüte?",
+      "example_uz": "Sizga paket kerakmi?",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-der-preis",
+      "de": "Preis",
+      "uz": "narx",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Preise",
+      "forms": null,
+      "example_de": "Der Preis ist gut.",
+      "example_uz": "Narxi yaxshi.",
+      "topic": "shopping"
+    },
+    {
+      "id": "v-günstig",
+      "de": "günstig",
+      "uz": "arzon, hamyonbop",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Die Schuhe sind heute günstig.",
+      "example_uz": "Bugun poyabzal hamyonbop.",
+      "topic": "shopping"
+    }
+  ],
+  "review_vocabulary": [
+    "v-die-jacke",
+    "v-der-pullover",
+    "v-die-größe",
+    "v-die-farbe",
+    "v-anprobieren",
+    "v-passen",
+    "v-kosten",
+    "v-der-euro",
+    "v-teuer",
+    "v-die-kasse",
+    "v-der-schuh",
+    "v-der-verkäufer",
+    "v-die-verkäuferin"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-negation",
+      "rule": "kein Akkusativda xuddi ein kabi o'zgaradi: erkak jinsi — keinen, ayol jinsi va ko'plik — keine, o'rta jins — kein.",
+      "when": "Do'konda \"Haben Sie ...?\" savoliga inkor javob berganda va \"Ich brauche keine Tüte\" kabi rad etganda.",
+      "structure": "haben / brauchen / suchen + keinen / keine / kein + ot:\nWir haben keinen Pullover in Größe XL.",
+      "examples": [
+        {
+          "de": "Wir haben keinen Pullover in Größe XL.",
+          "uz": "Bizda XL o'lchamli sviter yo'q."
+        },
+        {
+          "de": "Danke, ich brauche keine Tüte.",
+          "uz": "Rahmat, menga paket kerak emas."
+        },
+        {
+          "de": "Er sucht kein Hemd, er sucht ein T-Shirt.",
+          "uz": "U ko'ylak emas, futbolka qidiryapti."
+        },
+        {
+          "de": "Wir haben keine Schuhe in Größe 46.",
+          "uz": "Bizda 46-o'lchamli poyabzal yo'q."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Wir haben kein Pullover.",
+          "right": "Wir haben keinen Pullover.",
+          "why": "der Pullover — Akkusativda erkak jinsi: keinen."
+        },
+        {
+          "wrong": "Ich brauche nicht eine Tüte.",
+          "right": "Ich brauche keine Tüte.",
+          "why": "\"nicht eine\" o'rniga \"keine\" ishlatiladi."
+        },
+        {
+          "wrong": "Ich habe keine Geld.",
+          "right": "Ich habe kein Geld.",
+          "why": "das Geld — o'rta jins: kein."
+        }
+      ],
+      "check": [
+        "a1-m08-l3-e03",
+        "a1-m08-l3-e04",
+        "a1-m08-l3-e05"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Sviter xaridi",
+    "lines": [
+      {
+        "speaker": "Verkäuferin",
+        "de": "Guten Tag! Kann ich Ihnen helfen?",
+        "uz": "Assalomu alaykum! Sizga yordam bera olamanmi?"
+      },
+      {
+        "speaker": "Bekzod",
+        "de": "Ja, ich suche einen Pullover in Größe L.",
+        "uz": "Ha, men L o'lchamli sviter qidiryapman."
+      },
+      {
+        "speaker": "Verkäuferin",
+        "de": "In Größe L haben wir keinen Pullover in Schwarz. Aber in Blau, ja.",
+        "uz": "L o'lchamda qora sviterimiz yo'q. Lekin ko'ki bor."
+      },
+      {
+        "speaker": "Bekzod",
+        "de": "Blau ist gut. Was kostet der Pullover?",
+        "uz": "Ko'k yaxshi. Sviter qancha turadi?"
+      },
+      {
+        "speaker": "Verkäuferin",
+        "de": "Heute kostet er nur 29 Euro.",
+        "uz": "Bugun u atigi 29 evro."
+      },
+      {
+        "speaker": "Bekzod",
+        "de": "Gut, ich nehme den Pullover.",
+        "uz": "Yaxshi, men sviterni olaman."
+      },
+      {
+        "speaker": "Verkäuferin",
+        "de": "Zahlen Sie bar oder mit Karte?",
+        "uz": "Naqd to'laysizmi yoki karta bilan?"
+      },
+      {
+        "speaker": "Bekzod",
+        "de": "Mit Karte, bitte. Und ich brauche keine Tüte.",
+        "uz": "Karta bilan, iltimos. Paket kerak emas."
+      }
+    ],
+    "questions": [
+      "a1-m08-l3-e08",
+      "a1-m08-l3-e09"
+    ]
+  },
+  "situation": {
+    "title": "Poyabzal do'konida",
+    "context_uz": "Siz 42-o'lchamli poyabzal qidiryapsiz. Sotuvchi bilan gaplashing.",
+    "lines": [
+      {
+        "speaker": "Verkäufer",
+        "de": "Hallo! Suchen Sie etwas?",
+        "uz": "Salom! Biror narsa qidiryapsizmi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ja, ich suche Schuhe in Größe 42.",
+        "uz": "Ha, 42-o'lchamli poyabzal qidiryapman."
+      },
+      {
+        "speaker": "Verkäufer",
+        "de": "Tut mir leid, wir haben keine Schuhe in Größe 42.",
+        "uz": "Kechirasiz, bizda 42-o'lchamli poyabzal yo'q."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Schade. Haben Sie Größe 43?",
+        "uz": "Attang. 43-o'lcham bormi?"
+      },
+      {
+        "speaker": "Verkäufer",
+        "de": "Ja, hier. Möchten Sie die Schuhe anprobieren?",
+        "uz": "Ha, mana. Kiyib ko'rasizmi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ja, gern. Sie passen gut! Was kosten sie?",
+        "uz": "Ha, bajonidil. Yaxshi to'g'ri keldi! Qancha turadi?"
+      },
+      {
+        "speaker": "Verkäufer",
+        "de": "59 Euro.",
+        "uz": "59 evro."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ich nehme die Schuhe. Ich zahle bar.",
+        "uz": "Poyabzalni olaman. Naqd to'layman."
+      }
+    ],
+    "task_uz": "Sotuvchi va xaridor rollarini o'ynang. Xaridor nima qidirayotganini, o'lcham va rangni aytsin, narxni so'rasin va to'lov usulini tanlasin. Sotuvchi kamida bir marta \"keinen/keine/kein\" bilan javob bersin."
+  },
+  "exercises": [
+    {
+      "id": "a1-m08-l3-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "So'zlarni juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "Verkäufer",
+          "sotuvchi"
+        ],
+        [
+          "Kunde",
+          "xaridor"
+        ],
+        [
+          "Tüte",
+          "paket"
+        ],
+        [
+          "Geld",
+          "pul"
+        ],
+        [
+          "Preis",
+          "narx"
+        ]
+      ],
+      "correct_answer": {
+        "Verkäufer": "sotuvchi",
+        "Kunde": "xaridor",
+        "Tüte": "paket",
+        "Geld": "pul",
+        "Preis": "narx"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Verkäufer — sotuvchi, Kunde — xaridor, Tüte — paket, Geld — pul, Preis — narx.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m08-l3-e02",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Sotuvchi: \"Kann ich Ihnen helfen?\" Qaysi javob mos?",
+      "prompt_de": "Kann ich Ihnen helfen?",
+      "options": [
+        "Ja, ich suche eine Jacke.",
+        "Ja, ich bin eine Jacke.",
+        "Die Rechnung ist billig."
+      ],
+      "pairs": null,
+      "correct_answer": "Ja, ich suche eine Jacke.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Yordam taklifiga nima qidirayotganingizni aytasiz. \"Ich bin eine Jacke\" — \"men kurtkaman\" degani.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m08-l3-e03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "shopping",
+      "grammar_topic": "g-negation",
+      "difficulty": 1,
+      "question": "To'g'ri variantni tanlang: Wir haben ___ Pullover in Größe XL.",
+      "prompt_de": "Wir haben ___ Pullover in Größe XL.",
+      "options": [
+        "kein",
+        "keinen",
+        "keine"
+      ],
+      "pairs": null,
+      "correct_answer": "keinen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Pullover, haben + Akkusativ → keinen.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m08-l3-e04",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "shopping",
+      "grammar_topic": "g-negation",
+      "difficulty": 1,
+      "question": "Inkor qiling: Danke, ich brauche ___ Tüte.",
+      "prompt_de": "Danke, ich brauche ___ Tüte.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "keine",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Tüte — ayol jinsi: eine → keine.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m08-l3-e05",
+      "version": 2,
+      "type": "translate_uz_de",
+      "skill": "grammar",
+      "topic": "shopping",
+      "grammar_topic": "g-negation",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Menda pul yo'q.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich habe kein Geld.",
+      "accepted_answers": [
+        "Ich habe kein Geld dabei."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Menda ... yo'q\" = Ich habe kein/keine/keinen ... das Geld — o'rta jins: kein Geld.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m08-l3-e06",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "shopping",
+      "grammar_topic": "g-praesens",
+      "difficulty": 2,
+      "question": "Fe'lni tuslang: Mein Bruder ___ (helfen) im Geschäft.",
+      "prompt_de": "Mein Bruder ___ (helfen) im Geschäft.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "hilft",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "helfen nomuntazam: du hilfst, er hilft (e → i).",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m08-l3-e07",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Sotuvchi: \"Bar oder mit Karte?\" Sizda naqd pul yo'q. Nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Mit Karte, bitte.",
+        "Bar, bitte.",
+        "Keine Tüte, bitte."
+      ],
+      "pairs": null,
+      "correct_answer": "Mit Karte, bitte.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Naqd pul yo'q — karta bilan to'laysiz.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m08-l3-e08",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni tinglang. Sviter bugun qancha turadi?",
+      "prompt_de": null,
+      "options": [
+        "29 €",
+        "39 €",
+        "19 €"
+      ],
+      "pairs": null,
+      "correct_answer": "29 €",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Heute kostet er nur 29 Euro.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Guten Tag! Kann ich Ihnen helfen? Ja, ich suche einen Pullover in Größe L. In Größe L haben wir keinen Pullover in Schwarz. Aber in Blau, ja. Blau ist gut. Was kostet der Pullover? Heute kostet er nur 29 Euro. Gut, ich nehme den Pullover. Zahlen Sie bar oder mit Karte? Mit Karte, bitte. Und ich brauche keine Tüte."
+    },
+    {
+      "id": "a1-m08-l3-e09",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni tinglang. Bekzod qanday to'laydi?",
+      "prompt_de": null,
+      "options": [
+        "Karta bilan",
+        "Naqd",
+        "To'lamaydi"
+      ],
+      "pairs": null,
+      "correct_answer": "Karta bilan",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Mit Karte, bitte.\" Paketni esa olmaydi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Guten Tag! Kann ich Ihnen helfen? Ja, ich suche einen Pullover in Größe L. In Größe L haben wir keinen Pullover in Schwarz. Aber in Blau, ja. Blau ist gut. Was kostet der Pullover? Heute kostet er nur 29 Euro. Gut, ich nehme den Pullover. Zahlen Sie bar oder mit Karte? Mit Karte, bitte. Und ich brauche keine Tüte."
+    },
+    {
+      "id": "a1-m08-l3-e10",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "shopping",
+      "grammar_topic": "g-verb-position",
+      "difficulty": 1,
+      "question": "So'zlarni tartiblang: \"Men M o'lchamli kurtka qidiryapman.\"",
+      "prompt_de": null,
+      "options": [
+        "Größe",
+        "suche",
+        "eine",
+        "M",
+        "Jacke",
+        "in",
+        "Ich"
+      ],
+      "pairs": null,
+      "correct_answer": "Ich suche eine Jacke in Größe M",
+      "accepted_answers": [
+        "Eine Jacke in Größe M suche ich",
+        "In Größe M suche ich eine Jacke"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ega + fe'l + Akkusativ + qo'shimcha ma'lumot.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m08-l3-e11",
+      "version": 1,
+      "type": "short_text",
+      "skill": "writing",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Do'konda sotuvchiga 3–4 gap yozing: nima qidiryapsiz, qaysi o'lcham va rang kerak, qancha pulingiz bor.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 15,
+        "required_words": [
+          "suche"
+        ],
+        "sample": "Guten Tag! Ich suche eine Jacke. Ich brauche Größe M. Haben Sie die Jacke in Schwarz? Ich habe 60 Euro."
+      },
+      "hint": null,
+      "explanation": "Namuna: \"Guten Tag! Ich suche eine Jacke. Ich brauche Größe M. Haben Sie die Jacke in Schwarz? Ich habe 60 Euro.\"",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m08-l3-e12",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang va yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Zahlen Sie bar oder mit Karte?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Savol fe'l bilan boshlanadi (Zahlen). \"Sie\" — hurmat shakli, katta harf bilan.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": "Zahlen Sie bar oder mit Karte?"
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a1-m08-l3-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "shopping",
+      "grammar_topic": "g-negation",
+      "difficulty": 1,
+      "question": "To'g'ri variantni tanlang: Ich habe ___ Geld.",
+      "prompt_de": "Ich habe ___ Geld.",
+      "options": [
+        "kein",
+        "keinen",
+        "keine"
+      ],
+      "pairs": null,
+      "correct_answer": "kein",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "das Geld — o'rta jins: kein Geld.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m08-l3-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "shopping",
+      "grammar_topic": "g-negation",
+      "difficulty": 1,
+      "question": "Inkor qiling: Wir haben ___ Schuhe in Größe 46.",
+      "prompt_de": "Wir haben ___ Schuhe in Größe 46.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "keine",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Schuhe — ko'plik: keine.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m08-l3-t03",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Kassir: \"Brauchen Sie eine Tüte?\" Sizning sumkangiz bor. Qaysi javob mos?",
+      "prompt_de": "Brauchen Sie eine Tüte?",
+      "options": [
+        "Nein, danke.",
+        "Ja, ich bin eine Tüte.",
+        "Größe M, bitte."
+      ],
+      "pairs": null,
+      "correct_answer": "Nein, danke.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Sumka bor — paket kerak emas: \"Nein, danke.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m08-l3-t04",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Ich suche einen Pullover.\"",
+      "prompt_de": "Ich suche einen Pullover.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Men sviter qidiryapman.",
+      "accepted_answers": [
+        "Men sviter qidiraman",
+        "Sviter qidiryapman",
+        "Men bitta sviter qidiryapman"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "suchen — qidirmoq.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m08-l3-t05",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Siz shunchaki ko'ryapsiz. Sotuvchi: \"Kann ich Ihnen helfen?\" Nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Nein, danke, ich schaue nur.",
+        "Ja, ich zahle bar.",
+        "Ich brauche keine Größe."
+      ],
+      "pairs": null,
+      "correct_answer": "Nein, danke, ich schaue nur.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Ich schaue nur\" — shunchaki ko'ryapman.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m08-l3-t06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "shopping",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Sviter bugun qancha?",
+      "prompt_de": null,
+      "options": [
+        "29 €",
+        "39 €",
+        "92 €"
+      ],
+      "pairs": null,
+      "correct_answer": "29 €",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"nur 29 Euro\" — atigi 29 evro.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Der Pullover kostet heute nur 29 Euro."
+    },
+    {
+      "id": "a1-m08-l3-t07",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "shopping",
+      "grammar_topic": "g-negation",
+      "difficulty": 2,
+      "question": "Xato so'zni toping: \"Wir haben kein Pullover.\"",
+      "prompt_de": "Wir haben kein Pullover.",
+      "options": [
+        "Wir",
+        "haben",
+        "kein",
+        "Pullover"
+      ],
+      "pairs": null,
+      "correct_answer": "kein",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: \"Wir haben keinen Pullover.\" der Pullover → Akkusativda keinen.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m08-l3-t08",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "shopping",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "Fe'lni tuslang: Was ___ (suchen) Sie?",
+      "prompt_de": "Was ___ (suchen) Sie?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "suchen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Sie (hurmat) → suchen.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

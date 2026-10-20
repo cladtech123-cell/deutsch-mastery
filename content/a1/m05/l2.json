@@ -1,0 +1,932 @@
+{
+  "id": "a1-m05-l2",
+  "version": 1,
+  "level": "A1",
+  "module": 5,
+  "order": 2,
+  "title": "haben va kundalik mashg'ulotlar",
+  "title_de": "haben und Alltag",
+  "goal": "Dars oxirida \"haben\" fe'lini barcha shaxslarda tuslaysiz, ko'p ishlatiladigan fe'llarni (machen, kochen, essen, lesen ...) hozirgi zamonda ishlatasiz va \"gern\" bilan nimani yoqtirishingizni ayta olasiz.",
+  "skill_focus": [
+    "grammar",
+    "speaking",
+    "reading"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "\"haben\" (ega bo'lmoq, bor bo'lmoq) — \"sein\" dan keyingi eng muhim fe'l. O'zbekcha \"menda vaqt bor\", \"mening ishim ko'p\" gaplari nemis tilida \"haben\" bilan aytiladi: Ich habe Zeit. Ich habe viel Arbeit."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Olmosh",
+        "haben",
+        "essen",
+        "lesen"
+      ],
+      "rows": [
+        [
+          "ich",
+          "habe",
+          "esse",
+          "lese"
+        ],
+        [
+          "du",
+          "hast",
+          "isst",
+          "liest"
+        ],
+        [
+          "er / sie / es",
+          "hat",
+          "isst",
+          "liest"
+        ],
+        [
+          "wir",
+          "haben",
+          "essen",
+          "lesen"
+        ],
+        [
+          "ihr",
+          "habt",
+          "esst",
+          "lest"
+        ],
+        [
+          "sie / Sie",
+          "haben",
+          "essen",
+          "lesen"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Ba'zi fe'llarda du va er/sie shakllarida unli o'zgaradi: e → i (essen → isst, sprechen → spricht), e → ie (lesen → liest). Bu fe'llarni alohida yodlang."
+    },
+    {
+      "type": "p",
+      "text": "Yoqtirishni bildirish uchun fe'ldan keyin \"gern\" qo'shiladi: Ich koche gern. (Ovqat pishirishni yoqtiraman.) Inkor: Ich koche nicht gern."
+    },
+    {
+      "type": "tip",
+      "text": "\"hat\" va \"hast\" da b yo'q: du hast, er hat (habst, habt — er uchun emas!)."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-haben",
+      "de": "haben",
+      "uz": "ega bo'lmoq; (... da) bor bo'lmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "praesens_3sg": "hat",
+        "partizip2": "gehabt",
+        "perfekt_aux": "haben"
+      },
+      "example_de": "Ich habe heute Zeit.",
+      "example_uz": "Bugun vaqtim bor.",
+      "topic": "daily-routine"
+    },
+    {
+      "id": "v-machen",
+      "de": "machen",
+      "uz": "qilmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "praesens_3sg": "macht",
+        "partizip2": "gemacht",
+        "perfekt_aux": "haben"
+      },
+      "example_de": "Was machst du heute?",
+      "example_uz": "Bugun nima qilasan?",
+      "topic": "daily-routine"
+    },
+    {
+      "id": "v-kochen",
+      "de": "kochen",
+      "uz": "ovqat pishirmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "praesens_3sg": "kocht",
+        "partizip2": "gekocht",
+        "perfekt_aux": "haben"
+      },
+      "example_de": "Mein Vater kocht gern Plov.",
+      "example_uz": "Otam palov pishirishni yaxshi ko'radi.",
+      "topic": "food"
+    },
+    {
+      "id": "v-trinken",
+      "de": "trinken",
+      "uz": "ichmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "praesens_3sg": "trinkt",
+        "partizip2": "getrunken",
+        "perfekt_aux": "haben"
+      },
+      "example_de": "Wir trinken Tee.",
+      "example_uz": "Biz choy ichamiz.",
+      "topic": "food"
+    },
+    {
+      "id": "v-essen",
+      "de": "essen",
+      "uz": "yemoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "praesens_3sg": "isst",
+        "partizip2": "gegessen",
+        "perfekt_aux": "haben"
+      },
+      "example_de": "Er isst gern Brot.",
+      "example_uz": "U nonni yaxshi ko'radi.",
+      "topic": "food"
+    },
+    {
+      "id": "v-lesen",
+      "de": "lesen",
+      "uz": "o'qimoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "praesens_3sg": "liest",
+        "partizip2": "gelesen",
+        "perfekt_aux": "haben"
+      },
+      "example_de": "Sie liest ein Buch.",
+      "example_uz": "U kitob o'qiyapti.",
+      "topic": "leisure"
+    },
+    {
+      "id": "v-hören",
+      "de": "hören",
+      "uz": "eshitmoq, tinglamoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "praesens_3sg": "hört",
+        "partizip2": "gehört",
+        "perfekt_aux": "haben"
+      },
+      "example_de": "Ich höre gern Musik.",
+      "example_uz": "Men musiqa tinglashni yaxshi ko'raman.",
+      "topic": "leisure"
+    },
+    {
+      "id": "v-die-musik",
+      "de": "Musik",
+      "uz": "musiqa",
+      "pos": "noun",
+      "article": "die",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Die Musik ist schön.",
+      "example_uz": "Musiqa chiroyli.",
+      "topic": "leisure"
+    },
+    {
+      "id": "v-die-zeit",
+      "de": "Zeit",
+      "uz": "vaqt",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Zeiten",
+      "forms": null,
+      "example_de": "Hast du Zeit?",
+      "example_uz": "Vaqting bormi?",
+      "topic": "time"
+    },
+    {
+      "id": "v-die-arbeit",
+      "de": "Arbeit",
+      "uz": "ish",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Arbeiten",
+      "forms": null,
+      "example_de": "Ich habe viel Arbeit.",
+      "example_uz": "Ishim ko'p.",
+      "topic": "work"
+    },
+    {
+      "id": "v-der-tee",
+      "de": "Tee",
+      "uz": "choy",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Tees",
+      "forms": null,
+      "example_de": "Ein Tee, bitte!",
+      "example_uz": "Bitta choy, iltimos!",
+      "topic": "food"
+    },
+    {
+      "id": "v-gern",
+      "de": "gern",
+      "uz": "mamnuniyat bilan; (biror ishni) yoqtirib",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Ich lese gern.",
+      "example_uz": "Men kitob o'qishni yaxshi ko'raman.",
+      "topic": "leisure"
+    },
+    {
+      "id": "v-viel",
+      "de": "viel",
+      "uz": "ko'p",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Er arbeitet viel.",
+      "example_uz": "U ko'p ishlaydi.",
+      "topic": "general"
+    },
+    {
+      "id": "v-oft",
+      "de": "oft",
+      "uz": "tez-tez, ko'pincha",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Wir kochen oft zusammen.",
+      "example_uz": "Biz tez-tez birga ovqat pishiramiz.",
+      "topic": "time"
+    }
+  ],
+  "review_vocabulary": [
+    "v-arbeiten",
+    "v-sprechen",
+    "v-spielen",
+    "v-lernen",
+    "v-das-buch",
+    "v-das-wasser",
+    "v-die-milch",
+    "v-heute",
+    "v-nicht",
+    "v-zusammen",
+    "v-die-familie",
+    "v-der-koch"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-sein-haben",
+      "rule": "\"haben\" — noto'g'ri fe'l: ich habe, du hast, er/sie/es hat, wir haben, ihr habt, sie/Sie haben.",
+      "when": "Egalik va mavjudlikni aytganda: vaqt, ish, farzand, aka-uka bor-yo'qligi; yosh uchun emas (yosh — sein)!",
+      "structure": "ega + haben shakli + ot:  Ich habe Zeit. / Hast du Kinder?",
+      "examples": [
+        {
+          "de": "Ich habe heute viel Arbeit.",
+          "uz": "Bugun ishim ko'p."
+        },
+        {
+          "de": "Hast du morgen Zeit?",
+          "uz": "Ertaga vaqting bormi?"
+        },
+        {
+          "de": "Sie hat zwei Kinder.",
+          "uz": "Uning ikkita farzandi bor."
+        },
+        {
+          "de": "Wir haben eine Katze.",
+          "uz": "Bizning mushugimiz bor."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Er habt Zeit.",
+          "right": "Er hat Zeit.",
+          "why": "er/sie/es bilan — hat. habt — faqat ihr uchun."
+        },
+        {
+          "wrong": "Du habst Zeit.",
+          "right": "Du hast Zeit.",
+          "why": "du shakli noto'g'ri: hast (b tushadi)."
+        },
+        {
+          "wrong": "Ich habe 25 Jahre.",
+          "right": "Ich bin 25 Jahre alt.",
+          "why": "Yosh haben bilan emas, sein bilan aytiladi."
+        }
+      ],
+      "check": [
+        "a1-m05-l2-e01",
+        "a1-m05-l2-e02",
+        "a1-m05-l2-e03",
+        "a1-m05-l2-e09"
+      ]
+    },
+    {
+      "topic_id": "g-praesens",
+      "rule": "Ko'p fe'llar muntazam tuslanadi (machen, kochen, hören). Ba'zi fe'llarda du va er/sie shaklida unli o'zgaradi: e → i (essen → du isst), e → ie (lesen → du liest).",
+      "when": "Kundalik ishlar va yoqtirgan mashg'ulotlar haqida gapirganda; \"gern\" bilan yoqtirishni bildirganda.",
+      "structure": "ega + fe'l (+ gern) + ...:  Ich koche gern. / Er liest viel.",
+      "examples": [
+        {
+          "de": "Was machst du gern? — Ich koche gern.",
+          "uz": "Nima qilishni yoqtirasan? — Ovqat pishirishni."
+        },
+        {
+          "de": "Er isst gern Plov.",
+          "uz": "U palovni yaxshi ko'radi."
+        },
+        {
+          "de": "Liest du oft?",
+          "uz": "Tez-tez kitob o'qiysanmi?"
+        },
+        {
+          "de": "Wir hören viel Musik.",
+          "uz": "Biz ko'p musiqa tinglaymiz."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Er esst Brot.",
+          "right": "Er isst Brot.",
+          "why": "essen: du isst, er isst (e → i)."
+        },
+        {
+          "wrong": "Du lest viel.",
+          "right": "Du liest viel.",
+          "why": "lesen: du liest, er liest (e → ie)."
+        },
+        {
+          "wrong": "Ich gern koche.",
+          "right": "Ich koche gern.",
+          "why": "gern fe'ldan keyin keladi; fe'l doim ikkinchi o'rinda."
+        }
+      ],
+      "check": [
+        "a1-m05-l2-e04",
+        "a1-m05-l2-e05",
+        "a1-m05-l2-e08"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Dam olish kuni rejasi",
+    "lines": [
+      {
+        "speaker": "Anna",
+        "de": "Aziz, hast du heute Zeit?",
+        "uz": "Aziz, bugun vaqting bormi?"
+      },
+      {
+        "speaker": "Aziz",
+        "de": "Nein, ich habe heute viel Arbeit. Und morgen?",
+        "uz": "Yo'q, bugun ishim ko'p. Ertaga-chi?"
+      },
+      {
+        "speaker": "Anna",
+        "de": "Morgen ist gut! Was machst du gern?",
+        "uz": "Ertaga yaxshi! Nima qilishni yoqtirasan?"
+      },
+      {
+        "speaker": "Aziz",
+        "de": "Ich koche gern. Ich mache Plov!",
+        "uz": "Men ovqat pishirishni yoqtiraman. Palov qilaman!"
+      },
+      {
+        "speaker": "Anna",
+        "de": "Super! Ich esse gern Plov. Und wir trinken Tee.",
+        "uz": "Zo'r! Men palovni yaxshi ko'raman. Choy ham ichamiz."
+      }
+    ],
+    "questions": [
+      "a1-m05-l2-e06",
+      "a1-m05-l2-e07"
+    ]
+  },
+  "situation": {
+    "title": "Yangi hamkasb bilan tanaffusda",
+    "context_uz": "Ishxonada tanaffus. Yangi hamkasbingiz Lena siz bilan gaplashyapti.",
+    "lines": [
+      {
+        "speaker": "Lena",
+        "de": "Trinkst du Tee oder Wasser?",
+        "uz": "Choy ichasanmi yoki suvmi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Tee, bitte. Ich trinke viel Tee.",
+        "uz": "Choy, iltimos. Men ko'p choy ichaman."
+      },
+      {
+        "speaker": "Lena",
+        "de": "Was machst du gern am Wochenende?",
+        "uz": "Dam olish kunlari nima qilishni yoqtirasan?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ich lese gern und ich höre oft Musik. Und du?",
+        "uz": "Kitob o'qishni yoqtiraman va tez-tez musiqa tinglayman. Sen-chi?"
+      },
+      {
+        "speaker": "Lena",
+        "de": "Ich koche gern. Ich habe viele Kochbücher!",
+        "uz": "Men ovqat pishirishni yoqtiraman. Ko'p oshxona kitoblarim bor!"
+      }
+    ],
+    "task_uz": "Lenaning savollariga o'zingiz haqingizda javob bering va unga 2 ta savol bering (Hast du ...? Was machst du gern?)."
+  },
+  "exercises": [
+    {
+      "id": "a1-m05-l2-e01",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "work",
+      "grammar_topic": "g-sein-haben",
+      "difficulty": 1,
+      "question": "\"haben\" fe'lini tuslang: Du ___ heute viel Arbeit.",
+      "prompt_de": "Du ___ heute viel Arbeit.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "hast",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "du hast (b yo'q).",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l2-e02",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "time",
+      "grammar_topic": "g-sein-haben",
+      "difficulty": 1,
+      "question": "\"haben\" fe'lini tuslang: Er ___ heute Zeit.",
+      "prompt_de": "Er ___ heute Zeit.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "hat",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "er hat.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l2-e03",
+      "version": 1,
+      "type": "match",
+      "skill": "grammar",
+      "topic": "daily-routine",
+      "grammar_topic": "g-sein-haben",
+      "difficulty": 1,
+      "question": "Olmoshni \"haben\" shakli bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "ich",
+          "habe"
+        ],
+        [
+          "du",
+          "hast"
+        ],
+        [
+          "er",
+          "hat"
+        ],
+        [
+          "wir",
+          "haben"
+        ],
+        [
+          "ihr",
+          "habt"
+        ]
+      ],
+      "correct_answer": {
+        "ich": "habe",
+        "du": "hast",
+        "er": "hat",
+        "wir": "haben",
+        "ihr": "habt"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "ich habe, du hast, er hat, wir haben, ihr habt.",
+      "error_type": "conjugation",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l2-e04",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-praesens",
+      "difficulty": 2,
+      "question": "\"essen\" fe'lini tuslang: Er ___ gern Plov.",
+      "prompt_de": "Er ___ gern Plov.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "isst",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "e → i",
+      "explanation": "essen: er isst (ss bilan).",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l2-e05",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "leisure",
+      "grammar_topic": "g-praesens",
+      "difficulty": 2,
+      "question": "\"lesen\" fe'lini tuslang: Du ___ oft Bücher.",
+      "prompt_de": "Du ___ oft Bücher.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "liest",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "e → ie",
+      "explanation": "lesen: du liest. Diqqat: o'zak s bilan tugaydi, shuning uchun faqat -t qo'shiladi.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l2-e06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Nega Aziz bugun bo'sh emas?",
+      "prompt_de": null,
+      "options": [
+        "Ishi ko'p.",
+        "U ovqat pishiryapti.",
+        "U kasal."
+      ],
+      "pairs": null,
+      "correct_answer": "Ishi ko'p.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"viel Arbeit\" — ishi ko'p.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Nein, ich habe heute viel Arbeit."
+    },
+    {
+      "id": "a1-m05-l2-e07",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "food",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Aziz nima qilishni yoqtiradi?",
+      "prompt_de": null,
+      "options": [
+        "kitob o'qishni",
+        "ovqat pishirishni",
+        "musiqa tinglashni"
+      ],
+      "pairs": null,
+      "correct_answer": "ovqat pishirishni",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Ich koche gern\" — ovqat pishirishni yoqtiraman.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Ich koche gern. Ich mache Plov!"
+    },
+    {
+      "id": "a1-m05-l2-e08",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-verb-position",
+      "difficulty": 1,
+      "question": "Qaysi gap to'g'ri? (\"Men choy ichishni yoqtiraman.\")",
+      "prompt_de": null,
+      "options": [
+        "Ich gern trinke Tee.",
+        "Ich trinke gern Tee.",
+        "Ich habe gern Tee trinken."
+      ],
+      "pairs": null,
+      "correct_answer": "Ich trinke gern Tee.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Fe'l ikkinchi o'rinda, gern undan keyin: Ich trinke gern Tee.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l2-e09",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "work",
+      "grammar_topic": "g-sein-haben",
+      "difficulty": 1,
+      "question": "Gapdagi xato so'zni toping: \"Wir hat viel Arbeit.\"",
+      "prompt_de": "Wir hat viel Arbeit.",
+      "options": [
+        "Wir",
+        "hat",
+        "viel",
+        "Arbeit"
+      ],
+      "pairs": null,
+      "correct_answer": "hat",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "wir haben: Wir haben viel Arbeit.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l2-e10",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "leisure",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Matnni o'qing. Dilshod bo'sh vaqtida nima qilmaydi?",
+      "prompt_de": "Ich heiße Dilshod. Ich arbeite viel, aber am Abend habe ich Zeit. Dann lese ich oft oder ich höre Musik. Ich koche nicht gern — meine Frau kocht.",
+      "options": [
+        "kitob o'qimaydi",
+        "musiqa tinglamaydi",
+        "ovqat pishirmaydi"
+      ],
+      "pairs": null,
+      "correct_answer": "ovqat pishirmaydi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Ich koche nicht gern\" — ovqat pishirishni yoqtirmayman.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l2-e11",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "leisure",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemis tiliga tarjima qiling: \"Men ko'p kitob o'qiyman.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich lese viel.",
+      "accepted_answers": [
+        "Ich lese viele Bücher.",
+        "Ich lese oft.",
+        "Ich lese sehr viel."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "lesen → ich lese; viel — ko'p.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l2-e12",
+      "version": 1,
+      "type": "short_text",
+      "skill": "writing",
+      "topic": "leisure",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Bo'sh vaqtingizda nima qilasiz? \"gern\" va \"nicht gern\" bilan 3 ta gap yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 10,
+        "required_words": [
+          "gern"
+        ],
+        "sample": "Ich lese gern. Ich höre oft Musik. Ich koche nicht gern."
+      },
+      "hint": null,
+      "explanation": "Fe'l ikkinchi o'rinda, gern undan keyin: Ich + fe'l + gern + ...",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a1-m05-l2-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "time",
+      "grammar_topic": "g-sein-haben",
+      "difficulty": 1,
+      "question": "___ du Zeit? — Ja, heute habe ich Zeit.",
+      "prompt_de": "___ du Zeit?",
+      "options": [
+        "Hast",
+        "Hat",
+        "Habt"
+      ],
+      "pairs": null,
+      "correct_answer": "Hast",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "du hast → savolda Hast du ...?",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l2-t02",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "\"trinken\" fe'lini tuslang: Wir ___ Tee.",
+      "prompt_de": "Wir ___ Tee.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "trinken",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "wir trinken.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l2-t03",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-praesens",
+      "difficulty": 2,
+      "question": "\"essen\" fe'lini tuslang: Was ___ du gern?",
+      "prompt_de": "Was ___ du gern?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "isst",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "du isst (e → i).",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l2-t04",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "leisure",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. U nimani yaxshi ko'radi?",
+      "prompt_de": null,
+      "options": [
+        "musiqa tinglashni",
+        "kitob o'qishni",
+        "ovqat pishirishni"
+      ],
+      "pairs": null,
+      "correct_answer": "musiqa tinglashni",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "höre gern Musik — musiqa tinglashni yoqtiradi; lese nicht gern — o'qishni yoqtirmaydi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Ich höre gern Musik, aber ich lese nicht gern."
+    },
+    {
+      "id": "a1-m05-l2-t05",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "time",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Hast du heute Zeit?\"",
+      "prompt_de": "Hast du heute Zeit?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Bugun vaqting bormi?",
+      "accepted_answers": [
+        "Bugun bo'shmisan?",
+        "Sening bugun vaqting bormi?",
+        "Bugun vaqtingiz bormi?"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Hast du Zeit? — Vaqting bormi?",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l2-t06",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-verb-position",
+      "difficulty": 1,
+      "question": "So'zlarni tartiblang: \"Otam ovqat pishirishni juda yaxshi ko'radi.\"",
+      "prompt_de": null,
+      "options": [
+        "Vater",
+        "Mein",
+        "gern",
+        "kocht",
+        "sehr"
+      ],
+      "pairs": null,
+      "correct_answer": "Mein Vater kocht sehr gern.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ega + fe'l (kocht) + sehr gern.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m05-l2-t07",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang va gapni yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Er hat viel Arbeit.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "er hat; Arbeit — ot, katta harf bilan.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": "Er hat viel Arbeit."
+    }
+  ]
+}

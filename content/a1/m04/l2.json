@@ -1,0 +1,851 @@
+{
+  "id": "a1-m04-l2",
+  "version": 1,
+  "level": "A1",
+  "module": 4,
+  "order": 2,
+  "title": "Ko'plik va odamlarni tasvirlash",
+  "title_de": "Plural und Personen beschreiben",
+  "goal": "Dars oxirida otlarning ko'plik shaklini (Kinder, Brüder, Schwestern ...) to'g'ri yasaysiz, \"Ich habe zwei Brüder\" kabi gaplar tuzasiz va odamlarni oddiy sifatlar bilan tasvirlay olasiz.",
+  "skill_focus": [
+    "grammar",
+    "vocabulary",
+    "speaking"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Nemis tilida ko'plik yasashning bir nechta usuli bor, shuning uchun har bir otni ko'plik shakli bilan yodlang. Ko'plikda artikl doim \"die\"."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Usul",
+        "Birlik",
+        "Ko'plik"
+      ],
+      "rows": [
+        [
+          "-e (ba'zan umlaut)",
+          "der Sohn",
+          "die Söhne"
+        ],
+        [
+          "-er (ba'zan umlaut)",
+          "das Kind",
+          "die Kinder"
+        ],
+        [
+          "-n / -en",
+          "die Schwester, die Tante",
+          "die Schwestern, die Tanten"
+        ],
+        [
+          "-s",
+          "das Foto, die Oma",
+          "die Fotos, die Omas"
+        ],
+        [
+          "o'zgarmaydi (ba'zan umlaut)",
+          "der Onkel, der Bruder",
+          "die Onkel, die Brüder"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "O'zbek tilida sondan keyin ot birlikda turadi (ikkita aka), nemis tilida esa ko'plikda: zwei Brüder, drei Kinder. Odamni tasvirlash: \"Er ist groß.\" \"Sie ist jung und nett.\" — sifat \"sein\" dan keyin o'zgarmaydi."
+    },
+    {
+      "type": "p",
+      "text": "Foydali tayyor ibora: \"Hast du Geschwister?\" — \"Ja, ich habe zwei Brüder.\" / \"Nein, ich habe keine Geschwister.\" (haben fe'lini 5-modulda to'liq o'rganamiz)."
+    },
+    {
+      "type": "tip",
+      "text": "Ko'plikdagi ega bilan fe'l ham ko'plikda: Die Kinder sind klein. (ist emas!)"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-groß",
+      "de": "groß",
+      "uz": "katta; baland bo'yli",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Mein Bruder ist sehr groß.",
+      "example_uz": "Akam juda baland bo'yli.",
+      "topic": "people"
+    },
+    {
+      "id": "v-klein",
+      "de": "klein",
+      "uz": "kichik; past bo'yli",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Die Kinder sind noch klein.",
+      "example_uz": "Bolalar hali kichik.",
+      "topic": "people"
+    },
+    {
+      "id": "v-jung",
+      "de": "jung",
+      "uz": "yosh",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Die Tante ist jung.",
+      "example_uz": "Xola yosh.",
+      "topic": "people"
+    },
+    {
+      "id": "v-nett",
+      "de": "nett",
+      "uz": "yoqimli, xushmuomala",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Die Nachbarn sind nett.",
+      "example_uz": "Qo'shnilar xushmuomala.",
+      "topic": "people"
+    },
+    {
+      "id": "v-lustig",
+      "de": "lustig",
+      "uz": "quvnoq, kulgili",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Mein Cousin ist lustig.",
+      "example_uz": "Amakivachcham quvnoq.",
+      "topic": "people"
+    },
+    {
+      "id": "v-schlank",
+      "de": "schlank",
+      "uz": "ozg'in, xipcha",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Frau Weber ist schlank.",
+      "example_uz": "Veber xonim xipcha.",
+      "topic": "body"
+    },
+    {
+      "id": "v-die-person",
+      "de": "Person",
+      "uz": "kishi, shaxs",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Personen",
+      "forms": null,
+      "example_de": "Wir sind fünf Personen.",
+      "example_uz": "Biz besh kishimiz.",
+      "topic": "people"
+    },
+    {
+      "id": "v-die-leute",
+      "de": "Leute",
+      "uz": "odamlar (faqat ko'plikda)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Leute",
+      "forms": null,
+      "example_de": "Die Leute hier sind nett.",
+      "example_uz": "Bu yerdagi odamlar xushmuomala.",
+      "topic": "people"
+    },
+    {
+      "id": "v-das-foto",
+      "de": "Foto",
+      "uz": "surat, foto",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Fotos",
+      "forms": null,
+      "example_de": "Das ist ein Foto von meiner Familie.",
+      "example_uz": "Bu oilamning surati.",
+      "topic": "family"
+    },
+    {
+      "id": "v-der-onkel",
+      "de": "Onkel",
+      "uz": "amaki; tog'a",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Onkel",
+      "forms": null,
+      "example_de": "Mein Onkel wohnt in Berlin.",
+      "example_uz": "Amakim Berlinda yashaydi.",
+      "topic": "family"
+    },
+    {
+      "id": "v-die-tante",
+      "de": "Tante",
+      "uz": "amma; xola",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Tanten",
+      "forms": null,
+      "example_de": "Meine Tante ist Ärztin.",
+      "example_uz": "Xolam shifokor.",
+      "topic": "family"
+    },
+    {
+      "id": "v-der-cousin",
+      "de": "Cousin",
+      "uz": "amakivachcha, xolavachcha (o'g'il)",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Cousins",
+      "forms": null,
+      "example_de": "Ich habe drei Cousins.",
+      "example_uz": "Mening uchta amakivachcham bor.",
+      "topic": "family"
+    },
+    {
+      "id": "v-die-cousine",
+      "de": "Cousine",
+      "uz": "amakivachcha, xolavachcha (qiz)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Cousinen",
+      "forms": null,
+      "example_de": "Meine Cousine ist sehr lustig.",
+      "example_uz": "Xolavachcham juda quvnoq.",
+      "topic": "family"
+    }
+  ],
+  "review_vocabulary": [
+    "v-der-bruder",
+    "v-die-schwester",
+    "v-das-kind",
+    "v-der-sohn",
+    "v-die-tochter",
+    "v-die-geschwister",
+    "v-die-oma",
+    "v-der-opa",
+    "v-die-familie",
+    "v-alt",
+    "v-sehr",
+    "v-zwei",
+    "v-drei",
+    "v-sein"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-plural",
+      "rule": "Ko'plik shakli otning oxiriga -e, -er, -(e)n, -s qo'shish yoki o'zgarishsiz (ba'zan umlaut bilan) yasaladi. Ko'plikda artikl doim die, fe'l ham ko'plikda (sind).",
+      "when": "Bir nechta odam yoki narsa haqida gapirganda, ayniqsa sonlardan keyin (zwei, drei ...).",
+      "structure": "die + ko'plik shakli + sind ...  |  son + ko'plik: zwei Brüder",
+      "examples": [
+        {
+          "de": "Ich habe zwei Brüder und eine Schwester.",
+          "uz": "Mening ikkita akam va bitta opam bor."
+        },
+        {
+          "de": "Die Kinder sind klein.",
+          "uz": "Bolalar kichik."
+        },
+        {
+          "de": "Meine Tanten sind jung und lustig.",
+          "uz": "Xolalarim yosh va quvnoq."
+        },
+        {
+          "de": "Das sind drei Fotos.",
+          "uz": "Bular uchta surat."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Ich habe zwei Bruder.",
+          "right": "Ich habe zwei Brüder.",
+          "why": "O'zbekchada \"ikkita aka\" deyiladi (birlik), nemis tilida sondan keyin ko'plik shakli kerak."
+        },
+        {
+          "wrong": "Die Kinder ist klein.",
+          "right": "Die Kinder sind klein.",
+          "why": "Ega ko'plikda — fe'l ham ko'plikda: sind."
+        },
+        {
+          "wrong": "der Kinder",
+          "right": "die Kinder",
+          "why": "Ko'plikda har doim die, otning birlikdagi jinsidan qat'i nazar."
+        }
+      ],
+      "check": [
+        "a1-m04-l2-e01",
+        "a1-m04-l2-e02",
+        "a1-m04-l2-e03",
+        "a1-m04-l2-e07",
+        "a1-m04-l2-e08"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Surat haqida suhbat",
+    "lines": [
+      {
+        "speaker": "Paul",
+        "de": "Hast du Geschwister, Dilnoza?",
+        "uz": "Aka-uka, opa-singillaring bormi, Dilnoza?"
+      },
+      {
+        "speaker": "Dilnoza",
+        "de": "Ja, ich habe zwei Brüder und eine Schwester.",
+        "uz": "Ha, ikkita akam va bitta singlim bor."
+      },
+      {
+        "speaker": "Paul",
+        "de": "Und wer sind die Leute hier auf dem Foto?",
+        "uz": "Suratdagi bu odamlar kim?"
+      },
+      {
+        "speaker": "Dilnoza",
+        "de": "Das sind meine Cousins. Sie sind sehr lustig.",
+        "uz": "Bular amakivachchalarim. Ular juda quvnoq."
+      },
+      {
+        "speaker": "Paul",
+        "de": "Und die Frau? Sie ist sehr jung!",
+        "uz": "Ayol-chi? U juda yosh!"
+      },
+      {
+        "speaker": "Dilnoza",
+        "de": "Das ist meine Tante. Sie ist nett.",
+        "uz": "Bu xolam. U juda yoqimli."
+      }
+    ],
+    "questions": [
+      "a1-m04-l2-e05",
+      "a1-m04-l2-e06"
+    ]
+  },
+  "situation": {
+    "title": "Yangi qo'shni bilan suhbat",
+    "context_uz": "Qo'shningiz Frau Weber sizdan oilangiz haqida so'rayapti.",
+    "lines": [
+      {
+        "speaker": "Frau Weber",
+        "de": "Haben Sie Kinder?",
+        "uz": "Farzandlaringiz bormi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ja, ich habe zwei Kinder: einen Sohn und eine Tochter.",
+        "uz": "Ha, ikkita farzandim bor: bitta o'g'il va bitta qiz."
+      },
+      {
+        "speaker": "Frau Weber",
+        "de": "Wie alt sind die Kinder?",
+        "uz": "Bolalar necha yoshda?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Der Sohn ist sieben und die Tochter ist vier. Sie sind sehr lustig.",
+        "uz": "O'g'lim yetti yoshda, qizim to'rt yoshda. Ular juda quvnoq."
+      },
+      {
+        "speaker": "Frau Weber",
+        "de": "Wie schön!",
+        "uz": "Qanday yaxshi!"
+      }
+    ],
+    "task_uz": "Frau Weberning savollariga o'z oilangiz haqida javob bering (farzandlar yoki aka-uka, opa-singillar). Sondan keyin ko'plik shaklini ishlatishni unutmang."
+  },
+  "exercises": [
+    {
+      "id": "a1-m04-l2-e01",
+      "version": 1,
+      "type": "plural",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-plural",
+      "difficulty": 1,
+      "question": "Ko'plik shaklini yozing: das Kind → die ___",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Kinder",
+      "accepted_answers": [
+        "die Kinder"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "das Kind → die Kinder (-er).",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l2-e02",
+      "version": 1,
+      "type": "plural",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-plural",
+      "difficulty": 1,
+      "question": "Ko'plik shaklini yozing: die Schwester → die ___",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Schwestern",
+      "accepted_answers": [
+        "die Schwestern"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Schwester → die Schwestern (-n).",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l2-e03",
+      "version": 1,
+      "type": "plural",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-plural",
+      "difficulty": 2,
+      "question": "Ko'plik shaklini yozing: der Bruder → die ___",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Brüder",
+      "accepted_answers": [
+        "die Brüder"
+      ],
+      "criteria": null,
+      "hint": "Oxiri o'zgarmaydi, lekin unli o'zgaradi.",
+      "explanation": "der Bruder → die Brüder (u → ü).",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l2-e04",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "people",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Sifatni ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "groß",
+          "baland bo'yli"
+        ],
+        [
+          "klein",
+          "past bo'yli"
+        ],
+        [
+          "jung",
+          "yosh"
+        ],
+        [
+          "lustig",
+          "quvnoq"
+        ],
+        [
+          "nett",
+          "xushmuomala"
+        ]
+      ],
+      "correct_answer": {
+        "groß": "baland bo'yli",
+        "klein": "past bo'yli",
+        "jung": "yosh",
+        "lustig": "quvnoq",
+        "nett": "xushmuomala"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "groß — katta/baland, klein — kichik/past, jung — yosh, lustig — quvnoq, nett — yoqimli, xushmuomala.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l2-e05",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "family",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Dilnozaning nechta akasi (ukasi) bor?",
+      "prompt_de": null,
+      "options": [
+        "bitta",
+        "ikkita",
+        "uchta"
+      ],
+      "pairs": null,
+      "correct_answer": "ikkita",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"zwei Brüder\" — ikkita aka/uka.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Ja, ich habe zwei Brüder und eine Schwester."
+    },
+    {
+      "id": "a1-m04-l2-e06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "people",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Amakivachchalar qanday?",
+      "prompt_de": null,
+      "options": [
+        "quvnoq",
+        "past bo'yli",
+        "keksa"
+      ],
+      "pairs": null,
+      "correct_answer": "quvnoq",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "lustig — quvnoq.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Das sind meine Cousins. Sie sind sehr lustig."
+    },
+    {
+      "id": "a1-m04-l2-e07",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-plural",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: Die Kinder ___ klein.",
+      "prompt_de": "Die Kinder ___ klein.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "sind",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Kinder — ko'plik → sind.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l2-e08",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-plural",
+      "difficulty": 1,
+      "question": "Gapdagi xato so'zni toping: \"Ich habe zwei Bruder.\"",
+      "prompt_de": "Ich habe zwei Bruder.",
+      "options": [
+        "Ich",
+        "habe",
+        "zwei",
+        "Bruder"
+      ],
+      "pairs": null,
+      "correct_answer": "Bruder",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Sondan keyin ko'plik: zwei Brüder.",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l2-e09",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-plural",
+      "difficulty": 1,
+      "question": "Qaysi ko'plik shakli to'g'ri?",
+      "prompt_de": null,
+      "options": [
+        "die Fotos",
+        "die Fotoen",
+        "die Föter"
+      ],
+      "pairs": null,
+      "correct_answer": "die Fotos",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "-o bilan tugaydigan chet so'zlar ko'plikda -s oladi: Fotos.",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l2-e10",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "family",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Matnni o'qing. Veberlarning nechta qizi bor?",
+      "prompt_de": "Das ist Familie Weber. Herr Weber ist groß und schlank. Frau Weber ist klein und sehr nett. Sie haben drei Kinder: zwei Söhne und eine Tochter. Die Kinder sind lustig.",
+      "options": [
+        "bitta",
+        "ikkita",
+        "uchta"
+      ],
+      "pairs": null,
+      "correct_answer": "bitta",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"zwei Söhne und eine Tochter\" — ikkita o'g'il va bitta qiz. Uchta — jami bolalar soni.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l2-e11",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "family",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemis tiliga tarjima qiling: \"Amaki juda xushmuomala.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Der Onkel ist sehr nett.",
+      "accepted_answers": [
+        "Der Onkel ist sehr freundlich.",
+        "Mein Onkel ist sehr nett."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Onkel — amaki/tog'a, nett — xushmuomala.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l2-e12",
+      "version": 1,
+      "type": "speak",
+      "skill": "speaking",
+      "topic": "family",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Oilangizdagi ikki kishini tasvirlang: kim, necha yoshda, qanday (2–3 sifat).",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 12,
+        "required_words": [
+          "ist"
+        ],
+        "sample": "Das ist mein Bruder. Er ist zwanzig und sehr groß. Das ist meine Oma. Sie ist alt, aber sehr lustig."
+      },
+      "hint": null,
+      "explanation": "Tuzilma: Das ist ... / Er (Sie) ist ... Jahre alt. / Er (Sie) ist groß, nett, lustig ...",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a1-m04-l2-t01",
+      "version": 1,
+      "type": "plural",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-plural",
+      "difficulty": 1,
+      "question": "Ko'plik shaklini yozing: die Tante → die ___",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Tanten",
+      "accepted_answers": [
+        "die Tanten"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Tante → die Tanten (-n).",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l2-t02",
+      "version": 1,
+      "type": "plural",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-plural",
+      "difficulty": 2,
+      "question": "Ko'plik shaklini yozing: der Sohn → die ___",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Söhne",
+      "accepted_answers": [
+        "die Söhne"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Sohn → die Söhne (-e va o → ö).",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l2-t03",
+      "version": 1,
+      "type": "article",
+      "skill": "grammar",
+      "topic": "people",
+      "grammar_topic": "g-articles",
+      "difficulty": 1,
+      "question": "To'g'ri artiklni tanlang: ___ Leute sind nett.",
+      "prompt_de": "___ Leute sind nett.",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "die",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Leute — faqat ko'plik, ko'plikda doim die.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l2-t04",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "people",
+      "grammar_topic": "g-sein-haben",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: Die Leute ___ nett.",
+      "prompt_de": "Die Leute ___ nett.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "sind",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ko'plik → sind.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l2-t05",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "family",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Die Tante ist jung und lustig.\"",
+      "prompt_de": "Die Tante ist jung und lustig.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Xola yosh va quvnoq.",
+      "accepted_answers": [
+        "Amma yosh va quvnoq",
+        "Xolam yosh va quvnoq",
+        "Ammam yosh va quvnoq",
+        "Xola yosh va xushchaqchaq",
+        "Amma yosh va xushchaqchaq"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Tante — xola yoki amma; jung — yosh; lustig — quvnoq.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m04-l2-t06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "people",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Bobo qanday?",
+      "prompt_de": null,
+      "options": [
+        "keksa va quvnoq",
+        "yosh va quvnoq",
+        "keksa va past bo'yli"
+      ],
+      "pairs": null,
+      "correct_answer": "keksa va quvnoq",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "sehr alt — juda keksa, lustig — quvnoq.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Mein Opa ist sehr alt, aber er ist lustig."
+    },
+    {
+      "id": "a1-m04-l2-t07",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-plural",
+      "difficulty": 1,
+      "question": "Ich habe drei ___.",
+      "prompt_de": "Ich habe drei ___.",
+      "options": [
+        "Schwester",
+        "Schwestern",
+        "Schwesters"
+      ],
+      "pairs": null,
+      "correct_answer": "Schwestern",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Sondan keyin ko'plik: drei Schwestern.",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

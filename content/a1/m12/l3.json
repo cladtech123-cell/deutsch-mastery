@@ -1,0 +1,919 @@
+{
+  "id": "a1-m12-l3",
+  "version": 1,
+  "level": "A1",
+  "module": 12,
+  "order": 3,
+  "title": "Ehtiyojlar, dorixona va A1 takrori",
+  "title_de": "Beim Arzt und in der Apotheke",
+  "goal": "Dars oxirida asosiy ehtiyojlaringizni aytasiz (Ich habe Hunger. Ich brauche ein Medikament.), dorixonada va shifokor qabulida qisqa suhbat qurasiz hamda A1 dagi barcha so'z tartibi qoidalarini bitta jadvalda takrorlaysiz.",
+  "skill_focus": [
+    "speaking",
+    "grammar",
+    "reading"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Asosiy ehtiyojlar: Ich habe Hunger (qornim och). Ich habe Durst (chanqadim). Ich bin müde (charchadim). Ich bin krank (kasalman). Ich brauche einen Arzt / ein Medikament / Hilfe (menga ... kerak). Favqulodda holatda Germaniyada 112 ga qo'ng'iroq qilinadi."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Joy",
+        "Kerakli ibora",
+        "O'zbekcha"
+      ],
+      "rows": [
+        [
+          "Apotheke",
+          "Haben Sie etwas gegen Husten?",
+          "Yo'talga qarshi biror narsa bormi?"
+        ],
+        [
+          "Apotheke",
+          "Brauche ich ein Rezept?",
+          "Retsept kerakmi?"
+        ],
+        [
+          "Praxis (telefon)",
+          "Ich brauche einen Termin.",
+          "Menga qabul vaqti kerak."
+        ],
+        [
+          "Praxis",
+          "Ich habe seit gestern Fieber.",
+          "Kechadan beri isitmam bor."
+        ],
+        [
+          "Notfall",
+          "Bitte rufen Sie einen Krankenwagen!",
+          "Iltimos, tez yordam chaqiring!"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "A1 takrori — so'z tartibi. Butun A1 grammatikasining asosi shu jadvalda:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Gap turi",
+        "Qoida",
+        "Misol"
+      ],
+      "rows": [
+        [
+          "Darak gap",
+          "fe'l 2-o'rinda",
+          "Ich habe Husten. / Heute habe ich Husten."
+        ],
+        [
+          "W-savol",
+          "W-so'z + fe'l (2-o'rin)",
+          "Wann kommt der Arzt?"
+        ],
+        [
+          "Ha/yo'q savoli",
+          "fe'l 1-o'rinda",
+          "Haben Sie Fieber?"
+        ],
+        [
+          "Modal fe'l",
+          "modal 2-o'rinda, infinitiv oxirida",
+          "Ich kann heute nicht arbeiten."
+        ],
+        [
+          "Ajraladigan fe'l",
+          "old qo'shimcha oxirida",
+          "Ich rufe den Arzt an."
+        ],
+        [
+          "Buyruq",
+          "fe'l 1-o'rinda",
+          "Nehmen Sie eine Tablette! / Trink Tee!"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Eng ko'p uchraydigan xato: gap vaqt bilan boshlanganda egani fe'ldan oldin qo'yish. \"Heute ich bin müde\" emas — \"Heute bin ich müde\"."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-der-hunger",
+      "de": "Hunger",
+      "uz": "ochlik",
+      "pos": "noun",
+      "article": "der",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Ich habe Hunger.",
+      "example_uz": "Qornim och.",
+      "topic": "health"
+    },
+    {
+      "id": "v-der-durst",
+      "de": "Durst",
+      "uz": "chanqoq",
+      "pos": "noun",
+      "article": "der",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Hast du Durst? Hier ist Wasser.",
+      "example_uz": "Chanqadingmi? Mana suv.",
+      "topic": "health"
+    },
+    {
+      "id": "v-müde",
+      "de": "müde",
+      "uz": "charchagan; uyqusi kelgan",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Ich bin heute sehr müde.",
+      "example_uz": "Bugun juda charchadim.",
+      "topic": "health"
+    },
+    {
+      "id": "v-gesund",
+      "de": "gesund",
+      "uz": "sog'lom; foydali",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Obst ist gesund.",
+      "example_uz": "Meva sog'liq uchun foydali.",
+      "topic": "health"
+    },
+    {
+      "id": "v-die-erkältung",
+      "de": "Erkältung",
+      "uz": "shamollash",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Erkältungen",
+      "forms": null,
+      "example_de": "Ich habe eine Erkältung.",
+      "example_uz": "Men shamollaganman.",
+      "topic": "health"
+    },
+    {
+      "id": "v-der-husten",
+      "de": "Husten",
+      "uz": "yo'tal",
+      "pos": "noun",
+      "article": "der",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Der Husten ist schlimm.",
+      "example_uz": "Yo'tal qattiq.",
+      "topic": "health"
+    },
+    {
+      "id": "v-der-schnupfen",
+      "de": "Schnupfen",
+      "uz": "tumov",
+      "pos": "noun",
+      "article": "der",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Im Winter habe ich oft Schnupfen.",
+      "example_uz": "Qishda ko'pincha tumov bo'laman.",
+      "topic": "health"
+    },
+    {
+      "id": "v-die-tablette",
+      "de": "Tablette",
+      "uz": "tabletka",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Tabletten",
+      "forms": null,
+      "example_de": "Nehmen Sie eine Tablette am Morgen.",
+      "example_uz": "Ertalab bitta tabletka iching.",
+      "topic": "health"
+    },
+    {
+      "id": "v-das-medikament",
+      "de": "Medikament",
+      "uz": "dori",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Medikamente",
+      "forms": null,
+      "example_de": "Ich brauche ein Medikament gegen Fieber.",
+      "example_uz": "Menga isitmaga qarshi dori kerak.",
+      "topic": "health"
+    },
+    {
+      "id": "v-die-praxis",
+      "de": "Praxis",
+      "uz": "shifokor qabulxonasi, klinika",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Praxen",
+      "forms": null,
+      "example_de": "Die Praxis ist am Montag geschlossen.",
+      "example_uz": "Qabulxona dushanba kuni yopiq.",
+      "topic": "health"
+    },
+    {
+      "id": "v-das-rezept",
+      "de": "Rezept",
+      "uz": "retsept",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Rezepte",
+      "forms": null,
+      "example_de": "Für das Medikament brauchen Sie ein Rezept.",
+      "example_uz": "Bu dori uchun sizga retsept kerak.",
+      "topic": "health"
+    },
+    {
+      "id": "v-der-notfall",
+      "de": "Notfall",
+      "uz": "favqulodda holat",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Notfälle",
+      "forms": null,
+      "example_de": "Im Notfall rufen Sie 112 an.",
+      "example_uz": "Favqulodda holatda 112 ga qo'ng'iroq qiling.",
+      "topic": "health"
+    }
+  ],
+  "review_vocabulary": [
+    "v-das-fieber",
+    "v-krank",
+    "v-wehtun",
+    "v-der-hals",
+    "v-der-kopf",
+    "v-die-apotheke",
+    "v-brauchen",
+    "v-nehmen",
+    "v-können",
+    "v-der-schmerz"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-verb-position",
+      "rule": "Darak gapda va W-savolda fe'l 2-o'rinda; ha/yo'q savoli va buyruqda 1-o'rinda. Modal fe'l bilan ikkinchi fe'l, ajraladigan fe'lda old qo'shimcha — gap oxirida.",
+      "when": "Har qanday gapda — ayniqsa shifokor, dorixona kabi muhim vaziyatlarda aniq gapirish uchun.",
+      "structure": "Darak: [1] + fe'l + ...: Heute habe ich Fieber.\nSavol: Haben Sie Fieber? / Wann kommt der Arzt?\nModal: Ich kann nicht schlafen. Ajraladigan: Ich rufe den Arzt an.",
+      "examples": [
+        {
+          "de": "Heute habe ich Fieber.",
+          "uz": "Bugun isitmam bor."
+        },
+        {
+          "de": "Kannst du mir Tabletten kaufen?",
+          "uz": "Menga tabletka sotib ola olasanmi?"
+        },
+        {
+          "de": "Wann kommt der Arzt?",
+          "uz": "Shifokor qachon keladi?"
+        },
+        {
+          "de": "Ich rufe morgen den Arzt an.",
+          "uz": "Ertaga shifokorga qo'ng'iroq qilaman."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Heute ich habe Husten.",
+          "right": "Heute habe ich Husten.",
+          "why": "Gap \"Heute\" bilan boshlansa, fe'l 2-o'rinda qoladi, ega undan keyin."
+        },
+        {
+          "wrong": "Ich kann nicht schlafen gut.",
+          "right": "Ich kann nicht gut schlafen.",
+          "why": "Infinitiv (schlafen) doim gap oxirida."
+        },
+        {
+          "wrong": "Ich rufe an den Arzt.",
+          "right": "Ich rufe den Arzt an.",
+          "why": "Ajraladigan old qo'shimcha (an) gap oxiriga ketadi."
+        }
+      ],
+      "check": [
+        "a1-m12-l3-e03",
+        "a1-m12-l3-e04",
+        "a1-m12-l3-e05",
+        "a1-m12-l3-e06"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Dorixonada",
+    "lines": [
+      {
+        "speaker": "Apothekerin",
+        "de": "Guten Tag! Was kann ich für Sie tun?",
+        "uz": "Assalomu alaykum! Sizga qanday yordam bera olaman?"
+      },
+      {
+        "speaker": "Herr Rahimov",
+        "de": "Ich habe eine Erkältung. Ich habe Husten und Schnupfen.",
+        "uz": "Shamollaganman. Yo'tal va tumovim bor."
+      },
+      {
+        "speaker": "Apothekerin",
+        "de": "Haben Sie auch Fieber?",
+        "uz": "Isitmangiz ham bormi?"
+      },
+      {
+        "speaker": "Herr Rahimov",
+        "de": "Nein, kein Fieber. Aber ich bin sehr müde.",
+        "uz": "Yo'q, isitma yo'q. Lekin juda charchaganman."
+      },
+      {
+        "speaker": "Apothekerin",
+        "de": "Hier sind Tabletten gegen Husten. Nehmen Sie dreimal am Tag eine Tablette.",
+        "uz": "Mana, yo'talga qarshi tabletkalar. Kuniga uch marta bittadan iching."
+      },
+      {
+        "speaker": "Herr Rahimov",
+        "de": "Brauche ich ein Rezept?",
+        "uz": "Retsept kerakmi?"
+      },
+      {
+        "speaker": "Apothekerin",
+        "de": "Nein, Sie brauchen kein Rezept. Das macht 6,90 Euro. Gute Besserung!",
+        "uz": "Yo'q, retsept kerak emas. 6 evro 90 sent. Tezroq tuzaling!"
+      }
+    ],
+    "questions": [
+      "a1-m12-l3-e08",
+      "a1-m12-l3-e09"
+    ]
+  },
+  "situation": {
+    "title": "Shifokor qabuliga yozilish",
+    "context_uz": "Siz kasal bo'lib qoldingiz va Doktor Noymanning qabulxonasiga (Praxis) qo'ng'iroq qilyapsiz.",
+    "lines": [
+      {
+        "speaker": "Arzthelferin",
+        "de": "Praxis Dr. Neumann, guten Morgen!",
+        "uz": "Doktor Noyman qabulxonasi, xayrli tong!"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Guten Morgen! Mein Name ist Malika Usmonova. Ich bin krank und brauche einen Termin.",
+        "uz": "Xayrli tong! Ismim Malika Usmonova. Kasalman, qabulga yozilishim kerak."
+      },
+      {
+        "speaker": "Arzthelferin",
+        "de": "Was haben Sie denn?",
+        "uz": "Sizni nima bezovta qilyapti?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ich habe seit gestern Fieber und mein Hals tut weh.",
+        "uz": "Kechadan beri isitmam bor va tomog'im og'riyapti."
+      },
+      {
+        "speaker": "Arzthelferin",
+        "de": "Können Sie heute um 11 Uhr kommen?",
+        "uz": "Bugun soat 11 da kela olasizmi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ja, das geht. Vielen Dank!",
+        "uz": "Ha, bo'ladi. Katta rahmat!"
+      },
+      {
+        "speaker": "Arzthelferin",
+        "de": "Bringen Sie bitte Ihre Versichertenkarte mit.",
+        "uz": "Iltimos, sug'urta kartangizni olib keling."
+      }
+    ],
+    "task_uz": "Qabulxonaga qo'ng'iroq qilishni mashq qiling: ismingizni ayting, ikkita shikoyat ayting, qabul vaqtini so'rang va vaqtni tasdiqlang. Keyin rollarni almashtiring."
+  },
+  "exercises": [
+    {
+      "id": "a1-m12-l3-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "So'zlarni juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "Hunger",
+          "ochlik"
+        ],
+        [
+          "Durst",
+          "chanqoq"
+        ],
+        [
+          "Husten",
+          "yo'tal"
+        ],
+        [
+          "Schnupfen",
+          "tumov"
+        ],
+        [
+          "Rezept",
+          "retsept"
+        ]
+      ],
+      "correct_answer": {
+        "Hunger": "ochlik",
+        "Durst": "chanqoq",
+        "Husten": "yo'tal",
+        "Schnupfen": "tumov",
+        "Rezept": "retsept"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Hunger — ochlik, Durst — chanqoq, Husten — yo'tal, Schnupfen — tumov, Rezept — retsept.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l3-e02",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Siz juda chanqadingiz. Nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Ich habe Durst.",
+        "Ich habe Hunger.",
+        "Ich bin Durst."
+      ],
+      "pairs": null,
+      "correct_answer": "Ich habe Durst.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Chanqoq — Durst, nemischa \"haben\" bilan: Ich habe Durst. \"Ich bin Durst\" — xato.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l3-e03",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-verb-position",
+      "difficulty": 1,
+      "question": "So'zlarni tartiblang: \"Bugun isitmam bor.\"",
+      "prompt_de": null,
+      "options": [
+        "habe",
+        "Fieber",
+        "Heute",
+        "ich"
+      ],
+      "pairs": null,
+      "correct_answer": "Heute habe ich Fieber",
+      "accepted_answers": [
+        "Ich habe heute Fieber"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Heute\" birinchi bo'lsa, fe'l (habe) 2-o'rinda, ega (ich) undan keyin. \"Ich habe heute Fieber\" ham to'g'ri.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l3-e04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-verb-position",
+      "difficulty": 1,
+      "question": "Qaysi gap to'g'ri?",
+      "prompt_de": null,
+      "options": [
+        "Heute bin ich müde.",
+        "Heute ich bin müde.",
+        "Heute müde ich bin."
+      ],
+      "pairs": null,
+      "correct_answer": "Heute bin ich müde.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Fe'l doim 2-o'rinda: Heute (1) bin (2) ich müde.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l3-e05",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-verb-position",
+      "difficulty": 2,
+      "question": "So'zlarni tartiblang: \"Men ertaga shifokorga qo'ng'iroq qilaman.\"",
+      "prompt_de": null,
+      "options": [
+        "den",
+        "an",
+        "Arzt",
+        "morgen",
+        "Ich",
+        "rufe"
+      ],
+      "pairs": null,
+      "correct_answer": "Ich rufe morgen den Arzt an",
+      "accepted_answers": [
+        "Morgen rufe ich den Arzt an"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "anrufen: rufe 2-o'rinda, an oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l3-e06",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-verb-position",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (kaufen): Kannst du mir Tabletten ___?",
+      "prompt_de": "Kannst du mir Tabletten ___?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "kaufen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Modal fe'l (kannst) bilan ikkinchi fe'l infinitivda, gap oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l3-e07",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "Fe'lni tuslang: Er ___ (nehmen) eine Tablette.",
+      "prompt_de": "Er ___ (nehmen) eine Tablette.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "nimmt",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "nehmen → er nimmt.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l3-e08",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni tinglang. Rahimov janoblarida nima yo'q?",
+      "prompt_de": null,
+      "options": [
+        "Isitma",
+        "Yo'tal",
+        "Tumov"
+      ],
+      "pairs": null,
+      "correct_answer": "Isitma",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Nein, kein Fieber.\" Yo'tal va tumov bor.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Guten Tag! Was kann ich für Sie tun? Ich habe eine Erkältung. Ich habe Husten und Schnupfen. Haben Sie auch Fieber? Nein, kein Fieber. Aber ich bin sehr müde. Hier sind Tabletten gegen Husten. Nehmen Sie dreimal am Tag eine Tablette. Brauche ich ein Rezept? Nein, Sie brauchen kein Rezept. Das macht 6,90 Euro. Gute Besserung!"
+    },
+    {
+      "id": "a1-m12-l3-e09",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni tinglang. Tabletkani kuniga necha marta ichish kerak?",
+      "prompt_de": null,
+      "options": [
+        "Uch marta",
+        "Ikki marta",
+        "Bir marta"
+      ],
+      "pairs": null,
+      "correct_answer": "Uch marta",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Nehmen Sie dreimal am Tag eine Tablette.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Guten Tag! Was kann ich für Sie tun? Ich habe eine Erkältung. Ich habe Husten und Schnupfen. Haben Sie auch Fieber? Nein, kein Fieber. Aber ich bin sehr müde. Hier sind Tabletten gegen Husten. Nehmen Sie dreimal am Tag eine Tablette. Brauche ich ein Rezept? Nein, Sie brauchen kein Rezept. Das macht 6,90 Euro. Gute Besserung!"
+    },
+    {
+      "id": "a1-m12-l3-e10",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "health",
+      "grammar_topic": "g-akkusativ",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Menga shifokor kerak.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich brauche einen Arzt.",
+      "accepted_answers": [
+        "Ich brauche eine Ärztin."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Menga ... kerak\" = Ich brauche + Akkusativ: der Arzt → einen Arzt.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l3-e11",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Lavhani o'qing. Payshanba kuni soat 16:00 da qabulxona ochiqmi?",
+      "prompt_de": "Praxis Dr. Neumann – Allgemeinmedizin. Sprechzeiten: Mo–Fr 8–12 Uhr, Di und Do auch 15–18 Uhr. Im Notfall rufen Sie 112 an.",
+      "options": [
+        "Ha",
+        "Yo'q",
+        "Faqat favqulodda holatda"
+      ],
+      "pairs": null,
+      "correct_answer": "Ha",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Di und Do auch 15–18 Uhr\" — seshanba va payshanba kunlari 15–18 da ham ochiq.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l3-e12",
+      "version": 1,
+      "type": "short_text",
+      "skill": "writing",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Kasal do'stingizga xabar yozing (3–5 gap): unga achinishingizni bildiring, \"du\"-buyruq bilan maslahat bering va yordam taklif qiling.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 20,
+        "required_words": [
+          "Besserung"
+        ],
+        "sample": "Hallo Lena, du bist krank? Das tut mir leid! Trink viel Tee und bleib im Bett. Brauchst du Medikamente? Ich kann für dich in die Apotheke gehen. Gute Besserung!"
+      },
+      "hint": null,
+      "explanation": "Namuna: \"Hallo Lena, du bist krank? Das tut mir leid! Trink viel Tee und bleib im Bett. Ich kann für dich in die Apotheke gehen. Gute Besserung!\"",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a1-m12-l3-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-sein-haben",
+      "difficulty": 1,
+      "question": "Siz charchadingiz. Qaysi gap to'g'ri?",
+      "prompt_de": null,
+      "options": [
+        "Ich bin müde.",
+        "Ich habe müde.",
+        "Ich müde."
+      ],
+      "pairs": null,
+      "correct_answer": "Ich bin müde.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "müde — sifat, \"sein\" bilan: Ich bin müde.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l3-t02",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-verb-position",
+      "difficulty": 2,
+      "question": "So'zlarni tartiblang: \"Menga dori sotib ola olasanmi?\"",
+      "prompt_de": null,
+      "options": [
+        "ein",
+        "kaufen",
+        "du",
+        "Medikament",
+        "mir",
+        "Kannst"
+      ],
+      "pairs": null,
+      "correct_answer": "Kannst du mir ein Medikament kaufen?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ha/yo'q savoli: modal fe'l birinchi, infinitiv oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l3-t03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "city",
+      "grammar_topic": "g-akkusativ",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (geben): Wo ___ es hier eine Apotheke?",
+      "prompt_de": "Wo ___ es hier eine Apotheke?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "gibt",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "es gibt — W-savolda: Wo gibt es ...?",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l3-t04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-verb-position",
+      "difficulty": 1,
+      "question": "To'g'ri variantni tanlang: Morgen ___ ich zum Arzt.",
+      "prompt_de": "Morgen ___ ich zum Arzt.",
+      "options": [
+        "gehe",
+        "gehen",
+        "geht"
+      ],
+      "pairs": null,
+      "correct_answer": "gehe",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "ich → gehe; \"Morgen\" birinchi bo'lgani uchun fe'l 2-o'rinda, ega undan keyin.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l3-t05",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Ich habe eine Erkältung.\"",
+      "prompt_de": "Ich habe eine Erkältung.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Men shamollaganman.",
+      "accepted_answers": [
+        "Shamollaganman",
+        "Men shamolladim",
+        "Menda shamollash bor"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Erkältung — shamollash.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l3-t06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Tabletkani qanday ichish kerak?",
+      "prompt_de": null,
+      "options": [
+        "Kuniga ikki marta",
+        "Kuniga uch marta",
+        "Kuniga bir marta"
+      ],
+      "pairs": null,
+      "correct_answer": "Kuniga ikki marta",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"zweimal am Tag\" — kuniga ikki marta.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Nehmen Sie zweimal am Tag eine Tablette."
+    },
+    {
+      "id": "a1-m12-l3-t07",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Shifokor: \"Haben Sie Fieber?\" Isitmangiz yo'q, lekin yo'talingiz bor. Qaysi javob mos?",
+      "prompt_de": "Haben Sie Fieber?",
+      "options": [
+        "Nein, aber ich habe Husten.",
+        "Ja, ich bin Fieber.",
+        "Gute Besserung!"
+      ],
+      "pairs": null,
+      "correct_answer": "Nein, aber ich habe Husten.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Savolga \"Nein\" bilan javob berib, haqiqiy muammoni aytasiz.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m12-l3-t08",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "appointments",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang va yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich brauche einen Termin.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Termin → Akkusativda einen Termin.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": "Ich brauche einen Termin."
+    }
+  ]
+}

@@ -1,0 +1,353 @@
+{
+  "id": "a1-m03",
+  "version": 1,
+  "level": "A1",
+  "number": 3,
+  "title": "Raqamlar va aloqa ma'lumotlari",
+  "title_de": "Zahlen und Kontaktdaten",
+  "goals": [
+    "0 dan 100 gacha sonlarni aytish va eshitib yozish.",
+    "Yoshni \"sein\" bilan to'g'ri aytish va so'rash.",
+    "Telefon raqami, manzil va email'ni aytish, so'rash va yozib olish.",
+    "Oddiy anketani to'ldirish; muntazam fe'llarni hozirgi zamonda tuslash."
+  ],
+  "lessons": [
+    "a1-m03-l1",
+    "a1-m03-l2",
+    "a1-m03-l3"
+  ],
+  "module_test": [
+    {
+      "id": "mtest-a1-m03-01",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "numbers",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang. Qaysi son aytildi?",
+      "prompt_de": null,
+      "options": [
+        "67",
+        "76",
+        "16"
+      ],
+      "pairs": null,
+      "correct_answer": "76",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "sechs + und + siebzig = 76.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "sechsundsiebzig"
+    },
+    {
+      "id": "mtest-a1-m03-02",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "phone",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang va raqamni probelsiz yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "030485217",
+      "accepted_answers": [
+        "030 485217",
+        "030 48 52 17"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "null-drei-null = 030 (Berlin kodi), keyin 485217.",
+      "error_type": "comprehension",
+      "points": 2,
+      "audio_text": "Null, drei, null — vier, acht, fünf, zwo, eins, sieben."
+    },
+    {
+      "id": "mtest-a1-m03-03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "numbers",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Qaysi so'z 21 ni bildiradi?",
+      "prompt_de": null,
+      "options": [
+        "zwanzigeins",
+        "einundzwanzig",
+        "einszwanzig"
+      ],
+      "pairs": null,
+      "correct_answer": "einundzwanzig",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "21 = ein + und + zwanzig.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a1-m03-04",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "people",
+      "grammar_topic": "g-sein-haben",
+      "difficulty": 1,
+      "question": "Sizdan yoshingizni so'rashdi (19 yosh). To'g'ri javob?",
+      "prompt_de": null,
+      "options": [
+        "Ich habe neunzehn Jahre.",
+        "Ich bin neunzehn Jahre.",
+        "Ich bin neunzehn Jahre alt."
+      ],
+      "pairs": null,
+      "correct_answer": "Ich bin neunzehn Jahre alt.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Yosh sein bilan va \"Jahre\" dan keyin \"alt\".",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a1-m03-05",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "contact",
+      "grammar_topic": "g-questions",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: ___ ist Ihre Adresse?",
+      "prompt_de": "___ ist Ihre Adresse?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Wie",
+      "accepted_answers": [
+        "Was"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Manzil so'raganda: Wie ist Ihre Adresse?",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a1-m03-06",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "contact",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "\"schicken\" fe'lini tuslang: Frau Lang ___ eine E-Mail.",
+      "prompt_de": "Frau Lang ___ eine E-Mail.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "schickt",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Frau Lang = sie → schickt.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a1-m03-07",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "contact",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Matnni o'qing. Timur nechanchi qavatda yashaydi?",
+      "prompt_de": "Hallo! Ich bin Timur, ich bin 24 Jahre alt. Ich wohne in der Lindenstraße 8 in Dresden, in der zweiten Etage. Meine Handynummer ist 0176 51 22 09.",
+      "options": [
+        "birinchi",
+        "ikkinchi",
+        "sakkizinchi"
+      ],
+      "pairs": null,
+      "correct_answer": "ikkinchi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"in der zweiten Etage\" — ikkinchi qavatda. 8 — uy raqami.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a1-m03-08",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "contact",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Belgini nemischa nomi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "@",
+          "ät"
+        ],
+        [
+          ".",
+          "Punkt"
+        ],
+        [
+          "-",
+          "Bindestrich"
+        ]
+      ],
+      "correct_answer": {
+        "@": "ät",
+        ".": "Punkt",
+        "-": "Bindestrich"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "@ — ät, . — Punkt, - — Bindestrich.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a1-m03-09",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-verb-position",
+      "difficulty": 1,
+      "question": "So'zlarni tartiblang: \"Biz Leyptsigda yashaymiz.\"",
+      "prompt_de": null,
+      "options": [
+        "wohnen",
+        "in",
+        "Leipzig",
+        "Wir"
+      ],
+      "pairs": null,
+      "correct_answer": "Wir wohnen in Leipzig.",
+      "accepted_answers": [
+        "In Leipzig wohnen wir."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Fe'l ikkinchi o'rinda: Wir wohnen in Leipzig. (In Leipzig wohnen wir — ham to'g'ri.)",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a1-m03-10",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "phone",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemis tiliga tarjima qiling: \"Raqam noto'g'ri.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Die Nummer ist falsch.",
+      "accepted_answers": [
+        "Die Telefonnummer ist falsch.",
+        "Die Nummer stimmt nicht."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Nummer — raqam, falsch — noto'g'ri.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a1-m03-11",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-praesens",
+      "difficulty": 2,
+      "question": "Gapdagi xato so'zni toping: \"Sie wohnen in der Goethestraße 3.\" (U — bitta ayol)",
+      "prompt_de": "Sie wohnen in der Goethestraße 3.",
+      "options": [
+        "Sie",
+        "wohnen",
+        "in",
+        "der",
+        "Goethestraße"
+      ],
+      "pairs": null,
+      "correct_answer": "wohnen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "U (bitta ayol) — sie wohnt. \"wohnen\" — ular yoki Siz uchun.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a1-m03-12",
+      "version": 1,
+      "type": "speak",
+      "skill": "speaking",
+      "topic": "contact",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zingizni tanishtiring: ism, yosh, telefon raqami va manzil (o'ylab topilgan bo'lishi mumkin).",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 15,
+        "required_words": [
+          "bin",
+          "wohne"
+        ],
+        "sample": "Ich heiße Aziz Karimov. Ich bin dreiundzwanzig Jahre alt. Meine Handynummer ist 0176 23 45 89. Ich wohne in der Goethestraße 12 in Leipzig."
+      },
+      "hint": null,
+      "explanation": "Ich heiße ... / Ich bin ... Jahre alt. / Meine Nummer ist ... / Ich wohne in der ...",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "writing_task": {
+    "id": "w-a1-m03",
+    "title": "Kursga yozilish",
+    "task_uz": "Til maktabiga email yozing: o'zingizni tanishtiring (ism, yosh), manzilingiz, telefon raqamingiz va email'ingizni yozing. Salomlashish va xayrlashishni unutmang.",
+    "required_words": [
+      "Jahre",
+      "wohne"
+    ],
+    "min_words": 25,
+    "max_words": 70,
+    "criteria": [
+      "Salomlashish va xayrlashish bor.",
+      "Yosh \"sein\" + \"Jahre alt\" bilan to'g'ri berilgan.",
+      "Manzil to'liq: ko'cha, uy raqami, indeks, shahar.",
+      "Telefon raqami va email bor.",
+      "Fe'llar egaga mos tuslangan (ich wohne, ich bin ...)."
+    ],
+    "sample_answer": "Guten Tag! Ich heiße Nodira Saidova. Ich bin sechsundzwanzig Jahre alt. Ich wohne in der Goethestraße 12, 04109 Leipzig, in der dritten Etage. Meine Telefonnummer ist 0176 23 45 89. Meine E-Mail-Adresse ist nodira.saidova@web.de. Viele Grüße, Nodira Saidova"
+  }
+}

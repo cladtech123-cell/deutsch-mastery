@@ -1,0 +1,307 @@
+{
+  "id": "g-time-prepositions",
+  "version": 1,
+  "level": "A1",
+  "order": 11,
+  "title": "Vaqt predloglari: um, am, im, von ... bis",
+  "prerequisites": [
+    "g-articles"
+  ],
+  "next": [
+    "g-dativ",
+    "g-future"
+  ],
+  "rule": "Vaqtni aytganda predlog vaqt turiga bog'liq: soat — um, kun — am, oy va fasl — im.",
+  "when": "Uchrashuv, kun tartibi, dars jadvali va rejalar haqida gapirganda.",
+  "structure": "um + soat | am + kun / kun qismi | im + oy / fasl | von ... bis ...",
+  "explanation": [
+    {
+      "type": "table",
+      "headers": [
+        "Predlog",
+        "Qachon",
+        "Misol"
+      ],
+      "rows": [
+        [
+          "um",
+          "aniq soat",
+          "um 8 Uhr, um halb neun"
+        ],
+        [
+          "am",
+          "hafta kuni, kun qismi, sana",
+          "am Montag, am Abend, am 5. Mai"
+        ],
+        [
+          "im",
+          "oy, fasl",
+          "im Mai, im Winter"
+        ],
+        [
+          "in der",
+          "tun",
+          "in der Nacht"
+        ],
+        [
+          "—",
+          "yil",
+          "2025 / im Jahr 2025"
+        ],
+        [
+          "von ... bis",
+          "dan ... gacha",
+          "von 9 bis 17 Uhr"
+        ],
+        [
+          "vor / nach",
+          "oldin / keyin",
+          "vor dem Essen, nach der Arbeit"
+        ],
+        [
+          "seit",
+          "... dan beri",
+          "seit zwei Jahren"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "am = an + dem, im = in + dem. Shuning uchun \"am\" erkak va o'rta jinsdagi so'zlar bilan keladi (der Montag, der Abend), istisno: in der Nacht."
+    },
+    {
+      "type": "tip",
+      "text": "Yildan oldin predlog qo'yilmaydi: \"Ich bin 2004 geboren\". \"in 2004\" — inglizcha ta'sir, xato."
+    }
+  ],
+  "examples": [
+    {
+      "de": "Der Kurs beginnt um neun Uhr.",
+      "uz": "Kurs soat to'qqizda boshlanadi."
+    },
+    {
+      "de": "Am Sonntag besuche ich meine Oma.",
+      "uz": "Yakshanba kuni buvimnikiga boraman."
+    },
+    {
+      "de": "Im Sommer ist es in Taschkent sehr heiß.",
+      "uz": "Yozda Toshkentda juda issiq."
+    },
+    {
+      "de": "Ich arbeite von acht bis fünf.",
+      "uz": "Men sakkizdan beshgacha ishlayman."
+    },
+    {
+      "de": "Nach dem Unterricht gehe ich nach Hause.",
+      "uz": "Darsdan keyin uyga boraman."
+    },
+    {
+      "de": "Ich lerne seit drei Monaten Deutsch.",
+      "uz": "Uch oydan beri nemis tilini o'rganyapman."
+    }
+  ],
+  "common_mistakes": [
+    {
+      "wrong": "im Montag",
+      "right": "am Montag",
+      "why": "Hafta kunlari bilan am."
+    },
+    {
+      "wrong": "am Mai",
+      "right": "im Mai",
+      "why": "Oylar bilan im."
+    },
+    {
+      "wrong": "am 8 Uhr",
+      "right": "um 8 Uhr",
+      "why": "Aniq soat bilan um."
+    },
+    {
+      "wrong": "in 2025",
+      "right": "2025 / im Jahr 2025",
+      "why": "Yil oldida predlog ishlatilmaydi."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "g-time-prepositions-e01",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "time",
+      "grammar_topic": "g-time-prepositions",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: \"Der Film beginnt ___ 20 Uhr.\"",
+      "prompt_de": "Der Film beginnt ___ 20 Uhr.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "um",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Aniq soat — um.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-time-prepositions-e02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "time",
+      "grammar_topic": "g-time-prepositions",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: \"___ Freitag habe ich frei.\"",
+      "prompt_de": "___ Freitag habe ich frei.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Am",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Hafta kuni — am.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-time-prepositions-e03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "celebrations",
+      "grammar_topic": "g-time-prepositions",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: \"Mein Geburtstag ist ___ April.\"",
+      "prompt_de": "Mein Geburtstag ist ___ April.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "im",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Oy nomi — im.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-time-prepositions-e04",
+      "version": 1,
+      "type": "match",
+      "skill": "grammar",
+      "topic": "time",
+      "grammar_topic": "g-time-prepositions",
+      "difficulty": 1,
+      "question": "Vaqt so'zini predlog bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "halb neun",
+          "um"
+        ],
+        [
+          "Dienstag",
+          "am"
+        ],
+        [
+          "Winter",
+          "im"
+        ]
+      ],
+      "correct_answer": {
+        "halb neun": "um",
+        "Dienstag": "am",
+        "Winter": "im"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "um halb neun (soat), am Dienstag (kun), im Winter (fasl).",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-time-prepositions-e05",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "time",
+      "grammar_topic": "g-time-prepositions",
+      "difficulty": 2,
+      "question": "Bo'sh joyni to'ldiring: \"___ der Nacht schlafe ich.\"",
+      "prompt_de": "___ der Nacht schlafe ich.",
+      "options": [
+        "In",
+        "Am",
+        "Um"
+      ],
+      "pairs": null,
+      "correct_answer": "In",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Istisno: in der Nacht (die Nacht — ayol jinsi).",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-time-prepositions-e06",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "grammar",
+      "topic": "work",
+      "grammar_topic": "g-time-prepositions",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Men soat 9 dan 5 gacha ishlayman.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich arbeite von 9 bis 5 Uhr.",
+      "accepted_answers": [
+        "Ich arbeite von neun bis fünf Uhr.",
+        "Ich arbeite von 9 bis 17 Uhr.",
+        "Ich arbeite von neun bis fünf.",
+        "Ich arbeite von 9 bis 5."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "dan ... gacha — von ... bis.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-time-prepositions-e07",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "travel",
+      "grammar_topic": "g-time-prepositions",
+      "difficulty": 1,
+      "question": "Xato so'zni toping: \"Wir fahren am Juli nach Buchara.\"",
+      "prompt_de": "Wir fahren am Juli nach Buchara.",
+      "options": [
+        "Wir",
+        "fahren",
+        "am",
+        "Juli",
+        "nach",
+        "Buchara"
+      ],
+      "pairs": null,
+      "correct_answer": "am",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Oy bilan im: Wir fahren im Juli nach Buchara.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

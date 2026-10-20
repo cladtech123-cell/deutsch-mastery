@@ -1,0 +1,303 @@
+{
+  "id": "a2-m20",
+  "version": 1,
+  "level": "A2",
+  "number": 20,
+  "title": "Takliflar, tadbirlar va tajribalar",
+  "title_de": "Einladungen, Feste und Erlebnisse",
+  "goals": [
+    "Tadbirga taklif qilish, taklifni qabul qilish yoki muloyim rad etish",
+    "Sana va vaqtni am, um, ab, von ... bis bilan aniq aytish",
+    "O'tgan bayram va tadbirlarni war va hatte bilan tasvirlash",
+    "O'z tajribasi haqida Perfekt va konnte/musste/wollte bilan hikoya qilish"
+  ],
+  "lessons": [
+    "a2-m20-l1",
+    "a2-m20-l2",
+    "a2-m20-l3"
+  ],
+  "module_test": [
+    {
+      "id": "mtest-a2-m20-01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "invitations",
+      "grammar_topic": "g-time-prepositions",
+      "difficulty": 1,
+      "question": "To'g'ri predlogni tanlang: \"Die Feier beginnt ___ 18 Uhr.\"",
+      "prompt_de": null,
+      "options": [
+        "am",
+        "um",
+        "im"
+      ],
+      "pairs": null,
+      "correct_answer": "um",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Soat oldidan \"um\".",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m20-02",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "past-events",
+      "grammar_topic": "g-praeteritum",
+      "difficulty": 1,
+      "question": "sein fe'lini Präteritumda yozing: Wo ___ du gestern Abend?",
+      "prompt_de": "Wo ___ du gestern Abend?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "warst",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "du bilan sein → warst.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m20-03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "past-events",
+      "grammar_topic": "g-praeteritum",
+      "difficulty": 1,
+      "question": "haben fe'lini Präteritumda yozing: Wir ___ keine Zeit.",
+      "prompt_de": "Wir ___ keine Zeit.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "hatten",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "wir bilan haben → hatten.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m20-04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-praeteritum",
+      "difficulty": 2,
+      "question": "To'g'ri shaklni tanlang: \"Ich ___ nicht kommen, ich war krank.\"",
+      "prompt_de": null,
+      "options": [
+        "konnte",
+        "kann",
+        "könnte"
+      ],
+      "pairs": null,
+      "correct_answer": "konnte",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ikkinchi gap o'tgan zamonda (war krank) — birinchisi ham: konnte.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m20-05",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "celebrations",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "So'zlarni juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "die Einladung",
+          "taklif"
+        ],
+        [
+          "die Stimmung",
+          "kayfiyat"
+        ],
+        [
+          "das Erlebnis",
+          "taassurot"
+        ],
+        [
+          "der Gastgeber",
+          "mezbon"
+        ]
+      ],
+      "correct_answer": {
+        "die Einladung": "taklif",
+        "die Stimmung": "kayfiyat",
+        "das Erlebnis": "taassurot",
+        "der Gastgeber": "mezbon"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Einladung — taklif, Stimmung — kayfiyat, Erlebnis — taassurot, Gastgeber — mezbon.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m20-06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "invitations",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Ovozli xabarni tinglang. Tomning qachon vaqti bor?",
+      "prompt_de": null,
+      "options": [
+        "Yakshanba kuni",
+        "Shanba kuni",
+        "Hech qachon"
+      ],
+      "pairs": null,
+      "correct_answer": "Yakshanba kuni",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Leider kann ich am Samstag nicht kommen ... Aber am Sonntag habe ich Zeit.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Hallo Sara, hier ist Tom. Danke für die Einladung! Leider kann ich am Samstag nicht kommen, ich muss nach Hamburg fahren. Aber am Sonntag habe ich Zeit."
+    },
+    {
+      "id": "mtest-a2-m20-07",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "invitations",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Taklifnomani o'qing. Javobni qachongacha berish kerak?",
+      "prompt_de": "Liebe Freunde, ich werde 30! Das möchte ich mit euch feiern: am Samstag, 8. März, ab 19 Uhr im Café Linde, Hauptstraße 5. Bitte sagt mir bis Mittwoch Bescheid. Eure Nilufar",
+      "options": [
+        "Chorshanbagacha",
+        "Shanbagacha",
+        "8-martgacha"
+      ],
+      "pairs": null,
+      "correct_answer": "Chorshanbagacha",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Bitte sagt mir bis Mittwoch Bescheid.\" — chorshanbagacha xabar bering.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m20-08",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "invitations",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Taklifni qabul qilyapsiz. Nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Ich komme gern! Soll ich etwas mitbringen?",
+        "Ich komme leider gern.",
+        "Danke, ich habe keine Lust gern."
+      ],
+      "pairs": null,
+      "correct_answer": "Ich komme gern! Soll ich etwas mitbringen?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Rozilik + yordam taklifi. Boshqa javoblar o'ziga zid.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m20-09",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "celebrations",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Kayfiyat ajoyib edi.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Die Stimmung war toll.",
+      "accepted_answers": [
+        "Die Stimmung war wunderschön.",
+        "Die Stimmung war super.",
+        "Die Stimmung war sehr gut.",
+        "Die Stimmung war prima.",
+        "Die Stimmung war großartig.",
+        "Die Stimmung war fantastisch."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Stimmung — kayfiyat; edi — war.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m20-10",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "celebrations",
+      "grammar_topic": "g-praeteritum",
+      "difficulty": 1,
+      "question": "Xato so'zni toping: \"Ich hatten gestern Geburtstag.\"",
+      "prompt_de": "Ich hatten gestern Geburtstag.",
+      "options": [
+        "Ich",
+        "hatten",
+        "gestern",
+        "Geburtstag"
+      ],
+      "pairs": null,
+      "correct_answer": "hatten",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: \"Ich hatte gestern Geburtstag.\" ich bilan — hatte.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "writing_task": {
+    "id": "w-a2-m20",
+    "title": "Bazm haqida do'stga xat",
+    "task_uz": "O'tgan hafta siz bazm, to'y yoki bayramda bo'ldingiz. Do'stingizga xat yozing: qayerda va qachon edingiz, kimlar bor edi, nima qildingiz (Perfekt), kayfiyat qanday edi (war/hatte), nima qiyin bo'ldi (musste/konnte). Oxirida do'stingizni keyingi tadbirga taklif qiling.",
+    "required_words": [
+      "war"
+    ],
+    "min_words": 40,
+    "max_words": 90,
+    "criteria": [
+      "Norasmiy murojaat (Liebe ... / Lieber ...) va xayrlashuv (Viele Grüße)",
+      "war va hatte to'g'ri ishlatilgan",
+      "Kamida ikkita harakat Perfektda aytilgan",
+      "musste, konnte yoki wollte bilan kamida bitta gap",
+      "Oxirida aniq kun va soat bilan taklif (am ..., um ...)"
+    ],
+    "sample_answer": "Liebe Sara, letzten Samstag war ich auf der Hochzeit von meiner Freundin Malika. Es waren 200 Gäste da. Wir haben viel getanzt und gut gegessen. Die Stimmung war wunderschön und wir hatten viel Spaß. Leider musste ich schon um 23 Uhr nach Hause fahren, denn ich musste am Sonntag arbeiten. Am nächsten Samstag feiere ich meinen Geburtstag. Hast du Lust? Die Party beginnt um 19 Uhr. Viele Grüße, Dilnoza"
+  }
+}

@@ -1,0 +1,844 @@
+{
+  "id": "a2-m23-l3",
+  "version": 1,
+  "level": "A2",
+  "module": 23,
+  "order": 3,
+  "title": "Tanlash va afzallik: ta'mirlash yoki yangisi?",
+  "title_de": "Lieber reparieren oder neu kaufen?",
+  "goal": "Dars oxirida kundalik ikki variantni (ta'mirlash yoki yangisi, avtobus yoki velosiped) solishtirib, afzallik va kamchilikni \"Der Vorteil ist, dass ...\" bilan ayta olasiz va \"Ich würde lieber ...\" bilan muloyim tanlov qilasiz.",
+  "skill_focus": [
+    "speaking",
+    "reading",
+    "grammar"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Kundalik qarorlarda variantlarni solishtiramiz: velosipedmi yoki avtobus? Ta'mirlashmi yoki yangisini olishmi? Bu darsda 19-moduldagi komparativni muloyim shakllar bilan birlashtiramiz."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Afzallik",
+        "Misol",
+        "O'zbekcha"
+      ],
+      "rows": [
+        [
+          "lieber",
+          "Ich fahre lieber mit dem Fahrrad.",
+          "Velosipedda yurishni afzal ko'raman."
+        ],
+        [
+          "Ich würde lieber ...",
+          "Ich würde lieber zu Fuß gehen.",
+          "Piyoda borishni afzal ko'rardim."
+        ],
+        [
+          "am liebsten",
+          "Am liebsten gehe ich zu Fuß.",
+          "Eng ko'p piyoda yurishni yoqtiraman."
+        ],
+        [
+          "Der Vorteil ist, dass ...",
+          "Der Vorteil ist, dass das Fahrrad billiger ist.",
+          "Afzalligi shundaki, velosiped arzonroq."
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Afzallik (der Vorteil) va kamchilikni (der Nachteil) dass bilan tushuntiring: Der Nachteil ist, dass es länger dauert. — Kamchiligi shundaki, ko'proq vaqt oladi."
+    },
+    {
+      "type": "tip",
+      "text": "\"Ich würde lieber ...\" — boshqa variantni juda muloyim taklif qilish usuli: \"Wollen wir mit dem Taxi fahren?\" — \"Hmm, ich würde lieber mit dem Bus fahren.\""
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-der-vorteil",
+      "de": "Vorteil",
+      "uz": "afzallik, ustunlik",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Vorteile",
+      "forms": null,
+      "example_de": "Ein Vorteil ist, dass das Ticket billig ist.",
+      "example_uz": "Bir afzalligi — chipta arzon.",
+      "topic": "general"
+    },
+    {
+      "id": "v-der-nachteil",
+      "de": "Nachteil",
+      "uz": "kamchilik",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Nachteile",
+      "forms": null,
+      "example_de": "Der Nachteil ist, dass der Bus oft spät kommt.",
+      "example_uz": "Kamchiligi — avtobus ko'pincha kechikadi.",
+      "topic": "general"
+    },
+    {
+      "id": "v-die-alternative",
+      "de": "Alternative",
+      "uz": "muqobil variant",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Alternativen",
+      "forms": null,
+      "example_de": "Gibt es eine Alternative?",
+      "example_uz": "Muqobil variant bormi?",
+      "topic": "general"
+    },
+    {
+      "id": "v-die-reparatur",
+      "de": "Reparatur",
+      "uz": "ta'mirlash",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Reparaturen",
+      "forms": null,
+      "example_de": "Die Reparatur dauert zwei Tage.",
+      "example_uz": "Ta'mirlash ikki kun davom etadi.",
+      "topic": "services"
+    },
+    {
+      "id": "v-der-fahrradladen",
+      "de": "Fahrradladen",
+      "uz": "velosiped do'koni (ustaxonasi)",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Fahrradläden",
+      "forms": null,
+      "example_de": "Der Fahrradladen repariert auch alte Räder.",
+      "example_uz": "Velosiped do'koni eski velosipedlarni ham ta'mirlaydi.",
+      "topic": "services"
+    },
+    {
+      "id": "v-die-energie",
+      "de": "Energie",
+      "uz": "energiya",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Energien",
+      "forms": null,
+      "example_de": "Wir müssen Energie sparen.",
+      "example_uz": "Energiyani tejashimiz kerak.",
+      "topic": "environment"
+    },
+    {
+      "id": "v-der-strom",
+      "de": "Strom",
+      "uz": "elektr (toki)",
+      "pos": "noun",
+      "article": "der",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Die neue Lampe braucht wenig Strom.",
+      "example_uz": "Yangi chiroq kam elektr sarflaydi.",
+      "topic": "environment"
+    },
+    {
+      "id": "v-vorziehen",
+      "de": "vorziehen",
+      "uz": "afzal ko'rmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "vorgezogen",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "zieht vor",
+        "praeteritum": "zog vor"
+      },
+      "example_de": "Ich ziehe den Zug dem Flugzeug vor.",
+      "example_uz": "Men poyezdni samolyotdan afzal ko'raman.",
+      "topic": "general"
+    },
+    {
+      "id": "v-schützen",
+      "de": "schützen",
+      "uz": "himoya qilmoq, asramoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "geschützt",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "schützt"
+      },
+      "example_de": "Wir schützen die Umwelt.",
+      "example_uz": "Biz atrof-muhitni asraymiz.",
+      "topic": "environment"
+    },
+    {
+      "id": "v-sparsam",
+      "de": "sparsam",
+      "uz": "tejamkor (kam sarflaydigan)",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Die neue Waschmaschine ist sparsamer.",
+      "example_uz": "Yangi kir yuvish mashinasi tejamkorroq.",
+      "topic": "environment"
+    },
+    {
+      "id": "v-bequem",
+      "de": "bequem",
+      "uz": "qulay, shinam",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Mit dem Auto ist es bequemer.",
+      "example_uz": "Mashinada qulayroq.",
+      "topic": "general"
+    },
+    {
+      "id": "v-sinnvoll",
+      "de": "sinnvoll",
+      "uz": "mantiqli, foydali (to'g'ri ish)",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Eine Reparatur ist oft sinnvoller.",
+      "example_uz": "Ta'mirlash ko'pincha to'g'riroq ish.",
+      "topic": "general"
+    },
+    {
+      "id": "v-ehrlich-gesagt",
+      "de": "ehrlich gesagt",
+      "uz": "rostini aytsam",
+      "pos": "phrase",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Ehrlich gesagt fahre ich lieber Bus.",
+      "example_uz": "Rostini aytsam, avtobusda yurishni afzal ko'raman.",
+      "topic": "communication"
+    }
+  ],
+  "review_vocabulary": [
+    "v-das-modell",
+    "v-sparen",
+    "v-als",
+    "v-am-liebsten",
+    "v-dass",
+    "v-das-gerät",
+    "v-die-umwelt"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-comparison",
+      "rule": "gern → lieber → am liebsten afzallikni bildiradi. \"lieber\" tuslangan fe'ldan keyin turadi: Ich trinke lieber Tee (als Kaffee). Muloyimroq: Ich würde lieber + ... + infinitiv (oxirda). Solishtirish uchun komparativ + als: Das Fahrrad ist billiger als das Auto.",
+      "when": "Ikki variant orasida tanlaganda va taklifga muloyim boshqa variant aytganda.",
+      "structure": "Ich + fe'l + lieber + ... (als ...).   Ich würde + ... + lieber + infinitiv.   Der Vorteil / Nachteil ist, dass ...",
+      "examples": [
+        {
+          "de": "Ich fahre lieber mit dem Fahrrad als mit dem Bus.",
+          "uz": "Avtobusdan ko'ra velosipedda yurishni afzal ko'raman."
+        },
+        {
+          "de": "Ich würde das alte Handy lieber reparieren.",
+          "uz": "Eski telefonni ta'mirlashni afzal ko'rardim."
+        },
+        {
+          "de": "Der Vorteil ist, dass eine Reparatur billiger ist.",
+          "uz": "Afzalligi shundaki, ta'mirlash arzonroq."
+        },
+        {
+          "de": "Am liebsten gehe ich zu Fuß.",
+          "uz": "Eng ko'p piyoda yurishni yoqtiraman."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Ich fahre mehr gern mit dem Bus.",
+          "right": "Ich fahre lieber mit dem Bus.",
+          "why": "gern ning komparativi — lieber. \"mehr gern\" deyilmaydi."
+        },
+        {
+          "wrong": "Ich würde lieber zu Fuß gehe.",
+          "right": "Ich würde lieber zu Fuß gehen.",
+          "why": "würde bilan ikkinchi fe'l infinitivda va oxirda."
+        },
+        {
+          "wrong": "Ich trinke lieber Tee wie Kaffee.",
+          "right": "Ich trinke lieber Tee als Kaffee.",
+          "why": "lieber ham komparativ — undan keyin \"als\"."
+        }
+      ],
+      "check": [
+        "a2-m23-l3-e03",
+        "a2-m23-l3-e04",
+        "a2-m23-l3-e05"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Kir yuvish mashinasi buzildi",
+    "lines": [
+      {
+        "speaker": "Nargiza",
+        "de": "Die Waschmaschine ist schon wieder kaputt. Sollen wir eine neue kaufen?",
+        "uz": "Kir yuvish mashinasi yana buzildi. Yangisini olaylikmi?"
+      },
+      {
+        "speaker": "Ben",
+        "de": "Hmm, ich würde sie lieber reparieren. Eine Reparatur ist billiger und besser für die Umwelt.",
+        "uz": "Hmm, men uni ta'mirlashni afzal ko'rardim. Ta'mirlash arzonroq va tabiat uchun yaxshiroq."
+      },
+      {
+        "speaker": "Nargiza",
+        "de": "Aber die Maschine ist schon zwölf Jahre alt. Neue Maschinen sind sparsamer, sie brauchen weniger Strom und Wasser.",
+        "uz": "Lekin mashina allaqachon o'n ikki yoshda. Yangi mashinalar tejamkorroq, kamroq elektr va suv sarflaydi."
+      },
+      {
+        "speaker": "Ben",
+        "de": "Das stimmt. Was kostet die Reparatur denn?",
+        "uz": "To'g'ri. Ta'mirlash qancha turadi?"
+      },
+      {
+        "speaker": "Nargiza",
+        "de": "Der Handwerker sagt, ungefähr 180 Euro. Eine neue kostet 450 Euro.",
+        "uz": "Usta taxminan 180 yevro deyapti. Yangisi 450 yevro turadi."
+      },
+      {
+        "speaker": "Ben",
+        "de": "Okay, der Nachteil ist, dass eine neue teurer ist. Aber auf lange Sicht sparen wir Geld. Kaufen wir eine neue!",
+        "uz": "Mayli, kamchiligi — yangisi qimmatroq. Lekin uzoq muddatda pul tejaymiz. Yangisini olamiz!"
+      }
+    ],
+    "questions": [
+      "a2-m23-l3-e06",
+      "a2-m23-l3-e07"
+    ]
+  },
+  "situation": {
+    "title": "Velosiped ustaxonasida",
+    "context_uz": "Velosipedingizning tormozi ishlamay qoldi. Velosiped do'koniga borib, ta'mirlash yoki yangisini olish haqida so'raysiz.",
+    "lines": [
+      {
+        "speaker": "Mechaniker",
+        "de": "Hallo! Was ist das Problem?",
+        "uz": "Salom! Muammo nima?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Hallo. Die Bremse funktioniert nicht mehr. Könnten Sie sich das Fahrrad mal ansehen?",
+        "uz": "Salom. Tormoz endi ishlamayapti. Velosipedni bir ko'rib bera olarmidingiz?"
+      },
+      {
+        "speaker": "Mechaniker",
+        "de": "Klar. Hmm, die Reparatur kostet ungefähr 60 Euro.",
+        "uz": "Albatta. Hmm, ta'mirlash taxminan 60 yevro turadi."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Und was kostet ein neues Fahrrad?",
+        "uz": "Yangi velosiped-chi, qancha turadi?"
+      },
+      {
+        "speaker": "Mechaniker",
+        "de": "Ein einfaches Modell kostet ab 300 Euro. Aber Ihr Fahrrad ist noch gut. Ich würde es lieber reparieren.",
+        "uz": "Oddiy model 300 yevrodan boshlanadi. Lekin velosipedingiz hali yaxshi. Men uni ta'mirlashni afzal ko'rardim."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Gut, dann reparieren Sie es bitte. Wann ist es fertig?",
+        "uz": "Yaxshi, unda iltimos, ta'mirlang. Qachon tayyor bo'ladi?"
+      },
+      {
+        "speaker": "Mechaniker",
+        "de": "Morgen ab 16 Uhr.",
+        "uz": "Ertaga soat 16 dan keyin."
+      }
+    ],
+    "task_uz": "O'zingizdagi buzilgan narsa (telefon, poyabzal, velosiped) bo'yicha usta bilan dialog tuzing: muammo, muloyim iltimos (Könnten Sie ...?), narxlarni solishtirish va qaror (Ich würde lieber ...)."
+  },
+  "exercises": [
+    {
+      "id": "a2-m23-l3-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "environment",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemischa so'zni o'zbekcha ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "der Vorteil",
+          "afzallik"
+        ],
+        [
+          "der Nachteil",
+          "kamchilik"
+        ],
+        [
+          "die Reparatur",
+          "ta'mirlash"
+        ],
+        [
+          "der Strom",
+          "elektr"
+        ],
+        [
+          "die Energie",
+          "energiya"
+        ]
+      ],
+      "correct_answer": {
+        "der Vorteil": "afzallik",
+        "der Nachteil": "kamchilik",
+        "die Reparatur": "ta'mirlash",
+        "der Strom": "elektr",
+        "die Energie": "energiya"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Vorteil — afzallik, Nachteil — kamchilik, Reparatur — ta'mirlash, Strom — elektr, Energie — energiya.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m23-l3-e02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "environment",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Mashina kam elektr va suv sarflaydi. Mos so'zni tanlang: \"Die Maschine ist ___.\"",
+      "prompt_de": "Die Maschine ist ___.",
+      "options": [
+        "sparsam",
+        "bequem",
+        "sinnvoll"
+      ],
+      "pairs": null,
+      "correct_answer": "sparsam",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "sparsam — tejamkor. bequem — qulay, sinnvoll — mantiqli.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m23-l3-e03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-comparison",
+      "difficulty": 1,
+      "question": "To'g'ri variantni tanlang: \"Ich trinke ___ Tee als Kaffee.\"",
+      "prompt_de": null,
+      "options": [
+        "lieber",
+        "mehr gern",
+        "am liebsten"
+      ],
+      "pairs": null,
+      "correct_answer": "lieber",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ikki narsadan birini afzal ko'rish — lieber ... als. \"mehr gern\" yo'q, \"am liebsten\" esa \"als\" bilan kelmaydi.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m23-l3-e04",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "transport",
+      "grammar_topic": "g-polite-requests",
+      "difficulty": 1,
+      "question": "Fe'lni yozing (gehen): \"Ich würde lieber zu Fuß ___.\"",
+      "prompt_de": "Ich würde lieber zu Fuß ___.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "gehen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "würde bilan ikkinchi fe'l infinitivda: gehen.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m23-l3-e05",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "technology",
+      "grammar_topic": "g-comparison",
+      "difficulty": 1,
+      "question": "So'zlarni tartiblang: \"Telefonni ta'mirlashni afzal ko'rardim.\"",
+      "prompt_de": null,
+      "options": [
+        "das",
+        "Ich",
+        "Handy",
+        "lieber",
+        "reparieren",
+        "würde"
+      ],
+      "pairs": null,
+      "correct_answer": "Ich würde das Handy lieber reparieren.",
+      "accepted_answers": [
+        "Ich würde lieber das Handy reparieren."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "würde — 2-o'rinda, infinitiv reparieren — oxirda; lieber o'rtada.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m23-l3-e06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "household",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Ben dastlab nima taklif qiladi?",
+      "prompt_de": null,
+      "options": [
+        "Mashinani ta'mirlashni",
+        "Yangisini olishni",
+        "Kirni qo'lda yuvishni"
+      ],
+      "pairs": null,
+      "correct_answer": "Mashinani ta'mirlashni",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"ich würde sie lieber reparieren\".",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Hmm, ich würde sie lieber reparieren. Eine Reparatur ist billiger und besser für die Umwelt."
+    },
+    {
+      "id": "a2-m23-l3-e07",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "services",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Ta'mirlash qancha turadi?",
+      "prompt_de": null,
+      "options": [
+        "Taxminan 180 yevro",
+        "450 yevro",
+        "18 yevro"
+      ],
+      "pairs": null,
+      "correct_answer": "Taxminan 180 yevro",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"ungefähr 180 Euro\" — taxminan 180 yevro; 450 yevro — yangisining narxi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Der Handwerker sagt, ungefähr 180 Euro. Eine neue kostet 450 Euro."
+    },
+    {
+      "id": "a2-m23-l3-e08",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "transport",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Matnni o'qing. Qishda muallif ishga nimada boradi?",
+      "prompt_de": "Zur Arbeit: Mit dem Auto brauche ich 20 Minuten, aber ich muss lange einen Parkplatz suchen. Mit dem Bus brauche ich 35 Minuten, das Ticket kostet 49 Euro im Monat. Mit dem Fahrrad brauche ich 30 Minuten. Das ist am billigsten und am gesündesten, aber im Winter ist es kalt. Im Sommer fahre ich am liebsten mit dem Fahrrad, im Winter lieber mit dem Bus.",
+      "options": [
+        "Avtobusda",
+        "Velosipedda",
+        "Mashinada"
+      ],
+      "pairs": null,
+      "correct_answer": "Avtobusda",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"im Winter lieber mit dem Bus\".",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m23-l3-e09",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "transport",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Do'stingiz: \"Wollen wir mit dem Taxi fahren?\" Siz avtobusni afzal ko'rasiz. Muloyim javob:",
+      "prompt_de": null,
+      "options": [
+        "Ich würde lieber mit dem Bus fahren. Das ist billiger.",
+        "Ich fahre am liebsten Taxi nicht.",
+        "Ich würde mehr gern Bus fahren."
+      ],
+      "pairs": null,
+      "correct_answer": "Ich würde lieber mit dem Bus fahren. Das ist billiger.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ich würde lieber + infinitiv — muloyim boshqa taklif. \"mehr gern\" xato.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m23-l3-e10",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "transport",
+      "grammar_topic": "g-subordinate",
+      "difficulty": 3,
+      "question": "Nemis tiliga tarjima qiling: \"Afzalligi shundaki, velosiped arzonroq.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Der Vorteil ist, dass das Fahrrad billiger ist.",
+      "accepted_answers": [
+        "Der Vorteil ist, dass das Fahrrad günstiger ist.",
+        "Der Vorteil ist: Das Fahrrad ist billiger.",
+        "Der Vorteil ist: Das Fahrrad ist günstiger."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Der Vorteil ist, dass ... (fe'l oxirida); arzonroq — billiger / günstiger.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m23-l3-e11",
+      "version": 1,
+      "type": "short_text",
+      "skill": "writing",
+      "topic": "services",
+      "grammar_topic": null,
+      "difficulty": 3,
+      "question": "Telefoningiz buzildi: ta'mirlash 90 yevro, yangisi 400 yevro. Nima qilasiz? 4–5 gap yozing: afzallik va kamchilik (Der Vorteil/Nachteil ist, dass ...) va qaror (Ich würde lieber ...).",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 30,
+        "required_words": [
+          "lieber"
+        ],
+        "sample": "Mein Handy ist kaputt. Die Reparatur kostet 90 Euro, ein neues Handy 400 Euro. Der Vorteil von einem neuen Handy ist, dass die Kamera besser ist. Der Nachteil ist, dass es viel teurer ist. Ich würde das alte Handy lieber reparieren, weil das besser für die Umwelt ist."
+      },
+      "hint": null,
+      "explanation": "Yaxshi javobda: narxlar solishtirilgan (komparativ), dass bilan afzallik/kamchilik, \"Ich würde lieber ...\" bilan qaror.",
+      "error_type": "vocabulary",
+      "points": 3,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a2-m23-l3-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "transport",
+      "grammar_topic": "g-comparison",
+      "difficulty": 1,
+      "question": "To'g'ri variantni tanlang: \"Im Sommer fahre ich ___ mit dem Fahrrad.\"",
+      "prompt_de": null,
+      "options": [
+        "am liebsten",
+        "am lieber",
+        "am gernsten"
+      ],
+      "pairs": null,
+      "correct_answer": "am liebsten",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "gern → lieber → am liebsten.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m23-l3-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "sports",
+      "grammar_topic": "g-comparison",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: \"Ich spiele lieber Fußball ___ Tennis.\"",
+      "prompt_de": "Ich spiele lieber Fußball ___ Tennis.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "als",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "lieber — komparativ, undan keyin \"als\".",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m23-l3-t03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "transport",
+      "grammar_topic": "g-polite-requests",
+      "difficulty": 1,
+      "question": "To'g'ri shaklni tanlang: \"Ich ___ lieber mit dem Bus fahren.\"",
+      "prompt_de": null,
+      "options": [
+        "würde",
+        "wurde",
+        "hätte"
+      ],
+      "pairs": null,
+      "correct_answer": "würde",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Muloyim afzallik: Ich würde lieber ... Wurde — o'tgan zamon, hätte — haben dan.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m23-l3-t04",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "environment",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Nargiza fikricha yangi mashinaning afzalligi nima?",
+      "prompt_de": null,
+      "options": [
+        "Kamroq elektr va suv sarflaydi",
+        "Arzonroq",
+        "Kichikroq"
+      ],
+      "pairs": null,
+      "correct_answer": "Kamroq elektr va suv sarflaydi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Neue Maschinen sind sparsamer, sie brauchen weniger Strom und Wasser.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Neue Maschinen sind sparsamer, sie brauchen weniger Strom und Wasser."
+    },
+    {
+      "id": "a2-m23-l3-t05",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Ich würde lieber zu Hause bleiben.\"",
+      "prompt_de": "Ich würde lieber zu Hause bleiben.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Men uyda qolishni afzal ko'rardim.",
+      "accepted_answers": [
+        "Uyda qolishni afzal ko'rardim.",
+        "Men uyda qolganim ma'qul.",
+        "Uyda qolganim ma'qul.",
+        "Uyda qolganim yaxshiroq.",
+        "Men uyda qolishni afzal ko'raman."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ich würde lieber ... — ...ni afzal ko'rardim.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m23-l3-t06",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "services",
+      "grammar_topic": "g-comparison",
+      "difficulty": 1,
+      "question": "Xato so'zni toping: \"Die Reparatur ist billiger wie ein neues Gerät.\"",
+      "prompt_de": "Die Reparatur ist billiger wie ein neues Gerät.",
+      "options": [
+        "Reparatur",
+        "ist",
+        "billiger",
+        "wie",
+        "Gerät"
+      ],
+      "pairs": null,
+      "correct_answer": "wie",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Komparativdan keyin \"als\": billiger als ein neues Gerät.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m23-l3-t07",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "services",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Usta: \"Die Reparatur kostet 60 Euro.\" Siz velosiped qachon tayyor bo'lishini muloyim so'raysiz.",
+      "prompt_de": null,
+      "options": [
+        "Könnten Sie mir sagen, wann das Fahrrad fertig ist?",
+        "Wann ist das Fahrrad fertig ist?",
+        "Konnten Sie das Fahrrad gestern reparieren?"
+      ],
+      "pairs": null,
+      "correct_answer": "Könnten Sie mir sagen, wann das Fahrrad fertig ist?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Muloyim savol: Könnten Sie mir sagen, wann ...? wann-gapda fe'l (ist) oxirida. Ikkinchisida ikki fe'l, uchinchisida o'tgan zamon.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

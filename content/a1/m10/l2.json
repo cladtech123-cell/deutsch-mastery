@@ -1,0 +1,870 @@
+{
+  "id": "a1-m10-l2",
+  "version": 1,
+  "level": "A1",
+  "module": 10,
+  "order": 2,
+  "title": "Transport",
+  "title_de": "Mit Bus und Bahn",
+  "goal": "Dars oxirida transport turlarini aytasiz (mit dem Bus, mit der U-Bahn, zu Fuß), \"abfahren, ankommen, umsteigen\" ajraladigan fe'llari bilan jadvalni tushunasiz va qanday borishingizni tushuntira olasiz.",
+  "skill_focus": [
+    "vocabulary",
+    "grammar",
+    "listening"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Qanday borishni aytish uchun \"mit\" + transport ishlatiladi. mit dan keyin artikl o'zgaradi (Dativ): der/das → dem, die → der. Hozircha tayyor ibora sifatida yodlang. Piyoda — zu Fuß."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Transport",
+        "mit ...",
+        "O'zbekcha"
+      ],
+      "rows": [
+        [
+          "der Bus",
+          "mit dem Bus",
+          "avtobusda"
+        ],
+        [
+          "der Zug",
+          "mit dem Zug",
+          "poyezdda"
+        ],
+        [
+          "das Auto",
+          "mit dem Auto",
+          "mashinada"
+        ],
+        [
+          "das Fahrrad",
+          "mit dem Fahrrad",
+          "velosipedda"
+        ],
+        [
+          "die U-Bahn",
+          "mit der U-Bahn",
+          "metroda"
+        ],
+        [
+          "die Straßenbahn",
+          "mit der Straßenbahn",
+          "tramvayda"
+        ],
+        [
+          "—",
+          "zu Fuß",
+          "piyoda"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "fahren — (transportda) bormoq. Nomuntazam: du fährst, er fährt. gehen — piyoda bormoq: Ich gehe zu Fuß."
+    },
+    {
+      "type": "p",
+      "text": "Ajraladigan fe'llarni 6-modulda ko'rgansiz. Transportda ular juda ko'p: abfahren (jo'namoq), ankommen (yetib kelmoq), umsteigen (boshqa transportga o'tmoq). Hozirgi zamonda old qo'shimcha gap oxiriga ketadi: Der Zug fährt um 8 Uhr ab."
+    },
+    {
+      "type": "tip",
+      "text": "Modal fe'l bilan old qo'shimcha ajralmaydi: Ich möchte in Köln umsteigen. Ich kann um 9 Uhr ankommen."
+    },
+    {
+      "type": "tip",
+      "text": "Germaniyada vokzal ekranida: \"Abfahrt\" — jo'nash, \"Ankunft\" — kelish, \"Gleis\" — yo'l (platforma)."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-der-bus",
+      "de": "Bus",
+      "uz": "avtobus",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Busse",
+      "forms": null,
+      "example_de": "Ich fahre mit dem Bus.",
+      "example_uz": "Men avtobusda boraman.",
+      "topic": "transport"
+    },
+    {
+      "id": "v-die-u-bahn",
+      "de": "U-Bahn",
+      "uz": "metro",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die U-Bahnen",
+      "forms": null,
+      "example_de": "Die U-Bahn ist schnell.",
+      "example_uz": "Metro tez.",
+      "topic": "transport"
+    },
+    {
+      "id": "v-die-straßenbahn",
+      "de": "Straßenbahn",
+      "uz": "tramvay",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Straßenbahnen",
+      "forms": null,
+      "example_de": "Die Straßenbahn kommt alle zehn Minuten.",
+      "example_uz": "Tramvay har o'n daqiqada keladi.",
+      "topic": "transport"
+    },
+    {
+      "id": "v-der-zug",
+      "de": "Zug",
+      "uz": "poyezd",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Züge",
+      "forms": null,
+      "example_de": "Der Zug nach Berlin ist pünktlich.",
+      "example_uz": "Berlinga boradigan poyezd o'z vaqtida.",
+      "topic": "transport"
+    },
+    {
+      "id": "v-das-fahrrad",
+      "de": "Fahrrad",
+      "uz": "velosiped",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Fahrräder",
+      "forms": null,
+      "example_de": "Ich fahre gern Fahrrad.",
+      "example_uz": "Men velosiped haydashni yaxshi ko'raman.",
+      "topic": "transport"
+    },
+    {
+      "id": "v-das-taxi",
+      "de": "Taxi",
+      "uz": "taksi",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Taxis",
+      "forms": null,
+      "example_de": "Wir nehmen ein Taxi.",
+      "example_uz": "Biz taksiga o'tiramiz.",
+      "topic": "transport"
+    },
+    {
+      "id": "v-die-fahrkarte",
+      "de": "Fahrkarte",
+      "uz": "chipta (yo'l chiptasi)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Fahrkarten",
+      "forms": null,
+      "example_de": "Ich brauche eine Fahrkarte.",
+      "example_uz": "Menga chipta kerak.",
+      "topic": "transport"
+    },
+    {
+      "id": "v-das-gleis",
+      "de": "Gleis",
+      "uz": "yo'l, platforma (vokzalda)",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Gleise",
+      "forms": null,
+      "example_de": "Der Zug fährt von Gleis 3 ab.",
+      "example_uz": "Poyezd 3-yo'ldan jo'naydi.",
+      "topic": "transport"
+    },
+    {
+      "id": "v-abfahren",
+      "de": "abfahren",
+      "uz": "jo'nab ketmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "abgefahren",
+        "perfekt_aux": "sein",
+        "praesens_3sg": "fährt ab"
+      },
+      "example_de": "Der Bus fährt um 7 Uhr ab.",
+      "example_uz": "Avtobus soat 7 da jo'naydi.",
+      "topic": "transport"
+    },
+    {
+      "id": "v-ankommen",
+      "de": "ankommen",
+      "uz": "yetib kelmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "angekommen",
+        "perfekt_aux": "sein",
+        "praesens_3sg": "kommt an"
+      },
+      "example_de": "Wir kommen um 10 Uhr an.",
+      "example_uz": "Biz soat 10 da yetib kelamiz.",
+      "topic": "transport"
+    },
+    {
+      "id": "v-umsteigen",
+      "de": "umsteigen",
+      "uz": "boshqa transportga o'tmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "umgestiegen",
+        "perfekt_aux": "sein",
+        "praesens_3sg": "steigt um"
+      },
+      "example_de": "Ich steige am Hauptbahnhof um.",
+      "example_uz": "Men markaziy vokzalda boshqasiga o'taman.",
+      "topic": "transport"
+    },
+    {
+      "id": "v-zu-fuß",
+      "de": "zu Fuß",
+      "uz": "piyoda",
+      "pos": "phrase",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Ich gehe zu Fuß zur Arbeit.",
+      "example_uz": "Men ishga piyoda boraman.",
+      "topic": "transport"
+    }
+  ],
+  "review_vocabulary": [
+    "v-der-bahnhof",
+    "v-die-haltestelle",
+    "v-das-zentrum",
+    "v-können",
+    "v-kosten",
+    "v-die-karte",
+    "v-das-auto",
+    "v-fahren"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-separable-verbs",
+      "rule": "Ajraladigan fe'lning old qo'shimchasi (ab-, an-, um-) hozirgi zamonda gap oxiriga ketadi. Asosiy qism (fährt, kommt, steigt) 2-o'rinda turadi. Modal fe'l bilan fe'l butun holda oxirda qoladi.",
+      "when": "Transport jadvali, jo'nash va kelish vaqti, almashish joyi haqida gapirganda.",
+      "structure": "Ega + asosiy fe'l + ... + old qo'shimcha: Der Zug fährt um 8 Uhr ab.\nSavol: Wann kommt der Bus an?\nModal bilan: Ich möchte in Köln umsteigen.",
+      "examples": [
+        {
+          "de": "Der Zug fährt um 9:15 Uhr ab.",
+          "uz": "Poyezd 9:15 da jo'naydi."
+        },
+        {
+          "de": "Wir kommen um 12 Uhr in Berlin an.",
+          "uz": "Biz soat 12 da Berlinga yetib kelamiz."
+        },
+        {
+          "de": "Ich steige am Hauptbahnhof um.",
+          "uz": "Men markaziy vokzalda boshqa transportga o'taman."
+        },
+        {
+          "de": "Wann kommt der Bus an?",
+          "uz": "Avtobus qachon keladi?"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Der Zug abfährt um 8 Uhr.",
+          "right": "Der Zug fährt um 8 Uhr ab.",
+          "why": "Hozirgi zamonda \"ab\" ajralib, gap oxiriga ketadi."
+        },
+        {
+          "wrong": "Ich steige um in Köln.",
+          "right": "Ich steige in Köln um.",
+          "why": "Old qo'shimcha eng oxirida turadi — joy undan oldin."
+        },
+        {
+          "wrong": "Er fahrt mit dem Bus.",
+          "right": "Er fährt mit dem Bus.",
+          "why": "fahren nomuntazam: du fährst, er fährt (a → ä)."
+        }
+      ],
+      "check": [
+        "a1-m10-l2-e04",
+        "a1-m10-l2-e05",
+        "a1-m10-l2-e06",
+        "a1-m10-l2-e12"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Vokzalda",
+    "lines": [
+      {
+        "speaker": "Gulnora",
+        "de": "Entschuldigung, wann fährt der Zug nach Hamburg ab?",
+        "uz": "Kechirasiz, Gamburgga poyezd qachon jo'naydi?"
+      },
+      {
+        "speaker": "Mitarbeiter",
+        "de": "Der nächste Zug fährt um 10:20 Uhr ab, von Gleis 7.",
+        "uz": "Keyingi poyezd soat 10:20 da, 7-yo'ldan jo'naydi."
+      },
+      {
+        "speaker": "Gulnora",
+        "de": "Und wo steige ich um?",
+        "uz": "Qayerda boshqa poyezdga o'taman?"
+      },
+      {
+        "speaker": "Mitarbeiter",
+        "de": "Sie steigen in Hannover um.",
+        "uz": "Gannoverda almashasiz."
+      },
+      {
+        "speaker": "Gulnora",
+        "de": "Wann komme ich in Hamburg an?",
+        "uz": "Gamburgga qachon yetib boraman?"
+      },
+      {
+        "speaker": "Mitarbeiter",
+        "de": "Um 13:45 Uhr.",
+        "uz": "Soat 13:45 da."
+      },
+      {
+        "speaker": "Gulnora",
+        "de": "Danke! Wo kaufe ich eine Fahrkarte?",
+        "uz": "Rahmat! Chiptani qayerdan olaman?"
+      },
+      {
+        "speaker": "Mitarbeiter",
+        "de": "Dort am Automaten.",
+        "uz": "Ana u avtomatdan."
+      }
+    ],
+    "questions": [
+      "a1-m10-l2-e07",
+      "a1-m10-l2-e08"
+    ]
+  },
+  "situation": {
+    "title": "Ishga qanday borasan?",
+    "context_uz": "Yangi ishxonangizda hamkasbingiz Lukas siz bilan tanishyapti va ishga qanday kelishingizni so'rayapti.",
+    "lines": [
+      {
+        "speaker": "Lukas",
+        "de": "Wie kommst du zur Arbeit?",
+        "uz": "Ishga qanday kelasan?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ich fahre mit der U-Bahn. Ich steige am Marktplatz um.",
+        "uz": "Metroda kelaman. Bozor maydonida almashaman."
+      },
+      {
+        "speaker": "Lukas",
+        "de": "Und dann?",
+        "uz": "Keyin-chi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Dann fahre ich mit dem Bus. Ich komme um 8:50 Uhr an. Und du?",
+        "uz": "Keyin avtobusda kelaman. Soat 8:50 da yetib kelaman. Sen-chi?"
+      },
+      {
+        "speaker": "Lukas",
+        "de": "Ich fahre mit dem Fahrrad. Das ist schnell und billig.",
+        "uz": "Men velosipedda kelaman. Bu tez va arzon."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Super! Ich gehe manchmal zu Fuß.",
+        "uz": "Zo'r! Men ba'zan piyoda kelaman."
+      }
+    ],
+    "task_uz": "Siz ham ishga yoki kursga qanday borishingizni ayting: qaysi transport (mit dem/der ...), qayerda almashasiz (umsteigen), qachon yetib kelasiz (ankommen)."
+  },
+  "exercises": [
+    {
+      "id": "a1-m10-l2-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "transport",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "So'zlarni juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "Zug",
+          "poyezd"
+        ],
+        [
+          "Fahrrad",
+          "velosiped"
+        ],
+        [
+          "Fahrkarte",
+          "chipta"
+        ],
+        [
+          "Gleis",
+          "platforma"
+        ],
+        [
+          "Straßenbahn",
+          "tramvay"
+        ]
+      ],
+      "correct_answer": {
+        "Zug": "poyezd",
+        "Fahrrad": "velosiped",
+        "Fahrkarte": "chipta",
+        "Gleis": "platforma",
+        "Straßenbahn": "tramvay"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Zug — poyezd, Fahrrad — velosiped, Fahrkarte — chipta, Gleis — yo'l/platforma, Straßenbahn — tramvay.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l2-e02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "transport",
+      "grammar_topic": "g-dativ",
+      "difficulty": 1,
+      "question": "To'g'ri variantni tanlang: Ich fahre mit ___ Bus.",
+      "prompt_de": "Ich fahre mit ___ Bus.",
+      "options": [
+        "dem",
+        "der",
+        "den"
+      ],
+      "pairs": null,
+      "correct_answer": "dem",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Bus → mit dem Bus. mit dan keyin der/das → dem.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l2-e03",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "transport",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "Fe'lni tuslang: Du ___ (fahren) mit dem Auto.",
+      "prompt_de": "Du ___ (fahren) mit dem Auto.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "fährst",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "a → ä",
+      "explanation": "fahren nomuntazam: du fährst (a → ä).",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l2-e04",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "transport",
+      "grammar_topic": "g-separable-verbs",
+      "difficulty": 1,
+      "question": "So'zlarni tartiblang: \"Poyezd soat sakkizda jo'naydi.\"",
+      "prompt_de": null,
+      "options": [
+        "ab",
+        "fährt",
+        "um",
+        "acht",
+        "Uhr",
+        "Der",
+        "Zug"
+      ],
+      "pairs": null,
+      "correct_answer": "Der Zug fährt um acht Uhr ab",
+      "accepted_answers": [
+        "Um acht Uhr fährt der Zug ab"
+      ],
+      "criteria": null,
+      "hint": "ab — oxirida",
+      "explanation": "fährt 2-o'rinda, \"ab\" — gap oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l2-e05",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "transport",
+      "grammar_topic": "g-separable-verbs",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (ankommen): Wir kommen um 10 Uhr in Berlin ___.",
+      "prompt_de": "Wir kommen um 10 Uhr in Berlin ___.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "an",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "ankommen → wir kommen ... an.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l2-e06",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "transport",
+      "grammar_topic": "g-separable-verbs",
+      "difficulty": 1,
+      "question": "Xato so'zni toping: \"Der Bus abfährt um 7 Uhr.\"",
+      "prompt_de": "Der Bus abfährt um 7 Uhr.",
+      "options": [
+        "Der",
+        "Bus",
+        "abfährt",
+        "um",
+        "7",
+        "Uhr"
+      ],
+      "pairs": null,
+      "correct_answer": "abfährt",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: \"Der Bus fährt um 7 Uhr ab.\" Old qo'shimcha ajralib, oxiriga ketadi.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l2-e07",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "transport",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni tinglang. Poyezd qaysi yo'ldan (Gleis) jo'naydi?",
+      "prompt_de": null,
+      "options": [
+        "7",
+        "10",
+        "13"
+      ],
+      "pairs": null,
+      "correct_answer": "7",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"von Gleis 7\". 10:20 — jo'nash vaqti.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Entschuldigung, wann fährt der Zug nach Hamburg ab? Der nächste Zug fährt um 10:20 Uhr ab, von Gleis 7. Und wo steige ich um? Sie steigen in Hannover um. Wann komme ich in Hamburg an? Um 13:45 Uhr. Danke! Wo kaufe ich eine Fahrkarte? Dort am Automaten."
+    },
+    {
+      "id": "a1-m10-l2-e08",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "transport",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni tinglang. Gulnora qayerda poyezd almashtiradi?",
+      "prompt_de": null,
+      "options": [
+        "Gannoverda",
+        "Gamburgda",
+        "Berlinda"
+      ],
+      "pairs": null,
+      "correct_answer": "Gannoverda",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Sie steigen in Hannover um.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Entschuldigung, wann fährt der Zug nach Hamburg ab? Der nächste Zug fährt um 10:20 Uhr ab, von Gleis 7. Und wo steige ich um? Sie steigen in Hannover um. Wann komme ich in Hamburg an? Um 13:45 Uhr. Danke! Wo kaufe ich eine Fahrkarte? Dort am Automaten."
+    },
+    {
+      "id": "a1-m10-l2-e09",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "transport",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemis tiliga tarjima qiling: \"Men piyoda boraman.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich gehe zu Fuß.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "gehen + zu Fuß",
+      "explanation": "Piyoda — zu Fuß, fe'l — gehen (fahren emas).",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l2-e10",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "transport",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang va yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Wo steige ich um?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "umsteigen → ich steige ... um. Savolda ham \"um\" oxirida.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": "Wo steige ich um?"
+    },
+    {
+      "id": "a1-m10-l2-e11",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "transport",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Qaysi transport yer ostida yuradi?",
+      "prompt_de": null,
+      "options": [
+        "die U-Bahn",
+        "die Straßenbahn",
+        "das Taxi"
+      ],
+      "pairs": null,
+      "correct_answer": "die U-Bahn",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "U-Bahn (Untergrundbahn) — metro. Straßenbahn — ko'chada yuradigan tramvay.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l2-e12",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "transport",
+      "grammar_topic": "g-separable-verbs",
+      "difficulty": 1,
+      "question": "Fe'lni yozing (umsteigen): Ich ___ am Marktplatz um.",
+      "prompt_de": "Ich ___ am Marktplatz um.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "steige",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "umsteigen: asosiy qism \"steige\" 2-o'rinda, \"um\" oxirida.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a1-m10-l2-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "transport",
+      "grammar_topic": "g-dativ",
+      "difficulty": 1,
+      "question": "To'g'ri variantni tanlang: Ich fahre mit ___ U-Bahn.",
+      "prompt_de": "Ich fahre mit ___ U-Bahn.",
+      "options": [
+        "der",
+        "dem",
+        "die"
+      ],
+      "pairs": null,
+      "correct_answer": "der",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die U-Bahn → mit der U-Bahn.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l2-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "transport",
+      "grammar_topic": "g-separable-verbs",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (abfahren): Der Zug fährt um 9 Uhr ___.",
+      "prompt_de": "Der Zug fährt um 9 Uhr ___.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "ab",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "abfahren → fährt ... ab.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l2-t03",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "transport",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "Fe'lni tuslang: Er ___ (fahren) mit dem Fahrrad.",
+      "prompt_de": "Er ___ (fahren) mit dem Fahrrad.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "fährt",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "er → fährt (a → ä).",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l2-t04",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "transport",
+      "grammar_topic": "g-separable-verbs",
+      "difficulty": 1,
+      "question": "So'zlarni tartiblang: \"Biz Kyolnda almashamiz.\"",
+      "prompt_de": null,
+      "options": [
+        "um",
+        "Köln",
+        "in",
+        "steigen",
+        "Wir"
+      ],
+      "pairs": null,
+      "correct_answer": "Wir steigen in Köln um",
+      "accepted_answers": [
+        "In Köln steigen wir um"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "steigen 2-o'rinda, \"um\" oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l2-t05",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "transport",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Ich gehe zu Fuß.\"",
+      "prompt_de": "Ich gehe zu Fuß.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Men piyoda boraman.",
+      "accepted_answers": [
+        "Piyoda boraman",
+        "Men piyoda yuraman",
+        "Men piyoda ketaman"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "zu Fuß — piyoda.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m10-l2-t06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "transport",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Avtobus qachon keladi?",
+      "prompt_de": null,
+      "options": [
+        "8:40",
+        "8:14",
+        "4:40"
+      ],
+      "pairs": null,
+      "correct_answer": "8:40",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"um 8:40 Uhr\" — acht Uhr vierzig.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Der Bus kommt um 8:40 Uhr an."
+    },
+    {
+      "id": "a1-m10-l2-t07",
+      "version": 1,
+      "type": "plural",
+      "skill": "vocabulary",
+      "topic": "transport",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Ko'plik shaklini yozing: der Zug → die ___",
+      "prompt_de": "der Zug",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Züge",
+      "accepted_answers": [
+        "die Züge"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Zug → die Züge (u → ü, -e).",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

@@ -1,0 +1,813 @@
+{
+  "id": "a2-m20-l2",
+  "version": 1,
+  "level": "A2",
+  "module": 20,
+  "order": 2,
+  "title": "Bayramlar va tadbirlar: war va hatte",
+  "title_de": "Feste feiern: war und hatte",
+  "goal": "Dars oxirida o'tgan bayram yoki tadbir qanday o'tganini \"war\" va \"hatte\" bilan aytib bera olasiz va \"Wie war ...?\" savoliga javob qaytarasiz.",
+  "skill_focus": [
+    "grammar",
+    "listening",
+    "speaking"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "O'tgan voqealar haqida gapirganda ko'p fe'llar Perfektda aytiladi (Ich habe getanzt). Lekin \"sein\" va \"haben\" kundalik nutqda deyarli doim Präteritumda ishlatiladi: war (edi), hatte (bor edi). \"Ich bin gewesen\" ham to'g'ri, lekin \"ich war\" ancha ko'p eshitiladi."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Shaxs",
+        "sein → war",
+        "haben → hatte"
+      ],
+      "rows": [
+        [
+          "ich",
+          "war",
+          "hatte"
+        ],
+        [
+          "du",
+          "warst",
+          "hattest"
+        ],
+        [
+          "er / sie / es",
+          "war",
+          "hatte"
+        ],
+        [
+          "wir",
+          "waren",
+          "hatten"
+        ],
+        [
+          "ihr",
+          "wart",
+          "hattet"
+        ],
+        [
+          "sie / Sie",
+          "waren",
+          "hatten"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "E'tibor bering: ich va er/sie/es shakllari bir xil, oxirida qo'shimcha yo'q: ich war — er war, ich hatte — sie hatte."
+    },
+    {
+      "type": "tip",
+      "text": "Bazmdan keyin eng ko'p beriladigan savol: \"Wie war die Party?\" Javob: \"Sie war super! Wir hatten viel Spaß.\""
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-das-fest",
+      "de": "Fest",
+      "uz": "bayram, sayil",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Feste",
+      "forms": null,
+      "example_de": "Das Fest war sehr schön.",
+      "example_uz": "Bayram juda chiroyli o'tdi.",
+      "topic": "celebrations"
+    },
+    {
+      "id": "v-die-stimmung",
+      "de": "Stimmung",
+      "uz": "kayfiyat, muhit",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Stimmungen",
+      "forms": null,
+      "example_de": "Die Stimmung auf der Party war toll.",
+      "example_uz": "Bazmdagi kayfiyat zo'r edi.",
+      "topic": "celebrations"
+    },
+    {
+      "id": "v-das-feuerwerk",
+      "de": "Feuerwerk",
+      "uz": "mushakbozlik, salyut",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Feuerwerke",
+      "forms": null,
+      "example_de": "Um Mitternacht gab es ein Feuerwerk.",
+      "example_uz": "Yarim tunda mushakbozlik bo'ldi.",
+      "topic": "celebrations"
+    },
+    {
+      "id": "v-der-spaß",
+      "de": "Spaß",
+      "uz": "zavq, maza",
+      "pos": "noun",
+      "article": "der",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Wir hatten viel Spaß.",
+      "example_uz": "Biz rosa maza qildik.",
+      "topic": "leisure"
+    },
+    {
+      "id": "v-das-silvester",
+      "de": "Silvester",
+      "uz": "Yangi yil kechasi (31-dekabr)",
+      "pos": "noun",
+      "article": "das",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Silvester war ich in Berlin.",
+      "example_uz": "Yangi yil kechasi Berlinda edim.",
+      "topic": "celebrations"
+    },
+    {
+      "id": "v-der-gastgeber",
+      "de": "Gastgeber",
+      "uz": "mezbon (uy egasi)",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Gastgeber",
+      "forms": null,
+      "example_de": "Der Gastgeber hat viel gekocht.",
+      "example_uz": "Mezbon ko'p ovqat pishirdi.",
+      "topic": "invitations"
+    },
+    {
+      "id": "v-die-torte",
+      "de": "Torte",
+      "uz": "tort",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Torten",
+      "forms": null,
+      "example_de": "Die Torte war sehr lecker.",
+      "example_uz": "Tort juda mazali edi.",
+      "topic": "food"
+    },
+    {
+      "id": "v-gratulieren",
+      "de": "gratulieren",
+      "uz": "tabriklamoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "gratuliert",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "gratuliert"
+      },
+      "example_de": "Wir gratulieren dir zum Geburtstag!",
+      "example_uz": "Seni tug'ilgan kuning bilan tabriklaymiz!",
+      "topic": "celebrations"
+    },
+    {
+      "id": "v-verbringen",
+      "de": "verbringen",
+      "uz": "(vaqt) o'tkazmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "verbracht",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "verbringt",
+        "praeteritum": "verbrachte"
+      },
+      "example_de": "Wir haben das Wochenende bei Freunden verbracht.",
+      "example_uz": "Dam olish kunlarini do'stlarnikida o'tkazdik.",
+      "topic": "leisure"
+    },
+    {
+      "id": "v-voll",
+      "de": "voll",
+      "uz": "to'la, odam ko'p",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Der Platz war sehr voll.",
+      "example_uz": "Maydonda odam juda ko'p edi.",
+      "topic": "events"
+    },
+    {
+      "id": "v-wunderschön",
+      "de": "wunderschön",
+      "uz": "juda chiroyli, ajoyib",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Die Hochzeit war wunderschön.",
+      "example_uz": "To'y juda ajoyib o'tdi.",
+      "topic": "celebrations"
+    }
+  ],
+  "review_vocabulary": [
+    "v-die-feier",
+    "v-die-hochzeit",
+    "v-lustig"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-praeteritum",
+      "rule": "sein → war, haben → hatte. Präteritumda ich va er/sie/es shakli bir xil, oxiriga qo'shimcha qo'shilmaydi. Boshqa shaxslarda: du -st, wir/sie -en, ihr -t.",
+      "when": "O'tgan holat, his-tuyg'u, joy va narsalar haqida: Wie war ...? Ich war ... Wir hatten ...",
+      "structure": "Ega + war/hatte + ...  (fe'l doim ikkinchi o'rinda: Gestern war ich ...)",
+      "examples": [
+        {
+          "de": "Die Stimmung war wunderschön.",
+          "uz": "Kayfiyat ajoyib edi."
+        },
+        {
+          "de": "Wir hatten viel Spaß auf der Hochzeit.",
+          "uz": "To'yda rosa maza qildik."
+        },
+        {
+          "de": "Warst du gestern auf dem Fest?",
+          "uz": "Kecha bayramda bo'ldingmi?"
+        },
+        {
+          "de": "Die Gäste hatten Hunger, aber das Essen war noch nicht fertig.",
+          "uz": "Mehmonlar och edi, lekin ovqat hali tayyor emas edi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Ich warte gestern auf der Party.",
+          "right": "Ich war gestern auf der Party.",
+          "why": "warte — \"warten\" (kutmoq) fe'li. sein ning o'tgan zamoni — war."
+        },
+        {
+          "wrong": "Wir war im Restaurant.",
+          "right": "Wir waren im Restaurant.",
+          "why": "wir bilan doim -en: wir waren, wir hatten."
+        },
+        {
+          "wrong": "Gestern ich war auf dem Fest.",
+          "right": "Gestern war ich auf dem Fest.",
+          "why": "Fe'l ikkinchi o'rinda: vaqt so'zi birinchi bo'lsa, ega fe'ldan keyin keladi."
+        },
+        {
+          "wrong": "Er hattet keine Zeit.",
+          "right": "Er hatte keine Zeit.",
+          "why": "er/sie/es shakli ich bilan bir xil: hatte."
+        }
+      ],
+      "check": [
+        "a2-m20-l2-e03",
+        "a2-m20-l2-e04",
+        "a2-m20-l2-e05",
+        "a2-m20-l2-e09"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Dam olish kunlari qanday o'tdi?",
+    "lines": [
+      {
+        "speaker": "Lisa",
+        "de": "Hallo Bekzod! Wie war dein Wochenende?",
+        "uz": "Salom Bekzod! Dam olish kunlaring qanday o'tdi?"
+      },
+      {
+        "speaker": "Bekzod",
+        "de": "Super! Am Samstag war ich auf der Hochzeit von meinem Cousin.",
+        "uz": "Zo'r! Shanba kuni amakivachchamning to'yida edim."
+      },
+      {
+        "speaker": "Lisa",
+        "de": "Oh, toll! Wie war die Stimmung?",
+        "uz": "Voy, zo'r! Kayfiyat qanday edi?"
+      },
+      {
+        "speaker": "Bekzod",
+        "de": "Die Stimmung war wunderschön. Es waren 300 Gäste da, und wir hatten viel Spaß.",
+        "uz": "Kayfiyat ajoyib edi. 300 ta mehmon bor edi va biz rosa maza qildik."
+      },
+      {
+        "speaker": "Lisa",
+        "de": "300 Gäste? Das ist ja ein großes Fest!",
+        "uz": "300 ta mehmon? Bu juda katta bayram-ku!"
+      },
+      {
+        "speaker": "Bekzod",
+        "de": "Ja, in Usbekistan sind Hochzeiten immer groß. Und du? Was hast du gemacht?",
+        "uz": "Ha, O'zbekistonda to'ylar doim katta bo'ladi. Sen-chi? Nima qilding?"
+      },
+      {
+        "speaker": "Lisa",
+        "de": "Ich war leider krank und hatte Fieber. Ich war das ganze Wochenende zu Hause.",
+        "uz": "Afsuski, kasal edim, isitmam bor edi. Butun dam olish kunlari uyda edim."
+      }
+    ],
+    "questions": [
+      "a2-m20-l2-e06",
+      "a2-m20-l2-e07"
+    ]
+  },
+  "situation": {
+    "title": "Navro'z haqida qo'shniga",
+    "context_uz": "Nemis qo'shningiz Frau Klein kecha uyingizdan musiqa eshitgan va qanday bayram bo'lganini so'rayapti. Siz kecha do'stlaringiz bilan Navro'zni nishonlagansiz.",
+    "lines": [
+      {
+        "speaker": "Frau Klein",
+        "de": "Sie haben gestern gefeiert, oder? Was war das für ein Fest?",
+        "uz": "Kecha bayram qildingiz, shundaymi? Bu qanday bayram edi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Das war Nowruz, unser Neujahrsfest im Frühling.",
+        "uz": "Bu Navro'z edi — bizning bahordagi yangi yil bayramimiz."
+      },
+      {
+        "speaker": "Frau Klein",
+        "de": "Interessant! Wie war es?",
+        "uz": "Qiziq! Qanday o'tdi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Es war wunderschön. Wir hatten viele Gäste und haben Sumalak gegessen.",
+        "uz": "Ajoyib o'tdi. Mehmonlarimiz ko'p edi va sumalak yedik."
+      },
+      {
+        "speaker": "Frau Klein",
+        "de": "Sumalak? Was ist das?",
+        "uz": "Sumalak? Bu nima?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Eine süße Speise aus Weizen. Wir kochen sie die ganze Nacht. Die Stimmung war sehr lustig!",
+        "uz": "Bug'doydan qilinadigan shirin taom. Uni tun bo'yi pishiramiz. Kayfiyat juda quvnoq edi!"
+      }
+    ],
+    "task_uz": "Qo'shningizga o'zingiz yaxshi ko'rgan bayram (Navro'z, Ramazon hayiti, to'y) haqida 4–5 gap ayting: qachon edi, qayerda edingiz, kimlar bor edi, kayfiyat qanday edi. war va hatte ni albatta ishlating."
+  },
+  "exercises": [
+    {
+      "id": "a2-m20-l2-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "celebrations",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemischa so'zni o'zbekcha ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "das Fest",
+          "bayram"
+        ],
+        [
+          "die Stimmung",
+          "kayfiyat"
+        ],
+        [
+          "das Feuerwerk",
+          "mushakbozlik"
+        ],
+        [
+          "der Gastgeber",
+          "mezbon"
+        ],
+        [
+          "die Torte",
+          "tort"
+        ]
+      ],
+      "correct_answer": {
+        "das Fest": "bayram",
+        "die Stimmung": "kayfiyat",
+        "das Feuerwerk": "mushakbozlik",
+        "der Gastgeber": "mezbon",
+        "die Torte": "tort"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Fest — bayram, Stimmung — kayfiyat, Feuerwerk — mushakbozlik, Gastgeber — mezbon, Torte — tort.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m20-l2-e02",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "celebrations",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "To'g'ri artiklni tanlang: ___ Feuerwerk",
+      "prompt_de": null,
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "das",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Oxirgi qism: Werk.",
+      "explanation": "Qo'shma otda artikl oxirgi so'zga qarab: das Werk → das Feuerwerk (das Feuer + das Werk).",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m20-l2-e03",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "celebrations",
+      "grammar_topic": "g-praeteritum",
+      "difficulty": 1,
+      "question": "sein fe'lini Präteritumda yozing: Wir ___ gestern auf einer Hochzeit.",
+      "prompt_de": "Wir ___ gestern auf einer Hochzeit.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "waren",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "wir bilan sein → waren.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m20-l2-e04",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "celebrations",
+      "grammar_topic": "g-praeteritum",
+      "difficulty": 1,
+      "question": "haben fe'lini Präteritumda yozing: Ich ___ gestern Geburtstag.",
+      "prompt_de": "Ich ___ gestern Geburtstag.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "hatte",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "ich bilan haben → hatte. \"Geburtstag haben\" — tug'ilgan kuni bo'lmoq.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m20-l2-e05",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "events",
+      "grammar_topic": "g-praeteritum",
+      "difficulty": 1,
+      "question": "To'g'ri shaklni tanlang: \"___ du am Wochenende auf dem Fest?\"",
+      "prompt_de": null,
+      "options": [
+        "Warst",
+        "Hattest",
+        "Warte"
+      ],
+      "pairs": null,
+      "correct_answer": "Warst",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Joyda bo'lish — sein: du warst. \"Hattest\" — haben, \"Warte\" — warten (kutmoq).",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m20-l2-e06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "celebrations",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. To'yda nechta mehmon bor edi?",
+      "prompt_de": null,
+      "options": [
+        "300 ta",
+        "30 ta",
+        "13 ta"
+      ],
+      "pairs": null,
+      "correct_answer": "300 ta",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Es waren 300 Gäste da\" — 300 ta mehmon bor edi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Die Stimmung war wunderschön. Es waren 300 Gäste da, und wir hatten viel Spaß."
+    },
+    {
+      "id": "a2-m20-l2-e07",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "health",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Lisa dam olish kunlarini qanday o'tkazdi?",
+      "prompt_de": null,
+      "options": [
+        "Kasal edi va uyda qoldi",
+        "To'yda edi",
+        "Ishda edi"
+      ],
+      "pairs": null,
+      "correct_answer": "Kasal edi va uyda qoldi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Ich war leider krank und hatte Fieber\" — kasal edi, isitmasi bor edi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Ich war leider krank und hatte Fieber. Ich war das ganze Wochenende zu Hause."
+    },
+    {
+      "id": "a2-m20-l2-e08",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "celebrations",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang va eshitganingizni yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Wir hatten viel Spaß.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "To'rt so'z.",
+      "explanation": "hatten — ikki t bilan; Spaß — ot, katta harf va ß bilan.",
+      "error_type": "spelling",
+      "points": 2,
+      "audio_text": "Wir hatten viel Spaß."
+    },
+    {
+      "id": "a2-m20-l2-e09",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "celebrations",
+      "grammar_topic": "g-praeteritum",
+      "difficulty": 1,
+      "question": "Xato so'zni toping: \"Wir war gestern auf dem Fest.\"",
+      "prompt_de": "Wir war gestern auf dem Fest.",
+      "options": [
+        "Wir",
+        "war",
+        "gestern",
+        "auf",
+        "dem",
+        "Fest"
+      ],
+      "pairs": null,
+      "correct_answer": "war",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: \"Wir waren gestern auf dem Fest.\" wir bilan — waren.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m20-l2-e10",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "celebrations",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Matnni o'qing. Yarim tunda Brandenburg darvozasi oldida qanday edi?",
+      "prompt_de": "Mein Silvester: Dieses Jahr war ich in Berlin. Um 20 Uhr waren wir bei Freunden. Der Gastgeber hatte eine große Torte. Um Mitternacht waren wir am Brandenburger Tor. Das Feuerwerk war wunderschön, aber es war sehr voll und kalt. Um drei Uhr war ich sehr müde im Bett.",
+      "options": [
+        "Mushakbozlik juda chiroyli edi, lekin odam ko'p va sovuq edi",
+        "Odam kam va iliq edi",
+        "Mushakbozlik bo'lmadi"
+      ],
+      "pairs": null,
+      "correct_answer": "Mushakbozlik juda chiroyli edi, lekin odam ko'p va sovuq edi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Das Feuerwerk war wunderschön, aber es war sehr voll und kalt.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m20-l2-e11",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "celebrations",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Wie war die Feier?\"",
+      "prompt_de": "Wie war die Feier?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Bazm qanday o'tdi?",
+      "accepted_answers": [
+        "Bazm qanday bo'ldi?",
+        "Bazm qanday edi?",
+        "Bayram qanday o'tdi?",
+        "Bayram qanday bo'ldi?",
+        "Ziyofat qanday o'tdi?",
+        "Tadbir qanday o'tdi?"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Wie war ...? — ... qanday o'tdi / qanday edi?",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a2-m20-l2-t01",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "invitations",
+      "grammar_topic": "g-praeteritum",
+      "difficulty": 2,
+      "question": "haben fe'lini Präteritumda yozing: ___ ihr gestern Besuch?",
+      "prompt_de": "___ ihr gestern Besuch?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Hattet",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "ihr bilan haben → hattet.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m20-l2-t02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "celebrations",
+      "grammar_topic": "g-praeteritum",
+      "difficulty": 1,
+      "question": "To'g'ri shaklni tanlang: \"Die Gäste ___ sehr lustig.\"",
+      "prompt_de": null,
+      "options": [
+        "waren",
+        "war",
+        "hatten"
+      ],
+      "pairs": null,
+      "correct_answer": "waren",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ega ko'plikda (die Gäste = sie) — waren.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m20-l2-t03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-praeteritum",
+      "difficulty": 1,
+      "question": "haben fe'lini Präteritumda yozing: Mein Bruder ___ gestern Geburtstag.",
+      "prompt_de": "Mein Bruder ___ gestern Geburtstag.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "hatte",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "er bilan haben → hatte (ich bilan bir xil).",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m20-l2-t04",
+      "version": 1,
+      "type": "plural",
+      "skill": "vocabulary",
+      "topic": "celebrations",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Ko'plik shaklini yozing: das Fest → die ___",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Feste",
+      "accepted_answers": [
+        "die Feste"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "das Fest → die Feste (-e).",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m20-l2-t05",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "celebrations",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Bekzod shanba kuni qayerda edi?",
+      "prompt_de": null,
+      "options": [
+        "Qarindoshining to'yida",
+        "Uyda",
+        "Ishda"
+      ],
+      "pairs": null,
+      "correct_answer": "Qarindoshining to'yida",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"auf der Hochzeit von meinem Cousin\" — amakivachchasining to'yida.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Am Samstag war ich auf der Hochzeit von meinem Cousin."
+    },
+    {
+      "id": "a2-m20-l2-t06",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "leisure",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling (Spaß haben bilan): \"Biz rosa maza qildik.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Wir hatten viel Spaß.",
+      "accepted_answers": [
+        "Wir hatten sehr viel Spaß.",
+        "Wir hatten großen Spaß.",
+        "Wir haben viel Spaß gehabt."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"maza qilmoq\" — Spaß haben; o'tgan zamon: wir hatten.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m20-l2-t07",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "leisure",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Hamkasbingiz so'rayapti: \"Wie war dein Wochenende?\" Qaysi javob to'g'ri?",
+      "prompt_de": null,
+      "options": [
+        "Es war super. Ich war bei Freunden.",
+        "Es ist super. Ich bin morgen bei Freunden gewesen.",
+        "Ich hatte bei Freunden."
+      ],
+      "pairs": null,
+      "correct_answer": "Es war super. Ich war bei Freunden.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "O'tgan zamon: war. Ikkinchi variantda zamon aralash (ist / morgen), uchinchisida fe'l noto'g'ri (hatte o'rniga war kerak).",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

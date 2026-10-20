@@ -1,0 +1,856 @@
+{
+  "id": "a2-m20-l1",
+  "version": 1,
+  "level": "A2",
+  "module": 20,
+  "order": 1,
+  "title": "Taklif qilish va javob berish",
+  "title_de": "Einladen, zusagen, absagen",
+  "goal": "Dars oxirida do'st yoki hamkasbni tadbirga taklif qila olasiz, sana va vaqtni (am, um, ab, von ... bis) aniq aytasiz va taklifni muloyim qabul qilasiz yoki rad etasiz.",
+  "skill_focus": [
+    "speaking",
+    "listening",
+    "writing"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Nemis tilida taklif qilishning bir necha usuli bor. Do'stga: \"Hast du Lust ...?\" yoki \"Kommst du ...?\". Rasmiyroq: \"Ich möchte Sie herzlich einladen.\""
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Taklif",
+        "Qabul qilish",
+        "Rad etish"
+      ],
+      "rows": [
+        [
+          "Hast du am Samstag Lust auf eine Party?",
+          "Ja, gern! Ich komme.",
+          "Leider kann ich nicht. Ich muss arbeiten."
+        ],
+        [
+          "Ich lade dich zu meiner Feier ein.",
+          "Danke für die Einladung!",
+          "Schade, am Sonntag bin ich nicht da."
+        ],
+        [
+          "Kannst du am Freitag vorbeikommen?",
+          "Klar, das passt!",
+          "Freitag passt leider nicht. Geht es am Sonntag?"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Sana va vaqt uchun: am + kun/sana (am Samstag, am 12. Mai — \"am zwölften Mai\"), um + soat (um 19 Uhr), ab + vaqt (ab 18 Uhr — soat 18 dan boshlab), von ... bis (von 15 bis 18 Uhr)."
+    },
+    {
+      "type": "tip",
+      "text": "Nemislar taklifga aniq javob kutadi. Bormasangiz ham albatta xabar bering: \"Ich sage dir bis Freitag Bescheid.\" Rad etganda sabab ayting va taklif uchun rahmat deng."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-die-feier",
+      "de": "Feier",
+      "uz": "bazm, nishonlash marosimi",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Feiern",
+      "forms": null,
+      "example_de": "Die Feier beginnt um 18 Uhr.",
+      "example_uz": "Bazm soat 18 da boshlanadi.",
+      "topic": "celebrations"
+    },
+    {
+      "id": "v-die-zusage",
+      "de": "Zusage",
+      "uz": "rozilik javobi (kelishini tasdiqlash)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Zusagen",
+      "forms": null,
+      "example_de": "Danke für deine schnelle Zusage!",
+      "example_uz": "Tez rozilik bildirganing uchun rahmat!",
+      "topic": "invitations"
+    },
+    {
+      "id": "v-der-anlass",
+      "de": "Anlass",
+      "uz": "munosabat, sabab (tadbir uchun)",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Anlässe",
+      "forms": null,
+      "example_de": "Was ist der Anlass für die Feier?",
+      "example_uz": "Bazm qanday munosabat bilan?",
+      "topic": "celebrations"
+    },
+    {
+      "id": "v-das-geschenk",
+      "de": "Geschenk",
+      "uz": "sovg'a",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Geschenke",
+      "forms": null,
+      "example_de": "Ich bringe ein kleines Geschenk mit.",
+      "example_uz": "Kichik sovg'a olib boraman.",
+      "topic": "celebrations"
+    },
+    {
+      "id": "v-die-gästeliste",
+      "de": "Gästeliste",
+      "uz": "mehmonlar ro'yxati",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Gästelisten",
+      "forms": null,
+      "example_de": "Steht Peter auf der Gästeliste?",
+      "example_uz": "Peter mehmonlar ro'yxatidami?",
+      "topic": "invitations"
+    },
+    {
+      "id": "v-annehmen",
+      "de": "annehmen",
+      "uz": "qabul qilmoq (taklifni)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "angenommen",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "nimmt an",
+        "praeteritum": "nahm an"
+      },
+      "example_de": "Ich nehme die Einladung gern an.",
+      "example_uz": "Taklifni mamnuniyat bilan qabul qilaman.",
+      "topic": "invitations"
+    },
+    {
+      "id": "v-ablehnen",
+      "de": "ablehnen",
+      "uz": "rad etmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "abgelehnt",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "lehnt ab"
+      },
+      "example_de": "Leider muss ich die Einladung ablehnen.",
+      "example_uz": "Afsuski, taklifni rad etishga majburman.",
+      "topic": "invitations"
+    },
+    {
+      "id": "v-die-hochzeit",
+      "de": "Hochzeit",
+      "uz": "to'y",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Hochzeiten",
+      "forms": null,
+      "example_de": "Die Hochzeit ist am 14. Juni.",
+      "example_uz": "To'y 14-iyunda.",
+      "topic": "celebrations"
+    },
+    {
+      "id": "v-zusagen",
+      "de": "zusagen",
+      "uz": "rozilik bildirmoq (taklifga)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "zugesagt",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "sagt zu"
+      },
+      "example_de": "Alle Freunde haben zugesagt.",
+      "example_uz": "Hamma do'stlar kelishga rozi bo'ldi.",
+      "topic": "invitations"
+    },
+    {
+      "id": "v-mitbringen",
+      "de": "mitbringen",
+      "uz": "olib kelmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "mitgebracht",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "bringt mit",
+        "praeteritum": "brachte mit"
+      },
+      "example_de": "Soll ich etwas mitbringen?",
+      "example_uz": "Biror narsa olib kelaymi?",
+      "topic": "invitations"
+    },
+    {
+      "id": "v-lust-haben",
+      "de": "Lust haben",
+      "uz": "xohlamoq, ko'ngli tusamoq",
+      "pos": "phrase",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Hast du Lust auf ein Picknick?",
+      "example_uz": "Piknikka borishni xohlaysanmi?",
+      "topic": "invitations"
+    },
+    {
+      "id": "v-unbedingt",
+      "de": "unbedingt",
+      "uz": "albatta, nima bo'lsa ham",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Du musst unbedingt kommen!",
+      "example_uz": "Albatta kelishing kerak!",
+      "topic": "invitations"
+    }
+  ],
+  "review_vocabulary": [],
+  "grammar": [
+    {
+      "topic_id": "g-time-prepositions",
+      "rule": "Tadbir vaqtini aytishda: kun va sana oldidan \"am\", soat oldidan \"um\", boshlanish vaqti \"ab\", oraliq \"von ... bis\". Sana tartib son bilan o'qiladi: am 3. Juni = am dritten Juni.",
+      "when": "Taklifnoma yozganda, tadbir kuni va vaqtini kelishganda.",
+      "structure": "am + kun/sana · um + soat · ab + vaqt · von + vaqt + bis + vaqt",
+      "examples": [
+        {
+          "de": "Die Hochzeit ist am 14. Juni.",
+          "uz": "To'y 14-iyunda."
+        },
+        {
+          "de": "Die Party beginnt um 19 Uhr.",
+          "uz": "Bazm soat 19 da boshlanadi."
+        },
+        {
+          "de": "Ab 18 Uhr bin ich zu Hause.",
+          "uz": "Soat 18 dan boshlab uydaman."
+        },
+        {
+          "de": "Wir feiern von 15 bis 18 Uhr im Garten.",
+          "uz": "Biz soat 15 dan 18 gacha bog'da nishonlaymiz."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Die Feier ist um Samstag.",
+          "right": "Die Feier ist am Samstag.",
+          "why": "Kun oldidan \"am\", soat oldidan \"um\"."
+        },
+        {
+          "wrong": "Die Party beginnt am 19 Uhr.",
+          "right": "Die Party beginnt um 19 Uhr.",
+          "why": "Soat oldidan doim \"um\"."
+        },
+        {
+          "wrong": "Ich komme im 14. Juni.",
+          "right": "Ich komme am 14. Juni.",
+          "why": "Aniq sana oldidan \"am\". \"im\" faqat oy nomi bilan: im Juni."
+        }
+      ],
+      "check": [
+        "a2-m20-l1-e03",
+        "a2-m20-l1-e04"
+      ]
+    },
+    {
+      "topic_id": "g-separable-verbs",
+      "rule": "einladen, mitbringen, vorbeikommen, zusagen — ajraladigan fe'llar. Hozirgi zamonda old qo'shimcha (ein-, mit-, vorbei-, zu-) gap oxiriga ketadi. Modal fe'l bilan infinitiv bir so'z bo'lib oxirda turadi. Perfektda \"ge\" o'rtaga kiradi: eingeladen.",
+      "when": "Taklif qilganda va kim nima olib kelishini kelishganda.",
+      "structure": "Ich + lade + ... + ein.   Ich + möchte + ... + einladen.   Ich + habe + ... + eingeladen.",
+      "examples": [
+        {
+          "de": "Ich lade dich zu meiner Feier ein.",
+          "uz": "Seni bazmimga taklif qilaman."
+        },
+        {
+          "de": "Kannst du einen Salat mitbringen?",
+          "uz": "Salat olib kela olasanmi?"
+        },
+        {
+          "de": "Wir haben 20 Gäste eingeladen.",
+          "uz": "Biz 20 ta mehmon taklif qildik."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Ich einlade dich zu meiner Party.",
+          "right": "Ich lade dich zu meiner Party ein.",
+          "why": "Ajraladigan fe'lning old qismi gap oxiriga ketadi."
+        },
+        {
+          "wrong": "Ich habe ihn geeinladen.",
+          "right": "Ich habe ihn eingeladen.",
+          "why": "Perfektda \"ge\" old qism va fe'l o'zagi orasiga kiradi: ein-ge-laden."
+        }
+      ],
+      "check": [
+        "a2-m20-l1-e05",
+        "a2-m20-l1-e10"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Syurpriz bazm",
+    "lines": [
+      {
+        "speaker": "Malika",
+        "de": "Hallo Jonas! Am Samstag hat mein Mann Geburtstag. Wir machen eine Überraschungsparty.",
+        "uz": "Salom Jonas! Shanba kuni erimning tug'ilgan kuni. Biz syurpriz bazm qilyapmiz."
+      },
+      {
+        "speaker": "Jonas",
+        "de": "Oh, schön! Wann genau?",
+        "uz": "Voy, zo'r! Aniq qachon?"
+      },
+      {
+        "speaker": "Malika",
+        "de": "Am Samstag um 19 Uhr bei uns. Hast du Lust?",
+        "uz": "Shanba kuni soat 19 da bizning uyda. Kelishni xohlaysanmi?"
+      },
+      {
+        "speaker": "Jonas",
+        "de": "Ja, gern! Soll ich etwas mitbringen?",
+        "uz": "Ha, bajonidil! Biror narsa olib kelaymi?"
+      },
+      {
+        "speaker": "Malika",
+        "de": "Vielleicht einen Salat? Und bitte sag Peter nichts. Es ist eine Überraschung!",
+        "uz": "Balki salat? Va iltimos, Peterga hech narsa dema. Bu syurpriz!"
+      },
+      {
+        "speaker": "Jonas",
+        "de": "Klar, ich sage nichts. Bis Samstag!",
+        "uz": "Albatta, hech narsa demayman. Shanbagacha!"
+      }
+    ],
+    "questions": [
+      "a2-m20-l1-e06",
+      "a2-m20-l1-e07"
+    ]
+  },
+  "situation": {
+    "title": "Hamkasbning taklifi",
+    "context_uz": "Hamkasbingiz Frau Wolf sizni juma kuni kechqurun yangi uyiga taklif qilyapti, lekin siz o'sha kuni soat 20 gacha ishlaysiz.",
+    "lines": [
+      {
+        "speaker": "Frau Wolf",
+        "de": "Wir feiern am Freitag unsere neue Wohnung. Ich möchte Sie herzlich einladen.",
+        "uz": "Juma kuni yangi uyimizni nishonlaymiz. Sizni chin dildan taklif qilmoqchiman."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Vielen Dank für die Einladung! Um wie viel Uhr?",
+        "uz": "Taklif uchun katta rahmat! Soat nechada?"
+      },
+      {
+        "speaker": "Frau Wolf",
+        "de": "Ab 18 Uhr. Kommen Sie doch vorbei!",
+        "uz": "Soat 18 dan boshlab. Albatta kelib keting!"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Leider muss ich am Freitag bis 20 Uhr arbeiten. Kann ich später kommen?",
+        "uz": "Afsuski, juma kuni soat 20 gacha ishlashim kerak. Kechroq kelsam bo'ladimi?"
+      },
+      {
+        "speaker": "Frau Wolf",
+        "de": "Natürlich! Wir feiern bis Mitternacht.",
+        "uz": "Albatta! Yarim tungacha nishonlaymiz."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Super, dann komme ich gegen 21 Uhr.",
+        "uz": "Zo'r, unda soat 21 larda kelaman."
+      }
+    ],
+    "task_uz": "Dialogni o'qing. Keyin ikki variantda javob bering: 1) taklifni to'liq qabul qiling va nima olib kelishni so'rang; 2) muloyim rad eting, sabab ayting va rahmat deng."
+  },
+  "exercises": [
+    {
+      "id": "a2-m20-l1-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "celebrations",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemischa so'zni o'zbekcha ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "die Einladung",
+          "taklif"
+        ],
+        [
+          "der Gast",
+          "mehmon"
+        ],
+        [
+          "die Hochzeit",
+          "to'y"
+        ],
+        [
+          "die Überraschung",
+          "syurpriz"
+        ],
+        [
+          "die Feier",
+          "bazm"
+        ]
+      ],
+      "correct_answer": {
+        "die Einladung": "taklif",
+        "der Gast": "mehmon",
+        "die Hochzeit": "to'y",
+        "die Überraschung": "syurpriz",
+        "die Feier": "bazm"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Einladung — taklif, Gast — mehmon, Hochzeit — to'y, Überraschung — syurpriz, Feier — bazm.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m20-l1-e02",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "invitations",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni davom ettiring. — \"Hast du am Samstag Lust auf eine Party?\"",
+      "prompt_de": "Hast du am Samstag Lust auf eine Party?",
+      "options": [
+        "Ja, gern! Wann beginnt sie?",
+        "Nein, danke, ich habe Lust.",
+        "Ich lade dich ein."
+      ],
+      "pairs": null,
+      "correct_answer": "Ja, gern! Wann beginnt sie?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Taklifni qabul qilib, vaqtini so'rash — tabiiy javob. \"Nein, danke, ich habe Lust\" o'ziga zid, \"Ich lade dich ein\" esa savolga javob emas.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m20-l1-e03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "invitations",
+      "grammar_topic": "g-time-prepositions",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: \"Die Party beginnt ___ 19 Uhr.\"",
+      "prompt_de": "Die Party beginnt ___ 19 Uhr.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "um",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Soat oldidan \"um\" ishlatiladi: um 19 Uhr.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m20-l1-e04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "celebrations",
+      "grammar_topic": "g-time-prepositions",
+      "difficulty": 1,
+      "question": "To'g'ri predlogni tanlang: \"Meine Hochzeit ist ___ 14. Juni.\"",
+      "prompt_de": "Meine Hochzeit ist ___ 14. Juni.",
+      "options": [
+        "am",
+        "um",
+        "im"
+      ],
+      "pairs": null,
+      "correct_answer": "am",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Aniq sana oldidan \"am\": am 14. Juni. \"im\" — faqat oy bilan (im Juni), \"um\" — soat bilan.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m20-l1-e05",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "invitations",
+      "grammar_topic": "g-separable-verbs",
+      "difficulty": 1,
+      "question": "So'zlarni tartiblang: \"Seni bazmimga taklif qilaman.\"",
+      "prompt_de": null,
+      "options": [
+        "lade",
+        "ein",
+        "Ich",
+        "zu",
+        "Feier",
+        "meiner",
+        "dich"
+      ],
+      "pairs": null,
+      "correct_answer": "Ich lade dich zu meiner Feier ein.",
+      "accepted_answers": [
+        "Zu meiner Feier lade ich dich ein."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "lade — ikkinchi o'rinda, ajralgan \"ein\" — gap oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m20-l1-e06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "invitations",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Bazm qachon?",
+      "prompt_de": null,
+      "options": [
+        "Shanba kuni soat 19 da",
+        "Juma kuni soat 19 da",
+        "Shanba kuni soat 9 da"
+      ],
+      "pairs": null,
+      "correct_answer": "Shanba kuni soat 19 da",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Am Samstag um 19 Uhr\" — shanba, soat 19.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Am Samstag um 19 Uhr bei uns. Hast du Lust?"
+    },
+    {
+      "id": "a2-m20-l1-e07",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "invitations",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Jonas nima olib keladi?",
+      "prompt_de": null,
+      "options": [
+        "Salat",
+        "Tort",
+        "Hech narsa"
+      ],
+      "pairs": null,
+      "correct_answer": "Salat",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Malika: \"Vielleicht einen Salat?\" — balki salat.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Ja, gern! Soll ich etwas mitbringen? — Vielleicht einen Salat?"
+    },
+    {
+      "id": "a2-m20-l1-e08",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "invitations",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Do'stingiz sizni taklif qildi, lekin bora olmaysiz. Muloyim javob qaysi?",
+      "prompt_de": null,
+      "options": [
+        "Danke für die Einladung, aber leider kann ich nicht. Ich muss arbeiten.",
+        "Nein. Ich komme nicht.",
+        "Ja, ich kann leider."
+      ],
+      "pairs": null,
+      "correct_answer": "Danke für die Einladung, aber leider kann ich nicht. Ich muss arbeiten.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Muloyim rad etish: rahmat + leider + sabab. \"Nein. Ich komme nicht.\" juda qo'pol, \"Ja, ich kann leider\" ma'nosiz.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m20-l1-e09",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "invitations",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Biror narsa olib kelaymi?\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Soll ich etwas mitbringen?",
+      "accepted_answers": [
+        "Soll ich was mitbringen?",
+        "Kann ich etwas mitbringen?",
+        "Kann ich was mitbringen?"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Taklif/yordam so'rash: Soll ich ...? ; olib kelmoq — mitbringen (infinitiv oxirda).",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m20-l1-e10",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "invitations",
+      "grammar_topic": "g-separable-verbs",
+      "difficulty": 2,
+      "question": "Fe'lni tuslang (einladen): Er ___ uns zum Essen ein.",
+      "prompt_de": "Er ___ uns zum Essen ein.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "lädt",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "a → ä",
+      "explanation": "einladen — o'zagi o'zgaradi: ich lade, du lädst, er lädt ... ein.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m20-l1-e11",
+      "version": 1,
+      "type": "short_text",
+      "skill": "writing",
+      "topic": "invitations",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Do'stingizga qisqa taklif xabari (SMS) yozing: nima bo'ladi, qachon (kun + soat), qayerda, nima olib kelish kerak.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 15,
+        "required_words": [
+          "am",
+          "um"
+        ],
+        "sample": "Hallo Aziz! Am Samstag feiere ich meinen Geburtstag. Die Party beginnt um 19 Uhr bei mir zu Hause. Kannst du bitte Saft mitbringen? Sag mir bis Donnerstag Bescheid!"
+      },
+      "hint": null,
+      "explanation": "Yaxshi taklifda: tadbir, am + kun, um + soat, joy va iltimos (Kannst du ... mitbringen?) bor.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a2-m20-l1-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "invitations",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Taklif uchun qanday rahmat aytasiz?",
+      "prompt_de": null,
+      "options": [
+        "Vielen Dank für die Einladung!",
+        "Vielen Dank für den Gast!",
+        "Ich lade für die Einladung."
+      ],
+      "pairs": null,
+      "correct_answer": "Vielen Dank für die Einladung!",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Einladung — taklif. Boshqa variantlar ma'nosiz.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m20-l1-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "celebrations",
+      "grammar_topic": "g-time-prepositions",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: \"Wir feiern ___ 15 bis 18 Uhr.\"",
+      "prompt_de": "Wir feiern ___ 15 bis 18 Uhr.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "von",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Oraliq vaqt: von ... bis.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m20-l1-t03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "vocabulary",
+      "topic": "invitations",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: \"Hast du am Sonntag ___ auf ein Picknick?\"",
+      "prompt_de": "Hast du am Sonntag ___ auf ein Picknick?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Lust",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Lust haben auf\" — biror narsani xohlamoq.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m20-l1-t04",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "invitations",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Gapiruvchi taklifga qanday javob beryapti?",
+      "prompt_de": null,
+      "options": [
+        "Rad etyapti, chunki ishlashi kerak",
+        "Qabul qilyapti",
+        "Kechroq kelishini aytyapti"
+      ],
+      "pairs": null,
+      "correct_answer": "Rad etyapti, chunki ishlashi kerak",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Leider kann ich nicht kommen. Ich muss arbeiten.\" — kela olmaydi, ishlashi kerak.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Leider kann ich am Samstag nicht kommen. Ich muss arbeiten."
+    },
+    {
+      "id": "a2-m20-l1-t05",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "communication",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Ich sage dir bis Freitag Bescheid.\"",
+      "prompt_de": "Ich sage dir bis Freitag Bescheid.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Senga jumagacha xabar beraman.",
+      "accepted_answers": [
+        "Jumagacha senga xabar beraman.",
+        "Sizga jumagacha xabar beraman.",
+        "Jumagacha xabar beraman.",
+        "Senga juma kunigacha xabar beraman."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Bescheid sagen — xabar bermoq; bis Freitag — jumagacha.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m20-l1-t06",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "celebrations",
+      "grammar_topic": "g-separable-verbs",
+      "difficulty": 1,
+      "question": "Xato so'zni toping: \"Ich einlade dich zu meiner Hochzeit.\"",
+      "prompt_de": "Ich einlade dich zu meiner Hochzeit.",
+      "options": [
+        "Ich",
+        "einlade",
+        "dich",
+        "zu",
+        "meiner",
+        "Hochzeit"
+      ],
+      "pairs": null,
+      "correct_answer": "einlade",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: \"Ich lade dich zu meiner Hochzeit ein.\" Ajraladigan fe'lning \"ein\" qismi oxirga ketadi.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m20-l1-t07",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "invitations",
+      "grammar_topic": "g-questions",
+      "difficulty": 1,
+      "question": "Savol tuzing: \"Shanba kuni bazmimga kelasanmi?\"",
+      "prompt_de": null,
+      "options": [
+        "Samstag",
+        "am",
+        "zu",
+        "meiner",
+        "Party",
+        "du",
+        "Kommst"
+      ],
+      "pairs": null,
+      "correct_answer": "Kommst du am Samstag zu meiner Party?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ha/yo'q savolida fe'l birinchi o'rinda: Kommst du ...?",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

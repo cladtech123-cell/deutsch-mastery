@@ -1,0 +1,338 @@
+{
+  "id": "g-polite-requests",
+  "version": 1,
+  "level": "A2",
+  "order": 18,
+  "title": "Muloyim so'rovlar: Könnten Sie ...? Ich hätte gern ...",
+  "prerequisites": [
+    "g-modal-verbs",
+    "g-imperative"
+  ],
+  "next": [
+    "g-subordinate"
+  ],
+  "rule": "Muloyim so'rov uchun Konjunktiv II shakllari ishlatiladi: könnte, würde, hätte. Ular \"bitte\" bilan birga eng xushmuomala shakl hisoblanadi.",
+  "when": "Do'konda, restoranda, ofisda, telefonda, rasmiy xat va emailda biror narsa so'raganda.",
+  "structure": "Könnten/Würden Sie + ... + infinitiv? | Ich hätte gern + ot | Ich würde gern + ... + infinitiv",
+  "explanation": [
+    {
+      "type": "table",
+      "headers": [
+        "Shakl",
+        "Qachon",
+        "Misol"
+      ],
+      "rows": [
+        [
+          "Können Sie ...?",
+          "muloyim savol",
+          "Können Sie mir helfen?"
+        ],
+        [
+          "Könnten Sie ...?",
+          "juda muloyim savol",
+          "Könnten Sie das bitte wiederholen?"
+        ],
+        [
+          "Würden Sie ...?",
+          "muloyim iltimos",
+          "Würden Sie bitte das Fenster schließen?"
+        ],
+        [
+          "Ich hätte gern ...",
+          "buyurtma, xarid",
+          "Ich hätte gern ein Kilo Tomaten."
+        ],
+        [
+          "Ich würde gern ...",
+          "istak",
+          "Ich würde gern am Montag kommen."
+        ],
+        [
+          "Darf ich ...? / Dürfte ich ...?",
+          "ruxsat so'rash",
+          "Darf ich das Fenster öffnen?"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Olmosh",
+        "können → könnte",
+        "werden → würde",
+        "haben → hätte"
+      ],
+      "rows": [
+        [
+          "ich",
+          "könnte",
+          "würde",
+          "hätte"
+        ],
+        [
+          "du",
+          "könntest",
+          "würdest",
+          "hättest"
+        ],
+        [
+          "er / sie / es",
+          "könnte",
+          "würde",
+          "hätte"
+        ],
+        [
+          "wir",
+          "könnten",
+          "würden",
+          "hätten"
+        ],
+        [
+          "ihr",
+          "könntet",
+          "würdet",
+          "hättet"
+        ],
+        [
+          "sie / Sie",
+          "könnten",
+          "würden",
+          "hätten"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Rasmiy email: \"Sehr geehrte Frau ... / Sehr geehrter Herr ...\" bilan boshlanadi, \"Mit freundlichen Grüßen\" bilan tugaydi."
+    },
+    {
+      "type": "tip",
+      "text": "\"Geben Sie mir ...!\" buyruqqa o'xshaydi. \"Könnten Sie mir bitte ... geben?\" ancha yoqimli eshitiladi."
+    }
+  ],
+  "examples": [
+    {
+      "de": "Könnten Sie mir bitte helfen?",
+      "uz": "Menga yordam bera olasizmi, iltimos?"
+    },
+    {
+      "de": "Ich hätte gern einen Termin beim Arzt.",
+      "uz": "Shifokorga yozilmoqchi edim."
+    },
+    {
+      "de": "Würden Sie bitte langsamer sprechen?",
+      "uz": "Iltimos, sekinroq gapira olasizmi?"
+    },
+    {
+      "de": "Ich würde gern am Freitag kommen.",
+      "uz": "Juma kuni kelmoqchi edim."
+    },
+    {
+      "de": "Darf ich hier sitzen?",
+      "uz": "Shu yerga o'tirsam maylimi?"
+    },
+    {
+      "de": "Könnten wir den Termin verschieben?",
+      "uz": "Uchrashuvni boshqa vaqtga ko'chira olamizmi?"
+    }
+  ],
+  "common_mistakes": [
+    {
+      "wrong": "Ich will ein Kilo Äpfel.",
+      "right": "Ich hätte gern ein Kilo Äpfel.",
+      "why": "\"will\" do'konda qo'pol eshitiladi."
+    },
+    {
+      "wrong": "Könnten Sie helfen mir?",
+      "right": "Könnten Sie mir helfen?",
+      "why": "Infinitiv (helfen) gap oxirida."
+    },
+    {
+      "wrong": "Ich hatte gern einen Tee.",
+      "right": "Ich hätte gern einen Tee.",
+      "why": "hatte — o'tgan zamon, hätte (umlaut bilan) — muloyim shakl."
+    },
+    {
+      "wrong": "Ich würde gern einen Kaffee.",
+      "right": "Ich hätte gern einen Kaffee. / Ich würde gern einen Kaffee trinken.",
+      "why": "würde dan keyin infinitiv kerak."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "g-polite-requests-e01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "shopping",
+      "grammar_topic": "g-polite-requests",
+      "difficulty": 1,
+      "question": "Novvoyxonada eng muloyim so'rov qaysi?",
+      "prompt_de": null,
+      "options": [
+        "Ich hätte gern zwei Brötchen.",
+        "Ich will zwei Brötchen.",
+        "Gib mir zwei Brötchen."
+      ],
+      "pairs": null,
+      "correct_answer": "Ich hätte gern zwei Brötchen.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ich hätte gern ... — xariddagi standart muloyim shakl.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-polite-requests-e02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "politeness",
+      "grammar_topic": "g-polite-requests",
+      "difficulty": 1,
+      "question": "Muloyim shaklni yozing (können, Konjunktiv II): \"___ Sie mir bitte helfen?\"",
+      "prompt_de": "___ Sie mir bitte helfen?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Könnten",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "können → könnten (Sie).",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-polite-requests-e03",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "communication",
+      "grammar_topic": "g-polite-requests",
+      "difficulty": 2,
+      "question": "So'zlardan muloyim savol tuzing: \"Iltimos, sekinroq gapira olasizmi?\"",
+      "prompt_de": null,
+      "options": [
+        "sprechen",
+        "langsamer",
+        "bitte",
+        "Sie",
+        "Könnten"
+      ],
+      "pairs": null,
+      "correct_answer": "Könnten Sie bitte langsamer sprechen?",
+      "accepted_answers": [
+        "Könnten Sie langsamer sprechen bitte?"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Könnten (1) + Sie + bitte + langsamer + sprechen (oxirida).",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-polite-requests-e04",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "appointments",
+      "grammar_topic": "g-polite-requests",
+      "difficulty": 1,
+      "question": "Fe'lni yozing (werden, Konjunktiv II): \"Ich ___ gern am Freitag kommen.\"",
+      "prompt_de": "Ich ___ gern am Freitag kommen.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "würde",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "ich → würde: Ich würde gern ... kommen.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-polite-requests-e05",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "grammar",
+      "topic": "work",
+      "grammar_topic": "g-polite-requests",
+      "difficulty": 1,
+      "question": "Ofisda deraza ochish uchun ruxsat so'raysiz.",
+      "prompt_de": null,
+      "options": [
+        "Darf ich das Fenster öffnen?",
+        "Ich öffne das Fenster!",
+        "Öffnen Sie das Fenster!"
+      ],
+      "pairs": null,
+      "correct_answer": "Darf ich das Fenster öffnen?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ruxsat so'rash — Darf ich ...?",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-polite-requests-e06",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "restaurant",
+      "grammar_topic": "g-polite-requests",
+      "difficulty": 2,
+      "question": "Xato so'zni toping: \"Ich hatte gern einen Tee.\"",
+      "prompt_de": "Ich hatte gern einen Tee.",
+      "options": [
+        "Ich",
+        "hatte",
+        "gern",
+        "einen",
+        "Tee"
+      ],
+      "pairs": null,
+      "correct_answer": "hatte",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Muloyim buyurtma — hätte (umlaut bilan): Ich hätte gern einen Tee.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-polite-requests-e07",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "grammar",
+      "topic": "politeness",
+      "grammar_topic": "g-polite-requests",
+      "difficulty": 2,
+      "question": "Nemis tiliga muloyim tarjima qiling: \"Menga yordam bera olasizmi?\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Könnten Sie mir helfen?",
+      "accepted_answers": [
+        "Können Sie mir helfen?",
+        "Könnten Sie mir bitte helfen?",
+        "Können Sie mir bitte helfen?",
+        "Würden Sie mir helfen?"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Könnten Sie ... helfen? — eng muloyim shakl.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

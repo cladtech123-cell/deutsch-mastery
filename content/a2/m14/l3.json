@@ -1,0 +1,825 @@
+{
+  "id": "a2-m14-l3",
+  "version": 2,
+  "level": "A2",
+  "module": 14,
+  "order": 3,
+  "title": "Kechikish, muammolar va safar haqida hikoya",
+  "title_de": "Probleme auf der Reise",
+  "goal": "Dars oxirida kechikish va mehmonxonadagi muammo haqida xabar bera olasiz hamda o'tgan safaringizni Perfektda (haben/sein) 5–6 gapda aytib bera olasiz.",
+  "skill_focus": [
+    "speaking",
+    "listening",
+    "writing"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Safar har doim reja bo'yicha ketmaydi: poyezd kechikadi (Verspätung), reys bekor bo'ladi (ausfallen), xonada nimadir ishlamaydi (funktioniert nicht). Bunday holatlarda qisqa va aniq gapirish kerak."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Vaziyat",
+        "Nemischa",
+        "O'zbekcha"
+      ],
+      "rows": [
+        [
+          "Poyezd kechikmoqda",
+          "Der Zug hat 20 Minuten Verspätung.",
+          "Poyezd 20 daqiqa kechikmoqda."
+        ],
+        [
+          "Poyezd bekor qilindi",
+          "Der Zug fällt aus.",
+          "Poyezd qatnamaydi."
+        ],
+        [
+          "Poyezdga ulgurmadim",
+          "Ich habe den Zug verpasst.",
+          "Poyezdga kechikib qoldim."
+        ],
+        [
+          "Xonada muammo",
+          "Die Klimaanlage funktioniert nicht.",
+          "Konditsioner ishlamayapti."
+        ],
+        [
+          "Nimadir yo'q",
+          "Es gibt keine Handtücher.",
+          "Sochiq yo'q."
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Perfektda diqqat: \"verpassen\" Akkusativ oladi (den Zug) → HABEN. \"ausfallen\", \"ankommen\", \"abfahren\" — SEIN. 13-moduldagi qoida shu yerda ham ishlaydi."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-die-verspätung",
+      "de": "Verspätung",
+      "uz": "kechikish",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Verspätungen",
+      "forms": null,
+      "example_de": "Der Bus hat zehn Minuten Verspätung.",
+      "example_uz": "Avtobus o'n daqiqa kechikmoqda.",
+      "topic": "transport"
+    },
+    {
+      "id": "v-verpassen",
+      "de": "verpassen",
+      "uz": "(transportga) ulgurmay qolmoq, o'tkazib yubormoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "verpasst",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "verpasst"
+      },
+      "example_de": "Ich habe den letzten Bus verpasst.",
+      "example_uz": "Oxirgi avtobusga ulgurmay qoldim.",
+      "topic": "transport"
+    },
+    {
+      "id": "v-ausfallen",
+      "de": "ausfallen",
+      "uz": "bekor bo'lmoq, qatnamay qolmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "ausgefallen",
+        "perfekt_aux": "sein",
+        "praesens_3sg": "fällt aus"
+      },
+      "example_de": "Heute fällt der Zug nach Bonn aus.",
+      "example_uz": "Bugun Bonnga poyezd qatnamaydi.",
+      "topic": "transport"
+    },
+    {
+      "id": "v-die-durchsage",
+      "de": "Durchsage",
+      "uz": "e'lon (karnay orqali)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Durchsagen",
+      "forms": null,
+      "example_de": "Haben Sie die Durchsage gehört?",
+      "example_uz": "E'lonni eshitdingizmi?",
+      "topic": "transport"
+    },
+    {
+      "id": "v-das-gepäck",
+      "de": "Gepäck",
+      "uz": "yuk, bagaj",
+      "pos": "noun",
+      "article": "das",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Ihr Gepäck können Sie hier lassen.",
+      "example_uz": "Yukingizni shu yerda qoldirishingiz mumkin.",
+      "topic": "travel"
+    },
+    {
+      "id": "v-das-handtuch",
+      "de": "Handtuch",
+      "uz": "sochiq",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Handtücher",
+      "forms": null,
+      "example_de": "Können Sie mir bitte noch ein Handtuch bringen?",
+      "example_uz": "Menga yana bitta sochiq olib kela olasizmi?",
+      "topic": "hotel"
+    },
+    {
+      "id": "v-die-klimaanlage",
+      "de": "Klimaanlage",
+      "uz": "konditsioner",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Klimaanlagen",
+      "forms": null,
+      "example_de": "Die Klimaanlage ist zu laut.",
+      "example_uz": "Konditsioner juda shovqinli.",
+      "topic": "hotel"
+    },
+    {
+      "id": "v-funktionieren",
+      "de": "funktionieren",
+      "uz": "ishlamoq (qurilma haqida)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "funktioniert",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "funktioniert"
+      },
+      "example_de": "Die Dusche funktioniert nicht.",
+      "example_uz": "Dush ishlamayapti.",
+      "topic": "household"
+    },
+    {
+      "id": "v-kaputt",
+      "de": "kaputt",
+      "uz": "buzilgan, singan",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Mein Koffer ist kaputt.",
+      "example_uz": "Chamadonim buzilgan.",
+      "topic": "household"
+    },
+    {
+      "id": "v-der-strand",
+      "de": "Strand",
+      "uz": "plyaj, sohil",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Strände",
+      "forms": null,
+      "example_de": "Wir sind jeden Tag an den Strand gegangen.",
+      "example_uz": "Har kuni plyajga bordik.",
+      "topic": "travel"
+    },
+    {
+      "id": "v-die-sehenswürdigkeit",
+      "de": "Sehenswürdigkeit",
+      "uz": "diqqatga sazovor joy",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Sehenswürdigkeiten",
+      "forms": null,
+      "example_de": "Samarkand hat viele Sehenswürdigkeiten.",
+      "example_uz": "Samarqandda diqqatga sazovor joylar ko'p.",
+      "topic": "travel"
+    },
+    {
+      "id": "v-besichtigen",
+      "de": "besichtigen",
+      "uz": "(muzey, shahar) ko'zdan kechirmoq, tomosha qilmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "besichtigt",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "besichtigt"
+      },
+      "example_de": "Wir haben das Schloss besichtigt.",
+      "example_uz": "Biz qal'ani tomosha qildik.",
+      "topic": "travel"
+    }
+  ],
+  "review_vocabulary": [
+    "v-ankommen",
+    "v-abfahren",
+    "v-umsteigen",
+    "v-die-reise",
+    "v-der-koffer",
+    "v-passieren",
+    "v-die-rezeption"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-perfekt-aux",
+      "rule": "Safar fe'llari bilan Perfekt: harakat va \"ausfallen, ankommen, abfahren, umsteigen\" — \"sein\"; Akkusativ to'ldiruvchili fe'llar (verpassen, besichtigen, buchen) va \"funktionieren\" — \"haben\".",
+      "when": "Safarda nima bo'lganini, muammolarni va taassurotlarni aytib berganda.",
+      "structure": "Subyekt + ist/sind ... ausgefallen/angekommen.  Subyekt + hat/habe ... verpasst/besichtigt.",
+      "examples": [
+        {
+          "de": "Unser Zug ist ausgefallen.",
+          "uz": "Poyezdimiz qatnamay qoldi."
+        },
+        {
+          "de": "Ich habe den Anschlusszug verpasst.",
+          "uz": "Keyingi (ulanadigan) poyezdga ulgurmadim."
+        },
+        {
+          "de": "Wir sind erst um Mitternacht angekommen.",
+          "uz": "Biz faqat yarim tunda yetib keldik."
+        },
+        {
+          "de": "Die Klimaanlage hat nicht funktioniert.",
+          "uz": "Konditsioner ishlamadi."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Ich bin den Zug verpasst.",
+          "right": "Ich habe den Zug verpasst.",
+          "why": "\"verpassen\" Akkusativ oladi (den Zug) — demak \"haben\"."
+        },
+        {
+          "wrong": "Der Zug hat ausgefallen.",
+          "right": "Der Zug ist ausgefallen.",
+          "why": "\"ausfallen\" — holat o'zgarishi (bor edi → yo'q), \"sein\" bilan."
+        },
+        {
+          "wrong": "Wir haben spät angekommen.",
+          "right": "Wir sind spät angekommen.",
+          "why": "\"ankommen\" — harakat natijasi, doim \"sein\"."
+        }
+      ],
+      "check": [
+        "a2-m14-l3-e02",
+        "a2-m14-l3-e03",
+        "a2-m14-l3-e06"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Vokzaldagi e'lon",
+    "lines": [
+      {
+        "speaker": "Durchsage",
+        "de": "Achtung an Gleis 5: Der ICE nach Berlin hat circa 30 Minuten Verspätung.",
+        "uz": "Diqqat, 5-yo'l: Berlinga ketadigan ICE taxminan 30 daqiqa kechikmoqda."
+      },
+      {
+        "speaker": "Sardor",
+        "de": "Oh nein! Dann verpasse ich in Berlin meinen Anschluss.",
+        "uz": "Voy! Unda Berlinda keyingi poyezdga ulgurmayman."
+      },
+      {
+        "speaker": "Frau neben ihm",
+        "de": "Fragen Sie doch am Infoschalter. Vielleicht gibt es eine andere Verbindung.",
+        "uz": "Ma'lumot oynasidan so'rang. Balki boshqa qatnov bordir."
+      },
+      {
+        "speaker": "Sardor",
+        "de": "Gute Idee. Ist der Zug nach Hamburg auch zu spät?",
+        "uz": "Yaxshi fikr. Gamburg poyezdi ham kechikyaptimi?"
+      },
+      {
+        "speaker": "Frau neben ihm",
+        "de": "Nein, der ist heute ausgefallen.",
+        "uz": "Yo'q, u bugun umuman qatnamaydi."
+      }
+    ],
+    "questions": [
+      "a2-m14-l3-e04"
+    ]
+  },
+  "situation": {
+    "title": "Mehmonxonadagi muammo",
+    "context_uz": "Siz mehmonxonadasiz, kechqurun xonaga kirdingiz. Konditsioner ishlamayapti va hammomda sochiq yo'q. Qabulxonaga tushdingiz.",
+    "lines": [
+      {
+        "speaker": "Rezeption",
+        "de": "Guten Abend! Wie kann ich Ihnen helfen?",
+        "uz": "Xayrli kech! Sizga qanday yordam bera olaman?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Guten Abend! Ich habe Zimmer 214. Die Klimaanlage funktioniert leider nicht.",
+        "uz": "Xayrli kech! Men 214-xonadaman. Afsuski, konditsioner ishlamayapti."
+      },
+      {
+        "speaker": "Rezeption",
+        "de": "Oh, das tut mir leid. Ich schicke sofort einen Techniker.",
+        "uz": "Voy, uzr. Hozir texnik yuboraman."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Danke. Und im Bad gibt es keine Handtücher.",
+        "uz": "Rahmat. Hammomda esa sochiq yo'q."
+      },
+      {
+        "speaker": "Rezeption",
+        "de": "Ich bringe Ihnen gleich zwei Handtücher.",
+        "uz": "Hozir sizga ikkita sochiq olib chiqaman."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Vielen Dank!",
+        "uz": "Katta rahmat!"
+      }
+    ],
+    "task_uz": "Rol o'ynang: xonangizda boshqa muammo bor (dush ishlamayapti, WLAN yo'q, lift buzilgan). Qabulxonaga 2–3 gapda tushuntiring."
+  },
+  "exercises": [
+    {
+      "id": "a2-m14-l3-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "travel",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemischa so'zni o'zbekcha ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "die Verspätung",
+          "kechikish"
+        ],
+        [
+          "das Gepäck",
+          "yuk, bagaj"
+        ],
+        [
+          "das Handtuch",
+          "sochiq"
+        ],
+        [
+          "der Strand",
+          "plyaj"
+        ],
+        [
+          "die Sehenswürdigkeit",
+          "diqqatga sazovor joy"
+        ]
+      ],
+      "correct_answer": {
+        "die Verspätung": "kechikish",
+        "das Gepäck": "yuk, bagaj",
+        "das Handtuch": "sochiq",
+        "der Strand": "plyaj",
+        "die Sehenswürdigkeit": "diqqatga sazovor joy"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Verspätung — kechikish (spät = kech), Gepäck — yuk, Handtuch — sochiq (Hand = qo'l + Tuch = mato), Strand — plyaj, Sehenswürdigkeit — ko'rishga arziydigan joy.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l3-e02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "transport",
+      "grammar_topic": "g-perfekt-aux",
+      "difficulty": 1,
+      "question": "To'g'ri yordamchi fe'lni tanlang: Ich ___ den Zug verpasst.",
+      "prompt_de": null,
+      "options": [
+        "habe",
+        "bin"
+      ],
+      "pairs": null,
+      "correct_answer": "habe",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"den Zug\" — Akkusativ to'ldiruvchi.",
+      "explanation": "\"verpassen\" Akkusativ to'ldiruvchi oladi, shuning uchun \"haben\": Ich habe den Zug verpasst.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l3-e03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "transport",
+      "grammar_topic": "g-perfekt-aux",
+      "difficulty": 2,
+      "question": "Bo'sh joyni to'ldiring: Der Zug ___ leider ausgefallen.",
+      "prompt_de": "Der Zug ___ leider ausgefallen.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "ist",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"ausfallen\" — \"sein\" bilan: Der Zug ist ausgefallen.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l3-e04",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "transport",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "E'lonni tinglang. Berlin poyezdi qancha kechikmoqda?",
+      "prompt_de": null,
+      "options": [
+        "Taxminan 30 daqiqa",
+        "Taxminan 13 daqiqa",
+        "Poyezd qatnamaydi"
+      ],
+      "pairs": null,
+      "correct_answer": "Taxminan 30 daqiqa",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"dreißig\" = 30, \"dreizehn\" = 13.",
+      "explanation": "\"circa 30 Minuten Verspätung\" — taxminan 30 daqiqa kechikish. Qatnamaydigani — Gamburg poyezdi.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Achtung an Gleis 5: Der ICE nach Berlin hat circa 30 Minuten Verspätung."
+    },
+    {
+      "id": "a2-m14-l3-e05",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "hotel",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Xonangizda konditsioner ishlamayapti. Qabulxonada nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Entschuldigung, die Klimaanlage in Zimmer 214 funktioniert nicht.",
+        "Die Klimaanlage ist sehr schön.",
+        "Ich habe die Klimaanlage gebucht."
+      ],
+      "pairs": null,
+      "correct_answer": "Entschuldigung, die Klimaanlage in Zimmer 214 funktioniert nicht.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Muammoni aniq aytish: nima + qayerda + \"funktioniert nicht\".",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l3-e06",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "travel",
+      "grammar_topic": "g-perfekt-aux",
+      "difficulty": 2,
+      "question": "Gapdagi xato so'zni toping: \"Wir haben sehr spät im Hotel angekommen.\"",
+      "prompt_de": "Wir haben sehr spät im Hotel angekommen.",
+      "options": [
+        "Wir",
+        "haben",
+        "sehr",
+        "spät",
+        "im",
+        "Hotel",
+        "angekommen"
+      ],
+      "pairs": null,
+      "correct_answer": "haben",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: \"Wir sind sehr spät im Hotel angekommen.\" \"ankommen\" — \"sein\" bilan.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l3-e07",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "travel",
+      "grammar_topic": "g-perfekt",
+      "difficulty": 2,
+      "question": "\"besichtigen\" fe'lining Partizip II shaklini yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "besichtigt",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"be-\" bilan boshlanadi.",
+      "explanation": "\"be-\" fe'llarida \"ge-\" yo'q: besichtigt. Wir haben das Museum besichtigt.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l3-e08",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "transport",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Poyezd 20 daqiqa kechikmoqda.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Der Zug hat 20 Minuten Verspätung.",
+      "accepted_answers": [
+        "Der Zug hat zwanzig Minuten Verspätung.",
+        "Der Zug hat circa 20 Minuten Verspätung."
+      ],
+      "criteria": null,
+      "hint": "Nemis tilida poyezd kechikishga \"ega\": hat ... Verspätung.",
+      "explanation": "Nemischa: \"Der Zug hat 20 Minuten Verspätung\" — so'zma-so'z \"poyezdning 20 daqiqa kechikishi bor\".",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l3-e09",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "travel",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Otkritkani o'qing. Safarda qanday muammo bo'ldi?",
+      "prompt_de": "Liebe Oma, wir sind seit Montag in Antalya. Der Flug war gut, aber unser Gepäck ist erst einen Tag später angekommen! Das Hotel ist super, das Zimmer hat eine Klimaanlage und einen Balkon. Gestern haben wir die Altstadt besichtigt und heute sind wir den ganzen Tag am Strand geblieben. Viele Grüße, Nilufar",
+      "options": [
+        "Chamadon bir kun kech keldi",
+        "Mehmonxonada konditsioner ishlamadi",
+        "Reys bekor qilindi"
+      ],
+      "pairs": null,
+      "correct_answer": "Chamadon bir kun kech keldi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"erst einen Tag später\" — faqat bir kundan keyin.",
+      "explanation": "\"unser Gepäck ist erst einen Tag später angekommen\" — yukimiz faqat bir kundan keyin keldi. Konditsioner bor va ishlaydi, reys yaxshi bo'lgan.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l3-e10",
+      "version": 2,
+      "type": "short_text",
+      "skill": "writing",
+      "topic": "travel",
+      "grammar_topic": null,
+      "difficulty": 3,
+      "question": "Do'stingizga o'tgan safaringiz haqida qisqa xabar yozing (4–6 gap): qayerga bordingiz, nimani tomosha qildingiz va qanday muammo bo'ldi?",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 30,
+        "required_words": [
+          "bin",
+          "haben"
+        ],
+        "sample": "Hallo Lena! Letzte Woche bin ich nach Wien gefahren. Leider hat der Zug eine Stunde Verspätung gehabt. Ich habe den Anschluss verpasst und bin erst um 23 Uhr angekommen. Aber dann war alles super: Wir haben das Schloss Schönbrunn besichtigt und viel Kuchen gegessen. Liebe Grüße!"
+      },
+      "hint": "Kamida bitta \"sein\" va bitta \"haben\" bilan Perfekt ishlating.",
+      "explanation": "Yaxshi javobda: joy, harakat (bin/sind gefahren), tomosha (haben besichtigt) va muammo (Verspätung, verpasst) bor.",
+      "error_type": "tense",
+      "points": 3,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l3-e11",
+      "version": 1,
+      "type": "speak",
+      "skill": "speaking",
+      "topic": "hotel",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Ovoz chiqarib gapiring: mehmonxona qabulxonasiga xonangizdagi muammoni 2–3 gapda tushuntiring va yordam so'rang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 12,
+        "required_words": [
+          "funktioniert"
+        ],
+        "sample": "Guten Tag, ich habe Zimmer 305. Die Dusche funktioniert nicht und es gibt kein Handtuch. Können Sie bitte jemanden schicken?"
+      },
+      "hint": null,
+      "explanation": "Muammo haqida xabar: xona raqami + nima ishlamayapti + muloyim iltimos (Können Sie bitte ...?).",
+      "error_type": "other",
+      "points": 2,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a2-m14-l3-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "transport",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "\"Der Zug fällt aus\" nimani bildiradi?",
+      "prompt_de": null,
+      "options": [
+        "Poyezd qatnamaydi (bekor qilindi)",
+        "Poyezd yetib keldi",
+        "Poyezd juda to'la"
+      ],
+      "pairs": null,
+      "correct_answer": "Poyezd qatnamaydi (bekor qilindi)",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"ausfallen\" — bekor bo'lmoq, qatnamay qolmoq.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l3-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "travel",
+      "grammar_topic": "g-perfekt-aux",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: Wir ___ gestern das Schloss besichtigt.",
+      "prompt_de": "Wir ___ gestern das Schloss besichtigt.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "haben",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"besichtigen\" Akkusativ oladi (das Schloss) — \"haben\".",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l3-t03",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "reading",
+      "topic": "travel",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Mein Koffer ist kaputt.\"",
+      "prompt_de": "Mein Koffer ist kaputt.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Chamadonim buzilgan.",
+      "accepted_answers": [
+        "Chamadonim singan.",
+        "Mening chamadonim buzilgan.",
+        "Chamadonim buzildi.",
+        "Chamadonim buzuq."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"kaputt\" — buzilgan, singan. \"Mein Koffer\" — mening chamadonim.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l3-t04",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "transport",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Dialogni davom ettiring. — Ihr Zug ist leider ausgefallen.",
+      "prompt_de": "Ihr Zug ist leider ausgefallen.",
+      "options": [
+        "Oh nein! Wann fährt der nächste Zug?",
+        "Super, vielen Dank!",
+        "Ja, ich bin ausgefallen."
+      ],
+      "pairs": null,
+      "correct_answer": "Oh nein! Wann fährt der nächste Zug?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Poyezd bekor bo'lsa, keyingi poyezd haqida so'raladi: \"Wann fährt der nächste Zug?\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l3-t05",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "travel",
+      "grammar_topic": "g-perfekt-aux",
+      "difficulty": 2,
+      "question": "So'zlarni to'g'ri tartibda joylashtiring: \"Kecha biz plyajda bo'ldik.\"",
+      "prompt_de": null,
+      "options": [
+        "Strand",
+        "Wir",
+        "sind",
+        "am",
+        "gestern",
+        "gewesen"
+      ],
+      "pairs": null,
+      "correct_answer": "Wir sind gestern am Strand gewesen",
+      "accepted_answers": [
+        "Gestern sind wir am Strand gewesen"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"sein\" ning Perfekti ham \"sein\" bilan: sind ... gewesen. Fe'l 2-o'rinda, \"gewesen\" oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l3-t06",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "travel",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "To'g'ri artiklni tanlang: ___ Gepäck",
+      "prompt_de": null,
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "das",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "das Gepäck — yuk. Bu so'z faqat birlikda ishlatiladi.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m14-l3-t07",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "transport",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang va eshitganingizni yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Der Zug hat zehn Minuten Verspätung.",
+      "accepted_answers": [
+        "Der Zug hat 10 Minuten Verspätung."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Verspätung\" — katta harf bilan (ot), \"ä\" bilan.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": "Der Zug hat zehn Minuten Verspätung."
+    }
+  ]
+}

@@ -1,0 +1,376 @@
+{
+  "id": "g-modal-verbs",
+  "version": 1,
+  "level": "A1",
+  "order": 14,
+  "title": "Modal fe'llar: können, müssen, wollen, möchten, dürfen, sollen",
+  "prerequisites": [
+    "g-praesens",
+    "g-verb-position"
+  ],
+  "next": [
+    "g-polite-requests",
+    "g-praeteritum",
+    "g-future"
+  ],
+  "rule": "Modal fe'l imkoniyat, majburiyat, istak yoki ruxsatni bildiradi. U 2-o'rinda tuslanadi, asosiy fe'l esa infinitivda gap OXIRIDA turadi.",
+  "when": "Nima qila olishingiz, nima qilishingiz kerakligi, nima xohlashingiz va nimaga ruxsat borligini aytganda.",
+  "structure": "Ega + modal fe'l (2-o'rin) + ... + infinitiv (oxirida)",
+  "explanation": [
+    {
+      "type": "table",
+      "headers": [
+        "Olmosh",
+        "können",
+        "müssen",
+        "wollen",
+        "möchten",
+        "dürfen",
+        "sollen"
+      ],
+      "rows": [
+        [
+          "ich",
+          "kann",
+          "muss",
+          "will",
+          "möchte",
+          "darf",
+          "soll"
+        ],
+        [
+          "du",
+          "kannst",
+          "musst",
+          "willst",
+          "möchtest",
+          "darfst",
+          "sollst"
+        ],
+        [
+          "er / sie / es",
+          "kann",
+          "muss",
+          "will",
+          "möchte",
+          "darf",
+          "soll"
+        ],
+        [
+          "wir",
+          "können",
+          "müssen",
+          "wollen",
+          "möchten",
+          "dürfen",
+          "sollen"
+        ],
+        [
+          "ihr",
+          "könnt",
+          "müsst",
+          "wollt",
+          "möchtet",
+          "dürft",
+          "sollt"
+        ],
+        [
+          "sie / Sie",
+          "können",
+          "müssen",
+          "wollen",
+          "möchten",
+          "dürfen",
+          "sollen"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Fe'l",
+        "Ma'nosi",
+        "Misol"
+      ],
+      "rows": [
+        [
+          "können",
+          "qila olmoq (qobiliyat, imkoniyat)",
+          "Ich kann schwimmen."
+        ],
+        [
+          "müssen",
+          "majbur bo'lmoq, kerak",
+          "Ich muss arbeiten."
+        ],
+        [
+          "wollen",
+          "xohlamoq (qat'iy)",
+          "Ich will Arzt werden."
+        ],
+        [
+          "möchten",
+          "xohlardim (muloyim)",
+          "Ich möchte einen Tee."
+        ],
+        [
+          "dürfen",
+          "ruxsat bo'lmoq",
+          "Hier darf man parken."
+        ],
+        [
+          "sollen",
+          "kerak (boshqaning maslahati/topshirig'i)",
+          "Ich soll viel trinken."
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "ich va er/sie/es shakllari bir xil va qo'shimchasiz: ich kann, er kann."
+    },
+    {
+      "type": "tip",
+      "text": "nicht müssen = shart emas. nicht dürfen = mumkin emas. Du musst nicht kommen (kelishing shart emas) ≠ Du darfst nicht kommen (kelishing mumkin emas)."
+    }
+  ],
+  "examples": [
+    {
+      "de": "Ich kann gut schwimmen.",
+      "uz": "Men yaxshi suza olaman."
+    },
+    {
+      "de": "Kannst du mir helfen?",
+      "uz": "Menga yordam bera olasanmi?"
+    },
+    {
+      "de": "Wir müssen morgen früh aufstehen.",
+      "uz": "Ertaga erta turishimiz kerak."
+    },
+    {
+      "de": "Ich möchte einen Tee, bitte.",
+      "uz": "Bitta choy, iltimos."
+    },
+    {
+      "de": "Hier darf man nicht parken.",
+      "uz": "Bu yerda mashina qo'yish mumkin emas."
+    },
+    {
+      "de": "Der Arzt sagt, ich soll viel Wasser trinken.",
+      "uz": "Shifokor ko'p suv ichishim kerakligini aytyapti."
+    }
+  ],
+  "common_mistakes": [
+    {
+      "wrong": "Ich kann spreche Deutsch.",
+      "right": "Ich kann Deutsch sprechen.",
+      "why": "Modal fe'ldan keyin asosiy fe'l infinitivda va gap oxirida."
+    },
+    {
+      "wrong": "Er kannt schwimmen.",
+      "right": "Er kann schwimmen.",
+      "why": "er shaklida qo'shimcha yo'q: er kann."
+    },
+    {
+      "wrong": "Ich will einen Kaffee. (kafeda)",
+      "right": "Ich möchte einen Kaffee.",
+      "why": "will qo'pol eshitiladi; buyurtmada möchte ishlating."
+    },
+    {
+      "wrong": "Du musst hier nicht rauchen. (taqiq ma'nosida)",
+      "right": "Du darfst hier nicht rauchen.",
+      "why": "Taqiq — nicht dürfen. nicht müssen — \"shart emas\"."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "g-modal-verbs-e01",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "food",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "Fe'lni tuslang (können): \"Er ___ gut kochen.\"",
+      "prompt_de": "Er ___ gut kochen.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "kann",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "er bilan können → kann (qo'shimchasiz).",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-modal-verbs-e02",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "work",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "So'zlardan gap tuzing: \"Men bugun ishlashim kerak.\"",
+      "prompt_de": null,
+      "options": [
+        "arbeiten",
+        "heute",
+        "muss",
+        "Ich"
+      ],
+      "pairs": null,
+      "correct_answer": "Ich muss heute arbeiten.",
+      "accepted_answers": [
+        "Heute muss ich arbeiten."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "muss — 2-o'rin, arbeiten — oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-modal-verbs-e03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "restaurant",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "Kafeda muloyim buyurtma bering: \"Ich ___ ein Wasser, bitte.\"",
+      "prompt_de": "Ich ___ ein Wasser, bitte.",
+      "options": [
+        "möchte",
+        "will",
+        "muss"
+      ],
+      "pairs": null,
+      "correct_answer": "möchte",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Muloyim istak — möchte.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-modal-verbs-e04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 2,
+      "question": "\"Bu yerda chekish mumkin emas\": \"Hier ___ man nicht rauchen.\"",
+      "prompt_de": "Hier ___ man nicht rauchen.",
+      "options": [
+        "darf",
+        "will",
+        "möchte"
+      ],
+      "pairs": null,
+      "correct_answer": "darf",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Taqiq — nicht dürfen: Hier darf man nicht rauchen.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-modal-verbs-e05",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "daily-routine",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "Fe'lni tuslang (müssen): \"Du ___ jetzt nach Hause gehen.\"",
+      "prompt_de": "Du ___ jetzt nach Hause gehen.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "musst",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "du bilan müssen → musst.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-modal-verbs-e06",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "appointments",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 2,
+      "question": "Xato so'zni toping: \"Wir können morgen kommt.\"",
+      "prompt_de": "Wir können morgen kommt.",
+      "options": [
+        "Wir",
+        "können",
+        "morgen",
+        "kommt"
+      ],
+      "pairs": null,
+      "correct_answer": "kommt",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Modal fe'ldan keyin infinitiv: Wir können morgen kommen.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-modal-verbs-e07",
+      "version": 1,
+      "type": "match",
+      "skill": "grammar",
+      "topic": "general",
+      "grammar_topic": "g-modal-verbs",
+      "difficulty": 1,
+      "question": "Modal fe'lni ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "können",
+          "qila olmoq"
+        ],
+        [
+          "müssen",
+          "majbur bo'lmoq"
+        ],
+        [
+          "dürfen",
+          "ruxsat bo'lmoq"
+        ],
+        [
+          "wollen",
+          "xohlamoq"
+        ]
+      ],
+      "correct_answer": {
+        "können": "qila olmoq",
+        "müssen": "majbur bo'lmoq",
+        "dürfen": "ruxsat bo'lmoq",
+        "wollen": "xohlamoq"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "können — qila olmoq, müssen — majbur bo'lmoq, dürfen — ruxsat bo'lmoq, wollen — xohlamoq.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "id": "g-future",
+  "version": 1,
+  "level": "A2",
+  "order": 27,
+  "title": "Kelajak rejalarini ifodalash",
+  "prerequisites": [
+    "g-praesens",
+    "g-time-prepositions",
+    "g-modal-verbs"
+  ],
+  "next": [],
+  "rule": "Kelajak haqida uch usulda gapiriladi: 1) Präsens + vaqt so'zi (eng ko'p); 2) werden + infinitiv (Futur I) — reja, va'da, bashorat; 3) wollen/möchten/planen — istak va reja.",
+  "when": "Ertangi kun, dam olish kunlari, kelgusi yil va hayotiy maqsadlar haqida gapirganda.",
+  "structure": "Vaqt so'zi + fe'l (Präsens) ... | Ega + werden (2-o'rin) + ... + infinitiv (oxirida)",
+  "explanation": [
+    {
+      "type": "table",
+      "headers": [
+        "Olmosh",
+        "werden"
+      ],
+      "rows": [
+        [
+          "ich",
+          "werde"
+        ],
+        [
+          "du",
+          "wirst"
+        ],
+        [
+          "er / sie / es",
+          "wird"
+        ],
+        [
+          "wir",
+          "werden"
+        ],
+        [
+          "ihr",
+          "werdet"
+        ],
+        [
+          "sie / Sie",
+          "werden"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Vaqt so'zi",
+        "Ma'nosi"
+      ],
+      "rows": [
+        [
+          "morgen / übermorgen",
+          "ertaga / indinga"
+        ],
+        [
+          "nächste Woche",
+          "kelasi hafta"
+        ],
+        [
+          "nächsten Monat",
+          "kelasi oy"
+        ],
+        [
+          "nächstes Jahr",
+          "kelasi yil"
+        ],
+        [
+          "bald",
+          "tez orada"
+        ],
+        [
+          "in zwei Jahren",
+          "ikki yildan keyin"
+        ],
+        [
+          "später",
+          "keyinroq"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Eng oddiy usul: Morgen fahre ich nach Samarkand. \"werden\" bilan gap rasmiyroq yoki reja/bashoratni ta'kidlaydi: Es wird morgen regnen."
+    },
+    {
+      "type": "tip",
+      "text": "werden yolg'iz \"bo'lmoq\" ma'nosida: Ich werde Arzt — shifokor bo'laman. Inglizcha \"I will\" ga o'xshash \"Ich will\" esa \"xohlayman\" degani!"
+    }
+  ],
+  "examples": [
+    {
+      "de": "Nächste Woche beginne ich einen neuen Kurs.",
+      "uz": "Kelasi hafta yangi kursni boshlayman."
+    },
+    {
+      "de": "Ich werde im Sommer meine Familie besuchen.",
+      "uz": "Yozda oilamni ko'rgani boraman."
+    },
+    {
+      "de": "Es wird morgen regnen.",
+      "uz": "Ertaga yomg'ir yog'adi."
+    },
+    {
+      "de": "In zwei Jahren will ich in Deutschland studieren.",
+      "uz": "Ikki yildan keyin Germaniyada o'qimoqchiman."
+    },
+    {
+      "de": "Was machst du am Wochenende?",
+      "uz": "Dam olish kunlari nima qilasan?"
+    },
+    {
+      "de": "Bald werde ich besser Deutsch sprechen.",
+      "uz": "Tez orada nemischani yaxshiroq gapiraman."
+    }
+  ],
+  "common_mistakes": [
+    {
+      "wrong": "Ich werde morgen fahren nach Berlin.",
+      "right": "Ich werde morgen nach Berlin fahren.",
+      "why": "Infinitiv gap oxirida."
+    },
+    {
+      "wrong": "Du werdest kommen.",
+      "right": "Du wirst kommen.",
+      "why": "werden nomuntazam: du wirst, er wird."
+    },
+    {
+      "wrong": "Ich will morgen arbeiten. (kelajak ma'nosida)",
+      "right": "Ich arbeite morgen. / Ich werde morgen arbeiten.",
+      "why": "will — \"xohlayman\", kelajak qo'shimchasi emas."
+    },
+    {
+      "wrong": "in nächste Woche",
+      "right": "nächste Woche",
+      "why": "nächste Woche predlogsiz ishlatiladi."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "g-future-e01",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "education",
+      "grammar_topic": "g-future",
+      "difficulty": 1,
+      "question": "Fe'lni tuslang (werden): \"Du ___ die Prüfung bestimmt bestehen.\"",
+      "prompt_de": "Du ___ die Prüfung bestimmt bestehen.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "wirst",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "du → wirst.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-future-e02",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "future-plans",
+      "grammar_topic": "g-future",
+      "difficulty": 1,
+      "question": "So'zlardan gap tuzing: \"Kelasi yil men Germaniyada ishlayman.\"",
+      "prompt_de": null,
+      "options": [
+        "arbeiten",
+        "Deutschland",
+        "in",
+        "Jahr",
+        "nächstes",
+        "werde",
+        "Ich"
+      ],
+      "pairs": null,
+      "correct_answer": "Ich werde nächstes Jahr in Deutschland arbeiten.",
+      "accepted_answers": [
+        "Nächstes Jahr werde ich in Deutschland arbeiten."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "werde — 2-o'rin, arbeiten — oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-future-e03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "future-plans",
+      "grammar_topic": "g-future",
+      "difficulty": 1,
+      "question": "Qaysi gap kelajak haqida?",
+      "prompt_de": null,
+      "options": [
+        "Morgen besuche ich meine Tante.",
+        "Gestern habe ich meine Tante besucht.",
+        "Ich besuchte oft meine Tante."
+      ],
+      "pairs": null,
+      "correct_answer": "Morgen besuche ich meine Tante.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Präsens + vaqt so'zi (morgen) — kelajak ma'nosi.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-future-e04",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "weather",
+      "grammar_topic": "g-future",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (werden): \"Es ___ morgen regnen.\"",
+      "prompt_de": "Es ___ morgen regnen.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "wird",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "es → wird.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-future-e05",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "professions",
+      "grammar_topic": "g-future",
+      "difficulty": 2,
+      "question": "\"Ich will Arzt werden\" nimani bildiradi?",
+      "prompt_de": null,
+      "options": [
+        "Men shifokor bo'lishni xohlayman.",
+        "Men shifokorman.",
+        "Men shifokor edim."
+      ],
+      "pairs": null,
+      "correct_answer": "Men shifokor bo'lishni xohlayman.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "wollen — xohlamoq; werden — bo'lmoq.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-future-e06",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "travel",
+      "grammar_topic": "g-future",
+      "difficulty": 2,
+      "question": "Xato so'zni toping: \"Ihr werdet nächsten Sommer nach Chiwa fliegt.\"",
+      "prompt_de": "Ihr werdet nächsten Sommer nach Chiwa fliegt.",
+      "options": [
+        "Ihr",
+        "werdet",
+        "nächsten",
+        "Sommer",
+        "nach",
+        "Chiwa",
+        "fliegt"
+      ],
+      "pairs": null,
+      "correct_answer": "fliegt",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "werden + infinitiv: Ihr werdet ... nach Chiwa fliegen.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-future-e07",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "grammar",
+      "topic": "work",
+      "grammar_topic": "g-future",
+      "difficulty": 1,
+      "question": "Nemis tiliga tarjima qiling: \"Ertaga men ishlayman.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Morgen arbeite ich.",
+      "accepted_answers": [
+        "Ich arbeite morgen.",
+        "Morgen werde ich arbeiten.",
+        "Ich werde morgen arbeiten."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Präsens + morgen yetarli. werden bilan ham to'g'ri.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

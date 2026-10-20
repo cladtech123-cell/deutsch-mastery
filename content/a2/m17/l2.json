@@ -1,0 +1,830 @@
+{
+  "id": "a2-m17-l2",
+  "version": 3,
+  "level": "A2",
+  "module": 17,
+  "order": 2,
+  "title": "Nima qayerda? Joy predloglari",
+  "title_de": "Wo ist was in der Wohnung?",
+  "goal": "Dars oxirida \"Wo?\" savoliga 9 ta joy predlogi (in, an, auf, unter, über, neben, vor, hinter, zwischen) va Dativ bilan javob bera olasiz: Der Schlüssel liegt auf dem Regal.",
+  "skill_focus": [
+    "grammar",
+    "vocabulary",
+    "listening"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Narsa qayerda turganini aytish uchun joy predloglari ishlatiladi. \"Wo?\" (qayerda?) savoliga javob berganda bu predloglardan keyin DATIV keladi."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Predlog",
+        "Ma'nosi",
+        "Misol (Dativ)"
+      ],
+      "rows": [
+        [
+          "in",
+          "ichida",
+          "Das Fahrrad steht im Keller. (in dem → im)"
+        ],
+        [
+          "an",
+          "yonida (vertikal yuzada), ...da",
+          "Das Bild hängt an der Wand. / am Fenster"
+        ],
+        [
+          "auf",
+          "ustida (tegib turadi)",
+          "Das Handy liegt auf dem Tisch."
+        ],
+        [
+          "über",
+          "ustida (tegmasdan)",
+          "Die Lampe hängt über dem Tisch."
+        ],
+        [
+          "unter",
+          "ostida",
+          "Die Katze schläft unter dem Bett."
+        ],
+        [
+          "neben",
+          "yonida",
+          "Die Steckdose ist neben der Tür."
+        ],
+        [
+          "vor",
+          "oldida",
+          "Das Auto steht vor dem Haus."
+        ],
+        [
+          "hinter",
+          "orqasida",
+          "Der Hof ist hinter dem Haus."
+        ],
+        [
+          "zwischen",
+          "orasida",
+          "Das Sofa steht zwischen dem Fenster und der Tür."
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Qisqartmalar: in + dem = im, an + dem = am. \"im Keller\", \"am Fenster\" deyiladi, \"in dem Keller\" deyilmaydi. \"Wohin?\" (qayerga?) savolida esa Akkusativ keladi — buni keyinroq o'rganamiz."
+    },
+    {
+      "type": "tip",
+      "text": "Nemischa qavat hisobi o'zbekchadan bitta kam: Erdgeschoss — birinchi (yer) qavat, im ersten Stock — ikkinchi qavat, im zweiten Stock — uchinchi qavat. E'lonlarda '2. Stock' ham uchinchi qavatni bildiradi.",
+      "headers": null,
+      "rows": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-über",
+      "de": "über",
+      "uz": "ustida (tegmasdan); haqida",
+      "pos": "preposition",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Über dem Sofa hängt ein Bild.",
+      "example_uz": "Divan ustida rasm osilgan.",
+      "topic": "directions"
+    },
+    {
+      "id": "v-zwischen",
+      "de": "zwischen",
+      "uz": "orasida",
+      "pos": "preposition",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Die Lampe steht zwischen dem Sofa und dem Regal.",
+      "example_uz": "Chiroq divan va javon orasida turibdi.",
+      "topic": "directions"
+    },
+    {
+      "id": "v-die-steckdose",
+      "de": "Steckdose",
+      "uz": "rozetka",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Steckdosen",
+      "forms": null,
+      "example_de": "Gibt es eine Steckdose neben dem Bett?",
+      "example_uz": "Karavot yonida rozetka bormi?",
+      "topic": "household"
+    },
+    {
+      "id": "v-der-hof",
+      "de": "Hof",
+      "uz": "hovli",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Höfe",
+      "forms": null,
+      "example_de": "Die Kinder spielen im Hof.",
+      "example_uz": "Bolalar hovlida o'ynayapti.",
+      "topic": "home"
+    },
+    {
+      "id": "v-das-erdgeschoss",
+      "de": "Erdgeschoss",
+      "uz": "birinchi (yer) qavat",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Erdgeschosse",
+      "forms": null,
+      "example_de": "Wir wohnen im Erdgeschoss.",
+      "example_uz": "Biz birinchi qavatda yashaymiz.",
+      "topic": "home"
+    },
+    {
+      "id": "v-der-eingang",
+      "de": "Eingang",
+      "uz": "kirish joyi",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Eingänge",
+      "forms": null,
+      "example_de": "Der Eingang ist hinter dem Haus.",
+      "example_uz": "Kirish joyi uyning orqasida.",
+      "topic": "home"
+    },
+    {
+      "id": "v-das-treppenhaus",
+      "de": "Treppenhaus",
+      "uz": "zinapoya maydoni (podyezd)",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Treppenhäuser",
+      "forms": null,
+      "example_de": "Im Treppenhaus ist es dunkel.",
+      "example_uz": "Podyezdda qorong'i.",
+      "topic": "home"
+    },
+    {
+      "id": "v-der-briefkasten",
+      "de": "Briefkasten",
+      "uz": "pochta qutisi",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Briefkästen",
+      "forms": null,
+      "example_de": "Der Briefkasten hängt neben der Tür.",
+      "example_uz": "Pochta qutisi eshik yonida osilgan.",
+      "topic": "home"
+    },
+    {
+      "id": "v-die-decke",
+      "de": "Decke",
+      "uz": "shift; adyol",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Decken",
+      "forms": null,
+      "example_de": "Die Lampe hängt an der Decke.",
+      "example_uz": "Chiroq shiftga osilgan.",
+      "topic": "home"
+    },
+    {
+      "id": "v-der-dachboden",
+      "de": "Dachboden",
+      "uz": "cherdak (tom osti)",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Dachböden",
+      "forms": null,
+      "example_de": "Auf dem Dachboden stehen alte Möbel.",
+      "example_uz": "Cherdakda eski mebellar turibdi.",
+      "topic": "home"
+    },
+    {
+      "id": "v-das-stockwerk",
+      "de": "Stockwerk",
+      "uz": "qavat",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Stockwerke",
+      "forms": null,
+      "example_de": "Das Haus hat vier Stockwerke.",
+      "example_uz": "Uy to'rt qavatli.",
+      "topic": "home"
+    }
+  ],
+  "review_vocabulary": [
+    "v-unter",
+    "v-neben",
+    "v-hinter",
+    "v-der-keller",
+    "v-der-flur",
+    "v-das-regal",
+    "v-die-ecke",
+    "v-die-treppe",
+    "v-vor",
+    "v-der-mieter",
+    "v-der-schlüssel",
+    "v-der-aufzug"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-place-prepositions",
+      "rule": "in, an, auf, über, unter, neben, vor, hinter, zwischen — \"Wo?\" (qayerda?) savoliga javob berganda Dativ bilan ishlatiladi: dem / der / dem / den(+n).",
+      "when": "Uyda, ko'chada narsalar va odamlar qayerda ekanini aytganda.",
+      "structure": "Ega + steht/liegt/hängt/ist + predlog + Dativ.  Masalan: Der Schlüssel liegt auf dem Regal.",
+      "examples": [
+        {
+          "de": "Der Schlüssel liegt auf dem Regal.",
+          "uz": "Kalit javon ustida yotibdi."
+        },
+        {
+          "de": "Die Mülltonnen stehen im Hof hinter dem Haus.",
+          "uz": "Chiqindi qutilari uy orqasidagi hovlida turibdi."
+        },
+        {
+          "de": "Das Bild hängt an der Wand über dem Sofa.",
+          "uz": "Rasm divan ustidagi devorda osilgan."
+        },
+        {
+          "de": "Die Steckdose ist neben der Tür.",
+          "uz": "Rozetka eshik yonida."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Der Schlüssel liegt auf der Tisch.",
+          "right": "Der Schlüssel liegt auf dem Tisch.",
+          "why": "\"Wo?\" — Dativ: der Tisch → dem Tisch."
+        },
+        {
+          "wrong": "Das Fahrrad steht in dem Keller.",
+          "right": "Das Fahrrad steht im Keller.",
+          "why": "in + dem odatda qisqartiriladi: im."
+        },
+        {
+          "wrong": "Das Bild hängt an die Wand.",
+          "right": "Das Bild hängt an der Wand.",
+          "why": "Rasm qayerda osilgan? (Wo?) — Dativ: an der Wand."
+        }
+      ],
+      "check": [
+        "a2-m17-l2-e02",
+        "a2-m17-l2-e03",
+        "a2-m17-l2-e04",
+        "a2-m17-l2-e07"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Uy boshqaruvchisi uyni ko'rsatmoqda",
+    "lines": [
+      {
+        "speaker": "Hausmeister",
+        "de": "Willkommen! Ihre Wohnung ist im zweiten Stock. Der Aufzug ist neben der Treppe.",
+        "uz": "Xush kelibsiz! Kvartirangiz uchinchi qavatda. Lift zinapoya yonida."
+      },
+      {
+        "speaker": "Nigora",
+        "de": "Und wo kann ich mein Fahrrad abstellen?",
+        "uz": "Velosipedimni qayerga qo'ysam bo'ladi?"
+      },
+      {
+        "speaker": "Hausmeister",
+        "de": "Die Fahrräder stehen im Keller. Ihr Kellerraum ist ganz hinten, links.",
+        "uz": "Velosipedlar yerto'lada turadi. Sizning yerto'la xonangiz eng orqada, chapda."
+      },
+      {
+        "speaker": "Nigora",
+        "de": "Und die Mülltonnen?",
+        "uz": "Chiqindi qutilari-chi?"
+      },
+      {
+        "speaker": "Hausmeister",
+        "de": "Die sind im Hof, hinter dem Haus.",
+        "uz": "Ular hovlida, uyning orqasida."
+      },
+      {
+        "speaker": "Nigora",
+        "de": "Danke! Und wo finde ich Sie, wenn es ein Problem gibt?",
+        "uz": "Rahmat! Muammo bo'lsa sizni qayerdan topaman?"
+      },
+      {
+        "speaker": "Hausmeister",
+        "de": "Mein Büro ist im Erdgeschoss, neben dem Eingang.",
+        "uz": "Xonam birinchi qavatda, kirish yonida."
+      }
+    ],
+    "questions": [
+      "a2-m17-l2-e05"
+    ]
+  },
+  "situation": {
+    "title": "Yangi kvartirada narsalarni topish",
+    "context_uz": "Siz yangi kvartiraga ko'chib o'tdingiz. Do'stingiz Lena yordamga keldi va narsalarni qidiryapti.",
+    "lines": [
+      {
+        "speaker": "Lena",
+        "de": "Wo ist der Schlüssel für den Keller?",
+        "uz": "Yerto'la kaliti qayerda?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Er liegt auf dem Regal im Flur.",
+        "uz": "U dahlizdagi javon ustida yotibdi."
+      },
+      {
+        "speaker": "Lena",
+        "de": "Und die Bohrmaschine?",
+        "uz": "Drel-chi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Sie ist im Karton unter dem Tisch.",
+        "uz": "U stol ostidagi qutida."
+      },
+      {
+        "speaker": "Lena",
+        "de": "Gibt es hier eine Steckdose?",
+        "uz": "Bu yerda rozetka bormi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ja, in der Ecke, hinter dem Sofa.",
+        "uz": "Ha, burchakda, divan orqasida."
+      }
+    ],
+    "task_uz": "Xonangizni tasvirlang: kamida 5 ta narsa qayerda turganini ayting. Har bir gapda boshqa predlog ishlating (auf, unter, neben, zwischen, hinter...)."
+  },
+  "exercises": [
+    {
+      "id": "a2-m17-l2-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "grammar",
+      "topic": "directions",
+      "grammar_topic": "g-place-prepositions",
+      "difficulty": 1,
+      "question": "Predlogni ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "unter",
+          "ostida"
+        ],
+        [
+          "über",
+          "ustida (tegmasdan)"
+        ],
+        [
+          "neben",
+          "yonida"
+        ],
+        [
+          "hinter",
+          "orqasida"
+        ],
+        [
+          "zwischen",
+          "orasida"
+        ]
+      ],
+      "correct_answer": {
+        "unter": "ostida",
+        "über": "ustida (tegmasdan)",
+        "neben": "yonida",
+        "hinter": "orqasida",
+        "zwischen": "orasida"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "unter — ostida, über — tepasida (tegmasdan), neben — yonida, hinter — orqasida, zwischen — orasida.",
+      "error_type": "preposition",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l2-e02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-place-prepositions",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (in + dem): Die Fahrräder stehen ___ Keller.",
+      "prompt_de": "Die Fahrräder stehen ___ Keller.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "im",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Qisqartma.",
+      "explanation": "in + dem = im: im Keller.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l2-e03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-place-prepositions",
+      "difficulty": 1,
+      "question": "To'g'ri artiklni tanlang: Die Lampe hängt über ___ Tisch.",
+      "prompt_de": null,
+      "options": [
+        "dem",
+        "den",
+        "der"
+      ],
+      "pairs": null,
+      "correct_answer": "dem",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Wo?\" — Dativ. der Tisch → dem Tisch.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l2-e04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-place-prepositions",
+      "difficulty": 2,
+      "question": "To'g'ri variantni tanlang: Das Sofa steht zwischen ___ Fenster und ___ Tür.",
+      "prompt_de": null,
+      "options": [
+        "dem ... der",
+        "das ... die",
+        "den ... dem"
+      ],
+      "pairs": null,
+      "correct_answer": "dem ... der",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Dativ: das Fenster → dem Fenster, die Tür → der Tür.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l2-e05",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Chiqindi qutilari qayerda?",
+      "prompt_de": null,
+      "options": [
+        "Hovlida, uyning orqasida",
+        "Yerto'lada",
+        "Kirish yonida"
+      ],
+      "pairs": null,
+      "correct_answer": "Hovlida, uyning orqasida",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"im Hof, hinter dem Haus\" — hovlida, uy orqasida.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Die sind im Hof, hinter dem Haus."
+    },
+    {
+      "id": "a2-m17-l2-e06",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-place-prepositions",
+      "difficulty": 1,
+      "question": "So'zlarni to'g'ri tartibda joylashtiring: \"Kalit javon ustida yotibdi.\"",
+      "prompt_de": null,
+      "options": [
+        "liegt",
+        "Der",
+        "dem",
+        "Schlüssel",
+        "Regal",
+        "auf"
+      ],
+      "pairs": null,
+      "correct_answer": "Der Schlüssel liegt auf dem Regal",
+      "accepted_answers": [
+        "Auf dem Regal liegt der Schlüssel"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Fe'l \"liegt\" 2-o'rinda. \"auf dem Regal\" — Dativ (Wo?).",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l2-e07",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-place-prepositions",
+      "difficulty": 2,
+      "question": "Gapdagi xato so'zni toping: \"Das Bild hängt an die Wand.\"",
+      "prompt_de": "Das Bild hängt an die Wand.",
+      "options": [
+        "Das",
+        "Bild",
+        "hängt",
+        "an",
+        "die",
+        "Wand"
+      ],
+      "pairs": null,
+      "correct_answer": "die",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Rasm qayerda? (Wo?) — Dativ: an der Wand. \"die\" — xato.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l2-e08",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "household",
+      "grammar_topic": "g-place-prepositions",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Rozetka eshik yonida.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Die Steckdose ist neben der Tür.",
+      "accepted_answers": [
+        "Neben der Tür ist die Steckdose.",
+        "Die Steckdose befindet sich neben der Tür.",
+        "Die Steckdose ist direkt neben der Tür."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"neben\" + Dativ: die Tür → der Tür.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l2-e09",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "To'g'ri artiklni tanlang: ___ Erdgeschoss",
+      "prompt_de": null,
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "das",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "das Erdgeschoss (das Geschoss — qavat).",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l2-e10",
+      "version": 2,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Uy qoidalarini (Hausordnung) o'qing. Velosipedlarni qayerda qoldirish kerak?",
+      "prompt_de": "Hausordnung: Fahrräder bitte nur im Keller abstellen, nicht im Flur oder unter der Treppe. Die Mülltonnen stehen im Hof. Von 22 bis 6 Uhr ist Nachtruhe.",
+      "options": [
+        "Yerto'lada",
+        "Dahlizda",
+        "Zinapoya ostida"
+      ],
+      "pairs": null,
+      "correct_answer": "Yerto'lada",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Fahrräder bitte nur im Keller abstellen\" — velosipedlarni faqat yerto'lada qoldiring; dahlizda yoki zinapoya ostida — mumkin emas.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l2-e11",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "home",
+      "grammar_topic": "g-place-prepositions",
+      "difficulty": 1,
+      "question": "Dialogni davom ettiring. — Wo ist mein Handy?",
+      "prompt_de": "Wo ist mein Handy?",
+      "options": [
+        "Es liegt auf dem Sofa.",
+        "Es liegt auf das Sofa.",
+        "Ich liege auf dem Sofa."
+      ],
+      "pairs": null,
+      "correct_answer": "Es liegt auf dem Sofa.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Wo?\" — Dativ: auf dem Sofa. \"auf das Sofa\" — Akkusativ (qayerga?), bu yerda xato.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a2-m17-l2-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-place-prepositions",
+      "difficulty": 1,
+      "question": "\"Mushuk karavot ostida uxlayapti.\" Qaysi predlog kerak? Die Katze schläft ___ dem Bett.",
+      "prompt_de": null,
+      "options": [
+        "unter",
+        "über",
+        "zwischen"
+      ],
+      "pairs": null,
+      "correct_answer": "unter",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "ostida — unter.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l2-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-place-prepositions",
+      "difficulty": 2,
+      "question": "Bo'sh joyni to'ldiring (orqasida): Der Spiegel hängt ___ der Tür.",
+      "prompt_de": "Der Spiegel hängt ___ der Tür.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "hinter",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "orqasida — hinter (+ Dativ: der Tür).",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l2-t03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-place-prepositions",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring (in + dem): Wir wohnen ___ Erdgeschoss.",
+      "prompt_de": "Wir wohnen ___ Erdgeschoss.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "im",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "in + dem = im.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l2-t04",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "reading",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Mein Fahrrad steht im Hof.\"",
+      "prompt_de": "Mein Fahrrad steht im Hof.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Velosipedim hovlida turibdi.",
+      "accepted_answers": [
+        "Mening velosipedim hovlida turibdi.",
+        "Velosipedim hovlida.",
+        "Velosipedim hovlida turipti."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"im Hof\" — hovlida. \"steht\" — turibdi.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l2-t05",
+      "version": 1,
+      "type": "plural",
+      "skill": "vocabulary",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Ko'plik shaklini yozing: die Ecke → ?",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "die Ecken",
+      "accepted_answers": [
+        "Ecken"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"-e\" bilan tugaydigan ayol jinsi otlari: -n qo'shiladi: die Ecken.",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l2-t06",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "household",
+      "grammar_topic": "g-place-prepositions",
+      "difficulty": 1,
+      "question": "Do'stingiz telefonini quvvatlamoqchi va so'rayapti: \"Wo ist hier eine Steckdose?\" Qaysi javob to'g'ri?",
+      "prompt_de": null,
+      "options": [
+        "Neben dem Regal, in der Ecke.",
+        "Neben das Regal, in die Ecke.",
+        "Ja, ich habe eine Steckdose."
+      ],
+      "pairs": null,
+      "correct_answer": "Neben dem Regal, in der Ecke.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Wo?\" savoliga Dativ bilan javob: neben dem Regal, in der Ecke.",
+      "error_type": "case",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m17-l2-t07",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "home",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang va eshitganingizni yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Das Regal steht in der Ecke.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"in der Ecke\" — die Ecke Dativda: der Ecke.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": "Das Regal steht in der Ecke."
+    }
+  ]
+}

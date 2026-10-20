@@ -1,0 +1,690 @@
+{
+  "id": "mid-a2",
+  "version": 1,
+  "kind": "midterm",
+  "level": "A2",
+  "title": "A2 oraliq nazorat (13–18-modullar)",
+  "pass_percent": 60,
+  "sections": [
+    {
+      "skill": "reading",
+      "title": "Lesen — o'qish",
+      "exercises": [
+        {
+          "id": "mid-a2-01",
+          "version": 1,
+          "type": "reading",
+          "skill": "reading",
+          "topic": "home",
+          "grammar_topic": null,
+          "difficulty": 1,
+          "question": "Emailni o'qing. Qanday muammo bor?",
+          "prompt_de": "Sehr geehrter Herr Krüger, seit drei Tagen funktioniert die Heizung in meiner Wohnung nicht. Es ist sehr kalt, besonders im Schlafzimmer. Könnten Sie bitte einen Techniker schicken? Ich bin jeden Tag ab 16 Uhr zu Hause. Am Mittwoch habe ich den ganzen Tag frei. Mit freundlichen Grüßen, Aziza Yusupova",
+          "options": [
+            "Isitish tizimi ishlamayapti",
+            "Yotoqxonada deraza singan",
+            "Kvartira juda qimmat"
+          ],
+          "pairs": null,
+          "correct_answer": "Isitish tizimi ishlamayapti",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "Emailda: \"seit drei Tagen funktioniert die Heizung in meiner Wohnung nicht.\"",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "mid-a2-02",
+          "version": 1,
+          "type": "reading",
+          "skill": "reading",
+          "topic": "appointments",
+          "grammar_topic": null,
+          "difficulty": 2,
+          "question": "Emailni o'qing. Chorshanba kuni Aziza qachon uyda bo'ladi?",
+          "prompt_de": "Sehr geehrter Herr Krüger, seit drei Tagen funktioniert die Heizung in meiner Wohnung nicht. Es ist sehr kalt, besonders im Schlafzimmer. Könnten Sie bitte einen Techniker schicken? Ich bin jeden Tag ab 16 Uhr zu Hause. Am Mittwoch habe ich den ganzen Tag frei. Mit freundlichen Grüßen, Aziza Yusupova",
+          "options": [
+            "Kun bo'yi",
+            "Faqat soat 16 dan keyin",
+            "Uyda bo'lmaydi"
+          ],
+          "pairs": null,
+          "correct_answer": "Kun bo'yi",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "Emailda: \"Am Mittwoch habe ich den ganzen Tag frei.\" Boshqa kunlari — \"ab 16 Uhr\".",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "mid-a2-03",
+          "version": 1,
+          "type": "reading",
+          "skill": "reading",
+          "topic": "home",
+          "grammar_topic": null,
+          "difficulty": 1,
+          "question": "Emailni o'qing. Aziza uy egasidan nimani so'rayapti?",
+          "prompt_de": "Sehr geehrter Herr Krüger, seit drei Tagen funktioniert die Heizung in meiner Wohnung nicht. Es ist sehr kalt, besonders im Schlafzimmer. Könnten Sie bitte einen Techniker schicken? Ich bin jeden Tag ab 16 Uhr zu Hause. Am Mittwoch habe ich den ganzen Tag frei. Mit freundlichen Grüßen, Aziza Yusupova",
+          "options": [
+            "Texnik yuborishni",
+            "Ijara haqini kamaytirishni",
+            "Boshqa kvartira berishni"
+          ],
+          "pairs": null,
+          "correct_answer": "Texnik yuborishni",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "Emailda: \"Könnten Sie bitte einen Techniker schicken?\"",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "mid-a2-04",
+          "version": 1,
+          "type": "reading",
+          "skill": "reading",
+          "topic": "hotel",
+          "grammar_topic": null,
+          "difficulty": 1,
+          "question": "Matnni o'qing. Ular qayerda yashadilar?",
+          "prompt_de": "Letzten Sommer bin ich mit meinem Bruder nach Österreich gefahren. Wir haben in einem kleinen Hotel am See gewohnt. Das Zimmer war nicht groß, aber sehr sauber. Leider hat es drei Tage geregnet. Deshalb sind wir ins Museum gegangen und haben viel Kuchen gegessen. Am letzten Tag war das Wetter endlich schön, und wir sind auf einen Berg gestiegen.",
+          "options": [
+            "Ko'l bo'yidagi kichik mehmonxonada",
+            "Tog'dagi katta mehmonxonada",
+            "Akasining uyida"
+          ],
+          "pairs": null,
+          "correct_answer": "Ko'l bo'yidagi kichik mehmonxonada",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "Matnda: \"Wir haben in einem kleinen Hotel am See gewohnt.\"",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "mid-a2-05",
+          "version": 1,
+          "type": "reading",
+          "skill": "reading",
+          "topic": "travel",
+          "grammar_topic": null,
+          "difficulty": 2,
+          "question": "Matnni o'qing. Yomg'irli kunlarda ular nima qildi?",
+          "prompt_de": "Letzten Sommer bin ich mit meinem Bruder nach Österreich gefahren. Wir haben in einem kleinen Hotel am See gewohnt. Das Zimmer war nicht groß, aber sehr sauber. Leider hat es drei Tage geregnet. Deshalb sind wir ins Museum gegangen und haben viel Kuchen gegessen. Am letzten Tag war das Wetter endlich schön, und wir sind auf einen Berg gestiegen.",
+          "options": [
+            "Muzeyga bordi",
+            "Toqqa chiqdi",
+            "Ko'lda suzdi"
+          ],
+          "pairs": null,
+          "correct_answer": "Muzeyga bordi",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "Matnda: \"Leider hat es drei Tage geregnet. Deshalb sind wir ins Museum gegangen ...\"",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "mid-a2-06",
+          "version": 1,
+          "type": "reading",
+          "skill": "reading",
+          "topic": "hotel",
+          "grammar_topic": null,
+          "difficulty": 2,
+          "question": "Matnni o'qing. Xona qanday edi?",
+          "prompt_de": "Letzten Sommer bin ich mit meinem Bruder nach Österreich gefahren. Wir haben in einem kleinen Hotel am See gewohnt. Das Zimmer war nicht groß, aber sehr sauber. Leider hat es drei Tage geregnet. Deshalb sind wir ins Museum gegangen und haben viel Kuchen gegessen. Am letzten Tag war das Wetter endlich schön, und wir sind auf einen Berg gestiegen.",
+          "options": [
+            "Kichik, lekin juda toza",
+            "Katta va toza",
+            "Kichik va iflos"
+          ],
+          "pairs": null,
+          "correct_answer": "Kichik, lekin juda toza",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "Matnda: \"Das Zimmer war nicht groß, aber sehr sauber.\"",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": null
+        }
+      ]
+    },
+    {
+      "skill": "listening",
+      "title": "Hören — tinglash",
+      "exercises": [
+        {
+          "id": "mid-a2-07",
+          "version": 1,
+          "type": "listen_choice",
+          "skill": "listening",
+          "topic": "appointments",
+          "grammar_topic": null,
+          "difficulty": 1,
+          "question": "Tinglang. Farrux qachon keladi?",
+          "prompt_de": null,
+          "options": [
+            "Bugun soat 15:00 da",
+            "Ertaga soat 15:00 da",
+            "Bugun soat 5:00 da"
+          ],
+          "pairs": null,
+          "correct_answer": "Bugun soat 15:00 da",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "\"Können Sie heute um 15 Uhr kommen? — Ja, das passt sehr gut.\"",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": "— Praxis Dr. Lehmann, guten Tag. — Guten Tag, hier ist Farrux Aliyev. Ich hätte gern einen Termin. Ich habe starke Zahnschmerzen. — Können Sie heute um 15 Uhr kommen? — Ja, das passt sehr gut."
+        },
+        {
+          "id": "mid-a2-08",
+          "version": 1,
+          "type": "listen_choice",
+          "skill": "listening",
+          "topic": "health",
+          "grammar_topic": null,
+          "difficulty": 1,
+          "question": "Tinglang. Farruxning muammosi nima?",
+          "prompt_de": null,
+          "options": [
+            "Tishi qattiq og'riyapti",
+            "Boshi og'riyapti",
+            "Isitmasi bor"
+          ],
+          "pairs": null,
+          "correct_answer": "Tishi qattiq og'riyapti",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "\"Ich habe starke Zahnschmerzen.\" — der Zahn — tish.",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": "— Praxis Dr. Lehmann, guten Tag. — Guten Tag, hier ist Farrux Aliyev. Ich hätte gern einen Termin. Ich habe starke Zahnschmerzen. — Können Sie heute um 15 Uhr kommen? — Ja, das passt sehr gut."
+        },
+        {
+          "id": "mid-a2-09",
+          "version": 1,
+          "type": "listen_choice",
+          "skill": "listening",
+          "topic": "travel",
+          "grammar_topic": null,
+          "difficulty": 2,
+          "question": "Tinglang. Poyezd bilan nima bo'ldi?",
+          "prompt_de": null,
+          "options": [
+            "Taxminan 20 daqiqa kechikadi",
+            "Bugun umuman yurmaydi",
+            "20 daqiqa erta jo'naydi"
+          ],
+          "pairs": null,
+          "correct_answer": "Taxminan 20 daqiqa kechikadi",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "\"etwa zwanzig Minuten Verspätung\" — Verspätung = kechikish.",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": "Liebe Fahrgäste, der ICE nach Frankfurt hat heute etwa zwanzig Minuten Verspätung. Wir bitten um Entschuldigung."
+        },
+        {
+          "id": "mid-a2-10",
+          "version": 1,
+          "type": "listen_choice",
+          "skill": "listening",
+          "topic": "appointments",
+          "grammar_topic": null,
+          "difficulty": 2,
+          "question": "Tinglang. Jonas nimani taklif qilyapti?",
+          "prompt_de": null,
+          "options": [
+            "Payshanba kuni uchrashishni",
+            "Ertaga ishdan keyin uchrashishni",
+            "Uchrashuvni butunlay bekor qilishni"
+          ],
+          "pairs": null,
+          "correct_answer": "Payshanba kuni uchrashishni",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "\"Können wir uns am Donnerstag treffen?\" — payshanba.",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": "Hallo Kamola, hier ist Jonas. Ich kann morgen leider nicht zum Treffen kommen, ich muss länger arbeiten. Können wir uns am Donnerstag treffen? Ruf mich bitte zurück!"
+        },
+        {
+          "id": "mid-a2-11",
+          "version": 1,
+          "type": "listen_choice",
+          "skill": "listening",
+          "topic": "health",
+          "grammar_topic": null,
+          "difficulty": 2,
+          "question": "Tinglang. Bemor nima qilmasligi kerak?",
+          "prompt_de": null,
+          "options": [
+            "Sport bilan shug'ullanmasligi",
+            "Choy ichmasligi",
+            "Tabletka ichmasligi"
+          ],
+          "pairs": null,
+          "correct_answer": "Sport bilan shug'ullanmasligi",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "\"Sie dürfen drei Tage keinen Sport machen.\" — nicht dürfen = mumkin emas.",
+          "error_type": "comprehension",
+          "points": 1,
+          "audio_text": "Sie dürfen drei Tage keinen Sport machen. Trinken Sie viel Tee und nehmen Sie die Tabletten zweimal am Tag."
+        }
+      ]
+    },
+    {
+      "skill": "grammar",
+      "title": "Grammatik — grammatika",
+      "exercises": [
+        {
+          "id": "mid-a2-12",
+          "version": 1,
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "topic": "travel",
+          "grammar_topic": "g-perfekt-aux",
+          "difficulty": 1,
+          "question": "Bo'sh joyni to'ldiring: \"Wir ___ am Wochenende nach Buchara gefahren.\"",
+          "prompt_de": "Wir ___ am Wochenende nach Buchara gefahren.",
+          "options": [
+            "sind",
+            "haben"
+          ],
+          "pairs": null,
+          "correct_answer": "sind",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "fahren — harakat → sein: wir sind gefahren.",
+          "error_type": "tense",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "mid-a2-13",
+          "version": 1,
+          "type": "conjugate",
+          "skill": "grammar",
+          "topic": "work",
+          "grammar_topic": "g-perfekt",
+          "difficulty": 1,
+          "question": "Partizip II ni yozing (arbeiten): \"Ich habe gestern lange ___.\"",
+          "prompt_de": "Ich habe gestern lange ___.",
+          "options": null,
+          "pairs": null,
+          "correct_answer": "gearbeitet",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "arbeiten → ge + arbeit + et = gearbeitet.",
+          "error_type": "tense",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "mid-a2-14",
+          "version": 1,
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "topic": "transport",
+          "grammar_topic": "g-dativ",
+          "difficulty": 2,
+          "question": "Bo'sh joyni to'ldiring: \"Ich fahre mit ___ U-Bahn.\"",
+          "prompt_de": "Ich fahre mit ___ U-Bahn.",
+          "options": [
+            "der",
+            "die",
+            "dem"
+          ],
+          "pairs": null,
+          "correct_answer": "der",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "mit + Dativ; die U-Bahn → der U-Bahn.",
+          "error_type": "case",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "mid-a2-15",
+          "version": 1,
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "topic": "home",
+          "grammar_topic": "g-place-prepositions",
+          "difficulty": 2,
+          "question": "Bo'sh joyni to'ldiring: \"Die Lampe hängt über ___ Tisch.\"",
+          "prompt_de": "Die Lampe hängt über ___ Tisch.",
+          "options": [
+            "dem",
+            "den",
+            "der"
+          ],
+          "pairs": null,
+          "correct_answer": "dem",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "hängen (holat) — Wo? → Dativ: über dem Tisch.",
+          "error_type": "case",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "mid-a2-16",
+          "version": 1,
+          "type": "fill_blank",
+          "skill": "grammar",
+          "topic": "politeness",
+          "grammar_topic": "g-pronoun-cases",
+          "difficulty": 1,
+          "question": "Bo'sh joyni to'ldiring (menga): \"Könnten Sie ___ bitte helfen?\"",
+          "prompt_de": "Könnten Sie ___ bitte helfen?",
+          "options": null,
+          "pairs": null,
+          "correct_answer": "mir",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "helfen + Dativ: mir.",
+          "error_type": "case",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "mid-a2-17",
+          "version": 1,
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "topic": "health",
+          "grammar_topic": "g-modal-verbs",
+          "difficulty": 2,
+          "question": "Bo'sh joyni to'ldiring: \"Der Arzt sagt, ich ___ viel Wasser trinken.\"",
+          "prompt_de": "Der Arzt sagt, ich ___ viel Wasser trinken.",
+          "options": [
+            "soll",
+            "darf",
+            "will"
+          ],
+          "pairs": null,
+          "correct_answer": "soll",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "Boshqa odamning maslahati — sollen.",
+          "error_type": "vocabulary",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "mid-a2-18",
+          "version": 1,
+          "type": "find_error",
+          "skill": "grammar",
+          "topic": "work",
+          "grammar_topic": "g-perfekt-aux",
+          "difficulty": 2,
+          "question": "Xato so'zni toping: \"Ich bin gestern bis 22 Uhr im Büro gearbeitet.\"",
+          "prompt_de": "Ich bin gestern bis 22 Uhr im Büro gearbeitet.",
+          "options": [
+            "bin",
+            "gestern",
+            "bis",
+            "Uhr",
+            "Büro",
+            "gearbeitet"
+          ],
+          "pairs": null,
+          "correct_answer": "bin",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "arbeiten — haben bilan: Ich habe gestern bis 22 Uhr im Büro gearbeitet.",
+          "error_type": "tense",
+          "points": 1,
+          "audio_text": null
+        }
+      ]
+    },
+    {
+      "skill": "vocabulary",
+      "title": "Wortschatz — lug'at",
+      "exercises": [
+        {
+          "id": "mid-a2-19",
+          "version": 1,
+          "type": "match",
+          "skill": "vocabulary",
+          "topic": "general",
+          "grammar_topic": null,
+          "difficulty": 1,
+          "question": "So'zlarni juftlang.",
+          "prompt_de": null,
+          "options": null,
+          "pairs": [
+            [
+              "der Vermieter",
+              "ijaraga beruvchi"
+            ],
+            [
+              "die Verspätung",
+              "kechikish"
+            ],
+            [
+              "die Ausbildung",
+              "kasbiy ta'lim"
+            ],
+            [
+              "das Rezept",
+              "retsept"
+            ]
+          ],
+          "correct_answer": {
+            "der Vermieter": "ijaraga beruvchi",
+            "die Verspätung": "kechikish",
+            "die Ausbildung": "kasbiy ta'lim",
+            "das Rezept": "retsept"
+          },
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "der Vermieter — ijaraga beruvchi, die Verspätung — kechikish, die Ausbildung — kasbiy ta'lim, das Rezept — retsept.",
+          "error_type": "vocabulary",
+          "points": 2,
+          "audio_text": null
+        },
+        {
+          "id": "mid-a2-20",
+          "version": 1,
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "topic": "hotel",
+          "grammar_topic": null,
+          "difficulty": 1,
+          "question": "Mehmonxonaga qo'ng'iroq: \"Ich möchte ein Doppelzimmer für zwei Nächte ___.\"",
+          "prompt_de": "Ich möchte ein Doppelzimmer für zwei Nächte ___.",
+          "options": [
+            "reservieren",
+            "verschieben",
+            "absagen"
+          ],
+          "pairs": null,
+          "correct_answer": "reservieren",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "reservieren — band qilmoq (bron).",
+          "error_type": "vocabulary",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "mid-a2-21",
+          "version": 1,
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "topic": "appointments",
+          "grammar_topic": null,
+          "difficulty": 2,
+          "question": "\"den Termin verschieben\" nimani bildiradi?",
+          "prompt_de": null,
+          "options": [
+            "uchrashuvni boshqa vaqtga ko'chirish",
+            "uchrashuvni bekor qilish",
+            "uchrashuvga yozilish"
+          ],
+          "pairs": null,
+          "correct_answer": "uchrashuvni boshqa vaqtga ko'chirish",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "verschieben — surmoq, ko'chirmoq.",
+          "error_type": "vocabulary",
+          "points": 1,
+          "audio_text": null
+        }
+      ]
+    },
+    {
+      "skill": "writing",
+      "title": "Schreiben — yozish",
+      "exercises": [
+        {
+          "id": "mid-a2-22",
+          "version": 1,
+          "type": "short_text",
+          "skill": "writing",
+          "topic": "past-events",
+          "grammar_topic": null,
+          "difficulty": 2,
+          "question": "O'tgan dam olish kunlari haqida yozing (Perfekt): qayerda bo'ldingiz, nima qildingiz, kim bilan. Kamida 40 so'z.",
+          "prompt_de": null,
+          "options": null,
+          "pairs": null,
+          "correct_answer": null,
+          "accepted_answers": [],
+          "criteria": {
+            "min_words": 40,
+            "required_words": [
+              "habe"
+            ],
+            "sample": "Am Samstag habe ich lange geschlafen. Danach bin ich mit meiner Schwester in die Stadt gefahren. Wir haben Kleidung gekauft und in einem Café Tee getrunken. Am Sonntag haben wir unsere Großeltern besucht. Meine Oma hat Plov gekocht. Das Wochenende war sehr schön."
+          },
+          "hint": null,
+          "explanation": "Baholash: so'z soni, kerakli so'zlar va namunaga yaqinlik. Namuna javobni o'zingiznikiga solishtiring.",
+          "error_type": "other",
+          "points": 5,
+          "audio_text": null
+        },
+        {
+          "id": "mid-a2-23",
+          "version": 1,
+          "type": "short_text",
+          "skill": "writing",
+          "topic": "home",
+          "grammar_topic": null,
+          "difficulty": 3,
+          "question": "Uy egasiga email yozing: oshxonadagi kran (der Wasserhahn) ishlamayapti; kelishini so'rang va qachon uyda bo'lishingizni yozing. Kamida 40 so'z.",
+          "prompt_de": null,
+          "options": null,
+          "pairs": null,
+          "correct_answer": null,
+          "accepted_answers": [],
+          "criteria": {
+            "min_words": 40,
+            "required_words": [
+              "bitte",
+              "Grüßen"
+            ],
+            "sample": "Sehr geehrte Frau Schulz, in meiner Küche funktioniert der Wasserhahn seit gestern nicht. Ich kann kein Geschirr spülen. Könnten Sie bitte diese Woche einen Handwerker schicken? Ich bin jeden Tag ab 17 Uhr zu Hause, am Freitag den ganzen Tag. Mit freundlichen Grüßen, Sardor Usmonov"
+          },
+          "hint": null,
+          "explanation": "Baholash: so'z soni, kerakli so'zlar va namunaga yaqinlik. Namuna javobni o'zingiznikiga solishtiring.",
+          "error_type": "other",
+          "points": 5,
+          "audio_text": null
+        }
+      ]
+    },
+    {
+      "skill": "speaking",
+      "title": "Sprechen — gapirish",
+      "exercises": [
+        {
+          "id": "mid-a2-24",
+          "version": 1,
+          "type": "speak",
+          "skill": "speaking",
+          "topic": "health",
+          "grammar_topic": null,
+          "difficulty": 2,
+          "question": "Telefonda shifokorga yoziling: kimligingizni ayting, muammoingizni tushuntiring va qachon kela olishingizni ayting.",
+          "prompt_de": null,
+          "options": null,
+          "pairs": null,
+          "correct_answer": null,
+          "accepted_answers": [],
+          "criteria": {
+            "min_words": 20,
+            "required_words": [
+              "Termin"
+            ],
+            "sample": "Guten Tag, hier ist Dilnoza Rahimova. Ich hätte gern einen Termin. Ich habe seit zwei Tagen Fieber und Halsschmerzen. Ich kann heute Nachmittag oder morgen früh kommen."
+          },
+          "hint": null,
+          "explanation": "Gapirish o'z-o'zini baholash bilan tekshiriladi va umumiy foizga kirmaydi. Namuna bilan solishtiring.",
+          "error_type": "other",
+          "points": 2,
+          "audio_text": null
+        },
+        {
+          "id": "mid-a2-25",
+          "version": 1,
+          "type": "speak",
+          "skill": "speaking",
+          "topic": "work",
+          "grammar_topic": null,
+          "difficulty": 2,
+          "question": "Kasbingiz (yoki orzuingizdagi kasb) haqida gapiring: nima qilasiz, qayerda, nega yoqadi.",
+          "prompt_de": null,
+          "options": null,
+          "pairs": null,
+          "correct_answer": null,
+          "accepted_answers": [],
+          "criteria": {
+            "min_words": 25,
+            "required_words": [],
+            "sample": "Ich arbeite als Krankenpfleger in einem Krankenhaus in Taschkent. Ich helfe den Patienten und arbeite oft in der Nacht. Die Arbeit ist anstrengend, aber sie gefällt mir, weil ich Menschen helfen kann."
+          },
+          "hint": null,
+          "explanation": "Gapirish o'z-o'zini baholash bilan tekshiriladi va umumiy foizga kirmaydi. Namuna bilan solishtiring.",
+          "error_type": "other",
+          "points": 2,
+          "audio_text": null
+        }
+      ]
+    }
+  ]
+}

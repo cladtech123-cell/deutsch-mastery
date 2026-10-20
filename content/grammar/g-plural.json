@@ -1,0 +1,298 @@
+{
+  "id": "g-plural",
+  "version": 1,
+  "level": "A1",
+  "order": 6,
+  "title": "Otlarning ko'plik shakli",
+  "prerequisites": [
+    "g-articles"
+  ],
+  "next": [
+    "g-negation",
+    "g-dativ"
+  ],
+  "rule": "Nemis tilida ko'plik bir nechta usulda yasaladi (-e, -er, -(e)n, -s, umlaut yoki o'zgarishsiz). Ko'plikda aniq artikl doim \"die\".",
+  "when": "Bir nechta narsa yoki odam haqida gapirganda, shuningdek sonlardan keyin: zwei Kinder.",
+  "structure": "die + ko'plik shakli: die Kinder, die Lampen",
+  "explanation": [
+    {
+      "type": "table",
+      "headers": [
+        "Usul",
+        "Birlik",
+        "Ko'plik"
+      ],
+      "rows": [
+        [
+          "-e",
+          "der Tag",
+          "die Tage"
+        ],
+        [
+          "¨-e",
+          "der Stuhl",
+          "die Stühle"
+        ],
+        [
+          "-er / ¨-er",
+          "das Kind / das Buch",
+          "die Kinder / die Bücher"
+        ],
+        [
+          "-n / -en",
+          "die Lampe / die Frau",
+          "die Lampen / die Frauen"
+        ],
+        [
+          "-nen (-in)",
+          "die Lehrerin",
+          "die Lehrerinnen"
+        ],
+        [
+          "-s",
+          "das Auto / das Handy",
+          "die Autos / die Handys"
+        ],
+        [
+          "o'zgarishsiz / ¨",
+          "der Lehrer / die Mutter",
+          "die Lehrer / die Mütter"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "O'zbek tilidagi \"-lar\" kabi yagona qo'shimcha yo'q, shuning uchun ko'plikni ham artikl bilan birga yodlang: das Buch – die Bücher."
+    },
+    {
+      "type": "tip",
+      "text": "O'zbekchada \"ikki bola\" (birlik), nemischada sondan keyin ko'plik: zwei Kinder, drei Bücher. -e bilan tugagan ayol jinsidagi otlar deyarli doim -n oladi: die Tasche – die Taschen."
+    },
+    {
+      "type": "p",
+      "text": "Noaniq artiklning ko'pligi yo'q: ein Buch → Bücher (artiklsiz)."
+    }
+  ],
+  "examples": [
+    {
+      "de": "Ich habe zwei Kinder.",
+      "uz": "Mening ikki farzandim bor."
+    },
+    {
+      "de": "Die Bücher liegen auf dem Tisch.",
+      "uz": "Kitoblar stol ustida."
+    },
+    {
+      "de": "In der Klasse sind zwölf Studentinnen.",
+      "uz": "Sinfda o'n ikki talaba qiz bor."
+    },
+    {
+      "de": "Wir kaufen drei Äpfel.",
+      "uz": "Biz uchta olma sotib olamiz."
+    },
+    {
+      "de": "Die Autos sind neu.",
+      "uz": "Mashinalar yangi."
+    }
+  ],
+  "common_mistakes": [
+    {
+      "wrong": "zwei Kind",
+      "right": "zwei Kinder",
+      "why": "O'zbekchadagi \"ikki bola\" ta'sirida birlik qoldiriladi. Nemischada sondan keyin ko'plik."
+    },
+    {
+      "wrong": "der Bücher",
+      "right": "die Bücher",
+      "why": "Ko'plikda aniq artikl doim \"die\"."
+    },
+    {
+      "wrong": "die Kinds",
+      "right": "die Kinder",
+      "why": "-s faqat ayrim (ko'pincha xorijiy) so'zlarda: Autos, Handys."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "g-plural-e01",
+      "version": 1,
+      "type": "plural",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-plural",
+      "difficulty": 1,
+      "question": "Ko'plik shaklini yozing: das Kind",
+      "prompt_de": "das Kind",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "die Kinder",
+      "accepted_answers": [
+        "Kinder"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "das Kind – die Kinder (-er).",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-plural-e02",
+      "version": 1,
+      "type": "plural",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-plural",
+      "difficulty": 1,
+      "question": "Ko'plik shaklini yozing: die Lampe",
+      "prompt_de": "die Lampe",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "die Lampen",
+      "accepted_answers": [
+        "Lampen"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "-e bilan tugagan ayol jinsidagi ot → -n: die Lampen.",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-plural-e03",
+      "version": 1,
+      "type": "plural",
+      "skill": "grammar",
+      "topic": "transport",
+      "grammar_topic": "g-plural",
+      "difficulty": 1,
+      "question": "Ko'plik shaklini yozing: das Auto",
+      "prompt_de": "das Auto",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "die Autos",
+      "accepted_answers": [
+        "Autos"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "das Auto – die Autos (-s).",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-plural-e04",
+      "version": 1,
+      "type": "plural",
+      "skill": "grammar",
+      "topic": "home",
+      "grammar_topic": "g-plural",
+      "difficulty": 2,
+      "question": "Ko'plik shaklini yozing: der Stuhl",
+      "prompt_de": "der Stuhl",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "die Stühle",
+      "accepted_answers": [
+        "Stühle"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Stuhl – die Stühle: umlaut (u → ü) + -e.",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-plural-e05",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-plural",
+      "difficulty": 1,
+      "question": "\"Ikki bola\" nemischa qanday bo'ladi?",
+      "prompt_de": null,
+      "options": [
+        "zwei Kinder",
+        "zwei Kind",
+        "zwei Kinds"
+      ],
+      "pairs": null,
+      "correct_answer": "zwei Kinder",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Sondan keyin ko'plik shakli: zwei Kinder.",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-plural-e06",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "family",
+      "grammar_topic": "g-plural",
+      "difficulty": 2,
+      "question": "Bo'sh joyni ko'plik bilan to'ldiring: \"Ich habe drei ___.\" (die Schwester)",
+      "prompt_de": "Ich habe drei ___.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Schwestern",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Schwester – die Schwestern (-n).",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "g-plural-e07",
+      "version": 1,
+      "type": "match",
+      "skill": "grammar",
+      "topic": "general",
+      "grammar_topic": "g-plural",
+      "difficulty": 1,
+      "question": "Birlikni ko'plik bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "Lehrerin",
+          "Lehrerinnen"
+        ],
+        [
+          "Buch",
+          "Bücher"
+        ],
+        [
+          "Tag",
+          "Tage"
+        ],
+        [
+          "Handy",
+          "Handys"
+        ]
+      ],
+      "correct_answer": {
+        "Lehrerin": "Lehrerinnen",
+        "Buch": "Bücher",
+        "Tag": "Tage",
+        "Handy": "Handys"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Lehrerin – Lehrerinnen, Buch – Bücher, Tag – Tage, Handy – Handys.",
+      "error_type": "plural",
+      "points": 2,
+      "audio_text": null
+    }
+  ]
+}

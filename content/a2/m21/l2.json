@@ -1,0 +1,843 @@
+{
+  "id": "a2-m21-l2",
+  "version": 1,
+  "level": "A2",
+  "module": 21,
+  "order": 2,
+  "title": "Kurs va dars haqida fikr: dass",
+  "title_de": "Meinungen zum Kurs: dass",
+  "goal": "Dars oxirida kurs, o'qituvchi va o'qish usullari haqida \"Ich finde, dass ...\", \"Ich glaube, dass ...\", \"Es ist wichtig, dass ...\" bilan fikr bildira olasiz va kursga yozila olasiz.",
+  "skill_focus": [
+    "grammar",
+    "speaking",
+    "listening"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Fikr bildirganda ko'pincha shunday boshlaymiz: Ich finde, dass ... / Ich glaube, dass ... / Ich denke, dass ... / Es ist wichtig, dass ... / Ich hoffe, dass .... \"dass\" o'zbekchadagi \"... deb\" yoki \"-ki\" ga o'xshaydi: \"Kurs yaxshi deb o'ylayman\" / \"O'ylaymanki, kurs yaxshi\"."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Fikr boshlanishi",
+        "dass-gap (fe'l oxirida)",
+        "O'zbekcha"
+      ],
+      "rows": [
+        [
+          "Ich finde,",
+          "dass der Kurs sehr gut ist.",
+          "Menimcha, kurs juda yaxshi."
+        ],
+        [
+          "Ich glaube,",
+          "dass die Prüfung schwer ist.",
+          "Imtihon qiyin deb o'ylayman."
+        ],
+        [
+          "Es ist wichtig,",
+          "dass man jeden Tag übt.",
+          "Har kuni mashq qilish muhim."
+        ],
+        [
+          "Ich hoffe,",
+          "dass ich das Zertifikat bekomme.",
+          "Sertifikat olaman deb umid qilaman."
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Qisqa variant: \"Meiner Meinung nach ist der Kurs gut.\" Bu yerda dass yo'q, fe'l (ist) darhol keyin keladi."
+    },
+    {
+      "type": "tip",
+      "text": "Og'zaki nutqda nemislar ba'zan dass'siz aytadi: Ich glaube, der Kurs ist gut. Lekin \"dass\" bo'lsa, fe'l albatta oxirga ketadi! Yozuvda farqni eslang: das (artikl) — dass (bog'lovchi)."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-der-sprachkurs",
+      "de": "Sprachkurs",
+      "uz": "til kursi",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Sprachkurse",
+      "forms": null,
+      "example_de": "Ich besuche einen Sprachkurs an der Volkshochschule.",
+      "example_uz": "Xalq oliy maktabida til kursiga qatnayman.",
+      "topic": "education"
+    },
+    {
+      "id": "v-der-kursleiter",
+      "de": "Kursleiter",
+      "uz": "kurs o'qituvchisi (rahbari)",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Kursleiter",
+      "forms": null,
+      "example_de": "Unser Kursleiter erklärt sehr gut.",
+      "example_uz": "Kurs o'qituvchimiz juda yaxshi tushuntiradi.",
+      "topic": "education"
+    },
+    {
+      "id": "v-der-teilnehmer",
+      "de": "Teilnehmer",
+      "uz": "qatnashchi",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Teilnehmer",
+      "forms": null,
+      "example_de": "Im Kurs sind zwölf Teilnehmer.",
+      "example_uz": "Kursda o'n ikki qatnashchi bor.",
+      "topic": "education"
+    },
+    {
+      "id": "v-der-unterricht",
+      "de": "Unterricht",
+      "uz": "dars, mashg'ulot",
+      "pos": "noun",
+      "article": "der",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Der Unterricht beginnt um 18 Uhr.",
+      "example_uz": "Mashg'ulot soat 18 da boshlanadi.",
+      "topic": "education"
+    },
+    {
+      "id": "v-das-niveau",
+      "de": "Niveau",
+      "uz": "daraja",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Niveaus",
+      "forms": null,
+      "example_de": "Welches Niveau hast du? — A2.",
+      "example_uz": "Darajang qanday? — A2.",
+      "topic": "education"
+    },
+    {
+      "id": "v-das-zertifikat",
+      "de": "Zertifikat",
+      "uz": "sertifikat",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Zertifikate",
+      "forms": null,
+      "example_de": "Am Ende bekommen wir ein Zertifikat.",
+      "example_uz": "Oxirida sertifikat olamiz.",
+      "topic": "education"
+    },
+    {
+      "id": "v-die-meinung",
+      "de": "Meinung",
+      "uz": "fikr",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Meinungen",
+      "forms": null,
+      "example_de": "Was ist deine Meinung?",
+      "example_uz": "Sening fikring qanday?",
+      "topic": "communication"
+    },
+    {
+      "id": "v-erklären",
+      "de": "erklären",
+      "uz": "tushuntirmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "erklärt",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "erklärt"
+      },
+      "example_de": "Können Sie das bitte noch einmal erklären?",
+      "example_uz": "Iltimos, buni yana bir marta tushuntira olasizmi?",
+      "topic": "education"
+    },
+    {
+      "id": "v-hoffen",
+      "de": "hoffen",
+      "uz": "umid qilmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "gehofft",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "hofft"
+      },
+      "example_de": "Ich hoffe, dass ich die Prüfung bestehe.",
+      "example_uz": "Imtihondan o'taman deb umid qilaman.",
+      "topic": "communication"
+    },
+    {
+      "id": "v-teilnehmen",
+      "de": "teilnehmen",
+      "uz": "qatnashmoq (an + Dativ)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "teilgenommen",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "nimmt teil",
+        "praeteritum": "nahm teil"
+      },
+      "example_de": "Ich nehme an einem Deutschkurs teil.",
+      "example_uz": "Nemis tili kursida qatnashyapman.",
+      "topic": "education"
+    },
+    {
+      "id": "v-dass",
+      "de": "dass",
+      "uz": "... deb, -ki (fe'l oxirga ketadi)",
+      "pos": "conjunction",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Ich finde, dass der Kurs gut ist.",
+      "example_uz": "Menimcha, kurs yaxshi.",
+      "topic": "communication"
+    },
+    {
+      "id": "v-nützlich",
+      "de": "nützlich",
+      "uz": "foydali",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Die App ist sehr nützlich.",
+      "example_uz": "Ilova juda foydali.",
+      "topic": "education"
+    },
+    {
+      "id": "v-meiner-meinung-nach",
+      "de": "meiner Meinung nach",
+      "uz": "mening fikrimcha",
+      "pos": "phrase",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Meiner Meinung nach ist der Kurs zu teuer.",
+      "example_uz": "Mening fikrimcha, kurs juda qimmat.",
+      "topic": "communication"
+    }
+  ],
+  "review_vocabulary": [
+    "v-die-grammatik",
+    "v-üben"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-subordinate",
+      "rule": "dass-gap fikr, ishonch, umid yoki boshqaning gapini bildiradi. weil kabi, tuslangan fe'l oxirga ketadi. Asosiy gapda ko'pincha: finden, glauben, denken, hoffen, wissen, sagen, es ist wichtig.",
+      "when": "Fikr bildirganda, kimningdir gapini yetkazganda, umid va muhimlik haqida gapirganda.",
+      "structure": "Ich finde / glaube / hoffe + , + dass + ega + ... + tuslangan fe'l.",
+      "examples": [
+        {
+          "de": "Ich finde, dass der Unterricht sehr interessant ist.",
+          "uz": "Menimcha, dars juda qiziqarli."
+        },
+        {
+          "de": "Unsere Kursleiterin sagt, dass wir mehr sprechen sollen.",
+          "uz": "Kurs o'qituvchimiz ko'proq gapirishimiz kerakligini aytadi."
+        },
+        {
+          "de": "Ich hoffe, dass ich die Prüfung bestehe.",
+          "uz": "Imtihondan o'taman deb umid qilaman."
+        },
+        {
+          "de": "Es ist wichtig, dass man keine Angst vor Fehlern hat.",
+          "uz": "Xatolardan qo'rqmaslik muhim."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Ich finde, dass der Kurs ist gut.",
+          "right": "Ich finde, dass der Kurs gut ist.",
+          "why": "dass-gapda tuslangan fe'l (ist) eng oxirida."
+        },
+        {
+          "wrong": "Ich hoffe, dass ich kann die Prüfung bestehen.",
+          "right": "Ich hoffe, dass ich die Prüfung bestehen kann.",
+          "why": "Modal fe'l (kann) dass-gapda infinitivdan keyin, eng oxirda."
+        },
+        {
+          "wrong": "Ich denke, das der Kurs gut ist.",
+          "right": "Ich denke, dass der Kurs gut ist.",
+          "why": "das (bitta s) — artikl yoki olmosh. Bog'lovchi — dass (ikki s)."
+        },
+        {
+          "wrong": "Ich glaube dass er kommt.",
+          "right": "Ich glaube, dass er kommt.",
+          "why": "dass-gapdan oldin doim vergul qo'yiladi."
+        }
+      ],
+      "check": [
+        "a2-m21-l2-e03",
+        "a2-m21-l2-e04",
+        "a2-m21-l2-e05",
+        "a2-m21-l2-e08"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Tanaffusda suhbat",
+    "lines": [
+      {
+        "speaker": "Olga",
+        "de": "Na, wie findest du den neuen Kurs?",
+        "uz": "Xo'sh, yangi kurs senga qanday?"
+      },
+      {
+        "speaker": "Bobur",
+        "de": "Ich finde, dass der Unterricht sehr nützlich ist. Die Kursleiterin erklärt alles sehr gut.",
+        "uz": "Menimcha, darslar juda foydali. O'qituvchi hammasini juda yaxshi tushuntiradi."
+      },
+      {
+        "speaker": "Olga",
+        "de": "Ja, das stimmt. Aber ich glaube, dass das Niveau für mich zu hoch ist.",
+        "uz": "Ha, to'g'ri. Lekin daraja men uchun juda yuqori deb o'ylayman."
+      },
+      {
+        "speaker": "Bobur",
+        "de": "Wirklich? Du sprichst doch gut!",
+        "uz": "Rostdanmi? Axir yaxshi gapirasan-ku!"
+      },
+      {
+        "speaker": "Olga",
+        "de": "Danke. Aber die Grammatik ist schwer für mich. Ich hoffe, dass ich im Juni das Zertifikat bekomme.",
+        "uz": "Rahmat. Lekin grammatika men uchun qiyin. Iyunda sertifikat olaman deb umid qilaman."
+      },
+      {
+        "speaker": "Bobur",
+        "de": "Wir können zusammen üben. Es ist wichtig, dass wir viel sprechen.",
+        "uz": "Birga mashq qilishimiz mumkin. Ko'p gapirishimiz muhim."
+      }
+    ],
+    "questions": [
+      "a2-m21-l2-e06",
+      "a2-m21-l2-e07"
+    ]
+  },
+  "situation": {
+    "title": "Kursga yozilish",
+    "context_uz": "Siz Volkshochschule (xalq oliy maktabi) da nemis tili kursiga yozilmoqchisiz. Ma'muriyat xodimi bilan gaplashyapsiz.",
+    "lines": [
+      {
+        "speaker": "Mitarbeiterin",
+        "de": "Guten Tag! Was kann ich für Sie tun?",
+        "uz": "Assalomu alaykum! Siz uchun nima qila olaman?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ich möchte an einem Deutschkurs teilnehmen. Ich habe schon das Niveau A1.",
+        "uz": "Nemis tili kursida qatnashmoqchiman. Menda allaqachon A1 darajasi bor."
+      },
+      {
+        "speaker": "Mitarbeiterin",
+        "de": "Dann empfehle ich den A2-Kurs. Er beginnt am 3. März, montags und mittwochs von 18 bis 20 Uhr.",
+        "uz": "Unda A2 kursini tavsiya qilaman. U 3-martda boshlanadi, dushanba va chorshanba kunlari soat 18 dan 20 gacha."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Wie viele Teilnehmer sind im Kurs?",
+        "uz": "Kursda nechta qatnashchi bor?"
+      },
+      {
+        "speaker": "Mitarbeiterin",
+        "de": "Maximal zwölf. Am Ende gibt es eine Prüfung und ein Zertifikat.",
+        "uz": "Ko'pi bilan o'n ikkita. Oxirida imtihon va sertifikat bor."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Super. Ich glaube, dass der Kurs gut für mich ist.",
+        "uz": "Zo'r. Menimcha, bu kurs men uchun yaxshi."
+      }
+    ],
+    "task_uz": "Rollarda o'qing. Keyin o'zingiz uchun kurs haqida so'rang: qaysi kunlar, nechta qatnashchi, narxi qancha (Was kostet der Kurs?). Oxirida dass bilan fikr bildiring."
+  },
+  "exercises": [
+    {
+      "id": "a2-m21-l2-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "education",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemischa so'zni o'zbekcha ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "der Kursleiter",
+          "kurs o'qituvchisi"
+        ],
+        [
+          "der Teilnehmer",
+          "qatnashchi"
+        ],
+        [
+          "das Niveau",
+          "daraja"
+        ],
+        [
+          "das Zertifikat",
+          "sertifikat"
+        ],
+        [
+          "der Unterricht",
+          "mashg'ulot"
+        ]
+      ],
+      "correct_answer": {
+        "der Kursleiter": "kurs o'qituvchisi",
+        "der Teilnehmer": "qatnashchi",
+        "das Niveau": "daraja",
+        "das Zertifikat": "sertifikat",
+        "der Unterricht": "mashg'ulot"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Kursleiter — kurs o'qituvchisi, Teilnehmer — qatnashchi, Niveau — daraja, Zertifikat — sertifikat, Unterricht — mashg'ulot.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m21-l2-e02",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "education",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "To'g'ri artiklni tanlang: ___ Niveau",
+      "prompt_de": null,
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "das",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "das Niveau — fransuz tilidan kelgan so'z, artiklni yodlash kerak.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m21-l2-e03",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "education",
+      "grammar_topic": "g-subordinate",
+      "difficulty": 1,
+      "question": "Gapni yakunlang: \"Ich finde, ...\" (dars juda qiziqarli deb)",
+      "prompt_de": null,
+      "options": [
+        "Unterricht",
+        "sehr",
+        "interessant",
+        "der",
+        "ist",
+        "dass"
+      ],
+      "pairs": null,
+      "correct_answer": "dass der Unterricht sehr interessant ist",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "dass + ega + ... + tuslangan fe'l (ist) oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m21-l2-e04",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "education",
+      "grammar_topic": "g-subordinate",
+      "difficulty": 1,
+      "question": "Bog'lovchini yozing: \"Ich hoffe, ___ ich die Prüfung bestehe.\"",
+      "prompt_de": "Ich hoffe, ___ ich die Prüfung bestehe.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "dass",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "hoffen dan keyin fikr/umid — dass. Ikki s bilan yoziladi.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m21-l2-e05",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "language-learning",
+      "grammar_topic": "g-subordinate",
+      "difficulty": 1,
+      "question": "To'g'ri davomni tanlang: \"Ich glaube, ...\"",
+      "prompt_de": null,
+      "options": [
+        "dass die Grammatik schwer ist",
+        "dass ist die Grammatik schwer",
+        "dass die Grammatik ist schwer"
+      ],
+      "pairs": null,
+      "correct_answer": "dass die Grammatik schwer ist",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "dass-gapda fe'l (ist) eng oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m21-l2-e06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "education",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Bobur kurs haqida nima deydi?",
+      "prompt_de": null,
+      "options": [
+        "Darslar foydali, o'qituvchi yaxshi tushuntiradi",
+        "Daraja juda yuqori",
+        "O'qituvchi yaxshi tushuntirmaydi"
+      ],
+      "pairs": null,
+      "correct_answer": "Darslar foydali, o'qituvchi yaxshi tushuntiradi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"dass der Unterricht sehr nützlich ist. Die Kursleiterin erklärt alles sehr gut.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Ich finde, dass der Unterricht sehr nützlich ist. Die Kursleiterin erklärt alles sehr gut."
+    },
+    {
+      "id": "a2-m21-l2-e07",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "education",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang. Olga nimadan xavotirda?",
+      "prompt_de": null,
+      "options": [
+        "Daraja u uchun juda yuqori",
+        "Kurs juda qimmat",
+        "Iyunda vaqti yo'q"
+      ],
+      "pairs": null,
+      "correct_answer": "Daraja u uchun juda yuqori",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"ich glaube, dass das Niveau für mich zu hoch ist\".",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Aber ich glaube, dass das Niveau für mich zu hoch ist. Ich hoffe, dass ich im Juni das Zertifikat bekomme."
+    },
+    {
+      "id": "a2-m21-l2-e08",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "education",
+      "grammar_topic": "g-subordinate",
+      "difficulty": 1,
+      "question": "Xato yozilgan so'zni toping: \"Ich denke, das der Kurs zu teuer ist.\"",
+      "prompt_de": "Ich denke, das der Kurs zu teuer ist.",
+      "options": [
+        "denke",
+        "das",
+        "Kurs",
+        "teuer",
+        "ist"
+      ],
+      "pairs": null,
+      "correct_answer": "das",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Bog'lovchi ikki s bilan: \"Ich denke, dass der Kurs zu teuer ist.\"",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m21-l2-e09",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "education",
+      "grammar_topic": "g-separable-verbs",
+      "difficulty": 2,
+      "question": "Fe'lni tuslang (teilnehmen): Er ___ an einem Deutschkurs teil.",
+      "prompt_de": "Er ___ an einem Deutschkurs teil.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "nimmt",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "nehmen → er ...",
+      "explanation": "teilnehmen — ajraladigan va o'zagi o'zgaradigan: er nimmt ... teil.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m21-l2-e10",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "communication",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Meiner Meinung nach ist der Kurs zu teuer.\"",
+      "prompt_de": "Meiner Meinung nach ist der Kurs zu teuer.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Mening fikrimcha, kurs juda qimmat.",
+      "accepted_answers": [
+        "Menimcha, kurs juda qimmat.",
+        "Fikrimcha, kurs juda qimmat.",
+        "Menimcha, kurs haddan tashqari qimmat.",
+        "Mening fikrimcha, kurs haddan tashqari qimmat."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "meiner Meinung nach — mening fikrimcha; zu teuer — juda (haddan tashqari) qimmat.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m21-l2-e11",
+      "version": 1,
+      "type": "speak",
+      "skill": "speaking",
+      "topic": "education",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Ovoz chiqarib ayting: nemis tili kursingiz haqida 3 ta fikr — Ich finde, dass ... / Ich glaube, dass ... / Es ist wichtig, dass ...",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 15,
+        "required_words": [
+          "dass"
+        ],
+        "sample": "Ich finde, dass mein Kurs sehr gut ist. Ich glaube, dass die Grammatik schwer ist. Es ist wichtig, dass man jeden Tag Deutsch spricht."
+      },
+      "hint": null,
+      "explanation": "Har bir dass-gapda fe'l oxirida bo'lishi kerak.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a2-m21-l2-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "education",
+      "grammar_topic": "g-subordinate",
+      "difficulty": 1,
+      "question": "To'g'ri variantni tanlang: \"Die Lehrerin sagt, dass wir mehr ___.\"",
+      "prompt_de": null,
+      "options": [
+        "sprechen sollen",
+        "sollen sprechen",
+        "sprechen soll"
+      ],
+      "pairs": null,
+      "correct_answer": "sprechen sollen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "dass-gapda modal fe'l (sollen) infinitivdan keyin, eng oxirda.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m21-l2-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "language-learning",
+      "grammar_topic": "g-subordinate",
+      "difficulty": 1,
+      "question": "Bog'lovchini yozing: \"Es ist wichtig, ___ man jeden Tag übt.\"",
+      "prompt_de": "Es ist wichtig, ___ man jeden Tag übt.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "dass",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Es ist wichtig, dass ... — ... muhim.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m21-l2-t03",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "education",
+      "grammar_topic": "g-subordinate",
+      "difficulty": 1,
+      "question": "Gapni yakunlang: \"Ich hoffe, ...\" (sertifikat olaman deb)",
+      "prompt_de": null,
+      "options": [
+        "dass",
+        "das",
+        "Zertifikat",
+        "ich",
+        "bekomme"
+      ],
+      "pairs": null,
+      "correct_answer": "dass ich das Zertifikat bekomme",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "dass + ega + ... + fe'l (bekomme) oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m21-l2-t04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "education",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Mos so'zni tanlang: \"Im Kurs sind zwölf ___.\"",
+      "prompt_de": null,
+      "options": [
+        "Teilnehmer",
+        "Niveaus",
+        "Zertifikate"
+      ],
+      "pairs": null,
+      "correct_answer": "Teilnehmer",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Teilnehmer — qatnashchilar (ko'plik ham Teilnehmer).",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m21-l2-t05",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "education",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Menimcha, kurs juda yaxshi.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich finde, dass der Kurs sehr gut ist.",
+      "accepted_answers": [
+        "Ich finde den Kurs sehr gut.",
+        "Meiner Meinung nach ist der Kurs sehr gut.",
+        "Ich glaube, dass der Kurs sehr gut ist.",
+        "Ich denke, dass der Kurs sehr gut ist.",
+        "Ich finde, der Kurs ist sehr gut.",
+        "Ich denke, der Kurs ist sehr gut.",
+        "Ich glaube, der Kurs ist sehr gut."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Fikr: Ich finde, dass ... (fe'l oxirida) yoki Meiner Meinung nach ist ...",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m21-l2-t06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "language-learning",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Bobur nimani muhim deydi?",
+      "prompt_de": null,
+      "options": [
+        "Ko'p gapirishni",
+        "Ko'p yozishni",
+        "Grammatikani yod olishni"
+      ],
+      "pairs": null,
+      "correct_answer": "Ko'p gapirishni",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Es ist wichtig, dass wir viel sprechen.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Wir können zusammen üben. Es ist wichtig, dass wir viel sprechen."
+    },
+    {
+      "id": "a2-m21-l2-t07",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "education",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Kursga yozilmoqchisiz. Nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Ich möchte an einem Deutschkurs teilnehmen.",
+        "Ich möchte einen Deutschkurs teilnehmen.",
+        "Ich teilnehme an einem Deutschkurs möchte."
+      ],
+      "pairs": null,
+      "correct_answer": "Ich möchte an einem Deutschkurs teilnehmen.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "teilnehmen an + Dativ: an einem Kurs. möchte bilan infinitiv oxirida.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

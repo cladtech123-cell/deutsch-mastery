@@ -1,0 +1,311 @@
+{
+  "id": "a2-m14",
+  "version": 1,
+  "level": "A2",
+  "number": 14,
+  "title": "Sayohat va turar joy",
+  "title_de": "Reisen und Unterkunft",
+  "goals": [
+    "Mehmonxonada muloyim shaklda xona bron qilish va savol berish",
+    "Vokzalda chipta olish, jadvalni tushunish, vaqtni um/gegen/ab/bis bilan aytish",
+    "Kechikish, bekor qilingan reys va xonadagi muammo haqida xabar berish",
+    "O'tgan safar haqida Perfektda gapirib berish"
+  ],
+  "lessons": [
+    "a2-m14-l1",
+    "a2-m14-l2",
+    "a2-m14-l3"
+  ],
+  "module_test": [
+    {
+      "id": "mtest-a2-m14-01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "hotel",
+      "grammar_topic": "g-polite-requests",
+      "difficulty": 1,
+      "question": "Qaysi gap mehmonxonada eng muloyim?",
+      "prompt_de": null,
+      "options": [
+        "Ich hätte gern ein Zimmer mit Frühstück.",
+        "Ich will ein Zimmer mit Frühstück.",
+        "Zimmer mit Frühstück, schnell!"
+      ],
+      "pairs": null,
+      "correct_answer": "Ich hätte gern ein Zimmer mit Frühstück.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Ich hätte gern\" — muloyim so'rov shakli.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m14-02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "transport",
+      "grammar_topic": "g-time-prepositions",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: Der Bus fährt ___ 7.30 Uhr ab.",
+      "prompt_de": "Der Bus fährt ___ 7.30 Uhr ab.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "um",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Aniq soat — \"um\".",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m14-03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "travel",
+      "grammar_topic": "g-time-prepositions",
+      "difficulty": 2,
+      "question": "To'g'ri variantni tanlang: ___ Montag habe ich Urlaub — zwei Wochen lang.",
+      "prompt_de": null,
+      "options": [
+        "Ab",
+        "Um",
+        "Gegen"
+      ],
+      "pairs": null,
+      "correct_answer": "Ab",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Boshlanish nuqtasi — \"ab\": dushanbadan boshlab.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m14-04",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "transport",
+      "grammar_topic": "g-perfekt-aux",
+      "difficulty": 2,
+      "question": "Gapdagi xato so'zni toping: \"Ich bin den letzten Bus verpasst.\"",
+      "prompt_de": "Ich bin den letzten Bus verpasst.",
+      "options": [
+        "Ich",
+        "bin",
+        "den",
+        "letzten",
+        "Bus",
+        "verpasst"
+      ],
+      "pairs": null,
+      "correct_answer": "bin",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: \"Ich habe den letzten Bus verpasst.\" \"verpassen\" — \"haben\" bilan.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m14-05",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "transport",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang. Nima sodir bo'ldi?",
+      "prompt_de": null,
+      "options": [
+        "Kyoln poyezdi bekor qilindi, 11:15 dagisi bor",
+        "Kyoln poyezdi 15 daqiqa kechikmoqda",
+        "Kyoln poyezdi boshqa yo'ldan jo'naydi"
+      ],
+      "pairs": null,
+      "correct_answer": "Kyoln poyezdi bekor qilindi, 11:15 dagisi bor",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"fällt heute aus\" — bugun qatnamaydi. \"Bitte nehmen Sie den Zug um 11.15 Uhr\" — 11:15 dagi poyezdga chiqing.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Information zu Gleis 3: Der Zug nach Köln um 10.15 Uhr fällt heute aus. Bitte nehmen Sie den Zug um 11.15 Uhr."
+    },
+    {
+      "id": "mtest-a2-m14-06",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "travel",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Fe'lni ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "buchen",
+          "bron qilmoq"
+        ],
+        [
+          "umsteigen",
+          "boshqa poyezdga o'tmoq"
+        ],
+        [
+          "verpassen",
+          "ulgurmay qolmoq"
+        ],
+        [
+          "besichtigen",
+          "tomosha qilmoq"
+        ],
+        [
+          "ausfüllen",
+          "to'ldirmoq"
+        ]
+      ],
+      "correct_answer": {
+        "buchen": "bron qilmoq",
+        "umsteigen": "boshqa poyezdga o'tmoq",
+        "verpassen": "ulgurmay qolmoq",
+        "besichtigen": "tomosha qilmoq",
+        "ausfüllen": "to'ldirmoq"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "buchen — bron qilmoq, umsteigen — boshqa transportga o'tmoq, verpassen — ulgurmay qolmoq, besichtigen — ko'zdan kechirmoq, ausfüllen — blanka to'ldirmoq.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m14-07",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "hotel",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Xonada Wi-Fi bormi?\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Gibt es im Zimmer WLAN?",
+      "accepted_answers": [
+        "Gibt es WLAN im Zimmer?",
+        "Hat das Zimmer WLAN?",
+        "Gibt es im Zimmer Wi-Fi?",
+        "Gibt es WiFi im Zimmer?"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"... bormi?\" — \"Gibt es ...?\". Wi-Fi nemischa \"WLAN\".",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m14-08",
+      "version": 1,
+      "type": "reading",
+      "skill": "reading",
+      "topic": "hotel",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "E'lonni o'qing. Qaysi gap to'g'ri?",
+      "prompt_de": "Pension Seeblick – Doppelzimmer ab 79 Euro pro Nacht. Frühstück: 12 Euro pro Person (nicht inklusive). WLAN kostenlos. Rezeption: von 7 bis 21 Uhr geöffnet.",
+      "options": [
+        "Nonushta uchun alohida to'lanadi",
+        "Nonushta narxga kiritilgan",
+        "Qabulxona kecha-kunduz ochiq"
+      ],
+      "pairs": null,
+      "correct_answer": "Nonushta uchun alohida to'lanadi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"nicht inklusive\" ga e'tibor bering.",
+      "explanation": "\"Frühstück: 12 Euro pro Person (nicht inklusive)\" — nonushta kiritilmagan, kishi boshiga 12 yevro. Qabulxona 7 dan 21 gacha ochiq.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m14-09",
+      "version": 1,
+      "type": "plural",
+      "skill": "vocabulary",
+      "topic": "travel",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Ko'plik shaklini yozing: der Strand → ?",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "die Strände",
+      "accepted_answers": [
+        "Strände"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Strand → die Strände (a → ä, oxiriga -e).",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "mtest-a2-m14-10",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "transport",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Poyezdingiz 1 soat kechikdi va siz Berlinda keyingi poyezdga ulgurmadingiz. Ma'lumot oynasida nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Ich habe meinen Anschluss verpasst. Gibt es eine andere Verbindung?",
+        "Ich bin meinen Anschluss verpasst. Wo ist Gleis?",
+        "Ich möchte ein Doppelzimmer buchen."
+      ],
+      "pairs": null,
+      "correct_answer": "Ich habe meinen Anschluss verpasst. Gibt es eine andere Verbindung?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Muammo (habe ... verpasst) + yechim so'rash (Gibt es eine andere Verbindung?). Ikkinchi variantda \"bin\" xato.",
+      "error_type": "tense",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "writing_task": {
+    "id": "w-a2-m14",
+    "title": "Safar haqida xabar",
+    "task_uz": "Siz o'tgan oy safarda bo'ldingiz. Nemis tilini o'rganayotgan do'stingizga xabar yozing: qayerga va nima bilan bordingiz, qayerda yashadingiz (mehmonxona), nimani tomosha qildingiz va qanday muammo bo'ldi.",
+    "required_words": [
+      "Hotel",
+      "Zug"
+    ],
+    "min_words": 45,
+    "max_words": 100,
+    "criteria": [
+      "Safar joyi va transport (Perfekt: bin ... gefahren/geflogen)",
+      "Turar joy haqida 1–2 gap (Zimmer, Frühstück, inklusive...)",
+      "Kamida bitta muammo (Verspätung, verpasst, funktioniert nicht, ausgefallen)",
+      "haben/sein to'g'ri tanlangan",
+      "Salomlashish va xayrlashish"
+    ],
+    "sample_answer": "Liebe Lena, letzten Monat bin ich mit meinem Mann nach Hamburg gefahren. Leider hatte der Zug eine Stunde Verspätung und wir haben in Hannover den Anschluss verpasst. Wir sind erst um 22 Uhr angekommen. Das Hotel war aber sehr schön: Wir hatten ein Doppelzimmer mit Balkon und das Frühstück war inklusive. Am Samstag haben wir den Hafen besichtigt und eine Bootsfahrt gemacht. Am Sonntag sind wir mit dem Zug zurückgefahren. Viele Grüße, Malika"
+  }
+}

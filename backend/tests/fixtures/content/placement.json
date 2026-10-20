@@ -1,0 +1,112 @@
+{
+  "id": "placement",
+  "version": 1,
+  "kind": "placement",
+  "level": "A1",
+  "title": "Diagnostik test",
+  "pass_percent": 50,
+  "sections": [
+    {
+      "skill": "vocabulary",
+      "title": "Lug'at",
+      "exercises": [
+        {
+          "id": "placement-01",
+          "version": 1,
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "topic": "greetings",
+          "grammar_topic": null,
+          "difficulty": 1,
+          "question": "Salom?",
+          "prompt_de": null,
+          "options": [
+            "Hallo",
+            "Danke"
+          ],
+          "pairs": null,
+          "correct_answer": "Hallo",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "Izoh: Hallo",
+          "error_type": "vocabulary",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "placement-02",
+          "version": 1,
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "topic": "greetings",
+          "grammar_topic": null,
+          "difficulty": 1,
+          "question": "Rahmat?",
+          "prompt_de": null,
+          "options": [
+            "Danke",
+            "Hallo"
+          ],
+          "pairs": null,
+          "correct_answer": "Danke",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "Izoh: Danke",
+          "error_type": "vocabulary",
+          "points": 1,
+          "audio_text": null
+        }
+      ]
+    },
+    {
+      "skill": "grammar",
+      "title": "Grammatika",
+      "exercises": [
+        {
+          "id": "placement-03",
+          "version": 1,
+          "type": "fill_blank",
+          "skill": "grammar",
+          "topic": "personal-info",
+          "grammar_topic": "g-sein-haben",
+          "difficulty": 1,
+          "question": "Ich ___ Anna.",
+          "prompt_de": "Ich ___ Anna.",
+          "options": null,
+          "pairs": null,
+          "correct_answer": "bin",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "Izoh: bin",
+          "error_type": "conjugation",
+          "points": 1,
+          "audio_text": null
+        },
+        {
+          "id": "placement-04",
+          "version": 1,
+          "type": "fill_blank",
+          "skill": "grammar",
+          "topic": "personal-info",
+          "grammar_topic": "g-sein-haben",
+          "difficulty": 1,
+          "question": "Du ___ Tom.",
+          "prompt_de": "Du ___ Tom.",
+          "options": null,
+          "pairs": null,
+          "correct_answer": "bist",
+          "accepted_answers": [],
+          "criteria": null,
+          "hint": null,
+          "explanation": "Izoh: bist",
+          "error_type": "conjugation",
+          "points": 1,
+          "audio_text": null
+        }
+      ]
+    }
+  ]
+}

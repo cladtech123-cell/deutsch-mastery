@@ -1,0 +1,852 @@
+{
+  "id": "a2-m23-l2",
+  "version": 1,
+  "level": "A2",
+  "module": 23,
+  "order": 2,
+  "title": "Uy yumushlari va atrof-muhit",
+  "title_de": "Haushalt und Umwelt",
+  "goal": "Dars oxirida uy yumushlari va chiqindilarni ajratish (Mülltrennung) haqida gapira olasiz, kvartiradoshlarga Könntest du ...? / Würdest du ...? bilan muloyim iltimos qilasiz va iltimosga javob berasiz.",
+  "skill_focus": [
+    "vocabulary",
+    "speaking",
+    "listening"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Germaniyada chiqindilar turlarga ajratiladi (die Mülltrennung). Har bir turi uchun alohida konteyner (die Tonne) bor. Rangi shaharga qarab biroz farq qilishi mumkin."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Konteyner",
+        "Nima tashlanadi"
+      ],
+      "rows": [
+        [
+          "blaue Tonne — Altpapier",
+          "gazeta, karton, qog'oz"
+        ],
+        [
+          "gelbe Tonne / gelber Sack",
+          "plastik va metall qadoqlar"
+        ],
+        [
+          "braune Tonne — Biomüll",
+          "meva-sabzavot qoldiqlari, choy, kofe qoldig'i"
+        ],
+        [
+          "Restmüll (qora/kulrang)",
+          "qolgan hamma narsa"
+        ],
+        [
+          "Glascontainer",
+          "shisha idishlar (rangi bo'yicha)"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Ko'p butilka va bankalar uchun Pfand (garov puli) bor: ularni do'konga qaytarsangiz 8–25 sent qaytariladi."
+    },
+    {
+      "type": "tip",
+      "text": "Kvartirada (WG) ko'pincha Putzplan — tozalash jadvali bo'ladi. Do'stga ham iltimosni muloyim ayting: Könntest du ...? Würdest du ...? Javob: Klar, mache ich! / Tut mir leid, heute geht es nicht."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-der-haushalt",
+      "de": "Haushalt",
+      "uz": "uy-ro'zg'or ishlari; xonadon",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Haushalte",
+      "forms": null,
+      "example_de": "Im Haushalt helfen alle mit.",
+      "example_uz": "Uy ishlariga hamma yordam beradi.",
+      "topic": "household"
+    },
+    {
+      "id": "v-der-müll",
+      "de": "Müll",
+      "uz": "axlat, chiqindi",
+      "pos": "noun",
+      "article": "der",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Wer bringt heute den Müll raus?",
+      "example_uz": "Bugun axlatni kim olib chiqadi?",
+      "topic": "household"
+    },
+    {
+      "id": "v-das-altpapier",
+      "de": "Altpapier",
+      "uz": "makulatura (eski qog'oz)",
+      "pos": "noun",
+      "article": "das",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Zeitungen kommen ins Altpapier.",
+      "example_uz": "Gazetalar makulaturaga tashlanadi.",
+      "topic": "environment"
+    },
+    {
+      "id": "v-der-biomüll",
+      "de": "Biomüll",
+      "uz": "organik chiqindi",
+      "pos": "noun",
+      "article": "der",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Die Bananenschale gehört in den Biomüll.",
+      "example_uz": "Banan po'chog'i organik chiqindiga tashlanadi.",
+      "topic": "environment"
+    },
+    {
+      "id": "v-die-umwelt",
+      "de": "Umwelt",
+      "uz": "atrof-muhit",
+      "pos": "noun",
+      "article": "die",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Wir wollen die Umwelt schützen.",
+      "example_uz": "Atrof-muhitni himoya qilmoqchimiz.",
+      "topic": "environment"
+    },
+    {
+      "id": "v-das-pfand",
+      "de": "Pfand",
+      "uz": "garov puli (butilka uchun)",
+      "pos": "noun",
+      "article": "das",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Auf diese Flasche gibt es 25 Cent Pfand.",
+      "example_uz": "Bu butilka uchun 25 sent garov puli bor.",
+      "topic": "environment"
+    },
+    {
+      "id": "v-der-mitbewohner",
+      "de": "Mitbewohner",
+      "uz": "kvartiradosh",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Mitbewohner",
+      "forms": null,
+      "example_de": "Meine Mitbewohner sind sehr nett.",
+      "example_uz": "Kvartiradoshlarim juda yoqimli.",
+      "topic": "household"
+    },
+    {
+      "id": "v-der-putzplan",
+      "de": "Putzplan",
+      "uz": "tozalash jadvali",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Putzpläne",
+      "forms": null,
+      "example_de": "Laut Putzplan putzt du diese Woche das Bad.",
+      "example_uz": "Jadval bo'yicha bu hafta hammomni sen tozalaysan.",
+      "topic": "household"
+    },
+    {
+      "id": "v-trennen",
+      "de": "trennen",
+      "uz": "ajratmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "getrennt",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "trennt"
+      },
+      "example_de": "In Deutschland trennt man den Müll.",
+      "example_uz": "Germaniyada axlat ajratiladi.",
+      "topic": "environment"
+    },
+    {
+      "id": "v-recyceln",
+      "de": "recyceln",
+      "uz": "qayta ishlamoq (chiqindini)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "recycelt",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "recycelt"
+      },
+      "example_de": "Glas kann man gut recyceln.",
+      "example_uz": "Shishani yaxshi qayta ishlash mumkin.",
+      "topic": "environment"
+    },
+    {
+      "id": "v-staubsaugen",
+      "de": "staubsaugen",
+      "uz": "changyutgich bilan tozalamoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "gestaubsaugt",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "staubsaugt"
+      },
+      "example_de": "Ich staubsauge jeden Samstag.",
+      "example_uz": "Har shanba changyutgich bilan tozalayman.",
+      "topic": "household"
+    },
+    {
+      "id": "v-wegwerfen",
+      "de": "wegwerfen",
+      "uz": "tashlab yubormoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "weggeworfen",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "wirft weg",
+        "praeteritum": "warf weg"
+      },
+      "example_de": "Wirf das Brot nicht weg!",
+      "example_uz": "Nonni tashlab yuborma!",
+      "topic": "environment"
+    },
+    {
+      "id": "v-umweltfreundlich",
+      "de": "umweltfreundlich",
+      "uz": "ekologik toza, tabiatga zararsiz",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Das Fahrrad ist umweltfreundlicher als das Auto.",
+      "example_uz": "Velosiped mashinadan ko'ra tabiatga zararsizroq.",
+      "topic": "environment"
+    }
+  ],
+  "review_vocabulary": [
+    "v-kostenlos",
+    "v-weil"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-polite-requests",
+      "rule": "Do'st va kvartiradoshlarga ham muloyim so'rash mumkin: Könntest du ...? Würdest du ...? (ko'plikda: Könntet ihr ...? Würdet ihr ...?). Ular buyruqdan (Bring den Müll raus!) yumshoqroq. Infinitiv gap oxirida.",
+      "when": "Kvartira, oila va do'stlar orasida uy yumushlarini taqsimlaganda.",
+      "structure": "Könntest / Würdest + du + (bitte) + ... + infinitiv?   Könntet / Würdet + ihr + ... + infinitiv?",
+      "examples": [
+        {
+          "de": "Könntest du bitte den Müll rausbringen?",
+          "uz": "Iltimos, axlatni olib chiqib qo'ya olasanmi?"
+        },
+        {
+          "de": "Würdest du heute staubsaugen? Ich muss lange arbeiten.",
+          "uz": "Bugun changyutgich bilan tozalab qo'yasanmi? Uzoq ishlashim kerak."
+        },
+        {
+          "de": "Könntet ihr bitte das Altpapier trennen?",
+          "uz": "Iltimos, makulaturani ajrata olasizlarmi?"
+        },
+        {
+          "de": "Könntest du die Musik etwas leiser machen?",
+          "uz": "Musiqani biroz pastroq qila olasanmi?"
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Könnest du mir helfen?",
+          "right": "Könntest du mir helfen?",
+          "why": "Shakl: könn-t-est (t harfi tushib qolmaydi)."
+        },
+        {
+          "wrong": "Würdest du bitte staubsaugst?",
+          "right": "Würdest du bitte staubsaugen?",
+          "why": "würdest bilan ikkinchi fe'l infinitivda (staubsaugen) va oxirda."
+        },
+        {
+          "wrong": "Bring raus den Müll!",
+          "right": "Bring bitte den Müll raus!",
+          "why": "Buyruqda ham ajraladigan qism (raus) oxirga ketadi."
+        }
+      ],
+      "check": [
+        "a2-m23-l2-e03",
+        "a2-m23-l2-e04",
+        "a2-m23-l2-e05"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Kvartiradagi yig'ilish",
+    "lines": [
+      {
+        "speaker": "Lea",
+        "de": "Leute, wir müssen über den Putzplan sprechen. Die Küche ist schon wieder schmutzig.",
+        "uz": "Bolalar, tozalash jadvali haqida gaplashishimiz kerak. Oshxona yana iflos."
+      },
+      {
+        "speaker": "Timur",
+        "de": "Sorry, ich hatte diese Woche viele Prüfungen.",
+        "uz": "Kechirasan, bu hafta imtihonlarim ko'p edi."
+      },
+      {
+        "speaker": "Lea",
+        "de": "Okay. Könntest du dann am Wochenende die Küche putzen?",
+        "uz": "Mayli. Unda dam olish kunlari oshxonani tozalay olasanmi?"
+      },
+      {
+        "speaker": "Timur",
+        "de": "Klar, mache ich. Und könntest du bitte den Müll besser trennen? Im Restmüll war wieder Papier.",
+        "uz": "Albatta, qilaman. Sen esa axlatni yaxshiroq ajrata olasanmi? Umumiy axlatda yana qog'oz bor edi."
+      },
+      {
+        "speaker": "Lea",
+        "de": "Oh, das war Jonas! Jonas, würdest du bitte das Altpapier in die blaue Tonne werfen?",
+        "uz": "Oh, bu Jonas edi! Jonas, iltimos, makulaturani ko'k konteynerga tashlab qo'yasanmi?"
+      },
+      {
+        "speaker": "Jonas",
+        "de": "Ja, ja. Und wer bringt die Pfandflaschen weg?",
+        "uz": "Xo'p, xo'p. Garovli butilkalarni kim topshiradi?"
+      },
+      {
+        "speaker": "Lea",
+        "de": "Ich! Dann bekomme ich das Pfand.",
+        "uz": "Men! Unda garov pulini men olaman."
+      }
+    ],
+    "questions": [
+      "a2-m23-l2-e06",
+      "a2-m23-l2-e07"
+    ]
+  },
+  "situation": {
+    "title": "Qo'shnidan so'rash",
+    "context_uz": "Siz yangi uyga ko'chdingiz va chiqindilarni qanday ajratishni bilmaysiz. Qo'shningiz Frau Roth'dan so'raysiz.",
+    "lines": [
+      {
+        "speaker": "Siz",
+        "de": "Entschuldigung, Frau Roth. Könnten Sie mir kurz helfen? Wohin kommt der Biomüll?",
+        "uz": "Kechirasiz, Rot xonim. Menga bir daqiqa yordam bera olarmidingiz? Organik chiqindi qayerga tashlanadi?"
+      },
+      {
+        "speaker": "Frau Roth",
+        "de": "In die braune Tonne, hinten im Hof.",
+        "uz": "Jigarrang konteynerga, hovlining orqa tomonida."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Und Plastikverpackungen?",
+        "uz": "Plastik qadoqlar-chi?"
+      },
+      {
+        "speaker": "Frau Roth",
+        "de": "In den gelben Sack. Die Säcke bekommen Sie kostenlos im Rathaus.",
+        "uz": "Sariq qopga. Qoplarni hokimiyatdan bepul olasiz."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Und wann kommt die Müllabfuhr?",
+        "uz": "Axlat mashinasi qachon keladi?"
+      },
+      {
+        "speaker": "Frau Roth",
+        "de": "Jeden Dienstag. Stellen Sie die Tonnen am Montagabend an die Straße.",
+        "uz": "Har seshanba. Konteynerlarni dushanba kuni kechqurun ko'chaga chiqarib qo'ying."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Vielen Dank! Das ist sehr nett.",
+        "uz": "Katta rahmat! Juda mehribonsiz."
+      }
+    ],
+    "task_uz": "Kvartiradoshingizga 3 ta muloyim iltimos ayting (Könntest du ...? Würdest du ...?) va uning iltimosiga javob bering (Klar, mache ich! / Tut mir leid, ...)."
+  },
+  "exercises": [
+    {
+      "id": "a2-m23-l2-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "environment",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemischa so'zni o'zbekcha ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "der Müll",
+          "axlat"
+        ],
+        [
+          "das Altpapier",
+          "makulatura"
+        ],
+        [
+          "der Biomüll",
+          "organik chiqindi"
+        ],
+        [
+          "die Umwelt",
+          "atrof-muhit"
+        ],
+        [
+          "der Mitbewohner",
+          "kvartiradosh"
+        ]
+      ],
+      "correct_answer": {
+        "der Müll": "axlat",
+        "das Altpapier": "makulatura",
+        "der Biomüll": "organik chiqindi",
+        "die Umwelt": "atrof-muhit",
+        "der Mitbewohner": "kvartiradosh"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Müll — axlat, Altpapier — makulatura, Biomüll — organik chiqindi, Umwelt — atrof-muhit, Mitbewohner — kvartiradosh.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m23-l2-e02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "environment",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Banan po'chog'ini qayerga tashlaysiz?",
+      "prompt_de": null,
+      "options": [
+        "in die braune Tonne (Biomüll)",
+        "in die blaue Tonne (Altpapier)",
+        "in den gelben Sack (Plastik)"
+      ],
+      "pairs": null,
+      "correct_answer": "in die braune Tonne (Biomüll)",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Meva-sabzavot qoldiqlari — Biomüll, jigarrang konteyner.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m23-l2-e03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "household",
+      "grammar_topic": "g-polite-requests",
+      "difficulty": 1,
+      "question": "können ning muloyim du-shaklini yozing: \"___ du bitte den Müll rausbringen?\"",
+      "prompt_de": "___ du bitte den Müll rausbringen?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Könntest",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "du bilan: könntest.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m23-l2-e04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "household",
+      "grammar_topic": "g-polite-requests",
+      "difficulty": 1,
+      "question": "To'g'ri shaklni tanlang: \"Würdet ihr bitte das Bad ___?\"",
+      "prompt_de": null,
+      "options": [
+        "putzen",
+        "putzt",
+        "geputzt"
+      ],
+      "pairs": null,
+      "correct_answer": "putzen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "würdet bilan ikkinchi fe'l infinitivda: putzen.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m23-l2-e05",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "household",
+      "grammar_topic": "g-polite-requests",
+      "difficulty": 1,
+      "question": "So'zlarni tartiblang: \"Musiqani biroz pastroq qila olasanmi?\"",
+      "prompt_de": null,
+      "options": [
+        "etwas",
+        "die",
+        "Musik",
+        "machen",
+        "Könntest",
+        "du",
+        "leiser"
+      ],
+      "pairs": null,
+      "correct_answer": "Könntest du die Musik etwas leiser machen?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Könntest (1) du (2) ... infinitiv machen oxirida; leiser — komparativ.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m23-l2-e06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "household",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Timur nima qiladi?",
+      "prompt_de": null,
+      "options": [
+        "Dam olish kunlari oshxonani tozalaydi",
+        "Axlatni olib chiqadi",
+        "Butilkalarni topshiradi"
+      ],
+      "pairs": null,
+      "correct_answer": "Dam olish kunlari oshxonani tozalaydi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Könntest du dann am Wochenende die Küche putzen? — Klar, mache ich.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Okay. Könntest du dann am Wochenende die Küche putzen? — Klar, mache ich."
+    },
+    {
+      "id": "a2-m23-l2-e07",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "environment",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang. Qanday muammo bor edi?",
+      "prompt_de": null,
+      "options": [
+        "Qog'oz umumiy axlatga tashlangan",
+        "Oshxona toza emas",
+        "Butilkalar yo'qolgan"
+      ],
+      "pairs": null,
+      "correct_answer": "Qog'oz umumiy axlatga tashlangan",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Im Restmüll war wieder Papier.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Und könntest du bitte den Müll besser trennen? Im Restmüll war wieder Papier."
+    },
+    {
+      "id": "a2-m23-l2-e08",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "household",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni davom ettiring. Kvartiradoshingiz: \"Könntest du heute staubsaugen?\"",
+      "prompt_de": "Könntest du heute staubsaugen?",
+      "options": [
+        "Tut mir leid, heute habe ich keine Zeit. Geht es morgen?",
+        "Ja, ich bin gestern staubsaugen.",
+        "Nein, der Müll ist umweltfreundlich."
+      ],
+      "pairs": null,
+      "correct_answer": "Tut mir leid, heute habe ich keine Zeit. Geht es morgen?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Muloyim rad etish + boshqa vaqt taklifi. Boshqa variantlar grammatik yoki ma'no jihatdan noto'g'ri.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m23-l2-e09",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "household",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "To'g'ri artiklni tanlang: ___ Müll",
+      "prompt_de": null,
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "der",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Müll (ko'plik shakli yo'q). der Biomüll, der Restmüll ham shunday.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m23-l2-e10",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "environment",
+      "grammar_topic": null,
+      "difficulty": 3,
+      "question": "O'zbek tiliga tarjima qiling: \"Wir trennen den Müll, weil wir die Umwelt schützen wollen.\"",
+      "prompt_de": "Wir trennen den Müll, weil wir die Umwelt schützen wollen.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Biz axlatni ajratamiz, chunki atrof-muhitni himoya qilmoqchimiz.",
+      "accepted_answers": [
+        "Axlatni ajratamiz, chunki atrof-muhitni himoya qilmoqchimiz.",
+        "Biz chiqindilarni ajratamiz, chunki atrof-muhitni himoya qilmoqchimiz.",
+        "Atrof-muhitni himoya qilmoqchi bo'lganimiz uchun axlatni ajratamiz.",
+        "Biz atrof-muhitni himoya qilish uchun axlatni ajratamiz.",
+        "Biz axlatni ajratamiz, chunki atrof-muhitni asramoqchimiz.",
+        "Atrof-muhitni asrash uchun axlatni ajratamiz."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "trennen — ajratmoq, die Umwelt schützen — atrof-muhitni himoya qilmoq; weil — chunki.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m23-l2-e11",
+      "version": 1,
+      "type": "speak",
+      "skill": "speaking",
+      "topic": "household",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Ovoz chiqarib ayting: kvartiradoshingizga 3 ta muloyim iltimos — oshxona, axlat va musiqa haqida.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": null,
+      "accepted_answers": [],
+      "criteria": {
+        "min_words": 12,
+        "required_words": [
+          "könntest"
+        ],
+        "sample": "Könntest du bitte die Küche putzen? Würdest du heute den Müll rausbringen? Könntest du die Musik etwas leiser machen?"
+      },
+      "hint": null,
+      "explanation": "Har iltimos: Könntest/Würdest du (bitte) ... + infinitiv oxirida.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a2-m23-l2-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "household",
+      "grammar_topic": "g-polite-requests",
+      "difficulty": 1,
+      "question": "To'g'ri shaklni tanlang: \"___ ihr bitte leiser sein? Ich muss lernen.\"",
+      "prompt_de": null,
+      "options": [
+        "Könntet",
+        "Könntest",
+        "Konntet"
+      ],
+      "pairs": null,
+      "correct_answer": "Könntet",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "ihr bilan: könntet. Könntest — du uchun, Konntet — o'tgan zamon.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m23-l2-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "environment",
+      "grammar_topic": "g-polite-requests",
+      "difficulty": 1,
+      "question": "Fe'lni to'g'ri shaklda yozing (bringen): \"Würdest du bitte die Flaschen zum Supermarkt ___?\"",
+      "prompt_de": "Würdest du bitte die Flaschen zum Supermarkt ___?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "bringen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "würdest bilan infinitiv: bringen.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m23-l2-t03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "environment",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Butilkani do'konga qaytarsangiz, pul olasiz. Bu pul nima deyiladi?",
+      "prompt_de": null,
+      "options": [
+        "das Pfand",
+        "das Altpapier",
+        "der Putzplan"
+      ],
+      "pairs": null,
+      "correct_answer": "das Pfand",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "das Pfand — garov puli.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m23-l2-t04",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "environment",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Garovli butilkalarni kim topshiradi?",
+      "prompt_de": null,
+      "options": [
+        "Lea",
+        "Jonas",
+        "Timur"
+      ],
+      "pairs": null,
+      "correct_answer": "Lea",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Jonas so'raydi: \"Und wer bringt die Pfandflaschen weg?\" Lea: \"Ich!\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Jonas: Und wer bringt die Pfandflaschen weg? Lea: Ich! Dann bekomme ich das Pfand."
+    },
+    {
+      "id": "a2-m23-l2-t05",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "household",
+      "grammar_topic": "g-polite-requests",
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Iltimos, axlatni olib chiqib qo'ya olasanmi?\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Könntest du bitte den Müll rausbringen?",
+      "accepted_answers": [
+        "Könntest du den Müll rausbringen?",
+        "Würdest du bitte den Müll rausbringen?",
+        "Würdest du den Müll rausbringen?",
+        "Kannst du bitte den Müll rausbringen?",
+        "Könntest du bitte den Müll runterbringen?",
+        "Könntest du bitte den Müll hinausbringen?"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "du ga muloyim iltimos: Könntest du ...? rausbringen — olib chiqmoq (oxirda).",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m23-l2-t06",
+      "version": 1,
+      "type": "plural",
+      "skill": "vocabulary",
+      "topic": "household",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Ko'plik shaklini yozing: der Mitbewohner → die ___",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Mitbewohner",
+      "accepted_answers": [
+        "die Mitbewohner"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "-er bilan tugaydigan erkak jinsi otlar ko'plikda o'zgarmaydi: die Mitbewohner.",
+      "error_type": "plural",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m23-l2-t07",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "environment",
+      "grammar_topic": "g-polite-requests",
+      "difficulty": 1,
+      "question": "Xato so'zni toping: \"Würdest du bitte das Altpapier trennst?\"",
+      "prompt_de": "Würdest du bitte das Altpapier trennst?",
+      "options": [
+        "Würdest",
+        "du",
+        "bitte",
+        "Altpapier",
+        "trennst"
+      ],
+      "pairs": null,
+      "correct_answer": "trennst",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: \"Würdest du bitte das Altpapier trennen?\" würdest + infinitiv.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

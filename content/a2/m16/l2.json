@@ -1,0 +1,822 @@
+{
+  "id": "a2-m16-l2",
+  "version": 1,
+  "level": "A2",
+  "module": 16,
+  "order": 2,
+  "title": "Telefonda gaplashish",
+  "title_de": "Am Telefon",
+  "goal": "Dars oxirida telefonda o'zingizni tanishtira olasiz, kerakli odamni so'raysiz, xabar qoldirasiz, ismingizni harflab aytasiz va tushunmasangiz takrorlashni so'raysiz.",
+  "skill_focus": [
+    "listening",
+    "speaking",
+    "grammar"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Telefonda ko'rish yo'q, shuning uchun aniq iboralar juda muhim. Nemislar telefonni ko'pincha familiyasi bilan oladi: \"Weber.\" yoki \"Firma Schulz, Müller am Apparat.\""
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Vaziyat",
+        "Ibora",
+        "O'zbekcha"
+      ],
+      "rows": [
+        [
+          "O'zingizni tanishtirish",
+          "Guten Tag, hier ist Aziza Karimova.",
+          "Assalomu alaykum, bu Aziza Karimova."
+        ],
+        [
+          "Odamni so'rash",
+          "Kann ich bitte Frau Klein sprechen?",
+          "Klein xonim bilan gaplashsam bo'ladimi?"
+        ],
+        [
+          "U yo'q bo'lsa",
+          "Kann ich etwas ausrichten?",
+          "Biror narsa yetkazaymi?"
+        ],
+        [
+          "Qayta qo'ng'iroq",
+          "Kann sie mich zurückrufen?",
+          "U menga qayta qo'ng'iroq qila oladimi?"
+        ],
+        [
+          "Tushunmasangiz",
+          "Können Sie das bitte wiederholen?",
+          "Iltimos, buni takrorlay olasizmi?"
+        ]
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Ismingizni harflab aytishga tayyor bo'ling: \"Wie schreibt man das?\" — \"K-A-R-I-M-O-V-A\". O'zbekcha \"sh\" nemischa \"sch\" bilan yoziladi, shuning uchun hujjatdagi yozuvni aniq harflab ayting."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-zurückrufen",
+      "de": "zurückrufen",
+      "uz": "qayta qo'ng'iroq qilmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "zurückgerufen",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "ruft zurück"
+      },
+      "example_de": "Ich rufe Sie in zehn Minuten zurück.",
+      "example_uz": "O'n daqiqadan keyin sizga qayta qo'ng'iroq qilaman.",
+      "topic": "phone"
+    },
+    {
+      "id": "v-ausrichten",
+      "de": "ausrichten",
+      "uz": "(xabarni) yetkazmoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "ausgerichtet",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "richtet aus"
+      },
+      "example_de": "Kann ich etwas ausrichten?",
+      "example_uz": "Biror narsa yetkazaymi?",
+      "topic": "phone"
+    },
+    {
+      "id": "v-verbinden",
+      "de": "verbinden",
+      "uz": "ulamoq (telefonda)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "verbunden",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "verbindet"
+      },
+      "example_de": "Einen Moment, ich verbinde Sie.",
+      "example_uz": "Bir daqiqa, sizni ulayman.",
+      "topic": "phone"
+    },
+    {
+      "id": "v-erreichen",
+      "de": "erreichen",
+      "uz": "bog'lanmoq, yetib bormoq (telefon orqali)",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "erreicht",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "erreicht"
+      },
+      "example_de": "Ich habe Sie gestern nicht erreicht.",
+      "example_uz": "Kecha siz bilan bog'lana olmadim.",
+      "topic": "phone"
+    },
+    {
+      "id": "v-die-nachricht",
+      "de": "Nachricht",
+      "uz": "xabar",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Nachrichten",
+      "forms": null,
+      "example_de": "Ich habe Ihnen eine Nachricht geschickt.",
+      "example_uz": "Sizga xabar yubordim.",
+      "topic": "communication"
+    },
+    {
+      "id": "v-der-anrufbeantworter",
+      "de": "Anrufbeantworter",
+      "uz": "avtojavob qurilmasi (ovozli pochta)",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Anrufbeantworter",
+      "forms": null,
+      "example_de": "Bitte sprechen Sie auf den Anrufbeantworter.",
+      "example_uz": "Iltimos, ovozli pochtaga xabar qoldiring.",
+      "topic": "phone"
+    },
+    {
+      "id": "v-besetzt",
+      "de": "besetzt",
+      "uz": "band (telefon liniyasi)",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Ich rufe an, aber es ist immer besetzt.",
+      "example_uz": "Qo'ng'iroq qilaman, lekin doim band.",
+      "topic": "phone"
+    },
+    {
+      "id": "v-am-apparat",
+      "de": "am Apparat",
+      "uz": "telefonda (gapiryapman)",
+      "pos": "phrase",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Firma Lenz, Schulz am Apparat.",
+      "example_uz": "Lenz firmasi, telefonda Shults.",
+      "topic": "phone"
+    },
+    {
+      "id": "v-deutlich",
+      "de": "deutlich",
+      "uz": "aniq, ravshan",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Sprechen Sie bitte deutlich.",
+      "example_uz": "Iltimos, aniq gapiring.",
+      "topic": "communication"
+    },
+    {
+      "id": "v-auf-wiederhören",
+      "de": "Auf Wiederhören",
+      "uz": "Xayr (telefonda)",
+      "pos": "phrase",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Vielen Dank, auf Wiederhören!",
+      "example_uz": "Katta rahmat, xayr!",
+      "topic": "phone"
+    },
+    {
+      "id": "v-die-leitung",
+      "de": "Leitung",
+      "uz": "telefon liniyasi",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Leitungen",
+      "forms": null,
+      "example_de": "Die Leitung ist besetzt.",
+      "example_uz": "Liniya band.",
+      "topic": "phone"
+    },
+    {
+      "id": "v-auflegen",
+      "de": "auflegen",
+      "uz": "go'shakni qo'ymoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "aufgelegt",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "legt auf"
+      },
+      "example_de": "Bitte legen Sie nicht auf!",
+      "example_uz": "Iltimos, go'shakni qo'ymang!",
+      "topic": "phone"
+    }
+  ],
+  "review_vocabulary": [
+    "v-buchstabieren",
+    "v-wiederholen",
+    "v-die-vorwahl",
+    "v-telefonieren",
+    "v-vereinbaren",
+    "v-dringend",
+    "v-die-uhrzeit"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-separable-verbs",
+      "rule": "Ajraladigan fe'llar (zurückrufen, ausrichten, anrufen) hozirgi zamonda ajraladi: old qo'shimcha gap oxiriga ketadi. Modal fe'l bilan va Perfektda birga yoziladi (zurückrufen, zurückgerufen). \"wiederholen\", \"verbinden\", \"erreichen\" — AJRALMAYDIGAN fe'llar.",
+      "when": "Telefonda qayta qo'ng'iroq, xabar yetkazish va ulash haqida gapirganda.",
+      "structure": "Präsens: Ich rufe Sie zurück.  Modal: Können Sie mich zurückrufen?  Perfekt: Er hat zurückgerufen.",
+      "examples": [
+        {
+          "de": "Ich rufe Sie morgen früh zurück.",
+          "uz": "Ertaga ertalab sizga qayta qo'ng'iroq qilaman."
+        },
+        {
+          "de": "Können Sie ihm bitte etwas ausrichten?",
+          "uz": "Unga bir narsani yetkaza olasizmi?"
+        },
+        {
+          "de": "Frau Klein hat noch nicht zurückgerufen.",
+          "uz": "Klein xonim hali qayta qo'ng'iroq qilmadi."
+        },
+        {
+          "de": "Ich wiederhole: 0176 3345 210.",
+          "uz": "Takrorlayman: 0176 3345 210."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Ich zurückrufe Sie morgen.",
+          "right": "Ich rufe Sie morgen zurück.",
+          "why": "Präsensda \"zurück\" gap oxiriga ketadi."
+        },
+        {
+          "wrong": "Können Sie mich rufen zurück?",
+          "right": "Können Sie mich zurückrufen?",
+          "why": "Modal fe'l bilan Infinitiv bitta so'z bo'lib oxirda turadi."
+        },
+        {
+          "wrong": "Er hat zurückgeruft.",
+          "right": "Er hat zurückgerufen.",
+          "why": "\"rufen\" nomuntazam: gerufen → zurückgerufen."
+        }
+      ],
+      "check": [
+        "a2-m16-l2-e02",
+        "a2-m16-l2-e03",
+        "a2-m16-l2-e04",
+        "a2-m16-l2-e11"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Firmaga qo'ng'iroq",
+    "lines": [
+      {
+        "speaker": "Sekretärin",
+        "de": "Firma Becker, Schmidt am Apparat. Guten Tag!",
+        "uz": "Bekker firmasi, telefonda Shmidt. Assalomu alaykum!"
+      },
+      {
+        "speaker": "Herr Olimov",
+        "de": "Guten Tag, hier ist Rustam Olimov. Kann ich bitte Frau Klein sprechen?",
+        "uz": "Assalomu alaykum, bu Rustam Olimov. Klein xonim bilan gaplashsam bo'ladimi?"
+      },
+      {
+        "speaker": "Sekretärin",
+        "de": "Frau Klein ist gerade in einer Besprechung. Kann ich etwas ausrichten?",
+        "uz": "Klein xonim hozir yig'ilishda. Biror narsa yetkazaymi?"
+      },
+      {
+        "speaker": "Herr Olimov",
+        "de": "Ja, bitte. Kann sie mich heute noch zurückrufen? Es ist dringend.",
+        "uz": "Ha, iltimos. U bugun menga qayta qo'ng'iroq qila oladimi? Bu shoshilinch."
+      },
+      {
+        "speaker": "Sekretärin",
+        "de": "Natürlich. Wie ist Ihr Name? Können Sie ihn bitte buchstabieren?",
+        "uz": "Albatta. Ismingiz nima? Harflab ayta olasizmi?"
+      },
+      {
+        "speaker": "Herr Olimov",
+        "de": "O-L-I-M-O-V. Meine Nummer ist 0157 2234 891.",
+        "uz": "O-L-I-M-O-V. Raqamim 0157 2234 891."
+      },
+      {
+        "speaker": "Sekretärin",
+        "de": "Danke, ich richte es aus.",
+        "uz": "Rahmat, yetkazaman."
+      }
+    ],
+    "questions": [
+      "a2-m16-l2-e06"
+    ]
+  },
+  "situation": {
+    "title": "Ovozli pochtaga xabar qoldirish",
+    "context_uz": "Siz til kursi ofisiga qo'ng'iroq qildingiz, lekin hech kim olmadi. Avtojavob qurilmasi (Anrufbeantworter) ishga tushdi.",
+    "lines": [
+      {
+        "speaker": "Anrufbeantworter",
+        "de": "Sprachschule Lingua. Leider rufen Sie außerhalb unserer Öffnungszeiten an. Bitte hinterlassen Sie eine Nachricht.",
+        "uz": "Lingua til maktabi. Afsuski, ish vaqtimizdan tashqari qo'ng'iroq qilyapsiz. Iltimos, xabar qoldiring."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Guten Tag, hier ist Madina Yusupova. Ich habe eine Frage zum B1-Kurs.",
+        "uz": "Assalomu alaykum, bu Madina Yusupova. B1 kursi haqida savolim bor."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Können Sie mich bitte zurückrufen? Meine Nummer ist 0176 4512 337.",
+        "uz": "Iltimos, menga qayta qo'ng'iroq qila olasizmi? Raqamim 0176 4512 337."
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ich wiederhole: 0176 4512 337. Vielen Dank, auf Wiederhören!",
+        "uz": "Takrorlayman: 0176 4512 337. Katta rahmat, xayr!"
+      }
+    ],
+    "task_uz": "O'zingiz uchun xabar qoldiring: ismingiz, nima uchun qo'ng'iroq qilganingiz, qayta qo'ng'iroq iltimosi va raqamingiz (ikki marta). Telefonda \"Auf Wiederhören\" deyiladi, \"Auf Wiedersehen\" emas."
+  },
+  "exercises": [
+    {
+      "id": "a2-m16-l2-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "phone",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemischa ifodani o'zbekcha ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "am Apparat",
+          "telefonda (gapiryapman)"
+        ],
+        [
+          "besetzt",
+          "band"
+        ],
+        [
+          "zurückrufen",
+          "qayta qo'ng'iroq qilmoq"
+        ],
+        [
+          "buchstabieren",
+          "harflab aytmoq"
+        ],
+        [
+          "ausrichten",
+          "xabarni yetkazmoq"
+        ]
+      ],
+      "correct_answer": {
+        "am Apparat": "telefonda (gapiryapman)",
+        "besetzt": "band",
+        "zurückrufen": "qayta qo'ng'iroq qilmoq",
+        "buchstabieren": "harflab aytmoq",
+        "ausrichten": "xabarni yetkazmoq"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "am Apparat — telefonda, besetzt — band, zurückrufen — qayta qo'ng'iroq qilmoq, buchstabieren — harflab aytmoq, ausrichten — yetkazmoq.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l2-e02",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "phone",
+      "grammar_topic": "g-separable-verbs",
+      "difficulty": 2,
+      "question": "So'zlarni to'g'ri tartibda joylashtiring: \"Ertaga sizga qayta qo'ng'iroq qilaman.\"",
+      "prompt_de": null,
+      "options": [
+        "rufe",
+        "morgen",
+        "zurück",
+        "Ich",
+        "Sie"
+      ],
+      "pairs": null,
+      "correct_answer": "Ich rufe Sie morgen zurück",
+      "accepted_answers": [
+        "Morgen rufe ich Sie zurück"
+      ],
+      "criteria": null,
+      "hint": "\"zurück\" — oxirida.",
+      "explanation": "Ajraladigan fe'l: \"rufe\" 2-o'rinda, \"zurück\" gap oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l2-e03",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "phone",
+      "grammar_topic": "g-separable-verbs",
+      "difficulty": 1,
+      "question": "To'g'ri variantni tanlang: Können Sie mich bitte ___?",
+      "prompt_de": null,
+      "options": [
+        "zurückrufen",
+        "rufen zurück",
+        "zurückrufst"
+      ],
+      "pairs": null,
+      "correct_answer": "zurückrufen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Modal fe'l (können) bilan ajraladigan fe'l Infinitivda, bitta so'z bo'lib oxirda turadi: zurückrufen.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l2-e04",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "phone",
+      "grammar_topic": "g-separable-verbs",
+      "difficulty": 2,
+      "question": "\"zurückrufen\" fe'lining Partizip II shaklini yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "zurückgerufen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "rufen → gerufen",
+      "explanation": "zurück + ge + rufen = zurückgerufen. Sie hat noch nicht zurückgerufen.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l2-e05",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "vocabulary",
+      "topic": "communication",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: Entschuldigung, ich habe Sie nicht verstanden. Können Sie das bitte ___?",
+      "prompt_de": "Können Sie das bitte ___?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "wiederholen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "takrorlamoq",
+      "explanation": "\"wiederholen\" — takrorlamoq. Bu ajralmaydigan fe'l: Ich wiederhole.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l2-e06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "phone",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Nega Frau Klein telefonga chiqa olmaydi?",
+      "prompt_de": null,
+      "options": [
+        "U yig'ilishda",
+        "U kasal",
+        "U ta'tilda"
+      ],
+      "pairs": null,
+      "correct_answer": "U yig'ilishda",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"in einer Besprechung\" — yig'ilishda (15-modul so'zi).",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Frau Klein ist gerade in einer Besprechung. Kann ich etwas ausrichten?"
+    },
+    {
+      "id": "a2-m16-l2-e07",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "phone",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Dialogni davom ettiring. — Herr Braun ist nicht im Büro. Kann ich etwas ausrichten?",
+      "prompt_de": "Herr Braun ist nicht im Büro. Kann ich etwas ausrichten?",
+      "options": [
+        "Ja, bitte. Er kann mich heute Nachmittag zurückrufen.",
+        "Nein, ich bin am Apparat.",
+        "Ja, ich buchstabiere."
+      ],
+      "pairs": null,
+      "correct_answer": "Ja, bitte. Er kann mich heute Nachmittag zurückrufen.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Kann ich etwas ausrichten?\" — xabar qoldirish taklifi. Mantiqiy javob: nima yetkazish kerakligini aytish.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l2-e08",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "alphabet",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang: ism harflab aytilmoqda. Familiyani yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ergashev",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "8 ta harf.",
+      "explanation": "E-R-G-A-S-H-E-V = Ergashev. Telefonda harflab aytish xatolarning oldini oladi.",
+      "error_type": "spelling",
+      "points": 1,
+      "audio_text": "Mein Name ist Ergashev. Ich buchstabiere: E, R, G, A, S, H, E, V."
+    },
+    {
+      "id": "a2-m16-l2-e09",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "phone",
+      "grammar_topic": "g-separable-verbs",
+      "difficulty": 1,
+      "question": "Siz shifokorga qo'ng'iroq qilyapsiz, lekin liniya band. Hamkasbingiz so'rayapti: nima bo'ldi? Nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Es ist besetzt. Ich rufe später noch einmal an.",
+        "Es ist besetzt. Ich anrufe später.",
+        "Ich bin am Apparat."
+      ],
+      "pairs": null,
+      "correct_answer": "Es ist besetzt. Ich rufe später noch einmal an.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"besetzt\" — band. \"anrufen\" ajraladi: Ich rufe ... an. \"Ich anrufe\" — xato.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l2-e10",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "communication",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Nemis tiliga tarjima qiling: \"Iltimos, sekinroq gapiring.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Sprechen Sie bitte langsamer.",
+      "accepted_answers": [
+        "Bitte sprechen Sie langsamer.",
+        "Können Sie bitte langsamer sprechen?",
+        "Könnten Sie bitte langsamer sprechen?",
+        "Sprechen Sie bitte etwas langsamer.",
+        "Bitte sprechen Sie etwas langsamer."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Muloyim buyruq: Sprechen Sie bitte langsamer. Savol shaklida ham bo'ladi: Können Sie bitte langsamer sprechen?",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l2-e11",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "phone",
+      "grammar_topic": "g-separable-verbs",
+      "difficulty": 2,
+      "question": "Gapdagi xato so'zni toping: \"Ich zurückrufe Sie in zehn Minuten.\"",
+      "prompt_de": "Ich zurückrufe Sie in zehn Minuten.",
+      "options": [
+        "Ich",
+        "zurückrufe",
+        "Sie",
+        "in",
+        "zehn",
+        "Minuten"
+      ],
+      "pairs": null,
+      "correct_answer": "zurückrufe",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: \"Ich rufe Sie in zehn Minuten zurück.\" Präsensda old qo'shimcha ajraladi va oxirga ketadi.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a2-m16-l2-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "phone",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "\"Es ist besetzt\" nimani bildiradi?",
+      "prompt_de": null,
+      "options": [
+        "Liniya band",
+        "Telefon buzilgan",
+        "Hech kim yo'q"
+      ],
+      "pairs": null,
+      "correct_answer": "Liniya band",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "besetzt — band (kimdir hozir gaplashyapti).",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l2-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "phone",
+      "grammar_topic": "g-praesens",
+      "difficulty": 2,
+      "question": "\"verbinden\" fe'lini to'g'ri shaklda yozing: Einen Moment, ich ___ Sie mit Herrn Weber.",
+      "prompt_de": "Einen Moment, ich ___ Sie mit Herrn Weber.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "verbinde",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"verbinden\" ajralmaydi: ich verbinde Sie.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l2-t03",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "phone",
+      "grammar_topic": "g-separable-verbs",
+      "difficulty": 1,
+      "question": "So'zlarni to'g'ri tartibda joylashtiring: \"Biror narsa yetkazaymi?\"",
+      "prompt_de": null,
+      "options": [
+        "Kann",
+        "etwas",
+        "ausrichten",
+        "ich"
+      ],
+      "pairs": null,
+      "correct_answer": "Kann ich etwas ausrichten",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Modal fe'l \"Kann\" birinchi (savol), \"ausrichten\" oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l2-t04",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "reading",
+      "topic": "phone",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "O'zbek tiliga tarjima qiling: \"Ich habe Sie gestern nicht erreicht.\"",
+      "prompt_de": "Ich habe Sie gestern nicht erreicht.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Kecha siz bilan bog'lana olmadim.",
+      "accepted_answers": [
+        "Kecha sizga bog'lana olmadim.",
+        "Men kecha siz bilan bog'lana olmadim.",
+        "Kecha sizga qo'ng'iroq qilib ulgurmadim.",
+        "Kecha sizni topa olmadim."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"erreichen\" — telefon orqali bog'lanmoq. \"nicht erreicht\" — bog'lana olmadim.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l2-t05",
+      "version": 1,
+      "type": "article",
+      "skill": "vocabulary",
+      "topic": "phone",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "To'g'ri artiklni tanlang: ___ Anrufbeantworter",
+      "prompt_de": null,
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "der",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "\"-er\" bilan tugaydigan, kim/nima ish qiladigan otlar.",
+      "explanation": "der Anrufbeantworter (javob beruvchi — der Beantworter).",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m16-l2-t06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "phone",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Ovozli xabarni tinglang. Kamola nima xohlaydi?",
+      "prompt_de": null,
+      "options": [
+        "Unga qayta qo'ng'iroq qilishlarini",
+        "Uchrashuvni bekor qilishni",
+        "Ismini harflab aytishni"
+      ],
+      "pairs": null,
+      "correct_answer": "Unga qayta qo'ng'iroq qilishlarini",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Bitte rufen Sie mich zurück\" — iltimos, menga qayta qo'ng'iroq qiling.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Hallo, hier ist Kamola Aliyeva. Meine Nummer ist 0176 5523 410. Bitte rufen Sie mich zurück."
+    },
+    {
+      "id": "a2-m16-l2-t07",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "phone",
+      "grammar_topic": "g-separable-verbs",
+      "difficulty": 2,
+      "question": "\"anrufen\" fe'lining Partizip II shaklini yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "angerufen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "an + ge + rufen = angerufen. Ich habe dich gestern angerufen.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

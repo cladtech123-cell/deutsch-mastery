@@ -1,0 +1,897 @@
+{
+  "id": "a1-m06-l2",
+  "version": 1,
+  "level": "A1",
+  "module": 6,
+  "order": 2,
+  "title": "Soat va uchrashuv vaqti",
+  "title_de": "Uhrzeit und Termine",
+  "goal": "Dars oxirida soatni rasmiy va norasmiy usulda aytasiz (halb drei, Viertel nach acht), \"um\", \"von ... bis\" bilan vaqtni ko'rsatasiz va telefonda uchrashuv vaqtini kelishib olasiz.",
+  "skill_focus": [
+    "listening",
+    "speaking",
+    "grammar"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Vaqtni so'rash: \"Wie spät ist es?\" yoki \"Wie viel Uhr ist es?\" Javob: \"Es ist ... Uhr.\" Rasmiy (radio, vokzal, hujjat) va kundalik usul bor."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Soat",
+        "Rasmiy",
+        "Kundalik"
+      ],
+      "rows": [
+        [
+          "8:00",
+          "acht Uhr",
+          "acht (Uhr)"
+        ],
+        [
+          "8:15",
+          "acht Uhr fünfzehn",
+          "Viertel nach acht"
+        ],
+        [
+          "8:30",
+          "acht Uhr dreißig",
+          "halb neun"
+        ],
+        [
+          "8:45",
+          "acht Uhr fünfundvierzig",
+          "Viertel vor neun"
+        ],
+        [
+          "8:10",
+          "acht Uhr zehn",
+          "zehn nach acht"
+        ],
+        [
+          "8:50",
+          "acht Uhr fünfzig",
+          "zehn vor neun"
+        ],
+        [
+          "20:00",
+          "zwanzig Uhr",
+          "acht (am Abend)"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Diqqat: \"halb neun\" — 8:30! Nemislar \"keyingi soatga yarim qoldi\" deb o'ylaydi. O'zbekcha \"sakkiz yarim\" deb tarjima qiling, \"to'qqiz yarim\" emas."
+    },
+    {
+      "type": "p",
+      "text": "Vaqt predloglari: soat bilan \"um\" (um neun Uhr), oraliq bilan \"von ... bis\" (von neun bis fünf). Savol: \"Wann?\" (qachon?), \"Um wie viel Uhr?\" (soat nechada?)."
+    },
+    {
+      "type": "tip",
+      "text": "Germaniyada \"pünktlich\" (o'z vaqtida kelish) juda muhim. Shifokor yoki idoraga 5–10 daqiqa oldin boring."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-die-uhr",
+      "de": "Uhr",
+      "uz": "soat (asbob); soat (vaqt)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Uhren",
+      "forms": null,
+      "example_de": "Es ist drei Uhr.",
+      "example_uz": "Soat uch.",
+      "topic": "time"
+    },
+    {
+      "id": "v-die-stunde",
+      "de": "Stunde",
+      "uz": "soat (60 daqiqa)",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Stunden",
+      "forms": null,
+      "example_de": "Der Kurs dauert zwei Stunden.",
+      "example_uz": "Kurs ikki soat davom etadi.",
+      "topic": "time"
+    },
+    {
+      "id": "v-die-minute",
+      "de": "Minute",
+      "uz": "daqiqa",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Minuten",
+      "forms": null,
+      "example_de": "Ich komme in zehn Minuten.",
+      "example_uz": "O'n daqiqada kelaman.",
+      "topic": "time"
+    },
+    {
+      "id": "v-halb",
+      "de": "halb",
+      "uz": "yarim",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Es ist halb drei.",
+      "example_uz": "Soat ikki yarim.",
+      "topic": "time"
+    },
+    {
+      "id": "v-das-viertel",
+      "de": "Viertel",
+      "uz": "chorak",
+      "pos": "noun",
+      "article": "das",
+      "plural": "die Viertel",
+      "forms": null,
+      "example_de": "Es ist Viertel nach acht.",
+      "example_uz": "Soat sakkizdan o'n besh daqiqa o'tdi.",
+      "topic": "time"
+    },
+    {
+      "id": "v-vor",
+      "de": "vor",
+      "uz": "... dan oldin; ... ta qoldi",
+      "pos": "preposition",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Es ist zehn vor neun.",
+      "example_uz": "To'qqizga o'n daqiqa qoldi.",
+      "topic": "time"
+    },
+    {
+      "id": "v-nach",
+      "de": "nach",
+      "uz": "... dan keyin; ... o'tdi",
+      "pos": "preposition",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Es ist fünf nach zwölf.",
+      "example_uz": "O'n ikkidan besh daqiqa o'tdi.",
+      "topic": "time"
+    },
+    {
+      "id": "v-um",
+      "de": "um",
+      "uz": "soat ... da",
+      "pos": "preposition",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Der Kurs beginnt um neun Uhr.",
+      "example_uz": "Kurs soat to'qqizda boshlanadi.",
+      "topic": "time"
+    },
+    {
+      "id": "v-spät",
+      "de": "spät",
+      "uz": "kech",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Wie spät ist es?",
+      "example_uz": "Soat necha bo'ldi?",
+      "topic": "time"
+    },
+    {
+      "id": "v-früh",
+      "de": "früh",
+      "uz": "erta",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Ich stehe früh auf.",
+      "example_uz": "Men erta turaman.",
+      "topic": "time"
+    },
+    {
+      "id": "v-der-termin",
+      "de": "Termin",
+      "uz": "uchrashuv (belgilangan vaqt), qabul",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Termine",
+      "forms": null,
+      "example_de": "Ich habe am Montag einen Termin.",
+      "example_uz": "Dushanba kuni qabulim bor.",
+      "topic": "appointments"
+    },
+    {
+      "id": "v-wann",
+      "de": "wann",
+      "uz": "qachon",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Wann beginnt der Kurs?",
+      "example_uz": "Kurs qachon boshlanadi?",
+      "topic": "time"
+    },
+    {
+      "id": "v-pünktlich",
+      "de": "pünktlich",
+      "uz": "o'z vaqtida, aniq",
+      "pos": "adjective",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Bitte seien Sie pünktlich!",
+      "example_uz": "Iltimos, o'z vaqtida keling!",
+      "topic": "appointments"
+    },
+    {
+      "id": "v-beginnen",
+      "de": "beginnen",
+      "uz": "boshlanmoq, boshlamoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "praesens_3sg": "beginnt",
+        "partizip2": "begonnen",
+        "perfekt_aux": "haben"
+      },
+      "example_de": "Der Film beginnt um acht.",
+      "example_uz": "Film sakkizda boshlanadi.",
+      "topic": "time"
+    }
+  ],
+  "review_vocabulary": [
+    "v-der-montag",
+    "v-der-dienstag",
+    "v-der-mittwoch",
+    "v-der-donnerstag",
+    "v-der-freitag",
+    "v-der-morgen",
+    "v-der-abend",
+    "v-zwölf",
+    "v-zehn",
+    "v-dreißig",
+    "v-haben",
+    "v-die-zeit",
+    "v-der-kurs",
+    "v-arbeiten",
+    "v-wie-bitte",
+    "v-noch-einmal"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-time-prepositions",
+      "rule": "Aniq soat bilan \"um\" ishlatiladi: um acht Uhr. Vaqt oralig'i: von ... bis ... Kun va soat birga: am Montag um zehn Uhr.",
+      "when": "Uchrashuv, dars, ish yoki transport vaqtini aytganda va so'raganda.",
+      "structure": "um + soat  |  von + soat + bis + soat  |  am + kun + um + soat",
+      "examples": [
+        {
+          "de": "Der Kurs beginnt um neun Uhr.",
+          "uz": "Kurs soat to'qqizda boshlanadi."
+        },
+        {
+          "de": "Ich arbeite von acht bis vier.",
+          "uz": "Men sakkizdan to'rtgacha ishlayman."
+        },
+        {
+          "de": "Mein Termin ist am Dienstag um halb elf.",
+          "uz": "Qabulim seshanba kuni soat o'n yarimda."
+        },
+        {
+          "de": "Um wie viel Uhr kommst du? — Um sieben.",
+          "uz": "Soat nechada kelasan? — Yettida."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "am acht Uhr",
+          "right": "um acht Uhr",
+          "why": "Soat bilan um, kun bilan am — adashtirmang."
+        },
+        {
+          "wrong": "halb neun = 9:30",
+          "right": "halb neun = 8:30",
+          "why": "halb + keyingi soat: halb neun — to'qqizga yarim soat qoldi, ya'ni 8:30."
+        },
+        {
+          "wrong": "von acht zu vier",
+          "right": "von acht bis vier",
+          "why": "Oraliqning oxiri bis bilan."
+        }
+      ],
+      "check": [
+        "a1-m06-l2-e03",
+        "a1-m06-l2-e04",
+        "a1-m06-l2-e08",
+        "a1-m06-l2-e10"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Shifokorga yozilish",
+    "lines": [
+      {
+        "speaker": "Praxis",
+        "de": "Praxis Dr. Wolf, guten Tag!",
+        "uz": "Doktor Volf qabulxonasi, assalomu alaykum!"
+      },
+      {
+        "speaker": "Aziz",
+        "de": "Guten Tag! Ich brauche einen Termin, bitte.",
+        "uz": "Assalomu alaykum! Menga qabul vaqti kerak, iltimos."
+      },
+      {
+        "speaker": "Praxis",
+        "de": "Geht es am Mittwoch um Viertel nach neun?",
+        "uz": "Chorshanba kuni soat to'qqizdan o'n besh o'tganda bo'ladimi?"
+      },
+      {
+        "speaker": "Aziz",
+        "de": "Am Mittwoch arbeite ich von acht bis fünf. Geht es am Donnerstag?",
+        "uz": "Chorshanba kuni sakkizdan beshgacha ishlayman. Payshanba kuni bo'ladimi?"
+      },
+      {
+        "speaker": "Praxis",
+        "de": "Am Donnerstag um halb sechs?",
+        "uz": "Payshanba kuni besh yarimdami?"
+      },
+      {
+        "speaker": "Aziz",
+        "de": "Ja, das ist gut. Danke!",
+        "uz": "Ha, bu yaxshi. Rahmat!"
+      }
+    ],
+    "questions": [
+      "a1-m06-l2-e05",
+      "a1-m06-l2-e06"
+    ]
+  },
+  "situation": {
+    "title": "Telefonda qabul vaqtini kelishish",
+    "context_uz": "Siz Bürgeramtga (shahar idorasiga) telefon qilib, qabul vaqtini olmoqchisiz. Siz faqat ertalab bo'shsiz.",
+    "lines": [
+      {
+        "speaker": "Bürgeramt",
+        "de": "Wann haben Sie Zeit?",
+        "uz": "Qachon vaqtingiz bor?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Am Vormittag, bitte. Am Nachmittag arbeite ich.",
+        "uz": "Tushgacha, iltimos. Tushdan keyin ishlayman."
+      },
+      {
+        "speaker": "Bürgeramt",
+        "de": "Am Freitag um zehn vor neun?",
+        "uz": "Juma kuni to'qqizga o'n daqiqa qolganda?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Wie bitte? Um acht Uhr fünfzig?",
+        "uz": "Nima dedingiz? Soat sakkiz ellikdami?"
+      },
+      {
+        "speaker": "Bürgeramt",
+        "de": "Genau. Bitte seien Sie pünktlich!",
+        "uz": "Xuddi shunday. Iltimos, o'z vaqtida keling!"
+      }
+    ],
+    "task_uz": "Dialogni o'qing, keyin boshqa kun va vaqt bilan takrorlang. Vaqtni tushunmasangiz, rasmiy shaklda qayta so'rab tekshiring (Um acht Uhr fünfzig?)."
+  },
+  "exercises": [
+    {
+      "id": "a1-m06-l2-e01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "time",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "\"Es ist halb drei.\" — soat nechchi?",
+      "prompt_de": "Es ist halb drei.",
+      "options": [
+        "2:30",
+        "3:30",
+        "3:00"
+      ],
+      "pairs": null,
+      "correct_answer": "2:30",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "halb + KEYINGI soat.",
+      "explanation": "halb drei — uchga yarim soat qoldi = 2:30.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l2-e02",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "time",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Vaqtni kundalik ifodasi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "8:15",
+          "Viertel nach acht"
+        ],
+        [
+          "8:30",
+          "halb neun"
+        ],
+        [
+          "8:45",
+          "Viertel vor neun"
+        ],
+        [
+          "8:50",
+          "zehn vor neun"
+        ]
+      ],
+      "correct_answer": {
+        "8:15": "Viertel nach acht",
+        "8:30": "halb neun",
+        "8:45": "Viertel vor neun",
+        "8:50": "zehn vor neun"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "nach — o'tdi, vor — qoldi, halb — keyingi soatgacha yarim soat.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l2-e03",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "time",
+      "grammar_topic": "g-time-prepositions",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: Der Kurs beginnt ___ neun Uhr.",
+      "prompt_de": "Der Kurs beginnt ___ neun Uhr.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "um",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Soat bilan — um.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l2-e04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "work",
+      "grammar_topic": "g-time-prepositions",
+      "difficulty": 1,
+      "question": "Wir arbeiten ___ neun ___ fünf.",
+      "prompt_de": "Wir arbeiten ___ neun ___ fünf.",
+      "options": [
+        "von ... bis",
+        "um ... bis",
+        "am ... um"
+      ],
+      "pairs": null,
+      "correct_answer": "von ... bis",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Oraliq: von ... bis.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l2-e05",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "appointments",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang. Azizning qabuli qachon?",
+      "prompt_de": null,
+      "options": [
+        "chorshanba 9:15 da",
+        "payshanba 5:30 da",
+        "payshanba 6:30 da"
+      ],
+      "pairs": null,
+      "correct_answer": "payshanba 5:30 da",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "halb sechs = 5:30; am Donnerstag — payshanba.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Am Donnerstag um halb sechs? — Ja, das ist gut."
+    },
+    {
+      "id": "a1-m06-l2-e06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "work",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Aziz chorshanba kuni nechadan nechagacha ishlaydi?",
+      "prompt_de": null,
+      "options": [
+        "8 dan 5 gacha",
+        "9 dan 5 gacha",
+        "8 dan 6 gacha"
+      ],
+      "pairs": null,
+      "correct_answer": "8 dan 5 gacha",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "von acht bis fünf — sakkizdan beshgacha.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Am Mittwoch arbeite ich von acht bis fünf."
+    },
+    {
+      "id": "a1-m06-l2-e07",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "time",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "\"beginnen\" fe'lini tuslang: Wann ___ der Film?",
+      "prompt_de": "Wann ___ der Film?",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "beginnt",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Film = er → beginnt.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l2-e08",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "time",
+      "grammar_topic": "g-time-prepositions",
+      "difficulty": 1,
+      "question": "Gapdagi xato so'zni toping: \"Ich komme am acht Uhr.\"",
+      "prompt_de": "Ich komme am acht Uhr.",
+      "options": [
+        "Ich",
+        "komme",
+        "am",
+        "acht",
+        "Uhr"
+      ],
+      "pairs": null,
+      "correct_answer": "am",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Soat bilan um: Ich komme um acht Uhr.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l2-e09",
+      "version": 1,
+      "type": "dictation",
+      "skill": "listening",
+      "topic": "time",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang va gapni yozing.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Es ist Viertel nach zehn.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Viertel — ot, katta harf bilan; nach — o'tdi.",
+      "error_type": "spelling",
+      "points": 2,
+      "audio_text": "Es ist Viertel nach zehn."
+    },
+    {
+      "id": "a1-m06-l2-e10",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "appointments",
+      "grammar_topic": "g-time-prepositions",
+      "difficulty": 1,
+      "question": "Nemis tiliga tarjima qiling: \"Qabul soat uchda.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Der Termin ist um drei Uhr.",
+      "accepted_answers": [
+        "Der Termin ist um drei.",
+        "Der Termin ist um 3 Uhr.",
+        "Der Termin ist um 15 Uhr.",
+        "Der Termin ist um fünfzehn Uhr."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "der Termin — qabul/uchrashuv; soat bilan um.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l2-e11",
+      "version": 1,
+      "type": "next_line",
+      "skill": "speaking",
+      "topic": "time",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Dialogni davom ettiring. — Wie spät ist es?",
+      "prompt_de": "Wie spät ist es?",
+      "options": [
+        "Es ist halb vier.",
+        "Ich bin pünktlich.",
+        "Am Montag."
+      ],
+      "pairs": null,
+      "correct_answer": "Es ist halb vier.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Wie spät ist es?\" — soat necha? Javob: Es ist ...",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l2-e12",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "time",
+      "grammar_topic": "g-questions",
+      "difficulty": 1,
+      "question": "So'zlarni tartiblab savol tuzing: \"Kurs qachon boshlanadi?\"",
+      "prompt_de": null,
+      "options": [
+        "Kurs",
+        "der",
+        "beginnt",
+        "Wann"
+      ],
+      "pairs": null,
+      "correct_answer": "Wann beginnt der Kurs?",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Wann + beginnt + der Kurs?",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a1-m06-l2-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "time",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "7:45 kundalik nutqda qanday aytiladi?",
+      "prompt_de": null,
+      "options": [
+        "Viertel vor acht",
+        "Viertel nach sieben",
+        "halb acht"
+      ],
+      "pairs": null,
+      "correct_answer": "Viertel vor acht",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "7:45 — sakkizga chorak qoldi: Viertel vor acht.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l2-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "time",
+      "grammar_topic": "g-time-prepositions",
+      "difficulty": 1,
+      "question": "Bo'sh joyni to'ldiring: Ich komme ___ halb zehn.",
+      "prompt_de": "Ich komme ___ halb zehn.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "um",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Soat bilan um.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l2-t03",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "time",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Soat necha?",
+      "prompt_de": null,
+      "options": [
+        "3:20",
+        "2:40",
+        "3:40"
+      ],
+      "pairs": null,
+      "correct_answer": "3:20",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "zwanzig nach drei — uchdan yigirma o'tdi = 3:20.",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Es ist zwanzig nach drei."
+    },
+    {
+      "id": "a1-m06-l2-t04",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "appointments",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Ich bin immer pünktlich.\"",
+      "prompt_de": "Ich bin immer pünktlich.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Men doim o'z vaqtida kelaman.",
+      "accepted_answers": [
+        "Men doim vaqtida kelaman",
+        "Men har doim o'z vaqtida kelaman",
+        "Men doim kechikmayman",
+        "Men doim aniq vaqtda kelaman"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "pünktlich — o'z vaqtida.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l2-t05",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "appointments",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Qabulingiz 10:00 da, siz 10:20 da keldingiz. Siz ...",
+      "prompt_de": null,
+      "options": [
+        "pünktlich.",
+        "zu spät.",
+        "zu früh."
+      ],
+      "pairs": null,
+      "correct_answer": "zu spät.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Kechikdingiz — zu spät (juda kech).",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l2-t06",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "time",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "\"beginnen\" fe'lini tuslang: Die Kurse ___ am Montag.",
+      "prompt_de": "Die Kurse ___ am Montag.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "beginnen",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Ko'plik (sie) → beginnen.",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l2-t07",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "appointments",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Qabulxona: \"Haben Sie am Dienstag um zehn Zeit?\" Siz faqat 11 da bo'shsiz. Nima deysiz?",
+      "prompt_de": null,
+      "options": [
+        "Um zehn nicht, aber um elf habe ich Zeit.",
+        "Am zehn Uhr, ja.",
+        "Es ist zehn Uhr."
+      ],
+      "pairs": null,
+      "correct_answer": "Um zehn nicht, aber um elf habe ich Zeit.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "um + soat; fe'l ikkinchi o'rinda: aber um elf habe ich Zeit.",
+      "error_type": "preposition",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a1-m06-l2-t08",
+      "version": 1,
+      "type": "article",
+      "skill": "grammar",
+      "topic": "time",
+      "grammar_topic": "g-articles",
+      "difficulty": 1,
+      "question": "To'g'ri artiklni tanlang: ___ Uhr",
+      "prompt_de": "___ Uhr",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "pairs": null,
+      "correct_answer": "die",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "die Uhr.",
+      "error_type": "article",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

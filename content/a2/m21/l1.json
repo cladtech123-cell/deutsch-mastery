@@ -1,0 +1,816 @@
+{
+  "id": "a2-m21-l1",
+  "version": 1,
+  "level": "A2",
+  "module": 21,
+  "order": 1,
+  "title": "Nega nemis tili? weil bilan sabab",
+  "title_de": "Warum Deutsch? Gründe mit weil",
+  "goal": "Dars oxirida nega nemis tilini o'rganayotganingizni va qanday o'rganishingizni \"weil\" va \"deshalb\" bilan tushuntira olasiz; weil-gapda fe'lni oxirga qo'yasiz.",
+  "skill_focus": [
+    "grammar",
+    "speaking",
+    "listening"
+  ],
+  "explanation": [
+    {
+      "type": "p",
+      "text": "Sababni aytishning ikki yo'li bor: \"denn\" va \"weil\". \"denn\" dan keyin oddiy tartib (fe'l 2-o'rinda). \"weil\" dan keyin esa tuslangan fe'l gap OXIRIGA ketadi. O'zbek tilida ham fe'l oxirda turadi: \"... chunki Germaniyada ishlamoqchiman\" — shuning uchun weil-gap sizga aslida tanish!"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Asosiy gap",
+        "Sabab: denn (fe'l 2-o'rinda)",
+        "Sabab: weil (fe'l oxirida)"
+      ],
+      "rows": [
+        [
+          "Ich lerne Deutsch,",
+          "denn ich möchte in Berlin studieren.",
+          "weil ich in Berlin studieren möchte."
+        ],
+        [
+          "Ich wiederhole jeden Tag Vokabeln,",
+          "denn ich habe bald eine Prüfung.",
+          "weil ich bald eine Prüfung habe."
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "\"Warum?\" savoliga ko'pincha faqat weil-gap bilan javob beriladi: Warum lernst du Deutsch? — Weil ich in Deutschland arbeiten will. Natijani esa \"deshalb\" (shuning uchun) bilan aytamiz, undan keyin fe'l darhol keladi: Ich habe bald eine Prüfung. Deshalb lerne ich viel."
+    },
+    {
+      "type": "tip",
+      "text": "weil-gapdan oldin doim vergul qo'yiladi. Ajraladigan fe'l weil-gapda birlashib ketadi: Ich bin müde, weil ich jeden Tag früh aufstehe."
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v-der-wortschatz",
+      "de": "Wortschatz",
+      "uz": "lug'at boyligi (bilgan so'zlar)",
+      "pos": "noun",
+      "article": "der",
+      "plural": "-",
+      "forms": null,
+      "example_de": "Mein Wortschatz wird jeden Tag größer.",
+      "example_uz": "Lug'at boyligim kundan-kun oshyapti.",
+      "topic": "language-learning"
+    },
+    {
+      "id": "v-die-vokabel",
+      "de": "Vokabel",
+      "uz": "o'rganiladigan so'z",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Vokabeln",
+      "forms": null,
+      "example_de": "Ich lerne jeden Tag zehn Vokabeln.",
+      "example_uz": "Har kuni o'nta so'z o'rganaman.",
+      "topic": "language-learning"
+    },
+    {
+      "id": "v-die-aussprache",
+      "de": "Aussprache",
+      "uz": "talaffuz",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Aussprachen",
+      "forms": null,
+      "example_de": "Meine Aussprache ist schon besser.",
+      "example_uz": "Talaffuzim allaqachon yaxshiroq.",
+      "topic": "language-learning"
+    },
+    {
+      "id": "v-die-muttersprache",
+      "de": "Muttersprache",
+      "uz": "ona tili",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Muttersprachen",
+      "forms": null,
+      "example_de": "Meine Muttersprache ist Usbekisch.",
+      "example_uz": "Ona tilim o'zbek tili.",
+      "topic": "language-learning"
+    },
+    {
+      "id": "v-die-fremdsprache",
+      "de": "Fremdsprache",
+      "uz": "chet tili",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Fremdsprachen",
+      "forms": null,
+      "example_de": "Deutsch ist meine zweite Fremdsprache.",
+      "example_uz": "Nemis tili mening ikkinchi chet tilim.",
+      "topic": "language-learning"
+    },
+    {
+      "id": "v-die-grammatik",
+      "de": "Grammatik",
+      "uz": "grammatika",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Grammatiken",
+      "forms": null,
+      "example_de": "Die deutsche Grammatik ist nicht leicht.",
+      "example_uz": "Nemis grammatikasi oson emas.",
+      "topic": "language-learning"
+    },
+    {
+      "id": "v-verbessern",
+      "de": "verbessern",
+      "uz": "yaxshilamoq",
+      "pos": "verb",
+      "article": null,
+      "plural": null,
+      "forms": {
+        "partizip2": "verbessert",
+        "perfekt_aux": "haben",
+        "praesens_3sg": "verbessert"
+      },
+      "example_de": "Ich möchte mein Deutsch verbessern.",
+      "example_uz": "Nemis tilimni yaxshilamoqchiman.",
+      "topic": "language-learning"
+    },
+    {
+      "id": "v-weil",
+      "de": "weil",
+      "uz": "chunki, ... uchun (fe'l oxirga ketadi)",
+      "pos": "conjunction",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Ich lerne Deutsch, weil ich in Deutschland arbeiten möchte.",
+      "example_uz": "Nemis tilini o'rganyapman, chunki Germaniyada ishlamoqchiman.",
+      "topic": "language-learning"
+    },
+    {
+      "id": "v-deshalb",
+      "de": "deshalb",
+      "uz": "shuning uchun",
+      "pos": "adverb",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Ich habe bald eine Prüfung. Deshalb lerne ich viel.",
+      "example_uz": "Yaqinda imtihonim bor. Shuning uchun ko'p o'qiyapman.",
+      "topic": "language-learning"
+    },
+    {
+      "id": "v-der-muttersprachler",
+      "de": "Muttersprachler",
+      "uz": "ona tili sohibi (tug'ma so'zlashuvchi)",
+      "pos": "noun",
+      "article": "der",
+      "plural": "die Muttersprachler",
+      "forms": null,
+      "example_de": "Ich spreche einmal pro Woche mit einem Muttersprachler.",
+      "example_uz": "Haftada bir marta ona tili sohibi bilan gaplashaman.",
+      "topic": "language-learning"
+    },
+    {
+      "id": "v-die-übersetzung",
+      "de": "Übersetzung",
+      "uz": "tarjima",
+      "pos": "noun",
+      "article": "die",
+      "plural": "die Übersetzungen",
+      "forms": null,
+      "example_de": "Ich schreibe die Übersetzung neben das Wort.",
+      "example_uz": "Tarjimani so'zning yoniga yozaman.",
+      "topic": "language-learning"
+    },
+    {
+      "id": "v-auswendig-lernen",
+      "de": "auswendig lernen",
+      "uz": "yod olmoq",
+      "pos": "phrase",
+      "article": null,
+      "plural": null,
+      "forms": null,
+      "example_de": "Ich lerne die Sätze auswendig.",
+      "example_uz": "Gaplarni yod olaman.",
+      "topic": "language-learning"
+    }
+  ],
+  "review_vocabulary": [
+    "v-als",
+    "v-wiederholen",
+    "v-üben"
+  ],
+  "grammar": [
+    {
+      "topic_id": "g-subordinate",
+      "rule": "weil — ergash gap bog'lovchisi. weil-gapda tuslangan fe'l eng oxirida turadi. Modal fe'l yoki Perfekt bo'lsa, tuslangan fe'l (möchte, habe) eng oxirga ketadi: ..., weil ich Deutsch lernen möchte. ..., weil ich viel geübt habe.",
+      "when": "Sabab aytganda va \"Warum?\" savoliga javob berganda.",
+      "structure": "Asosiy gap + , + weil + ega + ... + tuslangan fe'l.",
+      "examples": [
+        {
+          "de": "Ich lerne Deutsch, weil ich in Deutschland arbeiten möchte.",
+          "uz": "Nemis tilini o'rganyapman, chunki Germaniyada ishlamoqchiman."
+        },
+        {
+          "de": "Ich höre jeden Tag Podcasts, weil ich meine Aussprache verbessern will.",
+          "uz": "Har kuni podkast tinglayman, chunki talaffuzimni yaxshilamoqchiman."
+        },
+        {
+          "de": "Sie spricht fließend Deutsch, weil sie fünf Jahre in Wien gelebt hat.",
+          "uz": "U nemischa ravon gapiradi, chunki Venada besh yil yashagan."
+        },
+        {
+          "de": "Warum bist du müde? — Weil ich bis Mitternacht Vokabeln gelernt habe.",
+          "uz": "Nega charchagansan? — Chunki yarim tungacha so'z yodladim."
+        }
+      ],
+      "common_mistakes": [
+        {
+          "wrong": "Ich lerne Deutsch, weil ich möchte in Deutschland arbeiten.",
+          "right": "Ich lerne Deutsch, weil ich in Deutschland arbeiten möchte.",
+          "why": "weil-gapda tuslangan fe'l (möchte) eng oxirga ketadi."
+        },
+        {
+          "wrong": "Ich lerne viel, weil ich habe eine Prüfung.",
+          "right": "Ich lerne viel, weil ich eine Prüfung habe.",
+          "why": "weil dan keyin \"habe\" 2-o'rinda emas, oxirda."
+        },
+        {
+          "wrong": "Ich lerne Deutsch, denn ich in Berlin studieren möchte.",
+          "right": "Ich lerne Deutsch, denn ich möchte in Berlin studieren.",
+          "why": "denn — oddiy tartib, fe'l 2-o'rinda. Fe'lni faqat weil oxirga yuboradi."
+        }
+      ],
+      "check": [
+        "a2-m21-l1-e03",
+        "a2-m21-l1-e04",
+        "a2-m21-l1-e05",
+        "a2-m21-l1-e09"
+      ]
+    }
+  ],
+  "listening": {
+    "title": "Til kursida: nega nemis tili?",
+    "lines": [
+      {
+        "speaker": "Frau Becker",
+        "de": "Warum lernen Sie Deutsch, Herr Tursunov?",
+        "uz": "Nega nemis tilini o'rganyapsiz, Tursunov janoblari?"
+      },
+      {
+        "speaker": "Jasur",
+        "de": "Ich lerne Deutsch, weil ich eine Ausbildung als Krankenpfleger machen möchte.",
+        "uz": "Nemis tilini o'rganyapman, chunki hamshiralik bo'yicha Ausbildung qilmoqchiman."
+      },
+      {
+        "speaker": "Frau Becker",
+        "de": "Sehr gut. Und Sie, Frau Lopez?",
+        "uz": "Juda yaxshi. Siz-chi, Lopes xonim?"
+      },
+      {
+        "speaker": "Maria",
+        "de": "Mein Mann ist Deutscher. Ich lerne Deutsch, weil ich mit seiner Familie sprechen will.",
+        "uz": "Erim nemis. Nemis tilini o'rganyapman, chunki uning oilasi bilan gaplashmoqchiman."
+      },
+      {
+        "speaker": "Frau Becker",
+        "de": "Was ist für Sie am schwierigsten?",
+        "uz": "Siz uchun eng qiyini nima?"
+      },
+      {
+        "speaker": "Maria",
+        "de": "Die Aussprache. Deshalb höre ich jeden Tag Podcasts.",
+        "uz": "Talaffuz. Shuning uchun har kuni podkast tinglayman."
+      },
+      {
+        "speaker": "Jasur",
+        "de": "Für mich ist die Grammatik am schwierigsten. Ich wiederhole sie jeden Abend.",
+        "uz": "Men uchun grammatika eng qiyini. Uni har kech takrorlayman."
+      }
+    ],
+    "questions": [
+      "a2-m21-l1-e06",
+      "a2-m21-l1-e07"
+    ]
+  },
+  "situation": {
+    "title": "Til hamkori bilan suhbat",
+    "context_uz": "Germaniyalik tanishingiz Paul nega va qanday nemis tilini o'rganayotganingizni so'rayapti.",
+    "lines": [
+      {
+        "speaker": "Paul",
+        "de": "Dein Deutsch ist schon sehr gut! Warum lernst du Deutsch?",
+        "uz": "Nemis tiling allaqachon juda yaxshi! Nega nemis tilini o'rganyapsan?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Danke! Ich lerne Deutsch, weil ich in Deutschland studieren möchte.",
+        "uz": "Rahmat! Nemis tilini o'rganyapman, chunki Germaniyada o'qimoqchiman."
+      },
+      {
+        "speaker": "Paul",
+        "de": "Und wie lernst du?",
+        "uz": "Qanday o'rganasan?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Ich lerne jeden Tag zehn neue Vokabeln und wiederhole sie am Abend.",
+        "uz": "Har kuni o'nta yangi so'z o'rganaman va kechqurun takrorlayman."
+      },
+      {
+        "speaker": "Paul",
+        "de": "Sprichst du auch mit Deutschen?",
+        "uz": "Nemislar bilan ham gaplashasanmi?"
+      },
+      {
+        "speaker": "Siz",
+        "de": "Noch nicht so oft, weil ich wenig Zeit habe. Aber ich möchte meine Aussprache verbessern.",
+        "uz": "Hali unchalik ko'p emas, chunki vaqtim kam. Lekin talaffuzimni yaxshilamoqchiman."
+      },
+      {
+        "speaker": "Paul",
+        "de": "Dann sprechen wir doch einmal pro Woche zusammen!",
+        "uz": "Unda haftada bir marta birga gaplashamiz!"
+      }
+    ],
+    "task_uz": "Paulga o'zingiz haqingizda javob bering: nega nemis tilini o'rganyapsiz, qanday o'rganasiz, nima qiyin. Kamida 2 ta weil-gap va 1 ta deshalb ishlating."
+  },
+  "exercises": [
+    {
+      "id": "a2-m21-l1-e01",
+      "version": 1,
+      "type": "match",
+      "skill": "vocabulary",
+      "topic": "language-learning",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Nemischa so'zni o'zbekcha ma'nosi bilan juftlang.",
+      "prompt_de": null,
+      "options": null,
+      "pairs": [
+        [
+          "der Wortschatz",
+          "lug'at boyligi"
+        ],
+        [
+          "die Aussprache",
+          "talaffuz"
+        ],
+        [
+          "die Muttersprache",
+          "ona tili"
+        ],
+        [
+          "die Fremdsprache",
+          "chet tili"
+        ],
+        [
+          "die Vokabel",
+          "o'rganiladigan so'z"
+        ]
+      ],
+      "correct_answer": {
+        "der Wortschatz": "lug'at boyligi",
+        "die Aussprache": "talaffuz",
+        "die Muttersprache": "ona tili",
+        "die Fremdsprache": "chet tili",
+        "die Vokabel": "o'rganiladigan so'z"
+      },
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Wortschatz — lug'at boyligi, Aussprache — talaffuz, Muttersprache — ona tili, Fremdsprache — chet tili, Vokabel — o'rganiladigan so'z.",
+      "error_type": "vocabulary",
+      "points": 2,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m21-l1-e02",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "language-learning",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Mos fe'lni tanlang: \"Ich ___ jeden Morgen die Vokabeln von gestern.\"",
+      "prompt_de": "Ich ___ jeden Morgen die Vokabeln von gestern.",
+      "options": [
+        "wiederhole",
+        "verbessere",
+        "vergleiche"
+      ],
+      "pairs": null,
+      "correct_answer": "wiederhole",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Kechagi so'zlarni qaytadan o'qish — takrorlash: wiederholen. verbessern — yaxshilash, vergleichen — solishtirish.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m21-l1-e03",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "language-learning",
+      "grammar_topic": "g-subordinate",
+      "difficulty": 1,
+      "question": "Gapni yakunlang: \"Ich lerne Deutsch, ...\" (chunki Germaniyada ishlamoqchiman)",
+      "prompt_de": null,
+      "options": [
+        "weil",
+        "in",
+        "arbeiten",
+        "möchte",
+        "Deutschland",
+        "ich"
+      ],
+      "pairs": null,
+      "correct_answer": "weil ich in Deutschland arbeiten möchte",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "weil-gapda: weil + ega + ... + infinitiv + tuslangan fe'l (möchte) eng oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m21-l1-e04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "language-learning",
+      "grammar_topic": "g-subordinate",
+      "difficulty": 2,
+      "question": "To'g'ri variantni tanlang: \"Ich bin müde, weil ich gestern lange ___.\"",
+      "prompt_de": null,
+      "options": [
+        "gelernt habe",
+        "habe gelernt",
+        "lernen habe"
+      ],
+      "pairs": null,
+      "correct_answer": "gelernt habe",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "weil-gapda Perfekt: Partizip II, keyin tuslangan \"habe\" eng oxirda.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m21-l1-e05",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "language-learning",
+      "grammar_topic": "g-subordinate",
+      "difficulty": 1,
+      "question": "Bog'lovchini yozing: \"Ich übe viel, ___ ich bald eine Prüfung habe.\"",
+      "prompt_de": "Ich übe viel, ___ ich bald eine Prüfung habe.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "weil",
+      "accepted_answers": [
+        "da"
+      ],
+      "criteria": null,
+      "hint": "Fe'l qayerda turganiga qarang.",
+      "explanation": "Fe'l (habe) oxirda turibdi — demak ergash gap: weil. \"denn\" bo'lsa: denn ich habe bald eine Prüfung.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m21-l1-e06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "language-learning",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Jasur nima uchun nemis tilini o'rganyapti?",
+      "prompt_de": null,
+      "options": [
+        "Hamshiralik bo'yicha Ausbildung qilmoqchi",
+        "Xotini nemis",
+        "Universitetda o'qimoqchi"
+      ],
+      "pairs": null,
+      "correct_answer": "Hamshiralik bo'yicha Ausbildung qilmoqchi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"weil ich eine Ausbildung als Krankenpfleger machen möchte\".",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Ich lerne Deutsch, weil ich eine Ausbildung als Krankenpfleger machen möchte."
+    },
+    {
+      "id": "a2-m21-l1-e07",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "language-learning",
+      "grammar_topic": null,
+      "difficulty": 2,
+      "question": "Tinglang. Maria uchun nima eng qiyin va u nima qiladi?",
+      "prompt_de": null,
+      "options": [
+        "Talaffuz; har kuni podkast tinglaydi",
+        "Grammatika; har kech takrorlaydi",
+        "So'zlar; ularni yod oladi"
+      ],
+      "pairs": null,
+      "correct_answer": "Talaffuz; har kuni podkast tinglaydi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Die Aussprache. Deshalb höre ich jeden Tag Podcasts.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Was ist für Sie am schwierigsten? — Die Aussprache. Deshalb höre ich jeden Tag Podcasts."
+    },
+    {
+      "id": "a2-m21-l1-e08",
+      "version": 1,
+      "type": "conjugate",
+      "skill": "grammar",
+      "topic": "language-learning",
+      "grammar_topic": "g-praesens",
+      "difficulty": 1,
+      "question": "Fe'lni tuslang (wiederholen): Er ___ die Vokabeln jeden Abend.",
+      "prompt_de": "Er ___ die Vokabeln jeden Abend.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "wiederholt",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": "Bu fe'l ajralmaydi.",
+      "explanation": "wiederholen ajralmaydigan fe'l: er wiederholt (\"holt ... wieder\" emas).",
+      "error_type": "conjugation",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m21-l1-e09",
+      "version": 1,
+      "type": "find_error",
+      "skill": "grammar",
+      "topic": "language-learning",
+      "grammar_topic": "g-subordinate",
+      "difficulty": 1,
+      "question": "Noto'g'ri joyda turgan so'zni toping: \"Ich lerne jeden Tag, weil ich habe bald eine Prüfung.\"",
+      "prompt_de": "Ich lerne jeden Tag, weil ich habe bald eine Prüfung.",
+      "options": [
+        "lerne",
+        "weil",
+        "habe",
+        "bald",
+        "Prüfung"
+      ],
+      "pairs": null,
+      "correct_answer": "habe",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "To'g'risi: \"..., weil ich bald eine Prüfung habe.\" weil-gapda fe'l oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m21-l1-e10",
+      "version": 1,
+      "type": "translate_uz_de",
+      "skill": "writing",
+      "topic": "language-learning",
+      "grammar_topic": "g-subordinate",
+      "difficulty": 3,
+      "question": "Nemis tiliga tarjima qiling: \"Men ko'p mashq qilaman, chunki talaffuzimni yaxshilamoqchiman.\"",
+      "prompt_de": null,
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Ich übe viel, weil ich meine Aussprache verbessern möchte.",
+      "accepted_answers": [
+        "Ich übe viel, weil ich meine Aussprache verbessern will.",
+        "Ich übe viel, denn ich möchte meine Aussprache verbessern.",
+        "Ich übe viel, denn ich will meine Aussprache verbessern."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "weil-gapda: ... verbessern möchte (tuslangan fe'l oxirida). denn bilan ham to'g'ri: denn ich möchte ...",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m21-l1-e11",
+      "version": 1,
+      "type": "situation_choice",
+      "skill": "speaking",
+      "topic": "language-learning",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Kimdir so'rayapti: \"Warum lernst du Deutsch?\" To'g'ri javobni tanlang.",
+      "prompt_de": null,
+      "options": [
+        "Weil ich in Deutschland studieren möchte.",
+        "Weil ich möchte in Deutschland studieren.",
+        "Denn ich in Deutschland studieren möchte."
+      ],
+      "pairs": null,
+      "correct_answer": "Weil ich in Deutschland studieren möchte.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "weil-gapda möchte oxirida. denn-gapda esa fe'l 2-o'rinda bo'lishi kerak edi.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    }
+  ],
+  "final_test": [
+    {
+      "id": "a2-m21-l1-t01",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "language-learning",
+      "grammar_topic": "g-subordinate",
+      "difficulty": 1,
+      "question": "To'g'ri variantni tanlang: \"Sie spricht gut Deutsch, weil sie in Wien ___.\"",
+      "prompt_de": null,
+      "options": [
+        "gewohnt hat",
+        "hat gewohnt",
+        "wohnt hat"
+      ],
+      "pairs": null,
+      "correct_answer": "gewohnt hat",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "weil-gapda: Partizip II + tuslangan fe'l (hat) oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m21-l1-t02",
+      "version": 1,
+      "type": "fill_blank",
+      "skill": "grammar",
+      "topic": "health",
+      "grammar_topic": "g-subordinate",
+      "difficulty": 1,
+      "question": "Bog'lovchini yozing: \"Ich kann heute nicht kommen, ___ ich krank bin.\"",
+      "prompt_de": "Ich kann heute nicht kommen, ___ ich krank bin.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "weil",
+      "accepted_answers": [
+        "da"
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Sabab va fe'l (bin) oxirda — weil.",
+      "error_type": "other",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m21-l1-t03",
+      "version": 1,
+      "type": "order_words",
+      "skill": "grammar",
+      "topic": "time",
+      "grammar_topic": "g-subordinate",
+      "difficulty": 1,
+      "question": "Gapni yakunlang: \"Ich komme nicht, ...\" (chunki vaqtim yo'q)",
+      "prompt_de": null,
+      "options": [
+        "ich",
+        "weil",
+        "keine",
+        "habe",
+        "Zeit"
+      ],
+      "pairs": null,
+      "correct_answer": "weil ich keine Zeit habe",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "weil + ega + ... + fe'l (habe) oxirida.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m21-l1-t04",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "vocabulary",
+      "topic": "language-learning",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "\"Ona tili\" nemischa qanday?",
+      "prompt_de": null,
+      "options": [
+        "die Muttersprache",
+        "die Fremdsprache",
+        "die Aussprache"
+      ],
+      "pairs": null,
+      "correct_answer": "die Muttersprache",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "Mutter — ona, Sprache — til. Fremdsprache — chet tili, Aussprache — talaffuz.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m21-l1-t05",
+      "version": 1,
+      "type": "translate_de_uz",
+      "skill": "vocabulary",
+      "topic": "language-learning",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "O'zbek tiliga tarjima qiling: \"Ich wiederhole jeden Abend die neuen Vokabeln.\"",
+      "prompt_de": "Ich wiederhole jeden Abend die neuen Vokabeln.",
+      "options": null,
+      "pairs": null,
+      "correct_answer": "Men har kech yangi so'zlarni takrorlayman.",
+      "accepted_answers": [
+        "Har kech yangi so'zlarni takrorlayman.",
+        "Men har kuni kechqurun yangi so'zlarni takrorlayman.",
+        "Har kuni kechqurun yangi so'zlarni takrorlayman.",
+        "Men har oqshom yangi so'zlarni takrorlayman."
+      ],
+      "criteria": null,
+      "hint": null,
+      "explanation": "wiederholen — takrorlamoq, jeden Abend — har kech.",
+      "error_type": "vocabulary",
+      "points": 1,
+      "audio_text": null
+    },
+    {
+      "id": "a2-m21-l1-t06",
+      "version": 1,
+      "type": "listen_choice",
+      "skill": "listening",
+      "topic": "language-learning",
+      "grammar_topic": null,
+      "difficulty": 1,
+      "question": "Tinglang. Jasur grammatika bilan nima qiladi?",
+      "prompt_de": null,
+      "options": [
+        "Har kech takrorlaydi",
+        "Podkast tinglaydi",
+        "Hech narsa qilmaydi"
+      ],
+      "pairs": null,
+      "correct_answer": "Har kech takrorlaydi",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "\"Ich wiederhole sie jeden Abend.\"",
+      "error_type": "comprehension",
+      "points": 1,
+      "audio_text": "Für mich ist die Grammatik am schwierigsten. Ich wiederhole sie jeden Abend."
+    },
+    {
+      "id": "a2-m21-l1-t07",
+      "version": 1,
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "topic": "work",
+      "grammar_topic": "g-subordinate",
+      "difficulty": 1,
+      "question": "Qaysi gap to'g'ri?",
+      "prompt_de": null,
+      "options": [
+        "Ich lerne Deutsch, weil ich in Deutschland arbeiten möchte.",
+        "Ich lerne Deutsch, weil ich möchte in Deutschland arbeiten.",
+        "Ich lerne Deutsch, denn ich in Deutschland arbeiten möchte."
+      ],
+      "pairs": null,
+      "correct_answer": "Ich lerne Deutsch, weil ich in Deutschland arbeiten möchte.",
+      "accepted_answers": [],
+      "criteria": null,
+      "hint": null,
+      "explanation": "weil bilan tuslangan fe'l oxirda. denn bilan esa fe'l 2-o'rinda bo'ladi.",
+      "error_type": "word_order",
+      "points": 1,
+      "audio_text": null
+    }
+  ]
+}

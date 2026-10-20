@@ -24,7 +24,8 @@ curl -fsS "http://127.0.0.1:${port}/api/health" >/dev/null || die "ilova 127.0.0
 
 # Ubuntu's nginx reads sites-enabled; the nginx.org package reads conf.d. Use whichever this server includes.
 if grep -rqs "sites-enabled" /etc/nginx/nginx.conf; then
-  conf="/etc/nginx/sites-available/${DOMAIN}"; link="/etc/nginx/sites-enabled/${DOMAIN}"
+  # .conf suffix: some servers include only sites-enabled/*.conf
+  conf="/etc/nginx/sites-available/${DOMAIN}.conf"; link="/etc/nginx/sites-enabled/${DOMAIN}.conf"
 else
   conf="/etc/nginx/conf.d/${DOMAIN}.conf"; link=""
 fi
@@ -63,6 +64,8 @@ if ! nginx -t 2>/tmp/nginx-test.log; then
 fi
 systemctl reload nginx
 sleep 2  # reload is graceful: old workers answer for a moment
+curl -fsS -H "Host: ${DOMAIN}" http://127.0.0.1/api/health >/dev/null \
+  || die "nginx ${DOMAIN} ni ilovaga yo'naltirmayapti. Tekshiring: nginx -T 2>/dev/null | grep -nE 'include|listen|server_name'"
 echo "HTTP tayyor: http://${DOMAIN}"
 
 if [ "$NO_CERT" = 1 ]; then exit 0; fi
